@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Test Cognitif Gratuit",
+    "tagline": "Outils accessibles de dépistage cognitif à titre informatif."
+  },
+  "nav": {
+    "home": "Accueil",
+    "tests": "Tests",
+    "exercises": "Exercices",
+    "resources": "Ressources",
+    "about": "À propos"
+  },
+  "clock": {
+    "statusDrawing": "Dessin en cours.",
+    "statusDone": "Dessin enregistré.",
+    "statusCleared": "Toile effacée.",
+    "statusSaved": "Enregistré en PNG."
+  },
+  "miniCog": {
+    "started": "Mini-Cog lancé. Dessinez l'horloge puis rappelez les mots."
+  }
+}

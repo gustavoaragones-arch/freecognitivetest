@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Recall Memory Test | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="Short-term memory word recall test online with timer and educational score explanation."
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many words should I remember?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This version uses 5 words per round."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I repeat this memory test?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Each round shows a new random set of words."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Word Recall Memory Test</h1>
+      <p>Read, wait, and recall words to check short-term memory.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/tests/digit-span-test.html">Digit Span</a></li>
+          <li><a href="/tests/visual-memory-test.html">Visual Memory</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Intro</h2>
+        <p>This memory recall test shows 5 words. Try recalling as many as possible after a delay.</p>
+      </section>
+      <section aria-label="Ad after intro"><div class="ad-placeholder">Ad Placeholder - Intro</div></section>
+      <section>
+        <h2>Interactive Tool</h2>
+        <div class="button-row">
+          <button id="startWordRecallBtn" class="primary" type="button">Start Word Recall Test</button>
+        </div>
+        <p><strong>Words:</strong> <span id="wordRecallWords" aria-live="polite">Not started</span></p>
+        <p><strong>Timer:</strong> <span id="wordRecallTimer" aria-live="polite">00:00</span></p>
+        <label for="wordRecallInput">Enter recalled words separated by commas</label>
+        <input id="wordRecallInput" type="text" placeholder="apple, river, chair..." />
+        <div class="button-row">
+          <button id="scoreWordRecallBtn" type="button">Score Recall</button>
+        </div>
+        <p id="wordRecallResult" class="result-box" aria-live="polite">
+          Start the test to generate a word list.
+        </p>
+      </section>
+      <section aria-label="Ad after tool"><div class="ad-placeholder">Ad Placeholder - Tool</div></section>
+      <section>
+        <h2>Results Explanation</h2>
+        <p>
+          Score equals the number of correctly recalled words (0-5). Repeating over time can help
+          track memory trends.
+        </p>
+      </section>
+      <section aria-label="Ad after results"><div class="ad-placeholder">Ad Placeholder - Results</div></section>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Is this a medical diagnosis?</summary>
+          <p>No. It is a screening exercise only.</p>
+        </details>
+        <details>
+          <summary>Should I wait before typing answers?</summary>
+          <p>Yes, waiting 60-120 seconds creates delayed recall difficulty.</p>
+        </details>
+      </section>
+      <section>
+        <h2>References</h2>
+        <ul>
+          <li>Delayed recall methods in cognitive screening.</li>
+          <li>Clinical memory assessment guidance.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Related Tests</h2>
+        <ul>
+          <li><a href="/tests/mini-cog-test.html">Mini-Cog Test</a></li>
+          <li><a href="/tests/digit-span-test.html">Digit Span Test</a></li>
+          <li><a href="/tests/visual-memory-test.html">Visual Memory Test</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/word-recall.js" defer></script>
+  </body>
+</html>

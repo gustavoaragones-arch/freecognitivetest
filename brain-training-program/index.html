@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Brain Training Program Generator | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="Generate a personalized 7, 14, or 30-day brain training routine by difficulty and goal using our cognitive exercise library."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/brain-training-program/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Free Cognitive Test" />
+    <meta property="og:title" content="Daily Brain Training Program Generator | Free Cognitive Test" />
+    <meta
+      property="og:description"
+      content="Generate a personalized 7, 14, or 30-day brain training routine by difficulty and goal using our cognitive exercise library."
+    />
+    <meta property="og:url" content="https://freecognitivetest.org/brain-training-program/" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How often should I use the training program?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most users benefit from 10 to 20 minutes of practice, 3 to 5 days per week."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can this replace medical care?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. This generator is educational and not a medical diagnosis or treatment."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Daily Brain Training Program Generator</h1>
+      <p>Create a personalized routine from the exercise library in seconds.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/brain-exercises/">Brain Exercises Library</a></li>
+          <li><a href="/brain-training/">Brain Training Guides</a></li>
+          <li><a href="/tests/mini-cog-test.html">Cognitive Tests</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="container">
+      <section>
+        <h2>Intro</h2>
+        <p>
+          Select difficulty, plan length, and training goal. The tool builds a day-by-day plan with
+          linked exercises and core cognitive tests.
+        </p>
+      </section>
+
+      <section>
+        <h2>Interactive Tool</h2>
+        <form id="programForm" class="plan-controls">
+          <div>
+            <label for="programDifficulty">Difficulty</label>
+            <select id="programDifficulty" required>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div>
+            <label for="programLength">Program Length</label>
+            <select id="programLength" required>
+              <option value="7">7 Days</option>
+              <option value="14">14 Days</option>
+              <option value="30">30 Days</option>
+            </select>
+          </div>
+          <div>
+            <label for="programGoal">Goal</label>
+            <select id="programGoal" required>
+              <option value="memory">Memory</option>
+              <option value="focus">Focus</option>
+              <option value="overall">Overall Brain Health</option>
+            </select>
+          </div>
+          <div class="button-row">
+            <button type="submit" class="primary">Generate Program</button>
+            <button type="button" id="regenerateProgramBtn">Regenerate Program</button>
+            <button type="button" id="printProgramBtn">Print Training Plan</button>
+            <button type="button" id="downloadProgramPdfBtn">Download Plan as PDF</button>
+          </div>
+        </form>
+        <p class="helper-note">
+          PDF export opens the print dialog. Choose <strong>Save as PDF</strong>.
+        </p>
+        <p id="programStatus" class="status-box" aria-live="polite">
+          Generate a plan to get started.
+        </p>
+        <div id="programOutput" class="plan-days" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <h2>Benefits of Brain Training</h2>
+        <p>
+          A structured routine helps consistency and covers multiple domains such as memory, attention,
+          processing speed, executive function, and visual-spatial ability.
+        </p>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Can I repeat the generator every week?</summary>
+          <p>Yes. Regenerating keeps sessions varied and reduces repetition fatigue.</p>
+        </details>
+        <details>
+          <summary>What if a day feels too difficult?</summary>
+          <p>Switch to easy mode or shorten the session and build up gradually.</p>
+        </details>
+      </section>
+
+      <section>
+        <h2>References</h2>
+        <ul>
+          <li>NIH healthy aging and cognitive health resources.</li>
+          <li>Alzheimer's Association brain health recommendations.</li>
+          <li>Mayo Clinic guidance on memory and aging.</li>
+        </ul>
+      </section>
+
+      <section class="related-links">
+        <h2>Related Pages</h2>
+        <ul>
+          <li><a href="/brain-exercises/memory/memory-word-recall.html">Memory Word Recall Exercise</a></li>
+          <li><a href="/tests/digit-span-test.html">Digit Span Test</a></li>
+          <li><a href="/cognitive-health/protect-brain-health.html">Protect Brain Health Guide</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> FreeCognitiveTest.org</p>
+    </footer>
+
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/brain-training-program.js" defer></script>
+  </body>
+</html>

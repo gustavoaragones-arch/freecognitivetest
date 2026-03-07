@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cognitive Health Self-Assessment | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="10-question cognitive health self-assessment with score ranges and educational explanation."
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this self-assessment a diagnosis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is an educational screening questionnaire."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many questions are included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This assessment includes 10 questions."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Cognitive Health Self-Assessment</h1>
+      <p>Answer 10 questions to generate a basic educational risk summary.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/tests/word-recall-test.html">Word Recall</a></li>
+          <li><a href="/tests/reaction-time-test.html">Reaction Time</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section><h2>Intro</h2><p>Rate each item from 0 (never) to 3 (often).</p></section>
+      <section aria-label="Ad after intro"><div class="ad-placeholder">Ad Placeholder - Intro</div></section>
+      <section>
+        <h2>Interactive Tool</h2>
+        <form id="selfAssessmentForm">
+          <label for="q1">1. I forget recent conversations.</label><select id="q1" name="q1"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q2">2. I lose track of appointments.</label><select id="q2" name="q2"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q3">3. I repeat questions in the same day.</label><select id="q3" name="q3"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q4">4. I struggle to find familiar words.</label><select id="q4" name="q4"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q5">5. I feel slower in problem-solving.</label><select id="q5" name="q5"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q6">6. I misplace objects frequently.</label><select id="q6" name="q6"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q7">7. I lose focus during tasks.</label><select id="q7" name="q7"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q8">8. I get confused in familiar places.</label><select id="q8" name="q8"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q9">9. I need more reminders than before.</label><select id="q9" name="q9"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <label for="q10">10. Daily tasks take longer than before.</label><select id="q10" name="q10"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+          <div class="button-row"><button class="primary" type="submit">Calculate Self-Assessment Score</button></div>
+        </form>
+        <p id="selfAssessmentResult" class="result-box" aria-live="polite">Submit the questionnaire to view results.</p>
+      </section>
+      <section aria-label="Ad after tool"><div class="ad-placeholder">Ad Placeholder - Tool</div></section>
+      <section>
+        <h2>Results Explanation</h2>
+        <ul>
+          <li>0-6: lower self-reported concern</li>
+          <li>7-14: moderate self-reported concern</li>
+          <li>15-30: higher self-reported concern, seek clinical advice</li>
+        </ul>
+      </section>
+      <section aria-label="Ad after results"><div class="ad-placeholder">Ad Placeholder - Results</div></section>
+      <section>
+        <h2>FAQ</h2>
+        <details><summary>Should I share this with a doctor?</summary><p>Yes, especially if your score is moderate or higher.</p></details>
+        <details><summary>Can caregivers fill this out?</summary><p>Yes, caregiver observations can be helpful for appointments.</p></details>
+      </section>
+      <section><h2>References</h2><ul><li>Subjective cognitive decline screening resources.</li></ul></section>
+      <section class="related-links">
+        <h2>Related Tests</h2>
+        <ul>
+          <li><a href="/tests/mini-cog-test.html">Mini-Cog Test</a></li>
+          <li><a href="/tests/word-recall-test.html">Word Recall Test</a></li>
+          <li><a href="/tests/reaction-time-test.html">Reaction Time Test</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/self-assessment.js" defer></script>
+  </body>
+</html>

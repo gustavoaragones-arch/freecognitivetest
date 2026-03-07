@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{PAGE_TITLE}}</title>
+    <meta name="description" content="{{META_DESCRIPTION}}" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>{{H1_TITLE}}</h1>
+      <p>{{H1_INTRO}}</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/mini-cog-test.html">Tests</a></li>
+          <li><a href="/exercises/memory-games.html">Exercises</a></li>
+          <li><a href="/resources/printable-cognitive-tests.html">Resources</a></li>
+          <li><a href="/about/about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="container">
+      <section>
+        <h2>Intro</h2>
+        <p>{{INTRO_TEXT}}</p>
+      </section>
+
+      <section>
+        <h2>Tool</h2>
+        {{TOOL_CONTENT}}
+      </section>
+
+      <section>
+        <h2>How Scoring Works</h2>
+        <p>{{SCORING_TEXT}}</p>
+      </section>
+
+      <section aria-label="Ad placeholders">
+        <h2>Sponsored Content Area</h2>
+        <div class="ad-grid">
+          <div class="ad-placeholder">Ad Placeholder 1</div>
+          <div class="ad-placeholder">Ad Placeholder 2</div>
+          <div class="ad-placeholder">Ad Placeholder 3</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        {{FAQ_CONTENT}}
+      </section>
+
+      <section>
+        <h2>References</h2>
+        {{REFERENCES_CONTENT}}
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> FreeCognitiveTest.org</p>
+    </footer>
+
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+  </body>
+</html>

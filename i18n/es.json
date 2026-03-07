@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Prueba Cognitiva Gratis",
+    "tagline": "Herramientas accesibles de tamizaje cognitivo solo con fines informativos."
+  },
+  "nav": {
+    "home": "Inicio",
+    "tests": "Pruebas",
+    "exercises": "Ejercicios",
+    "resources": "Recursos",
+    "about": "Acerca de"
+  },
+  "clock": {
+    "statusDrawing": "Dibujo en progreso.",
+    "statusDone": "Dibujo guardado.",
+    "statusCleared": "Lienzo limpiado.",
+    "statusSaved": "Guardado como PNG."
+  },
+  "miniCog": {
+    "started": "Mini-Cog iniciado. Dibuje el reloj y luego recuerde palabras."
+  }
+}

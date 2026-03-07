@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Cog Test Online | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="Mini-Cog test online with 3-word recall, timer, clock drawing, and educational scoring explanation."
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Mini-Cog a diagnosis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Mini-Cog is a screening tool and should be interpreted by a clinician."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does Mini-Cog include clock drawing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clock drawing helps screen executive function and visuospatial ability."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Mini-Cog Test</h1>
+      <p>Mini-Cog screening flow: 3 words, timer, clock drawing, then recall.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/clock-drawing-test.html">Clock Drawing</a></li>
+          <li><a href="/tests/word-recall-test.html">Word Recall</a></li>
+          <li><a href="/tests/cognitive-health-self-assessment.html">Self-Assessment</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Intro</h2>
+        <p>
+          Follow the full Mini-Cog sequence. This page is educational and helps prepare for formal
+          cognitive evaluation.
+        </p>
+      </section>
+
+      <section aria-label="Ad after intro">
+        <div class="ad-placeholder">Ad Placeholder - Intro</div>
+      </section>
+
+      <section>
+        <h2>Interactive Tool</h2>
+        <div class="button-row">
+          <button id="startMiniCogBtn" class="primary" type="button">Start Mini-Cog</button>
+        </div>
+        <p><strong>Words:</strong> <span id="miniCogWords" aria-live="polite">Not started</span></p>
+        <p><strong>Timer:</strong> <span id="miniCogTimer" aria-live="polite">00:00</span></p>
+        <div id="miniCogApp" hidden>
+          <div class="clock-wrap">
+            <label for="clockCanvas">Draw a clock set to 11:10</label>
+            <canvas id="clockCanvas" width="600" height="600" aria-label="Clock drawing canvas"></canvas>
+            <p id="clockStatus" class="status-box" aria-live="polite">Ready to draw.</p>
+            <div class="button-row">
+              <button id="clearClockBtn" class="warning" type="button">Clear Canvas</button>
+              <button id="saveClockBtn" class="success" type="button">Save Drawing</button>
+              <button id="printClockBtn" type="button">Print Result</button>
+            </div>
+          </div>
+          <div id="clockChecklist">
+            <h3>Clock Checklist (0-2 points)</h3>
+            <label><input type="checkbox" /> Circle is complete</label>
+            <label><input type="checkbox" /> Numbers mostly correct</label>
+          </div>
+          <label for="recallWords">Type recalled words (comma separated)</label>
+          <input id="recallWords" type="text" placeholder="apple, chair, river" />
+          <div class="button-row">
+            <button id="scoreMiniCogBtn" class="primary" type="button">Score Mini-Cog</button>
+          </div>
+          <p><strong>Recall Points:</strong> <span id="recallPoints">0</span>/3</p>
+          <p><strong>Clock Points:</strong> <span id="clockPoints">0</span>/2</p>
+          <p id="miniCogResult" class="result-box" aria-live="polite">
+            Start the test to generate a result.
+          </p>
+        </div>
+      </section>
+
+      <section aria-label="Ad after tool">
+        <div class="ad-placeholder">Ad Placeholder - Tool</div>
+      </section>
+
+      <section>
+        <h2>Results Explanation</h2>
+        <ul>
+          <li>Recall score: 0 to 3 points from recalled words.</li>
+          <li>Clock score: 0 to 2 points from quick checklist.</li>
+          <li>Total: 0 to 5. Lower scores suggest professional follow-up.</li>
+        </ul>
+      </section>
+
+      <section aria-label="Ad after results">
+        <div class="ad-placeholder">Ad Placeholder - Results</div>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Can this diagnose dementia?</summary>
+          <p>No. It is a screening aid only.</p>
+        </details>
+        <details>
+          <summary>Can I use this tool on mobile?</summary>
+          <p>Yes. Canvas and controls support touch and keyboard navigation.</p>
+        </details>
+      </section>
+
+      <section>
+        <h2>References</h2>
+        <ul>
+          <li>Borson S. Mini-Cog screening literature.</li>
+          <li>Alzheimer's Association cognitive screening guidance.</li>
+        </ul>
+      </section>
+
+      <section class="related-links">
+        <h2>Related Tests</h2>
+        <ul>
+          <li><a href="/tests/clock-drawing-test.html">Clock Drawing Test</a></li>
+          <li><a href="/tests/word-recall-test.html">Word Recall Test</a></li>
+          <li><a href="/tests/digit-span-test.html">Digit Span Test</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> FreeCognitiveTest.org</p>
+    </footer>
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/clock-drawing.js" defer></script>
+    <script src="/assets/js/mini-cog.js" defer></script>
+  </body>
+</html>

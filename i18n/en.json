@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Free Cognitive Test",
+    "tagline": "Accessible cognitive screening tools for informational use."
+  },
+  "nav": {
+    "home": "Home",
+    "tests": "Tests",
+    "exercises": "Exercises",
+    "resources": "Resources",
+    "about": "About"
+  },
+  "clock": {
+    "statusDrawing": "Drawing in progress.",
+    "statusDone": "Drawing captured.",
+    "statusCleared": "Canvas cleared.",
+    "statusSaved": "Saved as PNG."
+  },
+  "miniCog": {
+    "started": "Mini-Cog started. Draw the clock, then recall words."
+  }
+}

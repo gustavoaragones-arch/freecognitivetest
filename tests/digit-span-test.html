@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digit Span Test Online | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="Digit span working memory test with forward and backward mode, increasing difficulty, and score guidance."
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does digit span measure?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Digit span screens attention and working memory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is backward digit span?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Backward mode asks users to repeat the sequence in reverse order."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Digit Span Test</h1>
+      <p>Repeat number sequences with increasing difficulty.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/word-recall-test.html">Word Recall</a></li>
+          <li><a href="/tests/attention-span-test.html">Attention Span</a></li>
+          <li><a href="/tests/trail-making-test.html">Trail Making</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Intro</h2>
+        <p>Use forward and backward digit span to practice working memory and focus.</p>
+      </section>
+      <section aria-label="Ad after intro"><div class="ad-placeholder">Ad Placeholder - Intro</div></section>
+      <section>
+        <h2>Interactive Tool</h2>
+        <label for="digitSpanMode">Mode</label>
+        <select id="digitSpanMode">
+          <option value="forward">Forward</option>
+          <option value="backward">Backward</option>
+        </select>
+        <div class="button-row">
+          <button id="startDigitSpanBtn" class="primary" type="button">Start Digit Span</button>
+        </div>
+        <p><strong>Level:</strong> <span id="digitSpanLevel">3</span></p>
+        <p><strong>Sequence:</strong> <span id="digitSpanSequence" aria-live="polite">Press start</span></p>
+        <label for="digitSpanInput">Type digits (no spaces)</label>
+        <input id="digitSpanInput" type="text" inputmode="numeric" placeholder="e.g. 73912" />
+        <div class="button-row">
+          <button id="checkDigitSpanBtn" type="button">Check Answer</button>
+        </div>
+        <p id="digitSpanResult" class="result-box" aria-live="polite">Start a round to begin.</p>
+      </section>
+      <section aria-label="Ad after tool"><div class="ad-placeholder">Ad Placeholder - Tool</div></section>
+      <section>
+        <h2>Results Explanation</h2>
+        <p>
+          Your best successful span reflects short-term working memory performance. Backward mode is
+          usually more difficult.
+        </p>
+      </section>
+      <section aria-label="Ad after results"><div class="ad-placeholder">Ad Placeholder - Results</div></section>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Can children use digit span?</summary>
+          <p>Yes, but interpretation should be age-aware and supervised.</p>
+        </details>
+        <details>
+          <summary>How many attempts should I do?</summary>
+          <p>2-3 sessions are usually enough for a quick screen.</p>
+        </details>
+      </section>
+      <section>
+        <h2>References</h2>
+        <ul>
+          <li>Working memory test methods in neuropsychology.</li>
+          <li>Attention and executive function screening guidance.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Related Tests</h2>
+        <ul>
+          <li><a href="/tests/word-recall-test.html">Word Recall Test</a></li>
+          <li><a href="/tests/attention-span-test.html">Attention Span Test</a></li>
+          <li><a href="/tests/trail-making-test.html">Trail Making Test</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/digit-span.js" defer></script>
+  </body>
+</html>

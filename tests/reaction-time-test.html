@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reaction Time Test | Free Cognitive Test</title>
+    <meta
+      name="description"
+      content="Reaction time test online. Click when color changes to measure response speed in milliseconds."
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is measured in this reaction test?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It measures time in milliseconds between color change and click."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use touch input?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, taps and clicks both work."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header>
+      <h1>Reaction Time Test</h1>
+      <p>Click or tap as soon as the color turns green.</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/tests/attention-span-test.html">Attention Span</a></li>
+          <li><a href="/tests/trail-making-test.html">Trail Making</a></li>
+          <li><a href="/tests/pattern-recognition-test.html">Pattern Recognition</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section><h2>Intro</h2><p>Test brain speed by reacting quickly to a color change.</p></section>
+      <section aria-label="Ad after intro"><div class="ad-placeholder">Ad Placeholder - Intro</div></section>
+      <section>
+        <h2>Interactive Tool</h2>
+        <div class="button-row"><button id="startReactionBtn" class="primary" type="button">Start Reaction Test</button></div>
+        <button id="reactionTarget" type="button" class="target-zone reaction-wait">Wait for green...</button>
+        <p id="reactionResult" class="result-box" aria-live="polite">Press start to begin.</p>
+      </section>
+      <section aria-label="Ad after tool"><div class="ad-placeholder">Ad Placeholder - Tool</div></section>
+      <section>
+        <h2>Results Explanation</h2>
+        <p>
+          Result is shown in milliseconds. Lower numbers indicate faster visual-motor reaction time in
+          this task.
+        </p>
+      </section>
+      <section aria-label="Ad after results"><div class="ad-placeholder">Ad Placeholder - Results</div></section>
+      <section>
+        <h2>FAQ</h2>
+        <details><summary>What is a good reaction time?</summary><p>Many healthy adults fall around 200-300 ms.</p></details>
+        <details><summary>Why did I get "too early"?</summary><p>You clicked before the target turned green.</p></details>
+      </section>
+      <section><h2>References</h2><ul><li>Reaction time and cognitive processing speed resources.</li></ul></section>
+      <section class="related-links">
+        <h2>Related Tests</h2>
+        <ul>
+          <li><a href="/tests/attention-span-test.html">Attention Span Test</a></li>
+          <li><a href="/tests/trail-making-test.html">Trail Making Test</a></li>
+          <li><a href="/tests/pattern-recognition-test.html">Pattern Recognition Test</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script src="/assets/js/i18n.js" defer></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/reaction-time.js" defer></script>
+  </body>
+</html>
