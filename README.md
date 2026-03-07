@@ -44,6 +44,7 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
   about/
     medical-disclaimer.html
     about.html
+    albor-digital-llc.html
   i18n/
     en.json
     es.json
@@ -56,6 +57,10 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
     index.html
   templates/
     base-page-template.html
+  scripts/
+    insert-schema-jsonld.mjs
+    refresh-sitemap.mjs
+    schema-update.mjs
 ```
 
 ## Core Features Implemented (Phase 2)
@@ -122,7 +127,10 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
 - Added reusable interaction engine at `assets/js/exercise-generic.js` (about 7 KB).
 - Added missing cognitive health guides to reach expanded guide coverage.
 - Added missing printable resource pages to expand printable cluster coverage.
-- Added sitemap refresh utility: `refresh-sitemap.mjs`.
+- Added sitemap refresh utility: `scripts/refresh-sitemap.mjs`.
+- Added schema utilities:
+  - `scripts/insert-schema-jsonld.mjs`
+  - `scripts/schema-update.mjs`
 - Regenerated `sitemap.xml` to include all current HTML routes.
 
 ## Performance Notes

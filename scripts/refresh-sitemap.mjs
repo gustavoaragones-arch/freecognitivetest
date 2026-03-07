@@ -1,3 +1,10 @@
+/**
+ * Sitemap Refresh Utility
+ *
+ * Rebuilds sitemap.xml from all published HTML pages.
+ * Skips build/support directories and template-only files.
+ */
+
 import { readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
@@ -11,7 +18,14 @@ async function walk(dir) {
   for (const entry of entries) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      if (entry.name === "templates" || entry.name === "assets" || entry.name === "i18n") continue;
+      if (
+        entry.name === "templates" ||
+        entry.name === "assets" ||
+        entry.name === "i18n" ||
+        entry.name === "scripts"
+      ) {
+        continue;
+      }
       out.push(...(await walk(full)));
     } else if (entry.isFile() && entry.name.endsWith(".html")) {
       out.push(full);
