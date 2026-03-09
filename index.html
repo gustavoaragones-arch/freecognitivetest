@@ -43,9 +43,7 @@
         </ul>
       </nav>
       <div class="language-switch" aria-label="Language switcher">
-        <a data-lang-link="en" href="/en/">English</a>
-        <a data-lang-link="es" href="/es/">Espanol</a>
-        <a data-lang-link="fr" href="/fr/">Francais</a>
+        <a data-lang-link="en" href="/en/">EN</a> | <a data-lang-link="es" href="/es/">ES</a> | <a data-lang-link="fr" href="/fr/">FR</a>
       </div>
     </header>
     <main id="main" class="container">
@@ -78,6 +76,12 @@
         </article>
       </section>
 
+      <section aria-labelledby="daily-exercise-heading">
+        <h2 id="daily-exercise-heading">Daily Brain Exercise</h2>
+        <p>Try one exercise from our library each day. Today: <span id="daily-brain-exercise" aria-live="polite">…</span></p>
+        <p><a href="/brain-exercises/all-exercises.html">View all 100 exercises</a> · <a href="/brain-training-program/">Generate a daily program</a></p>
+      </section>
+
       <section>
         <h2>SEO Expansion Hubs</h2>
         <div class="grid two">
@@ -99,7 +103,11 @@
         </div>
       </section>
     </main>
-    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <footer>
+      <p>&copy; <span id="year"></span> FreeCognitiveTest.org · Owned and operated by <a href="https://albor.digital">Albor Digital LLC</a></p>
+      <p><a href="/sitemap-exercises.html">Exercises</a> · <a href="/sitemap-guides.html">Guides</a> · <a href="/sitemap-tools.html">Tools</a></p>
+    </footer>
+    <script src="/assets/js/daily-exercise.js" defer></script>
     <script src="/assets/js/i18n.js" defer></script>
     <script src="/assets/js/common.js" defer></script>
   </body>

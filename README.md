@@ -61,6 +61,17 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
     insert-schema-jsonld.mjs
     refresh-sitemap.mjs
     schema-update.mjs
+    exercise-list.mjs
+    inject-exercise-nav.mjs
+  brain-exercises/
+    all-exercises.html
+    memory/ ... attention/ ... processing-speed/ ... executive-function/ ... visual-spatial/
+  sitemap-en.xml
+  sitemap-es.xml
+  sitemap-fr.xml
+  sitemap-exercises.html
+  sitemap-guides.html
+  sitemap-tools.html
 ```
 
 ## Core Features Implemented (Phase 2)
@@ -132,6 +143,21 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
   - `scripts/insert-schema-jsonld.mjs`
   - `scripts/schema-update.mjs`
 - Regenerated `sitemap.xml` to include all current HTML routes.
+
+## Multilingual & Indexing (Phase 6)
+
+- **Language selector**: Homepage and key pages use `EN | ES | FR` in the header linking to `/en/`, `/es/`, `/fr/`. No auto-redirect by browser language.
+- **Central exercise hub**: `/brain-exercises/all-exercises.html` lists all 100 exercises by category for crawl efficiency.
+- **HTML sitemaps**: `/sitemap-exercises.html`, `/sitemap-guides.html`, `/sitemap-tools.html` for internal linking and discovery.
+- **Daily brain exercise**: Homepage section shows one exercise per day (day-seeded) with link to the exercise page.
+- **Exercise page navigation**: Each of the 100 exercise pages now includes:
+  - Link to category hub
+  - Link to All 100 exercises
+  - Link to Daily Brain Training Program Generator
+  - Previous / Next exercise within the same category
+- **Multilingual sitemaps**: `sitemap.xml` is a sitemap index pointing to `sitemap-en.xml` (all English pages), `sitemap-es.xml`, `sitemap-fr.xml`. `scripts/refresh-sitemap.mjs` writes to `sitemap-en.xml`.
+- **hreflang**: Root and `/en/`, `/es/`, `/fr/` homepages include `hreflang` and `x-default`. Full replication of the site under `/en/`, `/es/`, `/fr/` with translated content and translated URL slugs (e.g. `/es/ejercicios-cerebrales/`) is planned for a later phase; then every page will get hreflang to its language equivalents.
+- **Scripts**: `scripts/exercise-list.mjs` defines ordered exercise lists; `scripts/inject-exercise-nav.mjs` injects nav blocks into exercise pages (run once after adding new exercises).
 
 ## Performance Notes
 
