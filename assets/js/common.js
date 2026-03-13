@@ -27,5 +27,21 @@
     footer.appendChild(expanded);
   }
 
+  function appendRelatedResourcesFooter() {
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+    if (footer.querySelector("[data-related-resources]")) return;
+
+    const wrap = document.createElement("div");
+    wrap.setAttribute("data-related-resources", "true");
+    wrap.className = "helper-note";
+    wrap.innerHTML =
+      "<strong>Related Cognitive Health Resources</strong><br>" +
+      '<a href="https://memorytestonline.org" rel="noopener noreferrer" target="_blank">Memory tests</a> — ' +
+      '<a href="https://brainexercisesforseniors.com" rel="noopener noreferrer" target="_blank">Brain exercises for seniors</a>';
+    footer.appendChild(wrap);
+  }
+
   appendOwnershipFooter();
+  appendRelatedResourcesFooter();
 })();

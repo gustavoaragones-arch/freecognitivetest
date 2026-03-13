@@ -52,7 +52,11 @@ function buildOrganizationSchema() {
       name: "United States"
     },
     areaServed: "Worldwide",
-    sameAs: ["https://albor.digital"]
+    sameAs: [
+      "https://albor.digital",
+      "https://memorytestonline.org",
+      "https://brainexercisesforseniors.com"
+    ]
   };
 }
 
@@ -84,26 +88,31 @@ function extractLang(html) {
 function upsertSchemas(html, url) {
   const title = extractTitle(html);
   const lang = extractLang(html);
+  const orgSchemaJson = JSON.stringify(buildOrganizationSchema());
+  const orgScript =
+    `<script type="application/ld+json" id="org-schema-static">${orgSchemaJson}</script>`;
 
-  // Safe guard logic:
-  // if schema already exists OR ownership marker exists in static head, skip.
-  if (
-    html.includes('id="org-schema-static"') ||
-    html.includes('id="publisher-schema-static"') ||
-    html.includes("Albor Digital LLC")
-  ) {
+  // If org schema exists, ensure it has current sameAs (domain network).
+  if (html.includes('id="org-schema-static"')) {
+    html = html.replace(
+      /<script type="application\/ld\+json" id="org-schema-static">[\s\S]*?<\/script>/,
+      orgScript
+    );
+  }
+
+  // If no publisher schema, inject both org and publisher before </head>.
+  if (!html.includes('id="publisher-schema-static"') && html.includes("</head>")) {
+    const publisherScript =
+      `<script type="application/ld+json" id="publisher-schema-static">` +
+      `${JSON.stringify(buildPublisherSchema(url, title, lang))}</script>`;
+    if (!html.includes('id="org-schema-static"'))
+      html = html.replace("</head>", `    ${orgScript}\n    ${publisherScript}\n  </head>`);
+    else
+      html = html.replace("</head>", `    ${publisherScript}\n  </head>`);
     return html;
   }
 
-  const orgScript =
-    `<script type="application/ld+json" id="org-schema-static">` +
-    `${JSON.stringify(buildOrganizationSchema())}</script>`;
-  const publisherScript =
-    `<script type="application/ld+json" id="publisher-schema-static">` +
-    `${JSON.stringify(buildPublisherSchema(url, title, lang))}</script>`;
-
-  if (!html.includes("</head>")) return html;
-  return html.replace("</head>", `    ${orgScript}\n    ${publisherScript}\n  </head>`);
+  return html;
 }
 
 async function main() {
