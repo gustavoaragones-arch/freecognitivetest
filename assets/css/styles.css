@@ -73,6 +73,26 @@ header {
   padding: var(--space-3) 0;
 }
 
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-buttons a,
+.nav-buttons .btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  background: #fff;
+  color: var(--text);
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -82,7 +102,7 @@ nav ul {
   margin: var(--space-2) 0 0 0;
 }
 
-nav a {
+nav ul a {
   display: inline-block;
   text-decoration: none;
   border: 2px solid var(--border);
@@ -92,15 +112,63 @@ nav a {
 }
 
 .language-switch {
-  margin-top: var(--space-2);
+  margin-top: 10px;
+  font-size: 16px;
   display: flex;
   gap: var(--space-1);
 }
 
 .container {
+  max-width: 900px;
+  margin: 0 auto var(--space-5);
+  padding: 20px;
   display: grid;
   gap: var(--space-4);
-  margin-bottom: var(--space-5);
+}
+
+.hero-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero-tools .cta {
+  min-height: 44px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: #fff;
+  color: var(--text);
+}
+
+.tests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.test-card {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d1d5db;
+  background: #fff;
+}
+
+.test-card h3 {
+  margin-top: 0;
+}
+
+.test-card h3 a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.test-card h3 a:hover {
+  text-decoration: underline;
 }
 
 section {
