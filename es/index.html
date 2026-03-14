@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prueba Cognitiva Gratis (ES)</title>
-    <meta name="description" content="Inicio en Espanol para FreeCognitiveTest.org." />
+    <meta name="description" content="Inicio en español para FreeCognitiveTest.org." />
     <link rel="canonical" href="https://freecognitivetest.org/es/" />
     <link rel="alternate" hreflang="en" href="https://freecognitivetest.org/en/" />
     <link rel="alternate" hreflang="es" href="https://freecognitivetest.org/es/" />
@@ -18,41 +18,60 @@
     <script type="application/ld+json" id="publisher-schema-static">{"@context":"https://schema.org","@type":"WebPage","name":"Prueba Cognitiva Gratis (ES)","inLanguage":"es","url":"https://freecognitivetest.org/es/","publisher":{"@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}}</script>
   </head>
   <body>
-    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    <a href="#main" class="skip-link" data-i18n="skipLink"></a>
     <header>
-      <h1 data-i18n="site.name">Prueba Cognitiva Gratis</h1>
-      <p data-i18n="site.tagline">Herramientas accesibles de tamizaje cognitivo.</p>
-      <nav aria-label="Principal">
+      <h1 data-i18n="site.name"></h1>
+      <p data-i18n="site.tagline"></p>
+      <nav data-i18n-aria-label="nav.ariaLabel" aria-label="Principal">
         <ul>
-          <li><a href="/tests/mini-cog-test.html" data-i18n="nav.tests">Pruebas</a></li>
-          <li><a href="/exercises/memory-games.html" data-i18n="nav.exercises">Ejercicios</a></li>
-          <li><a href="/resources/printable-cognitive-tests.html" data-i18n="nav.resources">Recursos</a></li>
-          <li><a href="/about/about.html" data-i18n="nav.about">Acerca de</a></li>
+          <li><a href="/es/" data-i18n="nav.home"></a></li>
+          <li><a href="/tests/mini-cog-test.html" data-i18n="nav.tests"></a></li>
+          <li><a href="/exercises/memory-games.html" data-i18n="nav.exercises"></a></li>
+          <li><a href="/resources/printable-cognitive-tests.html" data-i18n="nav.resources"></a></li>
+          <li><a href="/about/about.html" data-i18n="nav.about"></a></li>
         </ul>
       </nav>
-      <div class="language-switch" aria-label="Selector de idioma">
-        <a data-lang-link="en" href="/en/">English</a>
-        <a data-lang-link="es" href="/es/">Espanol</a>
-        <a data-lang-link="fr" href="/fr/">Francais</a>
+      <div class="language-switch" data-i18n-aria-label="langSwitch.ariaLabel" aria-label="Selector de idioma">
+        <a data-lang-link="en" href="/en/" data-i18n="langSwitch.en"></a>
+        <a data-lang-link="es" href="/es/" data-i18n="langSwitch.es"></a>
+        <a data-lang-link="fr" href="/fr/" data-i18n="langSwitch.fr"></a>
       </div>
     </header>
     <main id="main" class="container">
-      <section><h2>Intro</h2><p>Esta ruta de idioma esta lista para ampliar traducciones.</p></section>
-      <section><h2>Tool</h2><a class="button primary" href="/tests/mini-cog-test.html">Abrir Mini-Cog</a></section>
-      <section><h2>How Scoring Works</h2><p>Consulte cada prueba para detalles.</p></section>
-      <section aria-label="Ad placeholders">
-        <h2>Sponsored Content Area</h2>
+      <section>
+        <h2 data-i18n="intro.heading"></h2>
+        <p data-i18n="intro.text"></p>
+      </section>
+      <section>
+        <h2 data-i18n="tool.heading"></h2>
+        <a class="button primary" href="/tests/mini-cog-test.html" data-i18n="tool.openMiniCog"></a>
+      </section>
+      <section>
+        <h2 data-i18n="howScoringWorks.heading"></h2>
+        <p data-i18n="howScoringWorks.text"></p>
+      </section>
+      <section data-i18n-aria-label="sponsoredContent.ariaLabel" aria-label="Espacios publicitarios">
+        <h2 data-i18n="sponsoredContent.heading"></h2>
         <div class="ad-grid">
-          <div class="ad-placeholder">Ad Placeholder 1</div>
-          <div class="ad-placeholder">Ad Placeholder 2</div>
-          <div class="ad-placeholder">Ad Placeholder 3</div>
+          <div class="ad-placeholder" data-i18n="adPlaceholder1"></div>
+          <div class="ad-placeholder" data-i18n="adPlaceholder2"></div>
+          <div class="ad-placeholder" data-i18n="adPlaceholder3"></div>
         </div>
       </section>
-      <section><h2>FAQ</h2><details><summary>Traduccion completa?</summary><p>Se usan archivos JSON para traducciones.</p></details></section>
-      <section><h2>References</h2><ul><li>Buenas practicas de localizacion.</li></ul></section>
+      <section>
+        <h2 data-i18n="faq.heading"></h2>
+        <details>
+          <summary data-i18n="faq.summary"></summary>
+          <p data-i18n="faq.text"></p>
+        </details>
+      </section>
+      <section>
+        <h2 data-i18n="references.heading"></h2>
+        <ul><li data-i18n="references.item1"></li></ul>
+      </section>
     </main>
     <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
-    <script src="/assets/js/i18n.js" defer></script>
+    <script type="module" src="/assets/js/i18n.js"></script>
     <script src="/assets/js/common.js" defer></script>
   </body>
 </html>
