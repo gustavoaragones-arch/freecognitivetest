@@ -1,5 +1,6 @@
 /**
- * Single source of truth for all UI text. No English fallback on ES/FR.
+ * Single source of truth for all UI text.
+ * Missing keys in ES/FR fall back to EN at runtime so content never renders empty.
  * @type {{ en: Record<string, unknown>, es: Record<string, unknown>, fr: Record<string, unknown> }}
  */
 export const translations = {
