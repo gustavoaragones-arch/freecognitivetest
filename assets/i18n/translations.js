@@ -37,8 +37,8 @@ export const translations = {
       text: "See each test page for details.",
     },
     sponsoredContent: {
-      heading: "Sponsored Content Area",
-      ariaLabel: "Ad placeholders",
+      heading: "Sponsored",
+      ariaLabel: "Sponsored content",
     },
     adPlaceholder1: "Ad Placeholder 1",
     adPlaceholder2: "Ad Placeholder 2",
@@ -104,8 +104,8 @@ export const translations = {
       text: "Consulte cada prueba para más detalles.",
     },
     sponsoredContent: {
-      heading: "Contenido patrocinado",
-      ariaLabel: "Espacios publicitarios",
+      heading: "Patrocinado",
+      ariaLabel: "Contenido patrocinado",
     },
     adPlaceholder1: "Espacio publicitario 1",
     adPlaceholder2: "Espacio publicitario 2",
@@ -171,8 +171,8 @@ export const translations = {
       text: "Voir chaque test pour les détails.",
     },
     sponsoredContent: {
-      heading: "Contenu sponsorisé",
-      ariaLabel: "Emplacements publicitaires",
+      heading: "Sponsorisé",
+      ariaLabel: "Contenu sponsorisé",
     },
     adPlaceholder1: "Emplacement publicitaire 1",
     adPlaceholder2: "Emplacement publicitaire 2",

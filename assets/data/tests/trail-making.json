@@ -1,0 +1,35 @@
+{
+  "en": {
+    "startCta": "Start Trail Test",
+    "resetCta": "Reset",
+    "timerLabel": "Timer:",
+    "nextLabel": "Next number:",
+    "initialResult": "Start to begin.",
+    "startMessage": "Connect numbers in order as quickly as possible.",
+    "incorrect": "Incorrect selection. Click {next}.",
+    "doneTarget": "Done",
+    "completed": "Completed in {time}. Lower time usually indicates better processing speed."
+  },
+  "es": {
+    "startCta": "Iniciar prueba de trazado",
+    "resetCta": "Reiniciar",
+    "timerLabel": "Temporizador:",
+    "nextLabel": "Siguiente número:",
+    "initialResult": "Pulse iniciar para comenzar.",
+    "startMessage": "Conecte los números en orden lo más rápido posible.",
+    "incorrect": "Selección incorrecta. Pulse {next}.",
+    "doneTarget": "Listo",
+    "completed": "Completado en {time}. Un tiempo menor suele indicar mejor velocidad de procesamiento."
+  },
+  "fr": {
+    "startCta": "Démarrer le test de tracé",
+    "resetCta": "Réinitialiser",
+    "timerLabel": "Minuteur :",
+    "nextLabel": "Nombre suivant :",
+    "initialResult": "Démarrez pour commencer.",
+    "startMessage": "Reliez les nombres dans l’ordre le plus vite possible.",
+    "incorrect": "Mauvais choix. Cliquez sur {next}.",
+    "doneTarget": "Terminé",
+    "completed": "Terminé en {time}. Un temps plus court indique en général une meilleure vitesse de traitement."
+  }
+}

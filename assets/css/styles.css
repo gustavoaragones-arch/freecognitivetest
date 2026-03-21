@@ -391,15 +391,18 @@ nav ul a.active {
   box-shadow: 0 2px 8px rgba(30,77,140,.3);
 }
 
-/* Language switch */
-.language-switch {
+/* Language switch (Phase 7: .lang-switch mirrors .language-switch) */
+.language-switch,
+.lang-switch {
   margin-top: var(--sp-1);
   font-size: var(--text-sm);
   display: flex;
   gap: var(--sp-1);
   flex-wrap: wrap;
+  align-items: center;
 }
-.language-switch a {
+.language-switch a,
+.lang-switch a {
   font-weight: var(--weight-semibold);
   text-decoration: none;
   color: var(--text-muted);
@@ -407,12 +410,93 @@ nav ul a.active {
   border-radius: 4px;
   transition: color var(--duration) var(--ease);
 }
-.language-switch a:hover { color: var(--primary); }
-.language-switch a[aria-current="true"] {
+.language-switch a:hover,
+.lang-switch a:hover { color: var(--primary); }
+.language-switch a[aria-current="true"],
+.lang-switch a[aria-current="true"] {
   color: var(--primary);
   font-weight: var(--weight-bold);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.lang-switch { white-space: nowrap; }
+
+/* Trust & legal row (injected by common.js) */
+.site-legal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.35rem;
+  margin-top: var(--sp-2);
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--border);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+.site-legal-nav a {
+  color: var(--link);
+  text-decoration: none;
+  padding: 0.35rem 0.5rem;
+  border-radius: var(--radius-sm);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.site-legal-nav a:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+.site-legal-nav__sep {
+  color: var(--text-muted);
+  user-select: none;
+}
+
+/* Unified footer (common.js) */
+footer .footer-copy {
+  margin: 0 0 var(--sp-1);
+  font-weight: var(--weight-semibold);
+  color: var(--blue-900);
+}
+footer .footer-tagline {
+  margin: 0 0 var(--sp-2);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  max-width: 42rem;
+}
+footer .footer-legal-links {
+  margin: 0 0 var(--sp-2);
+  font-size: var(--text-sm);
+}
+footer .footer-legal-links a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: var(--weight-semibold);
+}
+footer .footer-legal-links a:hover {
+  text-decoration: underline;
+}
+footer .footer-contact {
+  margin: 0 0 var(--sp-2);
+  font-size: var(--text-sm);
+}
+footer .footer-contact a {
+  color: var(--link);
+  font-weight: var(--weight-semibold);
+  word-break: break-all;
+}
+footer .footer-operator {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+.contact-email {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+}
+.contact-email a {
+  word-break: break-all;
 }
 
 
@@ -1139,6 +1223,7 @@ canvas#clockCanvas {
   background: var(--gray-100);
   min-height: 120px;
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1147,6 +1232,28 @@ canvas#clockCanvas {
   color: var(--gray-500);
   font-size: var(--text-sm);
   border-radius: var(--radius);
+}
+
+.sponsored-block {
+  margin: 48px 0;
+}
+
+.sponsored-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 60rem) {
+  .sponsored-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sponsored-item {
+  min-height: 120px;
+  background: rgba(0,0,0,0.04);
+  border-radius: 8px;
 }
 
 
@@ -1374,7 +1481,8 @@ footer ul li a:hover {
     font-size: 12pt;
   }
   nav, header .nav-buttons, .hero-tools, .ad-slot,
-  .ad-placeholder, .ad-grid, footer, .skip-link,
+  .ad-placeholder, .ad-grid, .sponsored-block, .sponsored-grid,
+  .sponsored-item, footer, .skip-link,
   .language-switch, button:not(.print-show) {
     display: none !important;
   }
@@ -1391,4 +1499,44 @@ footer ul li a:hover {
   h1, h2, h3 {
     color: #000;
   }
+}
+
+/* === AD SYSTEM (PHASE 8) === */
+
+.ad-slot {
+  width: 100%;
+  max-width: 100%;
+  margin: 32px auto;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+/* Prevent layout shift */
+.ad-slot::before {
+  content: "Advertisement";
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+/* Different slot sizing */
+
+.ad-top {
+  min-height: 120px;
+}
+
+.ad-inline {
+  min-height: 180px;
+}
+
+.ad-bottom {
+  min-height: 120px;
+}
+
+/* Optional subtle placeholder */
+.ad-slot {
+  background: rgba(0,0,0,0.02);
+  border-radius: 8px;
 }

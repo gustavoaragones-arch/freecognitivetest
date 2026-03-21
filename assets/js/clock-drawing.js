@@ -1,11 +1,34 @@
-(() => {
+import { loadTest, getTestLang } from "./test-loader.js";
+
+async function init() {
   const canvas = document.getElementById("clockCanvas");
   if (!canvas) return;
+
+  const lang = getTestLang();
+  let msg;
+  try {
+    msg = await loadTest("clock-drawing", lang);
+  } catch (e) {
+    console.warn(e);
+    msg = await loadTest("clock-drawing", "en");
+  }
 
   const status = document.getElementById("clockStatus");
   const clearBtn = document.getElementById("clearClockBtn");
   const saveBtn = document.getElementById("saveClockBtn");
   const printBtn = document.getElementById("printClockBtn");
+  const canvasLabel = document.querySelector('label[for="clockCanvas"]');
+  const keyboardHint = document.getElementById("clockKeyboardHint");
+
+  if (canvasLabel && !document.getElementById("miniCogApp")) {
+    canvasLabel.textContent = msg.canvasLabel;
+  }
+  canvas.setAttribute("aria-label", msg.canvasAria);
+  if (status) status.textContent = msg.statusReady;
+  if (clearBtn) clearBtn.textContent = msg.clearBtn;
+  if (saveBtn) saveBtn.textContent = msg.saveBtn;
+  if (printBtn) printBtn.textContent = msg.printBtn;
+  if (keyboardHint) keyboardHint.textContent = msg.keyboardHint;
 
   const ctx = canvas.getContext("2d");
   let drawing = false;
@@ -47,7 +70,7 @@
     const pt = pointFromEvent(event);
     lastX = pt.x;
     lastY = pt.y;
-    status.textContent = window.I18N?.t("clock.statusDrawing") || "Drawing in progress.";
+    if (status) status.textContent = msg.statusDrawing;
   }
 
   function move(event) {
@@ -64,12 +87,12 @@
 
   function stop() {
     drawing = false;
-    status.textContent = window.I18N?.t("clock.statusDone") || "Drawing captured.";
+    if (status) status.textContent = msg.statusDone;
   }
 
   function clearCanvas() {
     drawGuide();
-    status.textContent = window.I18N?.t("clock.statusCleared") || "Canvas cleared.";
+    if (status) status.textContent = msg.statusCleared;
   }
 
   function saveCanvas() {
@@ -77,7 +100,7 @@
     link.download = `clock-drawing-${Date.now()}.png`;
     link.href = canvas.toDataURL("image/png");
     link.click();
-    status.textContent = window.I18N?.t("clock.statusSaved") || "Saved as PNG.";
+    if (status) status.textContent = msg.statusSaved;
   }
 
   canvas.addEventListener("mousedown", start);
@@ -102,4 +125,6 @@
   window.addEventListener("resize", setCanvasSize);
 
   setCanvasSize();
-})();
+}
+
+init();

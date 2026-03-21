@@ -1,15 +1,39 @@
-(() => {
+import { loadTest, getTestLang } from "./test-loader.js";
+
+function tpl(str, vars) {
+  if (!str) return "";
+  return str.replace(/\{(\w+)\}/g, (_, k) => (vars[k] != null ? String(vars[k]) : ""));
+}
+
+async function init() {
   const startBtn = document.getElementById("startTrailBtn");
   if (!startBtn) return;
+
+  const lang = getTestLang();
+  let data;
+  try {
+    data = await loadTest("trail-making", lang);
+  } catch (e) {
+    console.warn(e);
+    data = await loadTest("trail-making", "en");
+  }
 
   const board = document.getElementById("trailBoard");
   const timerEl = document.getElementById("trailTimer");
   const resultEl = document.getElementById("trailResult");
   const targetEl = document.getElementById("trailTarget");
   const resetBtn = document.getElementById("resetTrailBtn");
+  const labelTimer = document.getElementById("trailLabelTimer");
+  const labelNext = document.getElementById("trailLabelNext");
+
+  startBtn.textContent = data.startCta;
+  if (resetBtn) resetBtn.textContent = data.resetCta;
+  if (labelTimer) labelTimer.textContent = data.timerLabel;
+  if (labelNext) labelNext.textContent = data.nextLabel;
+  if (resultEl) resultEl.textContent = data.initialResult;
 
   let next = 1;
-  let count = 20;
+  const count = 20;
   let timerId = null;
   let seconds = 0;
 
@@ -49,27 +73,29 @@
 
   function selectNumber(n, btn) {
     if (n !== next) {
-      resultEl.textContent = `Incorrect selection. Click ${next}.`;
+      resultEl.textContent = tpl(data.incorrect, { next });
       return;
     }
     btn.disabled = true;
     btn.classList.add("success");
     next += 1;
-    targetEl.textContent = next <= count ? String(next) : "Done";
+    targetEl.textContent = next <= count ? String(next) : data.doneTarget;
     if (next > count) {
       clearInterval(timerId);
-      resultEl.textContent = `Completed in ${timerEl.textContent}. Lower time usually indicates better processing speed.`;
+      resultEl.textContent = tpl(data.completed, { time: timerEl.textContent });
     }
   }
 
   function start() {
     next = 1;
     targetEl.textContent = "1";
-    resultEl.textContent = "Connect numbers in order as quickly as possible.";
+    resultEl.textContent = data.startMessage;
     renderBoard();
     startTimer();
   }
 
   startBtn.addEventListener("click", start);
   resetBtn?.addEventListener("click", start);
-})();
+}
+
+init();

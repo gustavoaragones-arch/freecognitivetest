@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://freecognitivetest.org/</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/about/about.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/about/albor-digital-llc.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/about/medical-disclaimer.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/brain-exercises/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/about/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/about/albor-digital-llc.html</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/medical-disclaimer/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/privacy-policy/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/cookie-policy/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/contact/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/mini-cog-test/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/clock-drawing-test/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/how-to-improve-memory/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/signs-of-cognitive-decline/</loc><lastmod>2026-03-14</lastmod></url>
+  <url><loc>https://freecognitivetest.org/brain-exercises/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/all-exercises.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/brain-exercises/attention/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/brain-exercises/attention/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/attention/attention-color-match.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/attention/attention-distraction-control.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/attention/attention-dual-task.html</loc><lastmod>2026-03-07</lastmod></url>
@@ -48,7 +55,7 @@
   <url><loc>https://freecognitivetest.org/brain-exercises/executive-function/logic-symbol-pattern.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/executive-function/logic-word-association.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/executive-function/logic-word-pattern.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/brain-exercises/memory/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/brain-exercises/memory/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/memory/memory-backward-sequence.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/memory/memory-card-match.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-exercises/memory/memory-category-recall.html</loc><lastmod>2026-03-07</lastmod></url>
@@ -118,7 +125,7 @@
   <url><loc>https://freecognitivetest.org/brain-training/improve-memory-after-60.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-training/memory-exercises-for-seniors.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/brain-training/mental-stimulation-activities.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/cognitive-health/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/cognitive-health/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/cognitive-health/early-signs-of-dementia.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/cognitive-health/how-cognitive-tests-work.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/cognitive-health/how-often-take-memory-test.html</loc><lastmod>2026-03-07</lastmod></url>
@@ -136,13 +143,13 @@
   <url><loc>https://freecognitivetest.org/cognitive-tests/how-do-memory-tests-work.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/cognitive-tests/trail-making-test-explained.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/cognitive-tests/what-is-the-mini-cog-test.html</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/dementia-test-online/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/dementia-test-online/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/en/</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/es/</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/exercises/memory-games.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/exercises/pattern-recognition.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/fr/</loc><lastmod>2026-03-07</lastmod></url>
-  <url><loc>https://freecognitivetest.org/free-memory-test/</loc><lastmod>2026-03-07</lastmod></url>
+  <url><loc>https://freecognitivetest.org/free-memory-test/</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://freecognitivetest.org/printable-tests/</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/printable-tests/attention-training-worksheet.html</loc><lastmod>2026-03-07</lastmod></url>
   <url><loc>https://freecognitivetest.org/printable-tests/brain-exercise-worksheet.html</loc><lastmod>2026-03-07</lastmod></url>

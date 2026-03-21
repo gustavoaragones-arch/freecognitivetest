@@ -1,6 +1,22 @@
-(() => {
+import { loadTest, getTestLang } from "./test-loader.js";
+
+function tpl(str, vars) {
+  if (!str) return "";
+  return str.replace(/\{(\w+)\}/g, (_, k) => (vars[k] != null ? String(vars[k]) : ""));
+}
+
+async function init() {
   const app = document.getElementById("miniCogApp");
   if (!app) return;
+
+  const lang = getTestLang();
+  let data;
+  try {
+    data = await loadTest("minicog", lang);
+  } catch (e) {
+    console.warn(e);
+    data = await loadTest("minicog", "en");
+  }
 
   const wordsEl = document.getElementById("miniCogWords");
   const timerEl = document.getElementById("miniCogTimer");
@@ -11,19 +27,33 @@
   const clockChecklist = document.getElementById("clockChecklist");
   const clockPointsEl = document.getElementById("clockPoints");
   const recallPointsEl = document.getElementById("recallPoints");
+  const canvasLabel = document.querySelector('label[for="clockCanvas"]');
+  const labelWords = document.getElementById("miniCogLabelWords");
+  const labelTimer = document.getElementById("miniCogLabelTimer");
+  const recallLabel = document.querySelector('label[for="recallWords"]');
 
-  const wordPool = [
-    "banana",
-    "sunrise",
-    "chair",
-    "river",
-    "apple",
-    "garden",
-    "book",
-    "window",
-    "music",
-    "flower"
-  ];
+  if (labelWords) labelWords.textContent = data.wordsLabel;
+  if (labelTimer) labelTimer.textContent = data.timerLabel;
+  if (wordsEl) wordsEl.textContent = data.notStarted;
+  if (startBtn) startBtn.textContent = data.startCta;
+  if (scoreBtn) scoreBtn.textContent = data.scoreCta;
+  if (canvasLabel) canvasLabel.textContent = data.clockInstruction;
+  if (clockChecklist) {
+    const h3 = clockChecklist.querySelector("h3");
+    if (h3) h3.textContent = data.clockChecklistTitle;
+    const labels = clockChecklist.querySelectorAll("label");
+    if (labels[0]) labels[0].innerHTML = `<input type="checkbox" /> ${data.clockCheck1}`;
+    if (labels[1]) labels[1].innerHTML = `<input type="checkbox" /> ${data.clockCheck2}`;
+  }
+  if (recallLabel) recallLabel.textContent = data.recallLabel;
+  if (recallInput) recallInput.placeholder = data.recallPlaceholder;
+  const recallPtsLabel = document.getElementById("miniCogRecallPtsLabel");
+  const clockPtsLabel = document.getElementById("miniCogClockPtsLabel");
+  if (recallPtsLabel) recallPtsLabel.textContent = data.recallPointsLabel;
+  if (clockPtsLabel) clockPtsLabel.textContent = data.clockPointsLabel;
+  if (resultEl) resultEl.textContent = data.initialResult;
+
+  const wordPool = Array.isArray(data.wordPool) ? [...data.wordPool] : [];
 
   let selectedWords = [];
   let seconds = 0;
@@ -32,7 +62,8 @@
   function pickWords() {
     const pool = [...wordPool];
     const words = [];
-    for (let i = 0; i < 3; i += 1) {
+    const n = Math.min(3, pool.length || 3);
+    for (let i = 0; i < n; i += 1) {
       const idx = Math.floor(Math.random() * pool.length);
       words.push(pool[idx]);
       pool.splice(idx, 1);
@@ -72,16 +103,16 @@
   }
 
   function finalInterpretation(total) {
-    if (total >= 4) return "Lower concern based on this screen.";
-    if (total >= 2) return "Moderate concern; consider clinical follow-up.";
-    return "Higher concern; recommend formal assessment.";
+    if (total >= 4) return data.interpretLow;
+    if (total >= 2) return data.interpretModerate;
+    return data.interpretHigh;
   }
 
   startBtn?.addEventListener("click", () => {
     selectedWords = pickWords();
     wordsEl.textContent = selectedWords.join(", ");
     beginTimer();
-    resultEl.textContent = window.I18N?.t("miniCog.started") || "Mini-Cog started. Draw the clock, then recall words.";
+    resultEl.textContent = data.startedMessage;
     app.hidden = false;
     recallInput.focus();
   });
@@ -95,8 +126,11 @@
     recallPointsEl.textContent = String(recallPoints);
     clockPointsEl.textContent = String(clockPoints);
 
-    resultEl.textContent =
-      `Score: ${total}/5. ${finalInterpretation(total)} ` +
-      "(Screening only, not a diagnosis.)";
+    resultEl.textContent = tpl(data.scoreLine, {
+      total,
+      interpret: finalInterpretation(total),
+    });
   });
-})();
+}
+
+init();

@@ -49,6 +49,11 @@
           <li><a href="/tests/trail-making-test.html">Trail Making</a></li>
         </ul>
       </nav>
+      <div class="lang-switch" aria-label="Language">
+        <a href="/free-memory-test/" hreflang="en">EN</a> |
+        <a href="/es/prueba-memoria-gratis/" hreflang="es">ES</a> |
+        <a href="/fr/test-memoire-gratuit/" hreflang="fr">FR</a>
+      </div>
     </header>
     <main id="main" class="container">
       <section>
@@ -66,8 +71,8 @@
         <div class="button-row">
           <button id="startDigitSpanBtn" class="primary" type="button">Start Digit Span</button>
         </div>
-        <p><strong>Level:</strong> <span id="digitSpanLevel">3</span></p>
-        <p><strong>Sequence:</strong> <span id="digitSpanSequence" aria-live="polite">Press start</span></p>
+        <p><strong id="digitSpanLabelLevel">Level:</strong> <span id="digitSpanLevel">3</span></p>
+        <p><strong id="digitSpanLabelSequence">Sequence:</strong> <span id="digitSpanSequence" aria-live="polite">Press start</span></p>
         <label for="digitSpanInput">Type digits (no spaces)</label>
         <input id="digitSpanInput" type="text" inputmode="numeric" placeholder="e.g. 73912" />
         <div class="button-row">
@@ -114,6 +119,6 @@
     <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
     <script type="module" src="/assets/js/i18n.js"></script>
     <script src="/assets/js/common.js" defer></script>
-    <script src="/assets/js/digit-span.js" defer></script>
+    <script type="module" src="/assets/js/digit-span.js"></script>
   </body>
 </html>

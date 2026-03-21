@@ -26,7 +26,21 @@
     <meta property="og:url" content="https://freecognitivetest.org/" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
       <script type="application/ld+json" id="org-schema-static">{"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital","email":"contact@albor.digital","description":"Albor Digital LLC is an independent digital product studio that designs and operates web-based tools, SaaS platforms, and digital utilities.","foundingLocation":{"@type":"Place","name":"United States"},"areaServed":"Worldwide","sameAs":["https://albor.digital","https://memorytestonline.org","https://brainexercisesforseniors.com"]}</script>
-    <script type="application/ld+json" id="publisher-schema-static">{"@context":"https://schema.org","@type":"WebPage","name":"Free Cognitive Test | 10 Interactive Cognitive Tools","inLanguage":"en","url":"https://freecognitivetest.org/","publisher":{"@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}}</script>
+    <script type="application/ld+json" id="site-brand-schema">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "FreeCognitiveTest.org",
+        "url": "https://freecognitivetest.org",
+        "description": "Educational cognitive screening tools and brain training exercises.",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Albor Digital LLC",
+          "url": "https://albor.digital"
+        }
+      }
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">{"@context":"https://schema.org","@type":"WebPage","name":"Free Cognitive Test | 10 Interactive Cognitive Tools","inLanguage":"en","url":"https://freecognitivetest.org/","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}</script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -39,7 +53,10 @@
           <a class="btn" href="/tests/mini-cog-test.html">Cognitive Tests</a>
           <a class="btn" href="/tests/visual-memory-test.html">Brain Tests</a>
           <a class="btn" href="/tests/cognitive-health-self-assessment.html">Self-Assessment</a>
-          <a class="btn" href="/about/about.html">About</a>
+          <a class="btn" href="/about/">About</a>
+          <a class="btn" href="/medical-disclaimer/">Disclaimer</a>
+          <a class="btn" href="/privacy-policy/">Privacy</a>
+          <a class="btn" href="/contact/">Contact</a>
         </div>
       </nav>
       <div class="language-switch" aria-label="Language switcher">
@@ -103,19 +120,17 @@
         </div>
       </section>
 
-      <section aria-label="Ad placeholders">
-        <h2>Sponsored Content Area</h2>
-        <div class="ad-grid">
-          <div class="ad-placeholder">Ad Placeholder 1</div>
-          <div class="ad-placeholder">Ad Placeholder 2</div>
-          <div class="ad-placeholder">Ad Placeholder 3</div>
+      <section class="sponsored-block">
+        <h2>Sponsored</h2>
+
+        <div class="sponsored-grid">
+          <div class="sponsored-item"></div>
+          <div class="sponsored-item"></div>
+          <div class="sponsored-item"></div>
         </div>
       </section>
     </main>
-    <footer>
-      <p>&copy; <span id="year"></span> FreeCognitiveTest.org · Owned and operated by <a href="https://albor.digital">Albor Digital LLC</a></p>
-      <p><a href="/sitemap-exercises.html">Exercises</a> · <a href="/sitemap-guides.html">Guides</a> · <a href="/sitemap-tools.html">Tools</a></p>
-    </footer>
+    <footer></footer>
     <script src="/assets/js/daily-exercise.js" defer></script>
     <script type="module" src="/assets/js/i18n.js"></script>
     <script src="/assets/js/common.js" defer></script>

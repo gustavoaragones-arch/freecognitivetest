@@ -1,0 +1,50 @@
+{
+  "en": {
+    "modeLabel": "Mode",
+    "modeForward": "Forward",
+    "modeBackward": "Backward",
+    "startCta": "Start Digit Span",
+    "levelLabel": "Level:",
+    "sequenceLabel": "Sequence:",
+    "pressStart": "Press start",
+    "inputLabel": "Type digits (no spaces)",
+    "inputPlaceholder": "e.g. 73912",
+    "checkCta": "Check Answer",
+    "initialResult": "Start a round to begin.",
+    "memorizeHint": "Memorize the sequence, then type digits without spaces.",
+    "correctNext": "Correct. Increasing difficulty.",
+    "incorrectResult": "Incorrect. Expected {expected}. Highest successful span: {span}."
+  },
+  "es": {
+    "modeLabel": "Modo",
+    "modeForward": "Hacia adelante",
+    "modeBackward": "Hacia atrás",
+    "startCta": "Iniciar amplitud de dígitos",
+    "levelLabel": "Nivel:",
+    "sequenceLabel": "Secuencia:",
+    "pressStart": "Pulse iniciar",
+    "inputLabel": "Escriba los dígitos (sin espacios)",
+    "inputPlaceholder": "ej. 73912",
+    "checkCta": "Comprobar respuesta",
+    "initialResult": "Inicie una ronda para comenzar.",
+    "memorizeHint": "Memorice la secuencia y escriba los dígitos sin espacios.",
+    "correctNext": "Correcto. Aumentando la dificultad.",
+    "incorrectResult": "Incorrecto. Se esperaba {expected}. Mayor amplitud lograda: {span}."
+  },
+  "fr": {
+    "modeLabel": "Mode",
+    "modeForward": "Direct",
+    "modeBackward": "Inverse",
+    "startCta": "Démarrer le test d’envergure",
+    "levelLabel": "Niveau :",
+    "sequenceLabel": "Séquence :",
+    "pressStart": "Appuyez sur démarrer",
+    "inputLabel": "Saisissez les chiffres (sans espaces)",
+    "inputPlaceholder": "ex. 73912",
+    "checkCta": "Vérifier la réponse",
+    "initialResult": "Démarrez une manche pour commencer.",
+    "memorizeHint": "Mémorisez la séquence, puis saisissez les chiffres sans espaces.",
+    "correctNext": "Correct. Difficulté augmentée.",
+    "incorrectResult": "Incorrect. Attendu : {expected}. Plus grande envergure réussie : {span}."
+  }
+}

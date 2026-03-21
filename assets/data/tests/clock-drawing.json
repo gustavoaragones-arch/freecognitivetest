@@ -1,0 +1,41 @@
+{
+  "en": {
+    "statusDrawing": "Drawing in progress.",
+    "statusDone": "Drawing captured.",
+    "statusCleared": "Canvas cleared.",
+    "statusSaved": "Saved as PNG.",
+    "statusReady": "Ready to draw.",
+    "canvasLabel": "Clock drawing area",
+    "canvasAria": "Clock drawing canvas",
+    "clearBtn": "Clear Canvas",
+    "saveBtn": "Save Drawing",
+    "printBtn": "Print Result",
+    "keyboardHint": "Keyboard support: use Tab to controls, Enter/Space to activate buttons."
+  },
+  "es": {
+    "statusDrawing": "Dibujo en curso.",
+    "statusDone": "Dibujo capturado.",
+    "statusCleared": "Lienzo borrado.",
+    "statusSaved": "Guardado como PNG.",
+    "statusReady": "Listo para dibujar.",
+    "canvasLabel": "Área de dibujo del reloj",
+    "canvasAria": "Lienzo para dibujar el reloj",
+    "clearBtn": "Borrar lienzo",
+    "saveBtn": "Guardar dibujo",
+    "printBtn": "Imprimir resultado",
+    "keyboardHint": "Teclado: use Tab para los controles, Enter o Espacio para activar."
+  },
+  "fr": {
+    "statusDrawing": "Dessin en cours.",
+    "statusDone": "Dessin enregistré.",
+    "statusCleared": "Toile effacée.",
+    "statusSaved": "Enregistré en PNG.",
+    "statusReady": "Prêt à dessiner.",
+    "canvasLabel": "Zone de dessin de l’horloge",
+    "canvasAria": "Toile pour dessiner l’horloge",
+    "clearBtn": "Effacer la toile",
+    "saveBtn": "Enregistrer le dessin",
+    "printBtn": "Imprimer le résultat",
+    "keyboardHint": "Clavier : Tab pour les contrôles, Entrée ou Espace pour activer."
+  }
+}

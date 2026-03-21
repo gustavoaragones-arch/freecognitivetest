@@ -1,0 +1,41 @@
+{
+  "en": {
+    "wordPool": ["apple", "river", "chair", "garden", "silver", "music", "window", "banana", "forest", "orange"],
+    "wordsLabel": "Words:",
+    "timerLabel": "Timer:",
+    "inputLabel": "Enter recalled words separated by commas",
+    "inputPlaceholder": "apple, river, chair...",
+    "startCta": "Start Word Recall Test",
+    "scoreCta": "Score Recall",
+    "notStarted": "Not started",
+    "initialResult": "Start the test to generate a word list.",
+    "afterStartHint": "Words displayed. Wait 60-120 seconds, then enter recall words.",
+    "scoreResult": "You recalled {score} of {total} words. Screening only, not diagnosis."
+  },
+  "es": {
+    "wordPool": ["manzana", "rio", "silla", "jardin", "plata", "musica", "ventana", "naranja", "bosque", "libro"],
+    "wordsLabel": "Palabras:",
+    "timerLabel": "Temporizador:",
+    "inputLabel": "Escriba las palabras recordadas separadas por comas",
+    "inputPlaceholder": "manzana, rio, silla...",
+    "startCta": "Iniciar prueba de memoria de palabras",
+    "scoreCta": "Puntuar recuerdo",
+    "notStarted": "No iniciado",
+    "initialResult": "Inicie la prueba para generar una lista de palabras.",
+    "afterStartHint": "Palabras mostradas. Espere 60-120 segundos y luego escriba las palabras recordadas.",
+    "scoreResult": "Recordó {score} de {total} palabras. Solo cribado, no es un diagnóstico."
+  },
+  "fr": {
+    "wordPool": ["pomme", "riviere", "chaise", "jardin", "argent", "musique", "fenetre", "banane", "foret", "orange"],
+    "wordsLabel": "Mots :",
+    "timerLabel": "Minuteur :",
+    "inputLabel": "Saisissez les mots rappelés, séparés par des virgules",
+    "inputPlaceholder": "pomme, riviere, chaise...",
+    "startCta": "Démarrer le test de rappel de mots",
+    "scoreCta": "Noter le rappel",
+    "notStarted": "Pas démarré",
+    "initialResult": "Démarrez le test pour générer une liste de mots.",
+    "afterStartHint": "Mots affichés. Attendez 60 à 120 secondes, puis saisissez les mots rappelés.",
+    "scoreResult": "Vous avez rappelé {score} mot(s) sur {total}. Dépistage seulement, pas un diagnostic."
+  }
+}
