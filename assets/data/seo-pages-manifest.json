@@ -1,0 +1,4085 @@
+{
+  "generated": "2026-03-25",
+  "pages": [
+    {
+      "id": "p000",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-seniors",
+      "url": "https://freecognitivetest.org/brain-exercises-for-seniors/"
+    },
+    {
+      "id": "p000",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-adultos-mayores",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-adultos-mayores/"
+    },
+    {
+      "id": "p000",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-personnes-agees",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-personnes-agees/"
+    },
+    {
+      "id": "p001",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-memory/"
+    },
+    {
+      "id": "p001",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-memoria/"
+    },
+    {
+      "id": "p001",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-memoire/"
+    },
+    {
+      "id": "p002",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-focus/"
+    },
+    {
+      "id": "p002",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-concentracion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-concentracion/"
+    },
+    {
+      "id": "p002",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-concentration",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-concentration/"
+    },
+    {
+      "id": "p003",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-anxiety",
+      "url": "https://freecognitivetest.org/brain-exercises-for-anxiety/"
+    },
+    {
+      "id": "p003",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-ansiedad",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-ansiedad/"
+    },
+    {
+      "id": "p003",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-anxiete",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-anxiete/"
+    },
+    {
+      "id": "p004",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-stress-relief",
+      "url": "https://freecognitivetest.org/brain-exercises-for-stress-relief/"
+    },
+    {
+      "id": "p004",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-estres",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-estres/"
+    },
+    {
+      "id": "p004",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-stress",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-stress/"
+    },
+    {
+      "id": "p005",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-stroke-recovery",
+      "url": "https://freecognitivetest.org/brain-exercises-for-stroke-recovery/"
+    },
+    {
+      "id": "p005",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-recuperacion-ictus",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-recuperacion-ictus/"
+    },
+    {
+      "id": "p005",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-avc",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-avc/"
+    },
+    {
+      "id": "p006",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-parkinsons-caregivers",
+      "url": "https://freecognitivetest.org/brain-exercises-for-parkinsons-caregivers/"
+    },
+    {
+      "id": "p006",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-cuidadores-parkinson",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-cuidadores-parkinson/"
+    },
+    {
+      "id": "p006",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-aidants-parkinson",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-aidants-parkinson/"
+    },
+    {
+      "id": "p007",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-aphasia-friendly",
+      "url": "https://freecognitivetest.org/brain-exercises-for-aphasia-friendly/"
+    },
+    {
+      "id": "p007",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-afasia",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-afasia/"
+    },
+    {
+      "id": "p007",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-aphasie",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-aphasie/"
+    },
+    {
+      "id": "p008",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-adhd-adults",
+      "url": "https://freecognitivetest.org/brain-exercises-for-adhd-adults/"
+    },
+    {
+      "id": "p008",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-adultos-tdah",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-adultos-tdah/"
+    },
+    {
+      "id": "p008",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-adultes-tdah",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-adultes-tdah/"
+    },
+    {
+      "id": "p009",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-sleep-and-brain",
+      "url": "https://freecognitivetest.org/brain-exercises-for-sleep-and-brain/"
+    },
+    {
+      "id": "p009",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-sueno-cerebro",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-sueno-cerebro/"
+    },
+    {
+      "id": "p009",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-sommeil-cerveau",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-sommeil-cerveau/"
+    },
+    {
+      "id": "p010",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-diabetes-brain-health",
+      "url": "https://freecognitivetest.org/brain-exercises-for-diabetes-brain-health/"
+    },
+    {
+      "id": "p010",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-glucosa-cerebro",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-glucosa-cerebro/"
+    },
+    {
+      "id": "p010",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-glycemie-cerveau",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-glycemie-cerveau/"
+    },
+    {
+      "id": "p011",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-heart-health-cognition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-heart-health-cognition/"
+    },
+    {
+      "id": "p011",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-corazon-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-corazon-cognicion/"
+    },
+    {
+      "id": "p011",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-coeur-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-coeur-cognition/"
+    },
+    {
+      "id": "p012",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-social-connection",
+      "url": "https://freecognitivetest.org/brain-exercises-for-social-connection/"
+    },
+    {
+      "id": "p012",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-vinculos-sociales",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-vinculos-sociales/"
+    },
+    {
+      "id": "p012",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-lien-social",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-lien-social/"
+    },
+    {
+      "id": "p013",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-music-and-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-music-and-memory/"
+    },
+    {
+      "id": "p013",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-musica-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-musica-memoria/"
+    },
+    {
+      "id": "p013",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-musique-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-musique-memoire/"
+    },
+    {
+      "id": "p014",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-language-learning",
+      "url": "https://freecognitivetest.org/brain-exercises-for-language-learning/"
+    },
+    {
+      "id": "p014",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-aprender-idiomas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-aprender-idiomas/"
+    },
+    {
+      "id": "p014",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-langues",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-langues/"
+    },
+    {
+      "id": "p015",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-hand-eye-coordination",
+      "url": "https://freecognitivetest.org/brain-exercises-for-hand-eye-coordination/"
+    },
+    {
+      "id": "p015",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-coordinacion-mano-ojo",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-coordinacion-mano-ojo/"
+    },
+    {
+      "id": "p015",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-coordination-main-œil",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-coordination-main-œil/"
+    },
+    {
+      "id": "p016",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-reaction-time",
+      "url": "https://freecognitivetest.org/brain-exercises-for-reaction-time/"
+    },
+    {
+      "id": "p016",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-tiempo-reaccion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-tiempo-reaccion/"
+    },
+    {
+      "id": "p016",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-temps-reaction",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-temps-reaction/"
+    },
+    {
+      "id": "p017",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-spatial-skills",
+      "url": "https://freecognitivetest.org/brain-exercises-for-spatial-skills/"
+    },
+    {
+      "id": "p017",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-habilidades-espaciales",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-habilidades-espaciales/"
+    },
+    {
+      "id": "p017",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-competences-spatiales",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-competences-spatiales/"
+    },
+    {
+      "id": "p018",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-working-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-working-memory/"
+    },
+    {
+      "id": "p018",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-memoria-trabajo",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-memoria-trabajo/"
+    },
+    {
+      "id": "p018",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-memoire-travail",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-memoire-travail/"
+    },
+    {
+      "id": "p019",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-dual-tasking",
+      "url": "https://freecognitivetest.org/brain-exercises-for-dual-tasking/"
+    },
+    {
+      "id": "p019",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-doble-tarea",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-doble-tarea/"
+    },
+    {
+      "id": "p019",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-double-tache",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-double-tache/"
+    },
+    {
+      "id": "p020",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-mindfulness-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-mindfulness-focus/"
+    },
+    {
+      "id": "p020",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-atencion-plena",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-atencion-plena/"
+    },
+    {
+      "id": "p020",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-pleine-conscience",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-pleine-conscience/"
+    },
+    {
+      "id": "p021",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-post-surgery-brain-fog",
+      "url": "https://freecognitivetest.org/brain-exercises-for-post-surgery-brain-fog/"
+    },
+    {
+      "id": "p021",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-niebla-tras-cirugia",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-niebla-tras-cirugia/"
+    },
+    {
+      "id": "p021",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-brouillard-chirurgie",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-brouillard-chirurgie/"
+    },
+    {
+      "id": "p022",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-chemo-brain-education",
+      "url": "https://freecognitivetest.org/brain-exercises-for-chemo-brain-education/"
+    },
+    {
+      "id": "p022",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-niebla-quimio",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-niebla-quimio/"
+    },
+    {
+      "id": "p022",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-brouillard-chimio",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-brouillard-chimio/"
+    },
+    {
+      "id": "p023",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-long-covid-brain-fog",
+      "url": "https://freecognitivetest.org/brain-exercises-for-long-covid-brain-fog/"
+    },
+    {
+      "id": "p023",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-niebla-cognitiva",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-niebla-cognitiva/"
+    },
+    {
+      "id": "p023",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-brouillard-cognitif",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-brouillard-cognitif/"
+    },
+    {
+      "id": "p024",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-vision-and-attention",
+      "url": "https://freecognitivetest.org/brain-exercises-for-vision-and-attention/"
+    },
+    {
+      "id": "p024",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-vision-atencion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-vision-atencion/"
+    },
+    {
+      "id": "p024",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-vision-attention",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-vision-attention/"
+    },
+    {
+      "id": "p025",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-hearing-and-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-hearing-and-memory/"
+    },
+    {
+      "id": "p025",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-audicion-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-audicion-memoria/"
+    },
+    {
+      "id": "p025",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-audition-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-audition-memoire/"
+    },
+    {
+      "id": "p026",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-medication-review-habits",
+      "url": "https://freecognitivetest.org/brain-exercises-for-medication-review-habits/"
+    },
+    {
+      "id": "p026",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-medicacion-claridad",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-medicacion-claridad/"
+    },
+    {
+      "id": "p026",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-medicaments-clarte",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-medicaments-clarte/"
+    },
+    {
+      "id": "p027",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-driving-safety-cognition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-driving-safety-cognition/"
+    },
+    {
+      "id": "p027",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-conduccion-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-conduccion-cognicion/"
+    },
+    {
+      "id": "p027",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-conduite-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-conduite-cognition/"
+    },
+    {
+      "id": "p028",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-financial-task-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-financial-task-focus/"
+    },
+    {
+      "id": "p028",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-tareas-dinero",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-tareas-dinero/"
+    },
+    {
+      "id": "p028",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-taches-argent",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-taches-argent/"
+    },
+    {
+      "id": "p029",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-cooking-safety-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-cooking-safety-memory/"
+    },
+    {
+      "id": "p029",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-cocina-pasos",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-cocina-pasos/"
+    },
+    {
+      "id": "p029",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-cuisine-etapes",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-cuisine-etapes/"
+    },
+    {
+      "id": "p030",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-travel-planning-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-travel-planning-focus/"
+    },
+    {
+      "id": "p030",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-viajes-planificacion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-viajes-planificacion/"
+    },
+    {
+      "id": "p030",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-voyages-planification",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-voyages-planification/"
+    },
+    {
+      "id": "p031",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-hydration-cognition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-hydration-cognition/"
+    },
+    {
+      "id": "p031",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-hidratacion-claridad",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-hidratacion-claridad/"
+    },
+    {
+      "id": "p031",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-hydratation-clarte",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-hydratation-clarte/"
+    },
+    {
+      "id": "p032",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-meal-prep-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-meal-prep-memory/"
+    },
+    {
+      "id": "p032",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-comidas-plan-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-comidas-plan-memoria/"
+    },
+    {
+      "id": "p032",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-repas-plan-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-repas-plan-memoire/"
+    },
+    {
+      "id": "p033",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-reading-comprehension",
+      "url": "https://freecognitivetest.org/brain-exercises-for-reading-comprehension/"
+    },
+    {
+      "id": "p033",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-lectura-comprension",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-lectura-comprension/"
+    },
+    {
+      "id": "p033",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-lecture-comprehension",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-lecture-comprehension/"
+    },
+    {
+      "id": "p034",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-note-taking-skills",
+      "url": "https://freecognitivetest.org/brain-exercises-for-note-taking-skills/"
+    },
+    {
+      "id": "p034",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-tomar-notas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-tomar-notas/"
+    },
+    {
+      "id": "p034",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-prise-notes",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-prise-notes/"
+    },
+    {
+      "id": "p035",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-chronic-pain-education",
+      "url": "https://freecognitivetest.org/brain-exercises-for-chronic-pain-education/"
+    },
+    {
+      "id": "p035",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-dolor-cronico-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-dolor-cronico-cognicion/"
+    },
+    {
+      "id": "p035",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-douleur-chronique-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-douleur-chronique-cognition/"
+    },
+    {
+      "id": "p036",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-menopause-brain-fog-edu",
+      "url": "https://freecognitivetest.org/brain-exercises-for-menopause-brain-fog-edu/"
+    },
+    {
+      "id": "p036",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-menopausia-niebla",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-menopausia-niebla/"
+    },
+    {
+      "id": "p036",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-menopause-brouillard",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-menopause-brouillard/"
+    },
+    {
+      "id": "p037",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-tinnitus-concentration",
+      "url": "https://freecognitivetest.org/brain-exercises-for-tinnitus-concentration/"
+    },
+    {
+      "id": "p037",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-tinnitus-concentracion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-tinnitus-concentracion/"
+    },
+    {
+      "id": "p037",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-acouphenes-concentration",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-acouphenes-concentration/"
+    },
+    {
+      "id": "p038",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-allergy-medication-fog",
+      "url": "https://freecognitivetest.org/brain-exercises-for-allergy-medication-fog/"
+    },
+    {
+      "id": "p038",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-antihistaminicos-alert",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-antihistaminicos-alert/"
+    },
+    {
+      "id": "p038",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-antihistaminiques-vigilance",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-antihistaminiques-vigilance/"
+    },
+    {
+      "id": "p039",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-jet-lag-cognition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-jet-lag-cognition/"
+    },
+    {
+      "id": "p039",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-jet-lag-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-jet-lag-cognicion/"
+    },
+    {
+      "id": "p039",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-decalage-horaire-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-decalage-horaire-cognition/"
+    },
+    {
+      "id": "p040",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-exam-prep-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-exam-prep-focus/"
+    },
+    {
+      "id": "p040",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-estudio-bloques-atencion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-estudio-bloques-atencion/"
+    },
+    {
+      "id": "p040",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-revision-blocs-attention",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-revision-blocs-attention/"
+    },
+    {
+      "id": "p041",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-public-speaking-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-public-speaking-memory/"
+    },
+    {
+      "id": "p041",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-hablar-publico-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-hablar-publico-memoria/"
+    },
+    {
+      "id": "p041",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-prise-parole-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-prise-parole-memoire/"
+    },
+    {
+      "id": "p042",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-music-practice-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-music-practice-memory/"
+    },
+    {
+      "id": "p042",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-practica-musical-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-practica-musical-memoria/"
+    },
+    {
+      "id": "p042",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-pratique-musicale-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-pratique-musicale-memoire/"
+    },
+    {
+      "id": "p043",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-sports-strategy-thinking",
+      "url": "https://freecognitivetest.org/brain-exercises-for-sports-strategy-thinking/"
+    },
+    {
+      "id": "p043",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-deporte-decisiones",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-deporte-decisiones/"
+    },
+    {
+      "id": "p043",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-sport-decisions",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-sport-decisions/"
+    },
+    {
+      "id": "p044",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-gardening-sequencing",
+      "url": "https://freecognitivetest.org/brain-exercises-for-gardening-sequencing/"
+    },
+    {
+      "id": "p044",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-jardineria-secuencias",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-jardineria-secuencias/"
+    },
+    {
+      "id": "p044",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-jardin-sequences",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-jardin-sequences/"
+    },
+    {
+      "id": "p045",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-pet-care-routines",
+      "url": "https://freecognitivetest.org/brain-exercises-for-pet-care-routines/"
+    },
+    {
+      "id": "p045",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-mascotas-rutinas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-mascotas-rutinas/"
+    },
+    {
+      "id": "p045",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-animaux-routines",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-animaux-routines/"
+    },
+    {
+      "id": "p046",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-home-maintenance-checklists",
+      "url": "https://freecognitivetest.org/brain-exercises-for-home-maintenance-checklists/"
+    },
+    {
+      "id": "p046",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-casa-reparaciones-lista",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-casa-reparaciones-lista/"
+    },
+    {
+      "id": "p046",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-maison-listes-entretien",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-maison-listes-entretien/"
+    },
+    {
+      "id": "p047",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-volunteering-social-memory",
+      "url": "https://freecognitivetest.org/brain-exercises-for-volunteering-social-memory/"
+    },
+    {
+      "id": "p047",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-voluntariado-memoria",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-voluntariado-memoria/"
+    },
+    {
+      "id": "p047",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-benevolat-memoire",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-benevolat-memoire/"
+    },
+    {
+      "id": "p048",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-grandparent-play-activities",
+      "url": "https://freecognitivetest.org/brain-exercises-for-grandparent-play-activities/"
+    },
+    {
+      "id": "p048",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-juegos-nietos",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-juegos-nietos/"
+    },
+    {
+      "id": "p048",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-jeux-petits-enfants",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-jeux-petits-enfants/"
+    },
+    {
+      "id": "p049",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-peer-support-groups",
+      "url": "https://freecognitivetest.org/brain-exercises-for-peer-support-groups/"
+    },
+    {
+      "id": "p049",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-grupos-apoyo-recuerdo",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-grupos-apoyo-recuerdo/"
+    },
+    {
+      "id": "p049",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-groupes-entraide-souvenir",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-groupes-entraide-souvenir/"
+    },
+    {
+      "id": "p050",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-low-vision-large-print",
+      "url": "https://freecognitivetest.org/brain-exercises-for-low-vision-large-print/"
+    },
+    {
+      "id": "p050",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-baja-vision-texto-grande",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-baja-vision-texto-grande/"
+    },
+    {
+      "id": "p050",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-basse-vision-gros-caracteres",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-basse-vision-gros-caracteres/"
+    },
+    {
+      "id": "p051",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-hearing-aid-adaptation",
+      "url": "https://freecognitivetest.org/brain-exercises-for-hearing-aid-adaptation/"
+    },
+    {
+      "id": "p051",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-audifonos-adaptacion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-audifonos-adaptacion/"
+    },
+    {
+      "id": "p051",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-appareils-audition-adaptation",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-appareils-audition-adaptation/"
+    },
+    {
+      "id": "p052",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-chronic-fatigue-pacing",
+      "url": "https://freecognitivetest.org/brain-exercises-for-chronic-fatigue-pacing/"
+    },
+    {
+      "id": "p052",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-fatiga-ritmo-cognitivo",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-fatiga-ritmo-cognitivo/"
+    },
+    {
+      "id": "p052",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-fatigue-rythme-cognitif",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-fatigue-rythme-cognitif/"
+    },
+    {
+      "id": "p053",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-post-icu-education",
+      "url": "https://freecognitivetest.org/brain-exercises-for-post-icu-education/"
+    },
+    {
+      "id": "p053",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-uci-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-uci-cognicion/"
+    },
+    {
+      "id": "p053",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-rea-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-rea-cognition/"
+    },
+    {
+      "id": "p054",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-substance-recovery-edu",
+      "url": "https://freecognitivetest.org/brain-exercises-for-substance-recovery-edu/"
+    },
+    {
+      "id": "p054",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-recuperacion-atencion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-recuperacion-atencion/"
+    },
+    {
+      "id": "p054",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-recuperation-attention",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-recuperation-attention/"
+    },
+    {
+      "id": "p055",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-meditation-breath-focus",
+      "url": "https://freecognitivetest.org/brain-exercises-for-meditation-breath-focus/"
+    },
+    {
+      "id": "p055",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-respiracion-atencion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-respiracion-atencion/"
+    },
+    {
+      "id": "p055",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-respiration-attention",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-respiration-attention/"
+    },
+    {
+      "id": "p056",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-arthritis-hand-tasks",
+      "url": "https://freecognitivetest.org/brain-exercises-for-arthritis-hand-tasks/"
+    },
+    {
+      "id": "p056",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-artritis-manualidad",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-artritis-manualidad/"
+    },
+    {
+      "id": "p056",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-arthrite-motricite",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-arthrite-motricite/"
+    },
+    {
+      "id": "p057",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-low-mood-motivation",
+      "url": "https://freecognitivetest.org/brain-exercises-for-low-mood-motivation/"
+    },
+    {
+      "id": "p057",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-baja-motivacion-tareas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-baja-motivacion-tareas/"
+    },
+    {
+      "id": "p057",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-faible-motivation-taches",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-faible-motivation-taches/"
+    },
+    {
+      "id": "p058",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-seasonal-affective-edu",
+      "url": "https://freecognitivetest.org/brain-exercises-for-seasonal-affective-edu/"
+    },
+    {
+      "id": "p058",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-estacional-animo",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-estacional-animo/"
+    },
+    {
+      "id": "p058",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-saisonnier-humeur",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-saisonnier-humeur/"
+    },
+    {
+      "id": "p059",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-night-shift-cognition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-night-shift-cognition/"
+    },
+    {
+      "id": "p059",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-turno-nocturno-cognicion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-turno-nocturno-cognicion/"
+    },
+    {
+      "id": "p059",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-travail-nuit-cognition",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-travail-nuit-cognition/"
+    },
+    {
+      "id": "p060",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-screen-reader-users",
+      "url": "https://freecognitivetest.org/brain-exercises-for-screen-reader-users/"
+    },
+    {
+      "id": "p060",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-lector-pantalla-secuencias",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-lector-pantalla-secuencias/"
+    },
+    {
+      "id": "p060",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-lecteur-ecran-sequences",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-lecteur-ecran-sequences/"
+    },
+    {
+      "id": "p061",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-voice-assistant-routines",
+      "url": "https://freecognitivetest.org/brain-exercises-for-voice-assistant-routines/"
+    },
+    {
+      "id": "p061",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-asistente-voz-rutinas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-asistente-voz-rutinas/"
+    },
+    {
+      "id": "p061",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-assistant-vocal-routines",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-assistant-vocal-routines/"
+    },
+    {
+      "id": "p062",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-seniors",
+      "url": "https://freecognitivetest.org/memory-test-for-seniors/"
+    },
+    {
+      "id": "p062",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-adultos-mayores",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-adultos-mayores/"
+    },
+    {
+      "id": "p062",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-personnes-agees",
+      "url": "https://freecognitivetest.org/fr/test-memoire-personnes-agees/"
+    },
+    {
+      "id": "p063",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-adults",
+      "url": "https://freecognitivetest.org/memory-test-for-adults/"
+    },
+    {
+      "id": "p063",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-adultos",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-adultos/"
+    },
+    {
+      "id": "p063",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-adultes-actifs",
+      "url": "https://freecognitivetest.org/fr/test-memoire-adultes-actifs/"
+    },
+    {
+      "id": "p064",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-kids-teens",
+      "url": "https://freecognitivetest.org/memory-test-for-kids-teens/"
+    },
+    {
+      "id": "p064",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-ninos-adolescentes",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-ninos-adolescentes/"
+    },
+    {
+      "id": "p064",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-enfants-ados",
+      "url": "https://freecognitivetest.org/fr/test-memoire-enfants-ados/"
+    },
+    {
+      "id": "p065",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-elderly",
+      "url": "https://freecognitivetest.org/memory-test-for-elderly/"
+    },
+    {
+      "id": "p065",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-ancianos",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-ancianos/"
+    },
+    {
+      "id": "p065",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-aines",
+      "url": "https://freecognitivetest.org/fr/test-memoire-aines/"
+    },
+    {
+      "id": "p066",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-caregivers",
+      "url": "https://freecognitivetest.org/memory-test-for-caregivers/"
+    },
+    {
+      "id": "p066",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-cuidadores",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-cuidadores/"
+    },
+    {
+      "id": "p066",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-aidants",
+      "url": "https://freecognitivetest.org/fr/test-memoire-aidants/"
+    },
+    {
+      "id": "p067",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-nurses",
+      "url": "https://freecognitivetest.org/memory-test-for-nurses/"
+    },
+    {
+      "id": "p067",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-enfermeria",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-enfermeria/"
+    },
+    {
+      "id": "p067",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-soins-infirmiers",
+      "url": "https://freecognitivetest.org/fr/test-memoire-soins-infirmiers/"
+    },
+    {
+      "id": "p068",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-students",
+      "url": "https://freecognitivetest.org/memory-test-for-students/"
+    },
+    {
+      "id": "p068",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-estudiantes",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-estudiantes/"
+    },
+    {
+      "id": "p068",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-etudiants",
+      "url": "https://freecognitivetest.org/fr/test-memoire-etudiants/"
+    },
+    {
+      "id": "p069",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-mci-follow-up",
+      "url": "https://freecognitivetest.org/memory-test-for-mci-follow-up/"
+    },
+    {
+      "id": "p069",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-dcl-seguimiento",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-dcl-seguimiento/"
+    },
+    {
+      "id": "p069",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-mci-suivi",
+      "url": "https://freecognitivetest.org/fr/test-memoire-mci-suivi/"
+    },
+    {
+      "id": "p070",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-post-stroke",
+      "url": "https://freecognitivetest.org/memory-test-for-post-stroke/"
+    },
+    {
+      "id": "p070",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-post-ictus",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-post-ictus/"
+    },
+    {
+      "id": "p070",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-post-avc",
+      "url": "https://freecognitivetest.org/fr/test-memoire-post-avc/"
+    },
+    {
+      "id": "p071",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-parkinsons",
+      "url": "https://freecognitivetest.org/memory-test-for-parkinsons/"
+    },
+    {
+      "id": "p071",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-parkinson",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-parkinson/"
+    },
+    {
+      "id": "p071",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-parkinson",
+      "url": "https://freecognitivetest.org/fr/test-memoire-parkinson/"
+    },
+    {
+      "id": "p072",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-ms-education",
+      "url": "https://freecognitivetest.org/memory-test-for-ms-education/"
+    },
+    {
+      "id": "p072",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-esclerosis-multiple",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-esclerosis-multiple/"
+    },
+    {
+      "id": "p072",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-sclerose-en-plaques",
+      "url": "https://freecognitivetest.org/fr/test-memoire-sclerose-en-plaques/"
+    },
+    {
+      "id": "p073",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-adhd-screening-context",
+      "url": "https://freecognitivetest.org/memory-test-for-adhd-screening-context/"
+    },
+    {
+      "id": "p073",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-tdah-contexto",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-tdah-contexto/"
+    },
+    {
+      "id": "p073",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-tdah-depistage",
+      "url": "https://freecognitivetest.org/fr/test-memoire-tdah-depistage/"
+    },
+    {
+      "id": "p074",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-depression-brain-fog",
+      "url": "https://freecognitivetest.org/memory-test-for-depression-brain-fog/"
+    },
+    {
+      "id": "p074",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-depresion-niebla",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-depresion-niebla/"
+    },
+    {
+      "id": "p074",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-depression-brouillard",
+      "url": "https://freecognitivetest.org/fr/test-memoire-depression-brouillard/"
+    },
+    {
+      "id": "p075",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-anxiety-test-anxiety",
+      "url": "https://freecognitivetest.org/memory-test-for-anxiety-test-anxiety/"
+    },
+    {
+      "id": "p075",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-ansiedad-examen",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-ansiedad-examen/"
+    },
+    {
+      "id": "p075",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-anxiete-test",
+      "url": "https://freecognitivetest.org/fr/test-memoire-anxiete-test/"
+    },
+    {
+      "id": "p076",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-bilingual-adults",
+      "url": "https://freecognitivetest.org/memory-test-for-bilingual-adults/"
+    },
+    {
+      "id": "p076",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-bilingues",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-bilingues/"
+    },
+    {
+      "id": "p076",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-bilingues",
+      "url": "https://freecognitivetest.org/fr/test-memoire-bilingues/"
+    },
+    {
+      "id": "p077",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-low-literacy-friendly",
+      "url": "https://freecognitivetest.org/memory-test-for-low-literacy-friendly/"
+    },
+    {
+      "id": "p077",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-baja-alfabetizacion",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-baja-alfabetizacion/"
+    },
+    {
+      "id": "p077",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-faible-litteratie",
+      "url": "https://freecognitivetest.org/fr/test-memoire-faible-litteratie/"
+    },
+    {
+      "id": "p078",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-remote-telehealth",
+      "url": "https://freecognitivetest.org/memory-test-for-remote-telehealth/"
+    },
+    {
+      "id": "p078",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-telemedicina",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-telemedicina/"
+    },
+    {
+      "id": "p078",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-telemedecine",
+      "url": "https://freecognitivetest.org/fr/test-memoire-telemedecine/"
+    },
+    {
+      "id": "p079",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-primary-care",
+      "url": "https://freecognitivetest.org/memory-test-for-primary-care/"
+    },
+    {
+      "id": "p079",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-atencion-primaria",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-atencion-primaria/"
+    },
+    {
+      "id": "p079",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-soins-primaires",
+      "url": "https://freecognitivetest.org/fr/test-memoire-soins-primaires/"
+    },
+    {
+      "id": "p080",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-occupational-health",
+      "url": "https://freecognitivetest.org/memory-test-for-occupational-health/"
+    },
+    {
+      "id": "p080",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-salud-laboral",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-salud-laboral/"
+    },
+    {
+      "id": "p080",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-sante-travail",
+      "url": "https://freecognitivetest.org/fr/test-memoire-sante-travail/"
+    },
+    {
+      "id": "p081",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-drivers-medical",
+      "url": "https://freecognitivetest.org/memory-test-for-drivers-medical/"
+    },
+    {
+      "id": "p081",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-conduccion-medica",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-conduccion-medica/"
+    },
+    {
+      "id": "p081",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-conduite-medicale",
+      "url": "https://freecognitivetest.org/fr/test-memoire-conduite-medicale/"
+    },
+    {
+      "id": "p082",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-attorneys-capacity-edu",
+      "url": "https://freecognitivetest.org/memory-test-for-attorneys-capacity-edu/"
+    },
+    {
+      "id": "p082",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-capacidad-juridica",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-capacidad-juridica/"
+    },
+    {
+      "id": "p082",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-capacite-juridique",
+      "url": "https://freecognitivetest.org/fr/test-memoire-capacite-juridique/"
+    },
+    {
+      "id": "p083",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-athletes-concussion-edu",
+      "url": "https://freecognitivetest.org/memory-test-for-athletes-concussion-edu/"
+    },
+    {
+      "id": "p083",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-conmocion",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-conmocion/"
+    },
+    {
+      "id": "p083",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-commotion",
+      "url": "https://freecognitivetest.org/fr/test-memoire-commotion/"
+    },
+    {
+      "id": "p084",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-musicians-memory",
+      "url": "https://freecognitivetest.org/memory-test-for-musicians-memory/"
+    },
+    {
+      "id": "p084",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-musicos",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-musicos/"
+    },
+    {
+      "id": "p084",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-musiciens",
+      "url": "https://freecognitivetest.org/fr/test-memoire-musiciens/"
+    },
+    {
+      "id": "p085",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-programmers-focus",
+      "url": "https://freecognitivetest.org/memory-test-for-programmers-focus/"
+    },
+    {
+      "id": "p085",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-desarrolladores",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-desarrolladores/"
+    },
+    {
+      "id": "p085",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-developpeurs",
+      "url": "https://freecognitivetest.org/fr/test-memoire-developpeurs/"
+    },
+    {
+      "id": "p086",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-shift-workers",
+      "url": "https://freecognitivetest.org/memory-test-for-shift-workers/"
+    },
+    {
+      "id": "p086",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-trabajo-turnos",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-trabajo-turnos/"
+    },
+    {
+      "id": "p086",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-travail-poste",
+      "url": "https://freecognitivetest.org/fr/test-memoire-travail-poste/"
+    },
+    {
+      "id": "p087",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-older-drivers",
+      "url": "https://freecognitivetest.org/memory-test-for-older-drivers/"
+    },
+    {
+      "id": "p087",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-conductores-mayores",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-conductores-mayores/"
+    },
+    {
+      "id": "p087",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-conducteurs-seniors",
+      "url": "https://freecognitivetest.org/fr/test-memoire-conducteurs-seniors/"
+    },
+    {
+      "id": "p088",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-hearing-loss-screening",
+      "url": "https://freecognitivetest.org/memory-test-for-hearing-loss-screening/"
+    },
+    {
+      "id": "p088",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-hipoacusia",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-hipoacusia/"
+    },
+    {
+      "id": "p088",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-presbyacousie",
+      "url": "https://freecognitivetest.org/fr/test-memoire-presbyacousie/"
+    },
+    {
+      "id": "p089",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-vision-loss-screening",
+      "url": "https://freecognitivetest.org/memory-test-for-vision-loss-screening/"
+    },
+    {
+      "id": "p089",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-baja-vision",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-baja-vision/"
+    },
+    {
+      "id": "p089",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-basse-vision",
+      "url": "https://freecognitivetest.org/fr/test-memoire-basse-vision/"
+    },
+    {
+      "id": "p090",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-diabetes-clinics",
+      "url": "https://freecognitivetest.org/memory-test-for-diabetes-clinics/"
+    },
+    {
+      "id": "p090",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-diabetes-clinicas",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-diabetes-clinicas/"
+    },
+    {
+      "id": "p090",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-diabete-cliniques",
+      "url": "https://freecognitivetest.org/fr/test-memoire-diabete-cliniques/"
+    },
+    {
+      "id": "p091",
+      "lang": "en",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "memory-test-for-cardiac-rehab",
+      "url": "https://freecognitivetest.org/memory-test-for-cardiac-rehab/"
+    },
+    {
+      "id": "p091",
+      "lang": "es",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "prueba-memoria-rehab-cardiaca",
+      "url": "https://freecognitivetest.org/es/prueba-memoria-rehab-cardiaca/"
+    },
+    {
+      "id": "p091",
+      "lang": "fr",
+      "cluster": "tests_audience",
+      "silo": "memory_tests",
+      "slug": "test-memoire-rehab-cardiaque",
+      "url": "https://freecognitivetest.org/fr/test-memoire-rehab-cardiaque/"
+    },
+    {
+      "id": "p092",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "signs-of-memory-loss",
+      "url": "https://freecognitivetest.org/signs-of-memory-loss/"
+    },
+    {
+      "id": "p092",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "signos-perdida-memoria",
+      "url": "https://freecognitivetest.org/es/signos-perdida-memoria/"
+    },
+    {
+      "id": "p092",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "signes-perte-memoire",
+      "url": "https://freecognitivetest.org/fr/signes-perte-memoire/"
+    },
+    {
+      "id": "p093",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "dementia",
+      "slug": "early-signs-of-dementia",
+      "url": "https://freecognitivetest.org/early-signs-of-dementia/"
+    },
+    {
+      "id": "p093",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "dementia",
+      "slug": "sintomas-demencia-temprana",
+      "url": "https://freecognitivetest.org/es/sintomas-demencia-temprana/"
+    },
+    {
+      "id": "p093",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "dementia",
+      "slug": "signes-precoce-demence",
+      "url": "https://freecognitivetest.org/fr/signes-precoce-demence/"
+    },
+    {
+      "id": "p094",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "why-forgetting-things",
+      "url": "https://freecognitivetest.org/why-forgetting-things/"
+    },
+    {
+      "id": "p094",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "por-que-olvido",
+      "url": "https://freecognitivetest.org/es/por-que-olvido/"
+    },
+    {
+      "id": "p094",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "pourquoi-j-oublie",
+      "url": "https://freecognitivetest.org/fr/pourquoi-j-oublie/"
+    },
+    {
+      "id": "p095",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "short-term-memory-slips",
+      "url": "https://freecognitivetest.org/short-term-memory-slips/"
+    },
+    {
+      "id": "p095",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "fallos-memoria-corto-plazo",
+      "url": "https://freecognitivetest.org/es/fallos-memoria-corto-plazo/"
+    },
+    {
+      "id": "p095",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "troubles-memoire-court-terme",
+      "url": "https://freecognitivetest.org/fr/troubles-memoire-court-terme/"
+    },
+    {
+      "id": "p096",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "word-finding-problems",
+      "url": "https://freecognitivetest.org/word-finding-problems/"
+    },
+    {
+      "id": "p096",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "dificultad-palabras",
+      "url": "https://freecognitivetest.org/es/dificultad-palabras/"
+    },
+    {
+      "id": "p096",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "trouver-mots",
+      "url": "https://freecognitivetest.org/fr/trouver-mots/"
+    },
+    {
+      "id": "p097",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "getting-lost-familiar-places",
+      "url": "https://freecognitivetest.org/getting-lost-familiar-places/"
+    },
+    {
+      "id": "p097",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "perderse-lugares-conocidos",
+      "url": "https://freecognitivetest.org/es/perderse-lugares-conocidos/"
+    },
+    {
+      "id": "p097",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "se-perdre-familier",
+      "url": "https://freecognitivetest.org/fr/se-perdre-familier/"
+    },
+    {
+      "id": "p098",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "repeating-questions",
+      "url": "https://freecognitivetest.org/repeating-questions/"
+    },
+    {
+      "id": "p098",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "repetir-preguntas",
+      "url": "https://freecognitivetest.org/es/repetir-preguntas/"
+    },
+    {
+      "id": "p098",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "repeter-questions",
+      "url": "https://freecognitivetest.org/fr/repeter-questions/"
+    },
+    {
+      "id": "p099",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "misplacing-objects-daily",
+      "url": "https://freecognitivetest.org/misplacing-objects-daily/"
+    },
+    {
+      "id": "p099",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "extraviar-objetos",
+      "url": "https://freecognitivetest.org/es/extraviar-objetos/"
+    },
+    {
+      "id": "p099",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "egarer-objets",
+      "url": "https://freecognitivetest.org/fr/egarer-objets/"
+    },
+    {
+      "id": "p100",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "confusion-with-time",
+      "url": "https://freecognitivetest.org/confusion-with-time/"
+    },
+    {
+      "id": "p100",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "confusion-tiempo",
+      "url": "https://freecognitivetest.org/es/confusion-tiempo/"
+    },
+    {
+      "id": "p100",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "confusion-temps",
+      "url": "https://freecognitivetest.org/fr/confusion-temps/"
+    },
+    {
+      "id": "p101",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "mood-changes-thinking",
+      "url": "https://freecognitivetest.org/mood-changes-thinking/"
+    },
+    {
+      "id": "p101",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "cambios-animo-cognicion",
+      "url": "https://freecognitivetest.org/es/cambios-animo-cognicion/"
+    },
+    {
+      "id": "p101",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "humeur-cognition",
+      "url": "https://freecognitivetest.org/fr/humeur-cognition/"
+    },
+    {
+      "id": "p102",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "sleep-deprivation-memory",
+      "url": "https://freecognitivetest.org/sleep-deprivation-memory/"
+    },
+    {
+      "id": "p102",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "falta-sueno-memoria",
+      "url": "https://freecognitivetest.org/es/falta-sueno-memoria/"
+    },
+    {
+      "id": "p102",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "manque-sommeil-memoire",
+      "url": "https://freecognitivetest.org/fr/manque-sommeil-memoire/"
+    },
+    {
+      "id": "p103",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "stress-burnout-brain-fog",
+      "url": "https://freecognitivetest.org/stress-burnout-brain-fog/"
+    },
+    {
+      "id": "p103",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "estres-niebla-mental",
+      "url": "https://freecognitivetest.org/es/estres-niebla-mental/"
+    },
+    {
+      "id": "p103",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "stress-brouillard",
+      "url": "https://freecognitivetest.org/fr/stress-brouillard/"
+    },
+    {
+      "id": "p104",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "depression-memory-concentration",
+      "url": "https://freecognitivetest.org/depression-memory-concentration/"
+    },
+    {
+      "id": "p104",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "depresion-concentracion",
+      "url": "https://freecognitivetest.org/es/depresion-concentracion/"
+    },
+    {
+      "id": "p104",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "depression-concentration",
+      "url": "https://freecognitivetest.org/fr/depression-concentration/"
+    },
+    {
+      "id": "p105",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "vitamin-deficiency-memory",
+      "url": "https://freecognitivetest.org/vitamin-deficiency-memory/"
+    },
+    {
+      "id": "p105",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "nutricion-cognicion",
+      "url": "https://freecognitivetest.org/es/nutricion-cognicion/"
+    },
+    {
+      "id": "p105",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "nutrition-cognition",
+      "url": "https://freecognitivetest.org/fr/nutrition-cognition/"
+    },
+    {
+      "id": "p106",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "thyroid-memory-symptoms",
+      "url": "https://freecognitivetest.org/thyroid-memory-symptoms/"
+    },
+    {
+      "id": "p106",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "tiroides-memoria",
+      "url": "https://freecognitivetest.org/es/tiroides-memoria/"
+    },
+    {
+      "id": "p106",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "thyroide-memoire",
+      "url": "https://freecognitivetest.org/fr/thyroide-memoire/"
+    },
+    {
+      "id": "p107",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "medication-side-effects-memory",
+      "url": "https://freecognitivetest.org/medication-side-effects-memory/"
+    },
+    {
+      "id": "p107",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "medicamentos-memoria",
+      "url": "https://freecognitivetest.org/es/medicamentos-memoria/"
+    },
+    {
+      "id": "p107",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "medicaments-memoire",
+      "url": "https://freecognitivetest.org/fr/medicaments-memoire/"
+    },
+    {
+      "id": "p108",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "uti-delirium-seniors",
+      "url": "https://freecognitivetest.org/uti-delirium-seniors/"
+    },
+    {
+      "id": "p108",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "itu-confusion",
+      "url": "https://freecognitivetest.org/es/itu-confusion/"
+    },
+    {
+      "id": "p108",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "infection-urinaire-confusion",
+      "url": "https://freecognitivetest.org/fr/infection-urinaire-confusion/"
+    },
+    {
+      "id": "p109",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "sudden-memory-loss",
+      "url": "https://freecognitivetest.org/sudden-memory-loss/"
+    },
+    {
+      "id": "p109",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "perdida-memoria-repentina",
+      "url": "https://freecognitivetest.org/es/perdida-memoria-repentina/"
+    },
+    {
+      "id": "p109",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "perte-memoire-soudaine",
+      "url": "https://freecognitivetest.org/fr/perte-memoire-soudaine/"
+    },
+    {
+      "id": "p110",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "visual-hallucinations-memory",
+      "url": "https://freecognitivetest.org/visual-hallucinations-memory/"
+    },
+    {
+      "id": "p110",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "vision-cognicion",
+      "url": "https://freecognitivetest.org/es/vision-cognicion/"
+    },
+    {
+      "id": "p110",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "vision-cognition",
+      "url": "https://freecognitivetest.org/fr/vision-cognition/"
+    },
+    {
+      "id": "p111",
+      "lang": "en",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "hearing-loss-social-withdrawal",
+      "url": "https://freecognitivetest.org/hearing-loss-social-withdrawal/"
+    },
+    {
+      "id": "p111",
+      "lang": "es",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "audicion-aislamiento",
+      "url": "https://freecognitivetest.org/es/audicion-aislamiento/"
+    },
+    {
+      "id": "p111",
+      "lang": "fr",
+      "cluster": "symptoms",
+      "silo": "cognitive_health",
+      "slug": "audition-retrait",
+      "url": "https://freecognitivetest.org/fr/audition-retrait/"
+    },
+    {
+      "id": "p112",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-improve-memory-naturally",
+      "url": "https://freecognitivetest.org/how-to-improve-memory-naturally/"
+    },
+    {
+      "id": "p112",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "como-mejorar-memoria-natural",
+      "url": "https://freecognitivetest.org/es/como-mejorar-memoria-natural/"
+    },
+    {
+      "id": "p112",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ameliorer-memoire-naturellement",
+      "url": "https://freecognitivetest.org/fr/ameliorer-memoire-naturellement/"
+    },
+    {
+      "id": "p113",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "memory_tests",
+      "slug": "how-to-test-memory-at-home",
+      "url": "https://freecognitivetest.org/how-to-test-memory-at-home/"
+    },
+    {
+      "id": "p113",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "memory_tests",
+      "slug": "como-evaluar-memoria-casa",
+      "url": "https://freecognitivetest.org/es/como-evaluar-memoria-casa/"
+    },
+    {
+      "id": "p113",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "memory_tests",
+      "slug": "tester-memoire-maison",
+      "url": "https://freecognitivetest.org/fr/tester-memoire-maison/"
+    },
+    {
+      "id": "p114",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-prevent-cognitive-decline",
+      "url": "https://freecognitivetest.org/how-to-prevent-cognitive-decline/"
+    },
+    {
+      "id": "p114",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "como-prevenir-deterioro-cognitivo",
+      "url": "https://freecognitivetest.org/es/como-prevenir-deterioro-cognitivo/"
+    },
+    {
+      "id": "p114",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "prevenir-declin-cognitif",
+      "url": "https://freecognitivetest.org/fr/prevenir-declin-cognitif/"
+    },
+    {
+      "id": "p115",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-build-brain-healthy-habits",
+      "url": "https://freecognitivetest.org/how-to-build-brain-healthy-habits/"
+    },
+    {
+      "id": "p115",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "habitos-cerebro-saludable",
+      "url": "https://freecognitivetest.org/es/habitos-cerebro-saludable/"
+    },
+    {
+      "id": "p115",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "habitudes-cerveau-sain",
+      "url": "https://freecognitivetest.org/fr/habitudes-cerveau-sain/"
+    },
+    {
+      "id": "p116",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-read-memory-test-results",
+      "url": "https://freecognitivetest.org/how-to-read-memory-test-results/"
+    },
+    {
+      "id": "p116",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "interpretar-resultados-memoria",
+      "url": "https://freecognitivetest.org/es/interpretar-resultados-memoria/"
+    },
+    {
+      "id": "p116",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "lire-resultats-memoire",
+      "url": "https://freecognitivetest.org/fr/lire-resultats-memoire/"
+    },
+    {
+      "id": "p117",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-talk-to-doctor-memory",
+      "url": "https://freecognitivetest.org/how-to-talk-to-doctor-memory/"
+    },
+    {
+      "id": "p117",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "hablar-medico-memoria",
+      "url": "https://freecognitivetest.org/es/hablar-medico-memoria/"
+    },
+    {
+      "id": "p117",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "parler-medecin-memoire",
+      "url": "https://freecognitivetest.org/fr/parler-medecin-memoire/"
+    },
+    {
+      "id": "p118",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-support-spouse-memory-changes",
+      "url": "https://freecognitivetest.org/how-to-support-spouse-memory-changes/"
+    },
+    {
+      "id": "p118",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "apoyo-pareja-memoria",
+      "url": "https://freecognitivetest.org/es/apoyo-pareja-memoria/"
+    },
+    {
+      "id": "p118",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "soutien-conjoint-memoire",
+      "url": "https://freecognitivetest.org/fr/soutien-conjoint-memoire/"
+    },
+    {
+      "id": "p119",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-choose-brain-apps",
+      "url": "https://freecognitivetest.org/how-to-choose-brain-apps/"
+    },
+    {
+      "id": "p119",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "elegir-apps-cerebro",
+      "url": "https://freecognitivetest.org/es/elegir-apps-cerebro/"
+    },
+    {
+      "id": "p119",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "choisir-apps-cerveau",
+      "url": "https://freecognitivetest.org/fr/choisir-apps-cerveau/"
+    },
+    {
+      "id": "p120",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-spaced-repetition",
+      "url": "https://freecognitivetest.org/how-to-use-spaced-repetition/"
+    },
+    {
+      "id": "p120",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "repeticion-espaciada",
+      "url": "https://freecognitivetest.org/es/repeticion-espaciada/"
+    },
+    {
+      "id": "p120",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "repetition-espacee",
+      "url": "https://freecognitivetest.org/fr/repetition-espacee/"
+    },
+    {
+      "id": "p121",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-sleep-better-for-memory",
+      "url": "https://freecognitivetest.org/how-to-sleep-better-for-memory/"
+    },
+    {
+      "id": "p121",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "dormir-mejor-memoria",
+      "url": "https://freecognitivetest.org/es/dormir-mejor-memoria/"
+    },
+    {
+      "id": "p121",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "mieux-dormir-memoire",
+      "url": "https://freecognitivetest.org/fr/mieux-dormir-memoire/"
+    },
+    {
+      "id": "p122",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-exercise-for-brain-health",
+      "url": "https://freecognitivetest.org/how-to-exercise-for-brain-health/"
+    },
+    {
+      "id": "p122",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ejercicio-salud-cerebral",
+      "url": "https://freecognitivetest.org/es/ejercicio-salud-cerebral/"
+    },
+    {
+      "id": "p122",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "sport-sante-cerebrale",
+      "url": "https://freecognitivetest.org/fr/sport-sante-cerebrale/"
+    },
+    {
+      "id": "p123",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-reduce-stress-for-focus",
+      "url": "https://freecognitivetest.org/how-to-reduce-stress-for-focus/"
+    },
+    {
+      "id": "p123",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "reducir-estres-atencion",
+      "url": "https://freecognitivetest.org/es/reducir-estres-atencion/"
+    },
+    {
+      "id": "p123",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "reduire-stress-attention",
+      "url": "https://freecognitivetest.org/fr/reduire-stress-attention/"
+    },
+    {
+      "id": "p124",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-eat-mind-diet-basics",
+      "url": "https://freecognitivetest.org/how-to-eat-mind-diet-basics/"
+    },
+    {
+      "id": "p124",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "dieta-mind-basico",
+      "url": "https://freecognitivetest.org/es/dieta-mind-basico/"
+    },
+    {
+      "id": "p124",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "regime-mind-debutant",
+      "url": "https://freecognitivetest.org/fr/regime-mind-debutant/"
+    },
+    {
+      "id": "p125",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-stay-socially-connected-aging",
+      "url": "https://freecognitivetest.org/how-to-stay-socially-connected-aging/"
+    },
+    {
+      "id": "p125",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "conexion-social-envejecer",
+      "url": "https://freecognitivetest.org/es/conexion-social-envejecer/"
+    },
+    {
+      "id": "p125",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "lien-social-vieillir",
+      "url": "https://freecognitivetest.org/fr/lien-social-vieillir/"
+    },
+    {
+      "id": "p126",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-manage-multiple-medications",
+      "url": "https://freecognitivetest.org/how-to-manage-multiple-medications/"
+    },
+    {
+      "id": "p126",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "polifarmacia-segura",
+      "url": "https://freecognitivetest.org/es/polifarmacia-segura/"
+    },
+    {
+      "id": "p126",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "polymedicament-securite",
+      "url": "https://freecognitivetest.org/fr/polymedicament-securite/"
+    },
+    {
+      "id": "p127",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-plan-for-memory-evaluation",
+      "url": "https://freecognitivetest.org/how-to-plan-for-memory-evaluation/"
+    },
+    {
+      "id": "p127",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "preparar-evaluacion-memoria",
+      "url": "https://freecognitivetest.org/es/preparar-evaluacion-memoria/"
+    },
+    {
+      "id": "p127",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "preparer-evaluation-memoire",
+      "url": "https://freecognitivetest.org/fr/preparer-evaluation-memoire/"
+    },
+    {
+      "id": "p128",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-external-memory-aids",
+      "url": "https://freecognitivetest.org/how-to-use-external-memory-aids/"
+    },
+    {
+      "id": "p128",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ayudas-externas-memoria",
+      "url": "https://freecognitivetest.org/es/ayudas-externas-memoria/"
+    },
+    {
+      "id": "p128",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "aides-externes-memoire",
+      "url": "https://freecognitivetest.org/fr/aides-externes-memoire/"
+    },
+    {
+      "id": "p129",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-balance-screen-time-brain",
+      "url": "https://freecognitivetest.org/how-to-balance-screen-time-brain/"
+    },
+    {
+      "id": "p129",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "pantallas-cognicion",
+      "url": "https://freecognitivetest.org/es/pantallas-cognicion/"
+    },
+    {
+      "id": "p129",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ecrans-cognition",
+      "url": "https://freecognitivetest.org/fr/ecrans-cognition/"
+    },
+    {
+      "id": "p130",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-learn-a-language-memory",
+      "url": "https://freecognitivetest.org/how-to-learn-a-language-memory/"
+    },
+    {
+      "id": "p130",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "idiomas-memoria",
+      "url": "https://freecognitivetest.org/es/idiomas-memoria/"
+    },
+    {
+      "id": "p130",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "langues-memoire",
+      "url": "https://freecognitivetest.org/fr/langues-memoire/"
+    },
+    {
+      "id": "p131",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-remember-names-better",
+      "url": "https://freecognitivetest.org/how-to-remember-names-better/"
+    },
+    {
+      "id": "p131",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "recordar-nombres-mejor",
+      "url": "https://freecognitivetest.org/es/recordar-nombres-mejor/"
+    },
+    {
+      "id": "p131",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "retenir-noms",
+      "url": "https://freecognitivetest.org/fr/retenir-noms/"
+    },
+    {
+      "id": "p132",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-remember-appointments",
+      "url": "https://freecognitivetest.org/how-to-remember-appointments/"
+    },
+    {
+      "id": "p132",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "recordar-citas",
+      "url": "https://freecognitivetest.org/es/recordar-citas/"
+    },
+    {
+      "id": "p132",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "souvenir-rendez-vous",
+      "url": "https://freecognitivetest.org/fr/souvenir-rendez-vous/"
+    },
+    {
+      "id": "p133",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-paper-planners-memory",
+      "url": "https://freecognitivetest.org/how-to-use-paper-planners-memory/"
+    },
+    {
+      "id": "p133",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "agenda-papel-memoria",
+      "url": "https://freecognitivetest.org/es/agenda-papel-memoria/"
+    },
+    {
+      "id": "p133",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "agenda-papier-memoire",
+      "url": "https://freecognitivetest.org/fr/agenda-papier-memoire/"
+    },
+    {
+      "id": "p134",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-prioritize-tasks-brain-fog",
+      "url": "https://freecognitivetest.org/how-to-prioritize-tasks-brain-fog/"
+    },
+    {
+      "id": "p134",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "priorizar-niebla-mental",
+      "url": "https://freecognitivetest.org/es/priorizar-niebla-mental/"
+    },
+    {
+      "id": "p134",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "prioriser-brouillard",
+      "url": "https://freecognitivetest.org/fr/prioriser-brouillard/"
+    },
+    {
+      "id": "p135",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-break-bad-phone-habits",
+      "url": "https://freecognitivetest.org/how-to-break-bad-phone-habits/"
+    },
+    {
+      "id": "p135",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "romper-habitos-movil",
+      "url": "https://freecognitivetest.org/es/romper-habitos-movil/"
+    },
+    {
+      "id": "p135",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "limiter-telephone-attention",
+      "url": "https://freecognitivetest.org/fr/limiter-telephone-attention/"
+    },
+    {
+      "id": "p136",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-train-auditory-memory",
+      "url": "https://freecognitivetest.org/how-to-train-auditory-memory/"
+    },
+    {
+      "id": "p136",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "memoria-auditiva-entrenar",
+      "url": "https://freecognitivetest.org/es/memoria-auditiva-entrenar/"
+    },
+    {
+      "id": "p136",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "memoire-auditive-entrainer",
+      "url": "https://freecognitivetest.org/fr/memoire-auditive-entrainer/"
+    },
+    {
+      "id": "p137",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-train-visual-memory",
+      "url": "https://freecognitivetest.org/how-to-train-visual-memory/"
+    },
+    {
+      "id": "p137",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "memoria-visual-entrenar",
+      "url": "https://freecognitivetest.org/es/memoria-visual-entrenar/"
+    },
+    {
+      "id": "p137",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "memoire-visuelle-entrainer",
+      "url": "https://freecognitivetest.org/fr/memoire-visuelle-entrainer/"
+    },
+    {
+      "id": "p138",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-mnemonics-safely",
+      "url": "https://freecognitivetest.org/how-to-use-mnemonics-safely/"
+    },
+    {
+      "id": "p138",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "mnemotecnia-segura",
+      "url": "https://freecognitivetest.org/es/mnemotecnia-segura/"
+    },
+    {
+      "id": "p138",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "mnemoniques-prudence",
+      "url": "https://freecognitivetest.org/fr/mnemoniques-prudence/"
+    },
+    {
+      "id": "p139",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-review-medications-with-doctor",
+      "url": "https://freecognitivetest.org/how-to-review-medications-with-doctor/"
+    },
+    {
+      "id": "p139",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "revision-medicamentos-memoria",
+      "url": "https://freecognitivetest.org/es/revision-medicamentos-memoria/"
+    },
+    {
+      "id": "p139",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "bilan-medicaments-memoire",
+      "url": "https://freecognitivetest.org/fr/bilan-medicaments-memoire/"
+    },
+    {
+      "id": "p140",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-prepare-for-memory-clinic",
+      "url": "https://freecognitivetest.org/how-to-prepare-for-memory-clinic/"
+    },
+    {
+      "id": "p140",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "preparar-clinica-memoria",
+      "url": "https://freecognitivetest.org/es/preparar-clinica-memoria/"
+    },
+    {
+      "id": "p140",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "preparer-clinique-memoire",
+      "url": "https://freecognitivetest.org/fr/preparer-clinique-memoire/"
+    },
+    {
+      "id": "p141",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-keep-a-symptom-diary",
+      "url": "https://freecognitivetest.org/how-to-keep-a-symptom-diary/"
+    },
+    {
+      "id": "p141",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "diario-sintomas-cognitivos",
+      "url": "https://freecognitivetest.org/es/diario-sintomas-cognitivos/"
+    },
+    {
+      "id": "p141",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "journal-symptomes-cognitifs",
+      "url": "https://freecognitivetest.org/fr/journal-symptomes-cognitifs/"
+    },
+    {
+      "id": "p142",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-ask-for-accommodations-work",
+      "url": "https://freecognitivetest.org/how-to-ask-for-accommodations-work/"
+    },
+    {
+      "id": "p142",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ajustes-trabajo-memoria",
+      "url": "https://freecognitivetest.org/es/ajustes-trabajo-memoria/"
+    },
+    {
+      "id": "p142",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "amenagements-travail-memoire",
+      "url": "https://freecognitivetest.org/fr/amenagements-travail-memoire/"
+    },
+    {
+      "id": "p143",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-support-parent-memory-changes",
+      "url": "https://freecognitivetest.org/how-to-support-parent-memory-changes/"
+    },
+    {
+      "id": "p143",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "apoyo-padres-memoria",
+      "url": "https://freecognitivetest.org/es/apoyo-padres-memoria/"
+    },
+    {
+      "id": "p143",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "soutien-parents-memoire",
+      "url": "https://freecognitivetest.org/fr/soutien-parents-memoire/"
+    },
+    {
+      "id": "p144",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-coordinate-family-care",
+      "url": "https://freecognitivetest.org/how-to-coordinate-family-care/"
+    },
+    {
+      "id": "p144",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "coordinar-familia-memoria",
+      "url": "https://freecognitivetest.org/es/coordinar-familia-memoria/"
+    },
+    {
+      "id": "p144",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "coordonner-famille-memoire",
+      "url": "https://freecognitivetest.org/fr/coordonner-famille-memoire/"
+    },
+    {
+      "id": "p145",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-choose-hearing-aids-cognition",
+      "url": "https://freecognitivetest.org/how-to-choose-hearing-aids-cognition/"
+    },
+    {
+      "id": "p145",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "audifonos-cognicion",
+      "url": "https://freecognitivetest.org/es/audifonos-cognicion/"
+    },
+    {
+      "id": "p145",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "appareils-audition-cognition",
+      "url": "https://freecognitivetest.org/fr/appareils-audition-cognition/"
+    },
+    {
+      "id": "p146",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-walk-daily-for-brain-health",
+      "url": "https://freecognitivetest.org/how-to-walk-daily-for-brain-health/"
+    },
+    {
+      "id": "p146",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "caminar-diario-cerebro",
+      "url": "https://freecognitivetest.org/es/caminar-diario-cerebro/"
+    },
+    {
+      "id": "p146",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "marche-quotidienne-cerveau",
+      "url": "https://freecognitivetest.org/fr/marche-quotidienne-cerveau/"
+    },
+    {
+      "id": "p147",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-limit-alcohol-for-memory",
+      "url": "https://freecognitivetest.org/how-to-limit-alcohol-for-memory/"
+    },
+    {
+      "id": "p147",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "limitar-alcohol-memoria",
+      "url": "https://freecognitivetest.org/es/limitar-alcohol-memoria/"
+    },
+    {
+      "id": "p147",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "limiter-alcool-memoire",
+      "url": "https://freecognitivetest.org/fr/limiter-alcool-memoire/"
+    },
+    {
+      "id": "p148",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-quit-smoking-brain-benefits",
+      "url": "https://freecognitivetest.org/how-to-quit-smoking-brain-benefits/"
+    },
+    {
+      "id": "p148",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "dejar-fumar-cognicion",
+      "url": "https://freecognitivetest.org/es/dejar-fumar-cognicion/"
+    },
+    {
+      "id": "p148",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "arreter-fumer-cognition",
+      "url": "https://freecognitivetest.org/fr/arreter-fumer-cognition/"
+    },
+    {
+      "id": "p149",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-manage-blood-pressure-brain",
+      "url": "https://freecognitivetest.org/how-to-manage-blood-pressure-brain/"
+    },
+    {
+      "id": "p149",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "tension-arterial-cognicion",
+      "url": "https://freecognitivetest.org/es/tension-arterial-cognicion/"
+    },
+    {
+      "id": "p149",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "tension-cognition",
+      "url": "https://freecognitivetest.org/fr/tension-cognition/"
+    },
+    {
+      "id": "p150",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-track-sleep-apnea-signs",
+      "url": "https://freecognitivetest.org/how-to-track-sleep-apnea-signs/"
+    },
+    {
+      "id": "p150",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "apnea-sueno-memoria",
+      "url": "https://freecognitivetest.org/es/apnea-sueno-memoria/"
+    },
+    {
+      "id": "p150",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "apnee-sommeil-memoire",
+      "url": "https://freecognitivetest.org/fr/apnee-sommeil-memoire/"
+    },
+    {
+      "id": "p151",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-light-for-mood-and-focus",
+      "url": "https://freecognitivetest.org/how-to-use-light-for-mood-and-focus/"
+    },
+    {
+      "id": "p151",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "luz-animo-atencion",
+      "url": "https://freecognitivetest.org/es/luz-animo-atencion/"
+    },
+    {
+      "id": "p151",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "lumiere-humeur-attention",
+      "url": "https://freecognitivetest.org/fr/lumiere-humeur-attention/"
+    },
+    {
+      "id": "p152",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-set-boundaries-to-reduce-stress",
+      "url": "https://freecognitivetest.org/how-to-set-boundaries-to-reduce-stress/"
+    },
+    {
+      "id": "p152",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "limites-estres-niebla",
+      "url": "https://freecognitivetest.org/es/limites-estres-niebla/"
+    },
+    {
+      "id": "p152",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "limites-stress-brouillard",
+      "url": "https://freecognitivetest.org/fr/limites-stress-brouillard/"
+    },
+    {
+      "id": "p153",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-practice-gratitude-without-toxic-positivity",
+      "url": "https://freecognitivetest.org/how-to-practice-gratitude-without-toxic-positivity/"
+    },
+    {
+      "id": "p153",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "gratitud-enfoque",
+      "url": "https://freecognitivetest.org/es/gratitud-enfoque/"
+    },
+    {
+      "id": "p153",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "gratitude-attention",
+      "url": "https://freecognitivetest.org/fr/gratitude-attention/"
+    },
+    {
+      "id": "p154",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-learn-skills-slowly-and-retain",
+      "url": "https://freecognitivetest.org/how-to-learn-skills-slowly-and-retain/"
+    },
+    {
+      "id": "p154",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "aprender-lento-retener",
+      "url": "https://freecognitivetest.org/es/aprender-lento-retener/"
+    },
+    {
+      "id": "p154",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "apprendre-lentement-retention",
+      "url": "https://freecognitivetest.org/fr/apprendre-lentement-retention/"
+    },
+    {
+      "id": "p155",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-calendars-with-reminders",
+      "url": "https://freecognitivetest.org/how-to-use-calendars-with-reminders/"
+    },
+    {
+      "id": "p155",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "calendarios-recordatorios",
+      "url": "https://freecognitivetest.org/es/calendarios-recordatorios/"
+    },
+    {
+      "id": "p155",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "calendriers-rappels",
+      "url": "https://freecognitivetest.org/fr/calendriers-rappels/"
+    },
+    {
+      "id": "p156",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-organize-digital-files-memory",
+      "url": "https://freecognitivetest.org/how-to-organize-digital-files-memory/"
+    },
+    {
+      "id": "p156",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "archivos-digitales-carga",
+      "url": "https://freecognitivetest.org/es/archivos-digitales-carga/"
+    },
+    {
+      "id": "p156",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "fichiers-numeriques-charge",
+      "url": "https://freecognitivetest.org/fr/fichiers-numeriques-charge/"
+    },
+    {
+      "id": "p157",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-batch-errands-for-mental-energy",
+      "url": "https://freecognitivetest.org/how-to-batch-errands-for-mental-energy/"
+    },
+    {
+      "id": "p157",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "mandados-por-lotes",
+      "url": "https://freecognitivetest.org/es/mandados-por-lotes/"
+    },
+    {
+      "id": "p157",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "courses-par-blocs",
+      "url": "https://freecognitivetest.org/fr/courses-par-blocs/"
+    },
+    {
+      "id": "p158",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-handle-correction-after-forgetting",
+      "url": "https://freecognitivetest.org/how-to-handle-correction-after-forgetting/"
+    },
+    {
+      "id": "p158",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "olvidar-importante-responder",
+      "url": "https://freecognitivetest.org/es/olvidar-importante-responder/"
+    },
+    {
+      "id": "p158",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "oubli-important-reagir",
+      "url": "https://freecognitivetest.org/fr/oubli-important-reagir/"
+    },
+    {
+      "id": "p159",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-talk-to-kids-about-grandparent-memory",
+      "url": "https://freecognitivetest.org/how-to-talk-to-kids-about-grandparent-memory/"
+    },
+    {
+      "id": "p159",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "nietos-explicar-memoria",
+      "url": "https://freecognitivetest.org/es/nietos-explicar-memoria/"
+    },
+    {
+      "id": "p159",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "petits-enfants-memoire",
+      "url": "https://freecognitivetest.org/fr/petits-enfants-memoire/"
+    },
+    {
+      "id": "p160",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-find-reputable-cognitive-resources",
+      "url": "https://freecognitivetest.org/how-to-find-reputable-cognitive-resources/"
+    },
+    {
+      "id": "p160",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "recursos-confiables-cognicion",
+      "url": "https://freecognitivetest.org/es/recursos-confiables-cognicion/"
+    },
+    {
+      "id": "p160",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ressources-fiables-cognition",
+      "url": "https://freecognitivetest.org/fr/ressources-fiables-cognition/"
+    },
+    {
+      "id": "p161",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-pace-cognitive-tasks-daily",
+      "url": "https://freecognitivetest.org/how-to-pace-cognitive-tasks-daily/"
+    },
+    {
+      "id": "p161",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "ritmo-tareas-cognitivas",
+      "url": "https://freecognitivetest.org/es/ritmo-tareas-cognitivas/"
+    },
+    {
+      "id": "p161",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "rythme-taches-cognitives",
+      "url": "https://freecognitivetest.org/fr/rythme-taches-cognitives/"
+    },
+    {
+      "id": "p162",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-use-timers-for-focus-blocks",
+      "url": "https://freecognitivetest.org/how-to-use-timers-for-focus-blocks/"
+    },
+    {
+      "id": "p162",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "temporizadores-bloques",
+      "url": "https://freecognitivetest.org/es/temporizadores-bloques/"
+    },
+    {
+      "id": "p162",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "minuteurs-blocs-attention",
+      "url": "https://freecognitivetest.org/fr/minuteurs-blocs-attention/"
+    },
+    {
+      "id": "p163",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-reduce-multitasking-costs",
+      "url": "https://freecognitivetest.org/how-to-reduce-multitasking-costs/"
+    },
+    {
+      "id": "p163",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "reducir-multitarea",
+      "url": "https://freecognitivetest.org/es/reducir-multitarea/"
+    },
+    {
+      "id": "p163",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "reduire-multitache",
+      "url": "https://freecognitivetest.org/fr/reduire-multitache/"
+    },
+    {
+      "id": "p164",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-build-a-sleep-wind-down",
+      "url": "https://freecognitivetest.org/how-to-build-a-sleep-wind-down/"
+    },
+    {
+      "id": "p164",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "rutina-descanso-memoria",
+      "url": "https://freecognitivetest.org/es/rutina-descanso-memoria/"
+    },
+    {
+      "id": "p164",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "routine-soir-memoire",
+      "url": "https://freecognitivetest.org/fr/routine-soir-memoire/"
+    },
+    {
+      "id": "p165",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-check-vision-and-cognition-links",
+      "url": "https://freecognitivetest.org/how-to-check-vision-and-cognition-links/"
+    },
+    {
+      "id": "p165",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "vision-vinculo-memoria",
+      "url": "https://freecognitivetest.org/es/vision-vinculo-memoria/"
+    },
+    {
+      "id": "p165",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "vision-lien-memoire",
+      "url": "https://freecognitivetest.org/fr/vision-lien-memoire/"
+    },
+    {
+      "id": "p166",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-ask-for-a-hearing-test",
+      "url": "https://freecognitivetest.org/how-to-ask-for-a-hearing-test/"
+    },
+    {
+      "id": "p166",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "pedir-audiometria-memoria",
+      "url": "https://freecognitivetest.org/es/pedir-audiometria-memoria/"
+    },
+    {
+      "id": "p166",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "demander-test-auditif-memoire",
+      "url": "https://freecognitivetest.org/fr/demander-test-auditif-memoire/"
+    },
+    {
+      "id": "p167",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-how-to-improve-memory-p0",
+      "url": "https://freecognitivetest.org/guide-how-to-improve-memory-p0/"
+    },
+    {
+      "id": "p167",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guia-como-mejorar-la-memoria-p0",
+      "url": "https://freecognitivetest.org/es/guia-como-mejorar-la-memoria-p0/"
+    },
+    {
+      "id": "p167",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-comment-ameliorer-la-memoire-p0",
+      "url": "https://freecognitivetest.org/fr/guide-comment-ameliorer-la-memoire-p0/"
+    },
+    {
+      "id": "p168",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-how-to-improve-memory-naturally-p1",
+      "url": "https://freecognitivetest.org/guide-how-to-improve-memory-naturally-p1/"
+    },
+    {
+      "id": "p168",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guia-como-mejorar-la-memoria-naturalmente-p1",
+      "url": "https://freecognitivetest.org/es/guia-como-mejorar-la-memoria-naturalmente-p1/"
+    },
+    {
+      "id": "p168",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-ameliorer-la-memoire-naturellement-p1",
+      "url": "https://freecognitivetest.org/fr/guide-ameliorer-la-memoire-naturellement-p1/"
+    },
+    {
+      "id": "p169",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-how-to-boost-memory-fast-p2",
+      "url": "https://freecognitivetest.org/guide-how-to-boost-memory-fast-p2/"
+    },
+    {
+      "id": "p169",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guia-como-potenciar-la-memoria-rapido-p2",
+      "url": "https://freecognitivetest.org/es/guia-como-potenciar-la-memoria-rapido-p2/"
+    },
+    {
+      "id": "p169",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "guide-renforcer-la-memoire-au-quotidien-p2",
+      "url": "https://freecognitivetest.org/fr/guide-renforcer-la-memoire-au-quotidien-p2/"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "causes": [
+    "Memory issues may be related to stress, aging, or lack of sleep.",
+    "Cognitive performance can decline due to fatigue or lifestyle factors.",
+    "Attention lapses often track with mood, hydration, and recovery time between tasks.",
+    "When sleep debt builds, encoding new information becomes harder for almost everyone."
+  ],
+  "benefits": [
+    "Regular training improves recall and attention.",
+    "Mental exercises support long-term cognitive health when paired with sleep and movement.",
+    "Short practice sessions can make unfamiliar cognitive tasks feel more manageable over time.",
+    "Steady habits tend to outperform occasional intense cramming for real-world thinking skills."
+  ],
+  "tips": [
+    "Practice daily recall exercises.",
+    "Use repetition and association techniques.",
+    "Reduce distractions for ten-minute focused blocks, then take a real break.",
+    "Link new facts to a story or place you already know well."
+  ],
+  "unique_line": {
+    "en": "This guide focuses specifically on {keyword}.",
+    "es": "Esta guía se centra específicamente en {keyword}.",
+    "fr": "Ce guide se concentre spécifiquement sur {keyword}."
+  },
+  "humanization": {
+    "en": [
+      "Many people notice changes in memory as they age.",
+      "It is common to wonder whether an off day means something serious—context usually matters more than one moment.",
+      "Readers often tell us they want practical steps, not fear-based headlines.",
+      "Small, repeatable actions tend to feel more realistic than all-or-nothing plans."
+    ],
+    "es": [
+      "Muchas personas notan cambios en la memoria con los años.",
+      "Es frecuente preguntarse si un mal día implica algo grave; el contexto suele importar más que un instante aislado.",
+      "Los lectores suelen buscar pasos prácticos, no titulares alarmistas.",
+      "Las acciones pequeñas y repetibles suelen ser más realistas que planes extremos."
+    ],
+    "fr": [
+      "Beaucoup de gens remarquent des changements de mémoire en vieillissant.",
+      "Il est courant de s’inquiéter après une journée difficile — le contexte compte souvent plus qu’un seul épisode.",
+      "Les lecteurs veulent souvent des gestes concrets, pas des titres anxiogènes.",
+      "De petites actions répétables sont souvent plus réalistes qu’un plan « tout ou rien »."
+    ]
+  },
+  "es": {
+    "causes": [
+      "Los problemas de memoria pueden relacionarse con estrés, envejecimiento o falta de sueño.",
+      "El rendimiento cognitivo puede bajar por fatiga, enfermedad intercurrente o factores de estilo de vida.",
+      "Los fallos de atención a menudo van con el estado de ánimo, la hidratación y el descanso entre tareas.",
+      "La deuda de sueño dificulta codificar información nueva en casi todas las personas."
+    ],
+    "benefits": [
+      "Entrenar con regularidad suele mejorar memoria y atención.",
+      "Los ejercicios mentales apoyan la salud cognitiva a largo plazo junto con sueño y movimiento.",
+      "Sesiones breves hacen que tareas cognitivas nuevas resulten más manejables con el tiempo.",
+      "Los hábitos constantes superan a las rachas intensas aisladas para habilidades del día a día."
+    ],
+    "tips": [
+      "Practique ejercicios de recuerdo a diario.",
+      "Use repetición y técnicas de asociación.",
+      "Reduzca distracciones en bloques de diez minutos y luego descanse de verdad.",
+      "Una nueva idea encaja mejor si la enlaza a una historia o lugar familiar."
+    ]
+  },
+  "fr": {
+    "causes": [
+      "Les troubles de mémoire peuvent être liés au stress, à l’âge ou au manque de sommeil.",
+      "Les performances cognitives peuvent baisser avec la fatigue ou le mode de vie.",
+      "Les écarts d’attention suivent souvent l’humeur, l’hydratation et le temps de récupération.",
+      "Un sommeil insuffisant rend l’encodage d’informations nouvelles plus difficile pour presque tout le monde."
+    ],
+    "benefits": [
+      "Un entraînement régulier améliore souvenir et attention.",
+      "Les exercices mentaux soutiennent la santé cognitive sur la durée avec sommeil et mouvement.",
+      "De courtes séances rendent les tâches nouvelles plus abordables avec le temps.",
+      "Des habitudes stables l’emportent souvent sur des efforts intenses mais espacés."
+    ],
+    "tips": [
+      "Pratiquez des exercices de rappel quotidiens.",
+      "Utilisez répétition et associations.",
+      "Coupez les distractions pendant dix minutes, puis faites une vraie pause.",
+      "Accrochez une nouvelle information à une histoire ou un lieu que vous connaissez déjà."
+    ]
+  },
+  "body_memory": {
+    "en": [
+      "{topic} connects to how we store and retrieve everyday details: names, plans, and sequences. Spaced practice—returning to material after a gap—often beats massed cramming for durable recall.",
+      "Working memory holds small bits of information briefly while you solve a problem. {topic} is easier when you reduce simultaneous demands (noise, interruptions, split-screen overload).",
+      "Prospective memory means remembering to do something later; calendars, alarms, and consistent placement of objects are legitimate supports—not “cheating.” {topic} can include building those external scaffolds deliberately.",
+      "Sleep consolidates memories. After late nights, expect lower scores on speed and recall tasks even if you feel “fine.” {topic} should be interpreted alongside rest patterns.",
+      "Stress hormones can disrupt retrieval in the moment even when long-term storage is intact. {topic} benefits from breathing breaks, realistic scheduling, and professional support when anxiety is chronic.",
+      "Bilingual people sometimes tip-of-the-tongue more in one language; that pattern alone is not proof of disease. {topic} should respect language history and testing language."
+    ],
+    "es": [
+      "{topic} se relaciona con cómo guardamos y recuperamos detalles cotidianos: nombres, planes y secuencias. La práctica espaciada suele superar al cramming para un recuerdo duradero.",
+      "La memoria de trabajo retiene poca información unos instantes mientras resuelve un problema. {topic} es más llevadero si reduce demandas simultáneas (ruido, interrupciones, demasiadas ventanas).",
+      "La memoria prospectiva es acordarse de hacer algo más tarde; calendarios, alarmas y sitios fijos para objetos son apoyos válidos. {topic} puede incluir esos andamiajes externos a propósito.",
+      "El sueño consolida memorias. Tras noches cortas, espere peores puntuaciones en velocidad y recuerdo aunque se sienta «bien». {topic} debe interpretarse junto al descanso.",
+      "Las hormonas del estrés pueden bloquear la recuperación en el momento aunque el almacenamiento largo esté intacto. {topic} mejora con pausas de respiración, horarios realistas y apoyo si la ansiedad es crónica.",
+      "Las personas bilingües a veces tienen más tip-of-the-tongue en un idioma; eso por sí solo no demuestra enfermedad. {topic} debe respetar historia lingüística e idioma de la prueba."
+    ],
+    "fr": [
+      "{topic} touche à la façon dont nous stockons et retrouvons des détails quotidiens : noms, projets, enchaînements. La répétition espacée bat souvent le bachotage pour un souvenir durable.",
+      "La mémoire de travail retient brièvement de petites quantités d’information pendant que vous résolvez une tâche. {topic} est plus simple si vous réduisez les sollicitations simultanées (bruit, interruptions, écrans multiples).",
+      "La mémoire prospective, c’est se souvenir de faire plus tard ; agendas, alarmes et emplacements stables sont des aides légitimes. {topic} peut inclure ces échafaudages extérieurs.",
+      "Le sommeil consolide les souvenirs. Après une nuit courte, attendez-vous à des scores plus faibles même si vous vous sentez « bien ». {topic} se lit avec le sommeil.",
+      "Le stress peut gêner le rappel immédiat sans effacer la mémoire long terme. {topic} gagne avec des pauses respiration, un agenda réaliste et un suivi si l’anxiété dure.",
+      "Les bilingues peuvent chercher leurs mots plus souvent dans une langue ; ce seul motif ne prouve pas une maladie. {topic} doit tenir compte de l’historique linguistique."
+    ]
+  },
+  "body_attention": {
+    "en": [
+      "{topic} is about sustaining focus when the world pings constantly. Reducing notification load is a cognitive intervention, not just a phone habit.",
+      "Vigilance tasks measure how reliably you detect rare targets; boredom and speed–accuracy trade-offs strongly influence scores. {topic} should note when fatigue creeps in.",
+      "Dual-task conditions reveal how attention splits between channels. {topic} is most fair when difficulty ramps gradually rather than jumping to overload.",
+      "ADHD-style attention challenges overlap with sleep, mood, and substance use. {topic} should avoid reducing a person to a single score on one webpage task.",
+      "Visual scanning exercises train systematic search strategies—top-to-bottom or quadrant sweeps—rather than random eye movements. {topic} can highlight those strategies explicitly.",
+      "Mindfulness drills practice returning attention to a chosen anchor after distraction. {topic} is not religious by default; it is practice of regulation skills."
+    ],
+    "es": [
+      "{topic} trata de mantener el foco cuando todo interrumpe. Bajar notificaciones es intervención cognitiva, no solo hábito de móvil.",
+      "Las tareas de vigilancia miden detectar objetivos raros; el aburrimiento y el equilibrio velocidad-precisión cambian mucho el resultado. {topic} debe notar la fatiga.",
+      "La doble tarea muestra cómo se divide la atención. {topic} es más justo si la dificultad sube poco a poco.",
+      "Los retos atencionales tipo TDAH se cruzan con sueño, ánimo y sustancias. {topic} no debe resumir a una persona en una sola puntuación web.",
+      "Los ejercicios de escaneo visual enseñan búsqueda sistemática, no ojos al azar. {topic} puede nombrar esas estrategias.",
+      "La atención plena entrena volver a un ancla tras distracción. {topic} no implica credo; son habilidades de regulación."
+    ],
+    "fr": [
+      "{topic} vise à maintenir l’attention quand tout sollicite. Couper les notifications est une intervention cognitive, pas seulement une astuce smartphone.",
+      "Les tâches de vigilance mesurent la détection de cibles rares ; ennui et compromis vitesse-précision bouleversent les scores. {topic} doit mentionner la fatigue.",
+      "Le double tâche montre le partage de l’attention. {topic} est plus équitable si la difficulté monte progressivement.",
+      "Les difficultés attentionnelles de type TDAH croisent sommeil, humeur et substances. {topic} ne doit pas réduire quelqu’un à un score web unique.",
+      "Les exercices de balayage visuel entraînent une recherche systématique. {topic} peut expliciter ces stratégies.",
+      "La pleine conscience réentraîne le retour à un ancrage après distraction. {topic} n’est pas un credo ; ce sont des compétences de régulation."
+    ]
+  },
+  "body_dementia": {
+    "en": [
+      "{topic} should be read alongside red flags that need urgent care: sudden confusion, stroke symptoms, or rapid decline over days to weeks—not slow months of word-finding alone.",
+      "Early dementia patterns often involve change in complex daily tasks, judgment in novel situations, or getting disoriented in very familiar settings. {topic} is educational pattern recognition, not a home diagnosis.",
+      "Depression can mimic cognitive slowing; treatment sometimes restores prior function. {topic} should leave room for reversible contributors.",
+      "Caregivers need scripts for safety and empathy: how to discuss driving, finances, and follow-up appointments. {topic} can point to those conversations without replacing clinicians.",
+      "Mild cognitive impairment is a clinical category with heterogeneous outcomes; some people remain stable for years. {topic} must not equate MCI with inevitable dementia.",
+      "Language matters: “early signs” lists are sensitive; false positives create fear. {topic} should encourage professional evaluation when patterns persist or worsen."
+    ],
+    "es": [
+      "{topic} debe leerse junto a señales de urgencia: confusión súbita, ictus o deterioro rápido en días/semanas, no solo meses lentos buscando palabras.",
+      "Los patrones tempranos suelen afectar tareas complejas cotidianas, juicio ante situaciones nuevas u orientación en sitios muy familiares. {topic} es educación, no diagnóstico en casa.",
+      "La depresión puede imitar lentitud cognitiva; a veces el tratamiento recupera función. {topic} debe dejar cabida a causas reversibles.",
+      "Los cuidadores necesitan guiones para seguridad y empatía: conducción, finanzas, citas. {topic} puede orientar sin sustituir al clínico.",
+      "El deterioro cognitivo leve es heterogéneo; muchas personas se estabilizan años. {topic} no debe igualar DCL con demencia inevitable.",
+      "Las listas de «signos tempranos» son sensibles; los falsos positivos generan miedo. {topic} debe promover valoración si el patrón persiste o empeora."
+    ],
+    "fr": [
+      "{topic} se lit avec les signaux d’urgence : confusion brutale, AVC ou déclin rapide sur jours/semaines — pas seulement des mois de mots sur le bout de la langue.",
+      "Les signes précoces touchent souvent les tâches quotidiennes complexes, le jugement face au nouveau ou la désorientation dans des lieux très familiers. {topic} est pédagogique, pas un diagnostic maison.",
+      "La dépression imite parfois un ralentissement cognitif ; un traitement peut restaurer le niveau antérieur. {topic} doit laisser place aux causes réversibles.",
+      "Les aidants ont besoin de formulations pour la sécurité et l’empathie : conduite, finances, rendez-vous. {topic} peut orienter sans remplacer le clinicien.",
+      "Le trouble neurocognitif léger est hétérogène ; certaines personnes restent stables longtemps. {topic} ne doit pas confondre avec une démence inéluctable.",
+      "Les listes de signes précoces sont sensibles ; les faux positifs angoissent. {topic} doit encourager une évaluation si le motif dure ou s’aggrave."
+    ]
+  }
+}

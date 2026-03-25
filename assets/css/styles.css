@@ -464,6 +464,64 @@ footer .footer-tagline {
   color: var(--text-muted);
   max-width: 42rem;
 }
+footer .footer-priority-crawl {
+  margin: 0 0 var(--sp-2);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+footer .footer-priority-crawl a {
+  color: var(--link);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+}
+footer .footer-priority-crawl a:hover {
+  text-decoration: underline;
+}
+.priority-crawl-nav {
+  margin: var(--sp-2) 0;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--surface-muted, #f4f7fb);
+  border-radius: var(--radius-md, 8px);
+  border: 1px solid var(--border-subtle, #e2e8f0);
+}
+.priority-crawl-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-3);
+}
+.priority-crawl-nav a {
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+  color: var(--link);
+}
+.priority-crawl-nav a:hover {
+  text-decoration: underline;
+}
+.random-links {
+  margin-top: var(--sp-4);
+  padding: var(--sp-3);
+  border-top: 1px solid var(--border-subtle, #e2e8f0);
+}
+.random-links__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-3);
+  font-size: var(--text-sm);
+}
+.random-links__inner a {
+  color: var(--link);
+  text-decoration: none;
+}
+.random-links__inner a:hover {
+  text-decoration: underline;
+}
+.crawl-mega-index .crawl-hub-list {
+  column-width: 16rem;
+  column-gap: var(--sp-4);
+}
 footer .footer-legal-links {
   margin: 0 0 var(--sp-2);
   font-size: var(--text-sm);
@@ -1178,20 +1236,6 @@ canvas#clockCanvas {
   margin-bottom: var(--sp-3);
 }
 
-/* "Advertisement" label — required by AdSense policy */
-.ad-slot::before {
-  content: 'Advertisement';
-  display: block;
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  font-weight: var(--weight-regular);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--gray-500);
-  margin-bottom: 6px;
-  align-self: flex-start;
-}
-
 /* Leaderboard — top of content area, desktop */
 .ad-slot-leaderboard {
   min-height: 100px;
@@ -1343,6 +1387,80 @@ footer ul li a:hover {
 
 
 /* ── 21. UTILITIES ─────────────────────────────────────────── */
+/* Phase 10: topical authority + AEO */
+.breadcrumb {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-bottom: var(--sp-2);
+}
+.breadcrumb ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  align-items: center;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: "›";
+  margin-left: 0.5rem;
+  opacity: 0.55;
+  speak: none;
+}
+.breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb [aria-current="page"] {
+  color: var(--text);
+  font-weight: var(--weight-medium);
+}
+
+.ai-answer-block {
+  background: var(--gray-50, #f6f7f8);
+  border-left: 4px solid var(--primary, #2563eb);
+  padding: var(--sp-2) var(--sp-3);
+  margin: var(--sp-2) 0 var(--sp-3);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  max-width: 48rem;
+}
+.ai-answer-block p {
+  margin: 0;
+  line-height: var(--leading-relaxed);
+}
+
+.topic-graph__tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray-500);
+  margin-right: 0.35rem;
+}
+
+.ai-citation {
+  margin-top: var(--sp-5);
+  padding: var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.015);
+}
+
+.programmatic-page .intro {
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+  color: var(--text-muted);
+  max-width: 42rem;
+}
+.text-muted {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
 .text-center { text-align: center; }
 .text-right  { text-align: right; }
 .mt-1 { margin-top: var(--sp-1); }
@@ -1481,7 +1599,7 @@ footer ul li a:hover {
     font-size: 12pt;
   }
   nav, header .nav-buttons, .hero-tools, .ad-slot,
-  .ad-placeholder, .ad-grid, .sponsored-block, .sponsored-grid,
+  .ad-placeholder, .ad-grid, .ad-sticky, .sponsored-block, .sponsored-grid,
   .sponsored-item, footer, .skip-link,
   .language-switch, button:not(.print-show) {
     display: none !important;
@@ -1512,13 +1630,13 @@ footer ul li a:hover {
   position: relative;
 }
 
-/* Prevent layout shift */
-.ad-slot::before {
-  content: "Advertisement";
-  display: block;
+/* Localized label injected in JS (getAdLabel) — same logic as /es/ and /fr/ */
+.ad-label {
   font-size: 12px;
-  color: #999;
+  color: #888;
   margin-bottom: 6px;
+  text-align: center;
+  width: 100%;
 }
 
 /* Different slot sizing */
@@ -1529,10 +1647,100 @@ footer ul li a:hover {
 
 .ad-inline {
   min-height: 180px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Reserve vertical space before the inline unit is inserted (CLS). */
+.ad-inline .ad-inline-reserve {
+  min-height: 160px;
+}
+
+.ad-inline.ad-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ad-inline {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.ad-mobile-top {
+  min-height: 140px;
+}
+
+.ad-card {
+  min-height: 160px;
+  grid-column: 1 / -1;
+}
+
+.ad-sticky {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70px;
+  background: white;
+  border-top: 1px solid #eee;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+body.has-ad-sticky {
+  padding-bottom: 70px;
 }
 
 .ad-bottom {
   min-height: 120px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.ad-bottom.ad-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ad-inline-2 {
+  min-height: 160px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ad-bottom {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.ad-sticky__inner {
+  padding-right: 36px;
+  box-sizing: border-box;
+}
+
+.ad-close {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: #666;
+  padding: 4px 8px;
+  z-index: 1;
+}
+
+.ad-close:hover,
+.ad-close:focus-visible {
+  color: #111;
 }
 
 /* Optional subtle placeholder */

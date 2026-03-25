@@ -6,6 +6,7 @@
 export const translations = {
   en: {
     skipLink: "Skip to main content",
+    sponsored: "Sponsored",
     site: {
       name: "Free Cognitive Test",
       tagline: "Accessible cognitive screening tools for informational use.",
@@ -73,6 +74,7 @@ export const translations = {
   },
   es: {
     skipLink: "Saltar al contenido principal",
+    sponsored: "Contenido patrocinado",
     site: {
       name: "Prueba Cognitiva Gratis",
       tagline: "Herramientas accesibles de tamizaje cognitivo solo con fines informativos.",
@@ -140,6 +142,7 @@ export const translations = {
   },
   fr: {
     skipLink: "Aller au contenu principal",
+    sponsored: "Contenu sponsorisé",
     site: {
       name: "Test Cognitif Gratuit",
       tagline: "Outils accessibles de dépistage cognitif à titre informatif.",

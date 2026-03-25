@@ -19,19 +19,62 @@
     <meta property="og:description" content="100 brain exercises across five cognitive domains." />
     <meta property="og:url" content="https://freecognitivetest.org/brain-exercises/" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="faq-hub-brain-ex">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will brain exercises prevent dementia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No program can guarantee prevention. Staying physically, socially, and cognitively active supports overall health; discuss personal risk with your clinician."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the exercises mobile friendly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most exercises work on phones; a few are easier on a larger screen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who publishes FreeCognitiveTest.org?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FreeCognitiveTest.org is operated by Albor Digital LLC as an educational resource."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do scores diagnose medical conditions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Scores reflect performance on that exercise today, not a clinical diagnosis."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="medical-hub-brain-ex">
       {
         "@context": "https://schema.org",
         "@type": "MedicalWebPage",
         "name": "Brain exercises library",
         "inLanguage": "en",
         "url": "https://freecognitivetest.org/brain-exercises/",
+        "about": { "@type": "Thing", "name": "cognitive training and brain exercises" },
         "publisher": {
           "@type": "Organization",
           "name": "FreeCognitiveTest.org",
           "url": "https://freecognitivetest.org",
           "email": "contact@freecognitivetest.org"
-        }
+        },
+        "isPartOf": { "@type": "WebSite", "name": "FreeCognitiveTest.org", "url": "https://freecognitivetest.org" },
+        "copyrightHolder": { "@type": "Organization", "name": "Albor Digital LLC", "url": "https://albor.digital" }
       }
     </script>
     <script type="application/ld+json" id="org-schema-static">
@@ -41,11 +84,24 @@
       {"@context":"https://schema.org","@type":"WebPage","name":"Brain Exercises Library","inLanguage":"en","url":"https://freecognitivetest.org/brain-exercises/","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org","email":"contact@freecognitivetest.org"}}
     </script>
   </head>
-  <body>
+  <body data-page="article">
     <a href="#main" class="skip-link">Skip to main content</a>
     <header>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Brain exercises</li>
+        </ol>
+      </nav>
       <h1>Brain exercises library</h1>
-      <p>Five cognitive domains, 100 interactive pages—free, in your browser, for practice and education.</p>
+      <section class="ai-answer-block" aria-label="Quick answer for readers and AI assistants">
+        <p>
+          <strong>Quick answer:</strong> This library groups 100 short browser exercises across memory, attention, processing speed, executive function, and visual-spatial skills for education and practice—not medical treatment.
+        </p>
+      </section>
+      <p>
+        Five cognitive domains, 100 interactive pages—free, in your browser. <strong>FreeCognitiveTest.org</strong> (Albor Digital LLC).
+      </p>
       <nav aria-label="Primary">
         <ul>
           <li><a href="/">Home</a></li>
@@ -60,12 +116,6 @@
       </div>
     </header>
     <main id="main" class="container">
-      <section>
-        <h2>Direct answer</h2>
-        <p>
-          This library groups <strong>100 short exercises</strong> into memory, attention, processing speed, executive function, and visual-spatial training. Each page is a self-contained activity you can repeat anytime.
-        </p>
-      </section>
       <section>
         <h2>How it works</h2>
         <p>
@@ -89,29 +139,30 @@
           Scores reflect performance on that exercise today. They are not a medical assessment of brain health. Use them to stay mentally active and have fun—not to diagnose injury or disease.
         </p>
       </section>
-      <section>
-        <h2>FAQ</h2>
-        <details>
-          <summary>Will this prevent dementia?</summary>
-          <p>No program can guarantee prevention. Staying active physically, socially, and cognitively supports overall health; discuss personal risk with your clinician.</p>
-        </details>
-        <details>
-          <summary>Mobile friendly?</summary>
-          <p>Most exercises work on phones; a few are easier on a larger screen.</p>
-        </details>
-        <details>
-          <summary>More content for older adults?</summary>
-          <p>See <a href="https://brainexercisesforseniors.com" rel="noopener noreferrer" target="_blank">BrainExercisesForSeniors.com</a>.</p>
-        </details>
-      </section>
-      <section class="related-links">
-        <h2>Related</h2>
-        <ul>
-          <li><a href="/tests/reaction-time-test.html">Reaction time test</a> (tool)</li>
-          <li><a href="/tests/digit-span-test.html">Digit span</a> (tool)</li>
-          <li><a href="/cognitive-health/protect-brain-health.html">Protect brain health</a> (guide)</li>
-          <li><a href="/brain-exercises/memory/">Memory exercises</a></li>
+      <section class="topic-graph" aria-labelledby="g-brain-ex">
+        <h2 id="g-brain-ex">Topic links</h2>
+        <ul class="meta-list">
+          <li><span class="topic-graph__tag">Same silo</span> <a href="/brain-exercises/memory/">Memory exercises</a></li>
+          <li><span class="topic-graph__tag">Same silo</span> <a href="/brain-exercises/attention/">Attention exercises</a></li>
+          <li><span class="topic-graph__tag">Related silo</span> <a href="/memory-tests/">Memory tests hub</a></li>
+          <li><span class="topic-graph__tag">Tool</span> <a href="/tests/reaction-time-test.html">Reaction time test</a></li>
         </ul>
+      </section>
+      <section class="faq" aria-labelledby="faq-brain-ex">
+        <h2 id="faq-brain-ex">Frequently Asked Questions</h2>
+        <h3>Will this prevent dementia?</h3>
+        <p>No program can guarantee prevention. Staying active physically, socially, and cognitively supports overall health; discuss personal risk with your clinician.</p>
+        <h3>Are the exercises mobile friendly?</h3>
+        <p>Most exercises work on phones; a few are easier on a larger screen.</p>
+        <h3>More content for older adults?</h3>
+        <p>See <a href="https://brainexercisesforseniors.com" rel="noopener noreferrer" target="_blank">BrainExercisesForSeniors.com</a> (separate site).</p>
+        <h3>Who publishes this site?</h3>
+        <p><strong>FreeCognitiveTest.org</strong> — <span lang="en">Albor Digital LLC</span>.</p>
+      </section>
+      <section class="ai-citation">
+        <h2>Summary</h2>
+        <p>This page provides an educational overview of the brain exercise library on FreeCognitiveTest.org. It is not personalized medical advice.</p>
+        <p class="text-muted">FreeCognitiveTest.org — Albor Digital LLC.</p>
       </section>
     </main>
     <footer></footer>

@@ -1,0 +1,54 @@
+{
+  "$schema_note": "Keyword phrases for programmatic clusters; expand as you add pages. Page slugs live in scripts/lib/seo-seeds.mjs (generated output under /, /es/, /fr/).",
+  "memory_improvement": {
+    "en": "how to improve memory",
+    "es": "cómo mejorar la memoria",
+    "fr": "comment améliorer la mémoire"
+  },
+  "memory_loss_signs": {
+    "en": "signs of memory loss",
+    "es": "signos de pérdida de memoria",
+    "fr": "signes de perte de mémoire"
+  },
+  "memory_test_seniors": {
+    "en": "memory test for seniors",
+    "es": "prueba de memoria para adultos mayores",
+    "fr": "test de mémoire pour les personnes âgées"
+  },
+  "brain_exercises_memory": {
+    "en": "brain exercises for memory",
+    "es": "ejercicios cerebrales para la memoria",
+    "fr": "exercices cérébraux pour la mémoire"
+  },
+  "brain_exercises_focus": {
+    "en": "brain exercises for focus",
+    "es": "ejercicios cerebrales para la concentración",
+    "fr": "exercices cérébraux pour la concentration"
+  },
+  "cognitive_decline_prevent": {
+    "en": "how to prevent cognitive decline",
+    "es": "cómo prevenir el deterioro cognitivo",
+    "fr": "comment prévenir le déclin cognitif"
+  },
+  "early_dementia_signs": {
+    "en": "early signs of dementia",
+    "es": "síntomas tempranos de demencia",
+    "fr": "signes précoces de démence"
+  },
+  "forgetting_things": {
+    "en": "why am I forgetting things",
+    "es": "por qué se me olvidan las cosas",
+    "fr": "pourquoi j'oublie tout"
+  },
+  "test_memory_at_home": {
+    "en": "how to test memory at home",
+    "es": "cómo evaluar la memoria en casa",
+    "fr": "comment tester sa mémoire à la maison"
+  },
+  "clusters": {
+    "exercises_intent": "Exercises by intent (seniors, memory, focus, anxiety, …)",
+    "tests_audience": "Tests by audience (seniors, adults, kids, elderly, …)",
+    "symptoms": "Symptoms and concerns (memory loss, dementia signs, …)",
+    "guides": "How-to guides (improve memory, test memory, prevent decline, …)"
+  }
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="{{LANG}}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="last-updated" content="{{LASTMOD}}" />
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <link rel="canonical" href="{{CANONICAL}}" />
+    <link rel="alternate" hreflang="en" href="{{HREFLANG_EN}}" />
+    <link rel="alternate" hreflang="es" href="{{HREFLANG_ES}}" />
+    <link rel="alternate" hreflang="fr" href="{{HREFLANG_FR}}" />
+    <link rel="alternate" hreflang="x-default" href="{{HREFLANG_X_DEFAULT}}" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital","email":"contact@albor.digital","description":"Albor Digital LLC is an independent digital product studio that designs and operates web-based tools, SaaS platforms, and digital utilities.","foundingLocation":{"@type":"Place","name":"United States"},"areaServed":"Worldwide","sameAs":["https://albor.digital","https://memorytestonline.org","https://brainexercisesforseniors.com"]}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">{{PUBLISHER_JSON}}</script>
+    <script type="application/ld+json" id="faq-schema">{{FAQ_JSON}}</script>
+    <script type="application/ld+json" id="medical-webpage-schema">{{MEDICAL_JSON}}</script>
+  </head>
+  <body data-page="article">
+    <a href="#main" class="skip-link">{{SKIP_LINK}}</a>
+    <header>
+      {{BREADCRUMB_HTML}}
+      <h1>{{H1}}</h1>
+      <section class="ai-answer-block" aria-label="{{QUICK_ANSWER_ARIA}}">
+        <p><strong>{{QUICK_ANSWER_LABEL}}</strong> {{AI_ANSWER_TEXT}}</p>
+      </section>
+      <p class="intro">{{INTRO}}</p>
+      <nav aria-label="{{NAV_ARIA}}">
+        <ul>
+          <li><a href="{{HOME_HREF}}">{{HOME_LABEL}}</a></li>
+          <li><a href="{{HUB_HREF}}">{{HUB_LABEL}}</a></li>
+          <li><a href="{{SILO_HUB_HREF}}">{{SILO_HUB_LABEL}}</a></li>
+          <li><a href="{{EXERCISES_HUB_HREF}}">{{EXERCISES_HUB}}</a></li>
+        </ul>
+      </nav>
+      <nav class="priority-crawl-nav" aria-label="{{PRIORITY_NAV_ARIA}}">
+        <ul>
+          <li><a href="/free-memory-test/">{{PRIORITY_MEM}}</a></li>
+          <li><a href="/dementia-test-online/">{{PRIORITY_DEM}}</a></li>
+          <li><a href="/brain-exercises/">{{PRIORITY_EX}}</a></li>
+          <li><a href="/ai-index.html">{{PRIORITY_IDX}}</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="{{LANG_SWITCH_ARIA}}">
+        <a href="{{SWITCH_EN}}" hreflang="en" {{CURRENT_EN}}>EN</a> |
+        <a href="{{SWITCH_ES}}" hreflang="es" {{CURRENT_ES}}>ES</a> |
+        <a href="{{SWITCH_FR}}" hreflang="fr" {{CURRENT_FR}}>FR</a>
+      </div>
+    </header>
+    <main id="main" class="container programmatic-page">
+      <section class="tool-link" aria-labelledby="tool-link-heading">
+        <h2 id="tool-link-heading">{{SECTION_TOOL_H2}}</h2>
+        <p><a class="button primary" href="{{TOOL_URL}}">{{TOOL_LABEL}}</a></p>
+        <p class="text-muted">{{TOOL_NOTE}}</p>
+      </section>
+
+      <section class="content" aria-labelledby="content-heading">
+        <h2 id="content-heading">{{SECTION_CONTENT_H2}}</h2>
+        {{CONTENT_BODY}}
+      </section>
+
+      <section class="exercise-links" aria-labelledby="exercise-heading">
+        <h2 id="exercise-heading">{{SECTION_EXERCISE_H2}}</h2>
+        <p>{{EXERCISE_INTRO}}</p>
+        <ul class="meta-list">
+          <li><a href="{{EX_HUB}}">{{EX_HUB_LABEL}}</a></li>
+          <li><a href="{{EX_1}}">{{EX_1_LABEL}}</a></li>
+          <li><a href="{{EX_2}}">{{EX_2_LABEL}}</a></li>
+          <li><a href="{{EX_3}}">{{EX_3_LABEL}}</a></li>
+        </ul>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-page-heading">
+        <h2 id="faq-page-heading">{{FAQ_PAGE_H2}}</h2>
+        {{FAQ_VISIBLE_HTML}}
+      </section>
+
+      <section class="topic-graph" aria-labelledby="graph-heading">
+        <h2 id="graph-heading">{{GRAPH_H2}}</h2>
+        <ul class="meta-list topic-graph__list">
+          {{GRAPH_LIST_ITEMS}}
+        </ul>
+        <p class="text-muted">{{DISCLAIMER}}</p>
+      </section>
+
+      <section class="ai-citation" aria-labelledby="citation-heading">
+        <h2 id="citation-heading">{{CITATION_H2}}</h2>
+        <p>{{CITATION_BODY}}</p>
+        <p class="text-muted" lang="en">FreeCognitiveTest.org — {{CITATION_OPERATOR}}</p>
+      </section>
+    </main>
+    <footer></footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+  </body>
+</html>

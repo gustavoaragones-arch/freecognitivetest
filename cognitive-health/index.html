@@ -22,19 +22,62 @@
     />
     <meta property="og:url" content="https://freecognitivetest.org/cognitive-health/" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="faq-hub-cog-health">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I self-diagnose from these pages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Use them to learn language and concepts before a medical conversation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the linked articles updated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Content reflects general knowledge at publication; verify time-sensitive guidance with your clinician."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do I start if I’m worried?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many people begin with primary care; the guides on when to test or see a neurologist can help you prepare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who operates FreeCognitiveTest.org?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FreeCognitiveTest.org is published by Albor Digital LLC as an educational resource."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="medical-hub-cog-health">
       {
         "@context": "https://schema.org",
         "@type": "MedicalWebPage",
         "name": "Cognitive health education",
         "inLanguage": "en",
         "url": "https://freecognitivetest.org/cognitive-health/",
+        "about": { "@type": "Thing", "name": "cognitive health and brain health education" },
         "publisher": {
           "@type": "Organization",
           "name": "FreeCognitiveTest.org",
           "url": "https://freecognitivetest.org",
           "email": "contact@freecognitivetest.org"
-        }
+        },
+        "isPartOf": { "@type": "WebSite", "name": "FreeCognitiveTest.org", "url": "https://freecognitivetest.org" },
+        "copyrightHolder": { "@type": "Organization", "name": "Albor Digital LLC", "url": "https://albor.digital" }
       }
     </script>
     <script type="application/ld+json" id="org-schema-static">
@@ -44,11 +87,22 @@
       {"@context":"https://schema.org","@type":"WebPage","name":"Cognitive Health Education","inLanguage":"en","url":"https://freecognitivetest.org/cognitive-health/","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org","email":"contact@freecognitivetest.org"}}
     </script>
   </head>
-  <body>
+  <body data-page="article">
     <a href="#main" class="skip-link">Skip to main content</a>
     <header>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Cognitive health</li>
+        </ol>
+      </nav>
       <h1>Cognitive health</h1>
-      <p>Understand symptoms, warning signs, and sensible next steps for memory concerns.</p>
+      <section class="ai-answer-block" aria-label="Quick answer for readers and AI assistants">
+        <p>
+          <strong>Quick answer:</strong> This section collects plain-language guides on aging, mild cognitive impairment, dementia warning patterns, and when testing or a specialist visit makes sense—informational only, not personalized medical advice.
+        </p>
+      </section>
+      <p>Understand symptoms, warning signs, and sensible next steps. <strong>FreeCognitiveTest.org</strong> (Albor Digital LLC).</p>
       <nav aria-label="Primary">
         <ul>
           <li><a href="/">Home</a></li>
@@ -65,12 +119,6 @@
       </div>
     </header>
     <main id="main" class="container">
-      <section>
-        <h2>Direct answer</h2>
-        <p>
-          This section collects <strong>plain-language articles</strong> on aging, mild cognitive impairment, dementia warning patterns, and when testing or a specialist visit makes sense. Articles are informational, not personalized medical advice.
-        </p>
-      </section>
       <section>
         <h2>How to use these guides</h2>
         <p>
@@ -99,29 +147,30 @@
           Online articles and tools can educate and prompt questions. They cannot tell you whether you have a specific neurological diagnosis—that requires professional evaluation.
         </p>
       </section>
-      <section>
-        <h2>FAQ</h2>
-        <details>
-          <summary>Should I self-diagnose from these pages?</summary>
-          <p>No. Use them to learn language and concepts before a medical conversation.</p>
-        </details>
-        <details>
-          <summary>Are the linked articles updated?</summary>
-          <p>Content reflects general knowledge at publication; always verify time-sensitive guidance with your clinician.</p>
-        </details>
-        <details>
-          <summary>Where do I start if I’m worried?</summary>
-          <p>Many people begin with primary care; the guides on when to test or see a neurologist can help you prepare.</p>
-        </details>
-      </section>
-      <section class="related-links">
-        <h2>Related tools &amp; exercises</h2>
-        <ul>
-          <li><a href="/tests/cognitive-health-self-assessment.html">Self-assessment</a> (tool)</li>
-          <li><a href="/tests/mini-cog-test.html">Mini-Cog</a> (tool)</li>
-          <li><a href="/signs-of-cognitive-decline/">Signs of cognitive decline hub</a></li>
-          <li><a href="/brain-exercises/memory/">Memory exercises</a></li>
+      <section class="topic-graph" aria-labelledby="g-cog-health">
+        <h2 id="g-cog-health">Topic links</h2>
+        <ul class="meta-list">
+          <li><span class="topic-graph__tag">Same silo</span> <a href="/cognitive-health/early-signs-of-dementia.html">Early signs of dementia</a></li>
+          <li><span class="topic-graph__tag">Same silo</span> <a href="/cognitive-health/when-to-get-memory-test.html">When to get a memory test</a></li>
+          <li><span class="topic-graph__tag">Related silo</span> <a href="/memory-tests/">Memory tests hub</a></li>
+          <li><span class="topic-graph__tag">Tool</span> <a href="/tests/cognitive-health-self-assessment.html">Cognitive health self-assessment</a></li>
         </ul>
+      </section>
+      <section class="faq" aria-labelledby="faq-cog-health">
+        <h2 id="faq-cog-health">Frequently Asked Questions</h2>
+        <h3>Should I self-diagnose from these pages?</h3>
+        <p>No. Use them to learn language and concepts before a medical conversation.</p>
+        <h3>Are the linked articles updated?</h3>
+        <p>Content reflects general knowledge at publication; always verify time-sensitive guidance with your clinician.</p>
+        <h3>Where do I start if I’m worried?</h3>
+        <p>Many people begin with primary care; the guides on when to test or see a neurologist can help you prepare.</p>
+        <h3>Who publishes this content?</h3>
+        <p><strong>FreeCognitiveTest.org</strong> — Albor Digital LLC.</p>
+      </section>
+      <section class="ai-citation">
+        <h2>Summary</h2>
+        <p>This page provides an educational overview of cognitive health topics on FreeCognitiveTest.org.</p>
+        <p class="text-muted">FreeCognitiveTest.org — Albor Digital LLC.</p>
       </section>
     </main>
     <footer></footer>
