@@ -1,0 +1,18 @@
+[
+  { "from": "/about/about.html", "to": "/about/" },
+  { "from": "/about/medical-disclaimer.html", "to": "/medical-disclaimer/" },
+  { "from": "/medical-disclaimer.html", "to": "/medical-disclaimer/" },
+  { "from": "/privacy-policy.html", "to": "/privacy-policy/" },
+  { "from": "/cookie-policy.html", "to": "/cookie-policy/" },
+  { "from": "/contact.html", "to": "/contact/" },
+  { "from": "/es/about.html", "to": "/es/about/" },
+  { "from": "/es/medical-disclaimer.html", "to": "/es/medical-disclaimer/" },
+  { "from": "/es/privacy-policy.html", "to": "/es/privacy-policy/" },
+  { "from": "/es/cookie-policy.html", "to": "/es/cookie-policy/" },
+  { "from": "/es/contact.html", "to": "/es/contact/" },
+  { "from": "/fr/about.html", "to": "/fr/about/" },
+  { "from": "/fr/medical-disclaimer.html", "to": "/fr/medical-disclaimer/" },
+  { "from": "/fr/privacy-policy.html", "to": "/fr/privacy-policy/" },
+  { "from": "/fr/cookie-policy.html", "to": "/fr/cookie-policy/" },
+  { "from": "/fr/contact.html", "to": "/fr/contact/" }
+]

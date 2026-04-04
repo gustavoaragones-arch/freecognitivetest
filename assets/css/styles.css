@@ -649,6 +649,20 @@ footer .footer-operator {
   border-color: var(--white);
 }
 
+main .hero-tool-links {
+  margin-top: var(--sp-3);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--text-muted);
+}
+main .hero-tool-links a {
+  color: var(--link);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+}
+main .hero-tool-links a:hover {
+  text-decoration: underline;
+}
 
 /* ── 8. SECTIONS ───────────────────────────────────────────── */
 section {

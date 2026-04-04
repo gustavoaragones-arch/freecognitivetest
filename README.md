@@ -42,9 +42,11 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
     printable-cognitive-tests.html
     sage-test-pdf.html
   about/
-    medical-disclaimer.html
-    about.html
+    index.html
+    about.html (redirect stub → /about/)
+    medical-disclaimer.html (redirect stub → /medical-disclaimer/)
     albor-digital-llc.html
+  redirects.json (client redirect rules; paired with HTML stubs)
   i18n/
     en.json
     es.json

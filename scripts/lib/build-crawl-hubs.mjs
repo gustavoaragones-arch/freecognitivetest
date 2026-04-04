@@ -90,6 +90,7 @@ export function buildCrawlHubs(opts) {
     "/dementia-test-online/",
     "/brain-exercises/",
     "/ai-index.html",
+    "/legacy-index.html",
     "/memory-tests/",
     "/memory-tests/all.html",
     "/brain-exercises/all.html",
@@ -124,7 +125,11 @@ export function buildCrawlHubs(opts) {
       </nav>
       <h1>All Cognitive Resources</h1>
       <p class="intro">Plain HTML index for crawlers — <strong>FreeCognitiveTest.org</strong> (<span lang="en">Albor Digital LLC</span>). Educational content only.</p>
-      <p><a href="/programmatic/">Full programmatic index</a> · <a href="/">Home</a></p>
+      <p>
+        <a href="/programmatic/">Full programmatic index</a> · <a href="/legacy-index.html">Legacy URL map</a> ·
+        <a href="/free-memory-test/">Free memory test</a> · <a href="/dementia-test-online/">Dementia test online</a> ·
+        <a href="/">Home</a>
+      </p>
     </header>
       <section>
         <h2>Memory Tests</h2>
@@ -299,6 +304,7 @@ export function getMainSitemapUrls(site, lastmod) {
   const paths = [
     "/",
     "/ai-index.html",
+    "/legacy-index.html",
     "/free-memory-test/",
     "/dementia-test-online/",
     "/brain-exercises/",

@@ -1,4 +1,24 @@
 (() => {
+  /** Client-side redirect map (pairs with /redirects.json + static HTML stubs for crawlers). */
+  function applyClientRedirects() {
+    const path = window.location.pathname;
+    const noTrail = path.length > 1 && path.endsWith("/") ? path.slice(0, -1) : path;
+    const withTrail = path.endsWith("/") || path === "/" ? path : `${path}/`;
+    const candidates = new Set([path, noTrail, withTrail]);
+
+    fetch("/redirects.json", { credentials: "same-origin" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((rules) => {
+        if (!Array.isArray(rules)) return;
+        const match = rules.find((r) => r && typeof r.from === "string" && candidates.has(r.from));
+        if (!match || typeof match.to !== "string" || !match.to) return;
+        const suffix = `${window.location.search || ""}${window.location.hash || ""}`;
+        window.location.replace(`${match.to}${suffix}`);
+      })
+      .catch(() => {});
+  }
+  applyClientRedirects();
+
   /** Replace with your AdSense publisher ID (e.g. ca-pub-1234567890123456). */
   const ADSENSE_CLIENT = "ca-pub-XXXXXXXX";
   /** Replace each with the ad unit slot ID from AdSense (numeric). Create separate units per placement when possible. */
