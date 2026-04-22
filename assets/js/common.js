@@ -74,18 +74,20 @@ window.ADS_ENABLED = false;
   };
 
   const footerLinkLabels = {
-    en: { about: "About", disclaimer: "Disclaimer", privacy: "Privacy", contact: "Contact" },
+    en: { about: "About", disclaimer: "Disclaimer", privacy: "Privacy", contact: "Contact", author: "Author" },
     es: {
       about: "Acerca de",
       disclaimer: "Aviso médico",
       privacy: "Privacidad",
       contact: "Contacto",
+      author: "Autor",
     },
     fr: {
       about: "À propos",
       disclaimer: "Avis médical",
       privacy: "Confidentialité",
       contact: "Contact",
+      author: "Auteur",
     },
   };
 
@@ -156,7 +158,8 @@ window.ADS_ENABLED = false;
         <a href="${hrefs.about}">${labels.about}</a> ·
         <a href="${hrefs.disclaimer}">${labels.disclaimer}</a> ·
         <a href="${hrefs.privacy}">${labels.privacy}</a> ·
-        <a href="${hrefs.contact}">${labels.contact}</a>
+        <a href="${hrefs.contact}">${labels.contact}</a> ·
+        <a href="/about/author/">${labels.author}</a>
       </p>
       <p class="footer-contact">${contactLbl} <a href="mailto:contact@freecognitivetest.org">contact@freecognitivetest.org</a></p>
       <p class="footer-operator" lang="en">Albor Digital LLC</p>

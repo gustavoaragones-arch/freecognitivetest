@@ -549,6 +549,30 @@ footer .footer-operator {
   color: var(--text-muted);
 }
 
+/* Phase 11.5: subtle trust signals on key entry pages */
+.trust-badges {
+  list-style: none;
+  padding: 0;
+  margin: var(--sp-2) 0 var(--sp-3);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+.trust-badges li {
+  margin: 0.2rem 0;
+}
+.authority-about-lede {
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border-subtle, #e2e8f0);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+.authority-about-lede a {
+  color: var(--link);
+  font-weight: var(--weight-semibold);
+}
+
 .contact-email {
   font-size: var(--text-lg);
   font-weight: var(--weight-semibold);

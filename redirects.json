@@ -1,4 +1,5 @@
 [
+  { "from": "/about/author.html", "to": "/about/author/" },
   { "from": "/about/about.html", "to": "/about/" },
   { "from": "/about/medical-disclaimer.html", "to": "/medical-disclaimer/" },
   { "from": "/medical-disclaimer.html", "to": "/medical-disclaimer/" },
