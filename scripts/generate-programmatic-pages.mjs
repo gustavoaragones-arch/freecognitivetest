@@ -37,6 +37,58 @@ const ROOT = join(__dirname, "..");
 const SITE = "https://freecognitivetest.org";
 const LASTMOD = new Date().toISOString().slice(0, 10);
 
+/** CTR layer: programmatic <title> + meta description (EN / ES / FR). */
+function ctrProgrammaticTitle(h1, lang) {
+  if (lang === "en") {
+    return `${h1} — Free Online (2 Min) | No Signup · Educational | FreeCognitiveTest.org`;
+  }
+  if (lang === "es") {
+    return `${h1} — Gratis online (2 min) | Sin registro · Educativo`;
+  }
+  return `${h1} — Gratuit en ligne (2 min) | Sans inscription · Pédagogique`;
+}
+
+function ctrProgrammaticMetaDescription(h1, lang) {
+  if (lang === "en") {
+    const s = `Free online guide: ${h1}. About 2 minutes. No signup. Educational only—not a medical diagnosis.`;
+    return s.length <= 158 ? s : `${s.slice(0, 155)}…`;
+  }
+  if (lang === "es") {
+    const s = `Guía gratuita en línea: ${h1}. Unos 2 minutos. Sin registro. Solo educativo; no es diagnóstico médico.`;
+    return s.length <= 158 ? s : `${s.slice(0, 155)}…`;
+  }
+  const s = `Guide gratuit en ligne : ${h1}. Environ 2 minutes. Sans inscription. Outil pédagogique, pas un diagnostic médical.`;
+  return s.length <= 158 ? s : `${s.slice(0, 155)}…`;
+}
+
+/** Top EN programmatic slugs for CTR pack (ES/FR siblings use localized CTR when same page id). */
+const CTR_PROGRAMMATIC_EN_SLUGS = new Set([
+  "brain-exercises-for-seniors",
+  "brain-exercises-for-memory",
+  "brain-exercises-for-focus",
+  "brain-exercises-for-anxiety",
+  "brain-exercises-for-stress-relief",
+  "brain-exercises-for-stroke-recovery",
+  "brain-exercises-for-parkinsons-caregivers",
+  "brain-exercises-for-aphasia-friendly",
+  "brain-exercises-for-adhd-adults",
+  "brain-exercises-for-sleep-and-brain",
+  "brain-exercises-for-diabetes-brain-health",
+  "brain-exercises-for-heart-health-cognition",
+  "brain-exercises-for-social-connection",
+  "brain-exercises-for-music-and-memory",
+  "brain-exercises-for-language-learning",
+  "brain-exercises-for-hand-eye-coordination",
+  "brain-exercises-for-reaction-time",
+  "brain-exercises-for-spatial-skills",
+  "brain-exercises-for-working-memory",
+  "brain-exercises-for-dual-tasking",
+]);
+
+function useCtrProgrammaticPack(page) {
+  return CTR_PROGRAMMATIC_EN_SLUGS.has(page.en.slug);
+}
+
 let _variationsCache = null;
 function getVariations() {
   if (!_variationsCache) {
@@ -310,15 +362,20 @@ function renderPage(template, page, lang, allPages) {
   const hrefEs = pageUrl("es", page.es.slug);
   const hrefFr = pageUrl("fr", page.fr.slug);
 
-  const title = `${h1} | ${ui.publisherName}`;
+  const useCtr = useCtrProgrammaticPack(page);
+  const title = useCtr
+    ? ctrProgrammaticTitle(h1, lang)
+    : `${h1} | ${ui.publisherName}`;
   const intro = introFor(page.cluster, lang, h1);
   const body = pickParagraphs(page.id, page, lang, h1);
-  const desc = `${h1}. ${faqs[0].a}`.slice(0, 158);
+  const desc = useCtr
+    ? ctrProgrammaticMetaDescription(h1, lang)
+    : `${h1}. ${faqs[0].a}`.slice(0, 158);
 
   const publisherJson = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: h1,
+    name: title,
     inLanguage: lang,
     url: canonical,
     publisher: {

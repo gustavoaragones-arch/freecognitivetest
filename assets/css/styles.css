@@ -2,7 +2,7 @@
    FreeCognitiveTest.org — CSS Redesign
    Audience  : Elderly users (65+), caregivers, family members
    Goals     : Beautiful + trustworthy, WCAG AA contrast,
-               large touch targets, AdSense-ready layout
+               large touch targets, readable layout
    Static    : Pure CSS, no build step, Cloudflare CDN hosted
    Fonts     : Google Fonts (loaded in <head> of HTML)
                <link href="https://fonts.googleapis.com/css2?
@@ -286,7 +286,7 @@ main {
   gap: var(--sp-4);
 }
 
-/* Two-column layout for AdSense sidebar on desktop */
+/* Two-column layout with optional sidebar on desktop */
 .layout-with-sidebar {
   display: grid;
   gap: var(--sp-4);
@@ -1213,109 +1213,7 @@ canvas#clockCanvas {
 }
 
 
-/* ── 18. AD SLOTS — AdSense-optimized ─────────────────────── */
-/*
-   Ad slot strategy for elderly audience:
-   - Clearly separated from content (WCAG / AdSense policy)
-   - Labeled "Advertisement" in small muted text above
-   - No ad within 150px of nav buttons (prevents accidental click)
-   - Responsive units used throughout
-   - Desktop: 300×600 sidebar + 728×90 leaderboard
-   - Mobile:  320×100 banner near bottom of viewport
-*/
-
-.ad-grid {
-  display: grid;
-  gap: var(--sp-2);
-}
-@media (min-width: 60rem) {
-  .ad-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* The visible ad container */
-.ad-slot {
-  background: var(--gray-50);
-  border: 1.5px dashed var(--border-strong);
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: var(--sp-2);
-  /* Minimum spacing from surrounding content */
-  margin-top: var(--sp-3);
-  margin-bottom: var(--sp-3);
-}
-
-/* Leaderboard — top of content area, desktop */
-.ad-slot-leaderboard {
-  min-height: 100px;
-  width: 100%;
-  max-width: 728px;
-  margin-inline: auto;
-}
-
-/* Sidebar rectangle — 300x600 or 300x250 */
-.ad-slot-sidebar {
-  min-height: 280px;
-  width: 100%;
-  max-width: 300px;
-  position: sticky;
-  top: var(--sp-4);
-}
-
-/* In-content rectangle — between sections */
-.ad-slot-incontent {
-  min-height: 120px;
-  width: 100%;
-  max-width: 336px;
-  margin-inline: auto;
-}
-
-/* Dev placeholder — remove in production */
-.ad-placeholder {
-  border: 2px dashed var(--border-strong);
-  background: var(--gray-100);
-  min-height: 120px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: var(--sp-2);
-  color: var(--gray-500);
-  font-size: var(--text-sm);
-  border-radius: var(--radius);
-}
-
-.sponsored-block {
-  margin: 48px 0;
-}
-
-.sponsored-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-@media (max-width: 60rem) {
-  .sponsored-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.sponsored-item {
-  min-height: 120px;
-  background: rgba(0,0,0,0.04);
-  border-radius: 8px;
-}
-
-
-/* ── 19. RELATED LINKS ─────────────────────────────────────── */
+/* ── 18. RELATED LINKS ─────────────────────────────────────── */
 .related-links ul {
   margin: 0;
   padding-left: var(--sp-2);
@@ -1331,7 +1229,7 @@ canvas#clockCanvas {
 }
 
 
-/* ── 20. FOOTER ────────────────────────────────────────────── */
+/* ── 19. FOOTER ────────────────────────────────────────────── */
 footer {
   padding: var(--sp-5) 0 var(--sp-4);
   border-top: 2px solid var(--border);
@@ -1400,7 +1298,7 @@ footer ul li a:hover {
 }
 
 
-/* ── 21. UTILITIES ─────────────────────────────────────────── */
+/* ── 20. UTILITIES ─────────────────────────────────────────── */
 /* Phase 10: topical authority + AEO */
 .breadcrumb {
   font-size: var(--text-sm);
@@ -1487,7 +1385,7 @@ footer ul li a:hover {
 .gap-2 { gap: var(--sp-2); }
 
 
-/* ── 22. PAGE LOAD ANIMATION ───────────────────────────────── */
+/* ── 21. PAGE LOAD ANIMATION ───────────────────────────────── */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -1502,7 +1400,7 @@ footer ul li a:hover {
 .delay-4 { animation-delay: 240ms; }
 
 
-/* ── 23. RESPONSIVE ────────────────────────────────────────── */
+/* ── 22. RESPONSIVE ────────────────────────────────────────── */
 
 /* Tablet (< 768px) — tighten spacing, stack sidebar */
 @media (max-width: 47.9rem) {
@@ -1532,11 +1430,6 @@ footer ul li a:hover {
 
   .tests-grid {
     grid-template-columns: 1fr;
-  }
-
-  .ad-slot-sidebar {
-    position: static;
-    max-width: 100%;
   }
 
   .layout-with-sidebar {
@@ -1591,7 +1484,7 @@ footer ul li a:hover {
 }
 
 
-/* ── 24. HIGH CONTRAST MODE (Windows) ──────────────────────── */
+/* ── 23. HIGH CONTRAST MODE (Windows) ──────────────────────── */
 @media (forced-colors: active) {
   button,
   .button,
@@ -1605,16 +1498,14 @@ footer ul li a:hover {
 }
 
 
-/* ── 25. PRINT ─────────────────────────────────────────────── */
+/* ── 24. PRINT ─────────────────────────────────────────────── */
 @media print {
   body {
     background: white;
     color: #000;
     font-size: 12pt;
   }
-  nav, header .nav-buttons, .hero-tools, .ad-slot,
-  .ad-placeholder, .ad-grid, .ad-sticky, .sponsored-block, .sponsored-grid,
-  .sponsored-item, footer, .skip-link,
+  nav, header .nav-buttons, .hero-tools, footer, .skip-link,
   .language-switch, button:not(.print-show) {
     display: none !important;
   }
@@ -1631,134 +1522,4 @@ footer ul li a:hover {
   h1, h2, h3 {
     color: #000;
   }
-}
-
-/* === AD SYSTEM (PHASE 8) === */
-
-.ad-slot {
-  width: 100%;
-  max-width: 100%;
-  margin: 32px auto;
-  display: block;
-  text-align: center;
-  position: relative;
-}
-
-/* Localized label injected in JS (getAdLabel) — same logic as /es/ and /fr/ */
-.ad-label {
-  font-size: 12px;
-  color: #888;
-  margin-bottom: 6px;
-  text-align: center;
-  width: 100%;
-}
-
-/* Different slot sizing */
-
-.ad-top {
-  min-height: 120px;
-}
-
-.ad-inline {
-  min-height: 180px;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-/* Reserve vertical space before the inline unit is inserted (CLS). */
-.ad-inline .ad-inline-reserve {
-  min-height: 160px;
-}
-
-.ad-inline.ad-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .ad-inline {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-}
-
-.ad-mobile-top {
-  min-height: 140px;
-}
-
-.ad-card {
-  min-height: 160px;
-  grid-column: 1 / -1;
-}
-
-.ad-sticky {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  min-height: 70px;
-  background: white;
-  border-top: 1px solid #eee;
-  z-index: 999;
-  box-sizing: border-box;
-}
-
-body.has-ad-sticky {
-  padding-bottom: 70px;
-}
-
-.ad-bottom {
-  min-height: 120px;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.45s ease, transform 0.45s ease;
-}
-
-.ad-bottom.ad-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.ad-inline-2 {
-  min-height: 160px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .ad-bottom {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-}
-
-.ad-sticky__inner {
-  padding-right: 36px;
-  box-sizing: border-box;
-}
-
-.ad-close {
-  position: absolute;
-  right: 8px;
-  top: 4px;
-  border: none;
-  background: transparent;
-  font-size: 18px;
-  line-height: 1;
-  cursor: pointer;
-  color: #666;
-  padding: 4px 8px;
-  z-index: 1;
-}
-
-.ad-close:hover,
-.ad-close:focus-visible {
-  color: #111;
-}
-
-/* Optional subtle placeholder */
-.ad-slot {
-  background: rgba(0,0,0,0.02);
-  border-radius: 8px;
 }

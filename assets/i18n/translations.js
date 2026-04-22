@@ -6,7 +6,6 @@
 export const translations = {
   en: {
     skipLink: "Skip to main content",
-    sponsored: "Sponsored",
     site: {
       name: "Free Cognitive Test",
       tagline: "Accessible cognitive screening tools for informational use.",
@@ -37,13 +36,6 @@ export const translations = {
       heading: "How Scoring Works",
       text: "See each test page for details.",
     },
-    sponsoredContent: {
-      heading: "Sponsored",
-      ariaLabel: "Sponsored content",
-    },
-    adPlaceholder1: "Ad Placeholder 1",
-    adPlaceholder2: "Ad Placeholder 2",
-    adPlaceholder3: "Ad Placeholder 3",
     faq: {
       heading: "FAQ",
       summary: "Is this translated?",
@@ -74,7 +66,6 @@ export const translations = {
   },
   es: {
     skipLink: "Saltar al contenido principal",
-    sponsored: "Contenido patrocinado",
     site: {
       name: "Prueba Cognitiva Gratis",
       tagline: "Herramientas accesibles de tamizaje cognitivo solo con fines informativos.",
@@ -105,13 +96,6 @@ export const translations = {
       heading: "Cómo funciona la puntuación",
       text: "Consulte cada prueba para más detalles.",
     },
-    sponsoredContent: {
-      heading: "Patrocinado",
-      ariaLabel: "Contenido patrocinado",
-    },
-    adPlaceholder1: "Espacio publicitario 1",
-    adPlaceholder2: "Espacio publicitario 2",
-    adPlaceholder3: "Espacio publicitario 3",
     faq: {
       heading: "Preguntas frecuentes",
       summary: "¿Está traducido?",
@@ -142,7 +126,6 @@ export const translations = {
   },
   fr: {
     skipLink: "Aller au contenu principal",
-    sponsored: "Contenu sponsorisé",
     site: {
       name: "Test Cognitif Gratuit",
       tagline: "Outils accessibles de dépistage cognitif à titre informatif.",
@@ -173,13 +156,6 @@ export const translations = {
       heading: "Comment fonctionne le score",
       text: "Voir chaque test pour les détails.",
     },
-    sponsoredContent: {
-      heading: "Sponsorisé",
-      ariaLabel: "Contenu sponsorisé",
-    },
-    adPlaceholder1: "Emplacement publicitaire 1",
-    adPlaceholder2: "Emplacement publicitaire 2",
-    adPlaceholder3: "Emplacement publicitaire 3",
     faq: {
       heading: "FAQ",
       summary: "Traduction complète ?",

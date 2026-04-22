@@ -1,3 +1,5 @@
+window.ADS_ENABLED = false;
+
 (() => {
   /** Client-side redirect map (pairs with /redirects.json + static HTML stubs for crawlers). */
   function applyClientRedirects() {
@@ -18,58 +20,6 @@
       .catch(() => {});
   }
   applyClientRedirects();
-
-  /** Replace with your AdSense publisher ID (e.g. ca-pub-1234567890123456). */
-  const ADSENSE_CLIENT = "ca-pub-XXXXXXXX";
-  /** Replace each with the ad unit slot ID from AdSense (numeric). Create separate units per placement when possible. */
-  const ADSENSE_SLOT_TOP = "0000000000";
-  const ADSENSE_SLOT_INLINE = "0000000000";
-  const ADSENSE_SLOT_INLINE_2 = "0000000000";
-  const ADSENSE_SLOT_BOTTOM = "0000000000";
-  const ADSENSE_SLOT_CARD = "0000000000";
-  const ADSENSE_SLOT_STICKY = "0000000000";
-
-  function adsenseInsMarkup(slot) {
-    return `<ins class="adsbygoogle" style="display:block" data-ad-client="${ADSENSE_CLIENT}" data-ad-slot="${slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
-  }
-
-  /** Localized disclosure label (path-based; identical logic to /es/ and /fr/ routes). */
-  function getAdLabel() {
-    const path = location.pathname;
-    if (path.startsWith("/es/") || path === "/es") return "Publicidad";
-    if (path.startsWith("/fr/") || path === "/fr") return "Publicité";
-    return "Advertisement";
-  }
-
-  function getStickyCloseLabel() {
-    const path = location.pathname;
-    if (path.startsWith("/es/") || path === "/es") return "Cerrar publicidad";
-    if (path.startsWith("/fr/") || path === "/fr") return "Fermer la publicité";
-    return "Close advertisement";
-  }
-
-  function adSlotHtml(slot) {
-    return `<div class="ad-label">${getAdLabel()}</div>${adsenseInsMarkup(slot)}`;
-  }
-
-  function pushAdsbygoogle() {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (_) {
-      /* ignore */
-    }
-  }
-
-  /** Load AdSense library once (avoids duplicate tags when index.html also includes the script). */
-  function ensureAdsenseScript() {
-    if (document.body.hasAttribute("data-no-ads")) return;
-    if (document.querySelector('script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]')) return;
-    const s = document.createElement("script");
-    s.async = true;
-    s.crossOrigin = "anonymous";
-    s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${encodeURIComponent(ADSENSE_CLIENT)}`;
-    document.head.appendChild(s);
-  }
 
   function getPathLang() {
     const p = location.pathname;
@@ -139,7 +89,6 @@
     },
   };
 
-  /** Sitewide crawl priority destinations (same paths for all locales). */
   const footerPriorityLinks = {
     en: [
       ["Free memory test", "/free-memory-test/"],
@@ -185,7 +134,6 @@
     ],
   };
 
-  /** Unified site footer — AdSense / trust; localized by URL path. */
   function injectFooter() {
     const footer = document.querySelector("footer");
     if (!footer || footer.getAttribute("data-footer-custom") === "true") return;
@@ -215,7 +163,6 @@
     `.trim();
   }
 
-  /** Phase 10.5: extra internal links for crawl diversity (JS-enhanced; primary paths remain in HTML). */
   function injectRandomLinks() {
     const container = document.querySelector("main");
     if (!container || container.querySelector(".random-links")) return;
@@ -252,7 +199,6 @@
       });
   }
 
-  /** Trust & legal links — visible on all viewports. */
   function injectLegalNav() {
     const header = document.querySelector("header");
     if (!header || header.querySelector("[data-legal-nav]")) return;
@@ -272,162 +218,10 @@
     header.appendChild(nav);
   }
 
-  function injectAdSlots() {
-    const main = document.querySelector("main");
-    if (!main || document.body.hasAttribute("data-no-ads")) return;
-
-    // Avoid duplicate injection
-    if (document.querySelector(".ad-slot")) return;
-
-    const pageType = document.body.dataset.page || "default";
-    /** Tool pages: no second inline; still top + bottom (bottom scroll-revealed). */
-    const fullAdStack = pageType !== "tool";
-    const includeBottom = pageType !== "exercise";
-
-    const sections = main.querySelectorAll("section, .card, .content-block");
-
-    // Top Ad (after first heading)
-    const h1 = main.querySelector("h1");
-    if (h1) {
-      const adTop = document.createElement("div");
-      adTop.className = "ad-slot ad-top";
-      adTop.innerHTML = adSlotHtml(ADSENSE_SLOT_TOP);
-      h1.insertAdjacentElement("afterend", adTop);
-      pushAdsbygoogle();
-    }
-
-    // Inline Ad — reserve space first; ins + push when visible (activateScrollAds)
-    if (fullAdStack && sections.length > 2) {
-      const midIndex = Math.floor(sections.length / 2);
-      const adInline = document.createElement("div");
-      adInline.className = "ad-slot ad-inline";
-      adInline.setAttribute("data-ads-inline-pending", "true");
-      adInline.setAttribute("aria-hidden", "true");
-      adInline.innerHTML = '<div class="ad-inline-reserve" aria-hidden="true"></div>';
-      sections[midIndex].insertAdjacentElement("beforebegin", adInline);
-    }
-
-    // Second inline (long pages only)
-    if (fullAdStack && sections.length > 4) {
-      let idx2 = Math.floor(sections.length * 0.75);
-      const midIndex = Math.floor(sections.length / 2);
-      if (idx2 === midIndex) idx2 = Math.min(sections.length - 1, idx2 + 1);
-      const adInline2 = document.createElement("div");
-      adInline2.className = "ad-slot ad-inline-2";
-      adInline2.innerHTML = adSlotHtml(ADSENSE_SLOT_INLINE_2);
-      sections[idx2].insertAdjacentElement("beforebegin", adInline2);
-      pushAdsbygoogle();
-    }
-
-    // In-card placement after 2nd card (full stack)
-    if (fullAdStack) {
-      const cards = main.querySelectorAll(".test-card, .exercise-card");
-      if (cards.length > 2) {
-        const cardAd = document.createElement("div");
-        cardAd.className = "ad-slot ad-card";
-        cardAd.innerHTML = adSlotHtml(ADSENSE_SLOT_CARD);
-        cards[1].insertAdjacentElement("afterend", cardAd);
-        pushAdsbygoogle();
-      }
-    }
-
-    // Bottom Ad (before footer)
-    if (includeBottom) {
-      const footer = document.querySelector("footer");
-      if (footer) {
-        const adBottom = document.createElement("div");
-        adBottom.className = "ad-slot ad-bottom";
-        adBottom.innerHTML = adSlotHtml(ADSENSE_SLOT_BOTTOM);
-        footer.insertAdjacentElement("beforebegin", adBottom);
-        pushAdsbygoogle();
-      }
-    }
-  }
-
-  function activateScrollAds() {
-    const inlineAd = document.querySelector(".ad-inline[data-ads-inline-pending]");
-    const bottomAd = document.querySelector(".ad-bottom");
-
-    const revealInline = () => {
-      if (!inlineAd || !inlineAd.hasAttribute("data-ads-inline-pending")) return;
-      inlineAd.innerHTML = adSlotHtml(ADSENSE_SLOT_INLINE);
-      inlineAd.removeAttribute("data-ads-inline-pending");
-      pushAdsbygoogle();
-      inlineAd.classList.add("ad-visible");
-      inlineAd.removeAttribute("aria-hidden");
-    };
-
-    const revealBottomVisually = () => {
-      bottomAd?.classList.add("ad-visible");
-    };
-
-    let inlineDone = !(inlineAd?.getAttribute("data-ads-inline-pending") === "true");
-    let bottomDone = !bottomAd;
-
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      revealInline();
-      revealBottomVisually();
-      return;
-    }
-
-    const onScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight;
-      const h = document.body.scrollHeight;
-      const shallowTrigger = h * 0.35;
-      const deepTrigger = h * 0.75;
-
-      if (!inlineDone && scrollPosition > shallowTrigger) {
-        revealInline();
-        inlineDone = true;
-      }
-      if (!bottomDone && scrollPosition > deepTrigger) {
-        revealBottomVisually();
-        bottomDone = true;
-      }
-      if (inlineDone && bottomDone) {
-        window.removeEventListener("scroll", onScroll);
-      }
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll();
-  }
-
-  function injectStickyAd() {
-    if (document.body.hasAttribute("data-no-ads")) return;
-    if (document.body.dataset.page === "tool") return;
-    if (document.body.dataset.page === "exercise") return;
-    if (window.innerWidth > 768) return;
-    if (document.querySelector(".ad-sticky")) return;
-
-    const sticky = document.createElement("div");
-    sticky.className = "ad-sticky";
-    sticky.innerHTML = `<div class="ad-sticky__inner">${adSlotHtml(ADSENSE_SLOT_STICKY)}</div>`;
-
-    const closeBtn = document.createElement("button");
-    closeBtn.type = "button";
-    closeBtn.className = "ad-close";
-    closeBtn.setAttribute("aria-label", getStickyCloseLabel());
-    closeBtn.textContent = "×";
-    closeBtn.addEventListener("click", () => {
-      sticky.remove();
-      document.body.classList.remove("has-ad-sticky");
-    });
-    sticky.appendChild(closeBtn);
-
-    document.body.appendChild(sticky);
-    document.body.classList.add("has-ad-sticky");
-    pushAdsbygoogle();
-  }
-
   document.addEventListener("DOMContentLoaded", () => {
-    ensureAdsenseScript();
     injectFooter();
     injectRandomLinks();
     injectLegalNav();
-    injectAdSlots();
-    activateScrollAds();
-    injectStickyAd();
 
     const year = document.getElementById("year");
     if (year) year.textContent = String(new Date().getFullYear());
