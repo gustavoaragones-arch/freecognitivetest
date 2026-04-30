@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dessin de l’horloge en ligne | Test Cognitif Gratuit</title>
+    <meta
+      name="description"
+      content="Dessin de l’horloge dans le navigateur avec toile accessible. Usage éducatif uniquement."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/fr/tests/clock-drawing-test.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Comment ça se score ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On examine le cercle, les chiffres et les aiguilles selon la consigne."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Puis-je enregistrer l’image ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui — bouton Enregistrer pour un PNG."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Dessin de l’horloge","inLanguage":"fr","url":"https://freecognitivetest.org/fr/tests/clock-drawing-test.html","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
+  </head>
+  <body data-page="tool">
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    <header>
+      <h1 class="site-title"><a href="/fr/" class="home-link">Test Cognitif Gratuit</a></h1>
+      <p class="tool-page-tagline">Horloge — exécutif et visuospatial</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="/fr/">Accueil</a></li>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/fr/tests/trail-making-test.html">Trail Making</a></li>
+          <li><a href="/fr/tests/word-recall-test.html">Rappel de mots</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="Langue">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Introduction</h2>
+        <p>Toile large pour pratiquer le dessin de l’horloge ; visée éducative.</p>
+      </section>
+      <section>
+        <h2>Outil interactif</h2>
+        <div class="clock-wrap">
+          <label for="clockCanvas">Zone de dessin</label>
+          <canvas id="clockCanvas" width="600" height="600" aria-label="Toile horloge"></canvas>
+          <p id="clockStatus" class="status-box" aria-live="polite">Prêt à dessiner.</p>
+          <div class="button-row">
+            <button id="clearClockBtn" class="warning" type="button">Effacer</button>
+            <button id="saveClockBtn" class="success" type="button">Enregistrer</button>
+            <button id="printClockBtn" type="button">Imprimer</button>
+          </div>
+          <p id="clockKeyboardHint" class="muted">Clavier : Tab pour les contrôles ; Entrée/Espace pour activer.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Interprétation</h2>
+        <ul>
+          <li>1 pt : cercle complet.</li>
+          <li>1 pt : chiffres cohérents.</li>
+          <li>1 pt : heure demandée respectée.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Diagnostic ?</summary>
+          <p>Non — support éducatif au dépistage.</p>
+        </details>
+        <details>
+          <summary>Impression pour consultation ?</summary>
+          <p>Oui — bouton Imprimer.</p>
+        </details>
+      </section>
+      <section>
+        <h2>Références</h2>
+        <ul>
+          <li>Ressources cliniques sur le dessin de l’horloge.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Tests liés</h2>
+        <ul>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/fr/tests/trail-making-test.html">Trail Making</a></li>
+          <li><a href="/fr/test-memoire-gratuit/">Hub mémoire</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script type="module" src="/assets/js/clock-drawing.js"></script>
+  </body>
+</html>

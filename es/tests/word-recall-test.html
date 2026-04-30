@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuerdo de palabras en línea | Prueba Cognitiva Gratis</title>
+    <meta
+      name="description"
+      content="Recuerdo diferido de palabras en línea con temporizador. Herramienta educativa, no diagnóstico."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/es/tests/word-recall-test.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuántas palabras debo recordar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Esta versión usa 5 palabras por ronda."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo repetir la prueba?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí; cada ronda muestra palabras nuevas al azar."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Recuerdo de palabras","inLanguage":"es","url":"https://freecognitivetest.org/es/tests/word-recall-test.html","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
+  </head>
+  <body data-page="tool">
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    <header>
+      <h1 class="site-title"><a href="/es/" class="home-link">Prueba Cognitiva Gratis</a></h1>
+      <p class="tool-page-tagline">Recuerdo de palabras — memoria a corto plazo</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/tests/digit-span-test.html">Span de dígitos</a></li>
+          <li><a href="/es/prueba-memoria-gratis/">Prueba de memoria</a></li>
+          <li><a href="/es/tests/mini-cog-test.html">Mini-Cog</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="Idioma">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Introducción</h2>
+        <p>
+          Esta prueba muestra 5 palabras; intente recordarlas tras una pausa. Para más recursos de memoria visite
+          <a href="https://memorytestonline.org" rel="noopener noreferrer" target="_blank">MemoryTestOnline.org</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Herramienta interactiva</h2>
+        <div class="button-row">
+          <button id="startWordRecallBtn" class="primary" type="button">Iniciar recuerdo de palabras</button>
+        </div>
+        <p><strong id="wordRecallLabelWords">Palabras:</strong> <span id="wordRecallWords" aria-live="polite">Sin iniciar</span></p>
+        <p><strong id="wordRecallLabelTimer">Temporizador:</strong> <span id="wordRecallTimer" aria-live="polite">00:00</span></p>
+        <label for="wordRecallInput">Escriba las palabras recordadas separadas por comas</label>
+        <input id="wordRecallInput" type="text" placeholder="manzana, río, silla..." />
+        <div class="button-row">
+          <button id="scoreWordRecallBtn" type="button">Puntuar recuerdo</button>
+        </div>
+        <p id="wordRecallResult" class="result-box" aria-live="polite">Inicie la prueba para generar la lista.</p>
+      </section>
+      <section>
+        <h2>Interpretación</h2>
+        <p>La puntuación es el número de palabras correctas (0–5). Repetir en el tiempo puede ayudar a observar tendencias.</p>
+      </section>
+      <section>
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Es un diagnóstico médico?</summary>
+          <p>No. Es un ejercicio de cribado educativo.</p>
+        </details>
+        <details>
+          <summary>¿Debo esperar antes de escribir?</summary>
+          <p>Sí; espere 60–120 s para recuerdo diferido.</p>
+        </details>
+      </section>
+      <section>
+        <h2>Referencias</h2>
+        <ul>
+          <li>Métodos de recuerdo diferido en cribado cognitivo.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Pruebas relacionadas</h2>
+        <ul>
+          <li><a href="/es/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/es/tests/digit-span-test.html">Span de dígitos</a></li>
+          <li><a href="/es/prueba-memoria-gratis/">Prueba de memoria</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script type="module" src="/assets/js/word-recall.js"></script>
+  </body>
+</html>

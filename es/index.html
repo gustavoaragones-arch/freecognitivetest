@@ -17,68 +17,109 @@
     <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:locale:alternate" content="fr_FR" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
-      <script type="application/ld+json" id="org-schema-static">{"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital","email":"contact@albor.digital","description":"Albor Digital LLC is an independent digital product studio that designs and operates web-based tools, SaaS platforms, and digital utilities.","foundingLocation":{"@type":"Place","name":"United States"},"areaServed":"Worldwide","sameAs":["https://albor.digital","https://memorytestonline.org","https://brainexercisesforseniors.com"]}</script>
-    <script type="application/ld+json" id="publisher-schema-static">{"@context":"https://schema.org","@type":"WebPage","name":"Prueba Cognitiva Gratis Online (2 Min) – Resultados Inmediatos","inLanguage":"es","url":"https://freecognitivetest.org/es/","publisher":{"@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}}</script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Prueba Cognitiva Gratis Online","inLanguage":"es","url":"https://freecognitivetest.org/es/","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
   </head>
   <body>
-    <a href="#main" class="skip-link" data-i18n="skipLink"></a>
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
     <header>
-      <h1 data-i18n="site.name"></h1>
-      <p data-i18n="site.tagline"></p>
-      <nav data-i18n-aria-label="nav.ariaLabel" aria-label="Principal">
-        <ul>
-          <li><a href="/es/" data-i18n="nav.home"></a></li>
-          <li><a href="/tests/mini-cog-test.html?lang=es" data-i18n="nav.tests"></a></li>
-          <li><a href="/exercises/memory-games.html" data-i18n="nav.exercises"></a></li>
-          <li><a href="/resources/printable-cognitive-tests.html" data-i18n="nav.resources"></a></li>
-          <li><a href="/about/" data-i18n="nav.about"></a></li>
-        </ul>
+      <h1 class="site-title"><a href="/es/" class="home-link">Prueba Cognitiva Gratis</a></h1>
+      <p class="site-tagline">Tamizaje cognitivo y ejercicios cerebrales accesibles.</p>
+      <nav aria-label="Principal">
+        <div class="nav-buttons">
+          <a class="btn" href="/es/">Inicio</a>
+          <a class="btn" href="/es/tests/mini-cog-test.html">Pruebas</a>
+          <a class="btn" href="/es/ejercicios-cerebrales/">Ejercicios</a>
+          <a class="btn" href="/es/recursos/pruebas-cognitivas-imprimibles.html">Recursos</a>
+          <a class="btn" href="/es/about/">Acerca de</a>
+        </div>
       </nav>
-      <div class="language-switch" data-i18n-aria-label="langSwitch.ariaLabel" aria-label="Selector de idioma">
-        <a data-lang-link="en" href="/en/" data-i18n="langSwitch.en"></a>
-        <a data-lang-link="es" href="/es/" data-i18n="langSwitch.es"></a>
-        <a data-lang-link="fr" href="/fr/" data-i18n="langSwitch.fr"></a>
+      <div class="language-switch" aria-label="Selector de idioma">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
       </div>
     </header>
     <main id="main" class="container">
       <section>
-        <h2 data-i18n="intro.heading"></h2>
-        <p data-i18n="intro.text"></p>
-      </section>
-      <section>
-        <h2 data-i18n="tool.heading"></h2>
-        <a class="button primary" href="/tests/mini-cog-test.html" data-i18n="tool.openMiniCog"></a>
+        <h2>Cribado de memoria y cognición</h2>
+        <div class="hero-tools">
+          <a class="cta" href="/es/prueba-memoria-gratis/">Prueba de Memoria</a>
+          <span>— palabras, dígitos, memoria visual.</span>
+          <a class="cta" href="/es/prueba-demencia/">Prueba de Demencia</a>
+          <span>— Mini-Cog, dibujo del reloj, autoevaluación. Solo fines educativos.</span>
+        </div>
+        <p class="hero-tool-links">
+          Empiece por la <a href="/es/prueba-memoria-gratis/">prueba de memoria</a> o las
+          <a href="/es/prueba-demencia/">herramientas de cribado</a>. Índice completo:
+          <a href="/ai-index.html">todas las páginas</a>.
+        </p>
         <ul class="trust-badges" aria-label="Señales de confianza">
           <li>✔ Sin registro</li>
           <li>✔ Gratis y accesible</li>
           <li>✔ Uso educativo</li>
         </ul>
       </section>
+
       <section>
-        <h2 data-i18n="howScoringWorks.heading"></h2>
-        <p data-i18n="howScoringWorks.text"></p>
+        <h2>Pruebas clínicas destacadas</h2>
+        <div class="tests-grid">
+          <article class="test-card"><h3><a href="/es/tests/mini-cog-test.html">Mini-Cog</a></h3><p>Recuerdo de 3 palabras + dibujo del reloj.</p></article>
+          <article class="test-card"><h3><a href="/es/tests/clock-drawing-test.html">Dibujo del reloj</a></h3><p>Lienzo accesible; guardar o imprimir.</p></article>
+          <article class="test-card"><h3><a href="/es/tests/word-recall-test.html">Recuerdo de palabras</a></h3><p>Memoria verbal a corto plazo.</p></article>
+          <article class="test-card"><h3><a href="/es/tests/digit-span-test.html">Span de dígitos</a></h3><p>Memoria de trabajo directa e inversa.</p></article>
+          <article class="test-card"><h3><a href="/es/tests/trail-making-test.html">Trail Making</a></h3><p>Velocidad de procesamiento.</p></article>
+        </div>
       </section>
+
       <section>
-        <h2 data-i18n="faq.heading"></h2>
-        <details>
-          <summary data-i18n="faq.summary"></summary>
-          <p data-i18n="faq.text"></p>
-        </details>
+        <h2>Entrenamiento cerebral</h2>
+        <div class="tests-grid">
+          <article class="test-card"><h3><a href="/es/prueba-memoria-gratis/">Memoria visual</a></h3><p>Herramientas interactivas en el hub de memoria.</p></article>
+          <article class="test-card"><h3><a href="/es/ejercicios-cerebrales/atencion/">Atención</a></h3><p>Ejercicios de la categoría atención.</p></article>
+          <article class="test-card"><h3><a href="/es/ejercicios-cerebrales/memoria/">Memoria (ejercicios)</a></h3><p>Biblioteca de memoria en español.</p></article>
+          <article class="test-card"><h3><a href="/es/ejercicios-cerebrales/">Todos los ejercicios</a></h3><p>Explorar por dominio cognitivo.</p></article>
+        </div>
       </section>
+
       <section>
-        <h2 data-i18n="references.heading"></h2>
-        <ul><li data-i18n="references.item1"></li></ul>
+        <h2>Autoevaluación</h2>
+        <article class="test-card">
+          <h3><a href="/es/prueba-demencia/">Cribado y autoevaluación</a></h3>
+          <p>Mini-Cog, reloj y cuestionario educativo en el hub de demencia.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="daily-exercise-heading">
+        <h2 id="daily-exercise-heading">Ejercicio cerebral diario</h2>
+        <p>Hoy: <span id="daily-brain-exercise" aria-live="polite">…</span></p>
+        <p><a href="/brain-exercises/all-exercises.html">Ver los 100 ejercicios</a> · <a href="/brain-training-program/">Programa diario</a></p>
+      </section>
+
+      <section>
+        <h2>Más en el sitio</h2>
+        <div class="tests-grid">
+          <article class="test-card"><h3><a href="/brain-training-program/">Generador de programa</a></h3><p>Rutinas de 7 a 30 días.</p></article>
+          <article class="test-card"><h3><a href="/es/ejercicios-cerebrales/">Biblioteca de ejercicios</a></h3><p>Actividades por dominio cognitivo.</p></article>
+          <article class="test-card"><h3><a href="/es/recursos/pruebas-cognitivas-imprimibles.html">Recursos imprimibles</a></h3><p>PDF y orientación.</p></article>
+          <article class="test-card"><h3><a href="/programmatic/">Guías temáticas</a></h3><p>Artículos SEO (muchas en inglés).</p></article>
+          <article class="test-card"><h3><a href="/ai-index.html">Índice completo</a></h3><p>Listado de URLs para crawlers.</p></article>
+        </div>
       </section>
 
       <section class="authority-about-lede">
         <p>
-          Aprende más sobre cómo funciona esta herramienta y sus limitaciones en
+          Aprenda más sobre cómo funciona esta herramienta y sus límites en
           <a href="/es/about/">nuestra guía</a>.
         </p>
       </section>
     </main>
-    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
-    <script type="module" src="/assets/js/i18n.js"></script>
+    <footer></footer>
+    <script src="/assets/js/daily-exercise.js" defer></script>
     <script src="/assets/js/common.js" defer></script>
   </body>
 </html>

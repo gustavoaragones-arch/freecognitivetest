@@ -26,7 +26,7 @@ export const translations = {
     },
     intro: {
       heading: "Intro",
-      text: "This language route is ready for translated page expansion.",
+      text: "FreeCognitiveTest.org offers fast, browser-based cognitive screening exercises for education and self-awareness. Pick a test hub below or open any clinical tool—no account required.",
     },
     tool: {
       heading: "Tool",
@@ -38,12 +38,12 @@ export const translations = {
     },
     faq: {
       heading: "FAQ",
-      summary: "Is this translated?",
-      text: "Core translation files are loaded from the translation system.",
+      summary: "Is this a medical diagnosis?",
+      text: "No. These tools support learning and awareness only. Talk to a clinician about symptoms or treatment.",
     },
     references: {
       heading: "References",
-      item1: "Localization best practices.",
+      item1: "NIH National Institute on Aging — brain health and cognitive aging.",
     },
     footer: {
       owned: "Owned and operated by Albor Digital LLC — ",
@@ -86,7 +86,7 @@ export const translations = {
     },
     intro: {
       heading: "Introducción",
-      text: "Esta ruta de idioma está lista para ampliar las traducciones.",
+      text: "FreeCognitiveTest.org ofrece ejercicios rápidos de cribado cognitivo en el navegador, para formación y autocuidado. Elige un hub de pruebas o abre cualquier herramienta clínica—sin cuenta.",
     },
     tool: {
       heading: "Herramienta",
@@ -98,12 +98,12 @@ export const translations = {
     },
     faq: {
       heading: "Preguntas frecuentes",
-      summary: "¿Está traducido?",
-      text: "Los textos se cargan desde el sistema de traducción.",
+      summary: "¿Es un diagnóstico médico?",
+      text: "No. Estas herramientas son solo educativas. Consulta a un profesional si tienes síntomas o dudas clínicas.",
     },
     references: {
       heading: "Referencias",
-      item1: "Buenas prácticas de localización.",
+      item1: "NIH National Institute on Aging — salud cerebral y envejecimiento (recurso en inglés).",
     },
     footer: {
       owned: "Propiedad de Albor Digital LLC — ",
@@ -146,7 +146,7 @@ export const translations = {
     },
     intro: {
       heading: "Introduction",
-      text: "Cette route linguistique est prête pour l’extension des traductions.",
+      text: "FreeCognitiveTest.org propose des exercices de dépistage cognitif rapides dans le navigateur, à visée éducative et de sensibilisation. Choisissez un hub ci-dessous ou ouvrez un outil clinique—sans compte.",
     },
     tool: {
       heading: "Outil",
@@ -158,12 +158,12 @@ export const translations = {
     },
     faq: {
       heading: "FAQ",
-      summary: "Traduction complète ?",
-      text: "Les textes sont chargés depuis le système de traduction.",
+      summary: "Est-ce un diagnostic médical ?",
+      text: "Non. Ces outils sont purement éducatifs. Consultez un professionnel de santé pour tout symptôme ou traitement.",
     },
     references: {
       heading: "Références",
-      item1: "Bonnes pratiques de localisation.",
+      item1: "NIH National Institute on Aging — santé cérébrale et vieillissement (ressource EN).",
     },
     footer: {
       owned: "Exploité par Albor Digital LLC — ",

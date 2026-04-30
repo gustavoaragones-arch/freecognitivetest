@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rappel de mots en ligne | Test Cognitif Gratuit</title>
+    <meta
+      name="description"
+      content="Rappel différé de mots avec chronomètre. Outil éducatif, sans diagnostic médical."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/fr/tests/word-recall-test.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Combien de mots dois-je retenir ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cette version utilise 5 mots par tour."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Puis-je recommencer ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui ; chaque tour propose une liste aléatoire."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Rappel de mots","inLanguage":"fr","url":"https://freecognitivetest.org/fr/tests/word-recall-test.html","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
+  </head>
+  <body data-page="tool">
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    <header>
+      <h1 class="site-title"><a href="/fr/" class="home-link">Test Cognitif Gratuit</a></h1>
+      <p class="tool-page-tagline">Rappel de mots — mémoire à court terme</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="/fr/">Accueil</a></li>
+          <li><a href="/fr/tests/digit-span-test.html">Empan de chiffres</a></li>
+          <li><a href="/fr/test-memoire-gratuit/">Test mémoire</a></li>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="Langue">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Cette épreuve affiche 5 mots ; essayez de les rappeler après une pause. Pour d’autres ressources :
+          <a href="https://memorytestonline.org" rel="noopener noreferrer" target="_blank">MemoryTestOnline.org</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Outil interactif</h2>
+        <div class="button-row">
+          <button id="startWordRecallBtn" class="primary" type="button">Démarrer le rappel de mots</button>
+        </div>
+        <p><strong id="wordRecallLabelWords">Mots :</strong> <span id="wordRecallWords" aria-live="polite">Non démarré</span></p>
+        <p><strong id="wordRecallLabelTimer">Chrono :</strong> <span id="wordRecallTimer" aria-live="polite">00:00</span></p>
+        <label for="wordRecallInput">Saisissez les mots séparés par des virgules</label>
+        <input id="wordRecallInput" type="text" placeholder="pomme, rivière, chaise..." />
+        <div class="button-row">
+          <button id="scoreWordRecallBtn" type="button">Noter le rappel</button>
+        </div>
+        <p id="wordRecallResult" class="result-box" aria-live="polite">Lancez le test pour afficher la liste.</p>
+      </section>
+      <section>
+        <h2>Interprétation</h2>
+        <p>Le score compte les mots corrects (0–5). Répéter sur plusieurs jours peut montrer une tendance.</p>
+      </section>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Est-ce un diagnostic ?</summary>
+          <p>Non — exercice de dépistage éducatif.</p>
+        </details>
+        <details>
+          <summary>Dois-je attendre avant de taper ?</summary>
+          <p>Oui ; attendez 60–120 s pour un rappel différé.</p>
+        </details>
+      </section>
+      <section>
+        <h2>Références</h2>
+        <ul>
+          <li>Rappel différé dans le dépistage cognitif.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Tests liés</h2>
+        <ul>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+          <li><a href="/fr/tests/digit-span-test.html">Empan de chiffres</a></li>
+          <li><a href="/fr/test-memoire-gratuit/">Test mémoire</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script type="module" src="/assets/js/word-recall.js"></script>
+  </body>
+</html>

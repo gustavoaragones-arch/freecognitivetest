@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Cog en línea | Prueba Cognitiva Gratis</title>
+    <meta
+      name="description"
+      content="Mini-Cog en línea: recuerdo de 3 palabras, temporizador, dibujo del reloj y puntuación educativa."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/es/tests/mini-cog-test.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿El Mini-Cog diagnostica demencia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Es una herramienta de cribado; debe interpretarla un profesional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Por qué incluye dibujo del reloj?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ayuda a explorar función ejecutiva y habilidades visuoespaciales."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Mini-Cog en línea","inLanguage":"es","url":"https://freecognitivetest.org/es/tests/mini-cog-test.html","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
+  </head>
+  <body data-page="tool">
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    <header>
+      <h1 class="site-title"><a href="/es/" class="home-link">Prueba Cognitiva Gratis</a></h1>
+      <p class="tool-page-tagline">Mini-Cog — 3 palabras, reloj y recuerdo</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/tests/clock-drawing-test.html">Dibujo del reloj</a></li>
+          <li><a href="/es/tests/word-recall-test.html">Recuerdo de palabras</a></li>
+          <li><a href="/es/prueba-demencia/">Cribado cognitivo</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="Idioma">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Introducción</h2>
+        <p>
+          Siga la secuencia completa del Mini-Cog. Esta página es educativa y ayuda a preparar una evaluación cognitiva formal.
+        </p>
+      </section>
+
+      <section>
+        <h2>Herramienta interactiva</h2>
+        <div class="button-row">
+          <button id="startMiniCogBtn" class="primary" type="button">Iniciar Mini-Cog</button>
+        </div>
+        <p><strong id="miniCogLabelWords">Palabras:</strong> <span id="miniCogWords" aria-live="polite">Sin iniciar</span></p>
+        <p><strong id="miniCogLabelTimer">Temporizador:</strong> <span id="miniCogTimer" aria-live="polite">00:00</span></p>
+        <div id="miniCogApp" hidden>
+          <div class="clock-wrap">
+            <label for="clockCanvas">Dibuje un reloj marcando las 11:10</label>
+            <canvas id="clockCanvas" width="600" height="600" aria-label="Lienzo del reloj"></canvas>
+            <p id="clockStatus" class="status-box" aria-live="polite">Listo para dibujar.</p>
+            <div class="button-row">
+              <button id="clearClockBtn" class="warning" type="button">Borrar lienzo</button>
+              <button id="saveClockBtn" class="success" type="button">Guardar dibujo</button>
+              <button id="printClockBtn" type="button">Imprimir resultado</button>
+            </div>
+          </div>
+          <div id="clockChecklist">
+            <h3>Lista del reloj (0–2 puntos)</h3>
+            <label><input type="checkbox" /> El círculo está completo</label>
+            <label><input type="checkbox" /> Los números son mayormente correctos</label>
+          </div>
+          <label for="recallWords">Escriba las palabras recordadas (separadas por comas)</label>
+          <input id="recallWords" type="text" placeholder="manzana, silla, río" />
+          <div class="button-row">
+            <button id="scoreMiniCogBtn" class="primary" type="button">Puntuar Mini-Cog</button>
+          </div>
+          <p><strong id="miniCogRecallPtsLabel">Puntos de recuerdo:</strong> <span id="recallPoints">0</span>/3</p>
+          <p><strong id="miniCogClockPtsLabel">Puntos del reloj:</strong> <span id="clockPoints">0</span>/2</p>
+          <p id="miniCogResult" class="result-box" aria-live="polite">Inicie la prueba para obtener un resultado.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Interpretación</h2>
+        <ul>
+          <li>Recuerdo: 0 a 3 puntos según las palabras recordadas.</li>
+          <li>Reloj: 0 a 2 puntos según la lista breve.</li>
+          <li>Total: 0 a 5. Puntuaciones más bajas sugieren consultar a un profesional.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Puede diagnosticar demencia?</summary>
+          <p>No. Solo es un apoyo al cribado.</p>
+        </details>
+        <details>
+          <summary>¿Funciona en móvil?</summary>
+          <p>Sí. El lienzo admite tacto y teclado.</p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Referencias</h2>
+        <ul>
+          <li>Borson S. literatura sobre Mini-Cog.</li>
+          <li>Guías de cribado cognitivo (Alzheimer's Association, EN).</li>
+        </ul>
+      </section>
+
+      <section class="related-links">
+        <h2>Pruebas relacionadas</h2>
+        <ul>
+          <li><a href="/es/tests/clock-drawing-test.html">Dibujo del reloj</a></li>
+          <li><a href="/es/tests/word-recall-test.html">Recuerdo de palabras</a></li>
+          <li><a href="/es/tests/digit-span-test.html">Span de dígitos</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> FreeCognitiveTest.org</p>
+    </footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script type="module" src="/assets/js/clock-drawing.js"></script>
+    <script type="module" src="/assets/js/mini-cog.js"></script>
+  </body>
+</html>

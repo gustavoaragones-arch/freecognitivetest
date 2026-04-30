@@ -1,6 +1,93 @@
 window.ADS_ENABLED = false;
 
 (() => {
+  /**
+   * Maps equivalent URLs across EN / ES / FR so language switches preserve the same page.
+   * Include trailing slashes for directory URLs; .html for files.
+   */
+  const PATH_MIRROR_ROWS = [
+    { en: "/", es: "/es/", fr: "/fr/", enAlt: "/en/" },
+    { en: "/free-memory-test/", es: "/es/prueba-memoria-gratis/", fr: "/fr/test-memoire-gratuit/" },
+    { en: "/dementia-test-online/", es: "/es/prueba-demencia/", fr: "/fr/test-demence/" },
+    {
+      en: "/tests/mini-cog-test.html",
+      es: "/es/tests/mini-cog-test.html",
+      fr: "/fr/tests/mini-cog-test.html",
+    },
+    {
+      en: "/tests/clock-drawing-test.html",
+      es: "/es/tests/clock-drawing-test.html",
+      fr: "/fr/tests/clock-drawing-test.html",
+    },
+    {
+      en: "/tests/word-recall-test.html",
+      es: "/es/tests/word-recall-test.html",
+      fr: "/fr/tests/word-recall-test.html",
+    },
+    {
+      en: "/tests/digit-span-test.html",
+      es: "/es/tests/digit-span-test.html",
+      fr: "/fr/tests/digit-span-test.html",
+    },
+    {
+      en: "/tests/trail-making-test.html",
+      es: "/es/tests/trail-making-test.html",
+      fr: "/fr/tests/trail-making-test.html",
+    },
+    { en: "/brain-exercises/", es: "/es/ejercicios-cerebrales/", fr: "/fr/exercices-cerebraux/" },
+    {
+      en: "/resources/printable-cognitive-tests.html",
+      es: "/es/recursos/pruebas-cognitivas-imprimibles.html",
+      fr: "/fr/ressources/tests-cognitifs-imprimables.html",
+    },
+    { en: "/about/", es: "/es/about/", fr: "/fr/about/" },
+    { en: "/medical-disclaimer/", es: "/es/medical-disclaimer/", fr: "/fr/medical-disclaimer/" },
+    { en: "/privacy-policy/", es: "/es/privacy-policy/", fr: "/fr/privacy-policy/" },
+    { en: "/contact/", es: "/es/contact/", fr: "/fr/contact/" },
+    { en: "/cookie-policy/", es: "/es/cookie-policy/", fr: "/fr/cookie-policy/" },
+    { en: "/about/author/", es: "/about/author/", fr: "/about/author/" },
+  ];
+
+  function normalizePathForMatch(pathname) {
+    if (!pathname || pathname === "/") return "/";
+    const p = pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
+    return p;
+  }
+
+  function pathMatchesRow(url, row) {
+    const n = normalizePathForMatch(url);
+    const candidates = [row.en, row.es, row.fr, row.enAlt].filter(Boolean);
+    return candidates.some((c) => {
+      const cn = normalizePathForMatch(c);
+      return cn === n || c === url || `${cn}/` === url || cn === `${url}/`.replace(/\/$/, "");
+    });
+  }
+
+  /**
+   * Returns the same logical page in another language (structural mirror).
+   * Falls back to prefix-stripping when no mirror row matches.
+   * @param {"en"|"es"|"fr"} targetLang
+   */
+  function getLocalizedPath(targetLang) {
+    const path = window.location.pathname;
+    for (const row of PATH_MIRROR_ROWS) {
+      if (pathMatchesRow(path, row)) {
+        if (targetLang === "en") return row.en;
+        if (targetLang === "es") return row.es;
+        return row.fr;
+      }
+    }
+    let cleanPath = path
+      .replace(/^\/(en|es|fr)(?=\/|$)/, "")
+      .replace(/^\/+/, "");
+    if (targetLang === "en") {
+      return cleanPath ? `/${cleanPath}` : "/";
+    }
+    return `/${targetLang}/${cleanPath}`;
+  }
+
+  window.getLocalizedPath = getLocalizedPath;
+
   /** Client-side redirect map (pairs with /redirects.json + static HTML stubs for crawlers). */
   function applyClientRedirects() {
     const path = window.location.pathname;
@@ -29,13 +116,23 @@ window.ADS_ENABLED = false;
   }
 
   const pathLang = getPathLang();
-  const lang = window.I18N?.lang || document.documentElement.lang || pathLang || "en";
 
-  document.querySelectorAll("[data-lang-link]").forEach((link) => {
-    const target = link.getAttribute("data-lang-link");
-    link.href = `/${target}/`;
-    if (target === lang) link.setAttribute("aria-current", "page");
-  });
+  function wireLanguageSwitcher() {
+    document.querySelectorAll("[data-lang-switch]").forEach((link) => {
+      const target = link.getAttribute("data-lang-switch");
+      if (target !== "en" && target !== "es" && target !== "fr") return;
+      link.href = getLocalizedPath(target);
+      if (target === pathLang) link.setAttribute("aria-current", "page");
+      else link.removeAttribute("aria-current");
+    });
+    document.querySelectorAll("a[data-lang-link]").forEach((link) => {
+      const target = link.getAttribute("data-lang-link");
+      if (target !== "en" && target !== "es" && target !== "fr") return;
+      link.href = getLocalizedPath(target);
+      if (target === pathLang) link.setAttribute("aria-current", "page");
+    });
+  }
+  wireLanguageSwitcher();
 
   const footerTagline = {
     en: "Educational cognitive screening tools. Not a medical diagnosis.",
@@ -99,15 +196,15 @@ window.ADS_ENABLED = false;
       ["All pages", "/ai-index.html"],
     ],
     es: [
-      ["Prueba de memoria gratuita", "/free-memory-test/"],
-      ["Prueba de demencia en línea", "/dementia-test-online/"],
-      ["Ejercicios cerebrales", "/brain-exercises/"],
+      ["Prueba de memoria gratuita", "/es/prueba-memoria-gratis/"],
+      ["Prueba de demencia en línea", "/es/prueba-demencia/"],
+      ["Ejercicios cerebrales", "/es/ejercicios-cerebrales/"],
       ["Todas las páginas", "/ai-index.html"],
     ],
     fr: [
-      ["Test de mémoire gratuit", "/free-memory-test/"],
-      ["Test démence en ligne", "/dementia-test-online/"],
-      ["Exercices cérébraux", "/brain-exercises/"],
+      ["Test de mémoire gratuit", "/fr/test-memoire-gratuit/"],
+      ["Test démence en ligne", "/fr/test-demence/"],
+      ["Exercices cérébraux", "/fr/exercices-cerebraux/"],
       ["Toutes les pages", "/ai-index.html"],
     ],
   };

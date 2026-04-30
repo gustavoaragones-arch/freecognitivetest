@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empan de chiffres en ligne | Test Cognitif Gratuit</title>
+    <meta
+      name="description"
+      content="Empan de chiffres direct et inverse. Exercice éducatif de mémoire de travail."
+    />
+    <link rel="canonical" href="https://freecognitivetest.org/fr/tests/digit-span-test.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Que mesure l’empan de chiffres ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Il explore attention et mémoire de travail de façon indicative."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qu’est-ce que le mode inverse ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vous devez répéter la séquence à l’envers."
+            }
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json" id="org-schema-static">
+      {"@context":"https://schema.org","@type":"Organization","name":"Albor Digital LLC","url":"https://albor.digital"}
+    </script>
+    <script type="application/ld+json" id="publisher-schema-static">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Empan de chiffres","inLanguage":"fr","url":"https://freecognitivetest.org/fr/tests/digit-span-test.html","publisher":{"@type":"Organization","name":"FreeCognitiveTest.org","url":"https://freecognitivetest.org"}}
+    </script>
+  </head>
+  <body data-page="tool">
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    <header>
+      <h1 class="site-title"><a href="/fr/" class="home-link">Test Cognitif Gratuit</a></h1>
+      <p class="tool-page-tagline">Empan de chiffres — mémoire de travail</p>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="/fr/">Accueil</a></li>
+          <li><a href="/fr/tests/word-recall-test.html">Rappel de mots</a></li>
+          <li><a href="/fr/tests/trail-making-test.html">Trail Making</a></li>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+        </ul>
+      </nav>
+      <div class="language-switch" aria-label="Langue">
+        <a href="#" data-lang-switch="en">EN</a> |
+        <a href="#" data-lang-switch="es">ES</a> |
+        <a href="#" data-lang-switch="fr">FR</a>
+      </div>
+    </header>
+    <main id="main" class="container">
+      <section>
+        <h2>Introduction</h2>
+        <p>Utilisez l’empan direct et inverse pour entraîner mémoire de travail et attention.</p>
+      </section>
+      <section>
+        <h2>Outil interactif</h2>
+        <label for="digitSpanMode">Mode</label>
+        <select id="digitSpanMode">
+          <option value="forward">Direct</option>
+          <option value="backward">Inverse</option>
+        </select>
+        <div class="button-row">
+          <button id="startDigitSpanBtn" class="primary" type="button">Démarrer l’empan</button>
+        </div>
+        <p><strong id="digitSpanLabelLevel">Niveau :</strong> <span id="digitSpanLevel">3</span></p>
+        <p><strong id="digitSpanLabelSequence">Séquence :</strong> <span id="digitSpanSequence" aria-live="polite">Appuyez sur Démarrer</span></p>
+        <label for="digitSpanInput">Saisissez les chiffres (sans espaces)</label>
+        <input id="digitSpanInput" type="text" inputmode="numeric" placeholder="ex. 73912" />
+        <div class="button-row">
+          <button id="checkDigitSpanBtn" type="button">Vérifier</button>
+        </div>
+        <p id="digitSpanResult" class="result-box" aria-live="polite">Lancez une série pour commencer.</p>
+      </section>
+      <section>
+        <h2>Interprétation</h2>
+        <p>Votre meilleur empan reflète la mémoire à court terme ; l’inverse est généralement plus exigeant.</p>
+      </section>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Les enfants peuvent-ils l’utiliser ?</summary>
+          <p>Oui, avec interprétation adaptée à l’âge et supervision.</p>
+        </details>
+        <details>
+          <summary>Combien d’essais ?</summary>
+          <p>2 à 3 sessions suffisent pour un premier aperçu.</p>
+        </details>
+      </section>
+      <section>
+        <h2>Références</h2>
+        <ul>
+          <li>Méthodes de mémoire de travail en neuropsychologie.</li>
+        </ul>
+      </section>
+      <section class="related-links">
+        <h2>Tests liés</h2>
+        <ul>
+          <li><a href="/fr/tests/word-recall-test.html">Rappel de mots</a></li>
+          <li><a href="/fr/tests/trail-making-test.html">Trail Making</a></li>
+          <li><a href="/fr/tests/mini-cog-test.html">Mini-Cog</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>&copy; <span id="year"></span> FreeCognitiveTest.org</p></footer>
+    <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/common.js" defer></script>
+    <script type="module" src="/assets/js/digit-span.js"></script>
+  </body>
+</html>
