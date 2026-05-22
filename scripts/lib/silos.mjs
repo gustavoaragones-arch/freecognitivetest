@@ -21,24 +21,24 @@ export const MEDICAL_ABOUT = {
 /** Quick answer block (localized) — AEO / AI citation hook. */
 export const QUICK_ANSWER = {
   memory_tests: {
-    en: "A memory test evaluates recall, attention, and cognitive function using structured tasks.",
-    es: "Una prueba de memoria evalúa la memoria, la atención y la función cognitiva mediante tareas estructuradas.",
-    fr: "Un test de mémoire évalue la mémoire, l’attention et les fonctions cognitives à l’aide de tâches structurées.",
+    en: "A memory test is a short set of structured tasks that sample recall, attention, and everyday cognitive skills. On FreeCognitiveTest.org these are educational browser demos for learning and self-screening—they are not a medical diagnosis, validated clinical score, or substitute for professional evaluation.",
+    es: "Una prueba de memoria es un conjunto breve de tareas estructuradas que muestrean recuerdo, atención y habilidades cognitivas cotidianas. En FreeCognitiveTest.org son demostraciones educativas en el navegador para aprender y autoevaluarse—no son diagnóstico médico, puntuación clínica validada ni sustituto de evaluación profesional.",
+    fr: "Un test de mémoire est une courte série de tâches structurées qui échantillonnent le rappel, l’attention et les compétences cognitives du quotidien. Sur FreeCognitiveTest.org, ce sont des démonstrations pédagogiques dans le navigateur—pas un diagnostic médical, une norme clinique validée ni un substitut à une évaluation professionnelle.",
   },
   brain_exercises: {
-    en: "Brain exercises are short, structured tasks that practice memory, attention, processing speed, and reasoning skills in your browser.",
-    es: "Los ejercicios cerebrales son tareas breves y estructuradas que entrenan memoria, atención, velocidad y razonamiento en el navegador.",
-    fr: "Les exercices cérébraux sont des tâches courtes et structurées qui entraînent mémoire, attention, vitesse et raisonnement dans le navigateur.",
+    en: "Brain exercises are short, repeatable tasks that practice memory, attention, processing speed, and reasoning in your browser. FreeCognitiveTest.org offers them for education and habit-building—not as a prescribed treatment, guaranteed cognitive gain, or replacement for assessment by a licensed clinician.",
+    es: "Los ejercicios cerebrales son tareas breves y repetibles que practican memoria, atención, velocidad y razonamiento en el navegador. FreeCognitiveTest.org los ofrece con fines educativos y de hábitos—no como tratamiento prescrito, mejora garantizada ni sustituto de evaluación por un profesional con licencia.",
+    fr: "Les exercices cérébraux sont des tâches courtes et répétables qui entraînent mémoire, attention, vitesse et raisonnement dans le navigateur. FreeCognitiveTest.org les propose à titre pédagogique—pas comme traitement prescrit, gain cognitif garanti ni substitut à une évaluation par un clinicien.",
   },
   cognitive_health: {
-    en: "Cognitive health content explains memory, aging, and warning signs in plain language—it supports—not replaces—clinical care.",
-    es: "El contenido de salud cognitiva explica memoria, envejecimiento y señales de alerta en lenguaje claro; complementa, no sustituye, la atención clínica.",
-    fr: "Les contenus sur la santé cognitive expliquent mémoire, vieillissement et signaux d’alerte clairement ; ils complètent, sans remplacer, les soins.",
+    en: "Cognitive health education explains memory, aging, sleep, and warning signs in plain language for learning and planning. Pages on FreeCognitiveTest.org support—not replace—clinical care; they are not medical diagnosis, individualized treatment plans, or emergency guidance.",
+    es: "La educación en salud cognitiva explica memoria, envejecimiento, sueño y señales de alerta en lenguaje claro para aprender y planificar. Las páginas de FreeCognitiveTest.org complementan—no sustituyen—la atención clínica; no son diagnóstico médico, planes de tratamiento individualizados ni orientación de urgencias.",
+    fr: "L’éducation sur la santé cognitive explique mémoire, vieillissement, sommeil et signaux d’alerte en langage clair pour apprendre et planifier. Les pages de FreeCognitiveTest.org complètent—sans remplacer—les soins cliniques ; ce ne sont pas un diagnostic, un plan de traitement personnalisé ni un conseil d’urgence.",
   },
   dementia: {
-    en: "Dementia education covers early signs, screening context, and planning; only a clinician can diagnose dementia.",
-    es: "La educación sobre demencia abarca signos tempranos, contexto de tamizaje y planificación; solo un clínico puede diagnosticar demencia.",
-    fr: "L’éducation sur la démence couvre les signes précoces, le dépistage et la planification ; seul un clinicien peut poser le diagnostic.",
+    en: "Dementia education describes early signs, screening context, and planning steps in accessible language. FreeCognitiveTest.org does not diagnose dementia; only a qualified clinician can. Our tools illustrate familiar screening themes for learning—not validated clinical batteries or treatment decisions.",
+    es: "La educación sobre demencia describe signos tempranos, contexto de cribado y pasos de planificación en lenguaje accesible. FreeCognitiveTest.org no diagnostica demencia; solo un profesional cualificado puede hacerlo. Nuestras herramientas ilustran temas de cribado para aprender—no baterías clínicas validadas ni decisiones de tratamiento.",
+    fr: "L’éducation sur la démence décrit les signes précoces, le contexte de dépistage et la planification en langage accessible. FreeCognitiveTest.org ne diagnostique pas la démence ; seul un clinicien qualifié le peut. Nos outils illustrent des thèmes de dépistage pour apprendre—pas des batteries cliniques validées ni des décisions de traitement.",
   },
 };
 
@@ -88,9 +88,34 @@ export const CITATION_UI = {
 };
 
 export const FAQ_PAGE_H2 = {
-  en: "Frequently Asked Questions",
+  en: "Frequently asked questions",
   es: "Preguntas frecuentes",
   fr: "Foire aux questions",
+};
+
+/** AUTH-01 Part 11: primary topical entities for schema and copy. */
+export const PRIMARY_ENTITIES = {
+  en: {
+    screening: "cognitive screening",
+    memory: "memory testing",
+    exercises: "brain exercises",
+    dementia: "dementia education",
+    health: "cognitive health",
+  },
+  es: {
+    screening: "cribado cognitivo",
+    memory: "pruebas de memoria",
+    exercises: "ejercicios cerebrales",
+    dementia: "educación sobre demencia",
+    health: "salud cognitiva",
+  },
+  fr: {
+    screening: "dépistage cognitif",
+    memory: "tests de mémoire",
+    exercises: "exercices cérébraux",
+    dementia: "éducation sur la démence",
+    health: "santé cognitive",
+  },
 };
 
 export const QUICK_ANSWER_LABEL = {

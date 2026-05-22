@@ -36,6 +36,9 @@ window.ADS_ENABLED = false;
       fr: "/fr/tests/trail-making-test.html",
     },
     { en: "/brain-exercises/", es: "/es/ejercicios-cerebrales/", fr: "/fr/exercices-cerebraux/" },
+    { en: "/methodology/", es: "/es/metodologia/", fr: "/fr/methodologie/" },
+    { en: "/editorial-standards/", es: "/es/normas-editoriales/", fr: "/fr/normes-editoriales/" },
+    { en: "/sources-policy/", es: "/es/politica-de-fuentes/", fr: "/fr/politique-des-sources/" },
     { en: "/about/", es: "/es/about/", fr: "/fr/about/" },
     { en: "/medical-disclaimer/", es: "/es/medical-disclaimer/", fr: "/fr/medical-disclaimer/" },
     { en: "/privacy-policy/", es: "/es/privacy-policy/", fr: "/fr/privacy-policy/" },
@@ -317,6 +320,9 @@ window.ADS_ENABLED = false;
   const legalNavEntries = {
     en: [
       ["About", "/about/"],
+      ["Methodology", "/methodology/"],
+      ["Editorial", "/editorial-standards/"],
+      ["Sources", "/sources-policy/"],
       ["Disclaimer", "/medical-disclaimer/"],
       ["Privacy", "/privacy-policy/"],
       ["Cookies", "/cookie-policy/"],
@@ -324,6 +330,9 @@ window.ADS_ENABLED = false;
     ],
     es: [
       ["Acerca de", "/es/about/"],
+      ["Metodología", "/es/metodologia/"],
+      ["Editorial", "/es/normas-editoriales/"],
+      ["Fuentes", "/es/politica-de-fuentes/"],
       ["Aviso médico", "/es/medical-disclaimer/"],
       ["Privacidad", "/es/privacy-policy/"],
       ["Cookies", "/es/cookie-policy/"],
@@ -331,6 +340,9 @@ window.ADS_ENABLED = false;
     ],
     fr: [
       ["À propos", "/fr/about/"],
+      ["Méthodologie", "/fr/methodologie/"],
+      ["Éditorial", "/fr/normes-editoriales/"],
+      ["Sources", "/fr/politique-des-sources/"],
       ["Avis médical", "/fr/medical-disclaimer/"],
       ["Confidentialité", "/fr/privacy-policy/"],
       ["Cookies", "/fr/cookie-policy/"],

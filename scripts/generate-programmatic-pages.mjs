@@ -30,6 +30,7 @@ import {
   pickSameSiloPeers,
   siloForPage,
 } from "./lib/silos.mjs";
+import { LAST_REVIEWED_LABEL } from "./lib/auth01-snippet-timestamps.mjs";
 import { buildCrawlHubs, buildMainSitemapXml, getMainSitemapUrls } from "./lib/build-crawl-hubs.mjs";
 import {
   PRIORITY_CRAWL_LINKS,
@@ -382,6 +383,7 @@ function renderPage(template, page, lang, allPages) {
     name: title,
     inLanguage: lang,
     url: canonical,
+    dateModified: "2026-05-01",
     publisher: {
       "@type": "Organization",
       name: "FreeCognitiveTest.org",
@@ -405,6 +407,7 @@ function renderPage(template, page, lang, allPages) {
     "@type": "MedicalWebPage",
     name: h1,
     url: canonical,
+    dateModified: "2026-05-01",
     inLanguage: lang,
     about: { "@type": "Thing", name: MEDICAL_ABOUT[silo] },
     publisher: { "@type": "Organization", name: "FreeCognitiveTest.org", url: SITE },
@@ -482,6 +485,7 @@ function renderPage(template, page, lang, allPages) {
     .replace(/\{\{QUICK_ANSWER_ARIA\}\}/g, esc(QUICK_ANSWER_ARIA[lang]))
     .replace(/\{\{QUICK_ANSWER_LABEL\}\}/g, esc(QUICK_ANSWER_LABEL[lang]))
     .replace(/\{\{AI_ANSWER_TEXT\}\}/g, esc(quickText))
+    .replace(/\{\{LAST_REVIEWED\}\}/g, esc(LAST_REVIEWED_LABEL[lang]))
     .replace(/\{\{SKIP_LINK\}\}/g, esc(ui.skipLink))
     .replace(/\{\{LASTMOD\}\}/g, esc(LASTMOD))
     .replace(/\{\{PRIORITY_NAV_ARIA\}\}/g, esc(ui.priorityNavAria))

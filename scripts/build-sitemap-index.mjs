@@ -147,9 +147,35 @@ function main() {
   for (const rel of walkHtml(ROOT)) {
     const p = fileToPath(rel);
     if (assigned.has(norm(p))) continue;
-    if (p.startsWith("/es/") || p.startsWith("/fr/")) continue;
     if (p.includes("/templates/")) continue;
+    if (p.startsWith("/es/")) {
+      claim(p, "sitemap-es.xml");
+      continue;
+    }
+    if (p.startsWith("/fr/")) {
+      claim(p, "sitemap-fr.xml");
+      continue;
+    }
     claim(p, "sitemap-supplemental-en.xml");
+  }
+
+  for (const p of [
+    "/methodology/",
+    "/es/metodologia/",
+    "/fr/methodologie/",
+    "/editorial-standards/",
+    "/es/normas-editoriales/",
+    "/fr/normes-editoriales/",
+    "/sources-policy/",
+    "/es/politica-de-fuentes/",
+    "/fr/politique-des-sources/",
+  ]) {
+    const owner = p.startsWith("/es/")
+      ? "sitemap-es.xml"
+      : p.startsWith("/fr/")
+        ? "sitemap-fr.xml"
+        : "sitemap-main.xml";
+    assigned.set(norm(p), owner);
   }
 
   const byOwner = new Map();

@@ -19,6 +19,7 @@ MIRROR_ROWS = [
     ("digit-span", "/tests/digit-span-test.html", "/es/tests/digit-span-test.html", "/fr/tests/digit-span-test.html"),
     ("trail", "/tests/trail-making-test.html", "/es/tests/trail-making-test.html", "/fr/tests/trail-making-test.html"),
     ("exercises", "/brain-exercises/", "/es/ejercicios-cerebrales/", "/fr/exercices-cerebraux/"),
+    ("methodology", "/methodology/", "/es/metodologia/", "/fr/methodologie/"),
     ("about", "/about/", "/es/about/", "/fr/about/"),
     ("disclaimer", "/medical-disclaimer/", "/es/medical-disclaimer/", "/fr/medical-disclaimer/"),
     ("privacy", "/privacy-policy/", "/es/privacy-policy/", "/fr/privacy-policy/"),

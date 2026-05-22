@@ -504,6 +504,32 @@ footer .footer-priority-crawl a:hover {
   margin: 0.5rem 0 1rem;
   color: var(--text-muted, #475569);
 }
+
+.tool-methodology,
+.research-context,
+.professional-help {
+  margin: 2rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle, #e2e8f0);
+  background: var(--surface-muted, #f8fafc);
+}
+
+.tool-methodology h2,
+.research-context h2,
+.professional-help h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.research-context {
+  background: #fff;
+}
+
+.professional-help {
+  border-left: 4px solid var(--accent, #2563eb);
+}
+
 .priority-crawl-nav {
   margin: var(--sp-2) 0;
   padding: var(--sp-2) var(--sp-3);
@@ -1383,7 +1409,8 @@ footer ul li a:hover {
   font-weight: var(--weight-medium);
 }
 
-.ai-answer-block {
+.ai-answer-block,
+.quick-answer {
   background: var(--gray-50, #f6f7f8);
   border-left: 4px solid var(--primary, #2563eb);
   padding: var(--sp-2) var(--sp-3);
@@ -1391,7 +1418,24 @@ footer ul li a:hover {
   border-radius: 0 var(--radius) var(--radius) 0;
   max-width: 48rem;
 }
-.ai-answer-block p {
+.ai-answer-block p,
+.quick-answer p {
+  margin: 0;
+  line-height: var(--leading-relaxed);
+}
+
+.last-reviewed {
+  font-size: 0.875rem;
+  color: var(--gray-600, #4b5563);
+  margin: var(--sp-3) 0 var(--sp-2);
+}
+
+.what-it-measures,
+.page-definition {
+  margin: var(--sp-2) 0 var(--sp-3);
+  max-width: 48rem;
+}
+.page-definition p {
   margin: 0;
   line-height: var(--leading-relaxed);
 }
