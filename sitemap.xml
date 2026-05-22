@@ -2,34 +2,34 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-main.xml</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-05-22</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://freecognitivetest.org/sitemap-supplemental-en.xml</loc>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-programmatic-1.xml</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-programmatic-2.xml</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-programmatic-es.xml</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-programmatic-fr.xml</loc>
-    <lastmod>2026-03-25</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://freecognitivetest.org/sitemap-en.xml</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-es.xml</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://freecognitivetest.org/sitemap-fr.xml</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-05-22</lastmod>
   </sitemap>
 </sitemapindex>

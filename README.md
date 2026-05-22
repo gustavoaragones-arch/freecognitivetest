@@ -46,7 +46,10 @@ Static HTML5 + Vanilla JS + CSS site for accessible cognitive screening workflow
     about.html (redirect stub → /about/)
     medical-disclaimer.html (redirect stub → /medical-disclaimer/)
     albor-digital-llc.html
-  redirects.json (client redirect rules; paired with HTML stubs)
+  redirects.json (redirect rule source; emitted to _redirects, vercel.json, .htaccess — server 301 only)
+  _redirects / vercel.json / .htaccess (generated: node scripts/build-server-redirects.mjs)
+  assets/data/path-mirror-rows.json (programmatic language mirrors; node scripts/build-path-mirror-rows.mjs)
+  reports/arch-01-validation.md (post-ARCH-01 validation checklist)
   i18n/
     en.json
     es.json

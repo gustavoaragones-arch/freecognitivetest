@@ -1,8 +1,6 @@
 /**
- * Sitemap Refresh Utility
- *
- * Rebuilds sitemap.xml from all published HTML pages.
- * Skips build/support directories and template-only files.
+ * @deprecated Use scripts/build-sitemap-index.mjs for deduplicated sitemaps.
+ * This walk-all-pages sitemap-en.xml duplicates sitemap-main + programmatic children.
  */
 
 import { readdir, writeFile } from "node:fs/promises";
@@ -42,6 +40,8 @@ function toUrl(filePath) {
 }
 
 async function main() {
+  console.error("Use: node scripts/build-sitemap-index.mjs");
+  process.exit(1);
   const files = await walk(root);
   const urls = files
     .map(toUrl)

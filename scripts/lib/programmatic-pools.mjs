@@ -276,9 +276,9 @@ export const TOOL_URLS = {
     fr: "/fr/test-demence/",
   },
   mini_cog: {
-    en: "/mini-cog-test/",
-    es: "/es/prueba-mini-cog/",
-    fr: "/fr/test-mini-cog/",
+    en: "/tests/mini-cog-test.html",
+    es: "/es/tests/mini-cog-test.html",
+    fr: "/fr/tests/mini-cog-test.html",
   },
   cognitive: {
     en: "/tests/cognitive-health-self-assessment.html",

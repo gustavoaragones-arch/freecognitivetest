@@ -1,0 +1,159 @@
+{
+  "redirects": [
+    {
+      "source": "/mini-cog-test/",
+      "destination": "/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/mini-cog-test",
+      "destination": "/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/clock-drawing-test/",
+      "destination": "/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/clock-drawing-test",
+      "destination": "/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/prueba-mini-cog/",
+      "destination": "/es/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/prueba-mini-cog",
+      "destination": "/es/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/test-reloj/",
+      "destination": "/es/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/test-reloj",
+      "destination": "/es/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/test-dibujo-reloj/",
+      "destination": "/es/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/es/test-dibujo-reloj",
+      "destination": "/es/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/test-mini-cog/",
+      "destination": "/fr/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/test-mini-cog",
+      "destination": "/fr/tests/mini-cog-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/test-horloge-dessin/",
+      "destination": "/fr/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/fr/test-horloge-dessin",
+      "destination": "/fr/tests/clock-drawing-test.html",
+      "permanent": true
+    },
+    {
+      "source": "/about/author.html",
+      "destination": "/about/author/",
+      "permanent": true
+    },
+    {
+      "source": "/about/about.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about/medical-disclaimer.html",
+      "destination": "/medical-disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/medical-disclaimer.html",
+      "destination": "/medical-disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/cookie-policy.html",
+      "destination": "/cookie-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/es/about.html",
+      "destination": "/es/about/",
+      "permanent": true
+    },
+    {
+      "source": "/es/medical-disclaimer.html",
+      "destination": "/es/medical-disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/es/privacy-policy.html",
+      "destination": "/es/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/es/cookie-policy.html",
+      "destination": "/es/cookie-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/es/contact.html",
+      "destination": "/es/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/about.html",
+      "destination": "/fr/about/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/medical-disclaimer.html",
+      "destination": "/fr/medical-disclaimer/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/privacy-policy.html",
+      "destination": "/fr/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/cookie-policy.html",
+      "destination": "/fr/cookie-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/contact.html",
+      "destination": "/fr/contact/",
+      "permanent": true
+    }
+  ]
+}

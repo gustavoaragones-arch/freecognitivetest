@@ -1,0 +1,855 @@
+{
+  "generated": "2026-05-22",
+  "rows": [
+    {
+      "en": "/brain-exercises-for-seniors/",
+      "es": "/es/ejercicios-cerebrales-adultos-mayores/",
+      "fr": "/fr/exercices-cerveau-personnes-agees/"
+    },
+    {
+      "en": "/brain-exercises-for-memory/",
+      "es": "/es/ejercicios-cerebrales-memoria/",
+      "fr": "/fr/exercices-cerveau-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-focus/",
+      "es": "/es/ejercicios-cerebrales-concentracion/",
+      "fr": "/fr/exercices-cerveau-concentration/"
+    },
+    {
+      "en": "/brain-exercises-for-anxiety/",
+      "es": "/es/ejercicios-cerebrales-ansiedad/",
+      "fr": "/fr/exercices-cerveau-anxiete/"
+    },
+    {
+      "en": "/brain-exercises-for-stress-relief/",
+      "es": "/es/ejercicios-cerebrales-estres/",
+      "fr": "/fr/exercices-cerveau-stress/"
+    },
+    {
+      "en": "/brain-exercises-for-stroke-recovery/",
+      "es": "/es/ejercicios-cerebrales-recuperacion-ictus/",
+      "fr": "/fr/exercices-cerveau-avc/"
+    },
+    {
+      "en": "/brain-exercises-for-parkinsons-caregivers/",
+      "es": "/es/ejercicios-cerebrales-cuidadores-parkinson/",
+      "fr": "/fr/exercices-cerveau-aidants-parkinson/"
+    },
+    {
+      "en": "/brain-exercises-for-aphasia-friendly/",
+      "es": "/es/ejercicios-cerebrales-afasia/",
+      "fr": "/fr/exercices-cerveau-aphasie/"
+    },
+    {
+      "en": "/brain-exercises-for-adhd-adults/",
+      "es": "/es/ejercicios-cerebrales-adultos-tdah/",
+      "fr": "/fr/exercices-cerveau-adultes-tdah/"
+    },
+    {
+      "en": "/brain-exercises-for-sleep-and-brain/",
+      "es": "/es/ejercicios-cerebrales-sueno-cerebro/",
+      "fr": "/fr/exercices-cerveau-sommeil-cerveau/"
+    },
+    {
+      "en": "/brain-exercises-for-diabetes-brain-health/",
+      "es": "/es/ejercicios-cerebrales-glucosa-cerebro/",
+      "fr": "/fr/exercices-cerveau-glycemie-cerveau/"
+    },
+    {
+      "en": "/brain-exercises-for-heart-health-cognition/",
+      "es": "/es/ejercicios-cerebrales-corazon-cognicion/",
+      "fr": "/fr/exercices-cerveau-coeur-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-social-connection/",
+      "es": "/es/ejercicios-cerebrales-vinculos-sociales/",
+      "fr": "/fr/exercices-cerveau-lien-social/"
+    },
+    {
+      "en": "/brain-exercises-for-music-and-memory/",
+      "es": "/es/ejercicios-cerebrales-musica-memoria/",
+      "fr": "/fr/exercices-cerveau-musique-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-language-learning/",
+      "es": "/es/ejercicios-cerebrales-aprender-idiomas/",
+      "fr": "/fr/exercices-cerveau-langues/"
+    },
+    {
+      "en": "/brain-exercises-for-hand-eye-coordination/",
+      "es": "/es/ejercicios-cerebrales-coordinacion-mano-ojo/",
+      "fr": "/fr/exercices-cerveau-coordination-main-%C5%93il/"
+    },
+    {
+      "en": "/brain-exercises-for-reaction-time/",
+      "es": "/es/ejercicios-cerebrales-tiempo-reaccion/",
+      "fr": "/fr/exercices-cerveau-temps-reaction/"
+    },
+    {
+      "en": "/brain-exercises-for-spatial-skills/",
+      "es": "/es/ejercicios-cerebrales-habilidades-espaciales/",
+      "fr": "/fr/exercices-cerveau-competences-spatiales/"
+    },
+    {
+      "en": "/brain-exercises-for-working-memory/",
+      "es": "/es/ejercicios-cerebrales-memoria-trabajo/",
+      "fr": "/fr/exercices-cerveau-memoire-travail/"
+    },
+    {
+      "en": "/brain-exercises-for-dual-tasking/",
+      "es": "/es/ejercicios-cerebrales-doble-tarea/",
+      "fr": "/fr/exercices-cerveau-double-tache/"
+    },
+    {
+      "en": "/brain-exercises-for-mindfulness-focus/",
+      "es": "/es/ejercicios-cerebrales-atencion-plena/",
+      "fr": "/fr/exercices-cerveau-pleine-conscience/"
+    },
+    {
+      "en": "/brain-exercises-for-post-surgery-brain-fog/",
+      "es": "/es/ejercicios-cerebrales-niebla-tras-cirugia/",
+      "fr": "/fr/exercices-cerveau-brouillard-chirurgie/"
+    },
+    {
+      "en": "/brain-exercises-for-chemo-brain-education/",
+      "es": "/es/ejercicios-cerebrales-niebla-quimio/",
+      "fr": "/fr/exercices-cerveau-brouillard-chimio/"
+    },
+    {
+      "en": "/brain-exercises-for-long-covid-brain-fog/",
+      "es": "/es/ejercicios-cerebrales-niebla-cognitiva/",
+      "fr": "/fr/exercices-cerveau-brouillard-cognitif/"
+    },
+    {
+      "en": "/brain-exercises-for-vision-and-attention/",
+      "es": "/es/ejercicios-cerebrales-vision-atencion/",
+      "fr": "/fr/exercices-cerveau-vision-attention/"
+    },
+    {
+      "en": "/brain-exercises-for-hearing-and-memory/",
+      "es": "/es/ejercicios-cerebrales-audicion-memoria/",
+      "fr": "/fr/exercices-cerveau-audition-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-medication-review-habits/",
+      "es": "/es/ejercicios-cerebrales-medicacion-claridad/",
+      "fr": "/fr/exercices-cerveau-medicaments-clarte/"
+    },
+    {
+      "en": "/brain-exercises-for-driving-safety-cognition/",
+      "es": "/es/ejercicios-cerebrales-conduccion-cognicion/",
+      "fr": "/fr/exercices-cerveau-conduite-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-financial-task-focus/",
+      "es": "/es/ejercicios-cerebrales-tareas-dinero/",
+      "fr": "/fr/exercices-cerveau-taches-argent/"
+    },
+    {
+      "en": "/brain-exercises-for-cooking-safety-memory/",
+      "es": "/es/ejercicios-cerebrales-cocina-pasos/",
+      "fr": "/fr/exercices-cerveau-cuisine-etapes/"
+    },
+    {
+      "en": "/brain-exercises-for-travel-planning-focus/",
+      "es": "/es/ejercicios-cerebrales-viajes-planificacion/",
+      "fr": "/fr/exercices-cerveau-voyages-planification/"
+    },
+    {
+      "en": "/brain-exercises-for-hydration-cognition/",
+      "es": "/es/ejercicios-cerebrales-hidratacion-claridad/",
+      "fr": "/fr/exercices-cerveau-hydratation-clarte/"
+    },
+    {
+      "en": "/brain-exercises-for-meal-prep-memory/",
+      "es": "/es/ejercicios-cerebrales-comidas-plan-memoria/",
+      "fr": "/fr/exercices-cerveau-repas-plan-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-reading-comprehension/",
+      "es": "/es/ejercicios-cerebrales-lectura-comprension/",
+      "fr": "/fr/exercices-cerveau-lecture-comprehension/"
+    },
+    {
+      "en": "/brain-exercises-for-note-taking-skills/",
+      "es": "/es/ejercicios-cerebrales-tomar-notas/",
+      "fr": "/fr/exercices-cerveau-prise-notes/"
+    },
+    {
+      "en": "/brain-exercises-for-chronic-pain-education/",
+      "es": "/es/ejercicios-cerebrales-dolor-cronico-cognicion/",
+      "fr": "/fr/exercices-cerveau-douleur-chronique-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-menopause-brain-fog-edu/",
+      "es": "/es/ejercicios-cerebrales-menopausia-niebla/",
+      "fr": "/fr/exercices-cerveau-menopause-brouillard/"
+    },
+    {
+      "en": "/brain-exercises-for-tinnitus-concentration/",
+      "es": "/es/ejercicios-cerebrales-tinnitus-concentracion/",
+      "fr": "/fr/exercices-cerveau-acouphenes-concentration/"
+    },
+    {
+      "en": "/brain-exercises-for-allergy-medication-fog/",
+      "es": "/es/ejercicios-cerebrales-antihistaminicos-alert/",
+      "fr": "/fr/exercices-cerveau-antihistaminiques-vigilance/"
+    },
+    {
+      "en": "/brain-exercises-for-jet-lag-cognition/",
+      "es": "/es/ejercicios-cerebrales-jet-lag-cognicion/",
+      "fr": "/fr/exercices-cerveau-decalage-horaire-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-exam-prep-focus/",
+      "es": "/es/ejercicios-cerebrales-estudio-bloques-atencion/",
+      "fr": "/fr/exercices-cerveau-revision-blocs-attention/"
+    },
+    {
+      "en": "/brain-exercises-for-public-speaking-memory/",
+      "es": "/es/ejercicios-cerebrales-hablar-publico-memoria/",
+      "fr": "/fr/exercices-cerveau-prise-parole-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-music-practice-memory/",
+      "es": "/es/ejercicios-cerebrales-practica-musical-memoria/",
+      "fr": "/fr/exercices-cerveau-pratique-musicale-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-sports-strategy-thinking/",
+      "es": "/es/ejercicios-cerebrales-deporte-decisiones/",
+      "fr": "/fr/exercices-cerveau-sport-decisions/"
+    },
+    {
+      "en": "/brain-exercises-for-gardening-sequencing/",
+      "es": "/es/ejercicios-cerebrales-jardineria-secuencias/",
+      "fr": "/fr/exercices-cerveau-jardin-sequences/"
+    },
+    {
+      "en": "/brain-exercises-for-pet-care-routines/",
+      "es": "/es/ejercicios-cerebrales-mascotas-rutinas/",
+      "fr": "/fr/exercices-cerveau-animaux-routines/"
+    },
+    {
+      "en": "/brain-exercises-for-home-maintenance-checklists/",
+      "es": "/es/ejercicios-cerebrales-casa-reparaciones-lista/",
+      "fr": "/fr/exercices-cerveau-maison-listes-entretien/"
+    },
+    {
+      "en": "/brain-exercises-for-volunteering-social-memory/",
+      "es": "/es/ejercicios-cerebrales-voluntariado-memoria/",
+      "fr": "/fr/exercices-cerveau-benevolat-memoire/"
+    },
+    {
+      "en": "/brain-exercises-for-grandparent-play-activities/",
+      "es": "/es/ejercicios-cerebrales-juegos-nietos/",
+      "fr": "/fr/exercices-cerveau-jeux-petits-enfants/"
+    },
+    {
+      "en": "/brain-exercises-for-peer-support-groups/",
+      "es": "/es/ejercicios-cerebrales-grupos-apoyo-recuerdo/",
+      "fr": "/fr/exercices-cerveau-groupes-entraide-souvenir/"
+    },
+    {
+      "en": "/brain-exercises-for-low-vision-large-print/",
+      "es": "/es/ejercicios-cerebrales-baja-vision-texto-grande/",
+      "fr": "/fr/exercices-cerveau-basse-vision-gros-caracteres/"
+    },
+    {
+      "en": "/brain-exercises-for-hearing-aid-adaptation/",
+      "es": "/es/ejercicios-cerebrales-audifonos-adaptacion/",
+      "fr": "/fr/exercices-cerveau-appareils-audition-adaptation/"
+    },
+    {
+      "en": "/brain-exercises-for-chronic-fatigue-pacing/",
+      "es": "/es/ejercicios-cerebrales-fatiga-ritmo-cognitivo/",
+      "fr": "/fr/exercices-cerveau-fatigue-rythme-cognitif/"
+    },
+    {
+      "en": "/brain-exercises-for-post-icu-education/",
+      "es": "/es/ejercicios-cerebrales-uci-cognicion/",
+      "fr": "/fr/exercices-cerveau-rea-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-substance-recovery-edu/",
+      "es": "/es/ejercicios-cerebrales-recuperacion-atencion/",
+      "fr": "/fr/exercices-cerveau-recuperation-attention/"
+    },
+    {
+      "en": "/brain-exercises-for-meditation-breath-focus/",
+      "es": "/es/ejercicios-cerebrales-respiracion-atencion/",
+      "fr": "/fr/exercices-cerveau-respiration-attention/"
+    },
+    {
+      "en": "/brain-exercises-for-arthritis-hand-tasks/",
+      "es": "/es/ejercicios-cerebrales-artritis-manualidad/",
+      "fr": "/fr/exercices-cerveau-arthrite-motricite/"
+    },
+    {
+      "en": "/brain-exercises-for-low-mood-motivation/",
+      "es": "/es/ejercicios-cerebrales-baja-motivacion-tareas/",
+      "fr": "/fr/exercices-cerveau-faible-motivation-taches/"
+    },
+    {
+      "en": "/brain-exercises-for-seasonal-affective-edu/",
+      "es": "/es/ejercicios-cerebrales-estacional-animo/",
+      "fr": "/fr/exercices-cerveau-saisonnier-humeur/"
+    },
+    {
+      "en": "/brain-exercises-for-night-shift-cognition/",
+      "es": "/es/ejercicios-cerebrales-turno-nocturno-cognicion/",
+      "fr": "/fr/exercices-cerveau-travail-nuit-cognition/"
+    },
+    {
+      "en": "/brain-exercises-for-screen-reader-users/",
+      "es": "/es/ejercicios-cerebrales-lector-pantalla-secuencias/",
+      "fr": "/fr/exercices-cerveau-lecteur-ecran-sequences/"
+    },
+    {
+      "en": "/brain-exercises-for-voice-assistant-routines/",
+      "es": "/es/ejercicios-cerebrales-asistente-voz-rutinas/",
+      "fr": "/fr/exercices-cerveau-assistant-vocal-routines/"
+    },
+    {
+      "en": "/memory-test-for-seniors/",
+      "es": "/es/prueba-memoria-adultos-mayores/",
+      "fr": "/fr/test-memoire-personnes-agees/"
+    },
+    {
+      "en": "/memory-test-for-adults/",
+      "es": "/es/prueba-memoria-adultos/",
+      "fr": "/fr/test-memoire-adultes-actifs/"
+    },
+    {
+      "en": "/memory-test-for-kids-teens/",
+      "es": "/es/prueba-memoria-ninos-adolescentes/",
+      "fr": "/fr/test-memoire-enfants-ados/"
+    },
+    {
+      "en": "/memory-test-for-elderly/",
+      "es": "/es/prueba-memoria-ancianos/",
+      "fr": "/fr/test-memoire-aines/"
+    },
+    {
+      "en": "/memory-test-for-caregivers/",
+      "es": "/es/prueba-memoria-cuidadores/",
+      "fr": "/fr/test-memoire-aidants/"
+    },
+    {
+      "en": "/memory-test-for-nurses/",
+      "es": "/es/prueba-memoria-enfermeria/",
+      "fr": "/fr/test-memoire-soins-infirmiers/"
+    },
+    {
+      "en": "/memory-test-for-students/",
+      "es": "/es/prueba-memoria-estudiantes/",
+      "fr": "/fr/test-memoire-etudiants/"
+    },
+    {
+      "en": "/memory-test-for-mci-follow-up/",
+      "es": "/es/prueba-memoria-dcl-seguimiento/",
+      "fr": "/fr/test-memoire-mci-suivi/"
+    },
+    {
+      "en": "/memory-test-for-post-stroke/",
+      "es": "/es/prueba-memoria-post-ictus/",
+      "fr": "/fr/test-memoire-post-avc/"
+    },
+    {
+      "en": "/memory-test-for-parkinsons/",
+      "es": "/es/prueba-memoria-parkinson/",
+      "fr": "/fr/test-memoire-parkinson/"
+    },
+    {
+      "en": "/memory-test-for-ms-education/",
+      "es": "/es/prueba-memoria-esclerosis-multiple/",
+      "fr": "/fr/test-memoire-sclerose-en-plaques/"
+    },
+    {
+      "en": "/memory-test-for-adhd-screening-context/",
+      "es": "/es/prueba-memoria-tdah-contexto/",
+      "fr": "/fr/test-memoire-tdah-depistage/"
+    },
+    {
+      "en": "/memory-test-for-depression-brain-fog/",
+      "es": "/es/prueba-memoria-depresion-niebla/",
+      "fr": "/fr/test-memoire-depression-brouillard/"
+    },
+    {
+      "en": "/memory-test-for-anxiety-test-anxiety/",
+      "es": "/es/prueba-memoria-ansiedad-examen/",
+      "fr": "/fr/test-memoire-anxiete-test/"
+    },
+    {
+      "en": "/memory-test-for-bilingual-adults/",
+      "es": "/es/prueba-memoria-bilingues/",
+      "fr": "/fr/test-memoire-bilingues/"
+    },
+    {
+      "en": "/memory-test-for-low-literacy-friendly/",
+      "es": "/es/prueba-memoria-baja-alfabetizacion/",
+      "fr": "/fr/test-memoire-faible-litteratie/"
+    },
+    {
+      "en": "/memory-test-for-remote-telehealth/",
+      "es": "/es/prueba-memoria-telemedicina/",
+      "fr": "/fr/test-memoire-telemedecine/"
+    },
+    {
+      "en": "/memory-test-for-primary-care/",
+      "es": "/es/prueba-memoria-atencion-primaria/",
+      "fr": "/fr/test-memoire-soins-primaires/"
+    },
+    {
+      "en": "/memory-test-for-occupational-health/",
+      "es": "/es/prueba-memoria-salud-laboral/",
+      "fr": "/fr/test-memoire-sante-travail/"
+    },
+    {
+      "en": "/memory-test-for-drivers-medical/",
+      "es": "/es/prueba-memoria-conduccion-medica/",
+      "fr": "/fr/test-memoire-conduite-medicale/"
+    },
+    {
+      "en": "/memory-test-for-attorneys-capacity-edu/",
+      "es": "/es/prueba-memoria-capacidad-juridica/",
+      "fr": "/fr/test-memoire-capacite-juridique/"
+    },
+    {
+      "en": "/memory-test-for-athletes-concussion-edu/",
+      "es": "/es/prueba-memoria-conmocion/",
+      "fr": "/fr/test-memoire-commotion/"
+    },
+    {
+      "en": "/memory-test-for-musicians-memory/",
+      "es": "/es/prueba-memoria-musicos/",
+      "fr": "/fr/test-memoire-musiciens/"
+    },
+    {
+      "en": "/memory-test-for-programmers-focus/",
+      "es": "/es/prueba-memoria-desarrolladores/",
+      "fr": "/fr/test-memoire-developpeurs/"
+    },
+    {
+      "en": "/memory-test-for-shift-workers/",
+      "es": "/es/prueba-memoria-trabajo-turnos/",
+      "fr": "/fr/test-memoire-travail-poste/"
+    },
+    {
+      "en": "/memory-test-for-older-drivers/",
+      "es": "/es/prueba-memoria-conductores-mayores/",
+      "fr": "/fr/test-memoire-conducteurs-seniors/"
+    },
+    {
+      "en": "/memory-test-for-hearing-loss-screening/",
+      "es": "/es/prueba-memoria-hipoacusia/",
+      "fr": "/fr/test-memoire-presbyacousie/"
+    },
+    {
+      "en": "/memory-test-for-vision-loss-screening/",
+      "es": "/es/prueba-memoria-baja-vision/",
+      "fr": "/fr/test-memoire-basse-vision/"
+    },
+    {
+      "en": "/memory-test-for-diabetes-clinics/",
+      "es": "/es/prueba-memoria-diabetes-clinicas/",
+      "fr": "/fr/test-memoire-diabete-cliniques/"
+    },
+    {
+      "en": "/memory-test-for-cardiac-rehab/",
+      "es": "/es/prueba-memoria-rehab-cardiaca/",
+      "fr": "/fr/test-memoire-rehab-cardiaque/"
+    },
+    {
+      "en": "/signs-of-memory-loss/",
+      "es": "/es/signos-perdida-memoria/",
+      "fr": "/fr/signes-perte-memoire/"
+    },
+    {
+      "en": "/early-signs-of-dementia/",
+      "es": "/es/sintomas-demencia-temprana/",
+      "fr": "/fr/signes-precoce-demence/"
+    },
+    {
+      "en": "/why-forgetting-things/",
+      "es": "/es/por-que-olvido/",
+      "fr": "/fr/pourquoi-j-oublie/"
+    },
+    {
+      "en": "/short-term-memory-slips/",
+      "es": "/es/fallos-memoria-corto-plazo/",
+      "fr": "/fr/troubles-memoire-court-terme/"
+    },
+    {
+      "en": "/word-finding-problems/",
+      "es": "/es/dificultad-palabras/",
+      "fr": "/fr/trouver-mots/"
+    },
+    {
+      "en": "/getting-lost-familiar-places/",
+      "es": "/es/perderse-lugares-conocidos/",
+      "fr": "/fr/se-perdre-familier/"
+    },
+    {
+      "en": "/repeating-questions/",
+      "es": "/es/repetir-preguntas/",
+      "fr": "/fr/repeter-questions/"
+    },
+    {
+      "en": "/misplacing-objects-daily/",
+      "es": "/es/extraviar-objetos/",
+      "fr": "/fr/egarer-objets/"
+    },
+    {
+      "en": "/confusion-with-time/",
+      "es": "/es/confusion-tiempo/",
+      "fr": "/fr/confusion-temps/"
+    },
+    {
+      "en": "/mood-changes-thinking/",
+      "es": "/es/cambios-animo-cognicion/",
+      "fr": "/fr/humeur-cognition/"
+    },
+    {
+      "en": "/sleep-deprivation-memory/",
+      "es": "/es/falta-sueno-memoria/",
+      "fr": "/fr/manque-sommeil-memoire/"
+    },
+    {
+      "en": "/stress-burnout-brain-fog/",
+      "es": "/es/estres-niebla-mental/",
+      "fr": "/fr/stress-brouillard/"
+    },
+    {
+      "en": "/depression-memory-concentration/",
+      "es": "/es/depresion-concentracion/",
+      "fr": "/fr/depression-concentration/"
+    },
+    {
+      "en": "/vitamin-deficiency-memory/",
+      "es": "/es/nutricion-cognicion/",
+      "fr": "/fr/nutrition-cognition/"
+    },
+    {
+      "en": "/thyroid-memory-symptoms/",
+      "es": "/es/tiroides-memoria/",
+      "fr": "/fr/thyroide-memoire/"
+    },
+    {
+      "en": "/medication-side-effects-memory/",
+      "es": "/es/medicamentos-memoria/",
+      "fr": "/fr/medicaments-memoire/"
+    },
+    {
+      "en": "/uti-delirium-seniors/",
+      "es": "/es/itu-confusion/",
+      "fr": "/fr/infection-urinaire-confusion/"
+    },
+    {
+      "en": "/sudden-memory-loss/",
+      "es": "/es/perdida-memoria-repentina/",
+      "fr": "/fr/perte-memoire-soudaine/"
+    },
+    {
+      "en": "/visual-hallucinations-memory/",
+      "es": "/es/vision-cognicion/",
+      "fr": "/fr/vision-cognition/"
+    },
+    {
+      "en": "/hearing-loss-social-withdrawal/",
+      "es": "/es/audicion-aislamiento/",
+      "fr": "/fr/audition-retrait/"
+    },
+    {
+      "en": "/how-to-improve-memory-naturally/",
+      "es": "/es/como-mejorar-memoria-natural/",
+      "fr": "/fr/ameliorer-memoire-naturellement/"
+    },
+    {
+      "en": "/how-to-test-memory-at-home/",
+      "es": "/es/como-evaluar-memoria-casa/",
+      "fr": "/fr/tester-memoire-maison/"
+    },
+    {
+      "en": "/how-to-prevent-cognitive-decline/",
+      "es": "/es/como-prevenir-deterioro-cognitivo/",
+      "fr": "/fr/prevenir-declin-cognitif/"
+    },
+    {
+      "en": "/how-to-build-brain-healthy-habits/",
+      "es": "/es/habitos-cerebro-saludable/",
+      "fr": "/fr/habitudes-cerveau-sain/"
+    },
+    {
+      "en": "/how-to-read-memory-test-results/",
+      "es": "/es/interpretar-resultados-memoria/",
+      "fr": "/fr/lire-resultats-memoire/"
+    },
+    {
+      "en": "/how-to-talk-to-doctor-memory/",
+      "es": "/es/hablar-medico-memoria/",
+      "fr": "/fr/parler-medecin-memoire/"
+    },
+    {
+      "en": "/how-to-support-spouse-memory-changes/",
+      "es": "/es/apoyo-pareja-memoria/",
+      "fr": "/fr/soutien-conjoint-memoire/"
+    },
+    {
+      "en": "/how-to-choose-brain-apps/",
+      "es": "/es/elegir-apps-cerebro/",
+      "fr": "/fr/choisir-apps-cerveau/"
+    },
+    {
+      "en": "/how-to-use-spaced-repetition/",
+      "es": "/es/repeticion-espaciada/",
+      "fr": "/fr/repetition-espacee/"
+    },
+    {
+      "en": "/how-to-sleep-better-for-memory/",
+      "es": "/es/dormir-mejor-memoria/",
+      "fr": "/fr/mieux-dormir-memoire/"
+    },
+    {
+      "en": "/how-to-exercise-for-brain-health/",
+      "es": "/es/ejercicio-salud-cerebral/",
+      "fr": "/fr/sport-sante-cerebrale/"
+    },
+    {
+      "en": "/how-to-reduce-stress-for-focus/",
+      "es": "/es/reducir-estres-atencion/",
+      "fr": "/fr/reduire-stress-attention/"
+    },
+    {
+      "en": "/how-to-eat-mind-diet-basics/",
+      "es": "/es/dieta-mind-basico/",
+      "fr": "/fr/regime-mind-debutant/"
+    },
+    {
+      "en": "/how-to-stay-socially-connected-aging/",
+      "es": "/es/conexion-social-envejecer/",
+      "fr": "/fr/lien-social-vieillir/"
+    },
+    {
+      "en": "/how-to-manage-multiple-medications/",
+      "es": "/es/polifarmacia-segura/",
+      "fr": "/fr/polymedicament-securite/"
+    },
+    {
+      "en": "/how-to-plan-for-memory-evaluation/",
+      "es": "/es/preparar-evaluacion-memoria/",
+      "fr": "/fr/preparer-evaluation-memoire/"
+    },
+    {
+      "en": "/how-to-use-external-memory-aids/",
+      "es": "/es/ayudas-externas-memoria/",
+      "fr": "/fr/aides-externes-memoire/"
+    },
+    {
+      "en": "/how-to-balance-screen-time-brain/",
+      "es": "/es/pantallas-cognicion/",
+      "fr": "/fr/ecrans-cognition/"
+    },
+    {
+      "en": "/how-to-learn-a-language-memory/",
+      "es": "/es/idiomas-memoria/",
+      "fr": "/fr/langues-memoire/"
+    },
+    {
+      "en": "/how-to-remember-names-better/",
+      "es": "/es/recordar-nombres-mejor/",
+      "fr": "/fr/retenir-noms/"
+    },
+    {
+      "en": "/how-to-remember-appointments/",
+      "es": "/es/recordar-citas/",
+      "fr": "/fr/souvenir-rendez-vous/"
+    },
+    {
+      "en": "/how-to-use-paper-planners-memory/",
+      "es": "/es/agenda-papel-memoria/",
+      "fr": "/fr/agenda-papier-memoire/"
+    },
+    {
+      "en": "/how-to-prioritize-tasks-brain-fog/",
+      "es": "/es/priorizar-niebla-mental/",
+      "fr": "/fr/prioriser-brouillard/"
+    },
+    {
+      "en": "/how-to-break-bad-phone-habits/",
+      "es": "/es/romper-habitos-movil/",
+      "fr": "/fr/limiter-telephone-attention/"
+    },
+    {
+      "en": "/how-to-train-auditory-memory/",
+      "es": "/es/memoria-auditiva-entrenar/",
+      "fr": "/fr/memoire-auditive-entrainer/"
+    },
+    {
+      "en": "/how-to-train-visual-memory/",
+      "es": "/es/memoria-visual-entrenar/",
+      "fr": "/fr/memoire-visuelle-entrainer/"
+    },
+    {
+      "en": "/how-to-use-mnemonics-safely/",
+      "es": "/es/mnemotecnia-segura/",
+      "fr": "/fr/mnemoniques-prudence/"
+    },
+    {
+      "en": "/how-to-review-medications-with-doctor/",
+      "es": "/es/revision-medicamentos-memoria/",
+      "fr": "/fr/bilan-medicaments-memoire/"
+    },
+    {
+      "en": "/how-to-prepare-for-memory-clinic/",
+      "es": "/es/preparar-clinica-memoria/",
+      "fr": "/fr/preparer-clinique-memoire/"
+    },
+    {
+      "en": "/how-to-keep-a-symptom-diary/",
+      "es": "/es/diario-sintomas-cognitivos/",
+      "fr": "/fr/journal-symptomes-cognitifs/"
+    },
+    {
+      "en": "/how-to-ask-for-accommodations-work/",
+      "es": "/es/ajustes-trabajo-memoria/",
+      "fr": "/fr/amenagements-travail-memoire/"
+    },
+    {
+      "en": "/how-to-support-parent-memory-changes/",
+      "es": "/es/apoyo-padres-memoria/",
+      "fr": "/fr/soutien-parents-memoire/"
+    },
+    {
+      "en": "/how-to-coordinate-family-care/",
+      "es": "/es/coordinar-familia-memoria/",
+      "fr": "/fr/coordonner-famille-memoire/"
+    },
+    {
+      "en": "/how-to-choose-hearing-aids-cognition/",
+      "es": "/es/audifonos-cognicion/",
+      "fr": "/fr/appareils-audition-cognition/"
+    },
+    {
+      "en": "/how-to-walk-daily-for-brain-health/",
+      "es": "/es/caminar-diario-cerebro/",
+      "fr": "/fr/marche-quotidienne-cerveau/"
+    },
+    {
+      "en": "/how-to-limit-alcohol-for-memory/",
+      "es": "/es/limitar-alcohol-memoria/",
+      "fr": "/fr/limiter-alcool-memoire/"
+    },
+    {
+      "en": "/how-to-quit-smoking-brain-benefits/",
+      "es": "/es/dejar-fumar-cognicion/",
+      "fr": "/fr/arreter-fumer-cognition/"
+    },
+    {
+      "en": "/how-to-manage-blood-pressure-brain/",
+      "es": "/es/tension-arterial-cognicion/",
+      "fr": "/fr/tension-cognition/"
+    },
+    {
+      "en": "/how-to-track-sleep-apnea-signs/",
+      "es": "/es/apnea-sueno-memoria/",
+      "fr": "/fr/apnee-sommeil-memoire/"
+    },
+    {
+      "en": "/how-to-use-light-for-mood-and-focus/",
+      "es": "/es/luz-animo-atencion/",
+      "fr": "/fr/lumiere-humeur-attention/"
+    },
+    {
+      "en": "/how-to-set-boundaries-to-reduce-stress/",
+      "es": "/es/limites-estres-niebla/",
+      "fr": "/fr/limites-stress-brouillard/"
+    },
+    {
+      "en": "/how-to-practice-gratitude-without-toxic-positivity/",
+      "es": "/es/gratitud-enfoque/",
+      "fr": "/fr/gratitude-attention/"
+    },
+    {
+      "en": "/how-to-learn-skills-slowly-and-retain/",
+      "es": "/es/aprender-lento-retener/",
+      "fr": "/fr/apprendre-lentement-retention/"
+    },
+    {
+      "en": "/how-to-use-calendars-with-reminders/",
+      "es": "/es/calendarios-recordatorios/",
+      "fr": "/fr/calendriers-rappels/"
+    },
+    {
+      "en": "/how-to-organize-digital-files-memory/",
+      "es": "/es/archivos-digitales-carga/",
+      "fr": "/fr/fichiers-numeriques-charge/"
+    },
+    {
+      "en": "/how-to-batch-errands-for-mental-energy/",
+      "es": "/es/mandados-por-lotes/",
+      "fr": "/fr/courses-par-blocs/"
+    },
+    {
+      "en": "/how-to-handle-correction-after-forgetting/",
+      "es": "/es/olvidar-importante-responder/",
+      "fr": "/fr/oubli-important-reagir/"
+    },
+    {
+      "en": "/how-to-talk-to-kids-about-grandparent-memory/",
+      "es": "/es/nietos-explicar-memoria/",
+      "fr": "/fr/petits-enfants-memoire/"
+    },
+    {
+      "en": "/how-to-find-reputable-cognitive-resources/",
+      "es": "/es/recursos-confiables-cognicion/",
+      "fr": "/fr/ressources-fiables-cognition/"
+    },
+    {
+      "en": "/how-to-pace-cognitive-tasks-daily/",
+      "es": "/es/ritmo-tareas-cognitivas/",
+      "fr": "/fr/rythme-taches-cognitives/"
+    },
+    {
+      "en": "/how-to-use-timers-for-focus-blocks/",
+      "es": "/es/temporizadores-bloques/",
+      "fr": "/fr/minuteurs-blocs-attention/"
+    },
+    {
+      "en": "/how-to-reduce-multitasking-costs/",
+      "es": "/es/reducir-multitarea/",
+      "fr": "/fr/reduire-multitache/"
+    },
+    {
+      "en": "/how-to-build-a-sleep-wind-down/",
+      "es": "/es/rutina-descanso-memoria/",
+      "fr": "/fr/routine-soir-memoire/"
+    },
+    {
+      "en": "/how-to-check-vision-and-cognition-links/",
+      "es": "/es/vision-vinculo-memoria/",
+      "fr": "/fr/vision-lien-memoire/"
+    },
+    {
+      "en": "/how-to-ask-for-a-hearing-test/",
+      "es": "/es/pedir-audiometria-memoria/",
+      "fr": "/fr/demander-test-auditif-memoire/"
+    },
+    {
+      "en": "/guide-how-to-improve-memory-p0/",
+      "es": "/es/guia-como-mejorar-la-memoria-p0/",
+      "fr": "/fr/guide-comment-ameliorer-la-memoire-p0/"
+    },
+    {
+      "en": "/guide-how-to-improve-memory-naturally-p1/",
+      "es": "/es/guia-como-mejorar-la-memoria-naturalmente-p1/",
+      "fr": "/fr/guide-ameliorer-la-memoire-naturellement-p1/"
+    },
+    {
+      "en": "/guide-how-to-boost-memory-fast-p2/",
+      "es": "/es/guia-como-potenciar-la-memoria-rapido-p2/",
+      "fr": "/fr/guide-renforcer-la-memoire-au-quotidien-p2/"
+    }
+  ]
+}

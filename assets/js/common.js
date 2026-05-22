@@ -5,7 +5,8 @@ window.ADS_ENABLED = false;
    * Maps equivalent URLs across EN / ES / FR so language switches preserve the same page.
    * Include trailing slashes for directory URLs; .html for files.
    */
-  const PATH_MIRROR_ROWS = [
+  const STATIC_MIRROR_ROWS = [
+    /** EN canonical root is `/`; `/en/` is secondary (enAlt) for language-switch parity only. */
     { en: "/", es: "/es/", fr: "/fr/", enAlt: "/en/" },
     { en: "/free-memory-test/", es: "/es/prueba-memoria-gratis/", fr: "/fr/test-memoire-gratuit/" },
     { en: "/dementia-test-online/", es: "/es/prueba-demencia/", fr: "/fr/test-demence/" },
@@ -46,7 +47,18 @@ window.ADS_ENABLED = false;
     { en: "/contact/", es: "/es/contact/", fr: "/fr/contact/" },
     { en: "/cookie-policy/", es: "/es/cookie-policy/", fr: "/fr/cookie-policy/" },
     { en: "/about/author/", es: "/about/author/", fr: "/about/author/" },
+    { en: "/programmatic/", es: "/es/programmatic/", fr: "/fr/programmatic/" },
+    { en: "/how-to-improve-memory/", es: "/es/como-mejorar-la-memoria/", fr: "/fr/ameliorer-memoire/" },
+    {
+      en: "/signs-of-cognitive-decline/",
+      es: "/es/signos-de-deterioro-cognitivo/",
+      fr: "/fr/signes-declin-cognitif/",
+    },
+    { en: "/cognitive-health/", es: "/es/salud-cognitiva/", fr: "/fr/sante-cognitive/" },
+    { en: "/memory-tests/", es: "/es/pruebas-memoria/", fr: "/fr/tests-memoire/" },
   ];
+
+  let PATH_MIRROR_ROWS = STATIC_MIRROR_ROWS.slice();
 
   function normalizePathForMatch(pathname) {
     if (!pathname || pathname === "/") return "/";
@@ -56,58 +68,59 @@ window.ADS_ENABLED = false;
 
   function pathMatchesRow(url, row) {
     const n = normalizePathForMatch(url);
-    const candidates = [row.en, row.es, row.fr, row.enAlt].filter(Boolean);
+    const candidates = [row.en, row.es, row.fr, row.enAlt, row.esAlt, row.frAlt].filter(Boolean);
     return candidates.some((c) => {
       const cn = normalizePathForMatch(c);
       return cn === n || c === url || `${cn}/` === url || cn === `${url}/`.replace(/\/$/, "");
     });
   }
 
+  function localizedHome(targetLang) {
+    if (targetLang === "en") return "/";
+    if (targetLang === "es") return "/es/";
+    return "/fr/";
+  }
+
   /**
    * Returns the same logical page in another language (structural mirror).
-   * Falls back to prefix-stripping when no mirror row matches.
+   * Never fabricates /es|fr/{english-slug} — falls back to localized homepage.
    * @param {"en"|"es"|"fr"} targetLang
    */
   function getLocalizedPath(targetLang) {
     const path = window.location.pathname;
     for (const row of PATH_MIRROR_ROWS) {
       if (pathMatchesRow(path, row)) {
-        if (targetLang === "en") return row.en;
-        if (targetLang === "es") return row.es;
-        return row.fr;
+        const dest = targetLang === "en" ? row.en : targetLang === "es" ? row.es : row.fr;
+        if (dest) return dest;
       }
     }
-    let cleanPath = path
-      .replace(/^\/(en|es|fr)(?=\/|$)/, "")
-      .replace(/^\/+/, "");
-    if (targetLang === "en") {
-      return cleanPath ? `/${cleanPath}` : "/";
-    }
-    return `/${targetLang}/${cleanPath}`;
+    return localizedHome(targetLang);
   }
 
   window.getLocalizedPath = getLocalizedPath;
 
-  /** Client-side redirect map (pairs with /redirects.json + static HTML stubs for crawlers). */
-  function applyClientRedirects() {
-    const path = window.location.pathname;
-    const noTrail = path.length > 1 && path.endsWith("/") ? path.slice(0, -1) : path;
-    const withTrail = path.endsWith("/") || path === "/" ? path : `${path}/`;
-    const candidates = new Set([path, noTrail, withTrail]);
+  function mergeProgrammaticMirrorRows(extra) {
+    if (!Array.isArray(extra) || !extra.length) return;
+    const key = (r) => `${r.en}|${r.es}|${r.fr}`;
+    const seen = new Set(PATH_MIRROR_ROWS.map(key));
+    for (const row of extra) {
+      if (!row?.en || !row?.es || !row?.fr) continue;
+      const k = key(row);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      PATH_MIRROR_ROWS.push(row);
+    }
+  }
 
-    fetch("/redirects.json", { credentials: "same-origin" })
+  function loadProgrammaticMirrorRows() {
+    return fetch("/assets/data/path-mirror-rows.json", { credentials: "same-origin" })
       .then((res) => (res.ok ? res.json() : null))
-      .then((rules) => {
-        if (!Array.isArray(rules)) return;
-        const match = rules.find((r) => r && typeof r.from === "string" && candidates.has(r.from));
-        if (!match || typeof match.to !== "string" || !match.to) return;
-        const suffix = `${window.location.search || ""}${window.location.hash || ""}`;
-        window.location.replace(`${match.to}${suffix}`);
+      .then((data) => {
+        mergeProgrammaticMirrorRows(data?.rows);
+        wireLanguageSwitcher();
       })
       .catch(() => {});
   }
-  applyClientRedirects();
-
   function getPathLang() {
     const p = location.pathname;
     if (p.startsWith("/es/") || p === "/es") return "es";
@@ -132,7 +145,35 @@ window.ADS_ENABLED = false;
       if (target === pathLang) link.setAttribute("aria-current", "page");
     });
   }
+
+  function ensureLanguageSwitch() {
+    const header = document.querySelector("header");
+    if (!header || header.querySelector(".language-switch")) return;
+    const ui = { en: "Language switcher", es: "Selector de idioma", fr: "Langue" };
+    const div = document.createElement("div");
+    div.className = "language-switch";
+    div.setAttribute("aria-label", ui[pathLang] || ui.en);
+    div.innerHTML =
+      '<a href="#" data-lang-switch="en">EN</a> | <a href="#" data-lang-switch="es">ES</a> | <a href="#" data-lang-switch="fr">FR</a>';
+    header.appendChild(div);
+  }
+
+  function ensureHomeLinkOnTitle() {
+    const header = document.querySelector("header");
+    if (!header || header.getAttribute("data-site-header") === "standard") return;
+    const h1 = header.querySelector("h1");
+    if (!h1 || h1.querySelector(".home-link")) return;
+    const home = pathLang === "en" ? "/" : `/${pathLang}/`;
+    const text = h1.textContent.trim();
+    h1.classList.add("site-title");
+    h1.innerHTML = `<a href="${home}" class="home-link">${text}</a>`;
+  }
+
   wireLanguageSwitcher();
+  ensureHomeLinkOnTitle();
+  ensureLanguageSwitch();
+  wireLanguageSwitcher();
+  loadProgrammaticMirrorRows();
 
   const footerTagline = {
     en: "Educational cognitive screening tools. Not a medical diagnosis.",
@@ -319,6 +360,9 @@ window.ADS_ENABLED = false;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    ensureHomeLinkOnTitle();
+    ensureLanguageSwitch();
+    wireLanguageSwitcher();
     injectFooter();
     injectRandomLinks();
     injectLegalNav();
