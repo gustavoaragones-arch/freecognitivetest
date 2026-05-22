@@ -31,6 +31,10 @@ import {
   siloForPage,
 } from "./lib/silos.mjs";
 import { buildCrawlHubs, buildMainSitemapXml, getMainSitemapUrls } from "./lib/build-crawl-hubs.mjs";
+import {
+  PRIORITY_CRAWL_LINKS,
+  SECONDARY_HUB_BY_SILO,
+} from "./lib/internal-link-resolver.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -428,29 +432,39 @@ function renderPage(template, page, lang, allPages) {
   const graphUi = GRAPH_UI[lang];
   const cit = CITATION_UI[lang];
 
-  const peers = pickSameSiloPeers(allPages, page, 2);
-  const siloFallback = SILO_HUB[silo][lang];
-  const siloFallbackTitle = BREADCRUMB_LABELS[lang][silo];
-  const sameLinks = peers.map((p) => ({
-    href: pagePath(lang, p[lang].slug),
-    title: p[lang].h1,
-  }));
-  if (sameLinks.length === 0) {
-    sameLinks.push({ href: siloFallback, title: `${siloFallbackTitle} hub` }, { href: siloFallback, title: siloFallbackTitle });
-  } else if (sameLinks.length === 1) {
-    sameLinks.push({ href: siloFallback, title: `${siloFallbackTitle} hub` });
+  const currentPath = pagePath(lang, page[lang].slug);
+  let relatedPaths = [];
+  const relatedFile = join(ROOT, "assets/data/related-content.json");
+  try {
+    const relatedData = JSON.parse(readFileSync(relatedFile, "utf8"));
+    relatedPaths = relatedData.entries[currentPath]?.related?.slice(0, 6) || [];
+  } catch {
+    const peers = pickSameSiloPeers(allPages, page, 4);
+    relatedPaths = peers.map((p) => pagePath(lang, p[lang].slug));
   }
+  const hubPrimary = SILO_HUB[silo][lang];
+  const hubSecondary = SECONDARY_HUB_BY_SILO[silo]?.[lang] || SECONDARY_HUB_BY_SILO.cognitive_health[lang];
+  const hubUi =
+    lang === "es"
+      ? { h2: "Hubs temáticos", primary: "Hub principal", secondary: "Hub relacionado" }
+      : lang === "fr"
+        ? { h2: "Hubs thématiques", primary: "Hub principal", secondary: "Hub associé" }
+        : { h2: "Topical hubs", primary: "Primary hub", secondary: "Related hub" };
 
-  const crossSilo = pickCrossSilo(silo, page.id);
-  const crossHref = SILO_HUB[crossSilo][lang];
-  const crossTitle = BREADCRUMB_LABELS[lang][crossSilo];
-
-  const graphItems = [
-    `<li><span class="topic-graph__tag">${esc(graphUi.same)}</span> <a href="${sameLinks[0].href}">${esc(sameLinks[0].title)}</a></li>`,
-    `<li><span class="topic-graph__tag">${esc(graphUi.same)}</span> <a href="${sameLinks[1].href}">${esc(sameLinks[1].title)}</a></li>`,
-    `<li><span class="topic-graph__tag">${esc(graphUi.cross)}</span> <a href="${crossHref}">${esc(crossTitle)}</a></li>`,
-    `<li><span class="topic-graph__tag">${esc(graphUi.tool)}</span> <a href="${toolUrl}">${esc(toolLabel)}</a></li>`,
-  ].join("\n          ");
+  const graphItems = [];
+  for (const rel of relatedPaths) {
+    const title = rel.split("/").filter(Boolean).pop()?.replace(/-/g, " ") || rel;
+    graphItems.push(
+      `<li><span class="topic-graph__tag">${esc(graphUi.same)}</span> <a href="${esc(rel)}">${esc(title)}</a></li>`
+    );
+  }
+  graphItems.push(
+    `<li><span class="topic-graph__tag">${esc(graphUi.cross)}</span> <a href="${esc(hubPrimary)}">${esc(BREADCRUMB_LABELS[lang][silo])}</a></li>`,
+    `<li><span class="topic-graph__tag">${esc(graphUi.cross)}</span> <a href="${esc(hubSecondary)}">${esc(BREADCRUMB_LABELS[lang][silo])}</a></li>`,
+    `<li><span class="topic-graph__tag">${esc(graphUi.tool)}</span> <a href="${esc(toolUrl)}">${esc(toolLabel)}</a></li>`
+  );
+  const graphItemsStr = graphItems.join("\n          ");
+  const priority = PRIORITY_CRAWL_LINKS[lang];
 
   return template
     .replace(/\{\{LANG\}\}/g, lang)
@@ -475,6 +489,15 @@ function renderPage(template, page, lang, allPages) {
     .replace(/\{\{PRIORITY_DEM\}\}/g, esc(ui.priorityDem))
     .replace(/\{\{PRIORITY_EX\}\}/g, esc(ui.priorityEx))
     .replace(/\{\{PRIORITY_IDX\}\}/g, esc(ui.priorityIdx))
+    .replace(/\{\{PRIORITY_HREF_1\}\}/g, esc(priority[0][0]))
+    .replace(/\{\{PRIORITY_HREF_2\}\}/g, esc(priority[1][0]))
+    .replace(/\{\{PRIORITY_HREF_3\}\}/g, esc(priority[2][0]))
+    .replace(/\{\{PRIORITY_HREF_4\}\}/g, esc(priority[3][0]))
+    .replace(/\{\{HUB_LINKS_H2\}\}/g, esc(hubUi.h2))
+    .replace(/\{\{HUB_PRIMARY_HREF\}\}/g, esc(hubPrimary))
+    .replace(/\{\{HUB_PRIMARY_LABEL\}\}/g, esc(hubUi.primary))
+    .replace(/\{\{HUB_SECONDARY_HREF\}\}/g, esc(hubSecondary))
+    .replace(/\{\{HUB_SECONDARY_LABEL\}\}/g, esc(hubUi.secondary))
     .replace(/\{\{H1\}\}/g, esc(h1))
     .replace(/\{\{INTRO\}\}/g, intro)
     .replace(/\{\{NAV_ARIA\}\}/g, esc(ui.navAria))
@@ -493,7 +516,7 @@ function renderPage(template, page, lang, allPages) {
     .replace(/\{\{FAQ_PAGE_H2\}\}/g, esc(FAQ_PAGE_H2[lang]))
     .replace(/\{\{FAQ_VISIBLE_HTML\}\}/g, faqVisible)
     .replace(/\{\{GRAPH_H2\}\}/g, esc(graphUi.h2))
-    .replace(/\{\{GRAPH_LIST_ITEMS\}\}/g, graphItems)
+    .replace(/\{\{GRAPH_LIST_ITEMS\}\}/g, graphItemsStr)
     .replace(/\{\{TOOL_URL\}\}/g, esc(toolUrl))
     .replace(/\{\{TOOL_LABEL\}\}/g, esc(toolLabel))
     .replace(/\{\{TOOL_NOTE\}\}/g, esc(ui.toolNote))

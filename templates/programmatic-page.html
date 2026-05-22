@@ -38,10 +38,10 @@
       </nav>
       <nav class="priority-crawl-nav" aria-label="{{PRIORITY_NAV_ARIA}}">
         <ul>
-          <li><a href="/free-memory-test/">{{PRIORITY_MEM}}</a></li>
-          <li><a href="/dementia-test-online/">{{PRIORITY_DEM}}</a></li>
-          <li><a href="/brain-exercises/">{{PRIORITY_EX}}</a></li>
-          <li><a href="/ai-index.html">{{PRIORITY_IDX}}</a></li>
+          <li><a href="{{PRIORITY_HREF_1}}">{{PRIORITY_MEM}}</a></li>
+          <li><a href="{{PRIORITY_HREF_2}}">{{PRIORITY_DEM}}</a></li>
+          <li><a href="{{PRIORITY_HREF_3}}">{{PRIORITY_EX}}</a></li>
+          <li><a href="{{PRIORITY_HREF_4}}">{{PRIORITY_IDX}}</a></li>
         </ul>
       </nav>
       <div class="language-switch" aria-label="{{LANG_SWITCH_ARIA}}">
@@ -78,6 +78,14 @@
         {{FAQ_VISIBLE_HTML}}
       </section>
 
+      <section class="hub-links" aria-labelledby="hub-links-heading">
+        <h2 id="hub-links-heading">{{HUB_LINKS_H2}}</h2>
+        <ul class="meta-list">
+          <li><a href="{{HUB_PRIMARY_HREF}}">{{HUB_PRIMARY_LABEL}}</a></li>
+          <li><a href="{{HUB_SECONDARY_HREF}}">{{HUB_SECONDARY_LABEL}}</a></li>
+        </ul>
+      </section>
+
       <section class="topic-graph" aria-labelledby="graph-heading">
         <h2 id="graph-heading">{{GRAPH_H2}}</h2>
         <ul class="meta-list topic-graph__list">
@@ -94,6 +102,7 @@
     </main>
     <footer></footer>
     <script type="module" src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/internal-link-resolver.js" defer></script>
     <script src="/assets/js/common.js" defer></script>
   </body>
 </html>

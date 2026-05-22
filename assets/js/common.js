@@ -36,17 +36,11 @@ window.ADS_ENABLED = false;
       fr: "/fr/tests/trail-making-test.html",
     },
     { en: "/brain-exercises/", es: "/es/ejercicios-cerebrales/", fr: "/fr/exercices-cerebraux/" },
-    {
-      en: "/resources/printable-cognitive-tests.html",
-      es: "/es/recursos/pruebas-cognitivas-imprimibles.html",
-      fr: "/fr/ressources/tests-cognitifs-imprimables.html",
-    },
     { en: "/about/", es: "/es/about/", fr: "/fr/about/" },
     { en: "/medical-disclaimer/", es: "/es/medical-disclaimer/", fr: "/fr/medical-disclaimer/" },
     { en: "/privacy-policy/", es: "/es/privacy-policy/", fr: "/fr/privacy-policy/" },
     { en: "/contact/", es: "/es/contact/", fr: "/fr/contact/" },
     { en: "/cookie-policy/", es: "/es/cookie-policy/", fr: "/fr/cookie-policy/" },
-    { en: "/about/author/", es: "/about/author/", fr: "/about/author/" },
     { en: "/programmatic/", es: "/es/programmatic/", fr: "/fr/programmatic/" },
     { en: "/how-to-improve-memory/", es: "/es/como-mejorar-la-memoria/", fr: "/fr/ameliorer-memoire/" },
     {
@@ -56,6 +50,16 @@ window.ADS_ENABLED = false;
     },
     { en: "/cognitive-health/", es: "/es/salud-cognitiva/", fr: "/fr/sante-cognitive/" },
     { en: "/memory-tests/", es: "/es/pruebas-memoria/", fr: "/fr/tests-memoire/" },
+  ];
+
+  /** Language switch only — no hreflang cluster (EN-primary / shared content). */
+  const NAV_LOCALE_MAP = [
+    {
+      en: "/resources/printable-cognitive-tests.html",
+      es: "/es/recursos/pruebas-cognitivas-imprimibles.html",
+      fr: "/fr/ressources/tests-cognitifs-imprimables.html",
+    },
+    { en: "/about/author/", es: "/about/author/", fr: "/about/author/" },
   ];
 
   let PATH_MIRROR_ROWS = STATIC_MIRROR_ROWS.slice();
@@ -88,7 +92,7 @@ window.ADS_ENABLED = false;
    */
   function getLocalizedPath(targetLang) {
     const path = window.location.pathname;
-    for (const row of PATH_MIRROR_ROWS) {
+    for (const row of [...PATH_MIRROR_ROWS, ...NAV_LOCALE_MAP]) {
       if (pathMatchesRow(path, row)) {
         const dest = targetLang === "en" ? row.en : targetLang === "es" ? row.es : row.fr;
         if (dest) return dest;
@@ -231,23 +235,83 @@ window.ADS_ENABLED = false;
 
   const footerPriorityLinks = {
     en: [
-      ["Free memory test", "/free-memory-test/"],
-      ["Dementia test online", "/dementia-test-online/"],
+      ["Memory screening", "/free-memory-test/"],
+      ["Dementia screening hub", "/dementia-test-online/"],
+      ["Mini-Cog walkthrough", "/tests/mini-cog-test.html"],
+      ["Clock drawing test", "/tests/clock-drawing-test.html"],
       ["Brain exercises", "/brain-exercises/"],
-      ["All pages", "/ai-index.html"],
+      ["Cognitive health guides", "/cognitive-health/"],
     ],
     es: [
-      ["Prueba de memoria gratuita", "/es/prueba-memoria-gratis/"],
-      ["Prueba de demencia en línea", "/es/prueba-demencia/"],
+      ["Prueba de memoria", "/es/prueba-memoria-gratis/"],
+      ["Hub de demencia", "/es/prueba-demencia/"],
+      ["Mini-Cog", "/es/tests/mini-cog-test.html"],
+      ["Dibujo del reloj", "/es/tests/clock-drawing-test.html"],
       ["Ejercicios cerebrales", "/es/ejercicios-cerebrales/"],
-      ["Todas las páginas", "/ai-index.html"],
+      ["Salud cognitiva", "/es/salud-cognitiva/"],
     ],
     fr: [
-      ["Test de mémoire gratuit", "/fr/test-memoire-gratuit/"],
-      ["Test démence en ligne", "/fr/test-demence/"],
+      ["Test de mémoire", "/fr/test-memoire-gratuit/"],
+      ["Hub démence", "/fr/test-demence/"],
+      ["Mini-Cog", "/fr/tests/mini-cog-test.html"],
+      ["Horloge", "/fr/tests/clock-drawing-test.html"],
       ["Exercices cérébraux", "/fr/exercices-cerebraux/"],
-      ["Toutes les pages", "/ai-index.html"],
+      ["Santé cognitive", "/fr/sante-cognitive/"],
     ],
+  };
+
+  const nextStepCopy = {
+    en: {
+      home: {
+        href: "/free-memory-test/",
+        label: "Start with the free memory test",
+        blurb: "About 2 minutes. No signup. Educational screening only.",
+      },
+      hub: {
+        href: "/tests/mini-cog-test.html",
+        label: "Try the Mini-Cog walkthrough",
+        blurb: "Word recall plus clock drawing—common in primary care screening.",
+      },
+      article: {
+        href: "/dementia-test-online/",
+        label: "Explore dementia screening tools",
+        blurb: "Educational hub—not a diagnosis.",
+      },
+    },
+    es: {
+      home: {
+        href: "/es/prueba-memoria-gratis/",
+        label: "Empezar con la prueba de memoria",
+        blurb: "Unos 2 minutos. Sin registro. Solo educativo.",
+      },
+      hub: {
+        href: "/es/tests/mini-cog-test.html",
+        label: "Probar el Mini-Cog",
+        blurb: "Recuerdo de palabras y dibujo del reloj.",
+      },
+      article: {
+        href: "/es/prueba-demencia/",
+        label: "Ver herramientas de cribado",
+        blurb: "Hub educativo, no diagnóstico.",
+      },
+    },
+    fr: {
+      home: {
+        href: "/fr/test-memoire-gratuit/",
+        label: "Commencer par le test de mémoire",
+        blurb: "Environ 2 minutes. Sans inscription. Outil pédagogique.",
+      },
+      hub: {
+        href: "/fr/tests/mini-cog-test.html",
+        label: "Essayer le Mini-Cog",
+        blurb: "Rappel de mots et horloge.",
+      },
+      article: {
+        href: "/fr/test-demence/",
+        label: "Voir les outils de dépistage",
+        blurb: "Hub éducatif, pas un diagnostic.",
+      },
+    },
   };
 
   const legalNavEntries = {
@@ -273,6 +337,46 @@ window.ADS_ENABLED = false;
       ["Contact", "/fr/contact/"],
     ],
   };
+
+  function pageKind() {
+    const p = location.pathname;
+    if (p === "/" || p === "/es/" || p === "/fr/") return "home";
+    if (
+      /\/(cognitive-health|memory-tests|dementia|brain-exercises|salud-cognitiva|pruebas-memoria|demencia|ejercicios-cerebrales|sante-cognitive|tests-memoire|demence|exercices-cerebraux|free-memory-test|prueba-memoria|test-memoire|dementia-test|prueba-demencia|test-demence)\/?$/.test(
+        p
+      )
+    ) {
+      return "hub";
+    }
+    if (p.includes("/tests/") && p.endsWith(".html")) return null;
+    if (document.querySelector(".programmatic-page") || document.querySelector(".tool-link")) return null;
+    return "article";
+  }
+
+  function injectRecommendedNextStep() {
+    const kind = pageKind();
+    if (!kind) return;
+    const main = document.querySelector("main");
+    if (!main || main.querySelector(".recommended-next-step")) return;
+    const pack = nextStepCopy[pathLang] || nextStepCopy.en;
+    const step = pack[kind];
+    if (!step) return;
+    const section = document.createElement("section");
+    section.className = "recommended-next-step";
+    section.setAttribute("aria-labelledby", "recommended-next-heading");
+    const h2 =
+      pathLang === "es"
+        ? "Siguiente paso recomendado"
+        : pathLang === "fr"
+          ? "Étape suivante recommandée"
+          : "Recommended next step";
+    section.innerHTML = `
+      <h2 id="recommended-next-heading">${h2}</h2>
+      <p class="recommended-next-step__blurb">${step.blurb}</p>
+      <p><a class="button primary" href="${step.href}">${step.label}</a></p>
+    `.trim();
+    main.appendChild(section);
+  }
 
   function injectFooter() {
     const footer = document.querySelector("footer");
@@ -363,6 +467,7 @@ window.ADS_ENABLED = false;
     ensureHomeLinkOnTitle();
     ensureLanguageSwitch();
     wireLanguageSwitcher();
+    injectRecommendedNextStep();
     injectFooter();
     injectRandomLinks();
     injectLegalNav();

@@ -491,6 +491,19 @@ footer .footer-priority-crawl a {
 footer .footer-priority-crawl a:hover {
   text-decoration: underline;
 }
+
+.recommended-next-step {
+  margin: 2rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  background: var(--surface-muted, #f8fafc);
+}
+
+.recommended-next-step__blurb {
+  margin: 0.5rem 0 1rem;
+  color: var(--text-muted, #475569);
+}
 .priority-crawl-nav {
   margin: var(--sp-2) 0;
   padding: var(--sp-2) var(--sp-3);

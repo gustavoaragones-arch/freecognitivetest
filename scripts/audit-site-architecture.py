@@ -19,13 +19,11 @@ MIRROR_ROWS = [
     ("digit-span", "/tests/digit-span-test.html", "/es/tests/digit-span-test.html", "/fr/tests/digit-span-test.html"),
     ("trail", "/tests/trail-making-test.html", "/es/tests/trail-making-test.html", "/fr/tests/trail-making-test.html"),
     ("exercises", "/brain-exercises/", "/es/ejercicios-cerebrales/", "/fr/exercices-cerebraux/"),
-    ("printable", "/resources/printable-cognitive-tests.html", "/es/recursos/pruebas-cognitivas-imprimibles.html", "/fr/ressources/tests-cognitifs-imprimables.html"),
     ("about", "/about/", "/es/about/", "/fr/about/"),
     ("disclaimer", "/medical-disclaimer/", "/es/medical-disclaimer/", "/fr/medical-disclaimer/"),
     ("privacy", "/privacy-policy/", "/es/privacy-policy/", "/fr/privacy-policy/"),
     ("contact", "/contact/", "/es/contact/", "/fr/contact/"),
     ("cookies", "/cookie-policy/", "/es/cookie-policy/", "/fr/cookie-policy/"),
-    ("author", "/about/author/", "/about/author/", "/about/author/"),
 ]
 
 PLACEHOLDER_PHRASES = [
@@ -88,8 +86,10 @@ def page_lang(url: str) -> str:
 
 def main():
     html_files = []
+    robots_noindex_re = re.compile(r'<meta\s+name="robots"\s+content="[^"]*noindex', re.I)
+
     for p in ROOT.rglob("*.html"):
-        if any(x in p.parts for x in (".git", "node_modules", "reports")):
+        if any(x in p.parts for x in (".git", "node_modules", "reports", "templates")):
             continue
         html_files.append(p.relative_to(ROOT).as_posix())
 
@@ -151,9 +151,17 @@ def main():
 
     # Canonical audit
     canon_issues = []
+    redirect_sources = {r["from"] for r in redirects}
+
     for url, meta in page_meta.items():
+        if meta.get("robots_noindex"):
+            continue
+        if url in redirect_sources or url.rstrip("/") in redirect_sources:
+            continue
         c = meta["canonical"]
         if not c:
+            if url == "/404.html":
+                continue
             canon_issues.append({"url": url, "issue": "missing canonical", "canonical": None})
             continue
         cp = norm_path(c)
@@ -170,6 +178,8 @@ def main():
         if en_alt:
             urls["en_alt"] = en_alt
         for lang, u in urls.items():
+            if u in ("/en/", "/en"):
+                continue
             if u not in page_meta:
                 hreflang_issues.append({"cluster": name, "url": u, "issue": "page not in filesystem"})
                 continue

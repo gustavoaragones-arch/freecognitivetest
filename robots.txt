@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+# ARCH-02 Part 7: crawl budget — non-indexable or utility paths
+Disallow: /templates/
+Disallow: /*?*
+Disallow: /*&*
+Disallow: /*preview*
+Disallow: /*experiment*
+Disallow: /_draft/
+Disallow: /_generated/
+
 Sitemap: https://freecognitivetest.org/sitemap.xml

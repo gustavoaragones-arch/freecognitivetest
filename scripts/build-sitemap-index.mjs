@@ -43,7 +43,24 @@ const SITEMAP_EXCLUDE = new Set([
   "/fr/privacy-policy.html",
   "/fr/cookie-policy.html",
   "/fr/contact.html",
+  "/404.html",
+  "/legacy-index.html",
+  "/ai-index.html",
+  "/mini-cog-test/",
+  "/clock-drawing-test/",
+  "/es/prueba-mini-cog/",
+  "/es/test-dibujo-reloj/",
+  "/fr/test-mini-cog/",
+  "/fr/test-horloge-dessin/",
 ]);
+
+const SITEMAP_EXCLUDE_PREFIXES = [
+  "/templates/",
+  "/printable-tests/",
+  "/exercises/",
+  "/_draft/",
+  "/_generated/",
+];
 
 function norm(path) {
   if (!path || path === "/") return "/";
@@ -109,6 +126,7 @@ function main() {
   function claim(path, owner) {
     const p = norm(path);
     if (SITEMAP_EXCLUDE.has(p) || SITEMAP_EXCLUDE.has(p.replace(/\/$/, ""))) return;
+    if (SITEMAP_EXCLUDE_PREFIXES.some((pfx) => p.startsWith(pfx))) return;
     if (!assigned.has(p)) assigned.set(p, owner);
   }
 
