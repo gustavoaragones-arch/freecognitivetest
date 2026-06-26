@@ -486,14 +486,20 @@ window.ADS_ENABLED = false;
     img.setAttribute("aria-hidden", "true");
     header.appendChild(img);
 
-    // Position image so its BOTTOM aligns with the language switch bottom
+    // Position image so its BOTTOM aligns with the border line below the language switch
     requestAnimationFrame(() => {
+      const headerRect = header.getBoundingClientRect();
+      const legalNav = header.querySelector(".site-legal-nav");
       const langSwitch = header.querySelector(".language-switch");
-      if (langSwitch) {
-        const headerRect = header.getBoundingClientRect();
-        const lsRect = langSwitch.getBoundingClientRect();
-        const bottomOffset = lsRect.bottom - headerRect.top + 8;
-        img.style.top = (bottomOffset - 220) + "px";
+      let bottomTarget;
+      if (legalNav) {
+        // Align image bottom to the top edge of the legal nav (= the border line)
+        bottomTarget = legalNav.getBoundingClientRect().top - headerRect.top;
+      } else if (langSwitch) {
+        bottomTarget = langSwitch.getBoundingClientRect().bottom - headerRect.top + 8;
+      }
+      if (bottomTarget != null) {
+        img.style.top = (bottomTarget - 220) + "px";
       }
     });
   }
