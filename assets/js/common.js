@@ -485,6 +485,16 @@ window.ADS_ENABLED = false;
     img.className = "header-illustration";
     img.setAttribute("aria-hidden", "true");
     header.appendChild(img);
+
+    // Position image so its top starts just below the language switch row
+    requestAnimationFrame(() => {
+      const langSwitch = header.querySelector(".language-switch");
+      if (langSwitch) {
+        const headerRect = header.getBoundingClientRect();
+        const lsRect = langSwitch.getBoundingClientRect();
+        img.style.top = (lsRect.bottom - headerRect.top + 12) + "px";
+      }
+    });
   }
 
   document.addEventListener("DOMContentLoaded", () => {
