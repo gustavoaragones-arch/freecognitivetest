@@ -486,13 +486,14 @@ window.ADS_ENABLED = false;
     img.setAttribute("aria-hidden", "true");
     header.appendChild(img);
 
-    // Position image so its top starts just below the language switch row
+    // Position image so its BOTTOM aligns with the language switch bottom
     requestAnimationFrame(() => {
       const langSwitch = header.querySelector(".language-switch");
       if (langSwitch) {
         const headerRect = header.getBoundingClientRect();
         const lsRect = langSwitch.getBoundingClientRect();
-        img.style.top = (lsRect.bottom - headerRect.top + 12) + "px";
+        const bottomOffset = lsRect.bottom - headerRect.top + 8;
+        img.style.top = (bottomOffset - 220) + "px";
       }
     });
   }
