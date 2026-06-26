@@ -316,13 +316,14 @@ header {
   background-repeat: no-repeat;
   padding-top: calc(var(--sp-3) + 4px);
   position: relative;
+  overflow: visible;
 }
 
 .header-illustration {
   position: absolute;
-  top: 0;
+  top: -4px;
   right: 0;
-  height: 170px;
+  height: 220px;
   width: auto;
   pointer-events: none;
   user-select: none;
