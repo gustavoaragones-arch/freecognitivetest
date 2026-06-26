@@ -315,6 +315,21 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   padding-top: calc(var(--sp-3) + 4px);
+  position: relative;
+}
+
+.header-illustration {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 170px;
+  width: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 640px) {
+  .header-illustration { display: none; }
 }
 
 /* Site branding */
@@ -1314,6 +1329,21 @@ footer {
   color: var(--text-muted);
   font-size: var(--text-sm);
   line-height: var(--leading-loose);
+  position: relative;
+}
+
+.footer-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 200px;
+  width: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 640px) {
+  .footer-illustration { display: none; }
 }
 
 .footer-inner {

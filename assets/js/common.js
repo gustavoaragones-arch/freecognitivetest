@@ -417,6 +417,7 @@ window.ADS_ENABLED = false;
       </p>
       <p class="footer-contact">${contactLbl} <a href="mailto:contact@freecognitivetest.org">contact@freecognitivetest.org</a></p>
       <p class="footer-operator" lang="en">Albor Digital LLC</p>
+      <img src="/elderly-2.svg" alt="" class="footer-illustration" aria-hidden="true" />
     `.trim();
   }
 
@@ -475,6 +476,17 @@ window.ADS_ENABLED = false;
     header.appendChild(nav);
   }
 
+  function injectHeaderImage() {
+    const header = document.querySelector("header");
+    if (!header || header.querySelector(".header-illustration")) return;
+    const img = document.createElement("img");
+    img.src = "/elderly.svg";
+    img.alt = "";
+    img.className = "header-illustration";
+    img.setAttribute("aria-hidden", "true");
+    header.appendChild(img);
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     ensureHomeLinkOnTitle();
     ensureLanguageSwitch();
@@ -483,6 +495,7 @@ window.ADS_ENABLED = false;
     injectFooter();
     injectRandomLinks();
     injectLegalNav();
+    injectHeaderImage();
 
     const year = document.getElementById("year");
     if (year) year.textContent = String(new Date().getFullYear());
