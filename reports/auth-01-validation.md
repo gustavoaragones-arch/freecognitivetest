@@ -1,6 +1,6 @@
 # AUTH-01 validation
 
-Generated: 2026-05-22
+Generated: 2026-08-12
 
 Overall: **PASS**
 
@@ -14,9 +14,9 @@ Overall: **PASS**
 | Professional-help blocks (symptom sample) | Present on symptom pages | 102 pages with block | PASS |
 | Editorial standards page | Exists | EN/ES/FR | PASS |
 | Sources policy page | Exists | EN/ES/FR | PASS |
-| Last-reviewed timestamps | 100% | 539/539 (100%) | PASS |
-| Quick-answer blocks | 100% key pages | 539/539 (100%) | PASS |
-| EN/ES/FR parity (policy + programmatic mirrors) | Maintained | 170 programmatic mirror rows | PASS |
+| Last-reviewed timestamps | 100% | 541/541 (100%) | PASS |
+| Quick-answer blocks | 100% key pages | 541/541 (100%) | PASS |
+| EN/ES/FR parity (policy + programmatic mirrors) | Maintained | 159 programmatic mirror rows | PASS |
 | Priority pages semantic FAQ heading | 12/12 | 12/12 | PASS |
 
 ## Priority page detail

@@ -31,6 +31,8 @@ import {
   siloForPage,
 } from "./lib/silos.mjs";
 import { LAST_REVIEWED_LABEL } from "./lib/auth01-snippet-timestamps.mjs";
+import { isSentenceEligible } from "./lib/sentence-eligibility.mjs";
+import { evaluatePage } from "./lib/content-value-gate.mjs";
 import { buildCrawlHubs, buildMainSitemapXml, getMainSitemapUrls } from "./lib/build-crawl-hubs.mjs";
 import {
   PRIORITY_CRAWL_LINKS,
@@ -161,6 +163,7 @@ function pickParagraphs(pageId, page, lang, h1) {
   const themedPool = v[themedKey]?.[lang] || [];
   const fallbackPool = BODY_POOLS[page.cluster]?.[lang] || BODY_POOLS.exercises_intent[lang];
   const pool = themedPool.length >= 4 ? themedPool : fallbackPool;
+  const usingThemedPool = pool === themedPool;
   const n = pool.length;
 
   const causes = langPool(v, lang, "causes");
@@ -187,7 +190,8 @@ function pickParagraphs(pageId, page, lang, h1) {
   for (let i = 0; i < paragraphCount; i++) {
     let idx = hash(`${pageId}:${lang}:bp:${i}`) % n;
     let guard = 0;
-    while (used.has(idx) && guard++ < n) idx = (idx + 1) % n;
+    const blocked = (k) => used.has(k) || (usingThemedPool && !isSentenceEligible(themedKey, k, page));
+    while (blocked(idx) && guard++ < n * 2) idx = (idx + 1) % n;
     used.add(idx);
     const text = pool[idx].replace(/\{topic\}/g, h1);
     paras.push(`<p>${esc(text)}</p>`);
@@ -547,6 +551,34 @@ function renderPage(template, page, lang, allPages) {
 }
 
 function main() {
+  const pages = buildSeeds();
+
+  // CONTENT-02 Part 1: generation freeze guard. Runs before anything is deleted or
+  // written. Any seed row whose EN slug is not already in the frozen manifest is a
+  // NEW page proposal and must pass the content value gate (scripts/lib/content-value-gate.mjs).
+  // Existing/frozen pages are never evaluated and are unaffected by this check either way.
+  const frozenManifest = JSON.parse(
+    readFileSync(join(ROOT, "assets/data/programmatic-frozen-manifest.json"), "utf8")
+  );
+  const frozenSlugs = new Set(Object.values(frozenManifest.slugsByCluster).flat());
+  const newPages = pages.filter((p) => !frozenSlugs.has(p.en.slug));
+  if (newPages.length > 0) {
+    const existingPages = pages.filter((p) => frozenSlugs.has(p.en.slug));
+    const failures = newPages
+      .map((p) => ({ slug: p.en.slug, cluster: p.cluster, result: evaluatePage(p, existingPages) }))
+      .filter((f) => !f.result.pass);
+    if (failures.length > 0) {
+      console.error(
+        `CONTENT-02 generation gate: ${failures.length} of ${newPages.length} new page(s) failed the content value gate.`
+      );
+      console.error(`Run scripts/validate-content02-gate.mjs for the full report. Aborting before any files are touched.`);
+      for (const f of failures) {
+        console.error(`  FAIL [${f.cluster}] ${f.slug}: ${f.result.failedCriteria.join(", ")}`);
+      }
+      process.exit(1);
+    }
+  }
+
   const manifestPath = join(ROOT, "assets/data/seo-pages-manifest.json");
   try {
     const prev = JSON.parse(readFileSync(manifestPath, "utf8"));
@@ -562,7 +594,6 @@ function main() {
   getVariations();
 
   const template = readFileSync(join(ROOT, "templates/programmatic-page.html"), "utf8");
-  const pages = buildSeeds();
 
   const manifest = { generated: LASTMOD, pages: [] };
   const urlsEn = [];

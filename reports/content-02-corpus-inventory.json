@@ -1,0 +1,2613 @@
+{
+  "gateVersion": "1.0.0",
+  "generatedBy": "CONTENT-02 diagnostic (read-only analysis, reproducible from assets/data/*.json + scripts/lib/*.mjs)",
+  "totalEnPages": 170,
+  "totalPagesAllLangs": 510,
+  "classification_postfix": {
+    "brain-exercises-for-seniors": "B",
+    "brain-exercises-for-memory": "B",
+    "brain-exercises-for-focus": "C",
+    "brain-exercises-for-anxiety": "B",
+    "brain-exercises-for-stress-relief": "B",
+    "brain-exercises-for-stroke-recovery": "C",
+    "brain-exercises-for-parkinsons-caregivers": "B",
+    "brain-exercises-for-aphasia-friendly": "B",
+    "brain-exercises-for-adhd-adults": "B",
+    "brain-exercises-for-sleep-and-brain": "B",
+    "brain-exercises-for-diabetes-brain-health": "C",
+    "brain-exercises-for-heart-health-cognition": "C",
+    "brain-exercises-for-social-connection": "B",
+    "brain-exercises-for-music-and-memory": "B",
+    "brain-exercises-for-language-learning": "B",
+    "brain-exercises-for-hand-eye-coordination": "C",
+    "brain-exercises-for-reaction-time": "B",
+    "brain-exercises-for-spatial-skills": "B",
+    "brain-exercises-for-working-memory": "B",
+    "brain-exercises-for-dual-tasking": "B",
+    "brain-exercises-for-mindfulness-focus": "C",
+    "brain-exercises-for-post-surgery-brain-fog": "C",
+    "brain-exercises-for-chemo-brain-education": "C",
+    "brain-exercises-for-long-covid-brain-fog": "C",
+    "brain-exercises-for-vision-and-attention": "B",
+    "brain-exercises-for-hearing-and-memory": "C",
+    "brain-exercises-for-medication-review-habits": "C",
+    "brain-exercises-for-driving-safety-cognition": "C",
+    "brain-exercises-for-financial-task-focus": "C",
+    "brain-exercises-for-cooking-safety-memory": "C",
+    "brain-exercises-for-travel-planning-focus": "C",
+    "brain-exercises-for-hydration-cognition": "C",
+    "brain-exercises-for-meal-prep-memory": "B",
+    "brain-exercises-for-reading-comprehension": "B",
+    "brain-exercises-for-note-taking-skills": "B",
+    "brain-exercises-for-chronic-pain-education": "C",
+    "brain-exercises-for-menopause-brain-fog-edu": "C",
+    "brain-exercises-for-tinnitus-concentration": "B",
+    "brain-exercises-for-allergy-medication-fog": "C",
+    "brain-exercises-for-jet-lag-cognition": "C",
+    "brain-exercises-for-exam-prep-focus": "C",
+    "brain-exercises-for-public-speaking-memory": "B",
+    "brain-exercises-for-music-practice-memory": "B",
+    "brain-exercises-for-sports-strategy-thinking": "B",
+    "brain-exercises-for-gardening-sequencing": "B",
+    "brain-exercises-for-pet-care-routines": "C",
+    "brain-exercises-for-home-maintenance-checklists": "B",
+    "brain-exercises-for-volunteering-social-memory": "B",
+    "brain-exercises-for-grandparent-play-activities": "B",
+    "brain-exercises-for-peer-support-groups": "B",
+    "brain-exercises-for-low-vision-large-print": "C",
+    "brain-exercises-for-hearing-aid-adaptation": "C",
+    "brain-exercises-for-chronic-fatigue-pacing": "C",
+    "brain-exercises-for-post-icu-education": "C",
+    "brain-exercises-for-substance-recovery-edu": "C",
+    "brain-exercises-for-meditation-breath-focus": "C",
+    "brain-exercises-for-arthritis-hand-tasks": "C",
+    "brain-exercises-for-low-mood-motivation": "C",
+    "brain-exercises-for-seasonal-affective-edu": "C",
+    "brain-exercises-for-night-shift-cognition": "C",
+    "brain-exercises-for-screen-reader-users": "B",
+    "brain-exercises-for-voice-assistant-routines": "C",
+    "memory-test-for-seniors": "B",
+    "memory-test-for-adults": "B",
+    "memory-test-for-kids-teens": "B",
+    "memory-test-for-elderly": "B",
+    "memory-test-for-caregivers": "B",
+    "memory-test-for-nurses": "B",
+    "memory-test-for-students": "B",
+    "memory-test-for-mci-follow-up": "B",
+    "memory-test-for-post-stroke": "B",
+    "memory-test-for-parkinsons": "B",
+    "memory-test-for-ms-education": "B",
+    "memory-test-for-adhd-screening-context": "B",
+    "memory-test-for-depression-brain-fog": "B",
+    "memory-test-for-anxiety-test-anxiety": "B",
+    "memory-test-for-bilingual-adults": "B",
+    "memory-test-for-low-literacy-friendly": "B",
+    "memory-test-for-remote-telehealth": "B",
+    "memory-test-for-primary-care": "B",
+    "memory-test-for-occupational-health": "B",
+    "memory-test-for-drivers-medical": "C",
+    "memory-test-for-attorneys-capacity-edu": "C",
+    "memory-test-for-athletes-concussion-edu": "C",
+    "memory-test-for-musicians-memory": "B",
+    "memory-test-for-programmers-focus": "B",
+    "memory-test-for-shift-workers": "B",
+    "memory-test-for-older-drivers": "C",
+    "memory-test-for-hearing-loss-screening": "C",
+    "memory-test-for-vision-loss-screening": "C",
+    "memory-test-for-diabetes-clinics": "B",
+    "memory-test-for-cardiac-rehab": "B",
+    "signs-of-memory-loss": "C",
+    "early-signs-of-dementia": "B",
+    "why-forgetting-things": "B",
+    "short-term-memory-slips": "B",
+    "word-finding-problems": "B",
+    "getting-lost-familiar-places": "B",
+    "repeating-questions": "B",
+    "misplacing-objects-daily": "B",
+    "confusion-with-time": "B",
+    "mood-changes-thinking": "B",
+    "sleep-deprivation-memory": "B",
+    "stress-burnout-brain-fog": "B",
+    "depression-memory-concentration": "B",
+    "vitamin-deficiency-memory": "B",
+    "thyroid-memory-symptoms": "B",
+    "medication-side-effects-memory": "B",
+    "uti-delirium-seniors": "B",
+    "sudden-memory-loss": "C",
+    "visual-hallucinations-memory": "B",
+    "hearing-loss-social-withdrawal": "C",
+    "how-to-improve-memory-naturally": "C",
+    "how-to-test-memory-at-home": "B",
+    "how-to-prevent-cognitive-decline": "C",
+    "how-to-build-brain-healthy-habits": "C",
+    "how-to-read-memory-test-results": "B",
+    "how-to-talk-to-doctor-memory": "C",
+    "how-to-support-spouse-memory-changes": "C",
+    "how-to-choose-brain-apps": "C",
+    "how-to-use-spaced-repetition": "C",
+    "how-to-sleep-better-for-memory": "C",
+    "how-to-exercise-for-brain-health": "C",
+    "how-to-reduce-stress-for-focus": "C",
+    "how-to-eat-mind-diet-basics": "B",
+    "how-to-stay-socially-connected-aging": "B",
+    "how-to-manage-multiple-medications": "B",
+    "how-to-plan-for-memory-evaluation": "B",
+    "how-to-use-external-memory-aids": "C",
+    "how-to-balance-screen-time-brain": "B",
+    "how-to-learn-a-language-memory": "C",
+    "how-to-remember-names-better": "C",
+    "how-to-remember-appointments": "C",
+    "how-to-use-paper-planners-memory": "C",
+    "how-to-prioritize-tasks-brain-fog": "C",
+    "how-to-break-bad-phone-habits": "B",
+    "how-to-train-auditory-memory": "B",
+    "how-to-train-visual-memory": "B",
+    "how-to-use-mnemonics-safely": "C",
+    "how-to-review-medications-with-doctor": "C",
+    "how-to-prepare-for-memory-clinic": "B",
+    "how-to-keep-a-symptom-diary": "B",
+    "how-to-ask-for-accommodations-work": "C",
+    "how-to-support-parent-memory-changes": "C",
+    "how-to-coordinate-family-care": "B",
+    "how-to-choose-hearing-aids-cognition": "C",
+    "how-to-walk-daily-for-brain-health": "C",
+    "how-to-limit-alcohol-for-memory": "B",
+    "how-to-quit-smoking-brain-benefits": "B",
+    "how-to-manage-blood-pressure-brain": "B",
+    "how-to-track-sleep-apnea-signs": "C",
+    "how-to-use-light-for-mood-and-focus": "C",
+    "how-to-set-boundaries-to-reduce-stress": "C",
+    "how-to-practice-gratitude-without-toxic-positivity": "B",
+    "how-to-learn-skills-slowly-and-retain": "C",
+    "how-to-use-calendars-with-reminders": "C",
+    "how-to-organize-digital-files-memory": "B",
+    "how-to-batch-errands-for-mental-energy": "B",
+    "how-to-handle-correction-after-forgetting": "B",
+    "how-to-talk-to-kids-about-grandparent-memory": "C",
+    "how-to-find-reputable-cognitive-resources": "C",
+    "how-to-pace-cognitive-tasks-daily": "C",
+    "how-to-use-timers-for-focus-blocks": "C",
+    "how-to-reduce-multitasking-costs": "C",
+    "how-to-build-a-sleep-wind-down": "C",
+    "how-to-check-vision-and-cognition-links": "C",
+    "how-to-ask-for-a-hearing-test": "C",
+    "guide-how-to-improve-memory-p0": "C",
+    "guide-how-to-improve-memory-naturally-p1": "C",
+    "guide-how-to-boost-memory-fast-p2": "B"
+  },
+  "consolidationCandidates": [
+    "brain-exercises-for-allergy-medication-fog",
+    "brain-exercises-for-arthritis-hand-tasks",
+    "brain-exercises-for-chemo-brain-education",
+    "brain-exercises-for-chronic-fatigue-pacing",
+    "brain-exercises-for-chronic-pain-education",
+    "brain-exercises-for-cooking-safety-memory",
+    "brain-exercises-for-diabetes-brain-health",
+    "brain-exercises-for-driving-safety-cognition",
+    "brain-exercises-for-exam-prep-focus",
+    "brain-exercises-for-financial-task-focus",
+    "brain-exercises-for-focus",
+    "brain-exercises-for-hand-eye-coordination",
+    "brain-exercises-for-hearing-aid-adaptation",
+    "brain-exercises-for-hearing-and-memory",
+    "brain-exercises-for-heart-health-cognition",
+    "brain-exercises-for-hydration-cognition",
+    "brain-exercises-for-jet-lag-cognition",
+    "brain-exercises-for-long-covid-brain-fog",
+    "brain-exercises-for-low-mood-motivation",
+    "brain-exercises-for-low-vision-large-print",
+    "brain-exercises-for-medication-review-habits",
+    "brain-exercises-for-meditation-breath-focus",
+    "brain-exercises-for-menopause-brain-fog-edu",
+    "brain-exercises-for-mindfulness-focus",
+    "brain-exercises-for-night-shift-cognition",
+    "brain-exercises-for-pet-care-routines",
+    "brain-exercises-for-post-icu-education",
+    "brain-exercises-for-post-surgery-brain-fog",
+    "brain-exercises-for-seasonal-affective-edu",
+    "brain-exercises-for-stroke-recovery",
+    "brain-exercises-for-substance-recovery-edu",
+    "brain-exercises-for-travel-planning-focus",
+    "brain-exercises-for-voice-assistant-routines",
+    "guide-how-to-improve-memory-naturally-p1",
+    "guide-how-to-improve-memory-p0",
+    "hearing-loss-social-withdrawal",
+    "how-to-ask-for-a-hearing-test",
+    "how-to-ask-for-accommodations-work",
+    "how-to-build-a-sleep-wind-down",
+    "how-to-build-brain-healthy-habits",
+    "how-to-check-vision-and-cognition-links",
+    "how-to-choose-brain-apps",
+    "how-to-choose-hearing-aids-cognition",
+    "how-to-exercise-for-brain-health",
+    "how-to-find-reputable-cognitive-resources",
+    "how-to-improve-memory-naturally",
+    "how-to-learn-a-language-memory",
+    "how-to-learn-skills-slowly-and-retain",
+    "how-to-pace-cognitive-tasks-daily",
+    "how-to-prevent-cognitive-decline",
+    "how-to-prioritize-tasks-brain-fog",
+    "how-to-reduce-multitasking-costs",
+    "how-to-reduce-stress-for-focus",
+    "how-to-remember-appointments",
+    "how-to-remember-names-better",
+    "how-to-review-medications-with-doctor",
+    "how-to-set-boundaries-to-reduce-stress",
+    "how-to-sleep-better-for-memory",
+    "how-to-support-parent-memory-changes",
+    "how-to-support-spouse-memory-changes",
+    "how-to-talk-to-doctor-memory",
+    "how-to-talk-to-kids-about-grandparent-memory",
+    "how-to-track-sleep-apnea-signs",
+    "how-to-use-calendars-with-reminders",
+    "how-to-use-external-memory-aids",
+    "how-to-use-light-for-mood-and-focus",
+    "how-to-use-mnemonics-safely",
+    "how-to-use-paper-planners-memory",
+    "how-to-use-spaced-repetition",
+    "how-to-use-timers-for-focus-blocks",
+    "how-to-walk-daily-for-brain-health",
+    "memory-test-for-athletes-concussion-edu",
+    "memory-test-for-attorneys-capacity-edu",
+    "memory-test-for-drivers-medical",
+    "memory-test-for-hearing-loss-screening",
+    "memory-test-for-older-drivers",
+    "memory-test-for-vision-loss-screening",
+    "signs-of-memory-loss",
+    "sudden-memory-loss"
+  ],
+  "namedConsolidationClusters": [
+    {
+      "cluster": "guides",
+      "keyword": "use",
+      "members": [
+        "how-to-use-calendars-with-reminders",
+        "how-to-use-external-memory-aids",
+        "how-to-use-light-for-mood-and-focus",
+        "how-to-use-mnemonics-safely",
+        "how-to-use-paper-planners-memory",
+        "how-to-use-spaced-repetition",
+        "how-to-use-timers-for-focus-blocks"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "focus",
+      "members": [
+        "brain-exercises-for-exam-prep-focus",
+        "brain-exercises-for-financial-task-focus",
+        "brain-exercises-for-focus",
+        "brain-exercises-for-meditation-breath-focus",
+        "brain-exercises-for-mindfulness-focus",
+        "brain-exercises-for-travel-planning-focus"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "cognition",
+      "members": [
+        "brain-exercises-for-driving-safety-cognition",
+        "brain-exercises-for-heart-health-cognition",
+        "brain-exercises-for-hydration-cognition",
+        "brain-exercises-for-jet-lag-cognition",
+        "brain-exercises-for-night-shift-cognition"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "fog",
+      "members": [
+        "brain-exercises-for-allergy-medication-fog",
+        "brain-exercises-for-long-covid-brain-fog",
+        "brain-exercises-for-menopause-brain-fog-edu",
+        "brain-exercises-for-post-surgery-brain-fog"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "education",
+      "members": [
+        "brain-exercises-for-chemo-brain-education",
+        "brain-exercises-for-chronic-pain-education",
+        "brain-exercises-for-post-icu-education"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "edu",
+      "members": [
+        "brain-exercises-for-menopause-brain-fog-edu",
+        "brain-exercises-for-seasonal-affective-edu",
+        "brain-exercises-for-substance-recovery-edu"
+      ]
+    },
+    {
+      "cluster": "symptoms",
+      "keyword": "loss",
+      "members": [
+        "hearing-loss-social-withdrawal",
+        "signs-of-memory-loss",
+        "sudden-memory-loss"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "improve",
+      "members": [
+        "guide-how-to-improve-memory-naturally-p1",
+        "guide-how-to-improve-memory-p0",
+        "how-to-improve-memory-naturally"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "cognitive",
+      "members": [
+        "how-to-find-reputable-cognitive-resources",
+        "how-to-pace-cognitive-tasks-daily",
+        "how-to-prevent-cognitive-decline"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "sleep",
+      "members": [
+        "how-to-build-a-sleep-wind-down",
+        "how-to-sleep-better-for-memory",
+        "how-to-track-sleep-apnea-signs"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "focus",
+      "members": [
+        "how-to-reduce-stress-for-focus",
+        "how-to-use-light-for-mood-and-focus",
+        "how-to-use-timers-for-focus-blocks"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "reduce",
+      "members": [
+        "how-to-reduce-multitasking-costs",
+        "how-to-reduce-stress-for-focus",
+        "how-to-set-boundaries-to-reduce-stress"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "recovery",
+      "members": [
+        "brain-exercises-for-stroke-recovery",
+        "brain-exercises-for-substance-recovery-edu"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "health",
+      "members": [
+        "brain-exercises-for-diabetes-brain-health",
+        "brain-exercises-for-heart-health-cognition"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "hand",
+      "members": [
+        "brain-exercises-for-arthritis-hand-tasks",
+        "brain-exercises-for-hand-eye-coordination"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "post",
+      "members": [
+        "brain-exercises-for-post-icu-education",
+        "brain-exercises-for-post-surgery-brain-fog"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "hearing",
+      "members": [
+        "brain-exercises-for-hearing-aid-adaptation",
+        "brain-exercises-for-hearing-and-memory"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "medication",
+      "members": [
+        "brain-exercises-for-allergy-medication-fog",
+        "brain-exercises-for-medication-review-habits"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "safety",
+      "members": [
+        "brain-exercises-for-cooking-safety-memory",
+        "brain-exercises-for-driving-safety-cognition"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "chronic",
+      "members": [
+        "brain-exercises-for-chronic-fatigue-pacing",
+        "brain-exercises-for-chronic-pain-education"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "routines",
+      "members": [
+        "brain-exercises-for-pet-care-routines",
+        "brain-exercises-for-voice-assistant-routines"
+      ]
+    },
+    {
+      "cluster": "exercises_intent",
+      "keyword": "low",
+      "members": [
+        "brain-exercises-for-low-mood-motivation",
+        "brain-exercises-for-low-vision-large-print"
+      ]
+    },
+    {
+      "cluster": "tests_audience",
+      "keyword": "drivers",
+      "members": [
+        "memory-test-for-drivers-medical",
+        "memory-test-for-older-drivers"
+      ]
+    },
+    {
+      "cluster": "tests_audience",
+      "keyword": "edu",
+      "members": [
+        "memory-test-for-athletes-concussion-edu",
+        "memory-test-for-attorneys-capacity-edu"
+      ]
+    },
+    {
+      "cluster": "tests_audience",
+      "keyword": "loss",
+      "members": [
+        "memory-test-for-hearing-loss-screening",
+        "memory-test-for-vision-loss-screening"
+      ]
+    },
+    {
+      "cluster": "tests_audience",
+      "keyword": "screening",
+      "members": [
+        "memory-test-for-hearing-loss-screening",
+        "memory-test-for-vision-loss-screening"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "naturally",
+      "members": [
+        "guide-how-to-improve-memory-naturally-p1",
+        "how-to-improve-memory-naturally"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "build",
+      "members": [
+        "how-to-build-a-sleep-wind-down",
+        "how-to-build-brain-healthy-habits"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "doctor",
+      "members": [
+        "how-to-review-medications-with-doctor",
+        "how-to-talk-to-doctor-memory"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "talk",
+      "members": [
+        "how-to-talk-to-doctor-memory",
+        "how-to-talk-to-kids-about-grandparent-memory"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "changes",
+      "members": [
+        "how-to-support-parent-memory-changes",
+        "how-to-support-spouse-memory-changes"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "support",
+      "members": [
+        "how-to-support-parent-memory-changes",
+        "how-to-support-spouse-memory-changes"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "choose",
+      "members": [
+        "how-to-choose-brain-apps",
+        "how-to-choose-hearing-aids-cognition"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "better",
+      "members": [
+        "how-to-remember-names-better",
+        "how-to-sleep-better-for-memory"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "health",
+      "members": [
+        "how-to-exercise-for-brain-health",
+        "how-to-walk-daily-for-brain-health"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "stress",
+      "members": [
+        "how-to-reduce-stress-for-focus",
+        "how-to-set-boundaries-to-reduce-stress"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "aids",
+      "members": [
+        "how-to-choose-hearing-aids-cognition",
+        "how-to-use-external-memory-aids"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "learn",
+      "members": [
+        "how-to-learn-a-language-memory",
+        "how-to-learn-skills-slowly-and-retain"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "remember",
+      "members": [
+        "how-to-remember-appointments",
+        "how-to-remember-names-better"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "tasks",
+      "members": [
+        "how-to-pace-cognitive-tasks-daily",
+        "how-to-prioritize-tasks-brain-fog"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "with",
+      "members": [
+        "how-to-review-medications-with-doctor",
+        "how-to-use-calendars-with-reminders"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "ask",
+      "members": [
+        "how-to-ask-for-a-hearing-test",
+        "how-to-ask-for-accommodations-work"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "cognition",
+      "members": [
+        "how-to-check-vision-and-cognition-links",
+        "how-to-choose-hearing-aids-cognition"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "hearing",
+      "members": [
+        "how-to-ask-for-a-hearing-test",
+        "how-to-choose-hearing-aids-cognition"
+      ]
+    },
+    {
+      "cluster": "guides",
+      "keyword": "daily",
+      "members": [
+        "how-to-pace-cognitive-tasks-daily",
+        "how-to-walk-daily-for-brain-health"
+      ]
+    }
+  ],
+  "bSubclass": {
+    "B1": [
+      "brain-exercises-for-seniors",
+      "brain-exercises-for-memory",
+      "brain-exercises-for-anxiety",
+      "brain-exercises-for-stress-relief",
+      "brain-exercises-for-parkinsons-caregivers",
+      "brain-exercises-for-aphasia-friendly",
+      "brain-exercises-for-adhd-adults",
+      "brain-exercises-for-sleep-and-brain",
+      "brain-exercises-for-social-connection",
+      "brain-exercises-for-music-and-memory",
+      "brain-exercises-for-spatial-skills",
+      "brain-exercises-for-working-memory",
+      "brain-exercises-for-vision-and-attention",
+      "brain-exercises-for-meal-prep-memory",
+      "brain-exercises-for-note-taking-skills",
+      "brain-exercises-for-tinnitus-concentration",
+      "brain-exercises-for-public-speaking-memory",
+      "brain-exercises-for-music-practice-memory",
+      "brain-exercises-for-volunteering-social-memory",
+      "memory-test-for-seniors",
+      "memory-test-for-adults",
+      "memory-test-for-kids-teens",
+      "memory-test-for-elderly",
+      "memory-test-for-caregivers",
+      "memory-test-for-nurses",
+      "memory-test-for-students",
+      "memory-test-for-mci-follow-up",
+      "memory-test-for-post-stroke",
+      "memory-test-for-parkinsons",
+      "memory-test-for-ms-education",
+      "memory-test-for-adhd-screening-context",
+      "memory-test-for-depression-brain-fog",
+      "memory-test-for-anxiety-test-anxiety",
+      "memory-test-for-bilingual-adults",
+      "memory-test-for-low-literacy-friendly",
+      "memory-test-for-remote-telehealth",
+      "memory-test-for-primary-care",
+      "memory-test-for-occupational-health",
+      "memory-test-for-musicians-memory",
+      "memory-test-for-programmers-focus",
+      "memory-test-for-shift-workers",
+      "memory-test-for-diabetes-clinics",
+      "memory-test-for-cardiac-rehab",
+      "early-signs-of-dementia",
+      "why-forgetting-things",
+      "short-term-memory-slips",
+      "word-finding-problems",
+      "getting-lost-familiar-places",
+      "repeating-questions",
+      "misplacing-objects-daily",
+      "confusion-with-time",
+      "mood-changes-thinking",
+      "sleep-deprivation-memory",
+      "stress-burnout-brain-fog",
+      "depression-memory-concentration",
+      "vitamin-deficiency-memory",
+      "thyroid-memory-symptoms",
+      "medication-side-effects-memory",
+      "uti-delirium-seniors",
+      "visual-hallucinations-memory",
+      "how-to-test-memory-at-home",
+      "how-to-read-memory-test-results",
+      "how-to-stay-socially-connected-aging",
+      "how-to-manage-multiple-medications",
+      "how-to-plan-for-memory-evaluation",
+      "how-to-train-auditory-memory",
+      "how-to-train-visual-memory",
+      "how-to-prepare-for-memory-clinic",
+      "how-to-limit-alcohol-for-memory",
+      "how-to-organize-digital-files-memory",
+      "guide-how-to-boost-memory-fast-p2"
+    ],
+    "B2": [
+      "brain-exercises-for-language-learning",
+      "brain-exercises-for-reaction-time",
+      "brain-exercises-for-dual-tasking",
+      "brain-exercises-for-reading-comprehension",
+      "brain-exercises-for-sports-strategy-thinking",
+      "brain-exercises-for-gardening-sequencing",
+      "brain-exercises-for-home-maintenance-checklists",
+      "brain-exercises-for-grandparent-play-activities",
+      "brain-exercises-for-peer-support-groups",
+      "brain-exercises-for-screen-reader-users",
+      "how-to-eat-mind-diet-basics",
+      "how-to-balance-screen-time-brain",
+      "how-to-break-bad-phone-habits",
+      "how-to-keep-a-symptom-diary",
+      "how-to-coordinate-family-care",
+      "how-to-quit-smoking-brain-benefits",
+      "how-to-manage-blood-pressure-brain",
+      "how-to-practice-gratitude-without-toxic-positivity",
+      "how-to-batch-errands-for-mental-energy",
+      "how-to-handle-correction-after-forgetting"
+    ],
+    "B3": []
+  },
+  "priorityScores": [
+    {
+      "slug": "memory-test-for-caregivers",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.48,
+      "clusterw": 1.0,
+      "inbound": 28,
+      "composite": 0.896,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-adhd-screening-context",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 1.0,
+      "inbound": 4,
+      "composite": 0.846,
+      "priority": "P1"
+    },
+    {
+      "slug": "medication-side-effects-memory",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.28,
+      "clusterw": 0.9,
+      "inbound": 6,
+      "composite": 0.836,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-post-stroke",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.831,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-parkinsons",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.831,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-ms-education",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.831,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-diabetes-clinics",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.831,
+      "priority": "P1"
+    },
+    {
+      "slug": "early-signs-of-dementia",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.9,
+      "inbound": 3,
+      "composite": 0.82,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-vision-and-attention",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.816,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-parkinsons-caregivers",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.811,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-aphasia-friendly",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.791,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-adhd-adults",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.791,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-tinnitus-concentration",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.791,
+      "priority": "P1"
+    },
+    {
+      "slug": "how-to-manage-multiple-medications",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.78,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-seniors",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.51,
+      "clusterw": 1.0,
+      "inbound": 34,
+      "composite": 0.752,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-adults",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.5,
+      "clusterw": 1.0,
+      "inbound": 32,
+      "composite": 0.75,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-kids-teens",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.5,
+      "clusterw": 1.0,
+      "inbound": 32,
+      "composite": 0.75,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-elderly",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.5,
+      "clusterw": 1.0,
+      "inbound": 31,
+      "composite": 0.749,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-nurses",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.46,
+      "clusterw": 1.0,
+      "inbound": 24,
+      "composite": 0.742,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-seniors",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.57,
+      "clusterw": 0.8,
+      "inbound": 54,
+      "composite": 0.725,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.57,
+      "clusterw": 0.8,
+      "inbound": 54,
+      "composite": 0.725,
+      "priority": "P1"
+    },
+    {
+      "slug": "short-term-memory-slips",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.44,
+      "clusterw": 0.9,
+      "inbound": 20,
+      "composite": 0.717,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-students",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.3,
+      "clusterw": 1.0,
+      "inbound": 7,
+      "composite": 0.709,
+      "priority": "P1"
+    },
+    {
+      "slug": "sleep-deprivation-memory",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.33,
+      "clusterw": 0.9,
+      "inbound": 9,
+      "composite": 0.696,
+      "priority": "P1"
+    },
+    {
+      "slug": "depression-memory-concentration",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.33,
+      "clusterw": 0.9,
+      "inbound": 9,
+      "composite": 0.696,
+      "priority": "P1"
+    },
+    {
+      "slug": "vitamin-deficiency-memory",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.33,
+      "clusterw": 0.9,
+      "inbound": 9,
+      "composite": 0.696,
+      "priority": "P1"
+    },
+    {
+      "slug": "thyroid-memory-symptoms",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.33,
+      "clusterw": 0.9,
+      "inbound": 9,
+      "composite": 0.696,
+      "priority": "P1"
+    },
+    {
+      "slug": "how-to-read-memory-test-results",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.52,
+      "clusterw": 0.7,
+      "inbound": 37,
+      "composite": 0.694,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-bilingual-adults",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 1.0,
+      "inbound": 3,
+      "composite": 0.69,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-music-and-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.37,
+      "clusterw": 0.8,
+      "inbound": 12,
+      "composite": 0.683,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-mci-follow-up",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-depression-brain-fog",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-anxiety-test-anxiety",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-low-literacy-friendly",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-remote-telehealth",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-primary-care",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-occupational-health",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-musicians-memory",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-programmers-focus",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-shift-workers",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "memory-test-for-cardiac-rehab",
+      "cluster": "tests_audience",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 1.0,
+      "inbound": 2,
+      "composite": 0.681,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-working-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.34,
+      "clusterw": 0.8,
+      "inbound": 10,
+      "composite": 0.679,
+      "priority": "P1"
+    },
+    {
+      "slug": "how-to-plan-for-memory-evaluation",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.44,
+      "clusterw": 0.7,
+      "inbound": 20,
+      "composite": 0.677,
+      "priority": "P1"
+    },
+    {
+      "slug": "brain-exercises-for-meal-prep-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.31,
+      "clusterw": 0.8,
+      "inbound": 8,
+      "composite": 0.673,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-public-speaking-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.23,
+      "clusterw": 0.8,
+      "inbound": 4,
+      "composite": 0.656,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-music-practice-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.65,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-volunteering-social-memory",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.65,
+      "priority": "P2"
+    },
+    {
+      "slug": "uti-delirium-seniors",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.65,
+      "priority": "P2"
+    },
+    {
+      "slug": "visual-hallucinations-memory",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.65,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-prepare-for-memory-clinic",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.28,
+      "clusterw": 0.7,
+      "inbound": 6,
+      "composite": 0.646,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-stroke-recovery",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.44,
+      "clusterw": 0.8,
+      "inbound": 20,
+      "composite": 0.637,
+      "priority": "P2"
+    },
+    {
+      "slug": "memory-test-for-hearing-loss-screening",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 1.0,
+      "inbound": 4,
+      "composite": 0.636,
+      "priority": "P2"
+    },
+    {
+      "slug": "memory-test-for-vision-loss-screening",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 1.0,
+      "inbound": 4,
+      "composite": 0.636,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-limit-alcohol-for-memory",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.636,
+      "priority": "P2"
+    },
+    {
+      "slug": "guide-how-to-boost-memory-fast-p2",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.636,
+      "priority": "P2"
+    },
+    {
+      "slug": "memory-test-for-drivers-medical",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 1.0,
+      "inbound": 3,
+      "composite": 0.63,
+      "priority": "P2"
+    },
+    {
+      "slug": "memory-test-for-older-drivers",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 1.0,
+      "inbound": 3,
+      "composite": 0.63,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-test-memory-at-home",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.63,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-hearing-and-memory",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.38,
+      "clusterw": 0.8,
+      "inbound": 13,
+      "composite": 0.625,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-anxiety",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.51,
+      "clusterw": 0.8,
+      "inbound": 34,
+      "composite": 0.622,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-train-auditory-memory",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.621,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-train-visual-memory",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.621,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-stress-relief",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.5,
+      "clusterw": 0.8,
+      "inbound": 31,
+      "composite": 0.619,
+      "priority": "P2"
+    },
+    {
+      "slug": "why-forgetting-things",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.36,
+      "clusterw": 0.9,
+      "inbound": 11,
+      "composite": 0.611,
+      "priority": "P2"
+    },
+    {
+      "slug": "word-finding-problems",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.36,
+      "clusterw": 0.9,
+      "inbound": 11,
+      "composite": 0.611,
+      "priority": "P2"
+    },
+    {
+      "slug": "getting-lost-familiar-places",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.36,
+      "clusterw": 0.9,
+      "inbound": 11,
+      "composite": 0.611,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-stay-socially-connected-aging",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.61,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-organize-digital-files-memory",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.5,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.61,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-driving-safety-cognition",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.609,
+      "priority": "P2"
+    },
+    {
+      "slug": "repeating-questions",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.34,
+      "clusterw": 0.9,
+      "inbound": 10,
+      "composite": 0.609,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-allergy-medication-fog",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.606,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-low-vision-large-print",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 0.8,
+      "inbound": 4,
+      "composite": 0.596,
+      "priority": "P2"
+    },
+    {
+      "slug": "misplacing-objects-daily",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.9,
+      "inbound": 5,
+      "composite": 0.591,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-diabetes-brain-health",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.59,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-medication-review-habits",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.59,
+      "priority": "P2"
+    },
+    {
+      "slug": "hearing-loss-social-withdrawal",
+      "cluster": "symptoms",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.59,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-hearing-aid-adaptation",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.581,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-check-vision-and-cognition-links",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.576,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-ask-for-a-hearing-test",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.576,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-sleep-and-brain",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.571,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-review-medications-with-doctor",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.57,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-choose-hearing-aids-cognition",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.57,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-track-sleep-apnea-signs",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 1.0,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.561,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-social-connection",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-spatial-skills",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "brain-exercises-for-note-taking-skills",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "confusion-with-time",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "mood-changes-thinking",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "stress-burnout-brain-fog",
+      "cluster": "symptoms",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.9,
+      "inbound": 1,
+      "composite": 0.56,
+      "priority": "P2"
+    },
+    {
+      "slug": "how-to-balance-screen-time-brain",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.7,
+      "inbound": 6,
+      "composite": 0.556,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-language-learning",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-reaction-time",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-dual-tasking",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-reading-comprehension",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-sports-strategy-thinking",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-gardening-sequencing",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-home-maintenance-checklists",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-grandparent-play-activities",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-peer-support-groups",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-screen-reader-users",
+      "cluster": "exercises_intent",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.8,
+      "inbound": 2,
+      "composite": 0.551,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-quit-smoking-brain-benefits",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.54,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-break-bad-phone-habits",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.531,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-manage-blood-pressure-brain",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.531,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-eat-mind-diet-basics",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-keep-a-symptom-diary",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-coordinate-family-care",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-practice-gratitude-without-toxic-positivity",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-batch-errands-for-mental-energy",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-handle-correction-after-forgetting",
+      "cluster": "guides",
+      "distinct": 1.0,
+      "entity": 0.2,
+      "authority": 0.1,
+      "clusterw": 0.7,
+      "inbound": 1,
+      "composite": 0.52,
+      "priority": "P3"
+    },
+    {
+      "slug": "signs-of-memory-loss",
+      "cluster": "symptoms",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.45,
+      "clusterw": 0.9,
+      "inbound": 22,
+      "composite": 0.51,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-improve-memory-naturally",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.54,
+      "clusterw": 0.7,
+      "inbound": 42,
+      "composite": 0.488,
+      "priority": "P3"
+    },
+    {
+      "slug": "memory-test-for-attorneys-capacity-edu",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 1.0,
+      "inbound": 3,
+      "composite": 0.48,
+      "priority": "P3"
+    },
+    {
+      "slug": "memory-test-for-athletes-concussion-edu",
+      "cluster": "tests_audience",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 1.0,
+      "inbound": 3,
+      "composite": 0.48,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-talk-to-doctor-memory",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.5,
+      "clusterw": 0.7,
+      "inbound": 31,
+      "composite": 0.479,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-sleep-better-for-memory",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.47,
+      "clusterw": 0.7,
+      "inbound": 26,
+      "composite": 0.474,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-support-spouse-memory-changes",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.45,
+      "clusterw": 0.7,
+      "inbound": 23,
+      "composite": 0.471,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-cooking-safety-memory",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.34,
+      "clusterw": 0.8,
+      "inbound": 10,
+      "composite": 0.469,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-prevent-cognitive-decline",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.44,
+      "clusterw": 0.7,
+      "inbound": 21,
+      "composite": 0.468,
+      "priority": "P3"
+    },
+    {
+      "slug": "sudden-memory-loss",
+      "cluster": "symptoms",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.2,
+      "clusterw": 0.9,
+      "inbound": 3,
+      "composite": 0.46,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-use-external-memory-aids",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.3,
+      "clusterw": 0.7,
+      "inbound": 7,
+      "composite": 0.439,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-use-paper-planners-memory",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.26,
+      "clusterw": 0.7,
+      "inbound": 5,
+      "composite": 0.431,
+      "priority": "P3"
+    },
+    {
+      "slug": "guide-how-to-improve-memory-p0",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.26,
+      "clusterw": 0.7,
+      "inbound": 5,
+      "composite": 0.431,
+      "priority": "P3"
+    },
+    {
+      "slug": "guide-how-to-improve-memory-naturally-p1",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.26,
+      "clusterw": 0.7,
+      "inbound": 5,
+      "composite": 0.431,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-find-reputable-cognitive-resources",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.426,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-pace-cognitive-tasks-daily",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.426,
+      "priority": "P3"
+    },
+    {
+      "slug": "brain-exercises-for-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.55,
+      "clusterw": 0.8,
+      "inbound": 45,
+      "composite": 0.419,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-learn-a-language-memory",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.411,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-support-parent-memory-changes",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.411,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-talk-to-kids-about-grandparent-memory",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.5,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.411,
+      "priority": "P3"
+    },
+    {
+      "slug": "how-to-build-brain-healthy-habits",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.48,
+      "clusterw": 0.7,
+      "inbound": 28,
+      "composite": 0.386,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-exam-prep-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.31,
+      "clusterw": 0.8,
+      "inbound": 8,
+      "composite": 0.373,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-heart-health-cognition",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-mindfulness-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-financial-task-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-travel-planning-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-menopause-brain-fog-edu",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-meditation-breath-focus",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.8,
+      "inbound": 7,
+      "composite": 0.369,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-exercise-for-brain-health",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.39,
+      "clusterw": 0.7,
+      "inbound": 14,
+      "composite": 0.367,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-post-surgery-brain-fog",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.366,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-hydration-cognition",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.366,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-jet-lag-cognition",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.366,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-night-shift-cognition",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.8,
+      "inbound": 6,
+      "composite": 0.366,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-long-covid-brain-fog",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.361,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-chronic-pain-education",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.361,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-post-icu-education",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.361,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-substance-recovery-edu",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.26,
+      "clusterw": 0.8,
+      "inbound": 5,
+      "composite": 0.361,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-reduce-stress-for-focus",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.34,
+      "clusterw": 0.7,
+      "inbound": 10,
+      "composite": 0.359,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-chemo-brain-education",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.23,
+      "clusterw": 0.8,
+      "inbound": 4,
+      "composite": 0.356,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-seasonal-affective-edu",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.23,
+      "clusterw": 0.8,
+      "inbound": 4,
+      "composite": 0.356,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-choose-brain-apps",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.33,
+      "clusterw": 0.7,
+      "inbound": 9,
+      "composite": 0.356,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-walk-daily-for-brain-health",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.31,
+      "clusterw": 0.7,
+      "inbound": 8,
+      "composite": 0.353,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-use-light-for-mood-and-focus",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.31,
+      "clusterw": 0.7,
+      "inbound": 8,
+      "composite": 0.353,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-hand-eye-coordination",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-pet-care-routines",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-chronic-fatigue-pacing",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-arthritis-hand-tasks",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-low-mood-motivation",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "brain-exercises-for-voice-assistant-routines",
+      "cluster": "exercises_intent",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.8,
+      "inbound": 3,
+      "composite": 0.35,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-use-spaced-repetition",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.7,
+      "inbound": 7,
+      "composite": 0.349,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-prioritize-tasks-brain-fog",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.3,
+      "clusterw": 0.7,
+      "inbound": 7,
+      "composite": 0.349,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-use-timers-for-focus-blocks",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.28,
+      "clusterw": 0.7,
+      "inbound": 6,
+      "composite": 0.346,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-use-calendars-with-reminders",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.23,
+      "clusterw": 0.7,
+      "inbound": 4,
+      "composite": 0.336,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-use-mnemonics-safely",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.33,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-ask-for-accommodations-work",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.33,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-set-boundaries-to-reduce-stress",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.33,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-reduce-multitasking-costs",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.33,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-build-a-sleep-wind-down",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.2,
+      "clusterw": 0.7,
+      "inbound": 3,
+      "composite": 0.33,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-remember-names-better",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.321,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-remember-appointments",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.321,
+      "priority": "P4"
+    },
+    {
+      "slug": "how-to-learn-skills-slowly-and-retain",
+      "cluster": "guides",
+      "distinct": 0.3,
+      "entity": 0.2,
+      "authority": 0.16,
+      "clusterw": 0.7,
+      "inbound": 2,
+      "composite": 0.321,
+      "priority": "P4"
+    }
+  ]
+}

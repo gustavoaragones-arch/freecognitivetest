@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22",
+  "generated": "2026-08-12",
   "rows": [
     {
       "en": "/brain-exercises-for-seniors/",
@@ -10,11 +10,6 @@
       "en": "/brain-exercises-for-memory/",
       "es": "/es/ejercicios-cerebrales-memoria/",
       "fr": "/fr/exercices-cerveau-memoire/"
-    },
-    {
-      "en": "/brain-exercises-for-focus/",
-      "es": "/es/ejercicios-cerebrales-concentracion/",
-      "fr": "/fr/exercices-cerveau-concentration/"
     },
     {
       "en": "/brain-exercises-for-anxiety/",
@@ -142,19 +137,9 @@
       "fr": "/fr/exercices-cerveau-conduite-cognition/"
     },
     {
-      "en": "/brain-exercises-for-financial-task-focus/",
-      "es": "/es/ejercicios-cerebrales-tareas-dinero/",
-      "fr": "/fr/exercices-cerveau-taches-argent/"
-    },
-    {
       "en": "/brain-exercises-for-cooking-safety-memory/",
       "es": "/es/ejercicios-cerebrales-cocina-pasos/",
       "fr": "/fr/exercices-cerveau-cuisine-etapes/"
-    },
-    {
-      "en": "/brain-exercises-for-travel-planning-focus/",
-      "es": "/es/ejercicios-cerebrales-viajes-planificacion/",
-      "fr": "/fr/exercices-cerveau-voyages-planification/"
     },
     {
       "en": "/brain-exercises-for-hydration-cognition/",
@@ -200,11 +185,6 @@
       "en": "/brain-exercises-for-jet-lag-cognition/",
       "es": "/es/ejercicios-cerebrales-jet-lag-cognicion/",
       "fr": "/fr/exercices-cerveau-decalage-horaire-cognition/"
-    },
-    {
-      "en": "/brain-exercises-for-exam-prep-focus/",
-      "es": "/es/ejercicios-cerebrales-estudio-bloques-atencion/",
-      "fr": "/fr/exercices-cerveau-revision-blocs-attention/"
     },
     {
       "en": "/brain-exercises-for-public-speaking-memory/",
@@ -602,11 +582,6 @@
       "fr": "/fr/choisir-apps-cerveau/"
     },
     {
-      "en": "/how-to-use-spaced-repetition/",
-      "es": "/es/repeticion-espaciada/",
-      "fr": "/fr/repetition-espacee/"
-    },
-    {
       "en": "/how-to-sleep-better-for-memory/",
       "es": "/es/dormir-mejor-memoria/",
       "fr": "/fr/mieux-dormir-memoire/"
@@ -642,11 +617,6 @@
       "fr": "/fr/preparer-evaluation-memoire/"
     },
     {
-      "en": "/how-to-use-external-memory-aids/",
-      "es": "/es/ayudas-externas-memoria/",
-      "fr": "/fr/aides-externes-memoire/"
-    },
-    {
       "en": "/how-to-balance-screen-time-brain/",
       "es": "/es/pantallas-cognicion/",
       "fr": "/fr/ecrans-cognition/"
@@ -667,11 +637,6 @@
       "fr": "/fr/souvenir-rendez-vous/"
     },
     {
-      "en": "/how-to-use-paper-planners-memory/",
-      "es": "/es/agenda-papel-memoria/",
-      "fr": "/fr/agenda-papier-memoire/"
-    },
-    {
       "en": "/how-to-prioritize-tasks-brain-fog/",
       "es": "/es/priorizar-niebla-mental/",
       "fr": "/fr/prioriser-brouillard/"
@@ -690,11 +655,6 @@
       "en": "/how-to-train-visual-memory/",
       "es": "/es/memoria-visual-entrenar/",
       "fr": "/fr/memoire-visuelle-entrainer/"
-    },
-    {
-      "en": "/how-to-use-mnemonics-safely/",
-      "es": "/es/mnemotecnia-segura/",
-      "fr": "/fr/mnemoniques-prudence/"
     },
     {
       "en": "/how-to-review-medications-with-doctor/",
@@ -757,11 +717,6 @@
       "fr": "/fr/apnee-sommeil-memoire/"
     },
     {
-      "en": "/how-to-use-light-for-mood-and-focus/",
-      "es": "/es/luz-animo-atencion/",
-      "fr": "/fr/lumiere-humeur-attention/"
-    },
-    {
       "en": "/how-to-set-boundaries-to-reduce-stress/",
       "es": "/es/limites-estres-niebla/",
       "fr": "/fr/limites-stress-brouillard/"
@@ -775,11 +730,6 @@
       "en": "/how-to-learn-skills-slowly-and-retain/",
       "es": "/es/aprender-lento-retener/",
       "fr": "/fr/apprendre-lentement-retention/"
-    },
-    {
-      "en": "/how-to-use-calendars-with-reminders/",
-      "es": "/es/calendarios-recordatorios/",
-      "fr": "/fr/calendriers-rappels/"
     },
     {
       "en": "/how-to-organize-digital-files-memory/",
@@ -810,11 +760,6 @@
       "en": "/how-to-pace-cognitive-tasks-daily/",
       "es": "/es/ritmo-tareas-cognitivas/",
       "fr": "/fr/rythme-taches-cognitives/"
-    },
-    {
-      "en": "/how-to-use-timers-for-focus-blocks/",
-      "es": "/es/temporizadores-bloques/",
-      "fr": "/fr/minuteurs-blocs-attention/"
     },
     {
       "en": "/how-to-reduce-multitasking-costs/",

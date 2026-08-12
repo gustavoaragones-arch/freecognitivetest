@@ -51,14 +51,6 @@
     },
     {
       "id": "p002",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "slug": "brain-exercises-for-focus",
-      "url": "https://freecognitivetest.org/brain-exercises-for-focus/"
-    },
-    {
-      "id": "p002",
       "lang": "es",
       "cluster": "exercises_intent",
       "silo": "brain_exercises",
@@ -382,8 +374,8 @@
       "lang": "fr",
       "cluster": "exercises_intent",
       "silo": "brain_exercises",
-      "slug": "exercices-cerveau-coordination-main-œil",
-      "url": "https://freecognitivetest.org/fr/exercices-cerveau-coordination-main-œil/"
+      "slug": "exercices-cerveau-coordination-main-\u0153il",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-coordination-main-\u0153il/"
     },
     {
       "id": "p016",
@@ -675,14 +667,6 @@
     },
     {
       "id": "p028",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "slug": "brain-exercises-for-financial-task-focus",
-      "url": "https://freecognitivetest.org/brain-exercises-for-financial-task-focus/"
-    },
-    {
-      "id": "p028",
       "lang": "es",
       "cluster": "exercises_intent",
       "silo": "brain_exercises",
@@ -720,14 +704,6 @@
       "silo": "brain_exercises",
       "slug": "exercices-cerveau-cuisine-etapes",
       "url": "https://freecognitivetest.org/fr/exercices-cerveau-cuisine-etapes/"
-    },
-    {
-      "id": "p030",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "slug": "brain-exercises-for-travel-planning-focus",
-      "url": "https://freecognitivetest.org/brain-exercises-for-travel-planning-focus/"
     },
     {
       "id": "p030",
@@ -960,14 +936,6 @@
       "silo": "brain_exercises",
       "slug": "exercices-cerveau-decalage-horaire-cognition",
       "url": "https://freecognitivetest.org/fr/exercices-cerveau-decalage-horaire-cognition/"
-    },
-    {
-      "id": "p040",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "slug": "brain-exercises-for-exam-prep-focus",
-      "url": "https://freecognitivetest.org/brain-exercises-for-exam-prep-focus/"
     },
     {
       "id": "p040",
@@ -2883,14 +2851,6 @@
     },
     {
       "id": "p120",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-spaced-repetition",
-      "url": "https://freecognitivetest.org/how-to-use-spaced-repetition/"
-    },
-    {
-      "id": "p120",
       "lang": "es",
       "cluster": "guides",
       "silo": "cognitive_health",
@@ -3075,14 +3035,6 @@
     },
     {
       "id": "p128",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-external-memory-aids",
-      "url": "https://freecognitivetest.org/how-to-use-external-memory-aids/"
-    },
-    {
-      "id": "p128",
       "lang": "es",
       "cluster": "guides",
       "silo": "cognitive_health",
@@ -3195,14 +3147,6 @@
     },
     {
       "id": "p133",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-paper-planners-memory",
-      "url": "https://freecognitivetest.org/how-to-use-paper-planners-memory/"
-    },
-    {
-      "id": "p133",
       "lang": "es",
       "cluster": "guides",
       "silo": "cognitive_health",
@@ -3312,14 +3256,6 @@
       "silo": "cognitive_health",
       "slug": "memoire-visuelle-entrainer",
       "url": "https://freecognitivetest.org/fr/memoire-visuelle-entrainer/"
-    },
-    {
-      "id": "p138",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-mnemonics-safely",
-      "url": "https://freecognitivetest.org/how-to-use-mnemonics-safely/"
     },
     {
       "id": "p138",
@@ -3627,14 +3563,6 @@
     },
     {
       "id": "p151",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-light-for-mood-and-focus",
-      "url": "https://freecognitivetest.org/how-to-use-light-for-mood-and-focus/"
-    },
-    {
-      "id": "p151",
       "lang": "es",
       "cluster": "guides",
       "silo": "cognitive_health",
@@ -3720,14 +3648,6 @@
       "silo": "cognitive_health",
       "slug": "apprendre-lentement-retention",
       "url": "https://freecognitivetest.org/fr/apprendre-lentement-retention/"
-    },
-    {
-      "id": "p155",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-calendars-with-reminders",
-      "url": "https://freecognitivetest.org/how-to-use-calendars-with-reminders/"
     },
     {
       "id": "p155",
@@ -3888,14 +3808,6 @@
       "silo": "cognitive_health",
       "slug": "rythme-taches-cognitives",
       "url": "https://freecognitivetest.org/fr/rythme-taches-cognitives/"
-    },
-    {
-      "id": "p162",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "slug": "how-to-use-timers-for-focus-blocks",
-      "url": "https://freecognitivetest.org/how-to-use-timers-for-focus-blocks/"
     },
     {
       "id": "p162",

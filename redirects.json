@@ -122,5 +122,49 @@
   {
     "from": "/fr/contact.html",
     "to": "/fr/contact/"
+  },
+  {
+    "from": "/how-to-use-calendars-with-reminders/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-external-memory-aids/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-light-for-mood-and-focus/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-mnemonics-safely/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-paper-planners-memory/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-spaced-repetition/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/how-to-use-timers-for-focus-blocks/",
+    "to": "/how-to-use-memory-aids/"
+  },
+  {
+    "from": "/brain-exercises-for-exam-prep-focus/",
+    "to": "/brain-exercises/attention-and-focus/"
+  },
+  {
+    "from": "/brain-exercises-for-financial-task-focus/",
+    "to": "/brain-exercises/attention-and-focus/"
+  },
+  {
+    "from": "/brain-exercises-for-travel-planning-focus/",
+    "to": "/brain-exercises/attention-and-focus/"
+  },
+  {
+    "from": "/brain-exercises-for-focus/",
+    "to": "/brain-exercises/attention-and-focus/"
   }
 ]

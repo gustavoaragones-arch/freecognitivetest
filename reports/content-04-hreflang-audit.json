@@ -1,0 +1,20 @@
+{
+  "phase": "CONTENT-04C",
+  "objective": "Stop the 22 ES/FR sibling pages from advertising hreflang=en to a URL that now 301s",
+  "mechanismModified": [
+    "assets/data/seo-pages-manifest.json (removed 11 EN entries for the redirected slugs; ES/FR entries for the same page IDs retained)",
+    "assets/data/path-mirror-rows.json (regenerated via scripts/build-path-mirror-rows.mjs from the corrected manifest \u2014 170 rows -> 159 rows)"
+  ],
+  "decisionRationale": "Repointing hreflang=en at the new consolidated EN page was considered and rejected: one EN URL cannot correctly declare 7 (or 4) distinct hreflang=es/fr alternates for unrelated ES/FR pages, and validate-arch02.mjs's reciprocity check would have flagged every one of those as non-reciprocal (the new EN page cannot reciprocate to 11 different localized URLs). Since the ES/FR pages' content was not touched in CONTENT-03 (still narrowly scoped to their original topic) there is no genuinely equivalent EN page for them anymore post-consolidation. Removing the stale hreflang=en/x-default-to-EN annotation is the only fix that does not fabricate a false equivalence and does not break reciprocity.",
+  "filesModified": 22,
+  "perFileChange": "Removed <link rel=\"alternate\" hreflang=\"en\" .../>; repointed hreflang=\"x-default\" from the old EN URL to the page's own canonical URL (self-reference). hreflang=\"es\"/\"fr\" reciprocal pair between the two sibling files left untouched and still valid (neither of those pages changed).",
+  "validation": {
+    "hreflangReferencesToRedirectedSources_after": 0,
+    "brokenLocalizedSwitches_after": 0,
+    "reciprocalEsFrRelationships": "preserved for all 11 pairs (unchanged, verified)",
+    "fabricatedLocalizedUrls": 0,
+    "canonicalHreflangConflictsIntroduced": 0,
+    "htmlWellFormedness": "22/22 parse OK"
+  },
+  "archO2Result": "FULL PASS (10/10 checks) after this fix, unchanged from the already-clean state after 04B \u2014 hreflang_issues_audit stayed at 0 throughout (its current design checks alternate-tag presence/reciprocity, not whether a target 301s, so it never flagged this defect; the fix here is a real correction found and verified independent of what this specific automated check happens to catch)."
+}

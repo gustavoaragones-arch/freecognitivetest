@@ -1,0 +1,21 @@
+{
+  "phase": "CONTENT-04E",
+  "objective": "Replace internal links to the 11 redirected URLs where the existing site architecture clearly permits a safe, bounded fix; leave peer cross-links alone to avoid a site-wide rewrite",
+  "scopeDecision": "Fixed only the 5 primary navigation/index hub pages (ai-index.html, programmatic/index.html, brain-exercises/all.html, index.html, en/index.html) \u2014 these are meant to be an accurate site index/hub and are a small, well-defined set. Did NOT touch the ~75 peer programmatic content pages that cross-link to these 11 URLs via their auto-generated \"related articles\" sections, since editing all of them would constitute the explicitly forbidden site-wide link rewrite. Those links still resolve correctly via the verified 0-chain, 0-loop redirects (see content-04-sitemap-audit.json / 04D).",
+  "filesChanged": 5,
+  "changesByFile": {
+    "ai-index.html": 22,
+    "programmatic/index.html": 11,
+    "brain-exercises/all.html": 4,
+    "index.html": 1,
+    "en/index.html": 1
+  },
+  "totalHrefReplacements": 39,
+  "changeType": "href attribute value only \u2014 anchor text and list structure unchanged (multiple list items in ai-index.html/programmatic/index.html now point to the same consolidated URL with different anchor text describing the sub-topic; not deduplicated, since merging/removing list items would be a content-structure change beyond \"replace the internal link with the final destination\")",
+  "validation": {
+    "remainingOldUrlLinksInHubFiles": 0,
+    "htmlWellFormedness": "5/5 parse OK",
+    "remainingOldUrlLinksSitewide": 91,
+    "remainingLinksLocation": "peer programmatic content pages only (not hub/index pages), intentionally unchanged, still functional via verified redirects"
+  }
+}

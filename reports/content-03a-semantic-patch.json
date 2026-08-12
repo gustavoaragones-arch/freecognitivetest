@@ -1,0 +1,45 @@
+{
+  "phase": "CONTENT-03A",
+  "objective": "Apply the CONTENT-02-designed semantic eligibility correction to already-published pages",
+  "sourceFixImplementedIn": [
+    "scripts/lib/sentence-eligibility.mjs",
+    "scripts/generate-programmatic-pages.mjs (pickParagraphs)"
+  ],
+  "method": "Targeted single-sentence string substitution per file (byte-identical elsewhere); no regeneration, no full generator run",
+  "filesExamined": 510,
+  "filesModified": 323,
+  "modificationsByLanguage": {
+    "en": 108,
+    "es": 108,
+    "fr": 107
+  },
+  "modificationsByCluster": {
+    "exercises_intent": 111,
+    "tests_audience": 63,
+    "symptoms": 35,
+    "guides": 114
+  },
+  "modificationsByReason": {
+    "bilingual-specific sentence (body_memory[5]) selected for a non-bilingual-topic page": 297,
+    "ADHD-specific sentence (body_attention[3]) selected for a non-ADHD-topic page": 26
+  },
+  "oldNewSentenceCounts": {
+    "distinctOldSentenceVariants": 323,
+    "distinctNewSentenceVariants": 323
+  },
+  "validation": {
+    "nonAdhdPagesWithAdhdSentence_after": 0,
+    "nonBilingualPagesWithBilingualSentence_after": 0,
+    "adhdPagesRetainAdhdSentenceAccess": true,
+    "bilingualPagesRetainBilingualSentenceAccess": true,
+    "unexpectedCorrectionTypes": 0,
+    "targetFilesMissing": 0,
+    "ambiguousMultiOccurrenceFiles": 0
+  },
+  "collateralChangeResult": {
+    "filesWithByteIdenticalSurroundingContent": 323,
+    "totalFilesModified": 323,
+    "collateralChangesExceedTargetedSubstitutions": false
+  },
+  "decision": "PROCEED to CONTENT-03B (collateral check clean; no STOP condition triggered)"
+}

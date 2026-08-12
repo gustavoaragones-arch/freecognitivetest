@@ -115,7 +115,7 @@
       "Dual-task conditions reveal how attention splits between channels. {topic} is most fair when difficulty ramps gradually rather than jumping to overload.",
       "ADHD-style attention challenges overlap with sleep, mood, and substance use. {topic} should avoid reducing a person to a single score on one webpage task.",
       "Visual scanning exercises train systematic search strategies—top-to-bottom or quadrant sweeps—rather than random eye movements. {topic} can highlight those strategies explicitly.",
-      "Mindfulness drills practice returning attention to a chosen anchor after distraction. {topic} is not religious by default; it is practice of regulation skills."
+      "Mindfulness drills practice returning attention to a chosen anchor after distraction. This is a regulation-skill technique, not a religious practice, and {topic} can use it in any secular or clinical setting."
     ],
     "es": [
       "{topic} trata de mantener el foco cuando todo interrumpe. Bajar notificaciones es intervención cognitiva, no solo hábito de móvil.",
@@ -123,7 +123,7 @@
       "La doble tarea muestra cómo se divide la atención. {topic} es más justo si la dificultad sube poco a poco.",
       "Los retos atencionales tipo TDAH se cruzan con sueño, ánimo y sustancias. {topic} no debe resumir a una persona en una sola puntuación web.",
       "Los ejercicios de escaneo visual enseñan búsqueda sistemática, no ojos al azar. {topic} puede nombrar esas estrategias.",
-      "La atención plena entrena volver a un ancla tras distracción. {topic} no implica credo; son habilidades de regulación."
+      "La atención plena entrena volver a un ancla tras distracción. Esta técnica no implica ningún credo; son habilidades de regulación que {topic} puede aplicar en cualquier contexto."
     ],
     "fr": [
       "{topic} vise à maintenir l’attention quand tout sollicite. Couper les notifications est une intervention cognitive, pas seulement une astuce smartphone.",
@@ -131,7 +131,7 @@
       "Le double tâche montre le partage de l’attention. {topic} est plus équitable si la difficulté monte progressivement.",
       "Les difficultés attentionnelles de type TDAH croisent sommeil, humeur et substances. {topic} ne doit pas réduire quelqu’un à un score web unique.",
       "Les exercices de balayage visuel entraînent une recherche systématique. {topic} peut expliciter ces stratégies.",
-      "La pleine conscience réentraîne le retour à un ancrage après distraction. {topic} n’est pas un credo ; ce sont des compétences de régulation."
+      "La pleine conscience réentraîne le retour à un ancrage après distraction. Cette technique n’est pas un credo ; ce sont des compétences de régulation que {topic} peut appliquer dans n’importe quel contexte."
     ]
   },
   "body_dementia": {

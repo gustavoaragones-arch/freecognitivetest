@@ -1,0 +1,54 @@
+{
+  "phase": "CONTENT-04B",
+  "objective": "Remove the 11 redirected source URLs from sitemap output via the authoritative mechanism (scripts/build-sitemap-index.mjs SITEMAP_EXCLUDE + direct removal from the two static programmatic sitemap files it treats as input)",
+  "mechanismModified": [
+    "scripts/build-sitemap-index.mjs (SITEMAP_EXCLUDE set, +11 entries)"
+  ],
+  "mechanismRun": "node scripts/build-sitemap-index.mjs (safe: reads/writes sitemap-*.xml only, does not touch page HTML, does not run the destructive full generator)",
+  "redirectedSourceUrlsFound": 11,
+  "sourceUrlsRemoved": {
+    "sitemap-programmatic-1.xml": [
+      "/brain-exercises-for-exam-prep-focus/",
+      "/brain-exercises-for-financial-task-focus/",
+      "/brain-exercises-for-focus/",
+      "/brain-exercises-for-travel-planning-focus/"
+    ],
+    "sitemap-programmatic-2.xml": [
+      "/how-to-use-calendars-with-reminders/",
+      "/how-to-use-external-memory-aids/",
+      "/how-to-use-light-for-mood-and-focus/",
+      "/how-to-use-mnemonics-safely/",
+      "/how-to-use-paper-planners-memory/",
+      "/how-to-use-spaced-repetition/",
+      "/how-to-use-timers-for-focus-blocks/"
+    ]
+  },
+  "destinationUrlsRetained": [
+    "/how-to-use-memory-aids/ (added to sitemap-main.xml)",
+    "/brain-exercises/attention-and-focus/ (added to sitemap-main.xml)"
+  ],
+  "unrelatedUrlCount": {
+    "before": 729,
+    "after": 720,
+    "expectedDelta": -9
+  },
+  "duplicateCount": {
+    "before": 0,
+    "after": 0
+  },
+  "xmlValidation": "all 8 child sitemap files + index parse as valid XML (xml.etree.ElementTree)",
+  "filesUnchangedAtUrlSetLevel": [
+    "sitemap-supplemental-en.xml",
+    "sitemap-es.xml",
+    "sitemap-fr.xml",
+    "sitemap-programmatic-es.xml",
+    "sitemap-programmatic-fr.xml"
+  ],
+  "filesChangedAtUrlSetLevel": {
+    "sitemap-main.xml": "+2 (the two new consolidated resources)",
+    "sitemap-programmatic-1.xml": "-4 (redirected focus-cluster URLs)",
+    "sitemap-programmatic-2.xml": "-7 (redirected use-cluster URLs)"
+  },
+  "lastmodChanges": "sitemap-main.xml, sitemap-supplemental-en.xml, sitemap-es.xml, sitemap-fr.xml, sitemap.xml all had lastmod stamped to the run date by the existing generator (uniform re-stamp, not per-URL selective) \u2014 accepted per the explicit instruction to allow lastmod changes where the existing generator necessarily regenerates them. sitemap-programmatic-1/2.xml lastmod values for retained URLs are byte-unchanged (hand-edited removal only, no regeneration of that file).",
+  "result": "PASS \u2014 exactly 11 redirected source URLs removed, exactly 2 destination URLs added, 0 unrelated URLs lost, 0 duplicates introduced, all XML valid"
+}

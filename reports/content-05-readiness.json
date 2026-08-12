@@ -1,0 +1,153 @@
+{
+  "phase": "CONTENT-05",
+  "decision": "NOT_YET_READY",
+  "criticalFinding": "None of CONTENT-01 through CONTENT-04 is deployed to production; all measurements below are the local working-tree state unless marked liveVerified:true",
+  "corpus": {
+    "sharedPoolFamily": {
+      "enPages": 170,
+      "totalPages": 510,
+      "families": {
+        "exercises_intent": 62,
+        "tests_audience": 30,
+        "symptoms": 20,
+        "guides": 58
+      }
+    },
+    "interactiveDrillFamily": {
+      "totalPages": 124,
+      "note": "architecturally distinct, not pool-driven"
+    },
+    "newHandAuthoredResources": 2
+  },
+  "baselineComparison": {
+    "content02": {
+      "A": 0,
+      "B": 91,
+      "C": 79,
+      "D": 0
+    },
+    "content03e": {
+      "A": 5,
+      "B": 86,
+      "C_active": 68,
+      "C_resolved": 11,
+      "D": 0
+    },
+    "content05current": {
+      "A": 5,
+      "B": 86,
+      "C_active": 68,
+      "C_resolved": 11,
+      "D": 0,
+      "reverified": true,
+      "driftFound": false
+    }
+  },
+  "pilotPages": {
+    "count": 5,
+    "pages": {
+      "memory-test-for-caregivers": "ADEQUATE",
+      "memory-test-for-post-stroke": "ADEQUATE",
+      "memory-test-for-parkinsons": "ADEQUATE",
+      "early-signs-of-dementia": "ADEQUATE",
+      "medication-side-effects-memory": "ADEQUATE"
+    },
+    "genuinelyStrongCount": 0,
+    "adequateCount": 5,
+    "stillTemplateDependentCount": 0,
+    "liveVerified": false,
+    "multilingualParityGap": "ES/FR siblings do not have the new unique content (EN-only scope, disclosed in CONTENT-03C)"
+  },
+  "consolidations": {
+    "how-to-use-memory-aids": {
+      "rating": "STRONG",
+      "wordCount": 1255,
+      "templateArtifacts": 0
+    },
+    "brain-exercises/attention-and-focus": {
+      "rating": "STRONG",
+      "wordCount": 981,
+      "templateArtifacts": 0
+    },
+    "liveVerified": false
+  },
+  "remainingB": {
+    "B1": 66,
+    "B2": 20,
+    "B3": 0,
+    "total": 86
+  },
+  "remainingC": {
+    "activePages": 68,
+    "namedClusters": 41,
+    "clearConsolidation": 2,
+    "possibleConsolidation": 45,
+    "legitimateDistinct": 14,
+    "unclassifiedRemainder": 7
+  },
+  "remainingD": {
+    "count": 0,
+    "pages": []
+  },
+  "technicalHealth": {
+    "brokenLinksLive": 4,
+    "brokenLinksLocal": 0,
+    "toolFunctionality": "UNTESTABLE (no browser automation available this session)",
+    "mobileUi": "UNTESTABLE (no browser automation available this session)"
+  },
+  "multilingualHealth": {
+    "fabricatedUrls": 0,
+    "confirmedDefects": [
+      "5 pilot pages EN-only unique content, ES/FR siblings still fully generic"
+    ],
+    "intentionalEnPrimary": [
+      "2 new consolidated resources have no ES/FR versions (by design)"
+    ]
+  },
+  "toolHealth": {
+    "status": "UNTESTABLE",
+    "reason": "no browser automation tool available in this session; static asset/syntax checks only, unchanged since ADS-02 since no tool JS was touched by any CONTENT-0X phase"
+  },
+  "adsTxt": {
+    "httpStatus": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "redirects": 0,
+    "record": "google.com, pub-3974004697476579, DIRECT, f08c47fec0942fa0",
+    "correct": true,
+    "liveVerified": true
+  },
+  "arch02": {
+    "local": "PASS",
+    "checksPass": 10,
+    "checksTotal": 10,
+    "live": "NOT_CURRENT (production reflects pre-CONTENT-04 state)"
+  },
+  "auth01": {
+    "local": "PASS",
+    "live": "PASS (unaffected by this work either way)"
+  },
+  "content02Gate": {
+    "result": "PASS",
+    "newSeedRows": 0
+  },
+  "semanticEligibility": {
+    "local": "0/510",
+    "live": "VIOLATIONS PRESENT (fix not deployed)"
+  },
+  "remainingBlockers": [
+    "P0: CONTENT-01 through CONTENT-04 have not been deployed; production is unchanged from before ADS-02",
+    "P0: 4 broken ES/FR links are live in production right now",
+    "P1: 66 B1 pages remain unremediated beyond the 5-page pilot",
+    "P1: 68 C-cluster pages remain unconsolidated beyond the 2-cluster pilot",
+    "P1: 5 pilot pages' ES/FR siblings lack the new unique content"
+  ],
+  "recommendations": [
+    "Deploy the current local working tree before any further work",
+    "Re-run this entire assessment against live production after deployment",
+    "Scale the editorial pilot from 5 to a meaningfully larger B1 subset",
+    "Execute the guides/sleep clear-consolidation cluster and evaluate the 45 possible-consolidation clusters",
+    "Extend pilot-page unique content to ES/FR",
+    "Obtain real GSC data if available",
+    "Perform actual browser-based tool and mobile testing when tooling is available"
+  ]
+}

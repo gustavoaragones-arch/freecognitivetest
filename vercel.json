@@ -154,6 +154,61 @@
       "source": "/fr/contact.html",
       "destination": "/fr/contact/",
       "permanent": true
+    },
+    {
+      "source": "/how-to-use-calendars-with-reminders/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-external-memory-aids/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-light-for-mood-and-focus/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-mnemonics-safely/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-paper-planners-memory/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-spaced-repetition/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-timers-for-focus-blocks/",
+      "destination": "/how-to-use-memory-aids/",
+      "permanent": true
+    },
+    {
+      "source": "/brain-exercises-for-exam-prep-focus/",
+      "destination": "/brain-exercises/attention-and-focus/",
+      "permanent": true
+    },
+    {
+      "source": "/brain-exercises-for-financial-task-focus/",
+      "destination": "/brain-exercises/attention-and-focus/",
+      "permanent": true
+    },
+    {
+      "source": "/brain-exercises-for-travel-planning-focus/",
+      "destination": "/brain-exercises/attention-and-focus/",
+      "permanent": true
+    },
+    {
+      "source": "/brain-exercises-for-focus/",
+      "destination": "/brain-exercises/attention-and-focus/",
+      "permanent": true
     }
   ]
 }

@@ -82,14 +82,6 @@ export const STATIC_HUB_MAP = {
     es: "/es/tests/trail-making-test.html",
     fr: "/fr/tests/trail-making-test.html",
   },
-  "/tests/visual-memory-test.html": {
-    es: "/es/tests/visual-memory-test.html",
-    fr: "/fr/tests/visual-memory-test.html",
-  },
-  "/tests/cognitive-health-self-assessment.html": {
-    es: "/es/tests/cognitive-health-self-assessment.html",
-    fr: "/fr/tests/cognitive-health-self-assessment.html",
-  },
   "/cognitive-tests/": { es: "/es/pruebas-memoria/", fr: "/fr/tests-memoire/" },
   "/cognitive-tests": { es: "/es/pruebas-memoria/", fr: "/fr/tests-memoire/" },
   "/methodology/": { es: "/es/metodologia/", fr: "/fr/methodologie/" },

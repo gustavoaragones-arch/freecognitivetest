@@ -1,0 +1,158 @@
+{
+  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions.",
+  "memory-test-for-caregivers": {
+    "sectionHeading": "Guidance specific to family caregivers",
+    "uniqueStatements": [
+      "Family caregivers often notice changes in a loved one before those changes are obvious during a short clinical visit, because caregivers see the person across many contexts and over time — that observation is valuable, but it is more useful to a clinician when organized into specific, dated examples rather than a general impression.",
+      "Caregiving itself is associated with chronic stress and disrupted sleep, both of which can independently affect the caregiver's own attention and memory — separate from anything happening with the person they care for.",
+      "A home screening demo can be a useful conversation-starter, but it is not equivalent to the structured, normed assessments a clinician uses; specific, dated observations tend to be more useful to a doctor than either a home score or a general sense that 'something is off.'"
+    ],
+    "uniqueBlocks": [
+      {
+        "heading": "What to track before a clinical visit",
+        "body": "Note what changed, when it started, how often it happens, and whether it affects daily tasks like finances, medication management, or driving. Also note whether the person themselves is aware of the change — that detail is itself informative."
+      },
+      {
+        "heading": "Protecting your own cognitive health while caregiving",
+        "body": "Chronic stress and lost sleep from caregiving can affect your own memory and attention. If your own forgetfulness is new, worsening, or affecting your daily functioning, it deserves its own evaluation rather than being assumed to be 'just stress.'"
+      }
+    ],
+    "examples": [
+      "A caregiver notices their parent has paid the same bill twice over two months. That is the kind of specific, dated detail worth writing down and bringing to an appointment, rather than a general statement that 'memory is getting worse.'"
+    ],
+    "topicFaqs": [
+      {
+        "q": "My parent's home screening result seemed fine, but I'm still worried — should I say something?",
+        "a": "Yes. A typical result on a home screening demo does not rule out an early or fluctuating change, and caregiver-reported concern is itself a meaningful signal worth raising with a doctor — described in terms of specific incidents rather than the score."
+      },
+      {
+        "q": "Is it normal for me to feel forgetful too, since I'm the one caregiving?",
+        "a": "Chronic stress, disrupted sleep, and caregiving load can affect attention and memory in the caregiver as well. If it is new or worsening, it deserves its own evaluation rather than being assumed to be only stress."
+      }
+    ]
+  },
+  "memory-test-for-post-stroke": {
+    "sectionHeading": "What's different about cognitive change after stroke",
+    "uniqueStatements": [
+      "Cognitive effects after stroke often follow a different pattern than typical age-related memory concerns: attention, processing speed, and executive function (planning, multi-step tasks) are frequently affected more than pure word-recall memory, and the specific pattern often relates to which part of the brain was affected.",
+      "Many people see meaningful improvement in cognitive symptoms in the weeks and months after a stroke as the brain recovers — this is different from a progressive condition, which is why clinicians often wait for a defined interval and re-test rather than treating an early post-stroke result as a fixed baseline.",
+      "Fatigue is extremely common after stroke and can make any kind of cognitive task look harder than a person's underlying ability on a well-rested day, so results are more informative when fatigue at the time of testing is also noted."
+    ],
+    "uniqueBlocks": [
+      {
+        "heading": "Why the pattern of change matters",
+        "body": "Post-stroke cognitive changes often affect attention, processing speed, and executive function more than pure recall memory, and the pattern depends on which brain area was affected. That is different from the word-finding-first pattern often described for other memory concerns."
+      },
+      {
+        "heading": "Working with a rehabilitation team",
+        "body": "Occupational therapy and speech-language pathology commonly address cognitive-communication changes after stroke. Formal neuropsychological testing — distinct from a home screening demo — is typically what guides decisions like returning to driving or work."
+      }
+    ],
+    "examples": [
+      "A person who can recall a short word list normally but struggles to follow a multi-step recipe or manage a checkbook after stroke — illustrating that recall-style tasks alone can miss executive-function changes that matter most for daily independence."
+    ],
+    "topicFaqs": [
+      {
+        "q": "How soon after a stroke should cognitive changes be checked?",
+        "a": "Timing is a clinical decision. Many rehabilitation teams assess early and re-check at defined intervals, since natural recovery is common in the following weeks to months. A home screening tool is not a substitute for that structured follow-up."
+      },
+      {
+        "q": "Why does memory seem fine but daily tasks feel much harder after a stroke?",
+        "a": "This is common. Post-stroke changes often affect attention, processing speed, or executive function more than word-recall memory, so simple recall tasks can look normal while multi-step daily tasks feel much harder."
+      }
+    ]
+  },
+  "memory-test-for-parkinsons": {
+    "sectionHeading": "How Parkinson's-related cognitive change can differ from other memory concerns",
+    "uniqueStatements": [
+      "Cognitive changes associated with Parkinson's often follow a different early pattern than Alzheimer's-type memory loss: slowed processing speed and difficulty planning or switching between tasks are typically more prominent early on than word-finding or naming problems.",
+      "Motor symptoms common in Parkinson's — tremor, slowed movement, smaller handwriting — can make timed or written tasks, including some screening exercises, look worse than a person's actual thinking ability, because the task is measuring motor speed as much as cognition.",
+      "Mood changes, particularly depression and apathy, are common in Parkinson's and can independently affect concentration and motivation during any kind of testing, which is why clinicians typically consider mood alongside cognitive symptoms rather than in isolation."
+    ],
+    "uniqueBlocks": [
+      {
+        "heading": "A different early pattern",
+        "body": "Where Parkinson's-related cognitive change occurs, it often shows up first as slowed processing speed and difficulty with planning or switching tasks, rather than the word-finding and naming difficulty more typical of other memory concerns."
+      },
+      {
+        "heading": "Separating motor symptoms from cognitive ones",
+        "body": "Timed, written, or click-based tasks — including the demos on this site — can be slowed by tremor or reduced movement speed rather than by thinking difficulty. That distinction is worth mentioning to whoever is interpreting any result."
+      }
+    ],
+    "examples": [
+      "Someone with Parkinson's who takes noticeably longer to finish a timed matching exercise not because they can't work out the answer, but because tremor and slowed movement make clicking or writing quickly harder — a motor effect, not necessarily a cognitive one."
+    ],
+    "topicFaqs": [
+      {
+        "q": "Does Parkinson's always cause memory loss?",
+        "a": "Not necessarily. When cognitive changes do occur, they often affect processing speed and planning more than pure memory, and the pattern and timeline vary widely between people — individualized clinical evaluation matters more than a general screening score."
+      },
+      {
+        "q": "Why did a timed test feel hard even though I knew the answers?",
+        "a": "Motor symptoms common in Parkinson's, like tremor or slowed movement, can slow performance on timed or written tasks independent of thinking ability — worth mentioning to whoever is interpreting any test result, including a home screening demo."
+      }
+    ]
+  },
+  "early-signs-of-dementia": {
+    "sectionHeading": "Patterns worth paying attention to",
+    "uniqueStatements": [
+      "A useful general distinction is between occasionally misplacing an item and later retracing steps to find it, versus placing an item somewhere illogical and being unable to retrace how it got there — the pattern of the lapse, not just its existence, is what tends to draw clinical attention.",
+      "Difficulty with a complex, multi-step task the person has done for years — managing a checkbook, following a familiar recipe, navigating a regular route — tends to be a more informative signal than a single forgotten name or word, because it reflects change in a skill that was previously automatic.",
+      "Whether the person themselves is aware of and concerned about the changes, versus family noticing changes the person doesn't recognize, is itself a clinically relevant detail worth mentioning to a doctor, not a side note to leave out."
+    ],
+    "uniqueBlocks": [
+      {
+        "heading": "Patterns clinicians pay attention to",
+        "body": "Frequency and trajectory (occasional vs. increasing), impact on previously-automatic tasks, and whether the person is aware of the change are all part of the picture — not any single incident in isolation."
+      },
+      {
+        "heading": "What to bring to a first conversation with a doctor",
+        "body": "Specific, dated examples; a current medication list, since some medications can affect cognition; and any recent changes in mood, sleep, hearing, or vision that could be contributing factors."
+      }
+    ],
+    "examples": [
+      "Forgetting where you parked at a large, unfamiliar mall versus getting lost driving a route you've driven for twenty years — both involve confusion, but they represent very different patterns worth distinguishing when deciding whether to seek evaluation."
+    ],
+    "topicFaqs": [
+      {
+        "q": "Is it normal to forget words sometimes as you get older?",
+        "a": "Occasional word-finding pauses are common with typical aging. A change in a previously routine, multi-step task — like managing finances or a familiar recipe — tends to prompt more attention than an isolated forgotten word."
+      },
+      {
+        "q": "Should I mention it if I'm the only one who's noticed the change, not the person themselves?",
+        "a": "Yes. Whether the person is aware of the change is itself useful clinical information, and family observations over time are often more informative to a doctor than a single office visit."
+      }
+    ]
+  },
+  "medication-side-effects-memory": {
+    "sectionHeading": "A practical approach to medication and memory",
+    "uniqueStatements": [
+      "Several medication classes are commonly discussed in relation to memory or 'brain fog' type side effects, including some allergy and sleep medications, certain anti-anxiety medications, and some pain medications — the mechanism and likelihood vary widely by specific drug and dose, which is why a pharmacist or prescriber, not a general list, is the right source for an individual situation.",
+      "Side effects can appear gradually after starting a new medication or a dose change, which makes them easy to misattribute to 'just getting older' rather than connect back to the medication.",
+      "Interactions between multiple medications, not just any single medication alone, are a common and under-recognized contributor to cognitive side effects — especially when different providers each manage part of a person's prescriptions without seeing the full list."
+    ],
+    "uniqueBlocks": [
+      {
+        "heading": "A practical habit: track start dates",
+        "body": "Keep a simple note of when each medication or dose change started, so a new cognitive symptom can be checked against the timeline rather than assumed to be unrelated."
+      },
+      {
+        "heading": "Why a full medication review matters",
+        "body": "Bring the entire current medication and supplement list — not just prescriptions — to a review. Interactions and cumulative effects are common and are not always visible to any single prescriber."
+      }
+    ],
+    "examples": [
+      "Someone who started a new over-the-counter sleep aid and noticed more daytime grogginess and word-finding trouble a few weeks later — a pattern worth raising with a pharmacist rather than assuming it's unrelated because it came from a pharmacy shelf."
+    ],
+    "topicFaqs": [
+      {
+        "q": "Should I stop a medication if I think it's affecting my memory?",
+        "a": "Do not stop or change a prescribed medication without talking to the prescriber first. Some medications require gradual tapering, and a pharmacist or doctor can assess whether the timing genuinely fits and suggest alternatives if needed."
+      },
+      {
+        "q": "Can over-the-counter medications cause memory problems too?",
+        "a": "Yes. Some common over-the-counter sleep aids and allergy medications have properties associated with cognitive side effects in some people, which is why a full medication review should include over-the-counter products and supplements, not just prescriptions."
+      }
+    ]
+  }
+}
