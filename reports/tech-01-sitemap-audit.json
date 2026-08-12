@@ -1,0 +1,91 @@
+{
+  "phase": "TECH-01",
+  "knownDuplicate": {
+    "url": "/fr/exercices-cerveau-coordination-main-œil/",
+    "before": {
+      "sitemap-programmatic-fr.xml": 1,
+      "sitemap-fr.xml": 1,
+      "totalOccurrences": 2
+    },
+    "after": {
+      "sitemap-programmatic-fr.xml": 1,
+      "sitemap-fr.xml": 0,
+      "totalOccurrences": 1
+    }
+  },
+  "rootCause": {
+    "class": "percent-encoding vs raw-literal Unicode key mismatch",
+    "file": "scripts/build-sitemap-index.mjs",
+    "functions": [
+      "parseLocs",
+      "norm"
+    ],
+    "mechanism": "new URL().pathname percent-encodes non-ASCII characters when parsing sitemap <loc> XML; walkHtml()/fileToPath() derive paths from raw filesystem directory names (never percent-encoded); norm() did not reconcile the two representations, so the same real page produced two different Map keys and was claimed twice",
+    "confirmedNotDataIssue": true,
+    "confirmedByDirectInstrumentation": true
+  },
+  "local": {
+    "duplicateCountBefore": 1,
+    "duplicateCountAfter": 0,
+    "urlsRemoved": [
+      "https://freecognitivetest.org/fr/exercices-cerveau-coordination-main-œil/"
+    ],
+    "urlsAdded": [],
+    "urlsMoved": [],
+    "totalEntriesBefore": 721,
+    "totalEntriesAfter": 720,
+    "xmlValid": true,
+    "content04ExclusionsIntact": true
+  },
+  "production": {
+    "verified": true,
+    "duplicateCount": 1,
+    "knownDuplicatePresent": true,
+    "note": "Live production reflects the pre-fix state because this phase did not deploy, per explicit instruction. A deployment is required to make this fix live."
+  },
+  "validatorCoverage": {
+    "issueFound": true,
+    "cause": "B_and_D",
+    "explanation": "scripts/validate-arch02.mjs's sitemap_duplicate_urls counted occurrences by iterating a Set (mathematically guaranteed 0 duplicates by construction, regardless of actual data); scripts/build-sitemap-index.mjs's own internal dup-check had the identical bug using a Map. Both were non-functional, not merely weak. The percent-encoding/NFC mismatch (root cause) would have evaded even a correctly-counted raw-array check, so both the counting-logic fix and the encoding-normalization fix were independently necessary.",
+    "resolution": "RESOLVED",
+    "existingChecksPreserved": true,
+    "falsePositiveRisk": "None — decoding/NFC-normalizing before comparison only merges strings representing the same real URL"
+  },
+  "arch02": {
+    "result": "PASS",
+    "checksPass": 10,
+    "checksTotal": 10,
+    "sitemapDuplicateUrlsCheck": {
+      "value": 0,
+      "nowFunctional": true
+    }
+  },
+  "auth01": {
+    "result": "PASS"
+  },
+  "content02Gate": {
+    "result": "PASS",
+    "newSeedRows": 0
+  },
+  "regression": {
+    "semanticEligibilityViolations": 0,
+    "semanticEligibilityTotal": 510,
+    "canonicalTagsAltered": 0,
+    "hreflangAltered": 0,
+    "redirectsAltered": 0,
+    "contentPagesAltered": 0,
+    "programmaticSeedsAltered": false,
+    "frozenManifestAltered": false,
+    "robotsTxtAltered": false,
+    "pilotPagesAltered": false,
+    "consolidatedResourcesAltered": false
+  },
+  "filesModified": [
+    "scripts/build-sitemap-index.mjs",
+    "scripts/validate-arch02.mjs",
+    "sitemap-fr.xml",
+    "reports/content-02-gate-results.json"
+  ],
+  "deploymentPerformed": false,
+  "commitCreated": false
+}

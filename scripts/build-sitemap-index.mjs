@@ -75,18 +75,30 @@ const SITEMAP_EXCLUDE_PREFIXES = [
   "/_generated/",
 ];
 
+/** TECH-01: NFC-normalize so visually-identical but differently-composed
+ * Unicode sequences (e.g. a precomposed "é" vs "e" + combining acute) key
+ * the same in the ownership map. */
 function norm(path) {
   if (!path || path === "/") return "/";
-  let p = path;
+  let p = path.normalize("NFC");
   if (p !== "/" && !p.endsWith(".html") && !p.endsWith("/")) p += "/";
   return p;
 }
 
+/**
+ * TECH-01: return decoded (literal Unicode) pathnames, not the percent-encoded
+ * form `new URL().pathname` produces. Sitemap <loc> entries in this repo are
+ * written with literal UTF-8 (e.g. "œ"), matching what walkHtml() derives
+ * from the filesystem — decoding here keeps both sources on the same key
+ * representation so ownership dedup (claim()) can't miss a match and
+ * double-claim a non-ASCII-slug page. See reports/tech-01-sitemap-audit.md.
+ */
 function parseLocs(file) {
   const text = readFileSync(join(ROOT, file), "utf8");
   return [...text.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => {
     try {
-      return new URL(m[1]).pathname;
+      const pathname = new URL(m[1]).pathname;
+      return decodeURIComponent(pathname);
     } catch {
       return m[1];
     }
@@ -218,13 +230,33 @@ function main() {
   ];
   writeFileSync(join(ROOT, "sitemap.xml"), sitemapIndex(indexChildren));
 
-  const all = [...assigned.keys()];
-  const dupCheck = new Map();
-  for (const [p, o] of assigned) {
-    if (!dupCheck.has(p)) dupCheck.set(p, o);
+  // TECH-01: genuine post-write cross-file duplicate check. The previous
+  // version of this block counted uniqueness of `assigned`'s own Map keys,
+  // which is guaranteed by JS (a Map cannot hold two entries under the same
+  // key) — it could never actually detect a duplicate, including the one
+  // this phase found (assigned.keys() had two *different* keys for the same
+  // real URL: one percent-encoded, one raw-literal, so it never collided in
+  // the map to begin with). This reads back what was actually written and
+  // checks the real output, using the same decoded+NFC-normalized keying as
+  // parseLocs()/norm() so an encoding mismatch can't hide a duplicate again.
+  const writtenFiles = indexChildren.map((c) => c.file);
+  const finalCounts = new Map();
+  for (const f of writtenFiles) {
+    for (const p of parseLocs(f)) {
+      const key = norm(p);
+      finalCounts.set(key, (finalCounts.get(key) || 0) + 1);
+    }
   }
+  const finalDupes = [...finalCounts.entries()].filter(([, c]) => c > 1);
+  const all = [...assigned.keys()];
   console.log(`Sitemap index: ${indexChildren.length} children, ${all.length} unique URLs`);
   console.log("Removed sitemap-en.xml from index (was duplicate source)");
+  if (finalDupes.length > 0) {
+    console.warn(`WARNING: ${finalDupes.length} duplicate URL(s) found across written sitemap files:`);
+    for (const [url, count] of finalDupes) console.warn(`  ${url} (x${count})`);
+  } else {
+    console.log("Duplicate check: 0 duplicates across all 8 written sitemap files.");
+  }
 }
 
 main();

@@ -1,0 +1,111 @@
+{
+  "phase": "DEPLOYMENT-01",
+  "deployment": {
+    "commit": "c6deaa3",
+    "parentCommit": "3f5d84b",
+    "branch": "main",
+    "pushed": true,
+    "mechanism": "existing git-integrated Cloudflare Pages deploy, no new mechanism introduced",
+    "filesInCommit": 406,
+    "unrelatedFilesExcluded": [
+      ".DS_Store",
+      "assets/.DS_Store",
+      "assets/css/.DS_Store",
+      ".claude/"
+    ]
+  },
+  "adsTxt": {
+    "httpStatus": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "redirects": 0,
+    "body": "google.com, pub-3974004697476579, DIRECT, f08c47fec0942fa0",
+    "correct": true
+  },
+  "content01Live": {
+    "religiousArtifactPresent": false,
+    "adhdSentenceOnNonAdhdPages": 0,
+    "bilingualSentenceOnNonBilingualPages": 0,
+    "pass": true
+  },
+  "brokenLinks": {
+    "originalFourUrlsStillReturn404": true,
+    "expectedBehavior": "These 4 URLs were fabricated and were never meant to resolve; the actual fix (source pages relinked to real EN fallback pages) is confirmed live and correct",
+    "sourcePagesFixedLive": 3,
+    "fallbackTargetsLive200": true,
+    "note": "DEPLOYMENT-01 brief's literal Part 6 expectation (No 404 for these 4 URLs) does not match what CONTENT-01 actually built; clarified in the markdown report"
+  },
+  "pilotPages": {
+    "total": 5,
+    "liveWithUniqueContent": 5,
+    "pages": [
+      "memory-test-for-caregivers",
+      "memory-test-for-post-stroke",
+      "memory-test-for-parkinsons",
+      "early-signs-of-dementia",
+      "medication-side-effects-memory"
+    ]
+  },
+  "consolidations": {
+    "how-to-use-memory-aids": {
+      "httpStatus": 200,
+      "canonicalCorrect": true,
+      "noindex": false
+    },
+    "brain-exercises/attention-and-focus": {
+      "httpStatus": 200,
+      "canonicalCorrect": true,
+      "noindex": false
+    }
+  },
+  "redirects": {
+    "total": 11,
+    "verifiedLive": 11,
+    "chains": 0,
+    "loops": 0
+  },
+  "sitemap": {
+    "liveLastmod": "2026-08-12",
+    "previousLiveLastmod": "2026-05-22",
+    "totalUniqueUrlsLive": 720,
+    "previousTotalLive": 729,
+    "redirectedSourceUrlsRemainingLive": 0,
+    "newResourceUrlsPresentLive": 2,
+    "preExistingDuplicateFound": {
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-coordination-main-\u0153il/",
+      "confirmedPreExisting": true,
+      "introducedByThisDeployment": false
+    }
+  },
+  "hreflang": {
+    "referencesToRedirectedSourcesLive": 0,
+    "siblingPagesChecked": 11
+  },
+  "arch02": {
+    "result": "PASS",
+    "checksPass": 10,
+    "checksTotal": 10
+  },
+  "auth01": {
+    "result": "PASS",
+    "pagesSpotChecked": 5
+  },
+  "contentO2Gate": {
+    "result": "PASS",
+    "newSeedRows": 0
+  },
+  "semanticEligibility": {
+    "violationsLocal": 0,
+    "violationsLive": 0,
+    "total": 510
+  },
+  "regression": {
+    "urlsChecked": 11,
+    "allReturn200OrCorrectRedirect": true,
+    "unexpectedRedirects": 0,
+    "unexpected5xx": 0,
+    "htmlWherePlainTextExpected": false
+  },
+  "content06WorkPerformed": false,
+  "unrelatedChangesDeployed": false,
+  "nextPhaseEligible": true
+}

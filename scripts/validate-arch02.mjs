@@ -27,17 +27,27 @@ function walkHtml(dir, base = "", out = []) {
   return out;
 }
 
+/**
+ * TECH-01: decode percent-encoding and NFC-normalize each path. Sitemap <loc>
+ * entries in this repo are written with literal UTF-8 (e.g. "œ"); without
+ * decoding, `new URL().pathname` re-encodes non-ASCII characters, so the same
+ * real URL can produce two different strings depending on how it was
+ * written — masking true duplicates from any check built on top of this
+ * list. See reports/tech-01-sitemap-audit.md.
+ */
 function parseSitemapPaths() {
   const paths = [];
   for (const name of readdirSync(ROOT)) {
     if (!name.startsWith("sitemap") || !name.endsWith(".xml")) continue;
     const text = readFileSync(join(ROOT, name), "utf8");
     for (const m of text.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+      let p;
       try {
-        paths.push(new URL(m[1]).pathname);
+        p = decodeURIComponent(new URL(m[1]).pathname);
       } catch {
-        paths.push(m[1]);
+        p = m[1];
       }
+      paths.push(p.normalize("NFC"));
     }
   }
   return paths;
@@ -147,11 +157,16 @@ for (const p of legacyHubs) {
   }
 }
 
+// TECH-01: count occurrences from the raw (pre-dedup) path list, not from
+// `sitemapPaths` — that's a Set, so iterating it can never find a duplicate
+// (every value appears exactly once by definition). This was a no-op check
+// before the fix; see reports/tech-01-sitemap-audit.md.
 const dupSitemap = new Map();
-for (const p of sitemapPaths) {
+for (const p of parseSitemapPaths()) {
   dupSitemap.set(p, (dupSitemap.get(p) || 0) + 1);
 }
-const sitemapDupes = [...dupSitemap.entries()].filter(([, c]) => c > 1).length;
+const sitemapDupeEntries = [...dupSitemap.entries()].filter(([, c]) => c > 1);
+const sitemapDupes = sitemapDupeEntries.length;
 
 const linkRe = /<a\s+[^>]*href="(\/[^"#]+)"/gi;
 const adj = new Map();
