@@ -1,0 +1,8 @@
+{
+  "validator": "cross_language_leakage",
+  "pages_checked": 406,
+  "prohibited_literals_checked": 5,
+  "leakage_failures": 0,
+  "leakage_failure_paths": [],
+  "details": []
+}

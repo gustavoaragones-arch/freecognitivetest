@@ -1,7 +1,68 @@
 /**
  * AUTH-01 Parts 7–8: last-reviewed, dateModified, quick-answer blocks.
  */
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
 import { QUICK_ANSWER, QUICK_ANSWER_LABEL } from "./silos.mjs";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, "..", "..");
+
+/**
+ * CONTENT-07 Part 2: authoritative "is this a guide page" signal.
+ *
+ * The prior detection relied entirely on regexes matching an English/Spanish
+ * "how-to-"/"cómo " prefix convention (on the file path, and separately on
+ * the H1 text). French guide titles are naturally phrased as statements
+ * ("Améliorer la mémoire naturellement") rather than questions ("Comment
+ * améliorer..."), so neither regex reliably matched French pages — only 8 of
+ * 58 FR guide pages happened to match by coincidence, leaving 50 falling
+ * through to a generic, topic-unrelated quick-answer. Cluster membership in
+ * assets/data/seo-pages-manifest.json is language-independent and exact, so
+ * it replaces the language-specific string heuristics as the primary signal.
+ * The old regexes are kept as a secondary OR-fallback for any hand-authored
+ * page that predates or falls outside the manifest.
+ */
+let _manifestClusterCache = null;
+function loadManifestClusterMap() {
+  if (_manifestClusterCache) return _manifestClusterCache;
+  const map = new Map();
+  try {
+    const manifest = JSON.parse(readFileSync(join(ROOT, "assets/data/seo-pages-manifest.json"), "utf8"));
+    for (const p of manifest.pages || []) {
+      map.set(`${p.lang}:${p.slug}`, p.cluster);
+    }
+  } catch {
+    /* manifest unavailable — isGuidePage() falls back to the legacy regex only */
+  }
+  _manifestClusterCache = map;
+  return map;
+}
+
+function relToLangSlug(rel) {
+  const localized = rel.match(/^(es|fr)\/([^/]+)\/index\.html$/);
+  if (localized) return { lang: localized[1], slug: localized[2] };
+  const en = rel.match(/^([^/]+)\/index\.html$/);
+  if (en) return { lang: "en", slug: en[1] };
+  return null;
+}
+
+const LEGACY_GUIDE_REL_RE = /^how-to-|^guide-|^es\/como-|^fr\/(comment-|tester-|guide-)/;
+
+export function isGuidePage(rel) {
+  const ls = relToLangSlug(rel);
+  if (ls && loadManifestClusterMap().get(`${ls.lang}:${ls.slug}`) === "guides") return true;
+  return LEGACY_GUIDE_REL_RE.test(rel);
+}
+
+/** CONTENT-07 Part 3: the "learning only" fallback suffix, localized. Fixed,
+ * source-controlled wording — not runtime-translated. */
+export const LEARNING_ONLY_SUFFIX = {
+  en: "Content is for learning only—not emergency or diagnostic care.",
+  es: "El contenido es solo para aprendizaje; no ofrece atención de emergencia ni atención diagnóstica.",
+  fr: "Le contenu est destiné uniquement à l’apprentissage ; il ne fournit ni soins d’urgence ni soins diagnostiques.",
+};
 
 export const LAST_REVIEWED_ISO = "2026-05-01";
 export const LAST_REVIEWED_LABEL = {
@@ -69,11 +130,14 @@ export function cleanH1(raw) {
 export function buildQuickAnswer({ lang, h1, silo, existing, rel = "" }) {
   const base = EXPANDED_QUICK_ANSWER[silo]?.[lang] || QUICK_ANSWER[silo]?.[lang] || existing || "";
   const topic = cleanH1(h1);
-  if (/^how-to-|^guide-|^es\/como-|^fr\/(comment-|tester-|guide-)/.test(rel) && topic) {
+  if (isGuidePage(rel) && topic) {
     const topical = topicalQuick(lang, topic);
     const tw = wordCount(topical);
     if (tw > 60) return trimToWords(topical, 60);
-    if (tw < 40) return trimToWords(`${topical} Content is for learning only—not emergency or diagnostic care.`, 60);
+    if (tw < 40) {
+      const suffix = LEARNING_ONLY_SUFFIX[lang] || LEARNING_ONLY_SUFFIX.en;
+      return trimToWords(`${topical} ${suffix}`, 60);
+    }
     return topical;
   }
 

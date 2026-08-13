@@ -1,0 +1,58 @@
+{
+  "phase": "CONTENT-07",
+  "part": "1",
+  "mode": "targeted-remediation",
+  "defects": {
+    "frGuideQuickAnswerMismatch": {
+      "before": 54,
+      "after": 0,
+      "checked": 167,
+      "note": "167 is the exact manifest-driven count (all guides-cluster pages, all 3 languages); supersedes CONTENT-06's manually-sampled ~50/55 estimate with an exhaustive figure"
+    },
+    "englishLeakage": {
+      "before": 7,
+      "after": 0,
+      "checked": 406,
+      "checkedScope": "all ES/FR HTML pages, against a controlled list of 5 known English-only literals"
+    },
+    "overlapBetweenDefects": 0
+  },
+  "rootCause": {
+    "defectA": "buildQuickAnswer() decided guide-vs-generic treatment via two English/Spanish-prefix-convention regexes (rel path, H1 text). French guide titles are phrased as statements, not questions, so only 8/58 FR guide pages matched either heuristic; 50/58 fell through to a generic silo-level answer describing the wrong content type.",
+    "defectB": "The <40-word branch of buildQuickAnswer() unconditionally appended a hardcoded English sentence regardless of page language.",
+    "sourceFile": "scripts/lib/auth01-snippet-timestamps.mjs"
+  },
+  "sourceFilesModified": [
+    "scripts/lib/auth01-snippet-timestamps.mjs"
+  ],
+  "pageFilesModified": 61,
+  "pageFilesModifiedBreakdown": {
+    "quickAnswerMismatchOnly": 54,
+    "englishLeakageOnly": 7,
+    "both": 0
+  },
+  "validatorsAdded": [
+    "scripts/validate-guide-quick-answer.mjs",
+    "scripts/validate-cross-language-leakage.mjs"
+  ],
+  "testsAdded": [
+    "scripts/test-content07-quick-answer.mjs (10 tests, node:test)"
+  ],
+  "toolScriptsAdded": [
+    "scripts/repair-guide-quick-answers.mjs"
+  ],
+  "testsProvenFailBeforePassAfter": true,
+  "testFailBeforeEvidence": "git stash of only the source file caused a hard SyntaxError (missing export LEARNING_ONLY_SUFFIX) rather than a soft assertion failure - the pre-fix module could not satisfy the test file's imports at all",
+  "unrelatedFilesModified": [],
+  "fullRepoHashDiffVerification": {
+    "totalHtmlFilesSnapshotted": 776,
+    "filesChanged": 61,
+    "exactMatchToTargetedList": true
+  },
+  "arch02": "PASS",
+  "auth01": "PASS",
+  "content02Gate": "PASS",
+  "semanticEligibility": "0/510",
+  "decision": "Both defects fixed at source, proven via before/after tests and two new permanent validators; exactly 61 pre-identified pages repaired with zero unrelated changes.",
+  "nextPart": "CONTENT-07 Part 2 (not started): evidence-selected second editorial pilot batch from the 66 quantified B1 candidates - a separate, explicit decision."
+}
