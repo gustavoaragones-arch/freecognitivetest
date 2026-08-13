@@ -1,0 +1,582 @@
+{
+  "phase": "CONTENT-07 Part 2",
+  "generated": "2026-08-13",
+  "classificationRationale": "Genuine, specific, non-fabricated topic content was added (3 unique statements + 2 unique informational blocks + 1 concrete example + 2 topic-specific FAQs per language), matching content-value-gate pass on all 6 criteria including distinctSearchIntent against the full sitewide manifest. However, roughly 55-65% of each page's total word count remains unedited, shared-pool generic text (body paragraphs, generic FAQs) — the same structural situation CONTENT-06 found for the 5 CONTENT-03 pilots, which were honestly rated ADEQUATE, not STRONG. STRONG in this project's calibration is reserved for pages with zero pooled content (e.g. the 2 fully custom consolidated resources at 1255/981 words). Applying that same non-inflated standard here, none of the 12 qualify as STRONG merely for word count, heading count, FAQ count, or schema presence.",
+  "classificationDistribution": {
+    "STRONG": 0,
+    "ADEQUATE": 12,
+    "WEAK": 0,
+    "FAIL": 0
+  },
+  "perPage": [
+    {
+      "slug": "memory-test-for-kids-teens",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 510,
+          "after": 825,
+          "added": 315
+        },
+        "es": {
+          "before": 558,
+          "after": 948,
+          "added": 390
+        },
+        "fr": {
+          "before": 567,
+          "after": 954,
+          "added": 387
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "memory-test-for-kids-teens/index.html",
+        "es/prueba-memoria-ninos-adolescentes/index.html",
+        "fr/test-memoire-enfants-ados/index.html"
+      ]
+    },
+    {
+      "slug": "memory-test-for-nurses",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 580,
+          "after": 893,
+          "added": 313
+        },
+        "es": {
+          "before": 504,
+          "after": 856,
+          "added": 352
+        },
+        "fr": {
+          "before": 541,
+          "after": 910,
+          "added": 369
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 2
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "memory-test-for-nurses/index.html",
+        "es/prueba-memoria-enfermeria/index.html",
+        "fr/test-memoire-soins-infirmiers/index.html"
+      ]
+    },
+    {
+      "slug": "memory-test-for-students",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 507,
+          "after": 794,
+          "added": 287
+        },
+        "es": {
+          "before": 532,
+          "after": 865,
+          "added": 333
+        },
+        "fr": {
+          "before": 559,
+          "after": 902,
+          "added": 343
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 2,
+        "es": 2,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "memory-test-for-students/index.html",
+        "es/prueba-memoria-estudiantes/index.html",
+        "fr/test-memoire-etudiants/index.html"
+      ]
+    },
+    {
+      "slug": "memory-test-for-cardiac-rehab",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 530,
+          "after": 832,
+          "added": 302
+        },
+        "es": {
+          "before": 537,
+          "after": 899,
+          "added": 362
+        },
+        "fr": {
+          "before": 562,
+          "after": 938,
+          "added": 376
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "memory-test-for-cardiac-rehab/index.html",
+        "es/prueba-memoria-rehab-cardiaca/index.html",
+        "fr/test-memoire-rehab-cardiaque/index.html"
+      ]
+    },
+    {
+      "slug": "brain-exercises-for-working-memory",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 542,
+          "after": 818,
+          "added": 276
+        },
+        "es": {
+          "before": 547,
+          "after": 861,
+          "added": 314
+        },
+        "fr": {
+          "before": 567,
+          "after": 893,
+          "added": 326
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "brain-exercises-for-working-memory/index.html",
+        "es/ejercicios-cerebrales-memoria-trabajo/index.html",
+        "fr/exercices-cerveau-memoire-travail/index.html"
+      ]
+    },
+    {
+      "slug": "brain-exercises-for-parkinsons-caregivers",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 591,
+          "after": 893,
+          "added": 302
+        },
+        "es": {
+          "before": 553,
+          "after": 923,
+          "added": 370
+        },
+        "fr": {
+          "before": 553,
+          "after": 909,
+          "added": 356
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "brain-exercises-for-parkinsons-caregivers/index.html",
+        "es/ejercicios-cerebrales-cuidadores-parkinson/index.html",
+        "fr/exercices-cerveau-aidants-parkinson/index.html"
+      ]
+    },
+    {
+      "slug": "brain-exercises-for-memory",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 580,
+          "after": 901,
+          "added": 321
+        },
+        "es": {
+          "before": 523,
+          "after": 888,
+          "added": 365
+        },
+        "fr": {
+          "before": 569,
+          "after": 958,
+          "added": 389
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "brain-exercises-for-memory/index.html",
+        "es/ejercicios-cerebrales-memoria/index.html",
+        "fr/exercices-cerveau-memoire/index.html"
+      ]
+    },
+    {
+      "slug": "brain-exercises-for-adhd-adults",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 526,
+          "after": 832,
+          "added": 306
+        },
+        "es": {
+          "before": 549,
+          "after": 926,
+          "added": 377
+        },
+        "fr": {
+          "before": 535,
+          "after": 928,
+          "added": 393
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "brain-exercises-for-adhd-adults/index.html",
+        "es/ejercicios-cerebrales-adultos-tdah/index.html",
+        "fr/exercices-cerveau-adultes-tdah/index.html"
+      ]
+    },
+    {
+      "slug": "how-to-plan-for-memory-evaluation",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 606,
+          "after": 857,
+          "added": 251
+        },
+        "es": {
+          "before": 481,
+          "after": 778,
+          "added": 297
+        },
+        "fr": {
+          "before": 521,
+          "after": 821,
+          "added": 300
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "how-to-plan-for-memory-evaluation/index.html",
+        "es/preparar-evaluacion-memoria/index.html",
+        "fr/preparer-evaluation-memoire/index.html"
+      ]
+    },
+    {
+      "slug": "how-to-read-memory-test-results",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 522,
+          "after": 873,
+          "added": 351
+        },
+        "es": {
+          "before": 500,
+          "after": 894,
+          "added": 394
+        },
+        "fr": {
+          "before": 541,
+          "after": 943,
+          "added": 402
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "how-to-read-memory-test-results/index.html",
+        "es/interpretar-resultados-memoria/index.html",
+        "fr/lire-resultats-memoire/index.html"
+      ]
+    },
+    {
+      "slug": "depression-memory-concentration",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 592,
+          "after": 899,
+          "added": 307
+        },
+        "es": {
+          "before": 550,
+          "after": 926,
+          "added": 376
+        },
+        "fr": {
+          "before": 570,
+          "after": 967,
+          "added": 397
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "depression-memory-concentration/index.html",
+        "es/depresion-concentracion/index.html",
+        "fr/depression-concentration/index.html"
+      ]
+    },
+    {
+      "slug": "short-term-memory-slips",
+      "gatePass": true,
+      "gateFailedCriteria": [],
+      "sharedContentRatioEstimate": 0.43,
+      "classification": "ADEQUATE",
+      "wordCount": {
+        "en": {
+          "before": 575,
+          "after": 899,
+          "added": 324
+        },
+        "es": {
+          "before": 583,
+          "after": 951,
+          "added": 368
+        },
+        "fr": {
+          "before": 601,
+          "after": 965,
+          "added": 364
+        }
+      },
+      "preExistingDuplicateSentencesInPool": {
+        "en": 0,
+        "es": 0,
+        "fr": 0
+      },
+      "faqsAdded": {
+        "en": 2,
+        "es": 2,
+        "fr": 2
+      },
+      "faqsAddedToVisibleSection": true,
+      "faqsAddedToJsonLd": true,
+      "filesInjected": [
+        "short-term-memory-slips/index.html",
+        "es/fallos-memoria-corto-plazo/index.html",
+        "fr/troubles-memoire-court-terme/index.html"
+      ]
+    }
+  ],
+  "regressionSuite": {
+    "arch02": {
+      "result": "PASS",
+      "checksPass": 10,
+      "checksTotal": 10,
+      "detail": {
+        "broken_localized_switches": 0,
+        "canonical_issues_audit": 0,
+        "hreflang_issues_audit": 0,
+        "sitemap_duplicate_urls": 0,
+        "orphan_programmatic": 0,
+        "stub_pages_indexed": 0,
+        "related_content_coverage_pct": 100,
+        "breadcrumb_presence_pct": 100
+      }
+    },
+    "auth01": {
+      "result": "PASS",
+      "quickAnswerCoverage": "541/541 (100%)",
+      "lastReviewedCoverage": "541/541 (100%)"
+    },
+    "content02Gate": {
+      "result": "PASS",
+      "newSeedRowsFound": 0,
+      "note": "Confirms no second generator / no new pages created."
+    },
+    "guideQuickAnswerValidator": {
+      "result": "PASS",
+      "pagesChecked": 167,
+      "failures": 0
+    },
+    "crossLanguageLeakageValidator": {
+      "result": "PASS",
+      "pagesChecked": 406,
+      "leakageInstancesFound": 0
+    },
+    "content07UnitTests": {
+      "result": "PASS",
+      "testsPass": 10,
+      "testsTotal": 10
+    },
+    "additionalChecks": {
+      "redirectedSourcesReintroduced": 0,
+      "fabricatedLocalizedUrls": 0,
+      "orphanPagesCreated": 0,
+      "unrelatedFileModifications": 0,
+      "htmlStructuralIntegrity": "36/36 files: balanced section tags, exactly 1 unique-content block, valid faq-schema JSON-LD, single html tag pair"
+    }
+  },
+  "sha256Certification": {
+    "preEditHtmlFilesHashed": 776,
+    "postEditHtmlFilesHashed": 776,
+    "htmlFilesChanged": 36,
+    "htmlFilesUnchanged": 740,
+    "htmlFilesAdded": 0,
+    "htmlFilesDeleted": 0,
+    "changedFilesBreakdown": {
+      "en": 12,
+      "es": 12,
+      "fr": 12
+    },
+    "architectureFilesHashed": 8,
+    "architectureFilesChanged": 1,
+    "architectureFileChanged": "assets/data/programmatic-page-overrides.json",
+    "architectureFilesUnchanged": [
+      "assets/data/seo-pages-manifest.json",
+      "assets/data/programmatic-frozen-manifest.json",
+      "sitemap-main.xml",
+      "sitemap-supplemental-en.xml",
+      "sitemap-es.xml",
+      "sitemap-fr.xml",
+      "sitemap.xml"
+    ]
+  },
+  "commitStatus": "NOT COMMITTED — working tree only, per explicit Part 2 scope",
+  "deployStatus": "NOT DEPLOYED — no push to origin/main",
+  "adsenseReviewStatus": "NOT REQUESTED — this phase ends in local certification only"
+}

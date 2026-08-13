@@ -1,0 +1,1195 @@
+{
+  "phase": "CONTENT-07 Part 2",
+  "generated": "2026-08-13",
+  "note": "Fixed editorial briefs, written BEFORE any HTML edit, per page. Exact wording used in injection for all 3 languages (EN/ES/FR) — not a 'write something useful' delegation. Same non-diagnostic, no-fabricated-experts/institutions/citations standard as CONTENT-03C.",
+  "pages": {
+    "memory-test-for-kids-teens": {
+      "sectionHeading": {
+        "en": "How memory expectations differ by age",
+        "es": "Cómo cambian las expectativas de memoria según la edad",
+        "fr": "Comment les attentes en matière de mémoire évoluent selon l'âge"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Working memory capacity increases steadily through childhood and adolescence — a typical 7-year-old and a typical 15-year-old are expected to hold different amounts of information in mind at once, so a task that looks like forgetfulness at one age can be entirely normal at a younger one.",
+          "Attention and memory difficulties in children and teens are frequently intertwined with sleep, especially in adolescents whose natural sleep-wake rhythm shifts later, often colliding with early school start times.",
+          "A sudden change in a child's memory or attention, as opposed to a lifelong pattern, is a more useful signal to bring to a doctor or teacher than comparing the child to a general age-based checklist, since gradual developmental variation is common and a decline from a previous baseline is not."
+        ],
+        "es": [
+          "La capacidad de memoria de trabajo aumenta de forma constante durante la infancia y la adolescencia: se espera que un niño típico de 7 años y un adolescente típico de 15 retengan cantidades distintas de información a la vez, así que una tarea que parece «olvido» a una edad puede ser del todo normal a otra más temprana.",
+          "Las dificultades de atención y memoria en niños y adolescentes suelen estar relacionadas con el sueño, sobre todo en la adolescencia, cuando el ritmo natural de sueño-vigilia se retrasa y choca con los horarios escolares tempranos.",
+          "Un cambio repentino en la memoria o la atención de un niño, a diferencia de un patrón de toda la vida, es una señal más útil para comentar con un médico o un profesor que comparar al niño con una lista genérica según la edad, ya que la variación evolutiva gradual es común, pero un declive respecto a su propia base anterior no lo es."
+        ],
+        "fr": [
+          "La capacité de mémoire de travail augmente régulièrement pendant l'enfance et l'adolescence : un enfant typique de 7 ans et un adolescent typique de 15 ans ne sont pas censés retenir la même quantité d'informations à la fois, donc ce qui ressemble à un oubli à un âge peut être tout à fait normal à un âge plus jeune.",
+          "Les difficultés d'attention et de mémoire chez les enfants et les adolescents sont souvent liées au sommeil, en particulier à l'adolescence, période où le rythme veille-sommeil naturel se décale plus tard, ce qui entre en conflit avec des horaires scolaires matinaux.",
+          "Un changement soudain dans la mémoire ou l'attention d'un enfant, par opposition à un schéma présent depuis toujours, est un signal plus utile à signaler à un médecin ou un enseignant que de comparer l'enfant à une liste générique selon l'âge, car la variation développementale progressive est courante, contrairement à un déclin par rapport à son propre niveau antérieur."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "What's actually typical at different ages",
+            "body": "Memory and attention capacity is still developing through the teen years. Comparing a child to an adult standard, or to a much older or younger child, isn't a meaningful comparison."
+          },
+          {
+            "heading": "When a change is worth mentioning to a teacher or pediatrician",
+            "body": "A new, noticeable change — grades slipping, forgetting an established routine, losing track of conversations — is more informative than an isolated bad day or normal age-typical distractibility."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Qué es realmente típico según la edad",
+            "body": "La capacidad de memoria y atención sigue desarrollándose durante la adolescencia. Comparar a un niño con el estándar de un adulto, o con un niño mucho mayor o menor, no es una comparación útil."
+          },
+          {
+            "heading": "Cuándo vale la pena comentarlo con un profesor o pediatra",
+            "body": "Un cambio nuevo y notable —bajar las notas, olvidar una rutina ya establecida, perder el hilo de las conversaciones— es más informativo que un mal día aislado o la distracción típica de la edad."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Ce qui est réellement typique selon l'âge",
+            "body": "La capacité de mémoire et d'attention continue de se développer pendant l'adolescence. Comparer un enfant à une norme adulte, ou à un enfant beaucoup plus âgé ou plus jeune, n'est pas une comparaison pertinente."
+          },
+          {
+            "heading": "Quand en parler à un enseignant ou un pédiatre",
+            "body": "Un changement nouveau et notable — des notes qui baissent, l'oubli d'une routine déjà établie, perdre le fil des conversations — est plus révélateur qu'une mauvaise journée isolée ou une distraction typique de l'âge."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "A 10-year-old who forgets a chore they've done for months is a different situation from a 6-year-old who still needs reminders for a chore they only started last week."
+        ],
+        "es": [
+          "Un niño de 10 años que olvida una tarea que ha hecho durante meses es una situación distinta a la de uno de 6 años que todavía necesita recordatorios para una tarea que empezó apenas la semana pasada."
+        ],
+        "fr": [
+          "Un enfant de 10 ans qui oublie une tâche qu'il effectue depuis des mois, ce n'est pas la même chose qu'un enfant de 6 ans qui a encore besoin de rappels pour une tâche commencée seulement la semaine dernière."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Should a child take the same memory test as an adult?",
+            "a": "No — expectations and typical performance differ meaningfully by age, so a task or score standard built for adults isn't a fair comparison for a child or teen; age-appropriate context matters more than the raw result."
+          },
+          {
+            "q": "Could my teenager's forgetfulness be related to sleep?",
+            "a": "Possibly — adolescents' natural sleep timing shifts later, which combined with early school schedules commonly produces chronic sleep debt, and sleep debt affects attention and memory at any age."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Debe un niño hacer la misma prueba de memoria que un adulto?",
+            "a": "No: las expectativas y el rendimiento típico varían de forma significativa según la edad, así que una tarea o un estándar de puntuación pensado para adultos no es una comparación justa para un niño o adolescente; el contexto según la edad importa más que el resultado bruto."
+          },
+          {
+            "q": "¿El olvido de mi adolescente puede estar relacionado con el sueño?",
+            "a": "Es posible: el horario natural de sueño de los adolescentes se retrasa, lo que combinado con horarios escolares tempranos suele producir una deuda de sueño crónica, y esa deuda afecta la atención y la memoria a cualquier edad."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Un enfant doit-il passer le même test de mémoire qu'un adulte ?",
+            "a": "Non : les attentes et les performances typiques varient sensiblement selon l'âge, donc une tâche ou un barème conçu pour les adultes n'est pas une comparaison équitable pour un enfant ou un adolescent ; le contexte lié à l'âge compte plus que le résultat brut."
+          },
+          {
+            "q": "L'oubli de mon adolescent peut-il être lié au sommeil ?",
+            "a": "C'est possible : le rythme de sommeil naturel des adolescents se décale plus tard, ce qui, combiné à des horaires scolaires matinaux, entraîne souvent une dette de sommeil chronique, laquelle affecte l'attention et la mémoire à tout âge."
+          }
+        ]
+      }
+    },
+    "memory-test-for-nurses": {
+      "sectionHeading": {
+        "en": "The specific cognitive demands of nursing shift work",
+        "es": "Las exigencias cognitivas específicas del trabajo de enfermería por turnos",
+        "fr": "Les exigences cognitives spécifiques du travail infirmier posté"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Rotating and night shifts, common in nursing, are associated with measurable short-term effects on attention and working memory that are distinct from general fatigue — timing of the shift relative to a person's circadian rhythm matters as much as total hours worked.",
+          "Nurses routinely perform interruption-heavy, multi-patient task-switching, which is cognitively demanding in a specific way — divided attention and prospective memory, or remembering to return to an interrupted task — rather than being a test of raw memory capacity.",
+          "Distinguishing ordinary shift-related cognitive fatigue from something warranting medical attention typically comes down to whether the effect resolves with adequate rest and normal days off, versus persisting or worsening despite recovery time."
+        ],
+        "es": [
+          "Los turnos rotativos y nocturnos, habituales en enfermería, se asocian con efectos a corto plazo medibles en la atención y la memoria de trabajo distintos de la fatiga general: el momento del turno en relación con el ritmo circadiano de la persona importa tanto como el total de horas trabajadas.",
+          "El personal de enfermería realiza habitualmente cambios de tarea con múltiples pacientes e interrupciones constantes, lo cual exige un tipo específico de esfuerzo cognitivo —atención dividida y memoria prospectiva, es decir, recordar volver a una tarea interrumpida— más que una prueba de capacidad de memoria pura.",
+          "Distinguir la fatiga cognitiva habitual relacionada con los turnos de algo que merece atención médica suele depender de si el efecto se resuelve con descanso adecuado y días libres normales, o si persiste o empeora a pesar del tiempo de recuperación."
+        ],
+        "fr": [
+          "Les horaires tournants et de nuit, courants en soins infirmiers, sont associés à des effets mesurables à court terme sur l'attention et la mémoire de travail, distincts de la fatigue générale : le moment du poste par rapport au rythme circadien de la personne compte autant que le nombre total d'heures travaillées.",
+          "Le personnel infirmier effectue couramment des changements de tâches multi-patients avec de nombreuses interruptions, ce qui sollicite une forme spécifique d'effort cognitif — l'attention divisée et la mémoire prospective, c'est-à-dire se souvenir de revenir à une tâche interrompue — plutôt qu'un test de capacité mémorielle pure.",
+          "Distinguer une fatigue cognitive ordinaire liée aux horaires postés d'un signe méritant une attention médicale dépend généralement de la question de savoir si l'effet se résorbe avec un repos suffisant et des jours de congé normaux, ou s'il persiste ou s'aggrave malgré le temps de récupération."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why shift work affects cognitive performance specifically",
+            "body": "Circadian misalignment, not just sleep duration, drives much of the effect — even well-rested night-shift workers can show measurable attention differences during their circadian low point."
+          },
+          {
+            "heading": "Task-switching and interruption load",
+            "body": "The core cognitive demand in busy clinical settings is less about memorizing information and more about holding multiple in-progress tasks and returning to them accurately after interruption."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué el trabajo por turnos afecta específicamente el rendimiento cognitivo",
+            "body": "El desajuste circadiano, no solo la duración del sueño, explica gran parte del efecto: incluso el personal de turno nocturno bien descansado puede mostrar diferencias de atención medibles durante su punto circadiano más bajo."
+          },
+          {
+            "heading": "Cambio de tareas y carga de interrupciones",
+            "body": "La exigencia cognitiva principal en entornos clínicos ocupados no es tanto memorizar información como mantener varias tareas en curso y retomarlas con precisión tras una interrupción."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi le travail posté affecte spécifiquement les performances cognitives",
+            "body": "Le désalignement circadien, et pas seulement la durée du sommeil, explique une grande partie de l'effet : même le personnel de nuit bien reposé peut présenter des différences d'attention mesurables pendant son creux circadien."
+          },
+          {
+            "heading": "Changement de tâches et charge d'interruptions",
+            "body": "L'exigence cognitive principale dans les services cliniques chargés porte moins sur la mémorisation d'informations que sur le maintien de plusieurs tâches en cours et leur reprise précise après une interruption."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "A nurse who reliably forgets a step in a routine task only during the third or fourth night of a shift stretch, but not on regular days, is describing a pattern consistent with cumulative shift-related fatigue rather than a general memory problem."
+        ],
+        "es": [
+          "Una enfermera que olvida sistemáticamente un paso de una tarea rutinaria solo durante la tercera o cuarta noche de una racha de turnos, pero no en días normales, está describiendo un patrón coherente con fatiga acumulada por turnos, no un problema general de memoria."
+        ],
+        "fr": [
+          "Un infirmier qui oublie systématiquement une étape d'une tâche routinière seulement lors de la troisième ou quatrième nuit d'une série de postes, mais pas les jours ordinaires, décrit un schéma cohérent avec une fatigue cumulée liée aux horaires, plutôt qu'un problème de mémoire général."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Is it normal to feel mentally foggy after several night shifts in a row?",
+            "a": "A cumulative pattern tied specifically to consecutive night shifts is a commonly reported effect of circadian disruption, and it typically improves with adequate recovery time; if it doesn't improve with rest, that's worth discussing with a clinician."
+          },
+          {
+            "q": "Does this page help me screen patients, or check my own memory?",
+            "a": "This page and the linked screening tool are educational self-checks, not a validated occupational or clinical screening instrument — they're for personal, informal reflection, not for use as a patient assessment tool."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Es normal sentir niebla mental tras varias noches de turno seguidas?",
+            "a": "Un patrón acumulado ligado específicamente a noches de turno consecutivas es un efecto habitual del desajuste circadiano y suele mejorar con tiempo de recuperación adecuado; si no mejora con el descanso, vale la pena comentarlo con un profesional."
+          },
+          {
+            "q": "¿Esta página me ayuda a evaluar pacientes o a revisar mi propia memoria?",
+            "a": "Esta página y la herramienta enlazada son autoevaluaciones educativas, no un instrumento de cribado clínico u ocupacional validado: son para reflexión personal e informal, no para usarse como evaluación de pacientes."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Est-il normal de se sentir dans le brouillard après plusieurs nuits de travail d'affilée ?",
+            "a": "Un schéma cumulatif lié spécifiquement à des nuits consécutives est un effet couramment rapporté du dérèglement circadien, qui s'améliore généralement avec un temps de récupération suffisant ; si le repos ne suffit pas, cela mérite d'être abordé avec un professionnel."
+          },
+          {
+            "q": "Cette page m'aide-t-elle à évaluer des patients ou à vérifier ma propre mémoire ?",
+            "a": "Cette page et l'outil associé sont des auto-évaluations éducatives, pas un instrument de dépistage clinique ou professionnel validé : ils sont destinés à une réflexion personnelle et informelle, pas à l'évaluation de patients."
+          }
+        ]
+      }
+    },
+    "memory-test-for-students": {
+      "sectionHeading": {
+        "en": "Study-specific memory strategies",
+        "es": "Estrategias de memoria específicas para estudiar",
+        "fr": "Stratégies de mémoire spécifiques aux études"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Cramming the night before an exam produces short-term recognition that fades quickly, while spacing study sessions across multiple days produces recall that lasts substantially longer — one of the most consistently replicated findings in memory research.",
+          "Testing yourself on material — closing the book and trying to reconstruct an answer — strengthens retention more than re-reading the same material, even though re-reading often feels more productive in the moment.",
+          "Sleep in the 24 hours after studying plays a measurable role in converting newly learned material into longer-term memory, which means an all-nighter right after a study session can undercut the studying that preceded it."
+        ],
+        "es": [
+          "Estudiar de un tirón la noche anterior a un examen produce un reconocimiento a corto plazo que se desvanece rápido, mientras que repartir las sesiones de estudio en varios días produce un recuerdo que dura mucho más: uno de los hallazgos más replicados en la investigación sobre memoria.",
+          "Ponerse a prueba con el material —cerrar el libro e intentar reconstruir una respuesta— refuerza la retención más que releer el mismo material, aunque releer suele sentirse más productivo en el momento.",
+          "El sueño en las 24 horas posteriores a estudiar cumple un papel medible en convertir lo aprendido en memoria a más largo plazo, lo que significa que trasnochar justo después de estudiar puede socavar el estudio realizado antes."
+        ],
+        "fr": [
+          "Bachoter la veille d'un examen produit une reconnaissance à court terme qui s'estompe rapidement, tandis qu'espacer les séances d'étude sur plusieurs jours produit un rappel qui dure nettement plus longtemps — l'un des résultats les plus régulièrement reproduits dans la recherche sur la mémoire.",
+          "Se tester sur la matière — fermer le livre et essayer de reconstruire une réponse — renforce la rétention plus que relire le même contenu, même si relire semble souvent plus productif sur le moment.",
+          "Le sommeil dans les 24 heures suivant une session d'étude joue un rôle mesurable dans la consolidation des nouvelles informations en mémoire à plus long terme, ce qui signifie qu'une nuit blanche juste après avoir étudié peut nuire à l'étude qui précède."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Spacing vs. cramming",
+            "body": "Studying the same material in four 30-minute sessions across a week typically outperforms one 2-hour cram session for exam recall, even though total study time is similar."
+          },
+          {
+            "heading": "Active recall over re-reading",
+            "body": "Turning notes into practice questions, or explaining a topic aloud without looking, forces genuine retrieval in a way passive review does not."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Repartir el estudio frente a estudiar de un tirón",
+            "body": "Estudiar el mismo material en cuatro sesiones de 30 minutos repartidas en una semana suele superar a una sola sesión de dos horas para el recuerdo en el examen, aunque el tiempo total de estudio sea parecido."
+          },
+          {
+            "heading": "Recuperación activa en lugar de releer",
+            "body": "Convertir los apuntes en preguntas de práctica, o explicar un tema en voz alta sin mirar, obliga a una recuperación real de la información que la relectura pasiva no logra."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Espacement contre bachotage",
+            "body": "Étudier la même matière en quatre séances de 30 minutes réparties sur une semaine surpasse généralement une seule séance de deux heures pour le rappel à l'examen, même si le temps d'étude total est similaire."
+          },
+          {
+            "heading": "Le rappel actif plutôt que la relecture",
+            "body": "Transformer ses notes en questions d'entraînement, ou expliquer un sujet à voix haute sans les regarder, force une véritable récupération de l'information, contrairement à une relecture passive."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "A student who reviews lecture notes five times before an exam may feel prepared, but a student who instead closes the notes and tries to recall the key points from memory each time typically retains more by exam day."
+        ],
+        "es": [
+          "Un estudiante que repasa los apuntes cinco veces antes de un examen puede sentirse preparado, pero uno que en cambio cierra los apuntes e intenta recordar los puntos clave de memoria cada vez suele retener más el día del examen."
+        ],
+        "fr": [
+          "Un étudiant qui relit ses notes de cours cinq fois avant un examen peut se sentir prêt, mais un étudiant qui ferme plutôt ses notes et essaie de se rappeler les points clés de mémoire à chaque fois retient généralement plus le jour de l'examen."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Is it better to study one subject for a long block, or switch between subjects?",
+            "a": "Interleaving — switching between related topics within a study session rather than drilling one topic exhaustively — is associated with better long-term retention, even though it can feel less efficient while studying."
+          },
+          {
+            "q": "Does pulling an all-nighter before an exam help or hurt?",
+            "a": "It tends to hurt: sleep in the hours after studying helps consolidate what was learned, so skipping sleep to study more can undercut retention of material studied earlier that same day."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Es mejor estudiar una sola materia durante un bloque largo o alternar entre materias?",
+            "a": "Alternar —cambiar entre temas relacionados dentro de una sesión de estudio en lugar de repasar un solo tema hasta el cansancio— se asocia con mejor retención a largo plazo, aunque durante el estudio pueda sentirse menos eficiente."
+          },
+          {
+            "q": "¿Trasnochar antes de un examen ayuda o perjudica?",
+            "a": "Tiende a perjudicar: el sueño en las horas posteriores a estudiar ayuda a consolidar lo aprendido, así que saltarse el sueño para estudiar más puede socavar la retención de lo estudiado ese mismo día."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Vaut-il mieux étudier une seule matière longuement, ou alterner entre plusieurs matières ?",
+            "a": "L'entrelacement — alterner entre des sujets liés au sein d'une même séance plutôt que de s'entraîner sur un seul sujet de façon exhaustive — est associé à une meilleure rétention à long terme, même si cela peut sembler moins efficace pendant l'étude."
+          },
+          {
+            "q": "Une nuit blanche avant un examen aide-t-elle ou nuit-elle ?",
+            "a": "Elle tend à nuire : le sommeil dans les heures suivant l'étude aide à consolider ce qui a été appris, donc sacrifier le sommeil pour étudier davantage peut compromettre la rétention de la matière étudiée plus tôt ce même jour."
+          }
+        ]
+      }
+    },
+    "memory-test-for-cardiac-rehab": {
+      "sectionHeading": {
+        "en": "Cognitive changes specific to cardiac recovery",
+        "es": "Cambios cognitivos específicos de la recuperación cardíaca",
+        "fr": "Changements cognitifs spécifiques à la récupération cardiaque"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Reduced blood flow to the brain during a cardiac event — such as during surgery requiring a heart-lung bypass, or a period of low cardiac output — is a recognized contributor to short-term thinking and memory changes during recovery, separate from any pre-existing cognitive condition.",
+          "Many cognitive effects reported after cardiac surgery or a cardiac event are temporary and improve over the weeks to months of recovery, particularly as sleep, medication adjustment, and physical stamina also improve during rehab.",
+          "Depression and anxiety are common after a cardiac event and can independently affect concentration and memory — a well-recognized overlap in cardiac rehabilitation, not a separate, unrelated problem."
+        ],
+        "es": [
+          "La reducción del flujo sanguíneo cerebral durante un evento cardíaco —por ejemplo, durante una cirugía que requiere circulación extracorpórea, o un período de bajo gasto cardíaco— es un factor reconocido que contribuye a cambios pasajeros en el pensamiento y la memoria durante la recuperación, distinto de cualquier condición cognitiva previa.",
+          "Muchos efectos cognitivos descritos tras una cirugía cardíaca o un evento cardíaco son temporales y mejoran a lo largo de las semanas o meses de recuperación, sobre todo a medida que el sueño, el ajuste de la medicación y la resistencia física también mejoran durante la rehabilitación.",
+          "La depresión y la ansiedad son frecuentes tras un evento cardíaco y pueden afectar la concentración y la memoria de forma independiente: una superposición bien reconocida en la rehabilitación cardíaca, no un problema aparte sin relación."
+        ],
+        "fr": [
+          "La réduction du flux sanguin cérébral pendant un événement cardiaque — par exemple lors d'une chirurgie nécessitant une circulation extracorporelle, ou une période de faible débit cardiaque — est un facteur reconnu contribuant à des changements passagers de la pensée et de la mémoire pendant la récupération, distinct de toute condition cognitive préexistante.",
+          "De nombreux effets cognitifs rapportés après une chirurgie cardiaque ou un événement cardiaque sont temporaires et s'améliorent au fil des semaines ou des mois de récupération, en particulier à mesure que le sommeil, l'ajustement des médicaments et l'endurance physique s'améliorent aussi pendant la réadaptation.",
+          "La dépression et l'anxiété sont fréquentes après un événement cardiaque et peuvent affecter la concentration et la mémoire de façon indépendante — un chevauchement bien reconnu en réadaptation cardiaque, pas un problème distinct sans lien."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why cognitive changes are common after a cardiac event",
+            "body": "Blood flow changes during the event itself, medication changes, and the physical/emotional stress of recovery all plausibly contribute, and rehab teams are generally aware of this overlap."
+          },
+          {
+            "heading": "What tends to improve during rehab, and what's worth flagging",
+            "body": "Gradual improvement alongside physical recovery is the common pattern; a change that is not improving, or is getting worse despite otherwise going well in rehab, is the pattern worth raising with the rehab team."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué los cambios cognitivos son frecuentes tras un evento cardíaco",
+            "body": "Los cambios en el flujo sanguíneo durante el propio evento, los ajustes de medicación y el estrés físico y emocional de la recuperación contribuyen de forma plausible, y los equipos de rehabilitación suelen conocer bien esta superposición."
+          },
+          {
+            "heading": "Qué suele mejorar durante la rehabilitación y qué merece atención",
+            "body": "La mejora gradual junto con la recuperación física es el patrón habitual; un cambio que no mejora, o que empeora pese a que la rehabilitación va bien en lo demás, es el patrón que vale la pena comentar con el equipo de rehabilitación."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi les changements cognitifs sont fréquents après un événement cardiaque",
+            "body": "Les variations du flux sanguin pendant l'événement lui-même, les changements de médication et le stress physique et émotionnel de la récupération y contribuent tous de façon plausible, et les équipes de réadaptation connaissent généralement ce chevauchement."
+          },
+          {
+            "heading": "Ce qui a tendance à s'améliorer pendant la réadaptation, et ce qui mérite d'être signalé",
+            "body": "Une amélioration progressive parallèle à la récupération physique est le schéma habituel ; un changement qui ne s'améliore pas, ou qui s'aggrave alors que la réadaptation se passe bien par ailleurs, est le schéma à signaler à l'équipe de réadaptation."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Someone who feels noticeably \"slower\" in the first few weeks after cardiac surgery, but notices steady improvement alongside their physical stamina over the following months, is describing a commonly reported recovery pattern."
+        ],
+        "es": [
+          "Alguien que se siente notablemente «más lento» en las primeras semanas tras una cirugía cardíaca, pero nota una mejora constante junto con su resistencia física en los meses siguientes, está describiendo un patrón de recuperación habitual."
+        ],
+        "fr": [
+          "Une personne qui se sent nettement « plus lente » dans les premières semaines après une chirurgie cardiaque, mais qui observe une amélioration constante parallèlement à son endurance physique au cours des mois suivants, décrit un schéma de récupération couramment rapporté."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Is it normal to feel mentally slower after heart surgery?",
+            "a": "Temporary cognitive changes after cardiac surgery are commonly reported and often improve over the weeks to months of recovery; persistent or worsening changes are worth discussing with your rehab or care team."
+          },
+          {
+            "q": "Could my medications be part of it?",
+            "a": "Possibly — medication changes are common after a cardiac event, and some cardiac medications are associated with cognitive side effects in some people; a pharmacist or your care team can review your specific regimen."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Es normal sentirse mentalmente más lento tras una cirugía cardíaca?",
+            "a": "Los cambios cognitivos temporales tras una cirugía cardíaca se describen con frecuencia y suelen mejorar en las semanas o meses de recuperación; los cambios persistentes o que empeoran merecen comentarse con el equipo de rehabilitación o de atención."
+          },
+          {
+            "q": "¿Podrían mis medicamentos formar parte de esto?",
+            "a": "Es posible: los cambios de medicación son frecuentes tras un evento cardíaco, y algunos medicamentos cardíacos se asocian con efectos secundarios cognitivos en algunas personas; un farmacéutico o su equipo de atención puede revisar su tratamiento específico."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Est-il normal de se sentir mentalement plus lent après une chirurgie cardiaque ?",
+            "a": "Des changements cognitifs temporaires après une chirurgie cardiaque sont couramment rapportés et s'améliorent souvent au fil des semaines ou des mois de récupération ; des changements persistants ou qui s'aggravent méritent d'être abordés avec l'équipe de réadaptation ou de soins."
+          },
+          {
+            "q": "Mes médicaments pourraient-ils y être pour quelque chose ?",
+            "a": "C'est possible : les changements de médication sont fréquents après un événement cardiaque, et certains médicaments cardiaques sont associés à des effets secondaires cognitifs chez certaines personnes ; un pharmacien ou votre équipe de soins peut examiner votre traitement spécifique."
+          }
+        ]
+      }
+    },
+    "brain-exercises-for-parkinsons-caregivers": {
+      "sectionHeading": {
+        "en": "The distinct rhythm of Parkinson's caregiving",
+        "es": "El ritmo particular de cuidar a alguien con Parkinson",
+        "fr": "Le rythme particulier de l'accompagnement d'un proche atteint de Parkinson"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Caregiving for someone with Parkinson's often involves fluctuating daily needs — medication timing is frequently tied to symptom control throughout the day, which places ongoing scheduling and vigilance demands on the caregiver that differ from caregiving roles with a more predictable daily routine.",
+          "Caregiver burden in Parkinson's caregiving specifically is often linked to sleep disruption, since nighttime symptoms such as movement difficulty or medication timing can interrupt the caregiver's sleep as well as the person they care for.",
+          "Brief, low-effort cognitive exercises that can be paused and resumed are more realistic for caregivers managing unpredictable interruptions than exercises requiring a long uninterrupted block of time."
+        ],
+        "es": [
+          "Cuidar a alguien con Parkinson suele implicar necesidades diarias cambiantes: el horario de la medicación a menudo está ligado al control de los síntomas a lo largo del día, lo que impone al cuidador exigencias continuas de organización y vigilancia distintas de las de otros roles de cuidado con una rutina diaria más previsible.",
+          "La sobrecarga del cuidador en el caso específico del Parkinson suele estar relacionada con la alteración del sueño, ya que los síntomas nocturnos —como la dificultad de movimiento o el horario de la medicación— pueden interrumpir el sueño del cuidador tanto como el de la persona a la que cuida.",
+          "Los ejercicios cognitivos breves y de bajo esfuerzo, que se pueden pausar y retomar, son más realistas para cuidadores que gestionan interrupciones imprevisibles que los ejercicios que requieren un bloque largo de tiempo sin interrupciones."
+        ],
+        "fr": [
+          "Accompagner une personne atteinte de Parkinson implique souvent des besoins quotidiens fluctuants : le moment de prise des médicaments est fréquemment lié au contrôle des symptômes tout au long de la journée, ce qui impose à l'aidant des exigences continues d'organisation et de vigilance différentes de celles d'un accompagnement à routine quotidienne plus prévisible.",
+          "La charge de l'aidant, dans le cas spécifique du Parkinson, est souvent liée à des perturbations du sommeil, car les symptômes nocturnes — difficultés de mouvement, horaires de médication — peuvent interrompre le sommeil de l'aidant autant que celui de la personne accompagnée.",
+          "Des exercices cognitifs courts et peu exigeants, que l'on peut interrompre et reprendre, sont plus réalistes pour les aidants confrontés à des interruptions imprévisibles que des exercices nécessitant un long moment ininterrompu."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why Parkinson's caregiving has a distinct rhythm",
+            "body": "Medication-timing vigilance and fluctuating daily symptoms create a different caregiving pattern than a more stable daily routine, which affects when and how a caregiver can realistically fit in their own practice time."
+          },
+          {
+            "heading": "Working with interruption, not against it",
+            "body": "Choosing short, resumable exercises rather than ones requiring a long stretch of focus fits better around a caregiving schedule that can be interrupted at any time."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué cuidar a alguien con Parkinson tiene un ritmo particular",
+            "body": "La vigilancia del horario de medicación y los síntomas diarios cambiantes crean un patrón de cuidado distinto al de una rutina más estable, lo que afecta cuándo y cómo el cuidador puede encajar realmente su propio tiempo de práctica."
+          },
+          {
+            "heading": "Trabajar con la interrupción, no contra ella",
+            "body": "Elegir ejercicios breves y reanudables, en lugar de otros que exigen un tramo largo de concentración, encaja mejor con un horario de cuidado que puede interrumpirse en cualquier momento."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi l'accompagnement Parkinson a un rythme particulier",
+            "body": "La vigilance sur les horaires de médication et les symptômes quotidiens fluctuants créent un schéma d'accompagnement différent d'une routine plus stable, ce qui affecte quand et comment l'aidant peut réellement caser son propre temps de pratique."
+          },
+          {
+            "heading": "Composer avec l'interruption plutôt que lutter contre elle",
+            "body": "Choisir des exercices courts et reprenables, plutôt que des exercices exigeant une longue plage de concentration, s'accorde mieux avec un emploi du temps d'aidant pouvant être interrompu à tout moment."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "A caregiver who can only reliably find five uninterrupted minutes at a time will get more consistent benefit from short daily exercises than from an exercise that requires a 30-minute uninterrupted block they rarely have."
+        ],
+        "es": [
+          "Un cuidador que solo puede contar de forma fiable con cinco minutos ininterrumpidos a la vez obtendrá un beneficio más constante con ejercicios breves diarios que con un ejercicio que exige un bloque de 30 minutos sin interrupciones que rara vez tiene."
+        ],
+        "fr": [
+          "Un aidant qui ne peut compter de façon fiable que sur cinq minutes ininterrompues à la fois tirera un bénéfice plus régulier d'exercices quotidiens courts que d'un exercice exigeant un bloc de 30 minutes sans interruption, qu'il a rarement."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Is it normal for my own memory to feel worse since I started caregiving?",
+            "a": "Chronic stress and disrupted sleep, both common in caregiving, can affect a caregiver's own attention and memory; if it's new or worsening, it deserves its own attention rather than being assumed to be only stress."
+          },
+          {
+            "q": "Are these exercises specific to Parkinson's?",
+            "a": "No — these are general cognitive exercises for the caregiver's own practice; they're framed around a caregiving schedule's realistic constraints, not designed as a Parkinson's-specific treatment for either the caregiver or the person they care for."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Es normal que mi propia memoria empeore desde que empecé a cuidar?",
+            "a": "El estrés crónico y el sueño alterado, ambos frecuentes al cuidar a alguien, pueden afectar la atención y la memoria propias del cuidador; si es algo nuevo o que empeora, merece atención propia en lugar de asumir que es solo estrés."
+          },
+          {
+            "q": "¿Estos ejercicios son específicos para el Parkinson?",
+            "a": "No: son ejercicios cognitivos generales para la práctica propia del cuidador; están planteados en torno a las limitaciones reales de un horario de cuidado, no diseñados como tratamiento específico del Parkinson ni para el cuidador ni para la persona a la que cuida."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Est-il normal que ma propre mémoire semble décliner depuis que j'accompagne un proche ?",
+            "a": "Le stress chronique et le sommeil perturbé, tous deux fréquents dans l'accompagnement, peuvent affecter l'attention et la mémoire de l'aidant lui-même ; si c'est nouveau ou que cela s'aggrave, cela mérite une attention propre plutôt que d'être attribué au seul stress."
+          },
+          {
+            "q": "Ces exercices sont-ils spécifiques au Parkinson ?",
+            "a": "Non : ce sont des exercices cognitifs généraux destinés à la pratique personnelle de l'aidant ; ils sont pensés autour des contraintes réelles d'un emploi du temps d'aidant, et non conçus comme un traitement spécifique au Parkinson, ni pour l'aidant ni pour la personne accompagnée."
+          }
+        ]
+      }
+    },
+    "brain-exercises-for-memory": {
+      "sectionHeading": {
+        "en": "Memory is not one skill",
+        "es": "La memoria no es una sola habilidad",
+        "fr": "La mémoire n'est pas une seule compétence"
+      },
+      "uniqueStatements": {
+        "en": [
+          "\"Memory\" splits into meaningfully different sub-types — remembering to do something later, holding information briefly while solving a problem, and recalling learned facts — and an exercise that trains one type doesn't necessarily transfer to the others.",
+          "Research on brain-training broadly shows exercises reliably improve performance on the specific trained task, but evidence for broad transfer to unrelated real-world memory tasks is much weaker and more contested — a realistic expectation is getting better at what you practice, not a general memory upgrade.",
+          "Of the everyday habits with the most consistent evidence for supporting memory, sleep and regular physical activity have more robust support than any single brain-training exercise — exercises are a reasonable complement to those habits, not a replacement for them."
+        ],
+        "es": [
+          "«Memoria» se divide en subtipos claramente distintos: recordar hacer algo más tarde, retener información brevemente mientras se resuelve un problema y recordar datos aprendidos; un ejercicio que entrena un tipo no se transfiere necesariamente a los demás.",
+          "La investigación sobre el entrenamiento cerebral en general muestra que los ejercicios mejoran de forma fiable el rendimiento en la tarea concreta entrenada, pero la evidencia de una transferencia amplia a tareas de memoria cotidianas no relacionadas es mucho más débil y discutida: una expectativa realista es mejorar en lo que se practica, no una mejora general de la memoria.",
+          "De los hábitos cotidianos con evidencia más consistente a favor de la memoria, el sueño y la actividad física regular cuentan con respaldo más sólido que cualquier ejercicio de entrenamiento cerebral concreto: los ejercicios son un complemento razonable de esos hábitos, no un sustituto."
+        ],
+        "fr": [
+          "La « mémoire » se divise en sous-types nettement différents : se souvenir de faire quelque chose plus tard, retenir brièvement une information en résolvant un problème, et se rappeler des faits appris ; un exercice qui entraîne un type ne se transfère pas nécessairement aux autres.",
+          "La recherche sur l'entraînement cérébral montre globalement que les exercices améliorent de façon fiable la performance sur la tâche spécifiquement entraînée, mais les preuves d'un transfert large vers des tâches de mémoire quotidiennes non liées sont bien plus faibles et contestées : une attente réaliste est de progresser sur ce qu'on pratique, pas une amélioration générale de la mémoire.",
+          "Parmi les habitudes quotidiennes les mieux étayées pour soutenir la mémoire, le sommeil et l'activité physique régulière disposent d'un soutien plus solide qu'aucun exercice d'entraînement cérébral pris isolément : les exercices sont un complément raisonnable à ces habitudes, pas un substitut."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Memory is not one thing",
+            "body": "The practical difference between remembering to do something later (prospective memory), holding something briefly in mind (working memory), and recalling learned information — different exercise types on this site target different ones."
+          },
+          {
+            "heading": "What brain-training exercises can realistically do",
+            "body": "Practice improves the specific skill practiced; this is a reason to pick exercises matching your actual goal rather than assuming any exercise helps everything equally."
+          }
+        ],
+        "es": [
+          {
+            "heading": "La memoria no es una sola cosa",
+            "body": "La diferencia práctica entre recordar hacer algo más tarde (memoria prospectiva), retener algo brevemente en la mente (memoria de trabajo) y recordar información aprendida: distintos tipos de ejercicios en este sitio se dirigen a cada una."
+          },
+          {
+            "heading": "Qué pueden hacer realmente los ejercicios de entrenamiento cerebral",
+            "body": "La práctica mejora la habilidad concreta que se practica; por eso conviene elegir ejercicios que encajen con el objetivo real en lugar de asumir que cualquier ejercicio ayuda por igual en todo."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "La mémoire n'est pas une seule chose",
+            "body": "La différence pratique entre se souvenir de faire quelque chose plus tard (mémoire prospective), retenir brièvement une information (mémoire de travail) et se rappeler des informations apprises — différents types d'exercices sur ce site ciblent chacune d'elles."
+          },
+          {
+            "heading": "Ce que les exercices d'entraînement cérébral peuvent réellement faire",
+            "body": "La pratique améliore la compétence spécifiquement pratiquée ; c'est une raison de choisir des exercices adaptés à votre objectif réel plutôt que de supposer qu'un exercice aide également en tout."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Someone who wants to stop missing appointments needs a very different practice than someone who wants to retain what they read in a book — the same generic \"memory exercise\" won't equally serve both goals."
+        ],
+        "es": [
+          "Alguien que quiere dejar de faltar a citas necesita una práctica muy distinta de alguien que quiere retener lo que lee en un libro: el mismo «ejercicio de memoria» genérico no servirá igual para ambos objetivos."
+        ],
+        "fr": [
+          "Une personne qui veut arrêter de manquer des rendez-vous a besoin d'une pratique très différente de celle qui veut retenir ce qu'elle lit dans un livre — le même « exercice de mémoire » générique ne servira pas également les deux objectifs."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Which type of memory exercise should I start with?",
+            "a": "It depends on your actual goal — remembering appointments and tasks calls for prospective-memory and reminder-habit practice, while retaining facts or reading calls for recall-and-review practice; picking based on your specific problem works better than a generic starting point."
+          },
+          {
+            "q": "Will these exercises make my memory better in general?",
+            "a": "The most consistent evidence is that practice improves the specific skill practiced; broader transfer to unrelated everyday memory tasks is less well supported, so exercises work best paired with sleep and physical activity, not as a stand-alone fix."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Con qué tipo de ejercicio de memoria debería empezar?",
+            "a": "Depende de su objetivo real: recordar citas y tareas requiere práctica de memoria prospectiva y hábitos de recordatorio, mientras que retener datos o lecturas requiere práctica de recuerdo y repaso; elegir según el problema concreto funciona mejor que un punto de partida genérico."
+          },
+          {
+            "q": "¿Estos ejercicios mejorarán mi memoria en general?",
+            "a": "La evidencia más consistente indica que la práctica mejora la habilidad concreta practicada; la transferencia más amplia a tareas de memoria cotidianas no relacionadas tiene menos respaldo, así que los ejercicios funcionan mejor junto con el sueño y la actividad física, no como solución aislada."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Par quel type d'exercice de mémoire devrais-je commencer ?",
+            "a": "Cela dépend de votre objectif réel : se souvenir de rendez-vous et de tâches demande une pratique de mémoire prospective et d'habitudes de rappel, tandis que retenir des faits ou des lectures demande une pratique de rappel et de révision ; choisir selon votre problème spécifique fonctionne mieux qu'un point de départ générique."
+          },
+          {
+            "q": "Ces exercices amélioreront-ils ma mémoire en général ?",
+            "a": "Les preuves les plus solides indiquent que la pratique améliore la compétence spécifiquement pratiquée ; le transfert plus large vers des tâches de mémoire quotidiennes non liées est moins bien étayé, donc les exercices fonctionnent mieux associés au sommeil et à l'activité physique, pas comme solution isolée."
+          }
+        ]
+      }
+    },
+    "brain-exercises-for-adhd-adults": {
+      "sectionHeading": {
+        "en": "Why session format matters more here",
+        "es": "Por qué el formato de las sesiones importa más aquí",
+        "fr": "Pourquoi le format des séances compte davantage ici"
+      },
+      "uniqueStatements": {
+        "en": [
+          "A common practical challenge with sustained-attention exercises for ADHD-style attention patterns is that traditional long, unbroken practice sessions are often the hardest format to stick with — shorter, higher-frequency practice tends to be more sustainable and is a better fit for how attention naturally fluctuates.",
+          "Novelty and immediate feedback measurably affect engagement with a task for ADHD-style attention — a task that changes or provides quick feedback tends to hold attention longer than a long, unchanging repetitive one, worth factoring into which exercises are realistic to stick with.",
+          "ADHD-style attention difficulty commonly overlaps with sleep timing and quality; addressing sleep is frequently a meaningful, evidence-supported lever alongside any specific attention exercise, not a separate unrelated issue."
+        ],
+        "es": [
+          "Un reto práctico habitual con los ejercicios de atención sostenida para patrones de atención tipo TDAH es que las sesiones largas e ininterrumpidas suelen ser el formato más difícil de mantener; la práctica más corta y frecuente tiende a ser más sostenible y encaja mejor con cómo fluctúa la atención de forma natural.",
+          "La novedad y la retroalimentación inmediata afectan de forma medible la implicación con una tarea en patrones de atención tipo TDAH: una tarea que cambia o da retroalimentación rápida suele mantener la atención más tiempo que una larga y repetitiva sin cambios, algo a tener en cuenta al elegir ejercicios realistas de mantener.",
+          "La dificultad de atención tipo TDAH suele superponerse con el horario y la calidad del sueño; abordar el sueño suele ser una palanca significativa y respaldada por evidencia junto con cualquier ejercicio de atención específico, no un asunto aparte sin relación."
+        ],
+        "fr": [
+          "Un défi pratique courant avec les exercices d'attention soutenue pour les profils attentionnels de type TDAH est que les longues séances ininterrompues traditionnelles sont souvent le format le plus difficile à tenir dans la durée ; une pratique plus courte et plus fréquente tend à être plus durable et mieux adaptée à la façon dont l'attention fluctue naturellement.",
+          "La nouveauté et le retour immédiat influencent de façon mesurable l'engagement dans une tâche pour l'attention de type TDAH : une tâche qui change ou donne un retour rapide tend à retenir l'attention plus longtemps qu'une tâche longue, répétitive et inchangée — à prendre en compte pour choisir des exercices réalistes à tenir dans la durée.",
+          "Les difficultés attentionnelles de type TDAH recoupent souvent le rythme et la qualité du sommeil ; agir sur le sommeil est souvent un levier significatif et étayé par des données probantes, en plus de tout exercice d'attention spécifique, et non une question distincte sans lien."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why session length and format matter more here than for generic focus training",
+            "body": "Shorter, varied, feedback-rich sessions are more realistic and sustainable than one long uniform session, matching how ADHD-style attention tends to fluctuate."
+          },
+          {
+            "heading": "Sleep as part of the picture, not a side note",
+            "body": "Timing and consistency of sleep is one of the more actionable, evidence-supported factors alongside attention exercises specifically for this population."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué la duración y el formato de la sesión importan más aquí que en un entrenamiento genérico de concentración",
+            "body": "Las sesiones más cortas, variadas y con retroalimentación son más realistas y sostenibles que una única sesión larga y uniforme, en línea con cómo tiende a fluctuar la atención tipo TDAH."
+          },
+          {
+            "heading": "El sueño como parte del panorama, no como nota al margen",
+            "body": "El horario y la constancia del sueño son uno de los factores más prácticos y respaldados por evidencia junto con los ejercicios de atención específicamente para este grupo."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi la durée et le format des séances comptent plus ici que pour un entraînement de concentration générique",
+            "body": "Des séances plus courtes, variées et riches en retours sont plus réalistes et durables qu'une longue séance uniforme, en phase avec la façon dont l'attention de type TDAH tend à fluctuer."
+          },
+          {
+            "heading": "Le sommeil comme élément central, pas comme remarque annexe",
+            "body": "Le rythme et la régularité du sommeil sont l'un des leviers les plus concrets et étayés par des données probantes, en complément des exercices d'attention spécifiquement pour ce public."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Someone who can't sustain a single 20-minute focus exercise might do well with four separate 5-minute sessions spread through the day instead — same total practice time, a format more realistic to actually complete."
+        ],
+        "es": [
+          "Alguien que no puede mantener un solo ejercicio de concentración de 20 minutos podría rendir mejor con cuatro sesiones separadas de 5 minutos repartidas a lo largo del día: el mismo tiempo total de práctica, en un formato más realista de completar."
+        ],
+        "fr": [
+          "Une personne incapable de tenir un seul exercice de concentration de 20 minutes pourrait mieux réussir avec quatre séances séparées de 5 minutes réparties dans la journée — le même temps de pratique total, dans un format plus réaliste à réellement mener à bien."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Why do short sessions work better for me than long ones?",
+            "a": "Attention naturally fluctuates, and for ADHD-style attention patterns specifically, shorter and more frequent practice tends to be easier to sustain and complete than a single long session, even though total practice time can be the same either way."
+          },
+          {
+            "q": "Is this a treatment for ADHD?",
+            "a": "No — these are educational practice exercises, not a diagnosis or treatment; a clinician is the right resource for evaluation or a treatment plan, and these exercises are a complement to, not a substitute for, that care."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Por qué me funcionan mejor las sesiones cortas que las largas?",
+            "a": "La atención fluctúa de forma natural, y en patrones de atención tipo TDAH en particular, la práctica más corta y frecuente suele ser más fácil de mantener y completar que una sola sesión larga, aunque el tiempo total de práctica pueda ser el mismo."
+          },
+          {
+            "q": "¿Esto es un tratamiento para el TDAH?",
+            "a": "No: son ejercicios educativos de práctica, no un diagnóstico ni un tratamiento; un profesional clínico es el recurso adecuado para una evaluación o un plan de tratamiento, y estos ejercicios complementan esa atención, no la sustituyen."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Pourquoi les séances courtes fonctionnent-elles mieux pour moi que les longues ?",
+            "a": "L'attention fluctue naturellement, et pour les profils attentionnels de type TDAH en particulier, une pratique plus courte et plus fréquente tend à être plus facile à tenir et à mener à terme qu'une seule longue séance, même si le temps de pratique total peut être identique."
+          },
+          {
+            "q": "Est-ce un traitement du TDAH ?",
+            "a": "Non : ce sont des exercices éducatifs de pratique, pas un diagnostic ni un traitement ; un clinicien est la ressource appropriée pour une évaluation ou un plan de traitement, et ces exercices complètent ces soins sans s'y substituer."
+          }
+        ]
+      }
+    },
+    "how-to-read-memory-test-results": {
+      "sectionHeading": {
+        "en": "Why a single score is a snapshot, not a measurement",
+        "es": "Por qué un solo resultado es una instantánea, no una medición",
+        "fr": "Pourquoi un score unique est un instantané, pas une mesure"
+      },
+      "uniqueStatements": {
+        "en": [
+          "A single screening score is a snapshot affected by many factors at that moment — sleep, stress, mood, unfamiliarity with the task format — so the same person could plausibly score noticeably differently on the same kind of task on two different days without any real change in underlying ability.",
+          "A screening tool's result is only meaningful relative to what that specific tool was designed to measure — a score from one type of task doesn't translate directly to a score from a different task, and informal or educational demos in particular are not equivalent to normed clinical instruments with established reference ranges.",
+          "A pattern across time — repeated results, or a clear change from a person's own earlier baseline — is more informative than any single result taken in isolation, which is why clinicians typically ask about trajectory and context, not just a single number."
+        ],
+        "es": [
+          "Un solo resultado de cribado es una instantánea afectada por muchos factores de ese momento —sueño, estrés, ánimo, familiaridad con el formato de la tarea—, así que la misma persona podría obtener resultados notablemente distintos en el mismo tipo de tarea en dos días diferentes sin que haya un cambio real en la capacidad subyacente.",
+          "El resultado de una herramienta de cribado solo tiene sentido en relación con lo que esa herramienta concreta fue diseñada para medir: un resultado de un tipo de tarea no se traduce directamente al de otra distinta, y las demostraciones informales o educativas en particular no equivalen a instrumentos clínicos normalizados con rangos de referencia establecidos.",
+          "Un patrón a lo largo del tiempo —resultados repetidos, o un cambio claro respecto a la base anterior de la propia persona— es más informativo que cualquier resultado aislado, por eso los profesionales suelen preguntar por la trayectoria y el contexto, no solo por una cifra."
+        ],
+        "fr": [
+          "Un résultat de dépistage unique est un instantané influencé par de nombreux facteurs du moment — sommeil, stress, humeur, familiarité avec le format de la tâche — de sorte que la même personne pourrait obtenir des résultats sensiblement différents sur le même type de tâche à deux jours différents sans réel changement de capacité sous-jacente.",
+          "Le résultat d'un outil de dépistage n'a de sens que par rapport à ce que cet outil précis a été conçu pour mesurer : un score obtenu sur un type de tâche ne se traduit pas directement en score sur une tâche différente, et les démonstrations informelles ou pédagogiques en particulier n'équivalent pas à des instruments cliniques normés avec des plages de référence établies.",
+          "Une tendance dans le temps — résultats répétés, ou changement net par rapport au niveau de référence antérieur de la personne — est plus informative qu'un résultat isolé pris seul, c'est pourquoi les cliniciens s'enquièrent généralement de la trajectoire et du contexte, pas seulement d'un chiffre unique."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why one score alone doesn't tell the full story",
+            "body": "Situational factors — sleep, stress, unfamiliarity with the format — can shift a single result meaningfully without reflecting any real underlying change."
+          },
+          {
+            "heading": "What actually is informative: pattern and context",
+            "body": "Comparing results to a person's own prior baseline, and pairing the number with specific real-world examples of what prompted the concern, is what gives a result practical meaning."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué un solo resultado no cuenta toda la historia",
+            "body": "Factores situacionales —sueño, estrés, familiaridad con el formato— pueden alterar de forma significativa un solo resultado sin reflejar ningún cambio real subyacente."
+          },
+          {
+            "heading": "Lo que realmente es informativo: el patrón y el contexto",
+            "body": "Comparar los resultados con la base anterior de la propia persona, y acompañar la cifra con ejemplos concretos de la vida real que motivaron la preocupación, es lo que da sentido práctico a un resultado."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi un seul score ne raconte pas toute l'histoire",
+            "body": "Des facteurs situationnels — sommeil, stress, familiarité avec le format — peuvent modifier significativement un résultat isolé sans refléter un réel changement sous-jacent."
+          },
+          {
+            "heading": "Ce qui est réellement informatif : la tendance et le contexte",
+            "body": "Comparer les résultats au niveau de référence antérieur propre à la personne, et associer le chiffre à des exemples concrets ayant motivé l'inquiétude, est ce qui donne un sens pratique à un résultat."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Scoring lower on a screening demo after a poor night's sleep, then scoring notably better on a well-rested day, illustrates why a single result is a snapshot, not a fixed measurement of ability."
+        ],
+        "es": [
+          "Obtener un resultado más bajo en una demostración de cribado tras dormir mal, y luego un resultado notablemente mejor en un día bien descansado, ilustra por qué un solo resultado es una instantánea, no una medición fija de la capacidad."
+        ],
+        "fr": [
+          "Obtenir un résultat plus faible sur une démonstration de dépistage après une mauvaise nuit de sommeil, puis un résultat nettement meilleur un jour où l'on est bien reposé, illustre pourquoi un résultat unique est un instantané, pas une mesure fixe de la capacité."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "My score seems low — does that mean something is wrong?",
+            "a": "Not necessarily — a single informal or educational screening result can be affected by sleep, stress, and unfamiliarity with the task, so a low score on its own is not a diagnosis; a pattern over time, discussed with a clinician, is what actually matters."
+          },
+          {
+            "q": "Can I compare my score to a published clinical cutoff?",
+            "a": "Generally no — educational browser demos are not the same instrument as a normed clinical test, so published clinical reference ranges usually don't directly apply; a clinician administering the actual validated instrument is the appropriate source for that kind of comparison."
+          }
+        ],
+        "es": [
+          {
+            "q": "Mi resultado parece bajo, ¿significa que algo va mal?",
+            "a": "No necesariamente: un solo resultado de cribado informal o educativo puede verse afectado por el sueño, el estrés y la familiaridad con la tarea, así que un resultado bajo por sí solo no es un diagnóstico; lo que realmente importa es un patrón a lo largo del tiempo, comentado con un profesional."
+          },
+          {
+            "q": "¿Puedo comparar mi resultado con un umbral clínico publicado?",
+            "a": "En general, no: las demostraciones educativas en el navegador no son el mismo instrumento que una prueba clínica normalizada, así que los rangos de referencia clínicos publicados normalmente no aplican de forma directa; un profesional que administre el instrumento validado real es la fuente adecuada para ese tipo de comparación."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Mon résultat semble faible, cela signifie-t-il un problème ?",
+            "a": "Pas nécessairement : un résultat de dépistage informel ou pédagogique isolé peut être influencé par le sommeil, le stress et la familiarité avec la tâche, donc un score faible en soi n'est pas un diagnostic ; ce qui compte réellement, c'est une tendance dans le temps, à discuter avec un clinicien."
+          },
+          {
+            "q": "Puis-je comparer mon résultat à un seuil clinique publié ?",
+            "a": "En général non : les démonstrations pédagogiques en ligne ne sont pas le même instrument qu'un test clinique normé, donc les plages de référence cliniques publiées ne s'appliquent généralement pas directement ; un clinicien administrant l'instrument validé réel est la source appropriée pour ce type de comparaison."
+          }
+        ]
+      }
+    },
+    "depression-memory-concentration": {
+      "sectionHeading": {
+        "en": "Cognitive symptoms as part of depression itself",
+        "es": "Los síntomas cognitivos como parte de la propia depresión",
+        "fr": "Les symptômes cognitifs comme partie intégrante de la dépression"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Concentration and memory difficulty are formally recognized as part of the symptom picture of depression itself, not just an indirect side effect — cognitive complaints can be a primary symptom prompting a depression evaluation, not only a secondary consequence of low mood.",
+          "Depression-related cognitive slowing commonly affects processing speed and sustained attention more than the ability to form new memories at all — someone may describe it as thinking through mental fog or needing more effort to concentrate, rather than not remembering things afterward.",
+          "When depression is treated, cognitive symptoms often improve alongside mood — a useful practical distinction from conditions where cognitive changes are the primary, standalone problem, part of why a clinician evaluating memory complaints typically also asks about mood and sleep."
+        ],
+        "es": [
+          "Las dificultades de concentración y memoria se reconocen formalmente como parte del propio cuadro de síntomas de la depresión, no solo como un efecto secundario indirecto: las quejas cognitivas pueden ser un síntoma principal que motive una evaluación de depresión, no solo una consecuencia secundaria del ánimo bajo.",
+          "El enlentecimiento cognitivo relacionado con la depresión suele afectar más a la velocidad de procesamiento y a la atención sostenida que a la capacidad de formar recuerdos nuevos: la persona puede describirlo como pensar entre «niebla mental» o necesitar más esfuerzo para concentrarse, más que como no recordar las cosas después.",
+          "Cuando se trata la depresión, los síntomas cognitivos suelen mejorar junto con el ánimo, una distinción práctica útil frente a condiciones donde los cambios cognitivos son el problema principal y aislado; por eso un profesional que evalúa quejas de memoria suele preguntar también por el ánimo y el sueño."
+        ],
+        "fr": [
+          "Les difficultés de concentration et de mémoire sont formellement reconnues comme faisant partie du tableau symptomatique de la dépression elle-même, pas seulement comme un effet secondaire indirect : les plaintes cognitives peuvent être un symptôme principal motivant une évaluation de la dépression, pas seulement une conséquence secondaire de l'humeur basse.",
+          "Le ralentissement cognitif lié à la dépression touche souvent davantage la vitesse de traitement et l'attention soutenue que la capacité même à former de nouveaux souvenirs : la personne peut le décrire comme penser à travers un « brouillard mental » ou avoir besoin de plus d'effort pour se concentrer, plutôt que de ne pas se souvenir des choses par la suite.",
+          "Lorsque la dépression est traitée, les symptômes cognitifs s'améliorent souvent avec l'humeur — une distinction pratique utile par rapport aux affections où les changements cognitifs sont le problème principal et isolé, ce qui explique en partie pourquoi un clinicien évaluant des plaintes de mémoire s'enquiert généralement aussi de l'humeur et du sommeil."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Cognitive symptoms as part of depression itself",
+            "body": "Concentration and memory complaints are a recognized part of depression's symptom picture, not automatically a separate, unrelated problem needing its own investigation."
+          },
+          {
+            "heading": "What the pattern often looks like",
+            "body": "Effortful, slowed thinking and difficulty concentrating tend to be more characteristic than an inability to retain new information once actually learned."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Los síntomas cognitivos como parte de la propia depresión",
+            "body": "Las quejas de concentración y memoria son una parte reconocida del cuadro de síntomas de la depresión, no automáticamente un problema aparte que requiera su propia investigación."
+          },
+          {
+            "heading": "Cómo suele verse el patrón",
+            "body": "El pensamiento lento y con esfuerzo, y la dificultad para concentrarse, suelen ser más característicos que la incapacidad de retener información nueva una vez realmente aprendida."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Les symptômes cognitifs comme partie intégrante de la dépression",
+            "body": "Les plaintes de concentration et de mémoire font partie reconnue du tableau symptomatique de la dépression, pas automatiquement un problème distinct nécessitant sa propre investigation."
+          },
+          {
+            "heading": "À quoi ressemble souvent ce schéma",
+            "body": "Une pensée laborieuse et ralentie, et des difficultés de concentration, tendent à être plus caractéristiques qu'une incapacité à retenir une information nouvelle une fois réellement apprise."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Someone who describes rereading the same paragraph several times because their mind keeps drifting, more than someone who reads it once and simply can't recall it later, is describing a pattern more consistent with concentration-and-effort difficulty than a memory-formation problem."
+        ],
+        "es": [
+          "Alguien que describe releer el mismo párrafo varias veces porque su mente sigue desviándose, más que alguien que lo lee una vez y simplemente no puede recordarlo después, está describiendo un patrón más coherente con una dificultad de concentración y esfuerzo que con un problema de formación de la memoria."
+        ],
+        "fr": [
+          "Une personne qui décrit relire le même paragraphe plusieurs fois parce que son esprit continue de vagabonder, plutôt qu'une personne qui le lit une fois et ne parvient tout simplement pas à s'en souvenir ensuite, décrit un schéma plus cohérent avec une difficulté de concentration et d'effort qu'avec un problème de formation de la mémoire."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Could my concentration problems actually be depression, not a memory problem?",
+            "a": "It's possible — concentration and memory complaints are a recognized part of depression's symptom picture, so it's worth mentioning mood and sleep changes alongside any cognitive concern when talking with a clinician."
+          },
+          {
+            "q": "If it is depression, will my memory get better with treatment?",
+            "a": "Often cognitive symptoms improve alongside mood when depression is treated, which is one reason clinicians evaluating memory complaints typically ask about mood as part of the full picture, not as a separate issue."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Podrían mis problemas de concentración deberse en realidad a la depresión, no a un problema de memoria?",
+            "a": "Es posible: las quejas de concentración y memoria son una parte reconocida del cuadro de síntomas de la depresión, así que vale la pena mencionar los cambios de ánimo y sueño junto con cualquier preocupación cognitiva al hablar con un profesional."
+          },
+          {
+            "q": "Si es depresión, ¿mejorará mi memoria con el tratamiento?",
+            "a": "A menudo los síntomas cognitivos mejoran junto con el ánimo cuando se trata la depresión, una de las razones por las que los profesionales que evalúan quejas de memoria suelen preguntar por el ánimo como parte del panorama completo, no como un asunto aparte."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Mes problèmes de concentration pourraient-ils en fait être de la dépression, pas un problème de mémoire ?",
+            "a": "C'est possible : les plaintes de concentration et de mémoire font partie reconnue du tableau symptomatique de la dépression, il vaut donc la peine de mentionner les changements d'humeur et de sommeil en plus de toute préoccupation cognitive lors d'un échange avec un clinicien."
+          },
+          {
+            "q": "Si c'est de la dépression, ma mémoire s'améliorera-t-elle avec le traitement ?",
+            "a": "Souvent, les symptômes cognitifs s'améliorent avec l'humeur lorsque la dépression est traitée, une des raisons pour lesquelles les cliniciens évaluant des plaintes de mémoire s'enquièrent généralement de l'humeur dans le cadre du tableau complet, pas comme un problème distinct."
+          }
+        ]
+      }
+    },
+    "short-term-memory-slips": {
+      "sectionHeading": {
+        "en": "Why divided attention is the most common cause",
+        "es": "Por qué la atención dividida es la causa más frecuente",
+        "fr": "Pourquoi l'attention divisée est la cause la plus fréquente"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Short-term memory slips are disproportionately common during periods of divided attention — doing two things at once, being interrupted mid-task, being preoccupied with stress — because the lapse often reflects the information never being fully encoded in the first place, not that it was learned and then lost.",
+          "A useful practical distinction is between forgetting something you were only half paying attention to when it happened, which is very common and usually not concerning, versus forgetting something you clearly focused on and engaged with at the time, a different and more specific pattern worth noting if it becomes frequent.",
+          "Simple environmental strategies — a consistent home spot for frequently misplaced items, saying a task out loud when starting it — address the divided-attention cause directly, often more effective than trying to concentrate harder after the fact."
+        ],
+        "es": [
+          "Los olvidos de memoria a corto plazo son especialmente frecuentes durante períodos de atención dividida —hacer dos cosas a la vez, ser interrumpido a mitad de una tarea, estar preocupado por el estrés— porque el olvido suele reflejar que la información nunca llegó a codificarse del todo, no que se aprendió y luego se perdió.",
+          "Una distinción práctica útil es entre olvidar algo a lo que solo prestaba media atención cuando ocurrió, algo muy frecuente y por lo general no preocupante, y olvidar algo en lo que claramente se centró y participó en ese momento, un patrón distinto y más específico que merece atención si se vuelve frecuente.",
+          "Estrategias ambientales sencillas —un lugar fijo para objetos que se pierden a menudo, decir en voz alta una tarea al empezarla— abordan directamente la causa de la atención dividida, a menudo con más eficacia que intentar concentrarse más después de los hechos."
+        ],
+        "fr": [
+          "Les trous de mémoire à court terme sont particulièrement fréquents pendant les périodes d'attention divisée — faire deux choses à la fois, être interrompu en pleine tâche, être préoccupé par le stress — car l'oubli reflète souvent le fait que l'information n'a jamais été pleinement encodée, plutôt qu'apprise puis perdue.",
+          "Une distinction pratique utile existe entre oublier quelque chose auquel on ne prêtait qu'une attention partielle au moment des faits, ce qui est très courant et généralement sans inquiétude, et oublier quelque chose sur lequel on s'était clairement concentré et engagé sur le moment, un schéma différent et plus spécifique à surveiller s'il devient fréquent.",
+          "Des stratégies environnementales simples — un emplacement fixe pour les objets fréquemment égarés, énoncer une tâche à voix haute en la commençant — s'attaquent directement à la cause liée à l'attention divisée, souvent plus efficacement que d'essayer de se concentrer davantage après coup."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "Why divided attention is the most common cause",
+            "body": "Many everyday slips happen because the information was never fully attended to in the first place, not because it was learned and then forgotten."
+          },
+          {
+            "heading": "A practical distinction worth noticing",
+            "body": "Half-attended lapses, very common, versus forgetting something you clearly focused on, a different pattern worth tracking if it becomes frequent."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Por qué la atención dividida es la causa más frecuente",
+            "body": "Muchos olvidos cotidianos ocurren porque la información nunca se atendió del todo en primer lugar, no porque se aprendiera y luego se olvidara."
+          },
+          {
+            "heading": "Una distinción práctica que vale la pena notar",
+            "body": "Los olvidos con atención parcial, muy frecuentes, frente a olvidar algo en lo que claramente se centró: un patrón distinto que vale la pena seguir si se vuelve frecuente."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Pourquoi l'attention divisée est la cause la plus fréquente",
+            "body": "De nombreux oublis quotidiens surviennent parce que l'information n'a jamais été pleinement prise en compte au départ, et non parce qu'elle a été apprise puis oubliée."
+          },
+          {
+            "heading": "Une distinction pratique à observer",
+            "body": "Les oublis avec attention partielle, très courants, contre oublier quelque chose sur lequel on s'était clairement concentré : un schéma différent à suivre s'il devient fréquent."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Not remembering where you set down your keys while thinking about something else is a divided-attention lapse; forgetting a conversation you were actively, attentively part of minutes earlier is a different kind of lapse worth paying more attention to if it recurs."
+        ],
+        "es": [
+          "No recordar dónde dejó las llaves mientras pensaba en otra cosa es un olvido por atención dividida; olvidar una conversación en la que participó activamente y con atención minutos antes es un tipo de olvido distinto, al que conviene prestar más atención si se repite."
+        ],
+        "fr": [
+          "Ne pas se souvenir où l'on a posé ses clés en pensant à autre chose est un oubli lié à l'attention divisée ; oublier une conversation à laquelle on a activement et attentivement participé quelques minutes plus tôt est un type d'oubli différent, à surveiller davantage s'il se répète."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "Is it normal to forget where I put things sometimes?",
+            "a": "Yes — this is a very common divided-attention lapse, especially when your mind is on something else at the moment you set an item down; it's a different pattern from forgetting something you were actively, attentively engaged with."
+          },
+          {
+            "q": "What's a simple way to reduce these slips?",
+            "a": "Give frequently-misplaced items one consistent 'home' location, and try briefly narrating a task out loud when you start it — both directly address the divided-attention cause rather than relying on remembering harder afterward."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Es normal olvidar a veces dónde dejo las cosas?",
+            "a": "Sí: es un olvido por atención dividida muy frecuente, sobre todo cuando la mente está en otra cosa en el momento de dejar un objeto; es un patrón distinto al de olvidar algo en lo que participó activamente y con atención."
+          },
+          {
+            "q": "¿Cuál es una forma sencilla de reducir estos olvidos?",
+            "a": "Asigne un lugar fijo a los objetos que se pierden a menudo, y pruebe a narrar brevemente en voz alta una tarea al empezarla: ambas cosas abordan directamente la causa de la atención dividida en lugar de depender de recordar con más esfuerzo después."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Est-il normal d'oublier parfois où j'ai posé mes affaires ?",
+            "a": "Oui : c'est un oubli lié à l'attention divisée très courant, surtout quand l'esprit est ailleurs au moment de poser un objet ; c'est un schéma différent d'oublier quelque chose auquel on a participé activement et avec attention."
+          },
+          {
+            "q": "Quel est un moyen simple de réduire ces oublis ?",
+            "a": "Attribuez un emplacement fixe aux objets fréquemment égarés, et essayez d'énoncer brièvement une tâche à voix haute en la commençant — les deux s'attaquent directement à la cause liée à l'attention divisée plutôt que de compter sur un effort de mémoire après coup."
+          }
+        ]
+      }
+    },
+    "brain-exercises-for-working-memory": {
+      "sectionHeading": {
+        "en": "What makes working memory a distinct skill",
+        "es": "Qué hace de la memoria de trabajo una habilidad distinta",
+        "fr": "Ce qui fait de la mémoire de travail une compétence distincte"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Working memory has a notably limited capacity — commonly estimated around three to four chunks of information held at once for most adults — a much smaller and more temporary store than long-term memory.",
+          "Drills that require actively manipulating information, such as reordering a list in your head or doing a calculation without writing it down, build working memory more effectively than drills that only require holding information still without changing it.",
+          "Working memory is the skill used in the moment for tasks like following a multi-step spoken instruction or doing mental math — a different skill from recalling something from a week or a year ago."
+        ],
+        "es": [
+          "La memoria de trabajo tiene una capacidad notablemente limitada, calculada habitualmente en unos tres o cuatro elementos de información retenidos a la vez para la mayoría de los adultos, un almacén mucho más pequeño y temporal que la memoria a largo plazo.",
+          "Los ejercicios que exigen manipular activamente la información, como reordenar una lista mentalmente o hacer un cálculo sin anotarlo, desarrollan la memoria de trabajo con más eficacia que los ejercicios que solo requieren retener la información sin modificarla.",
+          "La memoria de trabajo es la habilidad que se usa en el momento para tareas como seguir una instrucción hablada de varios pasos o hacer cálculo mental, una habilidad distinta de recordar algo de hace una semana o un año."
+        ],
+        "fr": [
+          "La mémoire de travail a une capacité notablement limitée, estimée en général à trois ou quatre éléments d'information retenus à la fois pour la plupart des adultes, une réserve bien plus petite et temporaire que la mémoire à long terme.",
+          "Les exercices qui exigent de manipuler activement l'information, comme réordonner mentalement une liste ou faire un calcul sans l'écrire, développent la mémoire de travail plus efficacement que les exercices qui demandent seulement de retenir l'information sans la modifier.",
+          "La mémoire de travail est la compétence utilisée sur le moment pour des tâches comme suivre une consigne orale à plusieurs étapes ou faire du calcul mental — une compétence différente de se rappeler quelque chose datant d'une semaine ou d'un an."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "What makes working memory different from other memory",
+            "body": "The ability to hold and briefly manipulate a small amount of information, as distinct from long-term storage and recall of things learned earlier."
+          },
+          {
+            "heading": "Manipulation drills versus simple-holding drills",
+            "body": "Actively reordering, transforming, or computing with information in your head builds working memory more than passively repeating it back unchanged."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Qué distingue a la memoria de trabajo de otros tipos de memoria",
+            "body": "La capacidad de retener y manipular brevemente una pequeña cantidad de información, a diferencia del almacenamiento y el recuerdo a largo plazo de cosas aprendidas antes."
+          },
+          {
+            "heading": "Ejercicios de manipulación frente a ejercicios de retención simple",
+            "body": "Reordenar, transformar o calcular activamente con información mentalmente desarrolla la memoria de trabajo más que repetirla pasivamente sin cambios."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Ce qui distingue la mémoire de travail des autres mémoires",
+            "body": "La capacité à retenir et à manipuler brièvement une petite quantité d'information, à la différence du stockage et du rappel à long terme de choses apprises auparavant."
+          },
+          {
+            "heading": "Exercices de manipulation contre exercices de simple rétention",
+            "body": "Réordonner, transformer ou calculer activement avec de l'information mentalement développe la mémoire de travail plus que la répéter passivement sans changement."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Following a multi-step spoken instruction — \"grab the mail, put it on the counter, then start the coffee\" — relies on working memory in the moment, a different skill from remembering what you had for dinner last week."
+        ],
+        "es": [
+          "Seguir una instrucción hablada de varios pasos —«recoge el correo, déjalo en la encimera y luego pon el café»— depende de la memoria de trabajo en el momento, una habilidad distinta de recordar qué cenó la semana pasada."
+        ],
+        "fr": [
+          "Suivre une consigne orale à plusieurs étapes — « prends le courrier, pose-le sur le comptoir, puis lance le café » — repose sur la mémoire de travail sur le moment, une compétence différente de se souvenir de ce qu'on a mangé au dîner la semaine dernière."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "What's the difference between working memory and short-term memory?",
+            "a": "The terms are often used loosely and interchangeably, but working memory specifically involves actively using or manipulating the information, not just holding it briefly in mind."
+          },
+          {
+            "q": "How much can working memory typically hold at once?",
+            "a": "A commonly cited estimate is around three to four chunks of information for most adults, though it varies from person to person and can depend on how the information is grouped."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Cuál es la diferencia entre la memoria de trabajo y la memoria a corto plazo?",
+            "a": "Los términos suelen usarse de forma laxa e intercambiable, pero la memoria de trabajo implica específicamente usar o manipular activamente la información, no solo retenerla brevemente en la mente."
+          },
+          {
+            "q": "¿Cuánta información puede retener normalmente la memoria de trabajo a la vez?",
+            "a": "Una estimación habitual es de unos tres o cuatro elementos de información para la mayoría de los adultos, aunque varía de una persona a otra y puede depender de cómo se agrupe la información."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Quelle est la différence entre la mémoire de travail et la mémoire à court terme ?",
+            "a": "Les termes sont souvent utilisés de façon vague et interchangeable, mais la mémoire de travail implique spécifiquement d'utiliser ou de manipuler activement l'information, pas seulement de la retenir brièvement en tête."
+          },
+          {
+            "q": "Combien d'informations la mémoire de travail peut-elle typiquement retenir à la fois ?",
+            "a": "Une estimation courante est d'environ trois à quatre éléments d'information pour la plupart des adultes, bien que cela varie d'une personne à l'autre et puisse dépendre de la façon dont l'information est regroupée."
+          }
+        ]
+      }
+    },
+    "how-to-plan-for-memory-evaluation": {
+      "sectionHeading": {
+        "en": "What actually helps a memory evaluation go well",
+        "es": "Qué ayuda realmente a que una evaluación de memoria vaya bien",
+        "fr": "Ce qui aide réellement une évaluation de la mémoire à bien se dérouler"
+      },
+      "uniqueStatements": {
+        "en": [
+          "Bringing a written list of specific examples — with approximate dates and situations — of memory changes is more useful to a clinician than a general description like \"my memory has been bad,\" because specific examples help distinguish patterns from one-off moments.",
+          "A memory evaluation commonly includes questions about mood, sleep, and current medications alongside cognitive tasks, since each of those can affect test performance independently of memory itself.",
+          "Bringing a companion who is familiar with day-to-day functioning can add a perspective that's often genuinely useful, since self-report alone can miss patterns the person themselves hasn't noticed."
+        ],
+        "es": [
+          "Llevar una lista escrita de ejemplos concretos —con fechas y situaciones aproximadas— de los cambios de memoria es más útil para un profesional que una descripción general como «mi memoria ha estado mal», porque los ejemplos concretos ayudan a distinguir patrones de momentos aislados.",
+          "Una evaluación de memoria suele incluir preguntas sobre el ánimo, el sueño y la medicación actual además de las tareas cognitivas, ya que cada uno de esos factores puede afectar el rendimiento en la prueba independientemente de la memoria en sí.",
+          "Llevar a un acompañante que conozca el funcionamiento diario de la persona puede aportar una perspectiva a menudo genuinamente útil, ya que el autoinforme por sí solo puede pasar por alto patrones que la propia persona no ha notado."
+        ],
+        "fr": [
+          "Apporter une liste écrite d'exemples concrets — avec des dates et des situations approximatives — de changements de mémoire est plus utile pour un clinicien qu'une description générale du type « ma mémoire a été mauvaise », car des exemples précis aident à distinguer un schéma récurrent d'un moment isolé.",
+          "Une évaluation de la mémoire comprend généralement des questions sur l'humeur, le sommeil et les médicaments en cours en plus des tâches cognitives, car chacun de ces facteurs peut influencer la performance au test indépendamment de la mémoire elle-même.",
+          "Amener un proche familier du fonctionnement quotidien de la personne peut apporter une perspective souvent réellement utile, car l'auto-évaluation seule peut manquer des schémas que la personne elle-même n'a pas remarqués."
+        ]
+      },
+      "uniqueBlocks": {
+        "en": [
+          {
+            "heading": "What's actually useful to bring",
+            "body": "A written list of specific examples, a current medication list, and relevant family history give a clinician more to work with than a general impression."
+          },
+          {
+            "heading": "What the evaluation commonly covers",
+            "body": "Cognitive tasks alongside questions about mood, sleep, and medications — a fuller picture than a single test score alone."
+          }
+        ],
+        "es": [
+          {
+            "heading": "Qué es realmente útil llevar",
+            "body": "Una lista escrita de ejemplos concretos, la lista de medicación actual y los antecedentes familiares relevantes dan al profesional más elementos que una impresión general."
+          },
+          {
+            "heading": "Qué suele cubrir la evaluación",
+            "body": "Tareas cognitivas junto con preguntas sobre el ánimo, el sueño y la medicación: un panorama más completo que un único resultado de prueba."
+          }
+        ],
+        "fr": [
+          {
+            "heading": "Ce qu'il est réellement utile d'apporter",
+            "body": "Une liste écrite d'exemples concrets, la liste des médicaments actuels et les antécédents familiaux pertinents donnent au clinicien plus d'éléments qu'une impression générale."
+          },
+          {
+            "heading": "Ce que l'évaluation couvre généralement",
+            "body": "Des tâches cognitives accompagnées de questions sur l'humeur, le sommeil et les médicaments — un tableau plus complet qu'un seul résultat de test."
+          }
+        ]
+      },
+      "examples": {
+        "en": [
+          "Instead of saying \"I've been forgetful,\" writing down \"forgot my granddaughter's name for a few seconds during her birthday call, three weeks ago\" gives a clinician something concrete to work with."
+        ],
+        "es": [
+          "En lugar de decir «he estado olvidadizo», anotar «olvidé el nombre de mi nieta durante unos segundos en su llamada de cumpleaños, hace tres semanas» le da al profesional algo concreto con lo que trabajar."
+        ],
+        "fr": [
+          "Plutôt que de dire « j'ai été distrait dernièrement », noter « j'ai oublié le prénom de ma petite-fille pendant quelques secondes lors de son appel d'anniversaire, il y a trois semaines » donne au clinicien un élément concret à exploiter."
+        ]
+      },
+      "topicFaqs": {
+        "en": [
+          {
+            "q": "What should I bring to a memory evaluation appointment?",
+            "a": "A written list of specific examples of memory changes, a current medication list, relevant family history, and ideally a companion familiar with your day-to-day functioning."
+          },
+          {
+            "q": "Will I get results the same day?",
+            "a": "It varies by clinic and evaluation type — some initial screenings give a same-day impression, while more thorough evaluations often take longer to score and discuss in detail."
+          }
+        ],
+        "es": [
+          {
+            "q": "¿Qué debo llevar a una cita de evaluación de memoria?",
+            "a": "Una lista escrita de ejemplos concretos de los cambios de memoria, la lista de medicación actual, los antecedentes familiares relevantes y, si es posible, un acompañante familiarizado con su funcionamiento diario."
+          },
+          {
+            "q": "¿Recibiré los resultados el mismo día?",
+            "a": "Depende de la clínica y del tipo de evaluación: algunos cribados iniciales dan una impresión el mismo día, mientras que las evaluaciones más completas suelen tardar más en puntuarse y comentarse en detalle."
+          }
+        ],
+        "fr": [
+          {
+            "q": "Que dois-je apporter à un rendez-vous d'évaluation de la mémoire ?",
+            "a": "Une liste écrite d'exemples concrets de changements de mémoire, la liste des médicaments actuels, les antécédents familiaux pertinents et, idéalement, un proche familier de votre fonctionnement quotidien."
+          },
+          {
+            "q": "Aurai-je les résultats le jour même ?",
+            "a": "Cela varie selon la clinique et le type d'évaluation : certains dépistages initiaux donnent une impression le jour même, tandis que les évaluations plus approfondies prennent souvent plus de temps à noter et à commenter en détail."
+          }
+        ]
+      }
+    }
+  }
+}
