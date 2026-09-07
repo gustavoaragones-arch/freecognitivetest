@@ -209,6 +209,21 @@
       "source": "/brain-exercises-for-focus/",
       "destination": "/brain-exercises/attention-and-focus/",
       "permanent": true
+    },
+    {
+      "source": "/how-to-build-a-sleep-wind-down/",
+      "destination": "/how-to-sleep-better-for-memory/",
+      "permanent": true
+    },
+    {
+      "source": "/es/rutina-descanso-memoria/",
+      "destination": "/es/dormir-mejor-memoria/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/routine-soir-memoire/",
+      "destination": "/fr/mieux-dormir-memoire/",
+      "permanent": true
     }
   ]
 }

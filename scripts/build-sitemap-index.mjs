@@ -28,6 +28,11 @@ const SITEMAP_EXCLUDE = new Set([
   "/brain-exercises-for-financial-task-focus/",
   "/brain-exercises-for-travel-planning-focus/",
   "/brain-exercises-for-focus/",
+  /* CONTENT-08B Track C: consolidated into /how-to-sleep-better-for-memory/
+     (and its ES/FR survivors) during CONTENT-08B; redirects.json has the 301s. */
+  "/how-to-build-a-sleep-wind-down/",
+  "/es/rutina-descanso-memoria/",
+  "/fr/routine-soir-memoire/",
   "/es/prueba-mini-cog/",
   "/es/prueba-mini-cog",
   "/es/test-dibujo-reloj/",

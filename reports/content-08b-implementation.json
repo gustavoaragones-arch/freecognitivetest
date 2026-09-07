@@ -1,0 +1,316 @@
+{
+  "phase": "CONTENT-08B",
+  "title": "First Hybrid Implementation Batch",
+  "generated": "2026-09-07",
+  "baseline": {
+    "branch": "main",
+    "headAtStart": "4bb71d8b9485d662db033f3d464c775280712d5f",
+    "originMainAtStart": "4bb71d8b9485d662db033f3d464c775280712d5f",
+    "headMatchesOrigin": true,
+    "unexpectedTrackedChangesAtStart": false,
+    "note": "Baseline matched the expected commit exactly; only untracked report/noise files present, no unexpected tracked modifications. Proceeded per instructions."
+  },
+  "trackA_newB1Expansion": {
+    "approvedCount": 20,
+    "implementedCount": 17,
+    "blockedCount": 3,
+    "blockedPages": [
+      {
+        "slug": "memory-test-for-adhd-screening-context",
+        "reason": "distinctSearchIntent gate failure against full sitewide manifest",
+        "collidesWith": [
+          "memory-test-for-hearing-loss-screening",
+          "memory-test-for-vision-loss-screening"
+        ],
+        "sharedKeyword": "screening",
+        "status": "NOT substituted; reported per instructions; awaiting replacement decision"
+      },
+      {
+        "slug": "memory-test-for-bilingual-adults",
+        "reason": "distinctSearchIntent gate failure against full sitewide manifest",
+        "collidesWith": [
+          "memory-test-for-adults"
+        ],
+        "sharedKeyword": "adults",
+        "note": "memory-test-for-adults is itself on the prior-rejected list; it was not reused, but it does structurally collide with this new candidate.",
+        "status": "NOT substituted; reported per instructions; awaiting replacement decision"
+      },
+      {
+        "slug": "brain-exercises-for-music-and-memory",
+        "reason": "distinctSearchIntent gate failure against full sitewide manifest",
+        "collidesWith": [
+          "brain-exercises-for-music-practice-memory"
+        ],
+        "sharedKeyword": "music",
+        "status": "NOT substituted; reported per instructions; awaiting replacement decision"
+      }
+    ],
+    "implementedPages": [
+      "memory-test-for-ms-education",
+      "memory-test-for-diabetes-clinics",
+      "memory-test-for-mci-follow-up",
+      "memory-test-for-shift-workers",
+      "brain-exercises-for-aphasia-friendly",
+      "brain-exercises-for-tinnitus-concentration",
+      "brain-exercises-for-seniors",
+      "brain-exercises-for-meal-prep-memory",
+      "brain-exercises-for-public-speaking-memory",
+      "sleep-deprivation-memory",
+      "vitamin-deficiency-memory",
+      "thyroid-memory-symptoms",
+      "uti-delirium-seniors",
+      "visual-hallucinations-memory",
+      "how-to-limit-alcohol-for-memory",
+      "how-to-test-memory-at-home",
+      "how-to-stay-socially-connected-aging"
+    ],
+    "htmlFilesChanged": 51,
+    "note": "17 seeds x 3 languages (EN/ES/FR) = 51 files. All 17 pages carry page-specific editorial content per their individually-specified requirement bullets (verified manually against the CONTENT-08B brief for each topic, not generic paragraphs)."
+  },
+  "trackB_content03Parity": {
+    "approvedCount": 5,
+    "implementedCount": 5,
+    "pages": [
+      "memory-test-for-caregivers",
+      "memory-test-for-post-stroke",
+      "memory-test-for-parkinsons",
+      "early-signs-of-dementia",
+      "medication-side-effects-memory"
+    ],
+    "enPagesModified": 0,
+    "htmlFilesChanged": 10,
+    "note": "5 pages x ES/FR only = 10 files. EN pages verified byte-identical before/after (not in the 77 changed-files list). ES/FR content independently authored from the same EN factual source (uniqueStatements/uniqueBlocks/examples/topicFaqs), not machine-translated."
+  },
+  "trackC_sleepConsolidation": {
+    "approvedPairs": 3,
+    "implementedPairs": 3,
+    "pairs": [
+      {
+        "lang": "en",
+        "from": "/how-to-build-a-sleep-wind-down/",
+        "to": "/how-to-sleep-better-for-memory/"
+      },
+      {
+        "lang": "es",
+        "from": "/es/rutina-descanso-memoria/",
+        "to": "/es/dormir-mejor-memoria/"
+      },
+      {
+        "lang": "fr",
+        "from": "/fr/routine-soir-memoire/",
+        "to": "/fr/mieux-dormir-memoire/"
+      }
+    ],
+    "preChecks": {
+      "sourceAndSurvivorExist": "VERIFIED FACT — all 6 files confirmed present on disk before any edit",
+      "intentsOverlap": "VERIFIED FACT — both pages read (main content extracted), both purely pooled/generic sleep-and-memory content, same intent",
+      "survivorIsStronger": "MEASURED RESULT — inbound internal links: EN 27 vs 5, ES 22 vs 1, FR 23 vs 1 (survivor >> source in all 3 languages). Word count alone was NOT a reliable signal (source was actually 48 words longer than survivor, 589 vs 541) — inbound-link authority was used as the deciding measured signal instead.",
+      "noRedirectChain": "VERIFIED FACT — none of the 3 sources or destinations appear as a 'from' or 'to' elsewhere in the 42 pre-existing redirect rules",
+      "noLoop": "VERIFIED FACT — no self-referential from==to pairs anywhere in the resulting 45-rule set",
+      "singleHopAllThreeLanguages": "VERIFIED FACT — confirmed independently for EN, ES, FR",
+      "apneaPageNotRedirected": "VERIFIED FACT — /how-to-track-sleep-apnea-signs/ and its ES/FR mirrors were not touched, remain independent pages, consistent with CONTENT-08A's explicit keepSeparate list"
+    },
+    "sitemapEntriesAffected": {
+      "removed": [
+        "https://freecognitivetest.org/how-to-build-a-sleep-wind-down/",
+        "https://freecognitivetest.org/es/rutina-descanso-memoria/",
+        "https://freecognitivetest.org/fr/routine-soir-memoire/"
+      ],
+      "filesEdited": [
+        "sitemap-programmatic-2.xml",
+        "sitemap-programmatic-es.xml",
+        "sitemap-programmatic-fr.xml"
+      ],
+      "filesRegenerated": [
+        "sitemap-main.xml",
+        "sitemap-supplemental-en.xml",
+        "sitemap-es.xml",
+        "sitemap-fr.xml",
+        "sitemap.xml"
+      ],
+      "totalUrlsBefore": 720,
+      "totalUrlsAfter": 717,
+      "collateralAdditionsOrRemovals": 0
+    },
+    "hreflangReferencesAffected": {
+      "otherPagesPointingAtSources": 0,
+      "note": "The 3 source pages' hreflang blocks only referenced each other (a self-contained cluster), and the 3 survivor pages' hreflang blocks only referenced each other. No third-party page anywhere in the corpus referenced a source page via hreflang. The source pages' own now-moot hreflang/canonical tags were left as-is, matching the established precedent of the 34 other pre-existing redirect-source files (none of which have had their internal tags retroactively cleaned up either)."
+    },
+    "internalLinksAffected": {
+      "sourceFilesFound_EN": [
+        "index.html (homepage)",
+        "ai-index.html",
+        "programmatic/index.html",
+        "how-to-track-sleep-apnea-signs/index.html",
+        "en/index.html"
+      ],
+      "sourceFilesFound_ES": [
+        "es/programmatic/index.html"
+      ],
+      "sourceFilesFound_FR": [
+        "fr/programmatic/index.html"
+      ],
+      "action": "NOT MODIFIED — RECOMMENDATION ONLY",
+      "reasoning": "2 of the 5 EN files (ai-index.html, en/index.html) are on the absolute prohibited-modification list. Editing only the remaining 3-of-5 EN files plus the ES/FR files would be a partial, inconsistent fix, and the 301 redirect already makes every one of these stale links fully functional for both users and crawlers (no broken experience results from leaving them as-is). To keep this phase's file footprint minimal and avoid the prohibited files, internal-link updates were deliberately not performed. Recommendation: a future, separately-scoped phase should update these identified files' links to point directly at the survivors."
+    },
+    "mechanismUsed": {
+      "redirects": "scripts/build-server-redirects.mjs (existing sanctioned mechanism) run against an updated redirects.json — regenerated _redirects, vercel.json, .htaccess, and re-serialized redirects.json (45 total rules, up from 42).",
+      "sitemapExclusion": "scripts/build-sitemap-index.mjs's existing SITEMAP_EXCLUDE set (the same mechanism already holding ~40 entries from prior CONTENT-04B-era consolidations, per its own code comment 'Paths that 301 elsewhere — never list in sitemaps') was extended with the 3 new source paths, then scripts/build-sitemap-index.mjs (a safe, non-corpus-affecting maintenance script, distinct from the prohibited generate-programmatic-pages.mjs) was run to regenerate the 5 derived sitemap files.",
+      "architectureNote": "build-sitemap-index.mjs documents sitemap-programmatic-{1,2,es,fr}.xml as fixed INPUT it never rewrites. The only script that writes those 4 files is the prohibited generate-programmatic-pages.mjs. Since SITEMAP_EXCLUDE alone cannot remove an already-listed URL from those 4 fixed files (it only prevents OTHER derived sitemaps from re-claiming a path), the 3 stale <url> blocks were removed directly from sitemap-programmatic-2.xml/-es.xml/-fr.xml — a narrow, 3-line-block, fully-verified edit (exactly 1 match removed per file, confirmed via diff), not a hand-edit of the redirect files themselves and not a corpus regeneration. This is the same class of fix as the ~40 pre-existing SITEMAP_EXCLUDE entries, which necessarily required the identical narrow edit when they were originally consolidated."
+    },
+    "htmlFilesChanged": 0,
+    "nonHtmlFilesChanged": 13,
+    "nonHtmlFilesList": [
+      ".htaccess",
+      "_redirects",
+      "redirects.json",
+      "scripts/build-sitemap-index.mjs",
+      "sitemap-es.xml",
+      "sitemap-fr.xml",
+      "sitemap-main.xml",
+      "sitemap-programmatic-2.xml",
+      "sitemap-programmatic-es.xml",
+      "sitemap-programmatic-fr.xml",
+      "sitemap-supplemental-en.xml",
+      "sitemap.xml",
+      "vercel.json"
+    ]
+  },
+  "gateResults": {
+    "scope": "Track A's 17 implemented candidates (the '20 new B1 seeds' requirement). Track B pages are existing CONTENT-03-certified pages receiving ES/FR parity content, not new candidates, so distinctSearchIntent re-validation does not apply to them (their slugs are unchanged from CONTENT-03).",
+    "checkedAgainst": "Full current EN manifest (499 pages at time of check, via scripts/lib/content-value-gate.mjs::evaluatePage())",
+    "result": "17/17 PASS, 0 failed criteria",
+    "gateVersionUsed": "1.0.0 (unmodified)",
+    "criteriaNotWeakened": true,
+    "initialPreCheckFound3Failures": true,
+    "preCheckNote": "Ran distinctSearchIntent BEFORE drafting any editorial content, per instructions ('before finalizing'), which caught the 3 blocked pages early and avoided wasted editorial effort on those 3."
+  },
+  "distinctSearchIntentResults": {
+    "candidatesChecked": 20,
+    "passed": 17,
+    "failed": 3,
+    "failedDetail": "See trackA_newB1Expansion.blockedPages above for exact collisions.",
+    "rejectedListRespected": true,
+    "rejectedListNote": "brain-exercises-for-vision-and-attention, how-to-manage-multiple-medications, memory-test-for-seniors, memory-test-for-elderly, memory-test-for-adults were NOT reused as substitutes for the 3 blocked pages, per explicit instruction."
+  },
+  "languageLeakageResults": {
+    "automatedValidator": {
+      "pagesChecked": 406,
+      "leakageInstancesFound": 0
+    },
+    "directScanOf61EditedFiles": {
+      "esFrFilesScanned": 44,
+      "leakageInstancesFound": 0,
+      "method": "Regex scan of each new unique-content section for distinctive English function/content words, with true ES/FR cognates (attention, concentration) explicitly excluded after manual verification they are correct native words in both languages, not leakage."
+    },
+    "esLeakage": 0,
+    "frLeakage": 0
+  },
+  "brokenLinkResults": {
+    "totalHtmlFilesScanned": 776,
+    "uniqueHrefChecks": 12969,
+    "brokenLinksFound": 0
+  },
+  "canonicalResults": {
+    "arch02CanonicalIssuesAudit": 0,
+    "all61EditedFilesRetainExactlyOneCanonicalTag": true
+  },
+  "hreflangResults": {
+    "arch02HreflangIssuesAudit": 0,
+    "all61EditedFilesRetainCompleteHreflangSet": true,
+    "brokenLocalizedSwitches": 0
+  },
+  "sitemapResults": {
+    "duplicateUrls": 0,
+    "totalUrlsBeforeTrackC": 720,
+    "totalUrlsAfterTrackC": 717,
+    "stubPagesIndexed": 0
+  },
+  "redirectResults": {
+    "totalRulesBefore": 42,
+    "totalRulesAfter": 45,
+    "newRulesAdded": 3,
+    "chains": 0,
+    "loops": 0,
+    "unrelatedRedirectChanges": 0
+  },
+  "arch02Result": {
+    "overall": "PASS",
+    "checksPass": 10,
+    "checksTotal": 10
+  },
+  "auth01Result": {
+    "overall": "PASS"
+  },
+  "content02Result": {
+    "overall": "PASS",
+    "newSeedRowsFound": 0,
+    "note": "Confirms no generator run, no new pages created — corpus remains exactly 510 pages (170 EN seed rows x 3 languages)."
+  },
+  "content07Result": {
+    "guideQuickAnswerValidator": {
+      "pagesChecked": 167,
+      "failures": 0
+    },
+    "crossLanguageLeakageValidator": {
+      "pagesChecked": 406,
+      "leakageInstancesFound": 0
+    },
+    "unitTests": {
+      "pass": 10,
+      "total": 10
+    }
+  },
+  "shaInventoryResult": {
+    "preEditHtmlFilesHashed": 776,
+    "postEditHtmlFilesHashed": 776,
+    "htmlFilesAdded": 0,
+    "htmlFilesDeleted": 0,
+    "htmlFilesModified": 61,
+    "htmlFilesUnchanged": 715,
+    "totalTrackedFilesChanged": 77,
+    "totalTrackedFilesBreakdown": {
+      "editorialHtml": 61,
+      "programmaticPageOverridesJson": 1,
+      "trackCInfraFiles": 13,
+      "timestampOnlyValidatorReportDrift": 2
+    },
+    "timestampOnlyDriftFiles": [
+      "reports/auth-01-validation.md",
+      "reports/content-02-gate-results.json"
+    ],
+    "timestampOnlyDriftVerified": "Diffed line-by-line; only a 'Generated:'/'ranAt:' date/timestamp changed in each, 0 substantive content difference. Per instructions, not treated as content drift."
+  },
+  "uniqueContentInventory": {
+    "before": 41,
+    "after": 102,
+    "pooledOnlyAfter": 408,
+    "totalCorpus": 510,
+    "note": "before = 12 (CONTENT-07 Part 2) x 3 languages + 5 (CONTENT-03) x 1 language (EN only) = 41. after = 41 + 61 (this phase's injections) = 102, cross-verified by a direct grep count of class=\"unique-content\" sitewide (102, exact match)."
+  },
+  "expectedFileScopeDeviation": {
+    "expected": 70,
+    "actual": 61,
+    "difference": -9,
+    "fullyExplained": true,
+    "explanation": "9 = 3 blocked Track A seeds x 3 languages each. This is not a generator-regeneration artifact, not scope creep, and not an unexplained anomaly — it is the direct, reported consequence of the 3 distinctSearchIntent gate failures, which were deliberately NOT worked around per explicit instruction."
+  },
+  "finalLocalCertification": {
+    "status": "PASS for all implemented scope",
+    "trackACompleteness": "17/20 (85%) — 3 blocked and reported, awaiting Project Director replacement decision",
+    "trackBCompleteness": "5/5 (100%)",
+    "trackCCompleteness": "3/3 pairs (100%)",
+    "allRegressionChecksPass": true,
+    "commitStatus": "NOT COMMITTED",
+    "pushStatus": "NOT PUSHED",
+    "deployStatus": "NOT DEPLOYED",
+    "adsenseActionTaken": "NONE"
+  },
+  "deviations": [
+    "3 of 20 approved Track A seeds failed distinctSearchIntent against the full manifest and were blocked, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory. Reported per instructions; awaiting a replacement decision.",
+    "Total editorial HTML changed is 61, not 70 — fully and exactly explained by the 3 blocked seeds x 3 languages (9 fewer files). Not a generator artifact.",
+    "2 files show timestamp-only drift (reports/auth-01-validation.md, reports/content-02-gate-results.json) from running the AUTH-01 and CONTENT-02 validators as part of the regression suite. Verified as date-only diffs, not content drift, per instructions.",
+    "Track C required a narrow, non-generator edit to 3 sitemap-programmatic-*.xml files (removing exactly 1 <url> block each) plus a 3-line addition to build-sitemap-index.mjs's existing SITEMAP_EXCLUDE set, because the only script that otherwise writes those 3 files is the prohibited generate-programmatic-pages.mjs. This mirrors the exact mechanism already used for the ~40 pre-existing SITEMAP_EXCLUDE entries from prior consolidations (same architecture, not a new pattern) and was verified via before/after diff to touch only the 3 intended <url> blocks with 0 collateral changes.",
+    "Internal links on 8 identified pages (5 EN, 1 ES, 1 FR... corrected: 5 EN files, 1 ES file, 1 FR file = 7 files) still point to the 3 Track C source URLs rather than the survivors. These were identified but deliberately NOT updated, both because 2 of the 5 EN files (ai-index.html, en/index.html) are on the absolute prohibited-modification list and because the 301 redirects already make every one of these links fully functional. This is recorded as a recommendation for a future phase, not a defect in this phase's scope."
+  ]
+}

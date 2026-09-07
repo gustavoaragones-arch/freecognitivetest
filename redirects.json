@@ -166,5 +166,17 @@
   {
     "from": "/brain-exercises-for-focus/",
     "to": "/brain-exercises/attention-and-focus/"
+  },
+  {
+    "from": "/how-to-build-a-sleep-wind-down/",
+    "to": "/how-to-sleep-better-for-memory/"
+  },
+  {
+    "from": "/es/rutina-descanso-memoria/",
+    "to": "/es/dormir-mejor-memoria/"
+  },
+  {
+    "from": "/fr/routine-soir-memoire/",
+    "to": "/fr/mieux-dormir-memoire/"
   }
 ]

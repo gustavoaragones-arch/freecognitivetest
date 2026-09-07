@@ -42,3 +42,6 @@ RedirectMatch 301 ^/brain-exercises-for-exam-prep-focus/?$ /brain-exercises/atte
 RedirectMatch 301 ^/brain-exercises-for-financial-task-focus/?$ /brain-exercises/attention-and-focus/
 RedirectMatch 301 ^/brain-exercises-for-travel-planning-focus/?$ /brain-exercises/attention-and-focus/
 RedirectMatch 301 ^/brain-exercises-for-focus/?$ /brain-exercises/attention-and-focus/
+RedirectMatch 301 ^/how-to-build-a-sleep-wind-down/?$ /how-to-sleep-better-for-memory/
+RedirectMatch 301 ^/es/rutina-descanso-memoria/?$ /es/dormir-mejor-memoria/
+RedirectMatch 301 ^/fr/routine-soir-memoire/?$ /fr/mieux-dormir-memoire/
