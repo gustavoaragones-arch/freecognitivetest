@@ -1,0 +1,227 @@
+{
+  "phase": "TECH-03",
+  "title": "Homepage / Link-Hygiene Micro-Fix",
+  "status": "PASS",
+  "generated": "2026-09-08",
+  "baseline": {
+    "expectedHead": "5f83a1edcbb767799e46a6effac42c43a8ace856",
+    "verifiedHead": "5f83a1edcbb767799e46a6effac42c43a8ace856",
+    "verifiedOriginMain": "5f83a1edcbb767799e46a6effac42c43a8ace856",
+    "headMatchesExpected": true,
+    "headMatchesOrigin": true,
+    "preChangeWorkingTree": "Clean of tracked changes; only pre-existing untracked files present (.DS_Store, .claude/, and 5 pairs of prior-phase report files: adsense-02, content-06, content-08a, content-09, deployment-02, tech-02 — all left untouched throughout this phase)"
+  },
+  "filesChanged": {
+    "count": 7,
+    "list": [
+      "ai-index.html",
+      "en/index.html",
+      "es/programmatic/index.html",
+      "fr/programmatic/index.html",
+      "how-to-track-sleep-apnea-signs/index.html",
+      "index.html",
+      "programmatic/index.html"
+    ],
+    "withinApprovedSevenFileScope": true,
+    "filesInScopeButNotChanged": [],
+    "note": "All 7 candidate files identified by CONTENT-09 required a change; none were excluded."
+  },
+  "headingChange": {
+    "file": "index.html",
+    "line": 144,
+    "old": "<h2>SEO Expansion Hubs</h2>",
+    "new": "<h2>Explore by Topic</h2>",
+    "verified": true
+  },
+  "recentlyAddedLinkChange": {
+    "file": "index.html",
+    "line": 133,
+    "oldHref": "/how-to-build-a-sleep-wind-down/",
+    "newHref": "/how-to-sleep-better-for-memory/",
+    "anchorTextPreserved": "How to build a wind-down routine for memory",
+    "itemNotRemoved": true,
+    "note": "This is the same occurrence as mapping #1 in the eight-link table below — the homepage's stale Recently Added link IS one of the eight Track-C links, not a separate ninth change."
+  },
+  "eightLinkMappings": [
+    {
+      "n": 1,
+      "file": "index.html",
+      "line": 133,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": "Also the scoped 'Recently Added' link (item B)"
+    },
+    {
+      "n": 2,
+      "file": "ai-index.html",
+      "line": 251,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "file": "ai-index.html",
+      "line": 438,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "file": "en/index.html",
+      "line": 136,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "file": "programmatic/index.html",
+      "line": 216,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "file": "es/programmatic/index.html",
+      "line": 216,
+      "old": "/es/rutina-descanso-memoria/",
+      "new": "/es/dormir-mejor-memoria/",
+      "lang": "ES",
+      "note": ""
+    },
+    {
+      "n": 7,
+      "file": "fr/programmatic/index.html",
+      "line": 216,
+      "old": "/fr/routine-soir-memoire/",
+      "new": "/fr/mieux-dormir-memoire/",
+      "lang": "FR",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "file": "how-to-track-sleep-apnea-signs/index.html",
+      "line": 118,
+      "old": "/how-to-build-a-sleep-wind-down/",
+      "new": "/how-to-sleep-better-for-memory/",
+      "lang": "EN",
+      "note": "Anchor text ('How To Build A Sleep Wind Down') was preserved unchanged per instruction to preserve anchor text; it now names the old page while pointing at the survivor. Flagged as an observation, not corrected, since only href changes were authorized."
+    }
+  ],
+  "verificationOfEightMappings": {
+    "method": "Post-edit grep for the 3 redirect-source strings across all 7 scoped files: 0 remaining occurrences in every file. Post-edit grep for the 3 survivor strings confirms all 8 new hrefs present at their expected locations.",
+    "result": "All 8 mappings individually verified correct.",
+    "noUnintendedGlobalReplacement": "Confirmed: git diff shows exactly 9 changed lines across 7 files (index.html has 2 lines: heading + link; ai-index.html has 2 lines; the other 5 files have 1 line each = 2+2+5=9), matching the 8 link changes + 1 heading change exactly. No other href, text, or markup was touched anywhere."
+  },
+  "validationResults": {
+    "brokenInternalLinks": {
+      "result": 0,
+      "filesChecked": 774,
+      "pass": true
+    },
+    "canonicalIntegrity": {
+      "pagesWithZeroCanonical": [
+        "404.html"
+      ],
+      "pagesWithMultipleCanonical": 0,
+      "note": "404.html correctly has 0 canonical (expected/unchanged, an error page); this is not a new issue.",
+      "pass": true
+    },
+    "hreflangIntegrity": {
+      "result": "0 issues (ARCH-02 hreflang_issues_audit)",
+      "pass": true
+    },
+    "sitemapIntegrity": {
+      "totalUrls": 717,
+      "uniqueUrls": 717,
+      "duplicates": 0,
+      "sitemapFilesModified": false,
+      "pass": true
+    },
+    "redirectIntegrity": {
+      "totalRules": 45,
+      "chains": 0,
+      "loops": 0,
+      "redirectsJsonModified": false,
+      "pass": true
+    },
+    "languageLeakage": {
+      "pagesChecked": 406,
+      "leakageInstancesFound": 0,
+      "pass": true
+    },
+    "arch02": {
+      "result": "PASS",
+      "checksPass": "10/10",
+      "pass": true
+    },
+    "auth01": {
+      "result": "PASS",
+      "pass": true
+    },
+    "content02Gate": {
+      "result": "PASS",
+      "newSeedRows": 0,
+      "pass": true
+    },
+    "content07": {
+      "guideQuickAnswerValidator": {
+        "result": "PASS",
+        "pagesChecked": 167,
+        "failures": 0
+      },
+      "crossLanguageLeakageValidator": {
+        "result": "PASS",
+        "pagesChecked": 406,
+        "leakageInstances": 0
+      },
+      "unitTests": {
+        "result": "PASS",
+        "testsPass": "10/10"
+      },
+      "pass": true
+    }
+  },
+  "changeControlIncident": {
+    "occurred": true,
+    "description": "Running scripts/validate-auth01.mjs and scripts/validate-content02-gate.mjs (both required regression checks) caused their own side-effect report files (reports/auth-01-validation.md, reports/content-02-gate-results.json) to be rewritten with a new timestamp only — 0 substantive content change, confirmed by diff before reverting.",
+    "actionTaken": "Both files reverted via 'git checkout -- <file>' immediately after diff inspection. Working tree confirmed to contain only the 7 approved scoped changes afterward.",
+    "consistentWithPriorPhase": "Same incident type and same resolution as documented in CONTENT-09 Section 1."
+  },
+  "generatorRegenerationConfirmation": {
+    "generatorInvoked": false,
+    "buildProcessInvoked": false,
+    "massRewriteOccurred": false,
+    "statement": "No generator or build process was run. All 9 line changes were made via targeted, individually-verified text edits to pre-existing static HTML files."
+  },
+  "content08bEditorialContentAltered": false,
+  "canonicalHreflangSitemapRobotsRedirectArchitectureAltered": false,
+  "addedDeletedFileCount": {
+    "added": 2,
+    "addedFiles": [
+      "reports/tech-03-implementation.md",
+      "reports/tech-03-implementation.json"
+    ],
+    "deleted": 0
+  },
+  "finalState": {
+    "finalHead": "5f83a1edcbb767799e46a6effac42c43a8ace856",
+    "headUnchangedFromBaseline": true,
+    "workingTreeCleanApartFromScopedChangesAndReports": true,
+    "deploymentOccurred": false,
+    "commitOccurred": false,
+    "pushOccurred": false
+  },
+  "passFailGate": {
+    "allRequiredConditionsMet": true,
+    "classification": "PASS"
+  }
+}
