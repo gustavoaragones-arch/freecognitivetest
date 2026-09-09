@@ -556,6 +556,30 @@
       "rutinas con asistente de voz",
       "assistant-vocal-routines",
       "routines avec assistant vocal"
+    ],
+    [
+      "retirement-transition",
+      "the retirement transition",
+      "transicion-jubilacion",
+      "la transición a la jubilación",
+      "transition-retraite",
+      "la transition vers la retraite"
+    ],
+    [
+      "scam-awareness",
+      "spotting scam red flags",
+      "detectar-estafas",
+      "detectar señales de estafa",
+      "signaux-escroquerie",
+      "repérer les signaux d'escroquerie"
+    ],
+    [
+      "photography-observation",
+      "photography and observation",
+      "fotografia-observacion",
+      "fotografía y observación",
+      "photo-observation",
+      "photo et observation"
     ]
   ],
   "tests_audience": [
@@ -1434,6 +1458,22 @@
       "Cómo pedir prueba auditiva si hay fallos de memoria",
       "demander-test-auditif-memoire",
       "Demander un test auditif face aux oublis"
+    ],
+    [
+      "how-to-simplify-instructions-for-a-loved-one",
+      "How to simplify instructions for a loved one",
+      "simplificar-instrucciones-ser-querido",
+      "Cómo simplificar instrucciones para un ser querido",
+      "simplifier-consignes-proche",
+      "Comment simplifier les consignes pour un proche"
+    ],
+    [
+      "how-to-color-code-a-household-organizing-system",
+      "How to use color-coding to support memory at home",
+      "codigo-colores-hogar-memoria",
+      "Cómo usar códigos de color para organizar el hogar",
+      "code-couleur-maison-memoire",
+      "Comment utiliser un code couleur pour organiser la maison"
     ]
   ]
 }

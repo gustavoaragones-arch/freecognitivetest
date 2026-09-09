@@ -3992,6 +3992,126 @@
       "silo": "cognitive_health",
       "slug": "guide-renforcer-la-memoire-au-quotidien-p2",
       "url": "https://freecognitivetest.org/fr/guide-renforcer-la-memoire-au-quotidien-p2/"
+    },
+    {
+      "id": "p170",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-retirement-transition",
+      "url": "https://freecognitivetest.org/brain-exercises-for-retirement-transition/"
+    },
+    {
+      "id": "p170",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-transicion-jubilacion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-transicion-jubilacion/"
+    },
+    {
+      "id": "p170",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-transition-retraite",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-transition-retraite/"
+    },
+    {
+      "id": "p171",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-scam-awareness",
+      "url": "https://freecognitivetest.org/brain-exercises-for-scam-awareness/"
+    },
+    {
+      "id": "p171",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-detectar-estafas",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-detectar-estafas/"
+    },
+    {
+      "id": "p171",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-signaux-escroquerie",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-signaux-escroquerie/"
+    },
+    {
+      "id": "p172",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "brain-exercises-for-photography-observation",
+      "url": "https://freecognitivetest.org/brain-exercises-for-photography-observation/"
+    },
+    {
+      "id": "p172",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "ejercicios-cerebrales-fotografia-observacion",
+      "url": "https://freecognitivetest.org/es/ejercicios-cerebrales-fotografia-observacion/"
+    },
+    {
+      "id": "p172",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "slug": "exercices-cerveau-photo-observation",
+      "url": "https://freecognitivetest.org/fr/exercices-cerveau-photo-observation/"
+    },
+    {
+      "id": "p173",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-simplify-instructions-for-a-loved-one",
+      "url": "https://freecognitivetest.org/how-to-simplify-instructions-for-a-loved-one/"
+    },
+    {
+      "id": "p173",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "simplificar-instrucciones-ser-querido",
+      "url": "https://freecognitivetest.org/es/simplificar-instrucciones-ser-querido/"
+    },
+    {
+      "id": "p173",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "simplifier-consignes-proche",
+      "url": "https://freecognitivetest.org/fr/simplifier-consignes-proche/"
+    },
+    {
+      "id": "p174",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "how-to-color-code-a-household-organizing-system",
+      "url": "https://freecognitivetest.org/how-to-color-code-a-household-organizing-system/"
+    },
+    {
+      "id": "p174",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "codigo-colores-hogar-memoria",
+      "url": "https://freecognitivetest.org/es/codigo-colores-hogar-memoria/"
+    },
+    {
+      "id": "p174",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "slug": "code-couleur-maison-memoire",
+      "url": "https://freecognitivetest.org/fr/code-couleur-maison-memoire/"
     }
   ]
 }

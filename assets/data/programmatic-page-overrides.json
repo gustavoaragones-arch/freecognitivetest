@@ -1,5 +1,5 @@
 {
-  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20.",
+  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20. CONTENT-10B extends the same architecture with 5 Category-A candidates from CONTENT-10R (3 exercises_intent + 2 guides), each nesting content under {en, es, fr}, manifest ids p170–p174.",
   "memory-test-for-caregivers": {
     "sectionHeading": {
       "en": "Guidance specific to family caregivers",
@@ -3659,6 +3659,501 @@
         {
           "q": "Que dois-je faire si cela arrive en conduisant ?",
           "a": "Le traiter comme un événement pertinent pour la sécurité : en parler rapidement avec la personne et un clinicien, la sécurité au volant étant une préoccupation concrète et actionnable, distincte d'inquiétudes de mémoire plus générales."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-retirement-transition": {
+    "sectionHeading": {
+      "en": "Rebuilding cognitive structure after work stops",
+      "es": "Reconstruir estructura cognitiva cuando termina el trabajo",
+      "fr": "Reconstruire une structure cognitive après l'arrêt du travail"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Retirement removes the externally imposed schedule a workday provided — commute times, meeting blocks, and task-switching cues that kept attention engaged throughout the day — and that structural loss can reduce incidental cognitive engagement even when memory itself is unchanged.",
+        "The trigger here is a life transition, not age: someone retiring in their fifties faces the same structural gap as someone retiring in their seventies, which is why transition-focused practice differs from general age-based exercise pages.",
+        "Rebuilding routine cues deliberately — a fixed morning review, a weekly planning block, a social commitment on the calendar — can replace some of the external scaffolding work used to provide, without requiring a return to employment."
+      ],
+      "es": [
+        "La jubilación elimina el horario impuesto externamente que proporcionaba la jornada laboral — tiempos de desplazamiento, bloques de reuniones y señales de cambio de tarea que mantenían la atención activa — y esa pérdida estructural puede reducir el compromiso cognitivo incidental incluso cuando la memoria en sí no ha cambiado.",
+        "El desencadenante aquí es una transición vital, no la edad: alguien que se jubila a los cincuenta enfrenta el mismo vacío estructural que alguien que lo hace a los setenta, por eso la práctica centrada en la transición difiere de las páginas de ejercicios generales por edad.",
+        "Reconstruir señales de rutina de forma deliberada — una revisión matutina fija, un bloque semanal de planificación, un compromiso social en el calendario — puede reemplazar parte del andamiaje externo que el trabajo proporcionaba, sin exigir volver al empleo."
+      ],
+      "fr": [
+        "La retraite supprime l'emploi du temps imposé de l'extérieur qu'offrait une journée de travail — trajets, réunions, changements de tâche qui maintenaient l'attention engagée — et cette perte de structure peut réduire l'engagement cognitif incident même si la mémoire elle-même n'a pas changé.",
+        "Le déclencheur ici est une transition de vie, pas l'âge : quelqu'un qui prend sa retraite à cinquante ans fait face au même vide structurel que quelqu'un qui la prend à soixante-dix ans, ce qui distingue une pratique centrée sur la transition des pages d'exercices générales liées à l'âge.",
+        "Reconstruire délibérément des repères de routine — une revue matinale fixe, un créneau hebdomadaire de planification, un engagement social au calendrier — peut remplacer une partie de l'échafaudage externe que le travail fournissait, sans exiger un retour à l'emploi."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What work used to provide",
+          "body": "A typical workday supplies time anchors (start and end), social contact, and varied tasks that switch attention between different domains — all of which can support cognitive engagement without anyone labeling it 'brain exercise.'"
+        },
+        {
+          "heading": "Transition versus age",
+          "body": "This page is about the retirement transition specifically — rebuilding structure after work stops — not about cognitive practice for older adults in general, which is a different framing with different goals."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Lo que el trabajo solía proporcionar",
+          "body": "Una jornada laboral típica ofrece anclas temporales (inicio y fin), contacto social y tareas variadas que cambian la atención entre distintos dominios — todo lo cual puede apoyar el compromiso cognitivo sin que nadie lo llame «ejercicio cerebral»."
+        },
+        {
+          "heading": "Transición frente a edad",
+          "body": "Esta página trata específicamente de la transición a la jubilación — reconstruir estructura cuando termina el trabajo — no de práctica cognitiva general para adultos mayores, que es un encuadre distinto con objetivos distintos."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce que le travail apportait",
+          "body": "Une journée de travail typique fournit des repères temporels (début et fin), du contact social et des tâches variées qui font alterner l'attention entre différents domaines — tout cela peut soutenir l'engagement cognitif sans qu'on l'appelle « exercice cérébral »."
+        },
+        {
+          "heading": "Transition plutôt qu'âge",
+          "body": "Cette page porte spécifiquement sur la transition vers la retraite — reconstruire une structure quand le travail s'arrête — et non sur la pratique cognitive générale des personnes âgées, un cadrage différent avec des objectifs différents."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Someone who used to review a project list during their morning commute might replace that cue with a ten-minute daily planning block at the kitchen table — same cognitive slot, new anchor."
+      ],
+      "es": [
+        "Alguien que solía repasar una lista de proyectos durante el trayecto matutino podría reemplazar esa señal con un bloque diario de planificación de diez minutos en la mesa de la cocina — el mismo hueco cognitivo, un ancla nueva."
+      ],
+      "fr": [
+        "Quelqu'un qui passait en revue une liste de projets pendant le trajet du matin pourrait remplacer ce repère par un bloc de planification quotidien de dix minutes à la table de cuisine — le même créneau cognitif, une nouvelle ancre."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How soon after retiring should I start rebuilding structure?",
+          "a": "There is no fixed rule; some people benefit from planning transition routines before the last workday, others need a short adjustment period first. The goal is deliberate cues, not an immediate packed schedule."
+        },
+        {
+          "q": "Is this only for people who worked full-time?",
+          "a": "No. Anyone losing a major external schedule — including part-time work, self-employment, or a primary volunteer role — can face a similar structural gap and use the same rebuilding approach."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cuánto después de jubilarse debería empezar a reconstruir estructura?",
+          "a": "No hay una regla fija; algunas personas se benefician de planificar rutinas de transición antes del último día de trabajo, otras necesitan primero un breve periodo de adaptación. El objetivo son señales deliberadas, no un horario inmediatamente saturado."
+        },
+        {
+          "q": "¿Es solo para quienes trabajaban a tiempo completo?",
+          "a": "No. Cualquiera que pierda un horario externo importante — incluido trabajo a tiempo parcial, autónomo o un rol voluntario principal — puede enfrentar un vacío estructural similar y usar el mismo enfoque de reconstrucción."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Combien de temps après la retraite faut-il commencer à reconstruire une structure ?",
+          "a": "Il n'y a pas de règle fixe ; certaines personnes planifient des routines de transition avant le dernier jour de travail, d'autres ont besoin d'une courte période d'ajustement. L'objectif est des repères délibérés, pas un emploi du temps immédiatement chargé."
+        },
+        {
+          "q": "Est-ce seulement pour les personnes qui travaillaient à temps plein ?",
+          "a": "Non. Toute personne qui perd un grand calendrier externe — travail à temps partiel, indépendance ou rôle bénévole principal — peut faire face à un vide structurel similaire et utiliser la même approche de reconstruction."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-scam-awareness": {
+    "sectionHeading": {
+      "en": "Practicing vigilance for common manipulation patterns",
+      "es": "Practicar la vigilancia ante patrones de manipulación habituales",
+      "fr": "S'entraîner à repérer des schémas de manipulation courants"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Recognizing manipulation tactics — artificial urgency, unsolicited contact, requests for immediate payment or personal information — is a distinct cognitive-vigilance skill, separate from memory recall or attention-splitting exercises.",
+        "These activities build awareness of common red-flag patterns through practice scenarios; they do not prevent scams, guarantee immunity, or replace reporting suspicious contact to appropriate authorities.",
+        "Practicing skepticism in low-stakes settings — pausing before acting on an unexpected message, naming what feels unusual — can make the habit more available when a real suspicious contact arrives."
+      ],
+      "es": [
+        "Reconocer tácticas de manipulación — urgencia artificial, contacto no solicitado, peticiones de pago inmediato o información personal — es una habilidad de vigilancia cognitiva distinta del recuerdo de memoria o de los ejercicios de atención dividida.",
+        "Estas actividades desarrollan conciencia de patrones de alerta habituales mediante escenarios de práctica; no previenen estafas, no garantizan inmunidad ni sustituyen denunciar contactos sospechosos a las autoridades correspondientes.",
+        "Practicar el escepticismo en situaciones de bajo riesgo — pausar antes de actuar ante un mensaje inesperado, nombrar lo que parece inusual — puede hacer el hábito más disponible cuando llega un contacto realmente sospechoso."
+      ],
+      "fr": [
+        "Reconnaître les tactiques de manipulation — urgence artificielle, contact non sollicité, demandes de paiement immédiat ou d'informations personnelles — est une compétence de vigilance cognitive distincte du rappel mémoriel ou des exercices de partage de l'attention.",
+        "Ces activités renforcent la conscience de schémas d'alerte courants par des scénarios d'entraînement ; elles ne préviennent pas les escroqueries, ne garantissent aucune immunité et ne remplacent pas le signalement d'un contact suspect aux autorités compétentes.",
+        "Pratiquer le scepticisme dans des situations à faible enjeu — faire une pause avant d'agir sur un message inattendu, nommer ce qui semble inhabituel — peut rendre l'habitude plus accessible lorsqu'un contact réellement suspect arrive."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Awareness, not immunity",
+          "body": "Frame every exercise as building pattern-recognition skill — noticing what is unusual about a scenario — not as a shield that prevents being targeted or guarantees you will never be misled."
+        },
+        {
+          "heading": "Generic scenarios work across contexts",
+          "body": "Practice with language-neutral examples (an unexpected urgent payment request, a caller who will not let you verify their identity) rather than country-specific scam names, so the same exercises translate naturally across EN, ES, and FR readers."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Conciencia, no inmunidad",
+          "body": "Plantee cada ejercicio como desarrollo de habilidad para reconocer patrones — notar qué es inusual en un escenario — no como un escudo que impida ser objetivo o garantice que nunca se le engañará."
+        },
+        {
+          "heading": "Escenarios genéricos válidos en distintos contextos",
+          "body": "Practique con ejemplos neutros (una petición de pago urgente inesperada, una persona que no deja verificar su identidad) en lugar de nombres de estafas específicos de un país, para que los mismos ejercicios funcionen en lectores de distintos idiomas y lugares."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Conscience, pas immunité",
+          "body": "Présentez chaque exercice comme un entraînement à reconnaître des schémas — remarquer ce qui est inhabituel dans un scénario — et non comme un bouclier qui empêche d'être ciblé ou garantit qu'on ne sera jamais trompé."
+        },
+        {
+          "heading": "Des scénarios génériques valables partout",
+          "body": "Entraînez-vous avec des exemples neutres (une demande de paiement urgent inattendue, un interlocuteur qui refuse de laisser vérifier son identité) plutôt que des noms d'escroqueries propres à un pays, pour que les mêmes exercices fonctionnent naturellement en EN, ES et FR."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A practice scenario: a message claims a package fee must be paid within the hour using a link you did not request — the exercise is to name two red flags (urgency, unsolicited link) before deciding any action."
+      ],
+      "es": [
+        "Un escenario de práctica: un mensaje afirma que debe pagarse una tarifa de paquete en una hora mediante un enlace que usted no solicitó — el ejercicio consiste en nombrar dos señales de alerta (urgencia, enlace no solicitado) antes de decidir cualquier acción."
+      ],
+      "fr": [
+        "Un scénario d'entraînement : un message prétend qu'un frais de colis doit être payé dans l'heure via un lien que vous n'avez pas demandé — l'exercice consiste à nommer deux signaux d'alerte (urgence, lien non sollicité) avant toute décision."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Do these exercises protect me from being scammed?",
+          "a": "No. They are awareness-building practice only. They may help you notice common patterns faster, but they do not prevent scams or guarantee you will never be misled. Report suspicious contact to appropriate authorities."
+        },
+        {
+          "q": "Does this replace reporting a scam to authorities?",
+          "a": "No. These are educational practice activities. If you believe you have been targeted or harmed, contact the relevant reporting service or law enforcement in your area — this page does not handle reports."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Estos ejercicios me protegen de ser estafado?",
+          "a": "No. Son solo práctica para desarrollar conciencia. Pueden ayudarle a notar patrones habituales más rápido, pero no previenen estafas ni garantizan que nunca le engañen. Denuncie contactos sospechosos a las autoridades correspondientes."
+        },
+        {
+          "q": "¿Esto sustituye denunciar una estafa a las autoridades?",
+          "a": "No. Son actividades educativas de práctica. Si cree que ha sido objetivo o perjudicado, contacte el servicio de denuncias o las fuerzas de seguridad de su zona — esta página no gestiona denuncias."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Ces exercices me protègent-ils des escroqueries ?",
+          "a": "Non. Il s'agit seulement d'un entraînement à la vigilance. Ils peuvent aider à repérer plus vite des schémas courants, mais ne préviennent pas les escroqueries ni ne garantissent qu'on ne sera jamais trompé. Signalez tout contact suspect aux autorités compétentes."
+        },
+        {
+          "q": "Est-ce que cela remplace le signalement d'une escroquerie ?",
+          "a": "Non. Ce sont des activités pédagogiques d'entraînement. Si vous pensez avoir été ciblé ou lésé, contactez le service de signalement ou les forces de l'ordre de votre région — cette page ne traite pas les signalements."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-photography-observation": {
+    "sectionHeading": {
+      "en": "Using deliberate observation as an attention practice",
+      "es": "Usar la observación deliberada como práctica de atención",
+      "fr": "Utiliser l'observation délibérée comme pratique attentionnelle"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Photography and deliberate observation practice sustained visual attention and detail-noticing — what changed, what is out of place, what pattern repeats — without requiring photography skill or expensive equipment; a phone camera or even mental noting during a walk can serve the same cognitive purpose.",
+        "This is attention and observation training, not a tutorial on camera settings or a claim about improving visual acuity; the goal is noticing detail over time, not producing portfolio-quality images.",
+        "Comparing two photos of the same scene taken days apart, or listing five details you would not have noticed on first glance, turns everyday observation into a repeatable exercise format."
+      ],
+      "es": [
+        "La fotografía y la observación deliberada practican la atención visual sostenida y la detección de detalles — qué cambió, qué está fuera de lugar, qué patrón se repite — sin exigir habilidad fotográfica ni equipo caro; la cámara del teléfono o incluso anotar mentalmente durante un paseo puede cumplir el mismo propósito cognitivo.",
+        "Esto es entrenamiento de atención y observación, no un tutorial de ajustes de cámara ni una afirmación sobre mejorar la agudeza visual; el objetivo es notar detalles con el tiempo, no producir imágenes de calidad profesional.",
+        "Comparar dos fotos del mismo escenario tomadas días aparte, o listar cinco detalles que no habría notado a primera vista, convierte la observación cotidiana en un formato de ejercicio repetible."
+      ],
+      "fr": [
+        "La photo et l'observation délibérée entraînent l'attention visuelle soutenue et la détection de détails — ce qui a changé, ce qui est déplacé, quel motif se répète — sans exiger de compétence photographique ni de matériel coûteux ; l'appareil du téléphone ou même une notation mentale pendant une promenade peut remplir le même rôle cognitif.",
+        "Il s'agit d'un entraînement à l'attention et à l'observation, pas d'un tutoriel sur les réglages d'appareil ni d'une promesse d'améliorer l'acuité visuelle ; l'objectif est de remarquer des détails dans la durée, pas de produire des images de qualité portfolio.",
+        "Comparer deux photos du même lieu prises à quelques jours d'intervalle, ou lister cinq détails qu'on n'aurait pas remarqués au premier regard, transforme l'observation quotidienne en format d'exercice reproductible."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Observation, not visual acuity",
+          "body": "These exercises train what you notice and remember about a scene, not whether your eyesight meets a clinical standard. Uncorrected vision problems should be addressed separately with an eye care professional."
+        },
+        {
+          "heading": "Not a photography course",
+          "body": "No instruction on aperture, composition rules, or editing software is needed; the cognitive task is sustained attention to detail, which can be practiced with any camera or with careful looking alone."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Observación, no agudeza visual",
+          "body": "Estos ejercicios entrenan lo que nota y recuerda de una escena, no si su vista cumple un estándar clínico. Los problemas visuales no corregidos deben tratarse por separado con un profesional ocular."
+        },
+        {
+          "heading": "No es un curso de fotografía",
+          "body": "No se necesita instrucción sobre apertura, reglas de composición ni software de edición; la tarea cognitiva es la atención sostenida al detalle, practicable con cualquier cámara o solo con mirar con cuidado."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Observation, pas acuité visuelle",
+          "body": "Ces exercices entraînent ce que vous remarquez et retenez d'une scène, pas si votre vue répond à une norme clinique. Les problèmes visuels non corrigés doivent être traités séparément avec un professionnel de la vue."
+        },
+        {
+          "heading": "Pas un cours de photographie",
+          "body": "Aucune instruction sur l'ouverture, les règles de composition ou les logiciels de retouche n'est nécessaire ; la tâche cognitive est l'attention soutenue aux détails, praticable avec n'importe quel appareil ou par une observation attentive seule."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "On a daily walk, photograph the same bench or storefront each week and note one new detail in the image that you had not consciously registered before — the exercise is the noticing, not the photo quality."
+      ],
+      "es": [
+        "En un paseo diario, fotografíe el mismo banco o escaparate cada semana y anote un detalle nuevo en la imagen que no había registrado conscientemente antes — el ejercicio es la observación, no la calidad de la foto."
+      ],
+      "fr": [
+        "Lors d'une promenade quotidienne, photographiez le même banc ou la même vitrine chaque semaine et notez un détail nouveau dans l'image que vous n'aviez pas remarqué consciemment auparavant — l'exercice est l'observation, pas la qualité de la photo."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Do I need a good camera for these exercises?",
+          "a": "No. Any phone camera — or even careful observation without taking a photo — is enough. The cognitive task is noticing detail, not image quality."
+        },
+        {
+          "q": "Will this improve my eyesight?",
+          "a": "No. These exercises practice attention and detail-noticing, not clinical visual acuity. Vision changes belong in a conversation with an eye care professional."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Necesito una buena cámara para estos ejercicios?",
+          "a": "No. Cualquier cámara de teléfono — o incluso observar con cuidado sin fotografiar — basta. La tarea cognitiva es notar detalles, no la calidad de imagen."
+        },
+        {
+          "q": "¿Esto mejorará mi vista?",
+          "a": "No. Estos ejercicios practican atención y detección de detalles, no agudeza visual clínica. Los cambios de visión corresponden a una conversación con un profesional ocular."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Ai-je besoin d'un bon appareil photo pour ces exercices ?",
+          "a": "Non. N'importe quel téléphone — ou même une observation attentive sans photo — suffit. La tâche cognitive est de remarquer des détails, pas la qualité d'image."
+        },
+        {
+          "q": "Est-ce que cela améliorera ma vue ?",
+          "a": "Non. Ces exercices entraînent l'attention et la détection de détails, pas l'acuité visuelle clinique. Les changements de vision relèvent d'un professionnel de la vue."
+        }
+      ]
+    }
+  },
+  "how-to-simplify-instructions-for-a-loved-one": {
+    "sectionHeading": {
+      "en": "Giving instructions that are easier to follow without taking over",
+      "es": "Dar instrucciones más fáciles de seguir sin asumir el control",
+      "fr": "Donner des consignes plus faciles à suivre sans prendre le contrôle"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Simplifying instructions means changing how you communicate a task — one step at a time, pairing words with a gesture or visual cue — not doing the task for the person or removing their choice about whether and how to participate.",
+        "A patronizing tone often comes from rushing or stacking steps; a respectful approach pauses between steps, confirms understanding without quizzing, and leaves room for the person to ask for repetition or a slower pace.",
+        "Visual-plus-verbal pairing (pointing to the object while naming the action) reduces working-memory load compared with a long spoken list alone, which is why it helps even when the person's memory is otherwise intact on good days."
+      ],
+      "es": [
+        "Simplificar instrucciones significa cambiar cómo comunica una tarea — un paso a la vez, combinando palabras con un gesto o señal visual — no hacer la tarea por la persona ni quitarle la elección de participar o cómo hacerlo.",
+        "Un tono condescendiente suele venir de apresurarse o acumular pasos; un enfoque respetuoso hace pausas entre pasos, confirma comprensión sin interrogar y deja espacio para que la persona pida repetición o un ritmo más lento.",
+        "Combinar visual y verbal (señalar el objeto mientras nombra la acción) reduce la carga de memoria de trabajo frente a una larga lista hablada sola, por eso ayuda incluso cuando la memoria de la persona está intacta en días buenos."
+      ],
+      "fr": [
+        "Simplifier les consignes signifie changer la façon de communiquer une tâche — une étape à la fois, associer les mots à un geste ou un repère visuel — et non faire la tâche pour la personne ni retirer son choix de participer ou de la façon de le faire.",
+        "Un ton condescendant vient souvent de la précipitation ou de l'empilement des étapes ; une approche respectueuse fait des pauses entre les étapes, vérifie la compréhension sans interroger et laisse la personne demander une répétition ou un rythme plus lent.",
+        "L'association visuel plus verbal (montrer l'objet en nommant l'action) réduit la charge de mémoire de travail par rapport à une longue liste orale seule, ce qui aide même lorsque la mémoire de la personne est par ailleurs intacte les bons jours."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Simplification is not doing it for them",
+          "body": "The goal is to make the task followable while the person still performs it — handing over one ingredient at a time while they cook, not cooking without them in the room."
+        },
+        {
+          "heading": "Worked example: getting ready to leave",
+          "body": "Instead of 'Get your coat, keys, and bag and meet me at the car,' try: 'Here is your coat' (pause) — 'Now your keys from the hook' (point) — 'Meet me at the door when you are ready.' Same outcome, lower simultaneous demand."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Simplificar no es hacerlo por ellos",
+          "body": "El objetivo es que la tarea sea seguible mientras la persona aún la realiza — entregar un ingrediente a la vez mientras cocinan, no cocinar sin ellos en la habitación."
+        },
+        {
+          "heading": "Ejemplo trabajado: prepararse para salir",
+          "body": "En lugar de «Coge el abrigo, las llaves y la bolsa y encuéntrame en el coche», pruebe: «Aquí está tu abrigo» (pausa) — «Ahora las llaves del gancho» (señalar) — «Encuéntrame en la puerta cuando estés listo». Mismo resultado, menor demanda simultánea."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Simplifier n'est pas faire à la place",
+          "body": "L'objectif est de rendre la tâche suivable pendant que la personne la fait encore — passer un ingrédient à la fois pendant qu'elle cuisine, pas cuisiner sans elle dans la pièce."
+        },
+        {
+          "heading": "Exemple concret : se préparer à partir",
+          "body": "Au lieu de « Prends ton manteau, tes clés et ton sac et retrouve-moi à la voiture », essayez : « Voici ton manteau » (pause) — « Maintenant tes clés sur le crochet » (montrer) — « Retrouve-moi à la porte quand tu es prêt. » Même résultat, demande simultanée plus faible."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "For a multi-step medication routine, place only the current step's items in view and say one action: 'Take this pill with water' — wait — then introduce the next step, rather than listing the full sequence at once."
+      ],
+      "es": [
+        "Para una rutina de medicación de varios pasos, deje a la vista solo los objetos del paso actual y diga una acción: «Toma esta pastilla con agua» — espere — luego introduzca el siguiente paso, en lugar de listar toda la secuencia de una vez."
+      ],
+      "fr": [
+        "Pour une routine de médicaments en plusieurs étapes, laissez visibles seulement les objets de l'étape en cours et dites une action : « Prends ce comprimé avec de l'eau » — attendez — puis introduisez l'étape suivante, plutôt que de lister toute la séquence d'un coup."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How do I simplify without sounding patronizing?",
+          "a": "Use the same respectful tone you would with any adult, give one step at a time, and offer repetition as a normal option ('Want me to say that again?') rather than testing whether they understood."
+        },
+        {
+          "q": "Isn't it faster to just do the task myself?",
+          "a": "Sometimes, yes — but doing it for them every time removes practice and autonomy. Reserve full takeover for safety-critical moments; otherwise simplify how you instruct."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cómo simplifico sin sonar condescendiente?",
+          "a": "Use el mismo tono respetuoso que con cualquier adulto, dé un paso a la vez y ofrezca repetición como opción normal («¿Quiere que lo repita?») en lugar de comprobar si entendió."
+        },
+        {
+          "q": "¿No es más rápido hacer la tarea yo mismo?",
+          "a": "A veces sí — pero hacerlo siempre por ellos quita práctica y autonomía. Reserve asumir todo para momentos críticos de seguridad; en lo demás, simplifique cómo instruye."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Comment simplifier sans paraître condescendant ?",
+          "a": "Utilisez le même ton respectueux qu'avec tout adulte, donnez une étape à la fois et proposez la répétition comme option normale (« Voulez-vous que je répète ? ») plutôt que de tester la compréhension."
+        },
+        {
+          "q": "N'est-il pas plus rapide de faire la tâche moi-même ?",
+          "a": "Parfois oui — mais tout faire à leur place à chaque fois retire la pratique et l'autonomie. Réservez la prise en charge complète aux moments critiques pour la sécurité ; sinon, simplifiez la façon de donner les consignes."
+        }
+      ]
+    }
+  },
+  "how-to-color-code-a-household-organizing-system": {
+    "sectionHeading": {
+      "en": "Using color as a memory cue at home",
+      "es": "Usar el color como señal de memoria en casa",
+      "fr": "Utiliser la couleur comme repère mémoriel à la maison"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Color-coding household items — by room, person, or urgency — adds a visual recognition cue that does not depend on reading labels, which can reduce reliance on recall for where things belong or whose item is whose.",
+        "This is a physical, at-home organizing technique distinct from digital file organization; it works through consistent color association (blue = bathroom supplies, green = first-aid) rather than folder names or search.",
+        "A small number of stable color categories tends to last longer than a complex system with many shades, because the system itself must be easy to remember and maintain."
+      ],
+      "es": [
+        "Codificar por colores los objetos del hogar — por habitación, persona o urgencia — añade una señal de reconocimiento visual que no depende de leer etiquetas, lo que puede reducir la dependencia del recuerdo sobre dónde va cada cosa o de quién es cada objeto.",
+        "Es una técnica de organización física en el hogar distinta de la organización de archivos digitales; funciona mediante asociación constante de colores (azul = suministros de baño, verde = primeros auxilios) en lugar de nombres de carpetas o búsqueda.",
+        "Un número reducido de categorías de color estables suele durar más que un sistema complejo con muchos tonos, porque el sistema mismo debe ser fácil de recordar y mantener."
+      ],
+      "fr": [
+        "Un code couleur pour les objets du foyer — par pièce, personne ou urgence — ajoute un repère de reconnaissance visuelle qui ne dépend pas de la lecture d'étiquettes, ce qui peut réduire le besoin de se rappeler où vont les choses ou à qui elles appartiennent.",
+        "C'est une technique d'organisation physique à la maison, distincte du rangement de fichiers numériques ; elle fonctionne par association stable de couleurs (bleu = fournitures de salle de bain, vert = premiers secours) plutôt que par noms de dossiers ou recherche.",
+        "Un petit nombre de catégories de couleur stables dure généralement plus longtemps qu'un système complexe à nombreuses nuances, car le système lui-même doit rester facile à retenir et à entretenir."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Color by room, person, or urgency",
+          "body": "Pick one scheme and keep it consistent: colors by room (kitchen vs. garage), by person (each family member's supplies), or by urgency (red = act today, yellow = this week). Mixing schemes in the same home creates new confusion."
+        },
+        {
+          "heading": "Physical household, not digital",
+          "body": "This guide is about bins, folders, tape, and labels you can see without opening a screen — a complement to, not a substitute for, digital organization strategies covered elsewhere on the site."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Color por habitación, persona o urgencia",
+          "body": "Elija un esquema y manténgalo constante: colores por habitación (cocina vs. garaje), por persona (suministros de cada familiar) o por urgencia (rojo = hoy, amarillo = esta semana). Mezclar esquemas en el mismo hogar crea nueva confusión."
+        },
+        {
+          "heading": "Hogar físico, no digital",
+          "body": "Esta guía trata de cubos, carpetas, cinta y etiquetas visibles sin abrir una pantalla — un complemento, no un sustituto, de estrategias de organización digital cubiertas en otras páginas del sitio."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Couleur par pièce, personne ou urgence",
+          "body": "Choisissez un schéma et tenez-vous-y : couleurs par pièce (cuisine vs. garage), par personne (fournitures de chaque membre) ou par urgence (rouge = aujourd'hui, jaune = cette semaine). Mélanger les schémas dans un même foyer crée une nouvelle confusion."
+        },
+        {
+          "heading": "Maison physique, pas numérique",
+          "body": "Ce guide porte sur bacs, dossiers, ruban et étiquettes visibles sans ouvrir un écran — un complément, pas un substitut, aux stratégies d'organisation numérique traitées ailleurs sur le site."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Assign blue bins to bathroom cleaning supplies and green bins to first-aid items; anyone can return an item by matching color even if they cannot read the printed label."
+      ],
+      "es": [
+        "Asigne cubos azules a productos de limpieza del baño y cubos verdes a artículos de primeros auxilios; cualquiera puede devolver un objeto coincidiendo el color aunque no pueda leer la etiqueta impresa."
+      ],
+      "fr": [
+        "Attribuez des bacs bleus aux produits de nettoyage de salle de bain et des bacs verts aux articles de premiers secours ; chacun peut ranger un objet en faisant correspondre la couleur même sans lire l'étiquette."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What if someone in the household is colorblind?",
+          "a": "Pair color with a second cue — a shape sticker, a written label, or a fixed location — so the system does not rely on color alone. Test the scheme with the person who will use it."
+        },
+        {
+          "q": "How is this different from just labeling everything with text?",
+          "a": "Color adds a recognition cue that works at a glance and does not require reading; text labels help too, but color can support people with reading fatigue or low literacy when used consistently alongside labels."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué pasa si alguien en casa tiene daltonismo?",
+          "a": "Combine el color con una segunda señal — una pegatina con forma, una etiqueta escrita o un lugar fijo — para que el sistema no dependa solo del color. Pruebe el esquema con quien lo usará."
+        },
+        {
+          "q": "¿En qué se diferencia de etiquetar todo con texto?",
+          "a": "El color añade una señal de reconocimiento que funciona de un vistazo y no exige leer; las etiquetas de texto también ayudan, pero el color puede apoyar a quienes tienen fatiga lectora o baja alfabetización si se usa de forma constante junto con etiquetas."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Et si quelqu'un à la maison est daltonien ?",
+          "a": "Associez la couleur à un second repère — autocollant en forme, étiquette écrite ou emplacement fixe — pour que le système ne repose pas sur la couleur seule. Testez le schéma avec la personne qui l'utilisera."
+        },
+        {
+          "q": "En quoi est-ce différent d'étiqueter tout en texte ?",
+          "a": "La couleur ajoute un repère de reconnaissance utilisable d'un coup d'œil sans lecture ; les étiquettes texte aident aussi, mais la couleur peut soutenir les personnes en fatigue de lecture ou avec une faible littératie si elle est utilisée de façon constante avec les étiquettes."
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22",
-  "pageCount": 510,
+  "generated": "2026-09-09",
+  "pageCount": 514,
   "entries": {
     "/brain-exercises-for-seniors/": {
       "id": "p000",
@@ -10,21 +10,21 @@
       "path": "/brain-exercises-for-seniors/",
       "related": [
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
         "/brain-exercises-for-stroke-recovery/",
-        "/brain-exercises-for-parkinsons-caregivers/"
+        "/brain-exercises-for-parkinsons-caregivers/",
+        "/brain-exercises-for-aphasia-friendly/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ]
     },
     "/es/ejercicios-cerebrales-adultos-mayores/": {
@@ -152,31 +152,6 @@
         "/fr/exercices-cerveau-stress/"
       ]
     },
-    "/brain-exercises-for-focus/": {
-      "id": "p002",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "path": "/brain-exercises-for-focus/",
-      "related": [
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/",
-        "/brain-exercises-for-meditation-breath-focus/",
-        "/brain-exercises-for-seniors/"
-      ],
-      "hubs": {
-        "primary": "/brain-exercises/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/brain-exercises-for-seniors/",
-        "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
-      ]
-    },
     "/es/ejercicios-cerebrales-concentracion/": {
       "id": "p002",
       "lang": "es",
@@ -236,10 +211,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-stress-relief/",
         "/brain-exercises-for-stroke-recovery/",
-        "/brain-exercises-for-parkinsons-caregivers/"
+        "/brain-exercises-for-parkinsons-caregivers/",
+        "/brain-exercises-for-aphasia-friendly/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -311,10 +286,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stroke-recovery/",
-        "/brain-exercises-for-parkinsons-caregivers/"
+        "/brain-exercises-for-parkinsons-caregivers/",
+        "/brain-exercises-for-aphasia-friendly/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -387,9 +362,9 @@
         "/brain-exercises-for-substance-recovery-edu/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -461,10 +436,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-aphasia-friendly/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -473,7 +448,8 @@
       "backlinks": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ]
     },
     "/es/ejercicios-cerebrales-cuidadores-parkinson/": {
@@ -533,15 +509,21 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
         "secondary": "/how-to-improve-memory/"
-      }
+      },
+      "backlinks": [
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-parkinsons-caregivers/"
+      ]
     },
     "/es/ejercicios-cerebrales-afasia/": {
       "id": "p007",
@@ -590,10 +572,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -653,7 +635,7 @@
         "/brain-exercises-for-hearing-and-memory/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/"
+        "/brain-exercises-for-anxiety/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -716,9 +698,9 @@
         "/brain-exercises-for-heart-health-cognition/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -854,9 +836,9 @@
         "/brain-exercises-for-volunteering-social-memory/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -988,10 +970,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1046,9 +1028,9 @@
         "/brain-exercises-for-arthritis-hand-tasks/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1105,10 +1087,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1163,9 +1145,9 @@
         "/brain-exercises-for-note-taking-skills/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1297,10 +1279,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1352,22 +1334,19 @@
       "silo": "brain_exercises",
       "path": "/brain-exercises-for-mindfulness-focus/",
       "related": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/",
         "/brain-exercises-for-meditation-breath-focus/",
-        "/brain-exercises-for-seniors/"
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-memory/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/"
+        "/brain-exercises-for-meditation-breath-focus/"
       ]
     },
     "/es/ejercicios-cerebrales-atencion-plena/": {
@@ -1498,8 +1477,8 @@
         "/brain-exercises-for-post-icu-education/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-anxiety/"
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1570,7 +1549,7 @@
         "/brain-exercises-for-allergy-medication-fog/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/"
+        "/brain-exercises-for-anxiety/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1791,9 +1770,9 @@
         "/brain-exercises-for-allergy-medication-fog/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -1922,31 +1901,6 @@
         "/fr/exercices-cerveau-rea-cognition/"
       ]
     },
-    "/brain-exercises-for-financial-task-focus/": {
-      "id": "p028",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "path": "/brain-exercises-for-financial-task-focus/",
-      "related": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/",
-        "/brain-exercises-for-meditation-breath-focus/",
-        "/brain-exercises-for-seniors/"
-      ],
-      "hubs": {
-        "primary": "/brain-exercises/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/"
-      ]
-    },
     "/es/ejercicios-cerebrales-tareas-dinero/": {
       "id": "p028",
       "lang": "es",
@@ -2053,31 +2007,6 @@
         "primary": "/fr/exercices-cerebraux/",
         "secondary": "/fr/ameliorer-memoire/"
       }
-    },
-    "/brain-exercises-for-travel-planning-focus/": {
-      "id": "p030",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "path": "/brain-exercises-for-travel-planning-focus/",
-      "related": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-exam-prep-focus/",
-        "/brain-exercises-for-meditation-breath-focus/",
-        "/brain-exercises-for-seniors/"
-      ],
-      "hubs": {
-        "primary": "/brain-exercises/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-exam-prep-focus/"
-      ]
     },
     "/es/ejercicios-cerebrales-viajes-planificacion/": {
       "id": "p030",
@@ -2198,7 +2127,7 @@
         "/brain-exercises-for-working-memory/",
         "/brain-exercises-for-hearing-and-memory/",
         "/brain-exercises-for-cooking-safety-memory/",
-        "/brain-exercises-for-exam-prep-focus/"
+        "/brain-exercises-for-public-speaking-memory/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -2208,7 +2137,7 @@
         "/brain-exercises-for-memory/",
         "/brain-exercises-for-working-memory/",
         "/brain-exercises-for-cooking-safety-memory/",
-        "/brain-exercises-for-exam-prep-focus/"
+        "/brain-exercises-for-public-speaking-memory/"
       ]
     },
     "/es/ejercicios-cerebrales-comidas-plan-memoria/": {
@@ -2270,10 +2199,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -2328,9 +2257,9 @@
         "/brain-exercises-for-spatial-skills/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -2393,7 +2322,7 @@
         "/brain-exercises-for-post-icu-education/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/"
+        "/brain-exercises-for-anxiety/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -2537,10 +2466,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -2729,31 +2658,6 @@
         "/fr/exercices-cerveau-rea-cognition/"
       ]
     },
-    "/brain-exercises-for-exam-prep-focus/": {
-      "id": "p040",
-      "lang": "en",
-      "cluster": "exercises_intent",
-      "silo": "brain_exercises",
-      "path": "/brain-exercises-for-exam-prep-focus/",
-      "related": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-meal-prep-memory/",
-        "/brain-exercises-for-meditation-breath-focus/"
-      ],
-      "hubs": {
-        "primary": "/brain-exercises/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/"
-      ]
-    },
     "/es/ejercicios-cerebrales-estudio-bloques-atencion/": {
       "id": "p040",
       "lang": "es",
@@ -2823,7 +2727,8 @@
       },
       "backlinks": [
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-working-memory/"
+        "/brain-exercises-for-working-memory/",
+        "/brain-exercises-for-meal-prep-memory/"
       ]
     },
     "/es/ejercicios-cerebrales-hablar-publico-memoria/": {
@@ -2957,10 +2862,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3014,10 +2919,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3078,9 +2983,9 @@
         "/brain-exercises-for-voice-assistant-routines/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3143,10 +3048,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3260,10 +3165,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3317,10 +3222,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3376,8 +3281,8 @@
         "/brain-exercises-for-low-mood-motivation/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-anxiety/"
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3443,9 +3348,9 @@
         "/brain-exercises-for-hearing-and-memory/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3500,9 +3405,9 @@
         "/brain-exercises-for-chronic-pain-education/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3565,7 +3470,7 @@
         "/brain-exercises-for-chronic-pain-education/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/"
+        "/brain-exercises-for-anxiety/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3639,7 +3544,7 @@
         "/brain-exercises-for-seasonal-affective-edu/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/"
+        "/brain-exercises-for-anxiety/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3707,22 +3612,19 @@
       "silo": "brain_exercises",
       "path": "/brain-exercises-for-meditation-breath-focus/",
       "related": [
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/",
-        "/brain-exercises-for-exam-prep-focus/",
-        "/brain-exercises-for-seniors/"
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-memory/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-mindfulness-focus/",
-        "/brain-exercises-for-financial-task-focus/",
-        "/brain-exercises-for-travel-planning-focus/"
+        "/brain-exercises-for-mindfulness-focus/"
       ]
     },
     "/es/ejercicios-cerebrales-respiracion-atencion/": {
@@ -3784,9 +3686,9 @@
         "/brain-exercises-for-hand-eye-coordination/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3844,9 +3746,9 @@
         "/brain-exercises-for-low-vision-large-print/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -3912,8 +3814,8 @@
         "/brain-exercises-for-substance-recovery-edu/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
-        "/brain-exercises-for-anxiety/"
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -4046,10 +3948,10 @@
       "related": [
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
         "/brain-exercises-for-stress-relief/",
-        "/brain-exercises-for-stroke-recovery/"
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -4110,9 +4012,9 @@
         "/brain-exercises-for-pet-care-routines/",
         "/brain-exercises-for-seniors/",
         "/brain-exercises-for-memory/",
-        "/brain-exercises-for-focus/",
         "/brain-exercises-for-anxiety/",
-        "/brain-exercises-for-stress-relief/"
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/"
       ],
       "hubs": {
         "primary": "/brain-exercises/",
@@ -7551,12 +7453,12 @@
       "silo": "memory_tests",
       "path": "/fr/tester-memoire-maison/",
       "related": [
+        "/fr/code-couleur-maison-memoire/",
         "/fr/ameliorer-memoire-naturellement/",
         "/fr/lire-resultats-memoire/",
         "/fr/parler-medecin-memoire/",
         "/fr/soutien-conjoint-memoire/",
-        "/fr/mieux-dormir-memoire/",
-        "/fr/preparer-evaluation-memoire/"
+        "/fr/mieux-dormir-memoire/"
       ],
       "hubs": {
         "primary": "/fr/tests-memoire/",
@@ -7725,7 +7627,7 @@
         "/how-to-support-spouse-memory-changes/",
         "/how-to-sleep-better-for-memory/",
         "/how-to-plan-for-memory-evaluation/",
-        "/how-to-use-external-memory-aids/"
+        "/how-to-learn-a-language-memory/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
@@ -8010,31 +7912,6 @@
         "/fr/marche-quotidienne-cerveau/"
       ]
     },
-    "/how-to-use-spaced-repetition/": {
-      "id": "p120",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-spaced-repetition/",
-      "related": [
-        "/how-to-use-external-memory-aids/",
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-use-light-for-mood-and-focus/",
-        "/how-to-use-calendars-with-reminders/",
-        "/how-to-use-timers-for-focus-blocks/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-external-memory-aids/",
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-use-light-for-mood-and-focus/"
-      ]
-    },
     "/es/repeticion-espaciada/": {
       "id": "p120",
       "lang": "es",
@@ -8218,12 +8095,12 @@
       "silo": "cognitive_health",
       "path": "/how-to-reduce-stress-for-focus/",
       "related": [
-        "/how-to-use-light-for-mood-and-focus/",
         "/how-to-set-boundaries-to-reduce-stress/",
-        "/how-to-use-timers-for-focus-blocks/",
         "/how-to-sleep-better-for-memory/",
         "/how-to-exercise-for-brain-health/",
-        "/how-to-plan-for-memory-evaluation/"
+        "/how-to-plan-for-memory-evaluation/",
+        "/how-to-prepare-for-memory-clinic/",
+        "/how-to-ask-for-accommodations-work/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
@@ -8233,7 +8110,7 @@
         "/how-to-exercise-for-brain-health/",
         "/how-to-ask-for-accommodations-work/",
         "/how-to-walk-daily-for-brain-health/",
-        "/how-to-use-light-for-mood-and-focus/"
+        "/how-to-set-boundaries-to-reduce-stress/"
       ]
     },
     "/es/reducir-estres-atencion/": {
@@ -8535,35 +8412,10 @@
         "secondary": "/fr/ameliorer-memoire/"
       },
       "backlinks": [
-        "/fr/tester-memoire-maison/",
         "/fr/lire-resultats-memoire/",
         "/fr/parler-medecin-memoire/",
-        "/fr/soutien-conjoint-memoire/"
-      ]
-    },
-    "/how-to-use-external-memory-aids/": {
-      "id": "p128",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-external-memory-aids/",
-      "related": [
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-improve-memory-naturally/",
-        "/how-to-read-memory-test-results/",
-        "/how-to-talk-to-doctor-memory/",
-        "/how-to-support-spouse-memory-changes/",
-        "/how-to-use-spaced-repetition/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-read-memory-test-results/",
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-use-mnemonics-safely/"
+        "/fr/soutien-conjoint-memoire/",
+        "/fr/mieux-dormir-memoire/"
       ]
     },
     "/es/ayudas-externas-memoria/": {
@@ -8708,6 +8560,7 @@
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
+        "/how-to-read-memory-test-results/",
         "/how-to-learn-skills-slowly-and-retain/"
       ]
     },
@@ -8874,31 +8727,6 @@
         "primary": "/fr/sante-cognitive/",
         "secondary": "/fr/ameliorer-memoire/"
       }
-    },
-    "/how-to-use-paper-planners-memory/": {
-      "id": "p133",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-paper-planners-memory/",
-      "related": [
-        "/how-to-use-external-memory-aids/",
-        "/how-to-improve-memory-naturally/",
-        "/how-to-read-memory-test-results/",
-        "/how-to-talk-to-doctor-memory/",
-        "/how-to-support-spouse-memory-changes/",
-        "/how-to-use-spaced-repetition/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-external-memory-aids/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-use-calendars-with-reminders/"
-      ]
     },
     "/es/agenda-papel-memoria/": {
       "id": "p133",
@@ -9208,29 +9036,6 @@
         "/fr/memoire-auditive-entrainer/"
       ]
     },
-    "/how-to-use-mnemonics-safely/": {
-      "id": "p138",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-mnemonics-safely/",
-      "related": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-external-memory-aids/",
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-use-light-for-mood-and-focus/",
-        "/how-to-use-calendars-with-reminders/",
-        "/how-to-use-timers-for-focus-blocks/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-calendars-with-reminders/"
-      ]
-    },
     "/es/mnemotecnia-segura/": {
       "id": "p138",
       "lang": "es",
@@ -9281,18 +9086,17 @@
       "related": [
         "/how-to-talk-to-doctor-memory/",
         "/how-to-manage-multiple-medications/",
-        "/how-to-use-calendars-with-reminders/",
         "/how-to-improve-memory-naturally/",
         "/how-to-prevent-cognitive-decline/",
-        "/how-to-build-brain-healthy-habits/"
+        "/how-to-build-brain-healthy-habits/",
+        "/how-to-read-memory-test-results/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
-        "/how-to-manage-multiple-medications/",
-        "/how-to-use-calendars-with-reminders/"
+        "/how-to-manage-multiple-medications/"
       ]
     },
     "/es/revision-medicamentos-memoria/": {
@@ -9353,9 +9157,9 @@
       },
       "backlinks": [
         "/how-to-sleep-better-for-memory/",
+        "/how-to-reduce-stress-for-focus/",
         "/how-to-plan-for-memory-evaluation/",
-        "/how-to-ask-for-accommodations-work/",
-        "/how-to-limit-alcohol-for-memory/"
+        "/how-to-ask-for-accommodations-work/"
       ]
     },
     "/es/preparar-clinica-memoria/": {
@@ -9481,8 +9285,10 @@
         "secondary": "/how-to-improve-memory/"
       },
       "backlinks": [
+        "/how-to-reduce-stress-for-focus/",
         "/how-to-batch-errands-for-mental-energy/",
-        "/how-to-ask-for-a-hearing-test/"
+        "/how-to-ask-for-a-hearing-test/",
+        "/how-to-simplify-instructions-for-a-loved-one/"
       ]
     },
     "/es/ajustes-trabajo-memoria/": {
@@ -9654,11 +9460,11 @@
       "path": "/how-to-choose-hearing-aids-cognition/",
       "related": [
         "/how-to-choose-brain-apps/",
-        "/how-to-use-external-memory-aids/",
         "/how-to-check-vision-and-cognition-links/",
         "/how-to-ask-for-a-hearing-test/",
         "/how-to-improve-memory-naturally/",
-        "/how-to-prevent-cognitive-decline/"
+        "/how-to-prevent-cognitive-decline/",
+        "/how-to-build-brain-healthy-habits/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
@@ -10061,31 +9867,6 @@
         "secondary": "/fr/ameliorer-memoire/"
       }
     },
-    "/how-to-use-light-for-mood-and-focus/": {
-      "id": "p151",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-light-for-mood-and-focus/",
-      "related": [
-        "/how-to-use-timers-for-focus-blocks/",
-        "/how-to-reduce-stress-for-focus/",
-        "/how-to-use-spaced-repetition/",
-        "/how-to-sleep-better-for-memory/",
-        "/how-to-exercise-for-brain-health/",
-        "/how-to-plan-for-memory-evaluation/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-reduce-stress-for-focus/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-learn-skills-slowly-and-retain/"
-      ]
-    },
     "/es/luz-animo-atencion/": {
       "id": "p151",
       "lang": "es",
@@ -10273,11 +10054,11 @@
       "path": "/how-to-learn-skills-slowly-and-retain/",
       "related": [
         "/how-to-learn-a-language-memory/",
-        "/how-to-use-light-for-mood-and-focus/",
         "/how-to-check-vision-and-cognition-links/",
         "/how-to-improve-memory-naturally/",
         "/how-to-prevent-cognitive-decline/",
-        "/how-to-build-brain-healthy-habits/"
+        "/how-to-build-brain-healthy-habits/",
+        "/how-to-read-memory-test-results/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
@@ -10324,30 +10105,6 @@
         "primary": "/fr/sante-cognitive/",
         "secondary": "/fr/ameliorer-memoire/"
       }
-    },
-    "/how-to-use-calendars-with-reminders/": {
-      "id": "p155",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-calendars-with-reminders/",
-      "related": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-external-memory-aids/",
-        "/how-to-use-paper-planners-memory/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-review-medications-with-doctor/",
-        "/how-to-use-light-for-mood-and-focus/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-review-medications-with-doctor/"
-      ]
     },
     "/es/calendarios-recordatorios/": {
       "id": "p155",
@@ -10755,31 +10512,6 @@
         "secondary": "/fr/ameliorer-memoire/"
       }
     },
-    "/how-to-use-timers-for-focus-blocks/": {
-      "id": "p162",
-      "lang": "en",
-      "cluster": "guides",
-      "silo": "cognitive_health",
-      "path": "/how-to-use-timers-for-focus-blocks/",
-      "related": [
-        "/how-to-use-light-for-mood-and-focus/",
-        "/how-to-reduce-stress-for-focus/",
-        "/how-to-use-spaced-repetition/",
-        "/how-to-sleep-better-for-memory/",
-        "/how-to-exercise-for-brain-health/",
-        "/how-to-plan-for-memory-evaluation/"
-      ],
-      "hubs": {
-        "primary": "/cognitive-health/",
-        "secondary": "/how-to-improve-memory/"
-      },
-      "backlinks": [
-        "/how-to-use-spaced-repetition/",
-        "/how-to-reduce-stress-for-focus/",
-        "/how-to-use-mnemonics-safely/",
-        "/how-to-use-light-for-mood-and-focus/"
-      ]
-    },
     "/es/temporizadores-bloques/": {
       "id": "p162",
       "lang": "es",
@@ -10958,11 +10690,11 @@
       "path": "/how-to-check-vision-and-cognition-links/",
       "related": [
         "/how-to-choose-hearing-aids-cognition/",
-        "/how-to-use-light-for-mood-and-focus/",
         "/how-to-learn-skills-slowly-and-retain/",
         "/how-to-improve-memory-naturally/",
         "/how-to-prevent-cognitive-decline/",
-        "/how-to-build-brain-healthy-habits/"
+        "/how-to-build-brain-healthy-habits/",
+        "/how-to-read-memory-test-results/"
       ],
       "hubs": {
         "primary": "/cognitive-health/",
@@ -11291,18 +11023,306 @@
         "/fr/guide-comment-ameliorer-la-memoire-p0/",
         "/fr/guide-ameliorer-la-memoire-naturellement-p1/"
       ]
+    },
+    "/brain-exercises-for-retirement-transition/": {
+      "id": "p170",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/brain-exercises-for-retirement-transition/",
+      "related": [
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-memory/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
+      ],
+      "hubs": {
+        "primary": "/brain-exercises/",
+        "secondary": "/how-to-improve-memory/"
+      }
+    },
+    "/es/ejercicios-cerebrales-transicion-jubilacion/": {
+      "id": "p170",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/es/ejercicios-cerebrales-transicion-jubilacion/",
+      "related": [
+        "/es/ejercicios-cerebrales-adultos-mayores/",
+        "/es/ejercicios-cerebrales-memoria/",
+        "/es/ejercicios-cerebrales-concentracion/",
+        "/es/ejercicios-cerebrales-ansiedad/",
+        "/es/ejercicios-cerebrales-estres/",
+        "/es/ejercicios-cerebrales-recuperacion-ictus/"
+      ],
+      "hubs": {
+        "primary": "/es/ejercicios-cerebrales/",
+        "secondary": "/es/como-mejorar-la-memoria/"
+      }
+    },
+    "/fr/exercices-cerveau-transition-retraite/": {
+      "id": "p170",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/fr/exercices-cerveau-transition-retraite/",
+      "related": [
+        "/fr/exercices-cerveau-personnes-agees/",
+        "/fr/exercices-cerveau-memoire/",
+        "/fr/exercices-cerveau-concentration/",
+        "/fr/exercices-cerveau-anxiete/",
+        "/fr/exercices-cerveau-stress/",
+        "/fr/exercices-cerveau-avc/"
+      ],
+      "hubs": {
+        "primary": "/fr/exercices-cerebraux/",
+        "secondary": "/fr/ameliorer-memoire/"
+      }
+    },
+    "/brain-exercises-for-scam-awareness/": {
+      "id": "p171",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/brain-exercises-for-scam-awareness/",
+      "related": [
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-memory/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
+      ],
+      "hubs": {
+        "primary": "/brain-exercises/",
+        "secondary": "/how-to-improve-memory/"
+      }
+    },
+    "/es/ejercicios-cerebrales-detectar-estafas/": {
+      "id": "p171",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/es/ejercicios-cerebrales-detectar-estafas/",
+      "related": [
+        "/es/ejercicios-cerebrales-adultos-mayores/",
+        "/es/ejercicios-cerebrales-memoria/",
+        "/es/ejercicios-cerebrales-concentracion/",
+        "/es/ejercicios-cerebrales-ansiedad/",
+        "/es/ejercicios-cerebrales-estres/",
+        "/es/ejercicios-cerebrales-recuperacion-ictus/"
+      ],
+      "hubs": {
+        "primary": "/es/ejercicios-cerebrales/",
+        "secondary": "/es/como-mejorar-la-memoria/"
+      }
+    },
+    "/fr/exercices-cerveau-signaux-escroquerie/": {
+      "id": "p171",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/fr/exercices-cerveau-signaux-escroquerie/",
+      "related": [
+        "/fr/exercices-cerveau-personnes-agees/",
+        "/fr/exercices-cerveau-memoire/",
+        "/fr/exercices-cerveau-concentration/",
+        "/fr/exercices-cerveau-anxiete/",
+        "/fr/exercices-cerveau-stress/",
+        "/fr/exercices-cerveau-avc/"
+      ],
+      "hubs": {
+        "primary": "/fr/exercices-cerebraux/",
+        "secondary": "/fr/ameliorer-memoire/"
+      }
+    },
+    "/brain-exercises-for-photography-observation/": {
+      "id": "p172",
+      "lang": "en",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/brain-exercises-for-photography-observation/",
+      "related": [
+        "/brain-exercises-for-seniors/",
+        "/brain-exercises-for-memory/",
+        "/brain-exercises-for-anxiety/",
+        "/brain-exercises-for-stress-relief/",
+        "/brain-exercises-for-stroke-recovery/",
+        "/brain-exercises-for-parkinsons-caregivers/"
+      ],
+      "hubs": {
+        "primary": "/brain-exercises/",
+        "secondary": "/how-to-improve-memory/"
+      }
+    },
+    "/es/ejercicios-cerebrales-fotografia-observacion/": {
+      "id": "p172",
+      "lang": "es",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/es/ejercicios-cerebrales-fotografia-observacion/",
+      "related": [
+        "/es/ejercicios-cerebrales-adultos-mayores/",
+        "/es/ejercicios-cerebrales-memoria/",
+        "/es/ejercicios-cerebrales-concentracion/",
+        "/es/ejercicios-cerebrales-ansiedad/",
+        "/es/ejercicios-cerebrales-estres/",
+        "/es/ejercicios-cerebrales-recuperacion-ictus/"
+      ],
+      "hubs": {
+        "primary": "/es/ejercicios-cerebrales/",
+        "secondary": "/es/como-mejorar-la-memoria/"
+      }
+    },
+    "/fr/exercices-cerveau-photo-observation/": {
+      "id": "p172",
+      "lang": "fr",
+      "cluster": "exercises_intent",
+      "silo": "brain_exercises",
+      "path": "/fr/exercices-cerveau-photo-observation/",
+      "related": [
+        "/fr/exercices-cerveau-personnes-agees/",
+        "/fr/exercices-cerveau-memoire/",
+        "/fr/exercices-cerveau-concentration/",
+        "/fr/exercices-cerveau-anxiete/",
+        "/fr/exercices-cerveau-stress/",
+        "/fr/exercices-cerveau-avc/"
+      ],
+      "hubs": {
+        "primary": "/fr/exercices-cerebraux/",
+        "secondary": "/fr/ameliorer-memoire/"
+      }
+    },
+    "/how-to-simplify-instructions-for-a-loved-one/": {
+      "id": "p173",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/how-to-simplify-instructions-for-a-loved-one/",
+      "related": [
+        "/how-to-sleep-better-for-memory/",
+        "/how-to-exercise-for-brain-health/",
+        "/how-to-reduce-stress-for-focus/",
+        "/how-to-plan-for-memory-evaluation/",
+        "/how-to-prepare-for-memory-clinic/",
+        "/how-to-ask-for-accommodations-work/"
+      ],
+      "hubs": {
+        "primary": "/cognitive-health/",
+        "secondary": "/how-to-improve-memory/"
+      }
+    },
+    "/es/simplificar-instrucciones-ser-querido/": {
+      "id": "p173",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/es/simplificar-instrucciones-ser-querido/",
+      "related": [
+        "/es/como-mejorar-memoria-natural/",
+        "/es/como-prevenir-deterioro-cognitivo/",
+        "/es/habitos-cerebro-saludable/",
+        "/es/interpretar-resultados-memoria/",
+        "/es/hablar-medico-memoria/",
+        "/es/apoyo-pareja-memoria/"
+      ],
+      "hubs": {
+        "primary": "/es/salud-cognitiva/",
+        "secondary": "/es/como-mejorar-la-memoria/"
+      }
+    },
+    "/fr/simplifier-consignes-proche/": {
+      "id": "p173",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/fr/simplifier-consignes-proche/",
+      "related": [
+        "/fr/ameliorer-memoire-naturellement/",
+        "/fr/prevenir-declin-cognitif/",
+        "/fr/habitudes-cerveau-sain/",
+        "/fr/lire-resultats-memoire/",
+        "/fr/parler-medecin-memoire/",
+        "/fr/soutien-conjoint-memoire/"
+      ],
+      "hubs": {
+        "primary": "/fr/sante-cognitive/",
+        "secondary": "/fr/ameliorer-memoire/"
+      }
+    },
+    "/how-to-color-code-a-household-organizing-system/": {
+      "id": "p174",
+      "lang": "en",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/how-to-color-code-a-household-organizing-system/",
+      "related": [
+        "/how-to-improve-memory-naturally/",
+        "/how-to-prevent-cognitive-decline/",
+        "/how-to-build-brain-healthy-habits/",
+        "/how-to-read-memory-test-results/",
+        "/how-to-talk-to-doctor-memory/",
+        "/how-to-support-spouse-memory-changes/"
+      ],
+      "hubs": {
+        "primary": "/cognitive-health/",
+        "secondary": "/how-to-improve-memory/"
+      }
+    },
+    "/es/codigo-colores-hogar-memoria/": {
+      "id": "p174",
+      "lang": "es",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/es/codigo-colores-hogar-memoria/",
+      "related": [
+        "/es/como-mejorar-memoria-natural/",
+        "/es/interpretar-resultados-memoria/",
+        "/es/hablar-medico-memoria/",
+        "/es/apoyo-pareja-memoria/",
+        "/es/dormir-mejor-memoria/",
+        "/es/preparar-evaluacion-memoria/"
+      ],
+      "hubs": {
+        "primary": "/es/salud-cognitiva/",
+        "secondary": "/es/como-mejorar-la-memoria/"
+      }
+    },
+    "/fr/code-couleur-maison-memoire/": {
+      "id": "p174",
+      "lang": "fr",
+      "cluster": "guides",
+      "silo": "cognitive_health",
+      "path": "/fr/code-couleur-maison-memoire/",
+      "related": [
+        "/fr/ameliorer-memoire-naturellement/",
+        "/fr/lire-resultats-memoire/",
+        "/fr/parler-medecin-memoire/",
+        "/fr/soutien-conjoint-memoire/",
+        "/fr/mieux-dormir-memoire/",
+        "/fr/preparer-evaluation-memoire/"
+      ],
+      "hubs": {
+        "primary": "/fr/sante-cognitive/",
+        "secondary": "/fr/ameliorer-memoire/"
+      },
+      "backlinks": [
+        "/fr/tester-memoire-maison/"
+      ]
     }
   },
   "cornerstoneBySiloLang": {
     "en:brain_exercises": [
       "/brain-exercises-for-seniors/",
       "/brain-exercises-for-memory/",
-      "/brain-exercises-for-focus/",
       "/brain-exercises-for-anxiety/",
       "/brain-exercises-for-stress-relief/",
       "/brain-exercises-for-stroke-recovery/",
       "/brain-exercises-for-parkinsons-caregivers/",
-      "/brain-exercises-for-aphasia-friendly/"
+      "/brain-exercises-for-aphasia-friendly/",
+      "/brain-exercises-for-adhd-adults/"
     ],
     "es:brain_exercises": [
       "/es/ejercicios-cerebrales-adultos-mayores/",
