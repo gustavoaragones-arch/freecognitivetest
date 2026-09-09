@@ -1,0 +1,557 @@
+{
+  "phase": "CONTENT-10R",
+  "title": "Fresh Priority-Cluster Candidate Discovery",
+  "status": "PASS",
+  "generated": "2026-09-08",
+  "baselineSHA": "3adb1f3093b53444725b3c87f52fce284a0a953a",
+  "baselineManifestAccounting": {
+    "manifestTotal": 499,
+    "manifestEN": 159,
+    "manifestES": 170,
+    "manifestFR": 170,
+    "uniqueContentBaseline": 111,
+    "pooledOnlyBaseline": 388,
+    "exercisesIntent": {
+      "total": 182,
+      "unique": 27,
+      "pooled": 155,
+      "pooledPct": 85.2,
+      "enSlugCount": 58
+    },
+    "guides": {
+      "total": 167,
+      "unique": 18,
+      "pooled": 149,
+      "pooledPct": 89.2,
+      "enSlugCount": 51
+    }
+  },
+  "whyContent10CouldNotProceed": "CONTENT-10 Stage 10A found only 1 qualified exercises_intent candidate and 0 qualified guides candidates from the inherited 54-candidate B1 pool (40 EXPAND + 5 REVIEW + 9 HOLD), with 7 of 8 total qualified candidates falling outside the two priority clusters. This is treated as controlling evidence per the Director's instruction and was not re-litigated here.",
+  "researchMethodology": [
+    "1. Enumerated the full current 58-page exercises_intent and 51-page guides EN manifest slug lists as the exclusion boundary.",
+    "2. Compiled the complete permanent-rejection lineage across CONTENT-02/06/07/08A/08B/08B-R/10-10A to avoid re-proposing any precedent-rejected concept.",
+    "3. Brainstormed candidate concepts via gap analysis — identifying user problems/tasks NOT represented by any existing slug pattern in the two clusters, per the 'search for intents, not keywords' principle.",
+    "4. Ran scripts/lib/content-value-gate.mjs's evaluatePage() distinctSearchIntent check for every candidate against the full current EN manifest, with all other newly-proposed candidates in the same cluster included in the comparison pool (pairwise collision check built into the same run).",
+    "5. For candidates that mechanically failed but represented a genuinely distinct, high-value intent, attempted one alternative naming pass avoiding the specific colliding root word(s); recorded both attempts.",
+    "6. Performed semantic classification (A/B/C/D/E) on every mechanically-passing candidate.",
+    "7. Ran the content-depth test (≥3 substantive dimensions) and localization test on every A/B candidate.",
+    "8. Scored every A/B candidate 1-5 across 8 editorial-value dimensions plus a medical-risk rating."
+  ],
+  "discoverySources": [
+    "assets/data/seo-pages-manifest.json",
+    "assets/data/programmatic-page-overrides.json",
+    "reports/content-08a-remediation-plan.json/.md",
+    "reports/content-08b-implementation.json/.md",
+    "reports/content-08b-replacements.json/.md",
+    "reports/content-10-candidate-selection.json/.md",
+    "scripts/lib/content-value-gate.mjs (unmodified)",
+    "live inspection of relevant existing page slugs"
+  ],
+  "externalResearchCapability": "Not available in this environment (no live web/keyword-volume-tool access was used). No search-volume, trend, or demand data is claimed; all candidate justification rests on internal gap analysis and editorial reasoning only, per the No-Fabrication requirement.",
+  "rawCandidatesDiscovered": {
+    "exercisesIntent": 11,
+    "guides": 23,
+    "total": 34,
+    "note": "2 exercises_intent concepts (postpartum, concussion) were each tried under 2 different slug names to attempt to dodge a mechanical collision; counted once each as distinct concepts, not double-counted as 4."
+  },
+  "qualifiedCandidates": [
+    {
+      "id": "C10R-E1",
+      "slug": "brain-exercises-for-retirement-transition",
+      "title": "Brain exercises for the retirement transition",
+      "cluster": "exercises_intent",
+      "searchIntent": "Practicing structured cognitive routines specifically to replace the daily structure lost when a person retires, regardless of age at retirement.",
+      "userProblem": "A newly retired person loses the externally-imposed structure/schedule a workday provided, which can reduce incidental cognitive engagement.",
+      "whyDistinct": "Distinct from brain-exercises-for-seniors (age-based audience) because the trigger is a TRANSITION EVENT, not age — someone can retire early (50s) or late (70s); the content is about rebuilding structure, not general age-related practice.",
+      "closestExistingPages": [
+        "brain-exercises-for-seniors (age-based, general)",
+        "how-to-build-brain-healthy-habits (guides, general habit-building, not transition-specific)"
+      ],
+      "exactDistinction": "brain-exercises-for-seniors addresses general age-related cognitive practice; this page addresses the specific STRUCTURAL LOSS moment of retirement and how to rebuild routine cues, independent of age.",
+      "distinctSearchIntentResult": "PASS — 0 same-cluster keyword collisions against full 159-page EN manifest (checked with all CONTENT-10R candidates included in the comparison pool).",
+      "semanticClassification": "A — CLEARLY DISTINCT",
+      "contentDepthDimensions": [
+        "Distinct practical workflow (rebuilding daily structure cues)",
+        "Distinct examples (replacing commute-time or meeting-time cognitive engagement)",
+        "Distinct FAQ (how soon after retiring should this start; is this only for people who worked full-time)",
+        "Distinct from age-based framing — transition-triggered, not age-triggered"
+      ],
+      "editorialValueScores": {
+        "distinctIntent": 5,
+        "educationalValue": 4,
+        "practicalUsefulness": 4,
+        "contentDepthPotential": 4,
+        "sitePositioningFit": 5,
+        "internalLinkingUsefulness": 4,
+        "localizationViability": 5,
+        "lowCommodityRisk": 4
+      },
+      "medicalRisk": "low",
+      "localizationViability": "High — retirement as a life transition is a universal concept across EN/ES/FR cultures with direct equivalents (retiro/jubilación, retraite).",
+      "internalLinkingOpportunity": "brain-exercises-for-seniors, how-to-stay-socially-connected-aging, how-to-build-brain-healthy-habits",
+      "likelyPageType": "exercises_intent practice guide",
+      "recommendedPriority": "High",
+      "evidenceSupportingDiscovery": "Derived from gap analysis of the existing 58-page exercises_intent inventory: no existing page addresses a life-transition trigger as distinct from an age-based or disease-based trigger.",
+      "knownRisks": "None significant; low medical-claim surface."
+    },
+    {
+      "id": "C10R-E2",
+      "slug": "brain-exercises-for-scam-awareness",
+      "title": "Brain exercises for spotting scam red flags",
+      "cluster": "exercises_intent",
+      "searchIntent": "Practicing pattern-recognition/vigilance exercises specifically aimed at noticing common manipulation and urgency tactics used in scams.",
+      "userProblem": "Recognizing manipulative red flags (urgency, unsolicited contact, requests for immediate payment/information) is a distinct cognitive-vigilance skill, not addressed by any memory/attention exercise on the site.",
+      "whyDistinct": "Novel MECHANISM (skepticism/red-flag pattern recognition) not represented by any existing exercise (which are recall, sequencing, attention, coordination, or mood/fog-management focused). No existing page addresses protective vigilance training.",
+      "closestExistingPages": [
+        "brain-exercises-for-dual-tasking (attention-split, not vigilance)"
+      ],
+      "exactDistinction": "No existing page teaches red-flag/manipulation-pattern recognition as a practice skill; this is a genuinely new mechanism category, not a reworded existing one.",
+      "distinctSearchIntentResult": "PASS — 0 same-cluster keyword collisions.",
+      "semanticClassification": "A — CLEARLY DISTINCT",
+      "contentDepthDimensions": [
+        "Distinct exercise format (spot-the-red-flag scenario practice)",
+        "Distinct examples (unsolicited urgent-payment scenario, impersonation-call scenario)",
+        "Distinct FAQ (does this replace reporting a scam to authorities)",
+        "Distinct protective/safety positioning vs. cognitive-training framing"
+      ],
+      "editorialValueScores": {
+        "distinctIntent": 5,
+        "educationalValue": 4,
+        "practicalUsefulness": 5,
+        "contentDepthPotential": 4,
+        "sitePositioningFit": 4,
+        "internalLinkingUsefulness": 3,
+        "localizationViability": 4,
+        "lowCommodityRisk": 5
+      },
+      "medicalRisk": "low-medium",
+      "localizationViability": "Good, with a caveat — the CONCEPT of scam vigilance is universal, but specific scam scenarios vary by country/language; content must use generic, non-country-specific scenario framing (e.g., 'unexpected urgent payment request') to localize naturally rather than U.S.-specific examples.",
+      "internalLinkingOpportunity": "Best linked from safety/independence-adjacent content; no strong existing anchor page.",
+      "likelyPageType": "exercises_intent practice guide with safety framing",
+      "recommendedPriority": "Medium-High",
+      "evidenceSupportingDiscovery": "Gap analysis: no protective-vigilance-training content exists anywhere in the 58-page exercises_intent inventory despite this being a well-recognized concern for the site's likely audience (older adults, caregivers).",
+      "knownRisks": "Must avoid implying the exercises 'protect' someone from being scammed (outcome overclaim) — frame strictly as awareness-building practice, not a guarantee."
+    },
+    {
+      "id": "C10R-E3",
+      "slug": "brain-exercises-for-photography-observation",
+      "title": "Brain exercises using photography and observation",
+      "cluster": "exercises_intent",
+      "searchIntent": "Using a camera (phone or otherwise) or deliberate observation practice as a structured attention/detail-noticing exercise format.",
+      "userProblem": "Wanting a low-cost, equipment-optional, hobby-based way to practice sustained visual attention and detail-noticing.",
+      "whyDistinct": "Distinct FORMAT (observation/photography-based) not represented among existing hobby-based exercise pages (gardening=sequencing, pet-care=routines, volunteering=social) — this one is specifically about visual-detail attention.",
+      "closestExistingPages": [
+        "brain-exercises-for-hand-eye-coordination (motor-visual, not observation)"
+      ],
+      "exactDistinction": "brain-exercises-for-hand-eye-coordination is about motor-visual coordination tasks; this candidate is about sustained observational attention/detail-noticing, a different cognitive skill entirely. 0 mechanical collision confirmed against the actual manifest (the previously-blocked brain-exercises-for-vision-and-attention concept, which never launched, was a different abstract visual-search framing, not this hobby-format page).",
+      "distinctSearchIntentResult": "PASS — 0 same-cluster keyword collisions.",
+      "semanticClassification": "A — CLEARLY DISTINCT",
+      "contentDepthDimensions": [
+        "Distinct practice format (photo comparison, daily-walk detail-noticing)",
+        "Distinct examples",
+        "Distinct FAQ (do I need a good camera — no)",
+        "Distinct from hand-eye-coordination's motor focus"
+      ],
+      "editorialValueScores": {
+        "distinctIntent": 4,
+        "educationalValue": 3,
+        "practicalUsefulness": 4,
+        "contentDepthPotential": 4,
+        "sitePositioningFit": 4,
+        "internalLinkingUsefulness": 3,
+        "localizationViability": 5,
+        "lowCommodityRisk": 4
+      },
+      "medicalRisk": "low",
+      "localizationViability": "High — photography/observation is a universal, equipment-light hobby concept.",
+      "internalLinkingOpportunity": "brain-exercises-for-hand-eye-coordination, brain-exercises-for-reading-comprehension",
+      "likelyPageType": "exercises_intent practice guide",
+      "recommendedPriority": "Medium",
+      "evidenceSupportingDiscovery": "Gap analysis of hobby-based exercise sub-family; observation/photography format absent.",
+      "knownRisks": "Must not imply photography 'trains' visual acuity medically; frame as attention practice only."
+    },
+    {
+      "id": "C10R-G1",
+      "slug": "how-to-simplify-instructions-for-a-loved-one",
+      "title": "How to simplify instructions for a loved one",
+      "cluster": "guides",
+      "searchIntent": "Concrete techniques for breaking down multi-step instructions/requests for someone experiencing memory or attention changes, without being patronizing.",
+      "userProblem": "Caregivers/family members don't know how to communicate tasks in a way that's easier to follow without over-simplifying or removing the person's autonomy.",
+      "whyDistinct": "No existing guide addresses COMMUNICATION/INSTRUCTION-GIVING technique specifically; existing support guides (support-parent/spouse-memory-changes) are broader emotional/relational guides, not this specific communication skill.",
+      "closestExistingPages": [
+        "how-to-support-parent-memory-changes",
+        "how-to-support-spouse-memory-changes",
+        "how-to-handle-correction-after-forgetting"
+      ],
+      "exactDistinction": "Those guides address the broader relationship/emotional dynamic; this guide is narrowly about the mechanics of GIVING INSTRUCTIONS (one step at a time, visual+verbal pairing) as a specific, teachable communication technique.",
+      "distinctSearchIntentResult": "PASS — 0 same-cluster keyword collisions.",
+      "semanticClassification": "A — CLEARLY DISTINCT",
+      "contentDepthDimensions": [
+        "Concrete instruction-simplification techniques (one-step-at-a-time, visual+verbal pairing)",
+        "Worked example of simplifying a multi-step task",
+        "FAQ on avoiding a patronizing tone (genuinely distinct, sensitive)",
+        "Distinguishing simplification from doing the task for them (autonomy-preserving)"
+      ],
+      "editorialValueScores": {
+        "distinctIntent": 4,
+        "educationalValue": 4,
+        "practicalUsefulness": 5,
+        "contentDepthPotential": 4,
+        "sitePositioningFit": 4,
+        "internalLinkingUsefulness": 4,
+        "localizationViability": 5,
+        "lowCommodityRisk": 4
+      },
+      "medicalRisk": "low",
+      "localizationViability": "High — universal caregiving communication concept.",
+      "internalLinkingOpportunity": "how-to-support-parent-memory-changes, how-to-support-spouse-memory-changes, how-to-handle-correction-after-forgetting",
+      "likelyPageType": "guides — practical technique",
+      "recommendedPriority": "High",
+      "evidenceSupportingDiscovery": "Gap analysis; no existing guide addresses instruction-giving technique specifically.",
+      "knownRisks": "Must maintain autonomy-preserving, non-patronizing tone throughout."
+    },
+    {
+      "id": "C10R-G2",
+      "slug": "how-to-color-code-a-household-organizing-system",
+      "title": "How to use color-coding to support memory at home",
+      "cluster": "guides",
+      "searchIntent": "A specific, concrete organizational technique (color-coding by category/person/urgency) for household items as a memory-support method distinct from generic decluttering.",
+      "userProblem": "Households want an active visual-cueing system (not just removing clutter) to reduce reliance on remembering where things are or whose is whose.",
+      "whyDistinct": "Distinct ACTIVE technique (adding a color-based cueing system) vs. removal-based decluttering; distinct from text labeling (visual-only, accessible for low-literacy or reading-fatigued users).",
+      "closestExistingPages": [
+        "how-to-organize-digital-files-memory (existing UNIQUE-CONTENT page, digital domain)"
+      ],
+      "exactDistinction": "how-to-organize-digital-files-memory is scoped to digital file organization (naming conventions, folder structure); this candidate is physical/household and technique-specific (color, not folders/naming) — different domain and different technique.",
+      "distinctSearchIntentResult": "PASS — 0 same-cluster keyword collisions.",
+      "semanticClassification": "A — CLEARLY DISTINCT",
+      "contentDepthDimensions": [
+        "Specific color-coding methodology (by room/person/urgency)",
+        "Concrete worked examples",
+        "FAQ on colorblindness accommodation (genuinely distinct, practical)",
+        "Distinction from text-based labeling"
+      ],
+      "editorialValueScores": {
+        "distinctIntent": 4,
+        "educationalValue": 3,
+        "practicalUsefulness": 4,
+        "contentDepthPotential": 4,
+        "sitePositioningFit": 4,
+        "internalLinkingUsefulness": 3,
+        "localizationViability": 5,
+        "lowCommodityRisk": 4
+      },
+      "medicalRisk": "low",
+      "localizationViability": "High — color-coding is a universal, non-language-dependent concept.",
+      "internalLinkingOpportunity": "how-to-organize-digital-files-memory, memory-test-for-low-literacy-friendly",
+      "likelyPageType": "guides — practical technique",
+      "recommendedPriority": "High",
+      "evidenceSupportingDiscovery": "Gap analysis; no existing physical/household organizing guide beyond the digital-files one.",
+      "knownRisks": "Minor — must include colorblindness accommodation, already identified as a natural FAQ."
+    }
+  ],
+  "categoryB_holdNeedsEvidence": [
+    {
+      "id": "C10R-E4",
+      "slug": "brain-exercises-for-remote-work-boundaries",
+      "cluster": "exercises_intent",
+      "semanticClassification": "B — POSSIBLY DISTINCT, needs stronger evidence",
+      "evidenceMissing": "Needs a sharper, more concrete exercise-format angle (specific transition-ritual practice) to clearly separate it from the guides-cluster stress/multitasking content it sits conceptually close to. Mechanical gate passed (0 collision) but semantic distance from how-to-reduce-multitasking-costs and how-to-reduce-stress-for-focus is not yet strongly established.",
+      "recommendedNextStep": "Draft a concrete exercise-format description (e.g., a specific 5-minute end-of-workday ritual) and re-assess distinctness before promoting to QUALIFIED."
+    },
+    {
+      "id": "C10R-G3",
+      "slug": "how-to-write-a-legacy-letter",
+      "cluster": "guides",
+      "semanticClassification": "B — POSSIBLY DISTINCT, needs stronger evidence",
+      "evidenceMissing": "Localization naturalness unverified — 'legacy letter' is a fairly specific English wellness/hospice-adjacent term; not confirmed whether an equally natural ES/FR concept and phrasing exists without reading as a direct translation. Also needs sensitivity-tone review (must not imply terminal prognosis).",
+      "recommendedNextStep": "Verify with native-level ES/FR editorial judgment whether the concept maps naturally (e.g., 'carta para la familia' framed around values/memories, not a legal document) before treating as QUALIFIED."
+    }
+  ],
+  "holdNeedsRewordingOrResearch": [
+    {
+      "id": "C10R-E5",
+      "slug": "brain-exercises-for-postpartum-brain-fog",
+      "cluster": "exercises_intent",
+      "mechanicalResult": "FAIL — collides with brain-exercises-for-post-surgery-brain-fog, -long-covid-brain-fog, -menopause-brain-fog-edu, -allergy-medication-fog (shared keyword 'fog')",
+      "rewordingAttempted": "brain-exercises-for-new-parent-sleep-fragmentation — still FAILED, collided with brain-exercises-for-sleep-and-brain (shared keyword 'sleep')",
+      "evidenceMissing": "A naming approach that avoids both 'fog' and 'sleep' root collisions while still conveying the postpartum-specific compounding cause (hormonal + fragmented sleep + high-stakes attention) has not yet been found. Genuine, high-value distinct intent per CONTENT-02's own prior test-case example; worth further naming research rather than abandoning."
+    },
+    {
+      "id": "C10R-E6",
+      "slug": "brain-exercises-for-concussion-recovery-education",
+      "cluster": "exercises_intent",
+      "mechanicalResult": "FAIL — collides with brain-exercises-for-stroke-recovery, -chemo-brain-education, -chronic-pain-education, -post-icu-education, -substance-recovery-edu (shared keywords 'recovery'/'education')",
+      "rewordingAttempted": "brain-exercises-for-concussion-baseline-practice — still FAILED, collided with brain-exercises-for-music-practice-memory (shared keyword 'practice')",
+      "evidenceMissing": "A naming approach avoiding 'recovery', 'education', and 'practice' roots has not yet been found. Concussion/mild-TBI is a genuinely distinct medical cause not covered by stroke/chemo/ICU/substance-recovery pages; worth further naming research."
+    },
+    {
+      "id": "C10R-G4",
+      "slug": "how-to-support-a-friend-with-memory-concerns",
+      "cluster": "guides",
+      "mechanicalResult": "FAIL — collides with how-to-support-spouse-memory-changes, how-to-support-parent-memory-changes, how-to-review-medications-with-doctor (shared keywords 'support'/'concerns')",
+      "evidenceMissing": "The friend-relationship gap (vs. parent/spouse already covered) is genuinely distinct in real-world terms (different boundaries/expectations), but naming that avoids 'support' and 'concerns' collision has not been found."
+    },
+    {
+      "id": "C10R-G5",
+      "slug": "how-to-travel-with-memory-concerns",
+      "cluster": "guides",
+      "mechanicalResult": "FAIL — collides with how-to-review-medications-with-doctor, how-to-support-a-friend-with-memory-concerns (shared keyword 'concerns')",
+      "evidenceMissing": "Genuine practical-logistics gap (travel prep checklists distinct from jet-lag cognition exercise); needs renaming avoiding 'concerns'."
+    },
+    {
+      "id": "C10R-G6",
+      "slug": "how-to-prepare-a-one-page-memory-summary-for-emergencies",
+      "cluster": "guides",
+      "mechanicalResult": "FAIL — collides with how-to-prepare-for-memory-clinic, how-to-prepare-questions-before-a-doctor-appointment (shared keyword 'prepare')",
+      "evidenceMissing": "Genuine, novel safety-document concept; needs renaming avoiding 'prepare'."
+    },
+    {
+      "id": "C10R-G7",
+      "slug": "how-to-choose-a-medical-alert-device",
+      "cluster": "guides",
+      "mechanicalResult": "FAIL — collides with how-to-choose-brain-apps, how-to-choose-hearing-aids-cognition, how-to-choose-a-daily-planner-system, how-to-choose-between-online-and-in-person-cognitive-classes (shared keyword 'choose')",
+      "evidenceMissing": "Genuine 'how to choose a tool category' gap; 'choose' is such a heavily reused root in this cluster that any 'how to choose X' candidate will collide with the existing choose-family. Needs either a non-'choose' framing or a Director decision on whether the gate's STOPWORDS list should be revisited (a proposal to make, not a change to make unilaterally)."
+    },
+    {
+      "id": "C10R-G8",
+      "slug": "how-to-build-a-family-photo-memory-project",
+      "cluster": "guides",
+      "mechanicalResult": "FAIL — collides with how-to-build-brain-healthy-habits, how-to-coordinate-family-care, how-to-build-a-sleep-wind-down (shared keywords 'build'/'family')",
+      "evidenceMissing": "Genuine reminiscence-project gap; needs renaming avoiding 'build' and 'family'."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "slug": "how-to-declutter-for-mental-clarity",
+      "cluster": "guides",
+      "collisionTarget": "how-to-batch-errands-for-mental-energy",
+      "mechanicalResult": "FAIL (shared 'mental')",
+      "semanticResult": "N/A — mechanical fail",
+      "reason": "Shares 'mental' keyword family with an existing errand-batching guide; not pursued further given the density of near-misses already found in this cluster.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-choose-a-daily-planner-system",
+      "cluster": "guides",
+      "collisionTarget": "how-to-choose-brain-apps, how-to-choose-hearing-aids-cognition, how-to-choose-a-medical-alert-device",
+      "mechanicalResult": "FAIL (shared 'choose')",
+      "semanticResult": "N/A",
+      "reason": "The 'choose' root is used across 4+ existing/candidate guides; genuinely crowded sub-family.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-recover-focus-after-an-interruption",
+      "cluster": "guides",
+      "collisionTarget": "how-to-reduce-stress-for-focus, how-to-handle-correction-after-forgetting",
+      "mechanicalResult": "FAIL (shared 'focus'/'after')",
+      "semanticResult": "N/A",
+      "reason": "Collides with existing focus-family and correction-after-forgetting guides.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-adapt-recipes-for-cognitive-ease",
+      "cluster": "guides",
+      "collisionTarget": "how-to-prevent-cognitive-decline, how-to-find-reputable-cognitive-resources, how-to-pace-cognitive-tasks-daily",
+      "mechanicalResult": "FAIL (shared 'cognitive')",
+      "semanticResult": "N/A",
+      "reason": "'cognitive' is not a stopword and is used across many existing guides; also semantically close to brain-exercises-for-meal-prep-memory (different cluster, same domain — cooking).",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-set-up-visual-reminders-and-cues",
+      "cluster": "guides",
+      "collisionTarget": "how-to-train-visual-memory, how-to-set-boundaries-to-reduce-stress",
+      "mechanicalResult": "FAIL (shared 'visual'/'set')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'visual' and 'set' roots; also semantically close to the qualified how-to-color-code-a-household-organizing-system candidate (redundant if both existed).",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-navigate-insurance-and-costs-for-memory-testing",
+      "cluster": "guides",
+      "collisionTarget": "how-to-reduce-multitasking-costs",
+      "mechanicalResult": "FAIL (shared 'costs')",
+      "semanticResult": "C — semantic/localization reject",
+      "reason": "Mechanical collision on 'costs', AND independently rejected on localization grounds: U.S. health-insurance concepts do not map naturally to Spain's or France's public healthcare systems, which the localization test explicitly flags as disqualifying absent a compelling reason to retain.",
+      "precedent": "New rejection — first candidate rejected specifically on the localization test"
+    },
+    {
+      "slug": "how-to-choose-between-online-and-in-person-cognitive-classes",
+      "cluster": "guides",
+      "collisionTarget": "how-to-prevent-cognitive-decline, how-to-choose-brain-apps, how-to-choose-hearing-aids-cognition, how-to-find-reputable-cognitive-resources, how-to-pace-cognitive-tasks-daily (9 total)",
+      "mechanicalResult": "FAIL (shared 'cognitive'/'choose')",
+      "semanticResult": "N/A",
+      "reason": "Heaviest collision count found in this research (9 existing pages); cluster is saturated on both 'cognitive' and 'choose' roots simultaneously.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-prepare-questions-before-a-doctor-appointment",
+      "cluster": "guides",
+      "collisionTarget": "how-to-talk-to-doctor-memory, how-to-review-medications-with-doctor, how-to-prepare-for-memory-clinic",
+      "mechanicalResult": "FAIL (shared 'doctor'/'prepare')",
+      "semanticResult": "N/A",
+      "reason": "Also substantively close to the already-existing how-to-plan-for-memory-evaluation (UNIQUE-CONTENT) and how-to-prepare-for-memory-clinic (permanently precedent-rejected) — this is essentially the same intent as the latter, reinforcing that precedent.",
+      "precedent": "New rejection, reinforces existing precedent (how-to-prepare-for-memory-clinic)"
+    },
+    {
+      "slug": "how-to-return-to-work-after-a-cognitive-health-scare",
+      "cluster": "guides",
+      "collisionTarget": "10 existing pages including how-to-ask-for-accommodations-work, how-to-prevent-cognitive-decline",
+      "mechanicalResult": "FAIL (shared 'cognitive'/'work')",
+      "semanticResult": "N/A",
+      "reason": "Heaviest single collision count (10); also semantically close to the existing how-to-ask-for-accommodations-work guide (workplace-reentry vs. workplace-accommodation-request are closely related asks).",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-use-a-symptom-tracking-app-vs-paper",
+      "cluster": "guides",
+      "collisionTarget": "how-to-keep-a-symptom-diary",
+      "mechanicalResult": "FAIL (shared 'symptom')",
+      "semanticResult": "C — semantic near-duplicate",
+      "reason": "The existing how-to-keep-a-symptom-diary guide likely already addresses format choice implicitly (diary = a format); a dedicated 'app vs paper' comparison risks being a thin sub-slice of the same intent.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-reduce-background-noise-for-concentration",
+      "cluster": "guides",
+      "collisionTarget": "how-to-reduce-stress-for-focus, how-to-set-boundaries-to-reduce-stress, how-to-reduce-multitasking-costs",
+      "mechanicalResult": "FAIL (shared 'reduce')",
+      "semanticResult": "N/A",
+      "reason": "The 'reduce' root guide family is already dense (3 existing pages); this would be a 4th, likely near-duplicate in practical advice content (quiet environment tips overlap heavily with existing focus guides).",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-plan-a-visit-with-someone-experiencing-memory-loss",
+      "cluster": "guides",
+      "collisionTarget": "how-to-plan-for-memory-evaluation, how-to-review-medications-with-doctor",
+      "mechanicalResult": "FAIL (shared 'plan')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'plan' root; also semantically adjacent to how-to-support-parent/spouse-memory-changes.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-downsize-a-home-with-memory-changes",
+      "cluster": "guides",
+      "collisionTarget": "how-to-test-memory-at-home, how-to-support-spouse-memory-changes, how-to-support-parent-memory-changes (5 total)",
+      "mechanicalResult": "FAIL (shared 'home'/'memory-changes')",
+      "semanticResult": "N/A",
+      "reason": "Heavy collision (5 pages); 'memory changes' is effectively a claimed phrase across multiple existing guides.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-batch-photograph-receipts-and-documents",
+      "cluster": "guides",
+      "collisionTarget": "how-to-batch-errands-for-mental-energy",
+      "mechanicalResult": "FAIL (shared 'batch')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'batch' root; also a fairly thin, task-specific wedge with limited distinct educational content potential (largely a productivity tip, not cognitive-health education).",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "how-to-childproof-a-schedule-around-caregiving",
+      "cluster": "guides",
+      "collisionTarget": "none (passed mechanically)",
+      "mechanicalResult": "PASS",
+      "semanticResult": "E — OUT OF SCOPE / not a genuine intent",
+      "reason": "Self-identified during research as an incoherent word-combination generated to test the gate boundary, not a real, recognizable user search intent ('childproofing' does not apply to adult caregiving scheduling). Rejected on the discovery process's own standard that 'a candidate must have a reason to exist beyond a new keyword wrapper' — this candidate is exactly that failure mode, and is disclosed here rather than silently discarded.",
+      "precedent": "New rejection — self-identified as invalid construction"
+    },
+    {
+      "slug": "brain-exercises-for-time-of-day-optimization",
+      "cluster": "exercises_intent",
+      "collisionTarget": "brain-exercises-for-reaction-time",
+      "mechanicalResult": "FAIL (shared 'time')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'time' root.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "brain-exercises-for-board-game-strategy",
+      "cluster": "exercises_intent",
+      "collisionTarget": "brain-exercises-for-sports-strategy-thinking, brain-exercises-for-video-game-cognitive-crossover",
+      "mechanicalResult": "FAIL (shared 'strategy')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'strategy' root with existing sports-strategy page and the (also-rejected) video-game candidate proposed in the same batch.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "brain-exercises-for-grief-and-cognition",
+      "cluster": "exercises_intent",
+      "collisionTarget": "brain-exercises-for-heart-health-cognition, -driving-safety-cognition, -hydration-cognition, -jet-lag-cognition, -night-shift-cognition",
+      "mechanicalResult": "FAIL (shared 'cognition')",
+      "semanticResult": "N/A",
+      "reason": "'cognition' is used as a suffix across 5+ existing exercises_intent pages; genuinely crowded naming pattern.",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "brain-exercises-for-video-game-cognitive-crossover",
+      "cluster": "exercises_intent",
+      "collisionTarget": "brain-exercises-for-board-game-strategy",
+      "mechanicalResult": "FAIL (shared 'game')",
+      "semanticResult": "C — also semantic near-duplicate",
+      "reason": "Mechanical collision with the also-proposed board-game-strategy candidate; independently, the underlying content (brain-training evidence discussion) substantially overlaps with the already-implemented brain-exercises-for-memory unique-content section, which already covers 'brain-training evidence shows task-specific improvement, not broad transfer.'",
+      "precedent": "New rejection"
+    },
+    {
+      "slug": "brain-exercises-for-improv-and-quick-thinking",
+      "cluster": "exercises_intent",
+      "collisionTarget": "brain-exercises-for-sports-strategy-thinking",
+      "mechanicalResult": "FAIL (shared 'thinking')",
+      "semanticResult": "N/A",
+      "reason": "Collides on 'thinking' root.",
+      "precedent": "New rejection"
+    }
+  ],
+  "clusterAccounting": {
+    "exercisesIntent": {
+      "rawDiscovered": 11,
+      "qualifiedA": 3,
+      "categoryB": 1,
+      "holdRewording": 2,
+      "rejected": 5
+    },
+    "guides": {
+      "rawDiscovered": 23,
+      "qualifiedA": 2,
+      "categoryB": 1,
+      "holdRewording": 5,
+      "rejected": 15
+    }
+  },
+  "mostImportantFindings": [
+    "The guides cluster's collision surface is far denser than the mechanical gate's narrow STOPWORDS list (only 'for/the/a/an/and/of/to/brain/exercises/memory/test/how/tests/guide') can absorb — common but meaningful words like 'cognitive', 'choose', 'prepare', 'focus', 'care', 'work', 'concerns', 'memory changes' are each independently claimed by 3-10 existing guides, so almost any naturally-phrased new 'how to X for memory/cognitive Y' guide mechanically collides.",
+    "This is a structural observation about the cluster's saturation under the current gate design, not evidence that no genuine new guide intents exist — 7 genuine, distinct intents were identified and held (not rejected) specifically because they were blocked only by generic-word collision, not by a lack of real distinctness.",
+    "The 'choose' root alone blocks any new 'how to choose X' guide (a previously productive pattern: brain-apps, hearing-aids) — how-to-choose-a-medical-alert-device is a genuine gap in that established pattern but cannot pass under the current gate; this may warrant a Director-level conversation about the STOPWORDS list rather than a content-selection workaround.",
+    "One candidate (how-to-navigate-insurance-and-costs-for-memory-testing) was independently rejected on the localization test alone (U.S.-specific healthcare-cost concepts don't map to Spain/France systems) — the first candidate in this project's history rejected specifically for that reason.",
+    "One candidate (how-to-childproof-a-schedule-around-caregiving) mechanically PASSED but was self-rejected as not representing a genuine, recognizable search intent — disclosed transparently as a check on the discovery process's own rigor."
+  ],
+  "recommendedFutureImplementationCandidates": [
+    "brain-exercises-for-retirement-transition",
+    "brain-exercises-for-scam-awareness",
+    "brain-exercises-for-photography-observation",
+    "how-to-simplify-instructions-for-a-loved-one",
+    "how-to-color-code-a-household-organizing-system"
+  ],
+  "candidatesRequiringAdditionalResearch": [
+    "brain-exercises-for-remote-work-boundaries",
+    "how-to-write-a-legacy-letter",
+    "brain-exercises-for-postpartum-brain-fog",
+    "brain-exercises-for-concussion-recovery-education",
+    "how-to-support-a-friend-with-memory-concerns",
+    "how-to-travel-with-memory-concerns",
+    "how-to-prepare-a-one-page-memory-summary-for-emergencies",
+    "how-to-choose-a-medical-alert-device",
+    "how-to-build-a-family-photo-memory-project"
+  ],
+  "noImplementationStatement": "No HTML was edited. No manifest, override, generator, sitemap, redirect, canonical, hreflang, or robots.txt file was modified. The only repository changes are the two CONTENT-10R report files.",
+  "changedFileManifest": [
+    "reports/content-10r-candidate-discovery.md",
+    "reports/content-10r-candidate-discovery.json"
+  ],
+  "finalGitState": {
+    "headUnchanged": "3adb1f3093b53444725b3c87f52fce284a0a953a",
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  }
+}
