@@ -148,8 +148,12 @@ function rootHubHtml() {
 function simpleArticleHtml(section, slug, description, related) {
   const title = titleFromSlug(slug);
   const url = `${domain}/${section}/${slug}.html`;
+  const robotsMeta =
+    section === "printable-tests"
+      ? '<meta name="robots" content="noindex, follow" />'
+      : "";
   return `<!doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${title} | Free Cognitive Test</title><meta name="description" content="${description}" /><link rel="canonical" href="${url}" />
+${robotsMeta ? `${robotsMeta}\n` : ""}<title>${title} | Free Cognitive Test</title><meta name="description" content="${description}" /><link rel="canonical" href="${url}" />
 <meta property="og:type" content="article" /><meta property="og:site_name" content="Free Cognitive Test" /><meta property="og:title" content="${title} | Free Cognitive Test" />
 <meta property="og:description" content="${description}" /><meta property="og:url" content="${url}" /><link rel="stylesheet" href="/assets/css/styles.css" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is this page for?","acceptedAnswer":{"@type":"Answer","text":"Older adults, caregivers, and clinicians seeking educational resources."}},{"@type":"Question","name":"Is this medical advice?","acceptedAnswer":{"@type":"Answer","text":"No. This content is educational and not a diagnosis."}}]}</script></head>
