@@ -45,3 +45,9 @@ RedirectMatch 301 ^/brain-exercises-for-focus/?$ /brain-exercises/attention-and-
 RedirectMatch 301 ^/how-to-build-a-sleep-wind-down/?$ /how-to-sleep-better-for-memory/
 RedirectMatch 301 ^/es/rutina-descanso-memoria/?$ /es/dormir-mejor-memoria/
 RedirectMatch 301 ^/fr/routine-soir-memoire/?$ /fr/mieux-dormir-memoire/
+RedirectMatch 301 ^/guide-how-to-improve-memory-naturally-p1/?$ /how-to-improve-memory-naturally/
+RedirectMatch 301 ^/guide-how-to-improve-memory-p0/?$ /how-to-improve-memory-naturally/
+RedirectMatch 301 ^/es/guia-como-mejorar-la-memoria-naturalmente-p1/?$ /es/como-mejorar-memoria-natural/
+RedirectMatch 301 ^/es/guia-como-mejorar-la-memoria-p0/?$ /es/como-mejorar-memoria-natural/
+RedirectMatch 301 ^/fr/guide-ameliorer-la-memoire-naturellement-p1/?$ /fr/ameliorer-memoire-naturellement/
+RedirectMatch 301 ^/fr/guide-comment-ameliorer-la-memoire-p0/?$ /fr/ameliorer-memoire-naturellement/

@@ -33,6 +33,14 @@ const SITEMAP_EXCLUDE = new Set([
   "/how-to-build-a-sleep-wind-down/",
   "/es/rutina-descanso-memoria/",
   "/fr/routine-soir-memoire/",
+  /* CONTENT-12 Family A: consolidated into /how-to-improve-memory-naturally/
+     (and its ES/FR survivors); redirects.json has the 301s. */
+  "/guide-how-to-improve-memory-naturally-p1/",
+  "/guide-how-to-improve-memory-p0/",
+  "/es/guia-como-mejorar-la-memoria-naturalmente-p1/",
+  "/es/guia-como-mejorar-la-memoria-p0/",
+  "/fr/guide-ameliorer-la-memoire-naturellement-p1/",
+  "/fr/guide-comment-ameliorer-la-memoire-p0/",
   "/es/prueba-mini-cog/",
   "/es/prueba-mini-cog",
   "/es/test-dibujo-reloj/",

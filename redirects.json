@@ -178,5 +178,29 @@
   {
     "from": "/fr/routine-soir-memoire/",
     "to": "/fr/mieux-dormir-memoire/"
+  },
+  {
+    "from": "/guide-how-to-improve-memory-naturally-p1/",
+    "to": "/how-to-improve-memory-naturally/"
+  },
+  {
+    "from": "/guide-how-to-improve-memory-p0/",
+    "to": "/how-to-improve-memory-naturally/"
+  },
+  {
+    "from": "/es/guia-como-mejorar-la-memoria-naturalmente-p1/",
+    "to": "/es/como-mejorar-memoria-natural/"
+  },
+  {
+    "from": "/es/guia-como-mejorar-la-memoria-p0/",
+    "to": "/es/como-mejorar-memoria-natural/"
+  },
+  {
+    "from": "/fr/guide-ameliorer-la-memoire-naturellement-p1/",
+    "to": "/fr/ameliorer-memoire-naturellement/"
+  },
+  {
+    "from": "/fr/guide-comment-ameliorer-la-memoire-p0/",
+    "to": "/fr/ameliorer-memoire-naturellement/"
   }
 ]
