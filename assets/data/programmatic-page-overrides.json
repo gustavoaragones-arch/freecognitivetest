@@ -1,5 +1,5 @@
 {
-  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20. CONTENT-10B extends the same architecture with 5 Category-A candidates from CONTENT-10R (3 exercises_intent + 2 guides), each nesting content under {en, es, fr}, manifest ids p170–p174.",
+  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20. CONTENT-10B extends the same architecture with 5 Category-A candidates from CONTENT-10R (3 exercises_intent + 2 guides), each nesting content under {en, es, fr}, manifest ids p170–p174. CONTENT-13B extends this same architecture (not a second generator) with 20 additional entries selected via CONTENT-13A's evidence-based candidate audit, each nesting uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys per the CONTENT-10R/CONTENT-10B multilingual pattern. Same non-diagnostic, no-fabricated-sources editorial standard as all prior phases.",
   "memory-test-for-caregivers": {
     "sectionHeading": {
       "en": "Guidance specific to family caregivers",
@@ -4154,6 +4154,1986 @@
         {
           "q": "En quoi est-ce différent d'étiqueter tout en texte ?",
           "a": "La couleur ajoute un repère de reconnaissance utilisable d'un coup d'œil sans lecture ; les étiquettes texte aident aussi, mais la couleur peut soutenir les personnes en fatigue de lecture ou avec une faible littératie si elle est utilisée de façon constante avec les étiquettes."
+        }
+      ]
+    }
+  },
+  "memory-test-for-primary-care": {
+    "sectionHeading": {
+      "en": "What a primary-care visit adds beyond a home demo",
+      "es": "Qué aporta una consulta de atención primaria más allá de una autoevaluación",
+      "fr": "Ce qu'une consultation de médecine générale apporte au-delà d'une auto-évaluation"
+    },
+    "uniqueStatements": {
+      "en": [
+        "If a primary-care clinician raises a memory concern, a brief in-office cognitive screening may be used, the clinician gathers history and context, and a referral to a specialist may follow depending on findings and circumstances — there is no single universal workflow or fixed referral threshold that applies to everyone.",
+        "A home browser demo can show a task-specific performance snapshot on that particular task; a primary-care visit adds clinical history, a medication review, physical-exam context, functional context, and the clinician's overall judgment — a considerably fuller picture than one score.",
+        "Bringing a medication list, specific dated examples of memory-related incidents, relevant observations about daily functioning, and optionally a companion who has observed changes gives a primary-care clinician more useful material to work with than a general impression."
+      ],
+      "es": [
+        "Si un médico de atención primaria plantea una preocupación sobre la memoria, puede usarse una breve evaluación cognitiva en la consulta, el médico recopila antecedentes y contexto, y puede derivar a un especialista según los hallazgos y las circunstancias; no existe un único procedimiento universal ni un umbral fijo de derivación que se aplique a todos.",
+        "Una autoevaluación en el navegador puede mostrar una instantánea del rendimiento en esa tarea concreta; una consulta de atención primaria añade antecedentes clínicos, una revisión de la medicación, el contexto de una exploración física, el contexto funcional y el criterio general del médico: un panorama considerablemente más completo que una sola puntuación.",
+        "Llevar una lista de medicamentos, ejemplos concretos y fechados de incidentes relacionados con la memoria, observaciones relevantes sobre el funcionamiento diario y, si es posible, un acompañante que haya notado los cambios, le da al médico de atención primaria material más útil que una impresión general."
+      ],
+      "fr": [
+        "Si un médecin généraliste soulève une préoccupation concernant la mémoire, un bref dépistage cognitif peut être utilisé au cabinet, le médecin recueille les antécédents et le contexte, et une orientation vers un spécialiste peut suivre selon les constatations et les circonstances ; il n'existe pas de parcours universel unique ni de seuil fixe d'orientation qui s'applique à tout le monde.",
+        "Une auto-évaluation dans le navigateur peut montrer un aperçu de la performance sur cette tâche précise ; une consultation de médecine générale ajoute les antécédents cliniques, une revue des médicaments, le contexte d'un examen physique, le contexte fonctionnel et le jugement global du médecin — un tableau nettement plus complet qu'un seul score.",
+        "Apporter une liste de médicaments, des exemples concrets et datés d'incidents liés à la mémoire, des observations pertinentes sur le fonctionnement quotidien et, si possible, un proche ayant observé les changements, donne au médecin généraliste des éléments plus utiles qu'une impression générale."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "The typical primary-care workflow",
+          "body": "A brief in-office screening, gathering of history and context, and possible referral depending on findings — not a fixed universal protocol."
+        },
+        {
+          "heading": "What to bring to the appointment",
+          "body": "A medication list, specific dated examples, observations about daily functioning, and ideally a companion who has observed changes."
+        }
+      ],
+      "es": [
+        {
+          "heading": "El procedimiento habitual en atención primaria",
+          "body": "Una breve evaluación en la consulta, la recopilación de antecedentes y contexto, y una posible derivación según los hallazgos, no un protocolo universal fijo."
+        },
+        {
+          "heading": "Qué llevar a la cita",
+          "body": "Una lista de medicamentos, ejemplos concretos y fechados, observaciones sobre el funcionamiento diario y, si es posible, un acompañante que haya notado los cambios."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Le déroulement habituel en médecine générale",
+          "body": "Un bref dépistage au cabinet, le recueil des antécédents et du contexte, et une orientation possible selon les constatations, non un protocole universel fixe."
+        },
+        {
+          "heading": "Que faut-il apporter au rendez-vous",
+          "body": "Une liste de médicaments, des exemples concrets et datés, des observations sur le fonctionnement quotidien et, si possible, un proche ayant observé les changements."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A person who brings three specific, dated examples of memory concerns to a primary-care appointment has more useful discussion material than someone who says only \"I've been forgetful.\""
+      ],
+      "es": [
+        "Una persona que lleva tres ejemplos concretos y fechados de sus preocupaciones sobre la memoria a una cita de atención primaria tiene material de conversación más útil que alguien que solo dice «he estado olvidadizo»."
+      ],
+      "fr": [
+        "Une personne qui apporte trois exemples concrets et datés de ses préoccupations liées à la mémoire à un rendez-vous de médecine générale dispose d'éléments de discussion plus utiles que quelqu'un qui se contente de dire « j'ai été distrait dernièrement »."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Will my primary care doctor test my memory in the room?",
+          "a": "Sometimes a brief in-office screening task is used, but not universally — it depends on the clinician's judgment and the specific concern raised."
+        },
+        {
+          "q": "What happens after a primary care doctor flags a concern?",
+          "a": "It varies: some concerns are monitored over time, others lead to a referral for further evaluation, depending on the findings and circumstances — there is no single fixed next step."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Mi médico de atención primaria me evaluará la memoria en la consulta?",
+          "a": "A veces se usa una breve tarea de evaluación en la consulta, pero no siempre; depende del criterio del médico y de la preocupación concreta planteada."
+        },
+        {
+          "q": "¿Qué ocurre después de que un médico de atención primaria detecte una preocupación?",
+          "a": "Varía: algunas preocupaciones se vigilan con el tiempo, otras derivan en una evaluación más profunda, según los hallazgos y las circunstancias; no hay un siguiente paso único y fijo."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Mon médecin généraliste va-t-il tester ma mémoire pendant la consultation ?",
+          "a": "Un bref exercice de dépistage au cabinet est parfois utilisé, mais pas systématiquement ; cela dépend du jugement du médecin et de la préoccupation précise soulevée."
+        },
+        {
+          "q": "Que se passe-t-il après qu'un médecin généraliste a signalé une préoccupation ?",
+          "a": "Cela varie : certaines préoccupations sont surveillées dans le temps, d'autres donnent lieu à une orientation vers une évaluation plus approfondie, selon les constatations et les circonstances — il n'y a pas d'étape suivante unique et fixe."
+        }
+      ]
+    }
+  },
+  "memory-test-for-occupational-health": {
+    "sectionHeading": {
+      "en": "How workplace cognitive fitness differs from a personal check",
+      "es": "En qué se diferencia la aptitud cognitiva laboral de una autoevaluación personal",
+      "fr": "En quoi l'aptitude cognitive au travail diffère d'une auto-évaluation personnelle"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Occupational cognitive-fitness assessment, where it is used at all, tends to relate to specific safety-sensitive roles, return-to-work circumstances after a medical leave, or post-incident review — it is not a routine, universal practice applied to most employees.",
+        "This educational home demo is distinct from a fitness-for-duty assessment, an employer-mandated assessment, or a formal occupational-health evaluation: those involve a different process, different stakes, and typically a different evaluator than a browser-based self-check.",
+        "Workplace situations involving cognitive concerns can involve several different roles — the employee, the employer, an occupational-health provider, and a treating clinician — each with a different part to play, and the details of who does what vary by workplace and jurisdiction."
+      ],
+      "es": [
+        "La evaluación de aptitud cognitiva laboral, cuando se usa, suele relacionarse con puestos específicos con responsabilidades de seguridad, circunstancias de reincorporación tras una baja médica, o revisiones posteriores a un incidente; no es una práctica rutinaria y universal aplicada a la mayoría de los empleados.",
+        "Esta autoevaluación educativa es distinta de una evaluación de aptitud para el puesto, una evaluación exigida por el empleador o una evaluación formal de salud laboral: estas implican un proceso distinto, consecuencias distintas y, normalmente, un evaluador distinto de una autoevaluación en el navegador.",
+        "Las situaciones laborales relacionadas con preocupaciones cognitivas pueden involucrar varios roles distintos —el empleado, el empleador, un servicio de salud laboral y un médico tratante—, cada uno con una función diferente, y los detalles de quién hace qué varían según el lugar de trabajo y el país."
+      ],
+      "fr": [
+        "L'évaluation de l'aptitude cognitive au travail, lorsqu'elle est utilisée, concerne généralement des postes spécifiques à responsabilité de sécurité, des situations de retour au travail après un congé médical, ou des examens consécutifs à un incident ; ce n'est pas une pratique routinière et universelle appliquée à la plupart des employés.",
+        "Cette auto-évaluation éducative est distincte d'une évaluation d'aptitude au poste, d'une évaluation exigée par l'employeur ou d'une évaluation formelle de santé au travail : celles-ci impliquent un processus différent, des enjeux différents, et généralement un évaluateur différent d'une auto-évaluation dans le navigateur.",
+        "Les situations de travail impliquant des préoccupations cognitives peuvent faire intervenir plusieurs rôles différents — l'employé, l'employeur, un service de santé au travail et un médecin traitant — chacun avec une fonction différente, et les détails de qui fait quoi varient selon le lieu de travail et le pays."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Where occupational cognitive-fitness assessment actually applies",
+          "body": "Typically tied to safety-sensitive roles, return-to-work circumstances, or post-incident review — not a routine universal workplace practice."
+        },
+        {
+          "heading": "Different roles, different responsibilities",
+          "body": "Employee, employer, occupational-health provider, and treating clinician can each play a distinct part; the exact arrangement varies by workplace and jurisdiction."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Dónde se aplica realmente la evaluación de aptitud cognitiva laboral",
+          "body": "Suele vincularse a puestos con responsabilidades de seguridad, reincorporaciones laborales o revisiones tras un incidente, no a una práctica laboral rutinaria y universal."
+        },
+        {
+          "heading": "Distintos roles, distintas responsabilidades",
+          "body": "El empleado, el empleador, el servicio de salud laboral y el médico tratante pueden cumplir funciones diferentes; el arreglo exacto varía según el lugar de trabajo y el país."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Où s'applique réellement l'évaluation de l'aptitude cognitive au travail",
+          "body": "Généralement liée à des postes à responsabilité de sécurité, à des retours au travail ou à des examens consécutifs à un incident, non à une pratique de travail routinière et universelle."
+        },
+        {
+          "heading": "Des rôles différents, des responsabilités différentes",
+          "body": "L'employé, l'employeur, le service de santé au travail et le médecin traitant peuvent chacun jouer un rôle distinct ; l'arrangement exact varie selon le lieu de travail et le pays."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "An employee returning to a safety-sensitive role after medical leave may be asked to undergo a formal fitness-for-duty evaluation — a materially different process from casually taking an online memory quiz on this site."
+      ],
+      "es": [
+        "Un empleado que se reincorpora a un puesto con responsabilidades de seguridad tras una baja médica puede tener que someterse a una evaluación formal de aptitud para el puesto, un proceso claramente distinto de hacer un cuestionario de memoria en línea de forma informal en este sitio."
+      ],
+      "fr": [
+        "Un employé qui reprend un poste à responsabilité de sécurité après un congé médical peut devoir se soumettre à une évaluation formelle d'aptitude au poste, un processus nettement différent du fait de faire un quiz de mémoire en ligne de façon informelle sur ce site."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can my employer require me to take a memory test?",
+          "a": "This depends on the workplace, role, and jurisdiction; this page provides general educational information, not employment-law advice specific to your situation."
+        },
+        {
+          "q": "Is this page's demo the same as a workplace fitness-for-duty test?",
+          "a": "No — this is an educational self-check, not a formal fitness-for-duty assessment, which follows a different process with different stakes and evaluators."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Puede mi empleador exigirme una prueba de memoria?",
+          "a": "Depende del lugar de trabajo, el puesto y el país; esta página ofrece información educativa general, no asesoría legal laboral específica para su situación."
+        },
+        {
+          "q": "¿La autoevaluación de esta página es lo mismo que una prueba de aptitud laboral?",
+          "a": "No: esta es una autoevaluación educativa, no una evaluación formal de aptitud para el puesto, que sigue un proceso distinto con consecuencias y evaluadores distintos."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Mon employeur peut-il m'obliger à passer un test de mémoire ?",
+          "a": "Cela dépend du lieu de travail, du poste et du pays ; cette page fournit une information éducative générale, pas un conseil juridique du travail propre à votre situation."
+        },
+        {
+          "q": "L'auto-évaluation de cette page est-elle la même chose qu'un test d'aptitude au poste ?",
+          "a": "Non : ceci est une auto-évaluation éducative, pas une évaluation formelle d'aptitude au poste, qui suit un processus différent avec des enjeux et des évaluateurs différents."
+        }
+      ]
+    }
+  },
+  "memory-test-for-low-literacy-friendly": {
+    "sectionHeading": {
+      "en": "Making a memory self-check accessible",
+      "es": "Cómo hacer accesible una autoevaluación de memoria",
+      "fr": "Rendre une auto-évaluation de la mémoire accessible"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Format accommodations such as pictures, verbal instructions, audio where available, simpler presentation, and avoiding unnecessary dense reading can make a memory self-check genuinely accessible to someone with limited reading ability.",
+        "Low literacy is not itself evidence of memory decline — reading ability and cognitive/memory function are separate skills, and difficulty with dense written instructions should not be mistaken for a cognitive concern.",
+        "A family member, literacy-support worker, or other helper can read or explain instructions aloud while still allowing the person to perform the actual memory task independently — helping with the instructions is different from doing the task for them."
+      ],
+      "es": [
+        "Adaptaciones de formato como imágenes, instrucciones verbales, audio cuando esté disponible, una presentación más sencilla y evitar lecturas densas innecesarias pueden hacer que una autoevaluación de memoria sea realmente accesible para alguien con dificultades de lectura.",
+        "Un nivel bajo de lectura no es en sí mismo evidencia de deterioro de la memoria: la capacidad de lectura y la función cognitiva o de memoria son habilidades distintas, y la dificultad con instrucciones escritas densas no debe confundirse con una preocupación cognitiva.",
+        "Un familiar, una persona de apoyo en alfabetización u otro ayudante puede leer o explicar las instrucciones en voz alta sin dejar de permitir que la persona realice la tarea de memoria de forma independiente: ayudar con las instrucciones es distinto de hacer la tarea por ella."
+      ],
+      "fr": [
+        "Des aménagements de format comme des images, des instructions orales, de l'audio lorsqu'il est disponible, une présentation plus simple et le fait d'éviter une lecture dense inutile peuvent rendre une auto-évaluation de la mémoire réellement accessible à une personne ayant des difficultés de lecture.",
+        "Un faible niveau de lecture n'est pas en soi une preuve de déclin de la mémoire : la capacité de lecture et le fonctionnement cognitif ou mnésique sont des compétences distinctes, et une difficulté avec des instructions écrites denses ne doit pas être confondue avec une préoccupation cognitive.",
+        "Un membre de la famille, un intervenant en alphabétisation ou une autre personne aidante peut lire ou expliquer les instructions à voix haute tout en laissant la personne réaliser elle-même la tâche de mémoire : aider avec les instructions est différent de faire la tâche à sa place."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Format accommodations that help",
+          "body": "Pictures, verbal instructions, audio where available, and simpler presentation reduce reliance on dense reading."
+        },
+        {
+          "heading": "Literacy is not a cognitive measure",
+          "body": "Reading ability and memory/cognitive function are separate skills — low literacy should not be read as a sign of decline."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Adaptaciones de formato que ayudan",
+          "body": "Imágenes, instrucciones verbales, audio cuando esté disponible y una presentación más sencilla reducen la dependencia de la lectura densa."
+        },
+        {
+          "heading": "La alfabetización no es una medida cognitiva",
+          "body": "La capacidad de lectura y la función cognitiva o de memoria son habilidades distintas; un nivel bajo de lectura no debe interpretarse como signo de deterioro."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Des aménagements de format qui aident",
+          "body": "Images, instructions orales, audio lorsqu'il est disponible et présentation plus simple réduisent la dépendance à une lecture dense."
+        },
+        {
+          "heading": "L'alphabétisation n'est pas une mesure cognitive",
+          "body": "La capacité de lecture et le fonctionnement cognitif ou mnésique sont des compétences distinctes ; un faible niveau de lecture ne doit pas être interprété comme un signe de déclin."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A helper reads the instructions aloud and points to picture-based prompts, while the person taking the memory task performs it independently, without the helper answering for them."
+      ],
+      "es": [
+        "Un ayudante lee las instrucciones en voz alta y señala indicaciones con imágenes, mientras la persona que realiza la tarea de memoria la hace de forma independiente, sin que el ayudante responda por ella."
+      ],
+      "fr": [
+        "Une personne aidante lit les instructions à voix haute et désigne des repères illustrés, tandis que la personne qui effectue la tâche de mémoire la réalise elle-même, sans que l'aidant ne réponde à sa place."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Does a low reading level affect memory-test accuracy?",
+          "a": "It can, if the task relies heavily on reading dense instructions — using picture-based or verbal formats reduces this effect and gives a fairer picture of memory itself."
+        },
+        {
+          "q": "Can someone else read the instructions to me?",
+          "a": "Yes — having someone read or explain instructions aloud is a reasonable accommodation, as long as they aren't performing the memory task itself for you."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Un nivel bajo de lectura afecta la precisión de la prueba de memoria?",
+          "a": "Puede hacerlo si la tarea depende mucho de leer instrucciones densas; usar formatos con imágenes o verbales reduce este efecto y da una imagen más justa de la memoria en sí."
+        },
+        {
+          "q": "¿Puede otra persona leerme las instrucciones?",
+          "a": "Sí: que alguien lea o explique las instrucciones en voz alta es una adaptación razonable, siempre que no realice la tarea de memoria en su lugar."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Un faible niveau de lecture affecte-t-il la précision du test de mémoire ?",
+          "a": "Cela peut être le cas si la tâche dépend beaucoup de la lecture d'instructions denses ; utiliser des formats illustrés ou oraux réduit cet effet et donne une image plus juste de la mémoire elle-même."
+        },
+        {
+          "q": "Une autre personne peut-elle me lire les instructions ?",
+          "a": "Oui : demander à quelqu'un de lire ou d'expliquer les instructions à voix haute est un aménagement raisonnable, à condition qu'elle ne réalise pas la tâche de mémoire à votre place."
+        }
+      ]
+    }
+  },
+  "memory-test-for-depression-brain-fog": {
+    "sectionHeading": {
+      "en": "Interpreting a score when mood is low",
+      "es": "Cómo interpretar un resultado cuando el ánimo está bajo",
+      "fr": "Comment interpréter un score quand le moral est bas"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Low mood or depression can affect attention, processing speed, motivation, and concentration, all of which can influence performance on a timed cognitive task independent of any true change in memory ability.",
+        "A lower score on a day of significant low mood is not by itself evidence of memory decline — mood is a genuine, well-documented confound on task performance, not a sign that something has gone permanently wrong with memory.",
+        "A practical approach is to note mood alongside the score, avoid overinterpreting a single attempt, and where useful compare performance across different days or conditions — without treating any single retest as proof of anything."
+      ],
+      "es": [
+        "El ánimo bajo o la depresión pueden afectar la atención, la velocidad de procesamiento, la motivación y la concentración, todo lo cual puede influir en el rendimiento en una tarea cognitiva cronometrada, independientemente de cualquier cambio real en la capacidad de memoria.",
+        "Un resultado más bajo en un día de ánimo notablemente bajo no es en sí mismo evidencia de deterioro de la memoria: el ánimo es un factor de confusión genuino y bien documentado en el rendimiento de la tarea, no una señal de que algo haya fallado de forma permanente en la memoria.",
+        "Un enfoque práctico es anotar el ánimo junto con el resultado, evitar sobreinterpretar un único intento y, cuando sea útil, comparar el rendimiento en distintos días o condiciones, sin tratar ninguna repetición como una prueba definitiva de nada."
+      ],
+      "fr": [
+        "Un moral bas ou une dépression peuvent affecter l'attention, la vitesse de traitement, la motivation et la concentration, ce qui peut influencer la performance sur une tâche cognitive chronométrée indépendamment de tout changement réel de la capacité de mémoire.",
+        "Un résultat plus faible un jour de moral particulièrement bas n'est pas en soi une preuve de déclin de la mémoire : l'humeur est un facteur de confusion réel et bien documenté dans la performance à la tâche, pas un signe que quelque chose a définitivement mal tourné avec la mémoire.",
+        "Une approche pratique consiste à noter l'humeur en même temps que le score, à éviter de surinterpréter une seule tentative et, si utile, à comparer la performance sur différents jours ou dans différentes conditions, sans traiter un nouveau test isolé comme la preuve de quoi que ce soit."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why mood can lower a score without meaning memory has declined",
+          "body": "Attention, processing speed, and motivation are all mood-sensitive and all feed into a timed task's result."
+        },
+        {
+          "heading": "A practical way to interpret a result",
+          "body": "Note mood alongside the score, don't overinterpret one attempt, and compare across days where useful rather than treating a retest as proof."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué el ánimo puede bajar un resultado sin que la memoria haya empeorado",
+          "body": "La atención, la velocidad de procesamiento y la motivación son sensibles al ánimo y todas influyen en el resultado de una tarea cronometrada."
+        },
+        {
+          "heading": "Una forma práctica de interpretar un resultado",
+          "body": "Anote el ánimo junto con el resultado, no sobreinterprete un solo intento y compare entre días cuando sea útil, sin tratar una repetición como una prueba."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi l'humeur peut baisser un score sans que la mémoire ait décliné",
+          "body": "L'attention, la vitesse de traitement et la motivation sont sensibles à l'humeur et influencent toutes le résultat d'une tâche chronométrée."
+        },
+        {
+          "heading": "Une façon pratique d'interpréter un résultat",
+          "body": "Notez l'humeur en même temps que le score, ne surinterprétez pas une seule tentative, et comparez entre différents jours si utile, sans traiter un nouveau test comme une preuve."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "The same person may perform noticeably differently on a low-energy, low-mood day compared with a better day — a difference that reflects the day, not necessarily a change in underlying memory ability."
+      ],
+      "es": [
+        "La misma persona puede rendir notablemente distinto en un día de poca energía y ánimo bajo comparado con un día mejor, una diferencia que refleja el día, no necesariamente un cambio en la capacidad de memoria subyacente."
+      ],
+      "fr": [
+        "Une même personne peut avoir une performance nettement différente un jour de faible énergie et de moral bas par rapport à un meilleur jour — une différence qui reflète la journée, pas nécessairement un changement de la capacité de mémoire sous-jacente."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Should I retake the test on a better day?",
+          "a": "You can, if you want a more representative picture — but treat any single result, retake included, as one data point rather than a definitive measurement."
+        },
+        {
+          "q": "Does a low score mean my depression is affecting my memory permanently?",
+          "a": "Not necessarily — cognitive symptoms linked to low mood are often not permanent, and discussing patterns over time with a clinician gives a clearer picture than one score."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Debería repetir la prueba en un día mejor?",
+          "a": "Puede hacerlo si quiere una imagen más representativa, pero trate cualquier resultado único, incluida una repetición, como un dato más y no como una medición definitiva."
+        },
+        {
+          "q": "¿Un resultado bajo significa que mi depresión está afectando mi memoria de forma permanente?",
+          "a": "No necesariamente: los síntomas cognitivos vinculados al ánimo bajo a menudo no son permanentes, y comentar los patrones a lo largo del tiempo con un profesional da una imagen más clara que un solo resultado."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Devrais-je repasser le test un jour où je me sens mieux ?",
+          "a": "Vous le pouvez, si vous voulez une image plus représentative, mais traitez tout résultat isolé, y compris une nouvelle tentative, comme une donnée parmi d'autres et non comme une mesure définitive."
+        },
+        {
+          "q": "Un score faible signifie-t-il que ma dépression affecte ma mémoire de façon permanente ?",
+          "a": "Pas nécessairement : les symptômes cognitifs liés à un moral bas ne sont souvent pas permanents, et discuter des tendances dans le temps avec un clinicien donne une image plus claire qu'un seul résultat."
+        }
+      ]
+    }
+  },
+  "memory-test-for-anxiety-test-anxiety": {
+    "sectionHeading": {
+      "en": "How test anxiety affects a memory score",
+      "es": "Cómo la ansiedad ante la prueba afecta un resultado de memoria",
+      "fr": "Comment l'anxiété liée au test affecte un score de mémoire"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Acute anxiety can consume attentional and working-memory resources during a timed task, meaning some of what looks like a memory problem on a stressful attempt is actually an anxiety effect on performance in that moment.",
+        "Practical, low-risk preparation — slow breathing before starting, a brief pause rather than rushing in, and a low-stakes familiarization attempt with the task format — can reduce the anxiety effect on a subsequent attempt.",
+        "Situational test anxiety (tied specifically to the pressure of the task) is different from a persistent concern that continues even under calm, low-pressure conditions — that practical distinction matters more than the score itself."
+      ],
+      "es": [
+        "La ansiedad aguda puede consumir recursos de atención y de memoria de trabajo durante una tarea cronometrada, lo que significa que parte de lo que parece un problema de memoria en un intento estresante es en realidad un efecto de la ansiedad sobre el rendimiento en ese momento.",
+        "Una preparación práctica y de bajo riesgo —respirar despacio antes de empezar, una breve pausa en lugar de lanzarse de inmediato, y un intento de familiarización de bajo riesgo con el formato de la tarea— puede reducir el efecto de la ansiedad en un intento posterior.",
+        "La ansiedad situacional ante la prueba (ligada específicamente a la presión de la tarea) es distinta de una preocupación persistente que continúa incluso en condiciones tranquilas y de baja presión; esa distinción práctica importa más que el resultado en sí."
+      ],
+      "fr": [
+        "Une anxiété aiguë peut consommer des ressources d'attention et de mémoire de travail pendant une tâche chronométrée, ce qui signifie qu'une partie de ce qui ressemble à un problème de mémoire lors d'une tentative stressante est en réalité un effet de l'anxiété sur la performance à ce moment-là.",
+        "Une préparation pratique et sans risque — respirer lentement avant de commencer, une brève pause plutôt que de se lancer précipitamment, et un essai de familiarisation à faible enjeu avec le format de la tâche — peut réduire l'effet de l'anxiété lors d'une tentative suivante.",
+        "L'anxiété situationnelle liée au test (spécifiquement liée à la pression de la tâche) est différente d'une préoccupation persistante qui continue même dans des conditions calmes et peu exigeantes ; cette distinction pratique compte davantage que le score lui-même."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why anxiety, not memory, can explain a low score",
+          "body": "Acute anxiety narrows attentional and working-memory resources during the task itself, independent of true memory ability."
+        },
+        {
+          "heading": "Low-risk ways to reduce test-day anxiety",
+          "body": "Slow breathing, a brief pause before starting, and a low-stakes practice attempt with the format can measurably help."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué la ansiedad, y no la memoria, puede explicar un resultado bajo",
+          "body": "La ansiedad aguda reduce los recursos de atención y de memoria de trabajo durante la propia tarea, independientemente de la capacidad de memoria real."
+        },
+        {
+          "heading": "Formas de bajo riesgo para reducir la ansiedad el día de la prueba",
+          "body": "Respirar despacio, una breve pausa antes de empezar y un intento de práctica de bajo riesgo con el formato pueden ayudar de forma medible."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi l'anxiété, et non la mémoire, peut expliquer un score faible",
+          "body": "Une anxiété aiguë réduit les ressources d'attention et de mémoire de travail pendant la tâche elle-même, indépendamment de la capacité réelle de mémoire."
+        },
+        {
+          "heading": "Des moyens à faible risque pour réduire l'anxiété le jour du test",
+          "body": "Respirer lentement, faire une brève pause avant de commencer et un essai de familiarisation à faible enjeu avec le format peuvent aider de façon mesurable."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A rushed, anxious first attempt at an unfamiliar task format often looks noticeably worse than a calmer second attempt at the same task type — illustrating the anxiety effect directly, separate from memory itself."
+      ],
+      "es": [
+        "Un primer intento apresurado y ansioso con un formato de tarea desconocido suele parecer notablemente peor que un segundo intento más tranquilo con el mismo tipo de tarea, lo que ilustra directamente el efecto de la ansiedad, aparte de la memoria en sí."
+      ],
+      "fr": [
+        "Une première tentative précipitée et anxieuse sur un format de tâche inconnu paraît souvent nettement moins bonne qu'une seconde tentative plus calme sur le même type de tâche — illustrant directement l'effet de l'anxiété, indépendamment de la mémoire elle-même."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Why did I do so much worse than I expected?",
+          "a": "Acute anxiety during an unfamiliar timed task can meaningfully lower performance in the moment, separate from your actual memory ability."
+        },
+        {
+          "q": "Should I practice the task format first to reduce anxiety?",
+          "a": "A low-stakes practice attempt can help by making the format familiar, which often reduces the anxiety effect on a later attempt."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Por qué me fue mucho peor de lo que esperaba?",
+          "a": "La ansiedad aguda durante una tarea cronometrada desconocida puede reducir de forma significativa el rendimiento en ese momento, aparte de su capacidad de memoria real."
+        },
+        {
+          "q": "¿Debería practicar primero el formato de la tarea para reducir la ansiedad?",
+          "a": "Un intento de práctica de bajo riesgo puede ayudar al familiarizarse con el formato, lo que a menudo reduce el efecto de la ansiedad en un intento posterior."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Pourquoi ai-je obtenu un résultat bien pire que ce que j'attendais ?",
+          "a": "Une anxiété aiguë pendant une tâche chronométrée inconnue peut réduire de façon significative la performance sur le moment, indépendamment de votre capacité de mémoire réelle."
+        },
+        {
+          "q": "Devrais-je m'exercer d'abord au format de la tâche pour réduire l'anxiété ?",
+          "a": "Un essai de familiarisation à faible enjeu peut aider en rendant le format familier, ce qui réduit souvent l'effet de l'anxiété lors d'une tentative ultérieure."
+        }
+      ]
+    }
+  },
+  "memory-test-for-drivers-medical": {
+    "sectionHeading": {
+      "en": "What a formal fitness-to-drive evaluation involves",
+      "es": "Qué implica una evaluación formal de aptitud para conducir",
+      "fr": "Ce qu'implique une évaluation formelle d'aptitude à la conduite"
+    },
+    "uniqueStatements": {
+      "en": [
+        "A formal fitness-to-drive cognitive assessment may consider domains such as reaction time, visual attention, and executive function among other functional abilities relevant to driving — there is no single universal test battery, and what is assessed varies by evaluator and circumstance.",
+        "This site's home demo does not substitute for a formal fitness-to-drive evaluation, does not predict whether someone will pass one, and does not determine driving fitness — those are the role of the formal evaluation process, not an educational browser task.",
+        "Self-testing at home before a formal evaluation can create false reassurance (if the home task goes well) or unnecessary alarm (if it doesn't) if it's treated as a stand-in for the actual determination, since the formal process considers a broader functional context than a single online task."
+      ],
+      "es": [
+        "Una evaluación cognitiva formal de aptitud para conducir puede considerar aspectos como el tiempo de reacción, la atención visual y la función ejecutiva, entre otras capacidades funcionales relevantes para conducir; no existe una única batería de pruebas universal, y lo que se evalúa varía según el evaluador y las circunstancias.",
+        "La autoevaluación de este sitio no sustituye una evaluación formal de aptitud para conducir, no predice si alguien la aprobará y no determina la aptitud para conducir; esas son funciones del proceso de evaluación formal, no de una tarea educativa en el navegador.",
+        "Autoevaluarse en casa antes de una evaluación formal puede generar una falsa tranquilidad (si la tarea en casa va bien) o una alarma innecesaria (si no va bien) si se trata como un sustituto de la determinación real, ya que el proceso formal considera un contexto funcional más amplio que una sola tarea en línea."
+      ],
+      "fr": [
+        "Une évaluation cognitive formelle d'aptitude à la conduite peut prendre en compte des domaines comme le temps de réaction, l'attention visuelle et les fonctions exécutives, parmi d'autres capacités fonctionnelles pertinentes pour la conduite ; il n'existe pas de batterie de tests universelle unique, et ce qui est évalué varie selon l'évaluateur et les circonstances.",
+        "L'auto-évaluation de ce site ne remplace pas une évaluation formelle d'aptitude à la conduite, ne prédit pas si quelqu'un la réussira, et ne détermine pas l'aptitude à conduire ; ce sont les rôles du processus d'évaluation formel, pas d'une tâche éducative dans le navigateur.",
+        "S'auto-évaluer à la maison avant une évaluation formelle peut créer une fausse réassurance (si la tâche à la maison se passe bien) ou une inquiétude inutile (si elle se passe mal) si elle est traitée comme un substitut à la détermination réelle, car le processus formel prend en compte un contexte fonctionnel plus large qu'une seule tâche en ligne."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What a formal evaluation may assess",
+          "body": "Reaction time, visual attention, executive function, and other functional abilities relevant to driving — no single fixed test battery applies universally."
+        },
+        {
+          "heading": "Why this site's demo cannot substitute for that evaluation",
+          "body": "It does not predict outcomes or determine driving fitness; treating it as a stand-in risks false reassurance or unnecessary alarm."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Qué puede evaluar una determinación formal",
+          "body": "Tiempo de reacción, atención visual, función ejecutiva y otras capacidades funcionales relevantes para conducir; no existe una única batería de pruebas fija que se aplique universalmente."
+        },
+        {
+          "heading": "Por qué la autoevaluación de este sitio no puede sustituir esa evaluación",
+          "body": "No predice resultados ni determina la aptitud para conducir; tratarla como sustituto conlleva el riesgo de una falsa tranquilidad o una alarma innecesaria."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce qu'une évaluation formelle peut évaluer",
+          "body": "Le temps de réaction, l'attention visuelle, les fonctions exécutives et d'autres capacités fonctionnelles pertinentes pour la conduite ; aucune batterie de tests fixe unique ne s'applique universellement."
+        },
+        {
+          "heading": "Pourquoi l'auto-évaluation de ce site ne peut pas remplacer cette évaluation",
+          "body": "Elle ne prédit pas les résultats ni ne détermine l'aptitude à conduire ; la traiter comme un substitut comporte le risque d'une fausse réassurance ou d'une inquiétude inutile."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A person referred for a fitness-to-drive evaluation following a medical event will typically have that evaluation consider broader functional context — not just a single score from one online task."
+      ],
+      "es": [
+        "Una persona derivada a una evaluación de aptitud para conducir tras un evento médico normalmente tendrá una evaluación que considera un contexto funcional más amplio, no solo un único resultado de una tarea en línea."
+      ],
+      "fr": [
+        "Une personne orientée vers une évaluation d'aptitude à la conduite à la suite d'un événement médical verra généralement cette évaluation prendre en compte un contexte fonctionnel plus large, pas seulement un score unique issu d'une seule tâche en ligne."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can I use this site's memory test to predict whether I'll pass a driving fitness evaluation?",
+          "a": "No — a formal evaluation considers a broader set of functional abilities and context than a single online memory task can capture."
+        },
+        {
+          "q": "Who decides if a driving evaluation is needed?",
+          "a": "This can involve a treating clinician and/or a licensing authority depending on jurisdiction and circumstances; there is no single universal rule."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Puedo usar la prueba de memoria de este sitio para predecir si aprobaré una evaluación de aptitud para conducir?",
+          "a": "No: una evaluación formal considera un conjunto más amplio de capacidades funcionales y de contexto de lo que puede captar una sola tarea de memoria en línea."
+        },
+        {
+          "q": "¿Quién decide si se necesita una evaluación para conducir?",
+          "a": "Puede intervenir un médico tratante o una autoridad de tránsito, según el país y las circunstancias; no existe una única regla universal."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Puis-je utiliser le test de mémoire de ce site pour prédire si je réussirai une évaluation d'aptitude à la conduite ?",
+          "a": "Non : une évaluation formelle prend en compte un ensemble plus large de capacités fonctionnelles et de contexte que ce qu'une seule tâche de mémoire en ligne peut saisir."
+        },
+        {
+          "q": "Qui décide si une évaluation de conduite est nécessaire ?",
+          "a": "Cela peut impliquer un médecin traitant et/ou une autorité compétente selon le pays et les circonstances ; il n'existe pas de règle universelle unique."
+        }
+      ]
+    }
+  },
+  "repeating-questions": {
+    "sectionHeading": {
+      "en": "Why the same question gets asked again",
+      "es": "Por qué se repite la misma pregunta",
+      "fr": "Pourquoi la même question revient"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Repeating a question can reflect a failure to retain that the question was already answered a short time ago, rather than a general loss of all memory — the specific piece that didn't stick is the fact of having already asked and been answered.",
+        "Asking a question again once, after a distraction or interruption, can happen normally to almost anyone; a pattern of asking the same question multiple times within a single short conversation despite full attention is a different, more specific pattern worth noting.",
+        "A calm response, rather than frustration, is the most practical immediate reaction; if the pattern is frequent, writing down the date and context afterward is more useful than reacting in the moment."
+      ],
+      "es": [
+        "Repetir una pregunta puede reflejar que no se retuvo el hecho de que la pregunta ya había sido respondida hace poco, más que una pérdida general de toda la memoria: lo que no quedó registrado es específicamente el hecho de haber preguntado y recibido respuesta.",
+        "Preguntar algo de nuevo una vez, tras una distracción o interrupción, puede pasarle a casi cualquiera con normalidad; un patrón de repetir la misma pregunta varias veces dentro de una sola conversación breve, pese a prestar atención plena, es un patrón distinto y más específico que merece atención.",
+        "Una respuesta tranquila, en lugar de frustración, es la reacción inmediata más práctica; si el patrón es frecuente, anotar la fecha y el contexto después es más útil que reaccionar en el momento."
+      ],
+      "fr": [
+        "Répéter une question peut refléter le fait de ne pas avoir retenu qu'elle venait d'être posée et répondue peu de temps auparavant, plutôt qu'une perte générale de toute mémoire : ce qui n'a pas été retenu, c'est précisément le fait d'avoir déjà posé la question et reçu une réponse.",
+        "Reposer une question une fois, après une distraction ou une interruption, peut arriver normalement à presque tout le monde ; un schéma consistant à répéter la même question plusieurs fois au cours d'une seule conversation courte malgré une attention complète est un schéma différent et plus spécifique à noter.",
+        "Une réponse calme, plutôt que de la frustration, est la réaction immédiate la plus pratique ; si le schéma est fréquent, noter la date et le contexte après coup est plus utile que de réagir sur le moment."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What actually fails to stick",
+          "body": "It's the fact of having already asked and been answered that isn't retained, not a general memory wipe."
+        },
+        {
+          "heading": "Once versus repeatedly",
+          "body": "Once after a distraction is common; several times within one short conversation despite full attention is a different, more specific pattern."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Qué es lo que realmente no queda registrado",
+          "body": "Es el hecho de haber preguntado y recibido respuesta lo que no se retiene, no una pérdida general de la memoria."
+        },
+        {
+          "heading": "Una vez frente a repetidamente",
+          "body": "Una vez tras una distracción es común; varias veces dentro de una conversación breve pese a prestar atención plena es un patrón distinto y más específico."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce qui n'est réellement pas retenu",
+          "body": "C'est le fait d'avoir déjà posé la question et reçu une réponse qui n'est pas retenu, pas une perte générale de mémoire."
+        },
+        {
+          "heading": "Une fois contre plusieurs fois",
+          "body": "Une fois après une distraction est courant ; plusieurs fois au cours d'une seule conversation courte malgré une attention complète est un schéma différent et plus spécifique."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Asking \"what time is the appointment\" twice during a conversation interrupted by a phone call is different from asking it five times within ten minutes with no interruption at all."
+      ],
+      "es": [
+        "Preguntar «a qué hora es la cita» dos veces durante una conversación interrumpida por una llamada telefónica es distinto de preguntarlo cinco veces en diez minutos sin ninguna interrupción."
+      ],
+      "fr": [
+        "Demander « à quelle heure est le rendez-vous » deux fois au cours d'une conversation interrompue par un appel téléphonique est différent de le demander cinq fois en dix minutes sans aucune interruption."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is repeating questions always a sign of dementia?",
+          "a": "No — occasional repetition, especially after a distraction, is common and not itself a sign of dementia; frequency and context matter more than a single instance."
+        },
+        {
+          "q": "How many times is too many?",
+          "a": "There's no fixed number — the more useful signal is a frequent pattern within short conversations despite full attention, not a specific count."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Repetir preguntas es siempre una señal de demencia?",
+          "a": "No: la repetición ocasional, especialmente tras una distracción, es común y no es en sí misma una señal de demencia; la frecuencia y el contexto importan más que un caso aislado."
+        },
+        {
+          "q": "¿Cuántas veces es demasiado?",
+          "a": "No hay un número fijo; la señal más útil es un patrón frecuente dentro de conversaciones breves pese a prestar atención plena, no un conteo específico."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Répéter des questions est-il toujours un signe de démence ?",
+          "a": "Non : une répétition occasionnelle, surtout après une distraction, est courante et n'est pas en soi un signe de démence ; la fréquence et le contexte comptent plus qu'un cas isolé."
+        },
+        {
+          "q": "Combien de fois est-ce trop ?",
+          "a": "Il n'y a pas de nombre fixe ; le signal le plus utile est un schéma fréquent au sein de conversations courtes malgré une attention complète, pas un décompte précis."
+        }
+      ]
+    }
+  },
+  "word-finding-problems": {
+    "sectionHeading": {
+      "en": "Why a word won't come, and when that matters",
+      "es": "Por qué no sale una palabra, y cuándo eso importa",
+      "fr": "Pourquoi un mot ne vient pas, et quand cela importe"
+    },
+    "uniqueStatements": {
+      "en": [
+        "The tip-of-the-tongue phenomenon is a retrieval-access problem: the word or concept itself is not lost, but momentarily inaccessible, which is why it's often recognized instantly once offered.",
+        "A useful distinction exists between an occasional word-retrieval lapse, describing around a word repeatedly (circumlocution), substituting an unrelated word, and a persistent or functionally disruptive language change — these represent meaningfully different patterns, not one single phenomenon.",
+        "Fatigue, multitasking, and unfamiliar vocabulary or topics are common, non-concerning contributors to occasional word-finding difficulty."
+      ],
+      "es": [
+        "El fenómeno de «tenerlo en la punta de la lengua» es un problema de acceso al recuerdo: la palabra o el concepto en sí no se ha perdido, sino que resulta momentáneamente inaccesible, por lo que a menudo se reconoce al instante en cuanto se ofrece.",
+        "Existe una distinción útil entre un olvido ocasional al recuperar una palabra, describir algo rodeando la palabra de forma repetida (circunloquio), sustituirla por una palabra no relacionada, y un cambio del lenguaje persistente o que interfiere con el funcionamiento: son patrones distintos, no un único fenómeno.",
+        "La fatiga, hacer varias cosas a la vez y el vocabulario o los temas poco familiares son causas comunes y no preocupantes de una dificultad ocasional para encontrar palabras."
+      ],
+      "fr": [
+        "Le phénomène du « mot sur le bout de la langue » est un problème d'accès au souvenir : le mot ou le concept lui-même n'est pas perdu, mais momentanément inaccessible, ce qui explique pourquoi il est souvent reconnu instantanément une fois proposé.",
+        "Il existe une distinction utile entre un oubli occasionnel de récupération d'un mot, décrire autour d'un mot de façon répétée (circonlocution), le substituer par un mot sans rapport, et un changement de langage persistant ou qui perturbe le fonctionnement : ce sont des schémas différents, pas un seul phénomène.",
+        "La fatigue, le fait de faire plusieurs choses à la fois et un vocabulaire ou des sujets peu familiers sont des causes courantes et non préoccupantes d'une difficulté occasionnelle à trouver ses mots."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "A retrieval problem, not a loss",
+          "body": "Tip-of-the-tongue moments reflect momentary inaccessibility, not that the word or concept is gone."
+        },
+        {
+          "heading": "Different patterns worth distinguishing",
+          "body": "Occasional lapse, circumlocution, unrelated substitution, and persistent disruptive change are meaningfully different, not one phenomenon."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Un problema de recuperación, no de pérdida",
+          "body": "Los momentos de «en la punta de la lengua» reflejan una inaccesibilidad momentánea, no que la palabra o el concepto haya desaparecido."
+        },
+        {
+          "heading": "Patrones distintos que vale la pena diferenciar",
+          "body": "El olvido ocasional, el circunloquio, la sustitución no relacionada y el cambio persistente que interfiere son patrones distintos, no un único fenómeno."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un problème de récupération, pas de perte",
+          "body": "Les moments « sur le bout de la langue » reflètent une inaccessibilité momentanée, pas que le mot ou le concept ait disparu."
+        },
+        {
+          "heading": "Des schémas différents à distinguer",
+          "body": "L'oubli occasionnel, la circonlocution, la substitution sans rapport et le changement persistant qui perturbe sont des schémas différents, pas un seul phénomène."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Momentarily forgetting the word \"thermostat\" but recognizing it instantly when offered is different from persistently substituting an unrelated word for a familiar object."
+      ],
+      "es": [
+        "Olvidar momentáneamente la palabra «termostato» pero reconocerla al instante cuando se ofrece es distinto de sustituir de forma persistente una palabra no relacionada por un objeto familiar."
+      ],
+      "fr": [
+        "Oublier momentanément le mot « thermostat » mais le reconnaître instantanément une fois proposé est différent de substituer de façon persistante un mot sans rapport à un objet familier."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is this the same as aphasia?",
+          "a": "No — ordinary word-finding lapses are common and different from aphasia, a language disorder usually linked to a specific neurological cause; this page is not a diagnostic distinction."
+        },
+        {
+          "q": "Does this get worse with age?",
+          "a": "Occasional word-finding difficulty is common and often stays stable rather than steadily worsening; a persistent or disruptive change is a different pattern worth discussing with a clinician."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Esto es lo mismo que la afasia?",
+          "a": "No: los olvidos habituales al buscar una palabra son comunes y distintos de la afasia, un trastorno del lenguaje generalmente ligado a una causa neurológica específica; esta página no establece una distinción diagnóstica."
+        },
+        {
+          "q": "¿Esto empeora con la edad?",
+          "a": "La dificultad ocasional para encontrar palabras es común y a menudo se mantiene estable en lugar de empeorar de forma constante; un cambio persistente o que interfiere es un patrón distinto que conviene comentar con un profesional."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Est-ce la même chose que l'aphasie ?",
+          "a": "Non : les oublis habituels de mots sont courants et différents de l'aphasie, un trouble du langage généralement lié à une cause neurologique précise ; cette page n'établit pas de distinction diagnostique."
+        },
+        {
+          "q": "Cela empire-t-il avec l'âge ?",
+          "a": "La difficulté occasionnelle à trouver ses mots est courante et reste souvent stable plutôt que de s'aggraver régulièrement ; un changement persistant ou qui perturbe le fonctionnement est un schéma différent à évoquer avec un clinicien."
+        }
+      ]
+    }
+  },
+  "confusion-with-time": {
+    "sectionHeading": {
+      "en": "Losing track of the date versus losing track of time itself",
+      "es": "Perder la noción de la fecha frente a perder la noción del tiempo",
+      "fr": "Perdre la notion de la date face à perdre la notion du temps"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Losing track of routine cues — during vacation, retirement, illness, or any period of disrupted schedule — is a common, situational cause of date/time confusion distinct from persistent disorientation that continues despite normal environmental cues.",
+        "Vacation-style loss of the weekday is common and benign; being unable to orient to the approximate time of day or season despite clear, available cues (daylight, a visible clock, a calendar) is a different, more specific pattern.",
+        "Practical external supports — a visible calendar, a clock, consistent routine anchors, and crossing off each day — directly address the routine-cue-loss cause and are a reasonable first step."
+      ],
+      "es": [
+        "Perder las señales rutinarias —durante unas vacaciones, la jubilación, una enfermedad o cualquier periodo con el horario alterado— es una causa común y situacional de confusión con la fecha o la hora, distinta de una desorientación persistente que continúa a pesar de contar con señales ambientales normales.",
+        "Perder la noción del día de la semana durante unas vacaciones es común y benigno; no poder orientarse en la hora aproximada del día o la estación pese a contar con señales claras y disponibles (luz del día, un reloj visible, un calendario) es un patrón distinto y más específico.",
+        "Los apoyos externos prácticos —un calendario visible, un reloj, puntos de referencia de rutina constantes y tachar cada día— abordan directamente la causa de la pérdida de señales rutinarias y son un primer paso razonable."
+      ],
+      "fr": [
+        "Perdre les repères de routine — pendant des vacances, la retraite, une maladie ou toute période au rythme perturbé — est une cause courante et circonstancielle de confusion sur la date ou l'heure, distincte d'une désorientation persistante qui continue malgré des repères environnementaux normaux disponibles.",
+        "Perdre la notion du jour de la semaine pendant des vacances est courant et bénin ; ne pas pouvoir se situer approximativement dans l'heure de la journée ou la saison malgré des repères clairs et disponibles (lumière du jour, une horloge visible, un calendrier) est un schéma différent et plus spécifique.",
+        "Des aides externes pratiques — un calendrier visible, une horloge, des repères de routine constants, et rayer chaque jour — s'attaquent directement à la cause liée à la perte des repères de routine et constituent une première étape raisonnable."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Routine-cue loss versus persistent disorientation",
+          "body": "Disrupted schedule (vacation, retirement, illness) commonly causes situational confusion, distinct from disorientation that persists despite available cues."
+        },
+        {
+          "heading": "Practical supports that help",
+          "body": "A visible calendar, a clock, consistent routine anchors, and crossing off each day directly address the routine-cue-loss cause."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Pérdida de señales rutinarias frente a desorientación persistente",
+          "body": "Un horario alterado (vacaciones, jubilación, enfermedad) suele causar confusión situacional, distinta de una desorientación que persiste pese a haber señales disponibles."
+        },
+        {
+          "heading": "Apoyos prácticos que ayudan",
+          "body": "Un calendario visible, un reloj, puntos de referencia de rutina constantes y tachar cada día abordan directamente la causa de la pérdida de señales rutinarias."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Perte de repères de routine contre désorientation persistante",
+          "body": "Un rythme perturbé (vacances, retraite, maladie) provoque souvent une confusion circonstancielle, distincte d'une désorientation qui persiste malgré des repères disponibles."
+        },
+        {
+          "heading": "Des aides pratiques qui fonctionnent",
+          "body": "Un calendrier visible, une horloge, des repères de routine constants et le fait de rayer chaque jour s'attaquent directement à la cause liée à la perte des repères de routine."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Losing track of the day of the week during an unstructured vacation is common and benign; being unable to state the approximate time of day or season despite clear cues is a different pattern."
+      ],
+      "es": [
+        "Perder la noción del día de la semana durante unas vacaciones sin estructura es común y benigno; no poder indicar la hora aproximada del día o la estación pese a contar con señales claras es un patrón distinto."
+      ],
+      "fr": [
+        "Perdre la notion du jour de la semaine pendant des vacances sans structure est courant et bénin ; ne pas pouvoir indiquer approximativement l'heure de la journée ou la saison malgré des repères clairs est un schéma différent."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is it normal to lose track of what day it is?",
+          "a": "Yes — this is very common, especially when a routine is disrupted (vacation, illness, retirement), and is not itself a concerning sign."
+        },
+        {
+          "q": "What's a simple way to stay oriented to the date?",
+          "a": "A visible calendar you cross off daily, paired with a clock and consistent routine anchors, is a simple and effective external support."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Es normal perder la noción de qué día es?",
+          "a": "Sí: es muy común, especialmente cuando se altera una rutina (vacaciones, enfermedad, jubilación), y no es en sí misma una señal preocupante."
+        },
+        {
+          "q": "¿Cuál es una forma sencilla de mantenerse orientado con la fecha?",
+          "a": "Un calendario visible que se tacha cada día, junto con un reloj y puntos de referencia de rutina constantes, es un apoyo externo sencillo y eficaz."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Est-il normal de perdre la notion du jour où l'on est ?",
+          "a": "Oui : c'est très courant, surtout quand une routine est perturbée (vacances, maladie, retraite), et ce n'est pas en soi un signe préoccupant."
+        },
+        {
+          "q": "Quel est un moyen simple de rester orienté par rapport à la date ?",
+          "a": "Un calendrier visible que l'on raye chaque jour, associé à une horloge et à des repères de routine constants, est une aide externe simple et efficace."
+        }
+      ]
+    }
+  },
+  "hearing-loss-social-withdrawal": {
+    "sectionHeading": {
+      "en": "How hearing difficulty can lead to withdrawal",
+      "es": "Cómo la dificultad auditiva puede llevar al retraimiento",
+      "fr": "Comment la difficulté auditive peut mener au repli"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Untreated hearing difficulty can make following group conversation genuinely effortful and fatiguing, and withdrawing from those situations is often a fatigue-avoidance response rather than a loss of interest in connecting with others.",
+        "Observers can mistake this withdrawal for memory decline, depression, or a lack of interest, since 'seeming distant' can look similar across several different underlying causes, even though the mechanism here is specifically about the effort of hearing, not motivation or memory.",
+        "Considering a hearing evaluation is a reasonable step when this pattern is present, though outcomes vary by individual, and this page does not replace the site's existing dedicated guidance on requesting a hearing test."
+      ],
+      "es": [
+        "La dificultad auditiva no tratada puede hacer que seguir una conversación en grupo resulte realmente costoso y agotador, y retraerse de esas situaciones suele ser una respuesta para evitar el cansancio, más que una pérdida de interés por conectar con los demás.",
+        "Quienes observan pueden confundir este retraimiento con deterioro de la memoria, depresión o falta de interés, ya que «parecer distante» puede verse igual en varias causas subyacentes distintas, aunque aquí el mecanismo tiene que ver específicamente con el esfuerzo de oír, no con la motivación ni la memoria.",
+        "Considerar una evaluación auditiva es un paso razonable cuando aparece este patrón, aunque los resultados varían según la persona, y esta página no sustituye la guía específica que ya existe en el sitio sobre cómo pedir una prueba auditiva."
+      ],
+      "fr": [
+        "Une difficulté auditive non traitée peut rendre le suivi d'une conversation de groupe réellement pénible et épuisant, et se retirer de ces situations est souvent une réponse d'évitement de la fatigue plutôt qu'une perte d'intérêt pour le lien avec les autres.",
+        "Les proches peuvent confondre ce repli avec un déclin de la mémoire, une dépression ou un manque d'intérêt, car « sembler distant » peut se ressembler selon plusieurs causes sous-jacentes différentes, même si le mécanisme ici concerne spécifiquement l'effort d'entendre, pas la motivation ni la mémoire.",
+        "Envisager un bilan auditif est une étape raisonnable lorsque ce schéma est présent, bien que les résultats varient selon la personne, et cette page ne remplace pas le guide dédié déjà présent sur le site pour demander un test auditif."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why hearing effort leads to withdrawal",
+          "body": "Following group conversation with untreated hearing difficulty is fatiguing, and withdrawal is often a fatigue-avoidance response."
+        },
+        {
+          "heading": "Why it gets mistaken for other causes",
+          "body": "Withdrawal looks similar across hearing difficulty, memory decline, or low mood, even though the mechanism here is specifically about hearing effort."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué el esfuerzo auditivo lleva al retraimiento",
+          "body": "Seguir una conversación en grupo con dificultad auditiva no tratada es agotador, y retraerse suele ser una respuesta para evitar el cansancio."
+        },
+        {
+          "heading": "Por qué se confunde con otras causas",
+          "body": "El retraimiento se ve similar por dificultad auditiva, deterioro de la memoria o ánimo bajo, aunque aquí el mecanismo tiene que ver específicamente con el esfuerzo de oír."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi l'effort auditif mène au repli",
+          "body": "Suivre une conversation de groupe avec une difficulté auditive non traitée est épuisant, et le repli est souvent une réponse d'évitement de la fatigue."
+        },
+        {
+          "heading": "Pourquoi cela se confond avec d'autres causes",
+          "body": "Le repli se ressemble selon la difficulté auditive, le déclin de la mémoire ou un moral bas, même si le mécanisme ici concerne spécifiquement l'effort d'entendre."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A person stops attending noisy family gatherings not because they don't want to connect, but because following group conversation in that setting has become exhausting."
+      ],
+      "es": [
+        "Una persona deja de asistir a reuniones familiares ruidosas no porque no quiera conectar, sino porque seguir la conversación en grupo en ese entorno se ha vuelto agotador."
+      ],
+      "fr": [
+        "Une personne cesse d'assister à des réunions familiales bruyantes non pas parce qu'elle ne souhaite pas être en lien, mais parce que suivre une conversation de groupe dans ce cadre est devenu épuisant."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Could my relative's withdrawal be about hearing, not memory?",
+          "a": "It's possible — hearing-related fatigue is a distinct, documented cause of social withdrawal, worth considering alongside (not instead of) other explanations."
+        },
+        {
+          "q": "Does treating hearing loss reduce this withdrawal?",
+          "a": "It can help for some people, though outcomes vary individually; a hearing evaluation is a reasonable step to explore this."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿El retraimiento de mi familiar podría deberse a la audición y no a la memoria?",
+          "a": "Es posible: la fatiga relacionada con la audición es una causa distinta y documentada de retraimiento social, que vale la pena considerar junto a otras explicaciones, no en lugar de ellas."
+        },
+        {
+          "q": "¿Tratar la pérdida auditiva reduce este retraimiento?",
+          "a": "Puede ayudar en algunas personas, aunque los resultados varían de forma individual; una evaluación auditiva es un paso razonable para explorarlo."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Le repli de mon proche pourrait-il être lié à l'audition plutôt qu'à la mémoire ?",
+          "a": "C'est possible : la fatigue liée à l'audition est une cause distincte et documentée de repli social, à envisager en plus d'autres explications, pas à leur place."
+        },
+        {
+          "q": "Traiter la perte auditive réduit-il ce repli ?",
+          "a": "Cela peut aider certaines personnes, bien que les résultats varient selon les individus ; un bilan auditif est une étape raisonnable pour explorer cette piste."
+        }
+      ]
+    }
+  },
+  "mood-changes-thinking": {
+    "sectionHeading": {
+      "en": "The general link between mood and thinking",
+      "es": "El vínculo general entre el ánimo y el pensamiento",
+      "fr": "Le lien général entre l'humeur et la pensée"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Mood and cognitive performance share overlapping systems — attention, motivation, sleep, and stress response all influence both — so a change in one commonly accompanies a change in the other without either necessarily causing the other.",
+        "This page addresses mood changes broadly (irritability, apathy, situational anxiety) rather than depression specifically; the site's separate depression-focused page covers that narrower, distinct topic in depth and should be consulted for that specific concern rather than duplicated here.",
+        "Broader evaluation becomes more reasonable to consider when mood and cognitive changes are both new, persistent, and out of character for the person — a combination of factors, not any single change alone."
+      ],
+      "es": [
+        "El ánimo y el rendimiento cognitivo comparten sistemas que se superponen —la atención, la motivación, el sueño y la respuesta al estrés influyen en ambos—, por lo que un cambio en uno suele acompañar a un cambio en el otro sin que necesariamente uno cause el otro.",
+        "Esta página aborda los cambios de ánimo de forma general (irritabilidad, apatía, ansiedad situacional) y no la depresión específicamente; la página del sitio dedicada a la depresión trata ese tema más concreto en profundidad y debe consultarse para esa preocupación específica en lugar de duplicarse aquí.",
+        "Considerar una evaluación más amplia resulta más razonable cuando los cambios de ánimo y cognitivos son a la vez nuevos, persistentes y atípicos para la persona: una combinación de factores, no un cambio aislado por sí solo."
+      ],
+      "fr": [
+        "L'humeur et la performance cognitive partagent des systèmes qui se recoupent — l'attention, la motivation, le sommeil et la réponse au stress influencent les deux —, de sorte qu'un changement dans l'un accompagne souvent un changement dans l'autre sans que l'un cause nécessairement l'autre.",
+        "Cette page aborde les changements d'humeur de façon générale (irritabilité, apathie, anxiété situationnelle) plutôt que la dépression spécifiquement ; la page du site consacrée à la dépression traite ce sujet plus précis en profondeur et doit être consultée pour cette préoccupation spécifique plutôt que d'être dupliquée ici.",
+        "Envisager une évaluation plus large devient plus raisonnable lorsque les changements d'humeur et cognitifs sont à la fois nouveaux, persistants et inhabituels pour la personne — une combinaison de facteurs, pas un changement isolé à lui seul."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why mood and thinking commonly move together",
+          "body": "Shared systems (attention, motivation, sleep, stress) mean a change in one often accompanies a change in the other, without one necessarily causing the other."
+        },
+        {
+          "heading": "How this page differs from the site's depression page",
+          "body": "This page covers broader mood changes (irritability, apathy, situational anxiety); the depression-specific page covers that narrower topic in depth."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué el ánimo y el pensamiento suelen cambiar juntos",
+          "body": "Sistemas compartidos (atención, motivación, sueño, estrés) hacen que un cambio en uno suela acompañar a un cambio en el otro, sin que uno cause necesariamente el otro."
+        },
+        {
+          "heading": "En qué se diferencia esta página de la página sobre depresión del sitio",
+          "body": "Esta página aborda cambios de ánimo más amplios (irritabilidad, apatía, ansiedad situacional); la página específica sobre depresión trata ese tema más concreto en profundidad."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi l'humeur et la pensée évoluent souvent ensemble",
+          "body": "Des systèmes partagés (attention, motivation, sommeil, stress) font qu'un changement dans l'un accompagne souvent un changement dans l'autre, sans que l'un cause nécessairement l'autre."
+        },
+        {
+          "heading": "En quoi cette page diffère de la page du site sur la dépression",
+          "body": "Cette page couvre des changements d'humeur plus larges (irritabilité, apathie, anxiété situationnelle) ; la page spécifique à la dépression traite ce sujet plus précis en profondeur."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Increased irritability alongside difficulty concentrating during a period of poor sleep or major life stress can occur without clinical depression being present at all."
+      ],
+      "es": [
+        "Un aumento de la irritabilidad junto con dificultad para concentrarse durante un periodo de mal sueño o de mucho estrés vital puede ocurrir sin que exista depresión clínica en absoluto."
+      ],
+      "fr": [
+        "Une irritabilité accrue accompagnée de difficultés de concentration pendant une période de mauvais sommeil ou de stress important peut survenir sans qu'une dépression clinique soit présente du tout."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Are mood changes and memory changes always connected?",
+          "a": "Not always — they commonly co-occur because of shared underlying systems, but one does not always cause the other."
+        },
+        {
+          "q": "Is this the same as depression?",
+          "a": "No — this page covers broader mood changes; see the site's dedicated depression-and-concentration page for that more specific topic."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Los cambios de ánimo y de memoria siempre están conectados?",
+          "a": "No siempre: suelen coincidir por sistemas subyacentes compartidos, pero uno no siempre causa el otro."
+        },
+        {
+          "q": "¿Esto es lo mismo que la depresión?",
+          "a": "No: esta página aborda cambios de ánimo más amplios; consulte la página específica del sitio sobre depresión y concentración para ese tema más concreto."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Les changements d'humeur et de mémoire sont-ils toujours liés ?",
+          "a": "Pas toujours : ils coïncident souvent en raison de systèmes sous-jacents partagés, mais l'un ne cause pas toujours l'autre."
+        },
+        {
+          "q": "Est-ce la même chose que la dépression ?",
+          "a": "Non : cette page couvre des changements d'humeur plus larges ; consultez la page dédiée du site sur la dépression et la concentration pour ce sujet plus précis."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-dual-tasking": {
+    "sectionHeading": {
+      "en": "A controlled way to practice doing two things at once",
+      "es": "Una forma controlada de practicar hacer dos cosas a la vez",
+      "fr": "Une façon contrôlée de s'exercer à faire deux choses à la fois"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Dual-task practice is a controlled cognitive-training format built around simultaneous demands — for example, walking while naming categories — distinct from single-task attention exercises that address only one demand at a time.",
+        "A graduated approach starts with two genuinely easy tasks and increases difficulty gradually by making one task more demanding, rather than combining two hard tasks from the start.",
+        "Dual-task practice is related to, but not identical to, everyday workplace multitasking: this is a controlled training format done in a safe setting, not a strategy for juggling real-world responsibilities."
+      ],
+      "es": [
+        "La práctica de doble tarea es un formato controlado de entrenamiento cognitivo basado en exigencias simultáneas —por ejemplo, caminar mientras se nombran categorías—, distinto de los ejercicios de atención de una sola tarea que abordan una sola exigencia a la vez.",
+        "Un enfoque gradual comienza con dos tareas realmente sencillas y aumenta la dificultad poco a poco haciendo una de ellas más exigente, en lugar de combinar dos tareas difíciles desde el principio.",
+        "La práctica de doble tarea está relacionada, pero no es idéntica, con la multitarea cotidiana en el trabajo: es un formato de entrenamiento controlado realizado en un entorno seguro, no una estrategia para gestionar responsabilidades reales."
+      ],
+      "fr": [
+        "La pratique de la double tâche est un format d'entraînement cognitif contrôlé fondé sur des exigences simultanées — par exemple, marcher tout en nommant des catégories —, distinct des exercices d'attention à tâche unique qui n'abordent qu'une seule exigence à la fois.",
+        "Une approche progressive commence par deux tâches réellement simples et augmente la difficulté peu à peu en rendant l'une des deux plus exigeante, plutôt que de combiner deux tâches difficiles dès le départ.",
+        "La pratique de la double tâche est liée, sans être identique, au multitâche quotidien au travail : il s'agit d'un format d'entraînement contrôlé réalisé dans un cadre sûr, pas d'une stratégie pour gérer des responsabilités réelles."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "A graduated practice format",
+          "body": "Start with two easy tasks (e.g. counting backward while tapping a rhythm), then increase difficulty by making one task harder."
+        },
+        {
+          "heading": "An important safety note",
+          "body": "Never practice dual-tasking with tasks involving real-world risk — not while driving, crossing traffic, or on stairs — the value is in a safe, controlled setting."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Un formato de práctica gradual",
+          "body": "Empiece con dos tareas sencillas (por ejemplo, contar hacia atrás mientras marca un ritmo con golpecitos), y luego aumente la dificultad haciendo una de ellas más exigente."
+        },
+        {
+          "heading": "Una nota de seguridad importante",
+          "body": "Nunca practique la doble tarea con actividades que impliquen riesgo real: no mientras conduce, cruza el tráfico o usa escaleras; el valor está en un entorno seguro y controlado."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un format de pratique progressif",
+          "body": "Commencez par deux tâches simples (par exemple, compter à rebours tout en tapant un rythme), puis augmentez la difficulté en rendant l'une des deux plus exigeante."
+        },
+        {
+          "heading": "Une consigne de sécurité importante",
+          "body": "Ne pratiquez jamais la double tâche avec des activités comportant un risque réel — pas en conduisant, en traversant la circulation ou dans les escaliers ; la valeur réside dans un cadre sûr et contrôlé."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A specific two-minute drill: counting backward from 100 by threes while tapping a simple rhythm with one hand, done seated in a safe, quiet space."
+      ],
+      "es": [
+        "Un ejercicio concreto de dos minutos: contar hacia atrás desde 100 de tres en tres mientras se marca un ritmo sencillo con una mano, sentado en un espacio seguro y tranquilo."
+      ],
+      "fr": [
+        "Un exercice concret de deux minutes : compter à rebours à partir de 100 par tranches de trois tout en tapant un rythme simple d'une main, assis dans un espace sûr et calme."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is dual-tasking the same as multitasking at work?",
+          "a": "Related but distinct — this is a controlled training format practiced safely, not a strategy for juggling real-world work demands."
+        },
+        {
+          "q": "How do I know if I'm ready to increase difficulty?",
+          "a": "If you can comfortably complete the current combination without errors, that's a reasonable signal to make one of the two tasks slightly harder."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿La doble tarea es lo mismo que la multitarea en el trabajo?",
+          "a": "Está relacionada pero es distinta: es un formato de entrenamiento controlado que se practica de forma segura, no una estrategia para gestionar exigencias laborales reales."
+        },
+        {
+          "q": "¿Cómo sé si estoy listo para aumentar la dificultad?",
+          "a": "Si puede completar la combinación actual con comodidad y sin errores, es una señal razonable para hacer un poco más difícil una de las dos tareas."
+        }
+      ],
+      "fr": [
+        {
+          "q": "La double tâche est-elle la même chose que le multitâche au travail ?",
+          "a": "C'est lié mais distinct : il s'agit d'un format d'entraînement contrôlé pratiqué en sécurité, pas d'une stratégie pour gérer des exigences professionnelles réelles."
+        },
+        {
+          "q": "Comment savoir si je suis prêt à augmenter la difficulté ?",
+          "a": "Si vous pouvez réaliser la combinaison actuelle confortablement et sans erreur, c'est un signal raisonnable pour rendre l'une des deux tâches un peu plus difficile."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-language-learning": {
+    "sectionHeading": {
+      "en": "Why language learning works as brain training",
+      "es": "Por qué aprender un idioma funciona como entrenamiento cerebral",
+      "fr": "Pourquoi apprendre une langue fonctionne comme entraînement cérébral"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Language learning engages working memory, attention-switching between language systems, and novel-pattern learning simultaneously, which is why it functions as a genuinely distinct cognitive-training modality rather than a single-skill exercise.",
+        "Short, frequent practice sessions (10-15 minutes daily) tend to outperform infrequent long sessions for retention, consistent with general skill-acquisition evidence, making language learning a realistic ongoing practice rather than an occasional activity.",
+        "Benefits are most consistently observed for the trained skill itself; claims of broad, general 'brain training' transfer from language learning to unrelated cognitive tasks should be treated cautiously rather than assumed."
+      ],
+      "es": [
+        "Aprender un idioma implica la memoria de trabajo, el cambio de atención entre sistemas lingüísticos y el aprendizaje de patrones nuevos de forma simultánea, por lo que funciona como una modalidad de entrenamiento cognitivo genuinamente distinta y no como un ejercicio de una sola habilidad.",
+        "Las sesiones de práctica cortas y frecuentes (10-15 minutos diarios) suelen dar mejor resultado para la retención que sesiones largas y poco frecuentes, en línea con la evidencia general sobre adquisición de habilidades, lo que convierte a aprender un idioma en una práctica continua realista, más que una actividad ocasional.",
+        "Los beneficios se observan de forma más consistente en la habilidad entrenada en sí; las afirmaciones de una transferencia amplia y general del «entrenamiento cerebral» de aprender un idioma a tareas cognitivas no relacionadas deben tratarse con cautela y no darse por sentadas."
+      ],
+      "fr": [
+        "Apprendre une langue sollicite simultanément la mémoire de travail, le changement d'attention entre systèmes linguistiques et l'apprentissage de nouveaux schémas, ce qui explique pourquoi cela fonctionne comme une modalité d'entraînement cognitif véritablement distincte plutôt qu'un exercice à compétence unique.",
+        "Des séances de pratique courtes et fréquentes (10 à 15 minutes par jour) donnent souvent de meilleurs résultats pour la rétention que des séances longues et peu fréquentes, conformément aux données générales sur l'acquisition de compétences, ce qui fait de l'apprentissage d'une langue une pratique continue réaliste plutôt qu'une activité occasionnelle.",
+        "Les bénéfices sont observés le plus régulièrement pour la compétence entraînée elle-même ; les affirmations d'un transfert large et général de l'« entraînement cérébral » issu de l'apprentissage d'une langue vers des tâches cognitives sans rapport doivent être considérées avec prudence plutôt que tenues pour acquises."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why this engages more than one cognitive system",
+          "body": "Working memory, attention-switching, and novel-pattern learning are all engaged simultaneously, unlike a single-skill exercise."
+        },
+        {
+          "heading": "A realistic starting approach",
+          "body": "Short, frequent sessions (10-15 minutes daily) beat infrequent long sessions for retention."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué esto implica más de un sistema cognitivo",
+          "body": "La memoria de trabajo, el cambio de atención y el aprendizaje de patrones nuevos se activan a la vez, a diferencia de un ejercicio de una sola habilidad."
+        },
+        {
+          "heading": "Un enfoque realista para empezar",
+          "body": "Las sesiones cortas y frecuentes (10-15 minutos diarios) superan a las sesiones largas y poco frecuentes en cuanto a retención."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi cela sollicite plus d'un système cognitif",
+          "body": "La mémoire de travail, le changement d'attention et l'apprentissage de nouveaux schémas sont sollicités simultanément, contrairement à un exercice à compétence unique."
+        },
+        {
+          "heading": "Une approche réaliste pour commencer",
+          "body": "Des séances courtes et fréquentes (10 à 15 minutes par jour) l'emportent sur des séances longues et peu fréquentes pour la rétention."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A simple daily vocabulary-recall routine — reviewing 10 words with spaced repetition — is a realistic, low-barrier starting point for this purpose specifically."
+      ],
+      "es": [
+        "Una sencilla rutina diaria de recuerdo de vocabulario —repasar 10 palabras con repetición espaciada— es un punto de partida realista y de bajo esfuerzo para este propósito en concreto."
+      ],
+      "fr": [
+        "Une routine quotidienne simple de rappel de vocabulaire — revoir 10 mots avec répétition espacée — est un point de départ réaliste et accessible pour cet objectif précis."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Do I need to become fluent for the cognitive benefit?",
+          "a": "No — the engagement comes from active practice itself, not from reaching fluency."
+        },
+        {
+          "q": "Is it too late to start as an older adult?",
+          "a": "No — adults of any age can engage the cognitive-training benefit of language learning; fluency speed may differ, but the practice value doesn't require it."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Necesito llegar a ser fluido para obtener el beneficio cognitivo?",
+          "a": "No: el beneficio viene de la práctica activa en sí, no de alcanzar la fluidez."
+        },
+        {
+          "q": "¿Es demasiado tarde para empezar como adulto mayor?",
+          "a": "No: los adultos de cualquier edad pueden aprovechar el beneficio de entrenamiento cognitivo de aprender un idioma; la velocidad para alcanzar fluidez puede variar, pero el valor de la práctica no depende de ella."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Dois-je devenir bilingue pour en tirer un bénéfice cognitif ?",
+          "a": "Non : le bénéfice vient de la pratique active elle-même, pas du fait d'atteindre l'aisance."
+        },
+        {
+          "q": "Est-il trop tard pour commencer en tant qu'adulte plus âgé ?",
+          "a": "Non : les adultes de tout âge peuvent bénéficier de l'entraînement cognitif lié à l'apprentissage d'une langue ; la vitesse pour atteindre l'aisance peut varier, mais la valeur de la pratique n'en dépend pas."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-stroke-recovery": {
+    "sectionHeading": {
+      "en": "Cognitive practice during stroke recovery",
+      "es": "Práctica cognitiva durante la recuperación de un ictus",
+      "fr": "Pratique cognitive pendant la récupération d'un AVC"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Cognitive effects after a stroke vary substantially depending on which brain areas and functions were affected, so no single generic exercise applies equally to everyone recovering from a stroke.",
+        "This site's educational practice tasks are distinct from formal stroke rehabilitation — occupational therapy, speech-language therapy, and neuropsychological rehabilitation delivered by a treating clinical team — and are not a substitute for that care.",
+        "Short practice sessions with frequent breaks are often more appropriate during recovery than prolonged sessions, and pacing should be adjusted according to the person's condition on a given day rather than following a fixed universal routine."
+      ],
+      "es": [
+        "Los efectos cognitivos tras un ictus varían mucho según qué áreas y funciones cerebrales se hayan visto afectadas, por lo que ningún ejercicio genérico único se aplica por igual a todas las personas que se recuperan de un ictus.",
+        "Las tareas educativas de práctica de este sitio son distintas de la rehabilitación formal tras un ictus —terapia ocupacional, terapia del habla y lenguaje, y rehabilitación neuropsicológica a cargo de un equipo clínico tratante— y no sustituyen esa atención.",
+        "Las sesiones de práctica cortas con descansos frecuentes suelen ser más adecuadas durante la recuperación que las sesiones prolongadas, y el ritmo debe ajustarse según el estado de la persona ese día, en lugar de seguir una rutina universal fija."
+      ],
+      "fr": [
+        "Les effets cognitifs après un AVC varient considérablement selon les zones et fonctions cérébrales touchées, de sorte qu'aucun exercice générique unique ne s'applique de la même façon à toutes les personnes en récupération après un AVC.",
+        "Les tâches éducatives de pratique de ce site sont distinctes de la rééducation formelle après un AVC — ergothérapie, orthophonie et rééducation neuropsychologique dispensées par une équipe clinique traitante — et ne remplacent pas ces soins.",
+        "De courtes séances de pratique avec des pauses fréquentes sont souvent plus adaptées pendant la récupération que des séances prolongées, et le rythme doit être ajusté selon l'état de la personne ce jour-là plutôt que de suivre une routine universelle fixe."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why no single exercise fits everyone",
+          "body": "The specific brain areas and functions affected by a stroke vary widely, so cognitive effects and appropriate practice vary too."
+        },
+        {
+          "heading": "How this differs from formal rehabilitation",
+          "body": "Occupational therapy, speech-language therapy, and neuropsychological rehab from a treating team are distinct from this site's educational practice tasks."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué ningún ejercicio único sirve para todos",
+          "body": "Las áreas y funciones cerebrales concretas afectadas por un ictus varían mucho, por lo que los efectos cognitivos y la práctica adecuada también varían."
+        },
+        {
+          "heading": "En qué se diferencia esto de la rehabilitación formal",
+          "body": "La terapia ocupacional, la terapia del habla y lenguaje, y la rehabilitación neuropsicológica de un equipo tratante son distintas de las tareas educativas de práctica de este sitio."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi aucun exercice unique ne convient à tous",
+          "body": "Les zones et fonctions cérébrales précises touchées par un AVC varient beaucoup, donc les effets cognitifs et la pratique appropriée varient aussi."
+        },
+        {
+          "heading": "En quoi cela diffère de la rééducation formelle",
+          "body": "L'ergothérapie, l'orthophonie et la rééducation neuropsychologique d'une équipe traitante sont distinctes des tâches éducatives de pratique de ce site."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A short 5-minute recall task attempted once a day, adjusted based on the person's actual fatigue that day, rather than a fixed longer routine followed regardless of how they feel."
+      ],
+      "es": [
+        "Una breve tarea de recuerdo de 5 minutos intentada una vez al día, ajustada según la fatiga real de la persona ese día, en lugar de una rutina más larga y fija seguida sin importar cómo se sienta."
+      ],
+      "fr": [
+        "Une courte tâche de rappel de 5 minutes tentée une fois par jour, ajustée en fonction de la fatigue réelle de la personne ce jour-là, plutôt qu'une routine plus longue et fixe suivie indépendamment de son état."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can brain exercises replace stroke rehabilitation?",
+          "a": "No — formal rehabilitation delivered by a treating clinical team addresses needs this site's educational tasks are not designed to cover."
+        },
+        {
+          "q": "When after a stroke is it appropriate to start cognitive practice?",
+          "a": "This depends on individual circumstances and should be discussed with the treating care team rather than following a fixed timeline."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Los ejercicios cerebrales pueden sustituir la rehabilitación tras un ictus?",
+          "a": "No: la rehabilitación formal a cargo de un equipo clínico tratante aborda necesidades que las tareas educativas de este sitio no están diseñadas para cubrir."
+        },
+        {
+          "q": "¿Cuándo es apropiado empezar la práctica cognitiva tras un ictus?",
+          "a": "Depende de las circunstancias individuales y debe comentarse con el equipo de atención tratante, en lugar de seguir un plazo fijo."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Les exercices cérébraux peuvent-ils remplacer la rééducation après un AVC ?",
+          "a": "Non : la rééducation formelle dispensée par une équipe clinique traitante répond à des besoins que les tâches éducatives de ce site ne sont pas conçues pour couvrir."
+        },
+        {
+          "q": "Quand après un AVC est-il approprié de commencer une pratique cognitive ?",
+          "a": "Cela dépend des circonstances individuelles et doit être discuté avec l'équipe de soins traitante plutôt que de suivre un délai fixe."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-post-icu-education": {
+    "sectionHeading": {
+      "en": "Cognitive effects after an ICU stay",
+      "es": "Efectos cognitivos tras una estancia en cuidados intensivos",
+      "fr": "Effets cognitifs après un séjour en réanimation"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Cognitive effects can follow a prolonged ICU stay as a distinct, recognized phenomenon separate from the original illness or injury that led to the hospitalization, sometimes discussed in relation to what's called post-intensive-care syndrome.",
+        "Attention, processing speed, memory, and fatigue may each be affected differently and to different degrees after critical illness, and recovery timelines vary considerably from person to person rather than following one universal pattern.",
+        "Short practice sessions with breaks, coordinated with the person's overall recovery plan, tend to be more realistic than prolonged sessions given the likelihood of concurrent physical deconditioning and fatigue."
+      ],
+      "es": [
+        "Pueden aparecer efectos cognitivos tras una estancia prolongada en cuidados intensivos como un fenómeno distinto y reconocido, separado de la enfermedad o lesión original que motivó la hospitalización, a veces relacionado con lo que se llama síndrome post-cuidados intensivos.",
+        "La atención, la velocidad de procesamiento, la memoria y la fatiga pueden verse afectadas de forma distinta y en distinto grado tras una enfermedad crítica, y los plazos de recuperación varían mucho de una persona a otra en lugar de seguir un patrón universal.",
+        "Las sesiones de práctica cortas con descansos, coordinadas con el plan de recuperación general de la persona, suelen ser más realistas que las sesiones prolongadas, dada la probable desacondicionamiento físico y fatiga concurrentes."
+      ],
+      "fr": [
+        "Des effets cognitifs peuvent suivre un séjour prolongé en réanimation en tant que phénomène distinct et reconnu, séparé de la maladie ou de la blessure initiale ayant conduit à l'hospitalisation, parfois évoqué en lien avec ce qu'on appelle le syndrome post-réanimation.",
+        "L'attention, la vitesse de traitement, la mémoire et la fatigue peuvent être affectées différemment et à des degrés divers après une maladie grave, et les délais de récupération varient considérablement d'une personne à l'autre plutôt que de suivre un schéma universel.",
+        "De courtes séances de pratique avec des pauses, coordonnées avec le plan de récupération global de la personne, tendent à être plus réalistes que des séances prolongées compte tenu de la probable perte de forme physique et de la fatigue associées."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "A distinct, recognized phenomenon",
+          "body": "Post-ICU cognitive effects are separate from the original illness, sometimes discussed as post-intensive-care syndrome."
+        },
+        {
+          "heading": "Realistic pacing during recovery",
+          "body": "Short sessions with breaks, coordinated with the overall recovery plan, given likely concurrent fatigue and deconditioning."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Un fenómeno distinto y reconocido",
+          "body": "Los efectos cognitivos post-UCI son independientes de la enfermedad original, a veces relacionados con el síndrome post-cuidados intensivos."
+        },
+        {
+          "heading": "Un ritmo realista durante la recuperación",
+          "body": "Sesiones cortas con descansos, coordinadas con el plan de recuperación general, dada la probable fatiga y desacondicionamiento concurrentes."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un phénomène distinct et reconnu",
+          "body": "Les effets cognitifs post-réanimation sont distincts de la maladie initiale, parfois évoqués en lien avec le syndrome post-réanimation."
+        },
+        {
+          "heading": "Un rythme réaliste pendant la récupération",
+          "body": "Des séances courtes avec des pauses, coordonnées avec le plan de récupération global, compte tenu de la fatigue et de la perte de forme probablement associées."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Attention and processing-speed changes tied specifically to the critical-illness/sedation experience are a distinct pattern from the general 'brain fog' framing used for other causes elsewhere on this site."
+      ],
+      "es": [
+        "Los cambios de atención y velocidad de procesamiento ligados específicamente a la experiencia de enfermedad crítica y sedación son un patrón distinto del planteamiento general de «niebla mental» usado para otras causas en otras partes de este sitio."
+      ],
+      "fr": [
+        "Les changements d'attention et de vitesse de traitement liés spécifiquement à l'expérience de maladie grave et de sédation constituent un schéma distinct du cadre général du « brouillard cérébral » utilisé pour d'autres causes ailleurs sur ce site."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is this the same as chemo brain or long-COVID brain fog?",
+          "a": "Related in general pattern but a distinct cause — post-ICU cognitive effects follow critical illness/hospitalization specifically."
+        },
+        {
+          "q": "Who should be involved in cognitive recovery after an ICU stay?",
+          "a": "The treating care team, not self-directed practice alone, should guide recovery planning."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Es lo mismo que la niebla mental por quimioterapia o por COVID persistente?",
+          "a": "Se parece en el patrón general, pero es una causa distinta: los efectos cognitivos post-UCI siguen específicamente a una enfermedad crítica u hospitalización."
+        },
+        {
+          "q": "¿Quién debería participar en la recuperación cognitiva tras una estancia en UCI?",
+          "a": "El equipo de atención tratante, no solo la práctica autodirigida, debería guiar la planificación de la recuperación."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Est-ce la même chose que le brouillard lié à la chimiothérapie ou au COVID long ?",
+          "a": "Le schéma général se ressemble, mais la cause est distincte : les effets cognitifs post-réanimation suivent spécifiquement une maladie grave ou une hospitalisation."
+        },
+        {
+          "q": "Qui devrait être impliqué dans la récupération cognitive après un séjour en réanimation ?",
+          "a": "L'équipe de soins traitante, et non la seule pratique autodirigée, devrait guider la planification de la récupération."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-jet-lag-cognition": {
+    "sectionHeading": {
+      "en": "Why jet lag affects thinking, and when to practice",
+      "es": "Por qué el jet lag afecta el pensamiento, y cuándo practicar",
+      "fr": "Pourquoi le décalage horaire affecte la pensée, et quand s'exercer"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Jet lag reflects circadian misalignment — the body's internal clock is out of sync with local time — a distinct mechanism from simply having slept too little, even though both can affect cognition.",
+        "Cognitive performance during jet-lag adjustment may vary depending on where a task falls relative to your body's internal clock rather than the local clock time on the wall, which explains why performance can feel unpredictable during travel.",
+        "Jet lag is caused by crossing time zones through travel, distinct from night-shift cognition, which involves a different circadian-disruption trigger (a work schedule rather than travel) — related mechanisms, different causes."
+      ],
+      "es": [
+        "El jet lag refleja una desincronización circadiana: el reloj interno del cuerpo no está sincronizado con la hora local, un mecanismo distinto de simplemente haber dormido poco, aunque ambos pueden afectar la cognición.",
+        "El rendimiento cognitivo durante el ajuste al jet lag puede variar según en qué punto del reloj interno del cuerpo se realice una tarea, más que según la hora local del reloj de pared, lo que explica por qué el rendimiento puede sentirse impredecible durante un viaje.",
+        "El jet lag se debe a cruzar husos horarios por viaje, algo distinto de la cognición por trabajo nocturno, que implica un desencadenante distinto de alteración circadiana (un horario laboral en vez de un viaje): mecanismos relacionados, causas diferentes."
+      ],
+      "fr": [
+        "Le décalage horaire reflète un désalignement circadien — l'horloge interne du corps n'est pas synchronisée avec l'heure locale —, un mécanisme distinct du simple manque de sommeil, même si les deux peuvent affecter la cognition.",
+        "La performance cognitive pendant l'adaptation au décalage horaire peut varier selon le moment où se situe une tâche par rapport à l'horloge interne du corps plutôt que l'heure locale affichée, ce qui explique pourquoi la performance peut sembler imprévisible pendant un voyage.",
+        "Le décalage horaire est causé par le franchissement de fuseaux horaires lors d'un voyage, ce qui est distinct de la cognition liée au travail de nuit, qui implique un déclencheur différent de perturbation circadienne (un horaire de travail plutôt qu'un voyage) — des mécanismes liés, des causes différentes."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Circadian misalignment, not just tiredness",
+          "body": "Jet lag is the body's internal clock being out of sync with local time, a distinct mechanism from simple sleep deprivation."
+        },
+        {
+          "heading": "Why performance timing feels unpredictable",
+          "body": "Task performance can depend on your internal body clock's position, not the local wall-clock time."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Desincronización circadiana, no solo cansancio",
+          "body": "El jet lag es el reloj interno del cuerpo desincronizado con la hora local, un mecanismo distinto de la simple falta de sueño."
+        },
+        {
+          "heading": "Por qué el momento de mejor rendimiento parece impredecible",
+          "body": "El rendimiento en una tarea puede depender de la posición del reloj interno del cuerpo, no de la hora local del reloj de pared."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un désalignement circadien, pas seulement de la fatigue",
+          "body": "Le décalage horaire correspond à l'horloge interne du corps désynchronisée de l'heure locale, un mécanisme distinct du simple manque de sommeil."
+        },
+        {
+          "heading": "Pourquoi le moment de bonne performance semble imprévisible",
+          "body": "La performance sur une tâche peut dépendre de la position de l'horloge interne du corps, pas de l'heure locale affichée."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A traveler crossing multiple time zones eastward may find local afternoon genuinely difficult because it corresponds to their body's overnight low point."
+      ],
+      "es": [
+        "Un viajero que cruza varios husos horarios hacia el este puede encontrar la tarde local genuinamente difícil porque corresponde al punto bajo nocturno de su cuerpo."
+      ],
+      "fr": [
+        "Un voyageur traversant plusieurs fuseaux horaires vers l'est peut trouver l'après-midi local réellement difficile parce qu'il correspond au point bas nocturne de son corps."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How long does jet lag typically affect thinking?",
+          "a": "Duration varies by individual and by how many time zones were crossed; there is no single fixed recovery timeline."
+        },
+        {
+          "q": "Does direction of travel matter?",
+          "a": "Yes — eastward and westward travel often produce a somewhat different adjustment experience, a recognized aspect of circadian science."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Durante cuánto tiempo suele afectar el jet lag al pensamiento?",
+          "a": "La duración varía según la persona y el número de husos horarios cruzados; no existe un plazo de recuperación único y fijo."
+        },
+        {
+          "q": "¿Importa la dirección del viaje?",
+          "a": "Sí: viajar hacia el este o hacia el oeste suele producir una experiencia de ajuste algo distinta, un aspecto reconocido de la ciencia circadiana."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Combien de temps le décalage horaire affecte-t-il généralement la pensée ?",
+          "a": "La durée varie selon la personne et le nombre de fuseaux horaires traversés ; il n'existe pas de délai de récupération unique et fixe."
+        },
+        {
+          "q": "La direction du voyage a-t-elle une importance ?",
+          "a": "Oui : voyager vers l'est ou vers l'ouest produit souvent une expérience d'adaptation quelque peu différente, un aspect reconnu de la science circadienne."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-reaction-time": {
+    "sectionHeading": {
+      "en": "Reaction time as its own cognitive domain",
+      "es": "El tiempo de reacción como dominio cognitivo propio",
+      "fr": "Le temps de réaction comme domaine cognitif à part entière"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Reaction time, or processing speed, is a distinct cognitive domain from memory recall — it measures how quickly you respond to a stimulus, not whether you can retain or retrieve information.",
+        "Day-to-day reaction-time performance is influenced by fatigue, alertness, caffeine timing, and familiarity with the task format, so a single score reflects the moment as much as underlying ability.",
+        "As with other practiced skills on this site, reaction-time practice most reliably improves performance on the specific practiced task, with broader-transfer claims treated cautiously rather than assumed."
+      ],
+      "es": [
+        "El tiempo de reacción, o velocidad de procesamiento, es un dominio cognitivo distinto del recuerdo de la memoria: mide con qué rapidez responde a un estímulo, no si puede retener o recuperar información.",
+        "El rendimiento del tiempo de reacción día a día está influido por la fatiga, el estado de alerta, el momento de tomar cafeína y la familiaridad con el formato de la tarea, por lo que un único resultado refleja tanto el momento como la capacidad subyacente.",
+        "Como con otras habilidades practicadas en este sitio, la práctica del tiempo de reacción mejora de forma más fiable el rendimiento en la tarea concreta practicada, y las afirmaciones de una transferencia más amplia deben tratarse con cautela y no darse por sentadas."
+      ],
+      "fr": [
+        "Le temps de réaction, ou vitesse de traitement, est un domaine cognitif distinct du rappel de la mémoire : il mesure la rapidité avec laquelle vous répondez à un stimulus, pas votre capacité à retenir ou récupérer une information.",
+        "La performance du temps de réaction au jour le jour est influencée par la fatigue, l'état de vigilance, le moment de prise de caféine et la familiarité avec le format de la tâche, si bien qu'un score isolé reflète autant le moment que la capacité sous-jacente.",
+        "Comme pour d'autres compétences entraînées sur ce site, la pratique du temps de réaction améliore le plus sûrement la performance sur la tâche spécifiquement pratiquée, les affirmations de transfert plus large devant être considérées avec prudence plutôt que tenues pour acquises."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "A different domain from memory",
+          "body": "Reaction time measures response speed to a stimulus, a distinct cognitive domain from memory encoding or recall."
+        },
+        {
+          "heading": "Why one score isn't the full picture",
+          "body": "Fatigue, alertness, caffeine timing, and task familiarity all influence day-to-day reaction-time performance."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Un dominio distinto de la memoria",
+          "body": "El tiempo de reacción mide la velocidad de respuesta a un estímulo, un dominio cognitivo distinto de la codificación o el recuerdo de la memoria."
+        },
+        {
+          "heading": "Por qué un solo resultado no cuenta toda la historia",
+          "body": "La fatiga, el estado de alerta, el momento de tomar cafeína y la familiaridad con la tarea influyen en el rendimiento día a día."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un domaine distinct de la mémoire",
+          "body": "Le temps de réaction mesure la vitesse de réponse à un stimulus, un domaine cognitif distinct de l'encodage ou du rappel de la mémoire."
+        },
+        {
+          "heading": "Pourquoi un seul score ne raconte pas toute l'histoire",
+          "body": "La fatigue, la vigilance, le moment de prise de caféine et la familiarité avec la tâche influencent tous la performance au jour le jour."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A reaction-time score often improves noticeably across the first several attempts mainly due to growing familiarity with the task format, not necessarily a real change in underlying processing speed."
+      ],
+      "es": [
+        "Un resultado de tiempo de reacción suele mejorar de forma notable en los primeros intentos, principalmente por la familiaridad creciente con el formato de la tarea, no necesariamente por un cambio real en la velocidad de procesamiento subyacente."
+      ],
+      "fr": [
+        "Un score de temps de réaction s'améliore souvent nettement lors des premiers essais, principalement en raison d'une familiarité croissante avec le format de la tâche, et pas nécessairement d'un changement réel de la vitesse de traitement sous-jacente."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Does reaction time decline with age?",
+          "a": "Some average slowing is commonly observed with age, though individual variation is large and many factors (fatigue, health, practice) also play a role."
+        },
+        {
+          "q": "Why does my score improve so much after a few tries?",
+          "a": "This is usually a practice effect from becoming familiar with the task format, not necessarily a true change in your underlying reaction speed."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿El tiempo de reacción disminuye con la edad?",
+          "a": "Se observa comúnmente cierta lentitud promedio con la edad, aunque la variación individual es grande y otros factores (fatiga, salud, práctica) también influyen."
+        },
+        {
+          "q": "¿Por qué mi resultado mejora tanto después de unos intentos?",
+          "a": "Suele ser un efecto de práctica por familiarizarse con el formato de la tarea, no necesariamente un cambio real en su velocidad de reacción subyacente."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Le temps de réaction décline-t-il avec l'âge ?",
+          "a": "Un certain ralentissement moyen est couramment observé avec l'âge, bien que la variation individuelle soit importante et que d'autres facteurs (fatigue, santé, pratique) jouent aussi un rôle."
+        },
+        {
+          "q": "Pourquoi mon score s'améliore-t-il autant après quelques essais ?",
+          "a": "C'est généralement un effet de pratique lié à la familiarisation avec le format de la tâche, pas nécessairement un changement réel de votre vitesse de réaction sous-jacente."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-hearing-aid-adaptation": {
+    "sectionHeading": {
+      "en": "Adjusting to a new hearing aid",
+      "es": "Adaptarse a un nuevo audífono",
+      "fr": "S'adapter à un nouvel appareil auditif"
+    },
+    "uniqueStatements": {
+      "en": [
+        "A new hearing aid changes auditory input in ways the brain needs time to reinterpret — a genuine, well-documented adaptation period distinct from the earlier decision of choosing and obtaining a device.",
+        "Graduated listening practice — starting in quiet one-on-one settings before progressing to noisier group settings — tends to be more realistic than expecting full comfort immediately after starting to use a new device.",
+        "This page assumes a hearing aid has already been obtained and focuses specifically on the practical adaptation period, distinct from the site's separate guide on choosing a hearing aid in the first place."
+      ],
+      "es": [
+        "Un nuevo audífono cambia la información auditiva de una forma que el cerebro necesita tiempo para reinterpretar: un periodo de adaptación real y bien documentado, distinto de la decisión previa de elegir y obtener un dispositivo.",
+        "La práctica auditiva gradual —empezar en entornos tranquilos y de uno a uno antes de avanzar a entornos grupales más ruidosos— suele ser más realista que esperar comodidad total de inmediato tras empezar a usar un dispositivo nuevo.",
+        "Esta página asume que ya se ha obtenido un audífono y se centra específicamente en el periodo práctico de adaptación, algo distinto de la guía independiente del sitio sobre cómo elegir un audífono en primer lugar."
+      ],
+      "fr": [
+        "Un nouvel appareil auditif modifie l'information auditive d'une manière que le cerveau a besoin de temps pour réinterpréter — une période d'adaptation réelle et bien documentée, distincte de la décision antérieure de choisir et d'obtenir un appareil.",
+        "Une pratique d'écoute progressive — en commençant par des environnements calmes en tête-à-tête avant de passer à des environnements de groupe plus bruyants — tend à être plus réaliste que d'attendre un confort total immédiatement après avoir commencé à utiliser un nouvel appareil.",
+        "Cette page suppose qu'un appareil auditif a déjà été obtenu et se concentre spécifiquement sur la période pratique d'adaptation, distincte du guide séparé du site sur le choix d'un appareil auditif en premier lieu."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Why the brain needs an adjustment period",
+          "body": "A new device changes sound input in ways the brain needs time to reinterpret, a genuine adaptation phenomenon."
+        },
+        {
+          "heading": "A graduated listening approach",
+          "body": "Quiet one-on-one settings first, progressing to noisier group settings, rather than expecting full comfort immediately."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Por qué el cerebro necesita un periodo de ajuste",
+          "body": "Un nuevo dispositivo cambia la información sonora de una forma que el cerebro necesita tiempo para reinterpretar, un fenómeno de adaptación real."
+        },
+        {
+          "heading": "Un enfoque de escucha gradual",
+          "body": "Primero entornos tranquilos de uno a uno, avanzando hacia entornos grupales más ruidosos, en lugar de esperar comodidad total de inmediato."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Pourquoi le cerveau a besoin d'une période d'ajustement",
+          "body": "Un nouvel appareil modifie l'information sonore d'une manière que le cerveau a besoin de temps pour réinterpréter, un véritable phénomène d'adaptation."
+        },
+        {
+          "heading": "Une approche d'écoute progressive",
+          "body": "D'abord des environnements calmes en tête-à-tête, puis des environnements de groupe plus bruyants, plutôt que d'attendre un confort total immédiatement."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A new hearing-aid user often finds their own voice sounds unusual at first — a common, temporary adaptation effect worth normalizing rather than worrying about."
+      ],
+      "es": [
+        "Una persona que empieza a usar un audífono nuevo suele notar que su propia voz suena rara al principio: un efecto de adaptación común y temporal que conviene normalizar en lugar de preocuparse."
+      ],
+      "fr": [
+        "Une personne qui commence à porter un nouvel appareil auditif trouve souvent que sa propre voix sonne étrangement au début — un effet d'adaptation courant et temporaire qu'il vaut mieux normaliser que redouter."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How long does adaptation usually take?",
+          "a": "It varies by individual; general ranges are often discussed with the hearing-care provider rather than following one fixed timeline."
+        },
+        {
+          "q": "Is it normal for background noise to feel overwhelming at first?",
+          "a": "Yes — this is a common early experience that often eases with graduated practice."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cuánto suele tardar la adaptación?",
+          "a": "Varía según la persona; los rangos generales suelen comentarse con el especialista en audición, en lugar de seguir un plazo fijo."
+        },
+        {
+          "q": "¿Es normal que el ruido de fondo resulte abrumador al principio?",
+          "a": "Sí: es una experiencia inicial común que suele aliviarse con la práctica gradual."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Combien de temps dure généralement l'adaptation ?",
+          "a": "Cela varie selon la personne ; les plages générales sont souvent discutées avec le professionnel de l'audition plutôt que de suivre un délai fixe."
+        },
+        {
+          "q": "Est-il normal que le bruit de fond semble accablant au début ?",
+          "a": "Oui : c'est une expérience initiale courante qui s'atténue souvent avec une pratique progressive."
+        }
+      ]
+    }
+  },
+  "how-to-track-sleep-apnea-signs": {
+    "sectionHeading": {
+      "en": "Signs worth noticing, and what to do next",
+      "es": "Señales que vale la pena notar, y qué hacer después",
+      "fr": "Signes à repérer, et que faire ensuite"
+    },
+    "uniqueStatements": {
+      "en": [
+        "A recognizable pattern that may suggest sleep apnea includes loud snoring, witnessed breathing pauses, morning headaches, and daytime sleepiness or unrefreshing sleep alongside cognitive complaints — though these signs alone do not establish a diagnosis.",
+        "Sleep apnea-related sleep fragmentation is distinct from simply getting insufficient sleep: someone can spend a full night in bed and still experience repeated, brief awakenings from breathing interruptions they may not consciously remember.",
+        "The appropriate next step when this pattern is present is discussing it with a healthcare professional, potentially leading to a sleep evaluation — this site's tools cannot diagnose or rule out sleep apnea."
+      ],
+      "es": [
+        "Un patrón reconocible que puede sugerir apnea del sueño incluye ronquidos fuertes, pausas respiratorias observadas por otra persona, dolores de cabeza matutinos y somnolencia diurna o sueño no reparador junto con quejas cognitivas, aunque estas señales por sí solas no establecen un diagnóstico.",
+        "La fragmentación del sueño relacionada con la apnea es distinta de simplemente dormir poco: alguien puede pasar una noche completa en la cama y aun así sufrir despertares breves y repetidos por interrupciones respiratorias que quizá no recuerde conscientemente.",
+        "El siguiente paso adecuado cuando aparece este patrón es comentarlo con un profesional de la salud, lo que puede llevar a un estudio del sueño; las herramientas de este sitio no pueden diagnosticar ni descartar la apnea del sueño."
+      ],
+      "fr": [
+        "Un schéma reconnaissable pouvant suggérer une apnée du sommeil comprend un ronflement fort, des pauses respiratoires observées, des maux de tête matinaux et une somnolence diurne ou un sommeil non réparateur accompagnés de plaintes cognitives, bien que ces signes seuls n'établissent pas de diagnostic.",
+        "La fragmentation du sommeil liée à l'apnée est distincte du simple manque de sommeil : une personne peut passer une nuit complète au lit et néanmoins subir des réveils brefs et répétés dus à des interruptions respiratoires dont elle ne se souvient pas forcément consciemment.",
+        "L'étape appropriée lorsque ce schéma est présent consiste à en parler à un professionnel de santé, ce qui peut mener à un bilan du sommeil ; les outils de ce site ne peuvent ni diagnostiquer ni écarter une apnée du sommeil."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "A recognizable symptom pattern",
+          "body": "Loud snoring, witnessed breathing pauses, morning headaches, and unrefreshing sleep together, not any single sign alone."
+        },
+        {
+          "heading": "Fragmentation, not just insufficient sleep",
+          "body": "Repeated brief awakenings from breathing interruptions can happen even after a full night in bed."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Un patrón de síntomas reconocible",
+          "body": "Ronquidos fuertes, pausas respiratorias observadas, dolores de cabeza matutinos y sueño no reparador en conjunto, no una sola señal aislada."
+        },
+        {
+          "heading": "Fragmentación, no solo falta de horas de sueño",
+          "body": "Pueden ocurrir despertares breves y repetidos por interrupciones respiratorias incluso tras pasar una noche completa en la cama."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Un schéma de symptômes reconnaissable",
+          "body": "Ronflement fort, pauses respiratoires observées, maux de tête matinaux et sommeil non réparateur ensemble, pas un seul signe isolé."
+        },
+        {
+          "heading": "Fragmentation, pas seulement un manque d'heures de sommeil",
+          "body": "Des réveils brefs et répétés dus à des interruptions respiratoires peuvent survenir même après une nuit complète au lit."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Someone who sleeps a full 8 hours but wakes unrefreshed repeatedly, with a partner reporting breathing pauses, illustrates a pattern worth raising with a doctor — distinct from simply staying up too late."
+      ],
+      "es": [
+        "Alguien que duerme 8 horas completas pero se despierta repetidamente sin sentirse descansado, con una pareja que informa pausas respiratorias, ilustra un patrón que vale la pena comentar con un médico, distinto de simplemente acostarse demasiado tarde."
+      ],
+      "fr": [
+        "Une personne qui dort huit heures complètes mais se réveille de façon répétée sans être reposée, avec un conjoint signalant des pauses respiratoires, illustre un schéma à évoquer avec un médecin — distinct du simple fait de se coucher trop tard."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can apnea affect memory even if I don't feel sleepy?",
+          "a": "Yes — some people underestimate their own daytime sleepiness, and cognitive effects can still be present even without a strong subjective sense of tiredness."
+        },
+        {
+          "q": "Does treating apnea improve memory?",
+          "a": "Many people report improvement in cognitive complaints after treatment, though individual results vary and this isn't guaranteed."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿La apnea puede afectar la memoria aunque no me sienta somnoliento?",
+          "a": "Sí: algunas personas subestiman su propia somnolencia diurna, y los efectos cognitivos pueden estar presentes incluso sin una sensación subjetiva fuerte de cansancio."
+        },
+        {
+          "q": "¿Tratar la apnea mejora la memoria?",
+          "a": "Muchas personas informan mejoría en las quejas cognitivas tras el tratamiento, aunque los resultados varían según la persona y no está garantizado."
+        }
+      ],
+      "fr": [
+        {
+          "q": "L'apnée peut-elle affecter la mémoire même si je ne me sens pas somnolent ?",
+          "a": "Oui : certaines personnes sous-estiment leur propre somnolence diurne, et des effets cognitifs peuvent être présents même sans forte sensation subjective de fatigue."
+        },
+        {
+          "q": "Traiter l'apnée améliore-t-il la mémoire ?",
+          "a": "De nombreuses personnes rapportent une amélioration des plaintes cognitives après traitement, bien que les résultats varient selon les individus et ne soient pas garantis."
+        }
+      ]
+    }
+  },
+  "how-to-eat-mind-diet-basics": {
+    "sectionHeading": {
+      "en": "What the MIND diet actually involves",
+      "es": "En qué consiste realmente la dieta MIND",
+      "fr": "En quoi consiste réellement le régime MIND"
+    },
+    "uniqueStatements": {
+      "en": [
+        "The MIND diet combines elements of the Mediterranean and DASH dietary patterns, emphasizing specific food groups — leafy greens, berries, nuts, olive oil, fish, and whole grains — while generally limiting red meat, butter, fried food, and sweets.",
+        "A realistic beginner strategy is to start with 2-3 practical food swaps rather than attempting a full dietary overhaul immediately — for example, switching to olive oil or adding a daily handful of nuts.",
+        "Dietary-pattern research in this area is generally observational and associational rather than a guarantee of outcomes for any individual, so this page describes the pattern's structure and a realistic starting approach without overclaiming certainty."
+      ],
+      "es": [
+        "La dieta MIND combina elementos de los patrones alimentarios mediterráneo y DASH, dando prioridad a grupos de alimentos concretos —verduras de hoja verde, frutos rojos, frutos secos, aceite de oliva, pescado y cereales integrales— y limitando en general la carne roja, la mantequilla, los fritos y los dulces.",
+        "Una estrategia realista para principiantes es empezar con 2-3 cambios prácticos de alimentos en lugar de intentar una transformación completa de la dieta de inmediato; por ejemplo, cambiar a aceite de oliva o añadir un puñado diario de frutos secos.",
+        "La investigación sobre patrones alimentarios en esta área es en general observacional y asociativa, no una garantía de resultados para ninguna persona en particular, por lo que esta página describe la estructura del patrón y un enfoque realista para empezar sin exagerar la certeza."
+      ],
+      "fr": [
+        "Le régime MIND combine des éléments des schémas alimentaires méditerranéen et DASH, en privilégiant des groupes d'aliments précis — légumes verts à feuilles, baies, noix, huile d'olive, poisson et céréales complètes — tout en limitant généralement la viande rouge, le beurre, les fritures et les sucreries.",
+        "Une stratégie réaliste pour débuter consiste à commencer par 2 à 3 substitutions alimentaires pratiques plutôt que de tenter une refonte alimentaire complète immédiatement ; par exemple, passer à l'huile d'olive ou ajouter une poignée de noix par jour.",
+        "La recherche sur les schémas alimentaires dans ce domaine est généralement observationnelle et associative, et non une garantie de résultats pour un individu donné, c'est pourquoi cette page décrit la structure du schéma et une approche réaliste pour commencer sans surestimer la certitude."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "The MIND diet's actual structure",
+          "body": "Combines Mediterranean and DASH elements, emphasizing leafy greens, berries, nuts, olive oil, fish, and whole grains while limiting red meat, butter, fried food, and sweets."
+        },
+        {
+          "heading": "A realistic beginner starting point",
+          "body": "Pick 2-3 specific swaps to start with rather than a full overhaul — e.g. olive oil instead of butter, a daily handful of nuts."
+        }
+      ],
+      "es": [
+        {
+          "heading": "La estructura real de la dieta MIND",
+          "body": "Combina elementos mediterráneos y DASH, priorizando verduras de hoja verde, frutos rojos, frutos secos, aceite de oliva, pescado y cereales integrales, y limitando la carne roja, la mantequilla, los fritos y los dulces."
+        },
+        {
+          "heading": "Un punto de partida realista para principiantes",
+          "body": "Elija 2-3 cambios concretos para empezar en lugar de una transformación completa: por ejemplo, aceite de oliva en vez de mantequilla, un puñado diario de frutos secos."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "La structure réelle du régime MIND",
+          "body": "Combine des éléments méditerranéens et DASH, en privilégiant légumes verts à feuilles, baies, noix, huile d'olive, poisson et céréales complètes, tout en limitant viande rouge, beurre, fritures et sucreries."
+        },
+        {
+          "heading": "Un point de départ réaliste pour débuter",
+          "body": "Choisissez 2 à 3 substitutions précises pour commencer plutôt qu'une refonte complète : par exemple, l'huile d'olive à la place du beurre, une poignée de noix par jour."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A realistic beginner week might include a few servings of leafy greens, one fish meal, and berries as a regular snack — a concrete, achievable starting pattern rather than a strict full overhaul."
+      ],
+      "es": [
+        "Una semana realista para principiantes podría incluir varias raciones de verduras de hoja verde, una comida con pescado y frutos rojos como merienda habitual: un patrón de inicio concreto y alcanzable, no una transformación estricta y completa."
+      ],
+      "fr": [
+        "Une semaine réaliste pour débuter pourrait inclure plusieurs portions de légumes verts à feuilles, un repas de poisson et des baies comme collation régulière — un schéma de départ concret et réalisable plutôt qu'une refonte stricte et complète."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Do I need to follow it perfectly to get any benefit?",
+          "a": "No — partial adherence is still studied as potentially beneficial; perfection isn't required to make a meaningful start."
+        },
+        {
+          "q": "Is this the same as the Mediterranean diet?",
+          "a": "Related but distinct — MIND combines Mediterranean and DASH elements with its own specific food emphasis, rather than being identical to either."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Debo seguirla a la perfección para obtener algún beneficio?",
+          "a": "No: el cumplimiento parcial también se estudia como potencialmente beneficioso; no hace falta la perfección para dar un paso significativo."
+        },
+        {
+          "q": "¿Es lo mismo que la dieta mediterránea?",
+          "a": "Está relacionada pero es distinta: MIND combina elementos mediterráneos y DASH con un énfasis específico propio en ciertos alimentos, no es idéntica a ninguna de las dos."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Dois-je le suivre parfaitement pour en tirer un bénéfice ?",
+          "a": "Non : une adhésion partielle est elle aussi étudiée comme potentiellement bénéfique ; la perfection n'est pas nécessaire pour un début significatif."
+        },
+        {
+          "q": "Est-ce la même chose que le régime méditerranéen ?",
+          "a": "C'est lié mais distinct : MIND combine des éléments méditerranéens et DASH avec un accent spécifique qui lui est propre sur certains aliments, sans être identique à l'un ou l'autre."
         }
       ]
     }
