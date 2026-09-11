@@ -1,0 +1,851 @@
+{
+  "phase": "CONTENT-14B",
+  "status": "PASS",
+  "generated": "2026-09-11",
+  "content14CloseoutSha": "78ac8fc",
+  "baselineSha": "0e1b1f2c2987551ee26fea79fa18bde0b7a3b7b8",
+  "implementationBaselineSha": "78ac8fc",
+  "exact54PageInventory": [
+    {
+      "slug": "how-to-balance-screen-time-brain",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-balance-screen-time-brain/",
+          "path": "how-to-balance-screen-time-brain/index.html",
+          "beforeSha": "604ab5d7dd66ed479a2797097e9db81c4b799dcd32dea3a42c9e98c7e36d1ceb",
+          "afterSha": "c05207014207a2dee6ce1946968365d1011d04d4613096d131a0675e515b6b02",
+          "beforeLen": null,
+          "afterLen": 14945,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/pantallas-cognicion/",
+          "path": "es/pantallas-cognicion/index.html",
+          "beforeSha": "91d8ef9a4827ee2d0f10f7ea5d257afe4edbcd7f09fd2f3b8954239ad358cbe3",
+          "afterSha": "e5fca37d029011e3dc541cc37706e0c2c45bf8ebce211d13879cb8b6ae888fa7",
+          "beforeLen": null,
+          "afterLen": 15388,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/ecrans-cognition/",
+          "path": "fr/ecrans-cognition/index.html",
+          "beforeSha": "3393044dc9bd15144e3461d4df882cd96f64c0741c8becbd1588abf3e5a31741",
+          "afterSha": "508ad2fc4ed76ffbe1641aefc5a451d96a49d83344986e74f3ab8d66fe415f24",
+          "beforeLen": null,
+          "afterLen": 15391,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": true,
+      "dsiPass": true,
+      "dsiPreApprovedException": false,
+      "summary": "Screen habits and everyday attention"
+    },
+    {
+      "slug": "how-to-manage-multiple-medications",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-manage-multiple-medications/",
+          "path": "how-to-manage-multiple-medications/index.html",
+          "beforeSha": "064f9ebd2a22ce4433a63f1632044be1fed6a5e54f3a71ba58eba58d45dcf45a",
+          "afterSha": "ca5c94b65341142a9720aca7e2b3bafa0944169e39d1e4a52d9e78179763ff89",
+          "beforeLen": null,
+          "afterLen": 14959,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/polifarmacia-segura/",
+          "path": "es/polifarmacia-segura/index.html",
+          "beforeSha": "db79b3909474cee544f2dcf33843e7c60658625fce2fe59d80ec61737e39335c",
+          "afterSha": "eb75f42434be6f58b0e0de9f018d1c242e9124c4df378266061bfea8e61b14ba",
+          "beforeLen": null,
+          "afterLen": 14774,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/polymedicament-securite/",
+          "path": "fr/polymedicament-securite/index.html",
+          "beforeSha": "6951fef782b8fe84c80961b341bf04b1c3c9ea6b7b898dd8db3f48b71359265a",
+          "afterSha": "349a0669f49fe3d261c7cdbb0192b53c4e365ea437c562c899c0e8a43be66ebe",
+          "beforeLen": null,
+          "afterLen": 14962,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Organizing a multi-medication routine"
+    },
+    {
+      "slug": "how-to-quit-smoking-brain-benefits",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-quit-smoking-brain-benefits/",
+          "path": "how-to-quit-smoking-brain-benefits/index.html",
+          "beforeSha": "2dde59389dc26de18f8a1bb0e6cbbd8586f90a70418651b9fb186e1eb705280c",
+          "afterSha": "0f89504bce41f02eb423fba00721e1f4c17fe751294aaf728ec26e25621a6362",
+          "beforeLen": null,
+          "afterLen": 14807,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/dejar-fumar-cognicion/",
+          "path": "es/dejar-fumar-cognicion/index.html",
+          "beforeSha": "40d7a51bb1a6ef6696da3da3f377b9dd2ba91c8b31e6e77df7019199b1791cf2",
+          "afterSha": "92b6c2baf81e069cb3a31bb0072030e5a689f5e1368a0e2cad7615a9b41f0bbe",
+          "beforeLen": null,
+          "afterLen": 15392,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/arreter-fumer-cognition/",
+          "path": "fr/arreter-fumer-cognition/index.html",
+          "beforeSha": "d8d079d75da509355406764415707c57d9cf916438cc9ef79d490f2247c45b9d",
+          "afterSha": "c4e4de8e5127455e6060f93cc3193e33a76b6fa4661eee26571017fe54b2d0a3",
+          "beforeLen": null,
+          "afterLen": 15744,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": true,
+      "dsiPass": true,
+      "dsiPreApprovedException": false,
+      "summary": "Quitting smoking and daily mental habits"
+    },
+    {
+      "slug": "how-to-choose-brain-apps",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-choose-brain-apps/",
+          "path": "how-to-choose-brain-apps/index.html",
+          "beforeSha": "a31103e519646fc3906930a95ad446f0bf7a97f78780797ecc442f0d836cb99e",
+          "afterSha": "e7c87e8963073e1c5f70d6778a007d59e46af82c56eff2d63f8af5b699ebeb18",
+          "beforeLen": null,
+          "afterLen": 15204,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/elegir-apps-cerebro/",
+          "path": "es/elegir-apps-cerebro/index.html",
+          "beforeSha": "a8ddffd4c0990e81c32334517029da815d3e6de91053676830b73309b06d7228",
+          "afterSha": "e8930a043d0f19a2ae80fc0adb2a2a371cfec60a436e26415cb32e27d5fab11d",
+          "beforeLen": null,
+          "afterLen": 15033,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/choisir-apps-cerveau/",
+          "path": "fr/choisir-apps-cerveau/index.html",
+          "beforeSha": "36d0aaaa098585b592f0e6d991b9cd73993673531b1a96ca66f758cbc0fc5bc7",
+          "afterSha": "da20b56e66b116e77227398d3c1f6e7568ee41d3b19c3a5562f8d36063a10e13",
+          "beforeLen": null,
+          "afterLen": 15427,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Evaluating brain-training apps critically"
+    },
+    {
+      "slug": "how-to-prioritize-tasks-brain-fog",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-prioritize-tasks-brain-fog/",
+          "path": "how-to-prioritize-tasks-brain-fog/index.html",
+          "beforeSha": "1dd27cc67feb0b79c7ac4571d4d161238e3ebe06b7fddcd05d9a7ca1a0d38e6b",
+          "afterSha": "bb433cc3507ee2f379c5bd017fac39222d1da82c393c5e7a3c112d44d4213a0a",
+          "beforeLen": null,
+          "afterLen": 15273,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/priorizar-niebla-mental/",
+          "path": "es/priorizar-niebla-mental/index.html",
+          "beforeSha": "c386c2aee09fd2aab91a0324b80b9eb9262336a0168d704f8f9ba3b9e8832d4c",
+          "afterSha": "9a8d15644e6f6eb1ce620ffe0ccca572a8abf2c70ff9b4cd5a1bdbbb3b3417d4",
+          "beforeLen": null,
+          "afterLen": 15357,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/prioriser-brouillard/",
+          "path": "fr/prioriser-brouillard/index.html",
+          "beforeSha": "d0dd25da01ef4dc2a270e380976ab97acef18e4a9ecf671a5937f99676d53dca",
+          "afterSha": "2e23de07c656a8ea78a9253cb59319f165d30f2f3a08df2ca177554488c15e32",
+          "beforeLen": null,
+          "afterLen": 15844,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Prioritizing tasks when focus feels scattered"
+    },
+    {
+      "slug": "how-to-coordinate-family-care",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-coordinate-family-care/",
+          "path": "how-to-coordinate-family-care/index.html",
+          "beforeSha": "55eea5bda6c7d276839258b9fa352c82c24fe5df077b2b8ab531e2bfdd39f323",
+          "afterSha": "6343c203cb2d0a7d023ba0b55ec0645c8763659ebea34dfe3d7f7c9e2ed8f7cf",
+          "beforeLen": null,
+          "afterLen": 14575,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/coordinar-familia-memoria/",
+          "path": "es/coordinar-familia-memoria/index.html",
+          "beforeSha": "5e9eef4dee0007106aaa6540ad4f5cc3c76ed8be90868b4aae4a8df39457d5b4",
+          "afterSha": "865f6de78083eefc6f3b800aa3998607da9547073c0c048b218dfb4e0c4fc4e3",
+          "beforeLen": null,
+          "afterLen": 15032,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/coordonner-famille-memoire/",
+          "path": "fr/coordonner-famille-memoire/index.html",
+          "beforeSha": "a7ad60d0722f55dc43bdf41b466e27fd0f69c17abd290bb93ca5d2dfddaa964d",
+          "afterSha": "8db7e41eb1439f0b6b4902d25bab41119ad0da557b5dd18d87d630c65ce87e97",
+          "beforeLen": null,
+          "afterLen": 15322,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": true,
+      "dsiPass": true,
+      "dsiPreApprovedException": false,
+      "summary": "Coordinating family care without overstepping"
+    },
+    {
+      "slug": "how-to-practice-gratitude-without-toxic-positivity",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-practice-gratitude-without-toxic-positivity/",
+          "path": "how-to-practice-gratitude-without-toxic-positivity/index.html",
+          "beforeSha": "95fab37a32c9ee2574cb38d301ea354102ee9e8c08c45475c47f82ca17dc13be",
+          "afterSha": "87fd1f2a6ade390a9fdd457b9f739cb7f98a7fc8fd69c6df11cf01a737737818",
+          "beforeLen": null,
+          "afterLen": 14819,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/gratitud-enfoque/",
+          "path": "es/gratitud-enfoque/index.html",
+          "beforeSha": "cf79d3355700419043fc605cfde54fb0ab4d4c0015043f1d582524d095de6154",
+          "afterSha": "1d945992a18aa39edcc344853c11d676dfb8868ba59f499cfba1f59a8a33d018",
+          "beforeLen": null,
+          "afterLen": 15041,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/gratitude-attention/",
+          "path": "fr/gratitude-attention/index.html",
+          "beforeSha": "68727c4eaae08d4b2d9d83a4b2fb30ec769c5d39e546e5930ba42d88e17877b9",
+          "afterSha": "91cec1fd90a5ff9292b92f142b622a7114fe6932399e962634b6f8cb4b08a806",
+          "beforeLen": null,
+          "afterLen": 15320,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": true,
+      "dsiPass": true,
+      "dsiPreApprovedException": false,
+      "summary": "Gratitude as an optional practice, not a demand"
+    },
+    {
+      "slug": "how-to-improve-memory-naturally",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-improve-memory-naturally/",
+          "path": "how-to-improve-memory-naturally/index.html",
+          "beforeSha": "e2499f1aa69c9312d55814a9f2d7a1373415694d672531180c548a9c148b0e2b",
+          "afterSha": "5fc88d524fd937f949fc653f8914f422522aea1f5ebb8c1cbfe3954675336f23",
+          "beforeLen": null,
+          "afterLen": 14536,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/como-mejorar-memoria-natural/",
+          "path": "es/como-mejorar-memoria-natural/index.html",
+          "beforeSha": "b345fca096255e19136d05bce65c865d8f8a3de076a18a5153c34a6942089453",
+          "afterSha": "eb4037c00664370e61c04f37528a9fcacde5570e5aace67304938b511cb19f2a",
+          "beforeLen": null,
+          "afterLen": 14629,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/ameliorer-memoire-naturellement/",
+          "path": "fr/ameliorer-memoire-naturellement/index.html",
+          "beforeSha": "877bfb58f6482cc84d9561022cf09ee22261a2ef38c4eee5a29dde1dd0ae7894",
+          "afterSha": "874dc5136dce5e780011a0498dbe0726ccbf2baceaab65114a4360537b3042a6",
+          "beforeLen": null,
+          "afterLen": 14595,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "A lifestyle framework for everyday remembering"
+    },
+    {
+      "slug": "how-to-prevent-cognitive-decline",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-prevent-cognitive-decline/",
+          "path": "how-to-prevent-cognitive-decline/index.html",
+          "beforeSha": "28e2424a589c1b30dfb801b186dd0f08904f1610174cba8c07093d1ae0bc26e7",
+          "afterSha": "7b2c9dac2128faa01a5b7873ea1f1ac6fca0a6b6b1880d06744b074be883eb63",
+          "beforeLen": null,
+          "afterLen": 15629,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/como-prevenir-deterioro-cognitivo/",
+          "path": "es/como-prevenir-deterioro-cognitivo/index.html",
+          "beforeSha": "fe051b1cc5ca04e7db2bfb3aa3ea812831ae9e80ca3aeab43ffda7e29ed07d2a",
+          "afterSha": "f2f6cd924c14ef17183728702704a7ad16ca5ecbf2fc4911eda6c1b1d3b8ade2",
+          "beforeLen": null,
+          "afterLen": 15712,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/prevenir-declin-cognitif/",
+          "path": "fr/prevenir-declin-cognitif/index.html",
+          "beforeSha": "6f1eec4ea410b658a8355b4dbe36cc1c0e49b159cc5958322658107c17a9b4ca",
+          "afterSha": "1dbfbb8faffc05d813b52e6301b76f74809c20acf0bb5f8ddecb4d7d9d2d47cd",
+          "beforeLen": null,
+          "afterLen": 15675,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Risk reduction without false guarantees"
+    },
+    {
+      "slug": "how-to-exercise-for-brain-health",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-exercise-for-brain-health/",
+          "path": "how-to-exercise-for-brain-health/index.html",
+          "beforeSha": "d5f7d03f0c8ba3b32563d30dc900c204ac20fe14b9d2ee6de5c9828f234243bf",
+          "afterSha": "9d443185b2da6daefb1a4983e8fe371fc9a91a9767478315d5408f077c920a70",
+          "beforeLen": null,
+          "afterLen": 15016,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicio-salud-cerebral/",
+          "path": "es/ejercicio-salud-cerebral/index.html",
+          "beforeSha": "f4963a8ab635014cf5c467a36590174160a59b9bde10ae527ba70b879f11750c",
+          "afterSha": "b43b5088b41f9a727fe41aecf133de5a6d52693fc3720189e926eee6ba792234",
+          "beforeLen": null,
+          "afterLen": 14813,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/sport-sante-cerebrale/",
+          "path": "fr/sport-sante-cerebrale/index.html",
+          "beforeSha": "8b6c282755569f7c355d4800bee8e01714e333f00e50e0399b9b15dd8905139e",
+          "afterSha": "da50476adb709710a98ae3e1ea8f5c2be9cf30cbd704fa61f67da36159080bca",
+          "beforeLen": null,
+          "afterLen": 14905,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Physical movement and cognitive practice"
+    },
+    {
+      "slug": "how-to-reduce-stress-for-focus",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-reduce-stress-for-focus/",
+          "path": "how-to-reduce-stress-for-focus/index.html",
+          "beforeSha": "1020bfec1a7fbaa757fb6ef2c34103ecc97df26f5b248f761e520b5ec6515fe1",
+          "afterSha": "2c97dede0a568a3511c06991433ac0a0683ae10e41a9be9183acc922401a5c85",
+          "beforeLen": null,
+          "afterLen": 15019,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/reducir-estres-atencion/",
+          "path": "es/reducir-estres-atencion/index.html",
+          "beforeSha": "e875782f0f5448f8a529a423f6f568afd22d1d9642cf6292637c802d6d4caefe",
+          "afterSha": "112e717852be687fe96adb2766e4d99a671159fb1764fb0cff0985af06a40b06",
+          "beforeLen": null,
+          "afterLen": 14676,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/reduire-stress-attention/",
+          "path": "fr/reduire-stress-attention/index.html",
+          "beforeSha": "d92ab96f4f2d831e11abd7e9bde897ed1fcf756d3e32f06bb41e608f2e1e5e62",
+          "afterSha": "a3432357b9583dec009fb697ebd749993e88df92c230db57e16fe9166171dd28",
+          "beforeLen": null,
+          "afterLen": 15015,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Managing stressors that compete for attention"
+    },
+    {
+      "slug": "how-to-review-medications-with-doctor",
+      "cluster": "guides",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/how-to-review-medications-with-doctor/",
+          "path": "how-to-review-medications-with-doctor/index.html",
+          "beforeSha": "9c9cd4d080f8e89f5f477e262d2714f9a717d4a297461cc842d3a022cc41c581",
+          "afterSha": "7cc241bb1f04326dcf5f79e34458e1c046b05df79e64ad4c9348acccfa98b8e1",
+          "beforeLen": null,
+          "afterLen": 14941,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/revision-medicamentos-memoria/",
+          "path": "es/revision-medicamentos-memoria/index.html",
+          "beforeSha": "4029a6848bb25f30215bbd33887a37537902bb8c458dabd5a69ff328d344ce55",
+          "afterSha": "4bbe897d97fee9659aea9ab69f350c3647b5ba04af0a493da32722168817daaa",
+          "beforeLen": null,
+          "afterLen": 15501,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/bilan-medicaments-memoire/",
+          "path": "fr/bilan-medicaments-memoire/index.html",
+          "beforeSha": "5fa35018bd6b65d54da14ad2c703bf9ca625e89f966728d62dccd5b95f2e9a39",
+          "afterSha": "abff457c0d0fca3c9ce6f9dda6822f040e648beb92e3a34768ee5920aaa17976",
+          "beforeLen": null,
+          "afterLen": 15463,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": true,
+      "summary": "Preparing for a focused medication review"
+    },
+    {
+      "slug": "brain-exercises-for-medication-review-habits",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-medication-review-habits/",
+          "path": "brain-exercises-for-medication-review-habits/index.html",
+          "beforeSha": "3d90d3f60c97b466488b9f7a570a1ebb9e7f73ad0d7dce1ade147c118e96a604",
+          "afterSha": "f31b1a62e00c1516b571cfad7ba8b194d7ee8ba0fc83931c17fa0b549b1ca4a0",
+          "beforeLen": null,
+          "afterLen": 14839,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-medicacion-claridad/",
+          "path": "es/ejercicios-cerebrales-medicacion-claridad/index.html",
+          "beforeSha": "c1c02f5891c290db94bbe6923818cc7b08c5a635259d62a69f87afe39f2459bc",
+          "afterSha": "6f249f37afce65611447e98abeeb7cea425cc173a05725823b5d4f5322e85519",
+          "beforeLen": null,
+          "afterLen": 15864,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-medicaments-clarte/",
+          "path": "fr/exercices-cerveau-medicaments-clarte/index.html",
+          "beforeSha": "86a62d16b3a9f23cfd7527284a9277d8d7be8079195026780acea5999bb6614c",
+          "afterSha": "b2d40c128a60d2112bd92fc380ff0e71a094b4cea9813f7ccc9d50a7a12455cb",
+          "beforeLen": null,
+          "afterLen": 15538,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Cognitive practice for medication review preparation"
+    },
+    {
+      "slug": "brain-exercises-for-chemo-brain-education",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-chemo-brain-education/",
+          "path": "brain-exercises-for-chemo-brain-education/index.html",
+          "beforeSha": "7aab981c2b666b2541a3f12c16de85fe79c1413c96a9f3724e0ebab013725e33",
+          "afterSha": "0dc65647054c7186d0512a70dc1897ac3bc15e72cba77dc4934a690b332b1708",
+          "beforeLen": null,
+          "afterLen": 14672,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-niebla-quimio/",
+          "path": "es/ejercicios-cerebrales-niebla-quimio/index.html",
+          "beforeSha": "b898dfdd09192e20c07907981584042d2d22eee248324d7154168033e1149f51",
+          "afterSha": "9b90a8add6b7f09722f61998784a98ed6a2a4b5f6cdb5840cd88a98efc8bf137",
+          "beforeLen": null,
+          "afterLen": 15921,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-brouillard-chimio/",
+          "path": "fr/exercices-cerveau-brouillard-chimio/index.html",
+          "beforeSha": "21a47b636bf879d1444c41a3b895b69ac57545f29907892e729749cd786a4880",
+          "afterSha": "e65183848a3ba251c424b9ace026e92607c54831cc261e5068ba42bd8b154479",
+          "beforeLen": null,
+          "afterLen": 16147,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Educational practice during cancer treatment recovery"
+    },
+    {
+      "slug": "brain-exercises-for-diabetes-brain-health",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-diabetes-brain-health/",
+          "path": "brain-exercises-for-diabetes-brain-health/index.html",
+          "beforeSha": "895d9e759601fd9537e73ce75e008e719fabc18198f40357dd0103b40a04fa2a",
+          "afterSha": "2a8daf3ab8fdadd63571cdc631289242b083caa447d1278bcabb2fbf43f7e233",
+          "beforeLen": null,
+          "afterLen": 15249,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-glucosa-cerebro/",
+          "path": "es/ejercicios-cerebrales-glucosa-cerebro/index.html",
+          "beforeSha": "ad91bd52f623f3e46118c7bd3f40d2d7de600bc032df66b3915105474a453872",
+          "afterSha": "cdb29972cada03abae6b89788497ed0b1e22a30ddf91e777e9389802cd17c874",
+          "beforeLen": null,
+          "afterLen": 15452,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-glycemie-cerveau/",
+          "path": "fr/exercices-cerveau-glycemie-cerveau/index.html",
+          "beforeSha": "b922108fe9fcc6b03c73131e6665eee9036129f713f7f350a6e7380f25568bcf",
+          "afterSha": "0dd3db4a036400aecd72b77daf6803527709b4324107ef7527239c5a9f87b1d0",
+          "beforeLen": null,
+          "afterLen": 15170,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Cognitive practice alongside diabetes self-care"
+    },
+    {
+      "slug": "brain-exercises-for-vision-and-attention",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-vision-and-attention/",
+          "path": "brain-exercises-for-vision-and-attention/index.html",
+          "beforeSha": "874599af474fd3ec5c0994fb4d3f5bb211a420531c8fde71dd237d11ca1f7571",
+          "afterSha": "3891a0c88c9ecc2d5f9ae8ee72908e208a1737407895602c3fcb7cbcd11e7fff",
+          "beforeLen": null,
+          "afterLen": 14972,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-vision-atencion/",
+          "path": "es/ejercicios-cerebrales-vision-atencion/index.html",
+          "beforeSha": "46d56fe362c934fa55b48c33030d48d0edbcd2cec9d2fc066112b14138b6c2ec",
+          "afterSha": "5bd367f5f52ee28b9425b8c346d9c9165038e87cc3f4be7ea333a3e8601cc0fc",
+          "beforeLen": null,
+          "afterLen": 15040,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-vision-attention/",
+          "path": "fr/exercices-cerveau-vision-attention/index.html",
+          "beforeSha": "7299c5af00c6fd046ed93fc51047fd768a3ede84d396b160fd5ff33073fa7ee0",
+          "afterSha": "52de6a18cfddf1b36a176c4c43bafb229ac9c9f4fdf16eb7322bfb3190716b9c",
+          "beforeLen": null,
+          "afterLen": 15242,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Visual scanning and attention practice"
+    },
+    {
+      "slug": "brain-exercises-for-hearing-and-memory",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-hearing-and-memory/",
+          "path": "brain-exercises-for-hearing-and-memory/index.html",
+          "beforeSha": "8a99db516936124c619a6f86cdde6ca23f748d10716845469294994568058be3",
+          "afterSha": "7ec6680862b491a6604d46129d213eb457d0bd383114ccd3982f6677e0eadb1d",
+          "beforeLen": null,
+          "afterLen": 15279,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-audicion-memoria/",
+          "path": "es/ejercicios-cerebrales-audicion-memoria/index.html",
+          "beforeSha": "0009694a6dec5d91d57612ea58ee346c27e626a2897744c3701abd6491447664",
+          "afterSha": "30a74372fa110eb4e28e64b2fdb6499f4fc98fa634d98477bd9e6a4a8b0fbc0c",
+          "beforeLen": null,
+          "afterLen": 15490,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-audition-memoire/",
+          "path": "fr/exercices-cerveau-audition-memoire/index.html",
+          "beforeSha": "31de1f513896f28e68c4ec4abb9c582b6fe1ead78ddf0fa1aa2097f0e04f57d9",
+          "afterSha": "eae0b60d133597a77607f337b2bfed8f9dc696eda9559507058328265a9868b2",
+          "beforeLen": null,
+          "afterLen": 15485,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Auditory sequence and recall practice"
+    },
+    {
+      "slug": "brain-exercises-for-pet-care-routines",
+      "cluster": "exercises_intent",
+      "status": "IMPLEMENTED",
+      "pages": [
+        {
+          "lang": "en",
+          "url": "/brain-exercises-for-pet-care-routines/",
+          "path": "brain-exercises-for-pet-care-routines/index.html",
+          "beforeSha": "5cbfd878edcd8fb3125867805d0e5622cef05cabd566350a3b5633bb58df4b0d",
+          "afterSha": "2baafa187ed421dcf9b877b2c9b8301104b38de7d2ca450e0e7ffa4f686ccbe0",
+          "beforeLen": null,
+          "afterLen": 14931,
+          "uniqueContent": true
+        },
+        {
+          "lang": "es",
+          "url": "/es/ejercicios-cerebrales-mascotas-rutinas/",
+          "path": "es/ejercicios-cerebrales-mascotas-rutinas/index.html",
+          "beforeSha": "e649da277d6c6c9ddf4f99e98e64cc69b3d64081c21838425e54cf2166aebd6a",
+          "afterSha": "f6ddd81269c9a38c229903d9d5911d24ddbf7a943404b94ad8e3f422317a5566",
+          "beforeLen": null,
+          "afterLen": 15680,
+          "uniqueContent": true
+        },
+        {
+          "lang": "fr",
+          "url": "/fr/exercices-cerveau-animaux-routines/",
+          "path": "fr/exercices-cerveau-animaux-routines/index.html",
+          "beforeSha": "260085cf299759988e03279e83c2679fccdfce5f3e0b12bf2966ff1faf364e2d",
+          "afterSha": "6eb9a9e7311fc3266cf82b623f50ccf792338658133d26f34cf33b1ce9c50b5e",
+          "beforeLen": null,
+          "afterLen": 15801,
+          "uniqueContent": true
+        }
+      ],
+      "contentGate": false,
+      "dsiPass": false,
+      "dsiPreApprovedException": false,
+      "summary": "Sequencing practice through pet-care routines"
+    }
+  ],
+  "overrideFile": "assets/data/programmatic-page-overrides.json",
+  "overrideEntriesAdded": 18,
+  "overrideKeysBefore": 62,
+  "overrideKeysAfter": 80,
+  "counts": {
+    "topics": 18,
+    "en": 18,
+    "es": 18,
+    "fr": 18,
+    "htmlPages": 54
+  },
+  "corpusAfter": {
+    "manifestTotal": 514,
+    "uniqueContent": 240,
+    "pooledOnly": 274,
+    "uniquePct": 46.7,
+    "pooledPct": 53.3
+  },
+  "corpusBefore": {
+    "uniqueContent": 186,
+    "pooledOnly": 328
+  },
+  "validations": {
+    "arch02": "PASS",
+    "auth01": "PASS",
+    "content02": "PASS",
+    "content07QuickAnswer": "PASS",
+    "content10b": "UNCHANGED",
+    "content11": "PASS",
+    "content12FamilyA": "UNCHANGED",
+    "crossLanguageLeakage": 0,
+    "guideQuickAnswerFailures": 0,
+    "brokenLinks": 0,
+    "canonicalIssues": 0,
+    "hreflangIssues": 0,
+    "sitemapModified": false,
+    "redirectsModified": false,
+    "englishLeakage": 0,
+    "uniqueContentDetected": "54/54"
+  },
+  "changedFileManifest": [
+    "how-to-balance-screen-time-brain/index.html",
+    "es/pantallas-cognicion/index.html",
+    "fr/ecrans-cognition/index.html",
+    "how-to-manage-multiple-medications/index.html",
+    "es/polifarmacia-segura/index.html",
+    "fr/polymedicament-securite/index.html",
+    "how-to-quit-smoking-brain-benefits/index.html",
+    "es/dejar-fumar-cognicion/index.html",
+    "fr/arreter-fumer-cognition/index.html",
+    "how-to-choose-brain-apps/index.html",
+    "es/elegir-apps-cerebro/index.html",
+    "fr/choisir-apps-cerveau/index.html",
+    "how-to-prioritize-tasks-brain-fog/index.html",
+    "es/priorizar-niebla-mental/index.html",
+    "fr/prioriser-brouillard/index.html",
+    "how-to-coordinate-family-care/index.html",
+    "es/coordinar-familia-memoria/index.html",
+    "fr/coordonner-famille-memoire/index.html",
+    "how-to-practice-gratitude-without-toxic-positivity/index.html",
+    "es/gratitud-enfoque/index.html",
+    "fr/gratitude-attention/index.html",
+    "how-to-improve-memory-naturally/index.html",
+    "es/como-mejorar-memoria-natural/index.html",
+    "fr/ameliorer-memoire-naturellement/index.html",
+    "how-to-prevent-cognitive-decline/index.html",
+    "es/como-prevenir-deterioro-cognitivo/index.html",
+    "fr/prevenir-declin-cognitif/index.html",
+    "how-to-exercise-for-brain-health/index.html",
+    "es/ejercicio-salud-cerebral/index.html",
+    "fr/sport-sante-cerebrale/index.html",
+    "how-to-reduce-stress-for-focus/index.html",
+    "es/reducir-estres-atencion/index.html",
+    "fr/reduire-stress-attention/index.html",
+    "how-to-review-medications-with-doctor/index.html",
+    "es/revision-medicamentos-memoria/index.html",
+    "fr/bilan-medicaments-memoire/index.html",
+    "brain-exercises-for-medication-review-habits/index.html",
+    "es/ejercicios-cerebrales-medicacion-claridad/index.html",
+    "fr/exercices-cerveau-medicaments-clarte/index.html",
+    "brain-exercises-for-chemo-brain-education/index.html",
+    "es/ejercicios-cerebrales-niebla-quimio/index.html",
+    "fr/exercices-cerveau-brouillard-chimio/index.html",
+    "brain-exercises-for-diabetes-brain-health/index.html",
+    "es/ejercicios-cerebrales-glucosa-cerebro/index.html",
+    "fr/exercices-cerveau-glycemie-cerveau/index.html",
+    "brain-exercises-for-vision-and-attention/index.html",
+    "es/ejercicios-cerebrales-vision-atencion/index.html",
+    "fr/exercices-cerveau-vision-attention/index.html",
+    "brain-exercises-for-hearing-and-memory/index.html",
+    "es/ejercicios-cerebrales-audicion-memoria/index.html",
+    "fr/exercices-cerveau-audition-memoire/index.html",
+    "brain-exercises-for-pet-care-routines/index.html",
+    "es/ejercicios-cerebrales-mascotas-rutinas/index.html",
+    "fr/exercices-cerveau-animaux-routines/index.html",
+    "assets/data/programmatic-page-overrides.json"
+  ],
+  "pathMappingDiscrepancies": [
+    {
+      "note": "Brief listed alternate ES/FR paths for 14 topics; authoritative path-mirror-rows.json used for all patches."
+    }
+  ],
+  "medicalSafety": "PASS — non-diagnostic framing; no medication-change advice; no invented statistics"
+}

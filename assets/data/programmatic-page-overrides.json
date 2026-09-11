@@ -1,5 +1,5 @@
 {
-  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20. CONTENT-10B extends the same architecture with 5 Category-A candidates from CONTENT-10R (3 exercises_intent + 2 guides), each nesting content under {en, es, fr}, manifest ids p170–p174. CONTENT-13B extends this same architecture (not a second generator) with 20 additional entries selected via CONTENT-13A's evidence-based candidate audit, each nesting uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys per the CONTENT-10R/CONTENT-10B multilingual pattern. Same non-diagnostic, no-fabricated-sources editorial standard as all prior phases.",
+  "_readme": "CONTENT-03C: structured seed-level content extension. Keyed by EN slug. Supplies the fields scripts/lib/content-value-gate.mjs checks (uniqueStatements, uniqueBlocks, examples, topicFaqs) with real, hand-authored, topic-specific content for the CONTENT-03C editorial pilot. This is NOT consumed by generate-programmatic-pages.mjs (no second parallel generator) — content was injected once into the five pilot pages' static HTML via a one-time patch script. Educational/non-diagnostic per AUTH-01 editorial-standards and sources-policy: no fabricated experts, institutions, or citations; general well-established concepts only; readers are directed to clinicians for individual decisions. CONTENT-07 Part 2 extends this same architecture (not a second generator) with 12 additional entries selected via a deterministic evidence-based formula from the B1 candidate pool. Unlike the CONTENT-03C entries above (EN-only, injected into EN pages only), each Part 2 entry nests uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys, since Part 2 requires genuine, independently-authored localization injected into the EN page and its ES/FR mirrors alike. Same non-diagnostic, no-fabricated-sources editorial standard as CONTENT-03C. CONTENT-08B Track A extends the same architecture with 17 additional B1 seed pages (of 20 approved; 3 rejected at the distinctSearchIntent gate against the full manifest and reported, not substituted: memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory), each nesting content under {en, es, fr}. CONTENT-08B Track B extends the 5 existing CONTENT-03C EN-only entries with independently-authored es/fr sub-keys (no change to their existing en content), giving those 5 pages genuine ES/FR editorial parity for the first time. CONTENT-08B-R replaces the 3 permanently-blocked CONTENT-08B Track A candidates (memory-test-for-adhd-screening-context, memory-test-for-bilingual-adults, brain-exercises-for-music-and-memory — none of which were rehabilitated or reused) with 3 newly-selected B1 candidates from the CONTENT-08A remaining pool: how-to-organize-digital-files-memory, memory-test-for-remote-telehealth, getting-lost-familiar-places. Brings CONTENT-08B Track A to 20/20. CONTENT-10B extends the same architecture with 5 Category-A candidates from CONTENT-10R (3 exercises_intent + 2 guides), each nesting content under {en, es, fr}, manifest ids p170–p174. CONTENT-13B extends this same architecture (not a second generator) with 20 additional entries selected via CONTENT-13A's evidence-based candidate audit, each nesting uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys per the CONTENT-10R/CONTENT-10B multilingual pattern. Same non-diagnostic, no-fabricated-sources editorial standard as all prior phases. CONTENT-14B extends this same architecture with 18 additional Tier-A pooled-cluster remediation entries (12 guides + 6 exercises_intent) from CONTENT-14 candidate selection, each nesting uniqueStatements/uniqueBlocks/examples/topicFaqs under {en, es, fr} sub-keys.",
   "memory-test-for-caregivers": {
     "sectionHeading": {
       "en": "Guidance specific to family caregivers",
@@ -6134,6 +6134,1788 @@
         {
           "q": "Est-ce la même chose que le régime méditerranéen ?",
           "a": "C'est lié mais distinct : MIND combine des éléments méditerranéens et DASH avec un accent spécifique qui lui est propre sur certains aliments, sans être identique à l'un ou l'autre."
+        }
+      ]
+    }
+  },
+  "how-to-balance-screen-time-brain": {
+    "sectionHeading": {
+      "en": "Screen habits and everyday attention",
+      "es": "Hábitos con pantallas y atención cotidiana",
+      "fr": "Habitudes d'écran et attention au quotidien"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Long stretches of screen use can make it harder to notice when attention drifts, not because screens automatically damage the brain, but because rapid switching between apps, tabs, and notifications trains a pattern of frequent context changes.",
+        "Attention breaks — stepping away from a screen, looking at something across the room, or doing a brief physical movement — can help reset focus during demanding tasks without requiring a rigid schedule.",
+        "Balancing screen time is about matching device use to what you actually need: passive scrolling during fatigue often feels less restorative than a short offline break, even when the total minutes are similar."
+      ],
+      "es": [
+        "Las largas sesiones frente a una pantalla pueden dificultar notar cuando la atención se dispersa, no porque las pantallas dañen el cerebro por sí solas, sino porque el cambio rápido entre aplicaciones, pestañas y notificaciones refuerza un patrón de saltos frecuentes de contexto.",
+        "Las pausas de atención — alejarse de la pantalla, mirar algo al otro lado de la habitación o hacer un breve movimiento físico — pueden ayudar a reenfocar durante tareas exigentes sin exigir un horario rígido.",
+        "Equilibrar el tiempo con pantallas consiste en ajustar el uso del dispositivo a lo que realmente necesitas: el desplazamiento pasivo cuando hay cansancio suele resultar menos reparador que una breve pausa sin pantalla, aunque los minutos totales sean parecidos."
+      ],
+      "fr": [
+        "De longues périodes devant un écran peuvent rendre plus difficile de remarquer quand l'attention dérive, non parce que les écrans endommagent automatiquement le cerveau, mais parce que le passage rapide entre applications, onglets et notifications entraîne un schéma de changements de contexte fréquents.",
+        "Des pauses d'attention — s'éloigner de l'écran, regarder quelque chose au fond de la pièce ou faire un bref mouvement physique — peuvent aider à recentrer l'attention pendant des tâches exigeantes sans imposer un horaire rigide.",
+        "Équilibrer le temps d'écran consiste à adapter l'usage de l'appareil à ce dont vous avez réellement besoin : le défilement passif en période de fatigue paraît souvent moins réparateur qu'une courte pause hors écran, même si le nombre total de minutes est similaire."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Reduce distracting screen patterns",
+          "body": "Turning off non-essential notifications, closing unused tabs, and keeping one primary task visible at a time can lower the number of attention switches during work or study."
+        },
+        {
+          "heading": "When to take a screen break",
+          "body": "If eyes feel strained, reading comprehension drops, or you notice yourself re-reading the same line, a short break away from the screen is often more useful than pushing through on willpower alone."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Reducir patrones de distracción en pantalla",
+          "body": "Desactivar notificaciones no esenciales, cerrar pestañas sin uso y mantener visible una sola tarea principal a la vez puede disminuir los cambios de atención durante el trabajo o el estudio."
+        },
+        {
+          "heading": "Cuándo hacer una pausa sin pantalla",
+          "body": "Si los ojos se sienten cansados, la comprensión de lectura baja o notas que relees la misma línea, una breve pausa lejos de la pantalla suele ser más útil que seguir solo con fuerza de voluntad."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Réduire les schémas de distraction à l'écran",
+          "body": "Désactiver les notifications non essentielles, fermer les onglets inutilisés et garder une seule tâche principale visible à la fois peut diminuer le nombre de changements d'attention pendant le travail ou les études."
+        },
+        {
+          "heading": "Quand faire une pause hors écran",
+          "body": "Si les yeux sont fatigués, la compréhension de lecture baisse ou vous vous surprenez à relire la même ligne, une courte pause loin de l'écran est souvent plus utile que de continuer uniquement sur la volonté."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "During a long document review, setting a timer to stand and look out a window for two minutes every hour can break a passive scrolling habit without requiring a complete digital detox."
+      ],
+      "es": [
+        "Durante una revisión larga de documentos, poner un temporizador para levantarse y mirar por la ventana dos minutos cada hora puede romper el hábito de desplazamiento pasivo sin exigir una desintoxicación digital completa."
+      ],
+      "fr": [
+        "Lors d'une longue relecture de documents, régler une minuterie pour se lever et regarder par la fenêtre deux minutes chaque heure peut interrompre l'habitude de défilement passif sans exiger une détox numérique complète."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How can I reduce distracting screen use during focused work?",
+          "a": "Start with one change at a time: silence non-urgent notifications, keep only the active task on screen, and schedule brief offline breaks before fatigue builds rather than after attention has already collapsed."
+        },
+        {
+          "q": "Should I take screen breaks when I feel tired?",
+          "a": "Yes — tiredness often shows up as slower reading, more tab-switching, or losing track of what you were doing. A short break away from the screen is a practical reset, not a sign of weakness."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cómo puedo reducir el uso distractor de pantallas durante el trabajo concentrado?",
+          "a": "Empieza con un cambio a la vez: silencia notificaciones no urgentes, deja en pantalla solo la tarea activa y programa breves pausas sin pantalla antes de que el cansancio se acumule, no después de que la atención ya se haya dispersado."
+        },
+        {
+          "q": "¿Debo hacer pausas sin pantalla cuando me siento cansado?",
+          "a": "Sí: el cansancio suele manifestarse como lectura más lenta, más cambios de pestaña o perder el hilo de lo que estabas haciendo. Una breve pausa lejos de la pantalla es un reinicio práctico, no una señal de debilidad."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Comment réduire l'usage d'écran distrayant pendant un travail concentré ?",
+          "a": "Commencez par un changement à la fois : coupez les notifications non urgentes, gardez uniquement la tâche active à l'écran et planifiez de courtes pauses hors écran avant que la fatigue s'accumule, plutôt qu'après l'effondrement de l'attention."
+        },
+        {
+          "q": "Dois-je faire des pauses hors écran quand je suis fatigué ?",
+          "a": "Oui — la fatigue se manifeste souvent par une lecture plus lente, plus de changements d'onglets ou une perte de fil. Une courte pause loin de l'écran est une remise à zéro pratique, pas un signe de faiblesse."
+        }
+      ]
+    }
+  },
+  "how-to-manage-multiple-medications": {
+    "sectionHeading": {
+      "en": "Organizing a multi-medication routine",
+      "es": "Organizar una rutina con varios medicamentos",
+      "fr": "Organiser une routine avec plusieurs médicaments"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Taking several medications at different times increases the chance of missed doses, double doses, or confusion about which pill is which — a written list with dose, timing, and purpose is often more reliable than memory alone.",
+        "A pharmacist can review your full medication list for interactions, duplicate therapies, and timing conflicts; this review is separate from any single doctor visit and worth scheduling periodically.",
+        "Never change, skip, or add doses on your own because of side effects or memory concerns — those decisions belong with the prescribing clinician or pharmacist who knows your full history."
+      ],
+      "es": [
+        "Tomar varios medicamentos en distintos horarios aumenta el riesgo de olvidar dosis, duplicarlas o confundir qué pastilla es cuál; una lista escrita con dosis, horario y finalidad suele ser más fiable que la memoria sola.",
+        "Un farmacéutico puede revisar la lista completa de medicamentos para detectar interacciones, terapias duplicadas y conflictos de horario; esta revisión es distinta de cualquier consulta con un solo médico y merece programarse de forma periódica.",
+        "Nunca cambies, omitas ni añadas dosis por tu cuenta por efectos secundarios o preocupaciones de memoria; esas decisiones corresponden al profesional que receta o al farmacéutico que conoce tu historial completo."
+      ],
+      "fr": [
+        "Prendre plusieurs médicaments à des horaires différents augmente le risque d'oublis, de doubles prises ou de confusion sur quel comprimé est lequel ; une liste écrite avec dose, horaire et objectif est souvent plus fiable que la mémoire seule.",
+        "Un pharmacien peut passer en revue la liste complète de vos médicaments pour repérer les interactions, les traitements en double et les conflits d'horaires ; cet examen est distinct de toute consultation avec un seul médecin et mérite d'être planifié périodiquement.",
+        "Ne modifiez, n'omettez ni n'ajoutez jamais de doses par vous-même en raison d'effets secondaires ou de préoccupations de mémoire — ces décisions relèvent du clinicien prescripteur ou du pharmacien qui connaît votre historique complet."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What to bring to a medication review",
+          "body": "Bring every prescription bottle, over-the-counter product, supplement, and vitamin you actually take, including as-needed medications and topicals. A printed list with start dates helps too."
+        },
+        {
+          "heading": "Questions worth asking about memory",
+          "body": "Ask whether any medication on your list is known to affect alertness, sleep, or concentration — and whether timing adjustments might help, rather than stopping a drug without guidance."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Qué llevar a una revisión de medicación",
+          "body": "Lleva cada frasco de receta, producto de venta libre, suplemento y vitamina que realmente tomes, incluidos los de uso ocasional y los tópicos. Una lista impresa con fechas de inicio también ayuda."
+        },
+        {
+          "heading": "Preguntas útiles sobre la memoria",
+          "body": "Pregunta si algún medicamento de tu lista puede afectar el estado de alerta, el sueño o la concentración, y si ajustar el horario podría ayudar, en lugar de suspender un fármaco sin orientación."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce qu'il faut apporter à une revue des médicaments",
+          "body": "Apportez chaque flacon d'ordonnance, produit en vente libre, complément et vitamine que vous prenez réellement, y compris les médicaments à la demande et les topiques. Une liste imprimée avec les dates de début aide aussi."
+        },
+        {
+          "heading": "Questions utiles sur la mémoire",
+          "body": "Demandez si un médicament de votre liste est connu pour affecter la vigilance, le sommeil ou la concentration — et si un ajustement d'horaire pourrait aider, plutôt que d'arrêter un médicament sans avis médical."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Before a pharmacist review, laying out every bottle on the kitchen table and photographing the labels creates a portable record you can reference if a bottle is later misplaced."
+      ],
+      "es": [
+        "Antes de una revisión con el farmacéutico, colocar todos los frascos sobre la mesa de la cocina y fotografiar las etiquetas crea un registro portátil que puedes consultar si luego se pierde algún envase."
+      ],
+      "fr": [
+        "Avant une revue chez le pharmacien, disposer tous les flacons sur la table de cuisine et photographier les étiquettes crée un dossier portable que vous pouvez consulter si un flacon est ensuite égaré."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What should I bring to a medication review appointment?",
+          "a": "All current medications in their original containers, including over-the-counter items and supplements, plus a written list of doses and times. Include anything taken only occasionally."
+        },
+        {
+          "q": "Should I change a medication I think is affecting my memory?",
+          "a": "Do not stop or change doses on your own. Raise the concern with your doctor or pharmacist, who can weigh benefits, risks, and alternatives based on your full medication list."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué debo llevar a una cita de revisión de medicación?",
+          "a": "Todos los medicamentos actuales en sus envases originales, incluidos productos de venta libre y suplementos, más una lista escrita de dosis y horarios. Incluye también lo que solo tomas de forma ocasional."
+        },
+        {
+          "q": "¿Debo cambiar un medicamento que creo que afecta mi memoria?",
+          "a": "No suspendas ni cambies dosis por tu cuenta. Plantea la preocupación a tu médico o farmacéutico, quien puede valorar beneficios, riesgos y alternativas según tu lista completa de medicación."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Que dois-je apporter à un rendez-vous de revue des médicaments ?",
+          "a": "Tous les médicaments actuels dans leurs contenants d'origine, y compris les produits en vente libre et les compléments, plus une liste écrite des doses et des horaires. Incluez tout ce qui est pris seulement occasionnellement."
+        },
+        {
+          "q": "Dois-je modifier un médicament que je pense affecter ma mémoire ?",
+          "a": "N'arrêtez ni ne modifiez pas les doses par vous-même. Évoquez la préoccupation avec votre médecin ou pharmacien, qui peut évaluer bénéfices, risques et alternatives selon votre liste complète."
+        }
+      ]
+    }
+  },
+  "how-to-quit-smoking-brain-benefits": {
+    "sectionHeading": {
+      "en": "Quitting smoking and daily mental habits",
+      "es": "Dejar de fumar y hábitos mentales diarios",
+      "fr": "Arrêter de fumer et habitudes mentales quotidiennes"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Nicotine withdrawal can temporarily make concentration feel harder because the brain has adapted to regular nicotine cues — this is a withdrawal pattern, not proof of permanent cognitive damage.",
+        "Habit substitution — reaching for water, a brief walk, or a tactile object when a craving hits — gives the hands and routine something to do while the urge passes, without requiring a perfect quit day.",
+        "There is no single recovery timeline that applies to everyone; some people notice clearer focus within weeks, while others need longer support. Progress is measured by reduced smoking, not by a fixed countdown."
+      ],
+      "es": [
+        "La abstinencia de nicotina puede hacer que la concentración se sienta más difícil de forma temporal porque el cerebro se ha adaptado a señales regulares de nicotina; es un patrón de abstinencia, no una prueba de daño cognitivo permanente.",
+        "La sustitución de hábitos — tomar agua, dar un paseo breve o usar un objeto táctil cuando aparece el antojo — da a las manos y a la rutina algo que hacer mientras pasa el impulso, sin exigir un día perfecto sin fumar.",
+        "No existe un único plazo de recuperación para todas las personas; algunas notan un enfoque más claro en pocas semanas, mientras otras necesitan más apoyo. El progreso se mide por la reducción del consumo, no por una cuenta regresiva fija."
+      ],
+      "fr": [
+        "Le sevrage nicotinique peut rendre la concentration temporairement plus difficile parce que le cerveau s'est adapté à des signaux réguliers de nicotine — c'est un schéma de sevrage, pas une preuve de dommage cognitif permanent.",
+        "La substitution d'habitudes — boire de l'eau, faire une courte marche ou saisir un objet tactile quand une envie survient — donne aux mains et à la routine quelque chose à faire pendant que l'envie passe, sans exiger une journée d'arrêt parfaite.",
+        "Il n'existe pas de délai de récupération unique pour tout le monde ; certaines personnes remarquent une concentration plus claire en quelques semaines, d'autres ont besoin d'un soutien plus long. Le progrès se mesure par la réduction du tabac, pas par un compte à rebours fixe."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Concentration while quitting",
+          "body": "Expect some days when focus feels scattered during early withdrawal. Shorter work blocks, written task lists, and reducing simultaneous demands can help without treating every lapse as failure."
+        },
+        {
+          "heading": "When a smoking trigger interrupts a task",
+          "body": "Pause the task briefly, note what triggered the urge (time of day, stress, after a meal), and use a prepared substitute action. Returning to the task after two or three minutes is often easier than fighting through the craving at the keyboard."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Concentración mientras dejas de fumar",
+          "body": "Es normal que algunos días la atención se sienta dispersa durante la abstinencia inicial. Bloques de trabajo más cortos, listas escritas de tareas y reducir exigencias simultáneas pueden ayudar sin tratar cada tropiezo como un fracaso."
+        },
+        {
+          "heading": "Cuando un disparador de fumar interrumpe una tarea",
+          "body": "Pausa brevemente la tarea, anota qué provocó el antojo (hora del día, estrés, después de comer) y usa una acción sustituta preparada. Volver a la tarea tras dos o tres minutos suele ser más fácil que resistir el antojo frente al teclado."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "La concentration pendant l'arrêt du tabac",
+          "body": "Attendez-vous à des journées où la concentration semble dispersée pendant le sevrage initial. Des blocs de travail plus courts, des listes de tâches écrites et moins d'exigences simultanées peuvent aider sans traiter chaque écart comme un échec."
+        },
+        {
+          "heading": "Quand un déclencheur de tabac interrompt une tâche",
+          "body": "Interrompez brièvement la tâche, notez ce qui a déclenché l'envie (heure de la journée, stress, après un repas) et utilisez une action de substitution préparée. Reprendre la tâche après deux ou trois minutes est souvent plus facile que de lutter contre l'envie devant le clavier."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Someone who always smokes after finishing email might keep a stress ball at the desk and take a two-minute walk before opening the next message, breaking the automatic link between task completion and reaching for a cigarette."
+      ],
+      "es": [
+        "Quien siempre fuma al terminar de revisar el correo puede tener una pelota antiestrés en el escritorio y dar un paseo de dos minutos antes de abrir el siguiente mensaje, rompiendo el vínculo automático entre terminar la tarea y buscar un cigarrillo."
+      ],
+      "fr": [
+        "Une personne qui fume toujours après avoir fini ses e-mails peut garder une balle anti-stress sur le bureau et faire une marche de deux minutes avant d'ouvrir le message suivant, rompant le lien automatique entre fin de tâche et cigarette."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Will quitting make it harder to concentrate at first?",
+          "a": "Many people notice temporary difficulty focusing during nicotine withdrawal. Shorter tasks, written reminders, and prepared substitute habits can help; this phase is common and does not mean permanent harm."
+        },
+        {
+          "q": "What if a smoking urge interrupts something I'm doing?",
+          "a": "Pause briefly, use a planned substitute action, and return to the task. Identifying the trigger — time, stress, location — helps you prepare alternatives for the next time."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Dejar de fumar hará más difícil concentrarse al principio?",
+          "a": "Muchas personas notan dificultad temporal para concentrarse durante la abstinencia de nicotina. Tareas más cortas, recordatorios escritos y hábitos sustitutos preparados pueden ayudar; esta fase es habitual y no significa daño permanente."
+        },
+        {
+          "q": "¿Qué hago si un antojo de fumar interrumpe lo que estoy haciendo?",
+          "a": "Haz una pausa breve, usa una acción sustituta planificada y vuelve a la tarea. Identificar el disparador — hora, estrés, lugar — ayuda a preparar alternativas para la próxima vez."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Arrêter de fumer rendra-t-il la concentration plus difficile au début ?",
+          "a": "Beaucoup de personnes remarquent une difficulté temporaire à se concentrer pendant le sevrage nicotinique. Des tâches plus courtes, des rappels écrits et des habitudes de substitution préparées peuvent aider ; cette phase est courante et ne signifie pas un dommage permanent."
+        },
+        {
+          "q": "Que faire si une envie de fumer interrompt ce que je fais ?",
+          "a": "Faites une courte pause, utilisez une action de substitution planifiée et reprenez la tâche. Identifier le déclencheur — heure, stress, lieu — aide à préparer des alternatives pour la prochaine fois."
+        }
+      ]
+    }
+  },
+  "how-to-choose-brain-apps": {
+    "sectionHeading": {
+      "en": "Evaluating brain-training apps critically",
+      "es": "Evaluar aplicaciones de entrenamiento cerebral con criterio",
+      "fr": "Évaluer les applications d'entraînement cérébral avec discernement"
+    },
+    "uniqueStatements": {
+      "en": [
+        "A useful first question is what specific skill an app actually trains — reaction time, word recall, visual scanning, or something else — because 'brain training' labels cover very different exercise types.",
+        "No app on a consumer phone can diagnose memory problems or guarantee dementia prevention; apps that imply medical outcomes without clinical evidence should be viewed skeptically.",
+        "High scores inside an app measure performance on that app's tasks, not overall memory health. Improvement on one game does not automatically mean everyday remembering has changed."
+      ],
+      "es": [
+        "Una primera pregunta útil es qué habilidad concreta entrena realmente una aplicación — tiempo de reacción, recuerdo de palabras, exploración visual u otra — porque las etiquetas de «entrenamiento cerebral» cubren tipos de ejercicio muy distintos.",
+        "Ninguna aplicación en un teléfono de consumo puede diagnosticar problemas de memoria ni garantizar la prevención de demencia; las que implican resultados médicos sin evidencia clínica deben mirarse con escepticismo.",
+        "Las puntuaciones altas dentro de una aplicación miden el rendimiento en las tareas de esa app, no la salud general de la memoria. Mejorar en un juego no significa automáticamente que el recuerdo cotidiano haya cambiado."
+      ],
+      "fr": [
+        "Une première question utile est quelle compétence précise une application entraîne réellement — temps de réaction, rappel de mots, balayage visuel ou autre — car les étiquettes « entraînement cérébral » recouvrent des types d'exercices très différents.",
+        "Aucune application sur un téléphone grand public ne peut diagnostiquer des troubles de mémoire ni garantir la prévention de la démence ; les applications qui suggèrent des résultats médicaux sans preuve clinique méritent un regard critique.",
+        "Les scores élevés dans une application mesurent la performance sur les tâches de cette app, pas la santé globale de la mémoire. Progresser dans un jeu ne signifie pas automatiquement que le souvenir quotidien a changé."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What to look for in an app",
+          "body": "Clear descriptions of which cognitive skills are practiced, adjustable difficulty, session length options, and privacy policies you can understand. Avoid apps that promise disease prevention or replace medical advice."
+        },
+        {
+          "heading": "What app success does and does not show",
+          "body": "Better scores on repeated in-app tasks may reflect practice with that format. They do not prove clinical memory has improved or that the app prevents cognitive decline."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Qué buscar en una aplicación",
+          "body": "Descripciones claras de qué habilidades cognitivas se practican, dificultad ajustable, opciones de duración de sesión y políticas de privacidad comprensibles. Evita apps que prometan prevención de enfermedades o sustituyan el consejo médico."
+        },
+        {
+          "heading": "Qué demuestra y qué no el éxito en la app",
+          "body": "Mejores puntuaciones en tareas repetidas dentro de la app pueden reflejar práctica con ese formato. No demuestran que la memoria clínica haya mejorado ni que la app prevenga el deterioro cognitivo."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce qu'il faut chercher dans une application",
+          "body": "Des descriptions claires des compétences cognitives pratiquées, une difficulté réglable, des options de durée de séance et des politiques de confidentialité compréhensibles. Évitez les apps qui promettent la prévention de maladies ou remplacent un avis médical."
+        },
+        {
+          "heading": "Ce que le succès dans l'app montre et ne montre pas",
+          "body": "De meilleurs scores sur des tâches répétées dans l'app peuvent refléter la pratique de ce format. Ils ne prouvent pas que la mémoire clinique s'est améliorée ni que l'app prévient le déclin cognitif."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Choosing an app that clearly labels exercises as 'visual scanning practice' rather than 'memory cure' makes it easier to match the tool to a skill you actually want to work on, like finding items on a crowded list."
+      ],
+      "es": [
+        "Elegir una aplicación que etiquete con claridad los ejercicios como «práctica de exploración visual» en lugar de «cura de la memoria» facilita ajustar la herramienta a una habilidad que realmente quieres trabajar, como encontrar elementos en una lista abarrotada."
+      ],
+      "fr": [
+        "Choisir une application qui indique clairement les exercices comme « pratique du balayage visuel » plutôt que « remède à la mémoire » facilite l'adéquation de l'outil à une compétence que vous souhaitez réellement travailler, comme trouver des éléments sur une liste chargée."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What should I look for when choosing a brain-training app?",
+          "a": "Look for transparent skill descriptions, adjustable difficulty, reasonable session lengths, and clear privacy terms. Be cautious of apps claiming to diagnose conditions or prevent dementia."
+        },
+        {
+          "q": "If I score higher in the app, does that mean my memory improved?",
+          "a": "Higher in-app scores usually mean you got better at that specific task format. They are not a substitute for clinical memory assessment or proof of everyday memory change."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué debo buscar al elegir una aplicación de entrenamiento cerebral?",
+          "a": "Busca descripciones transparentes de habilidades, dificultad ajustable, duraciones de sesión razonables y términos de privacidad claros. Desconfía de apps que afirmen diagnosticar afecciones o prevenir demencia."
+        },
+        {
+          "q": "Si obtengo mejor puntuación en la app, ¿significa que mejoró mi memoria?",
+          "a": "Las puntuaciones más altas en la app suelen significar que mejoraste en ese formato concreto de tarea. No sustituyen una evaluación clínica de memoria ni prueban un cambio en el recuerdo cotidiano."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Que dois-je chercher en choisissant une application d'entraînement cérébral ?",
+          "a": "Cherchez des descriptions transparentes des compétences, une difficulté réglable, des durées de séance raisonnables et des conditions de confidentialité claires. Méfiez-vous des apps qui prétendent diagnostiquer des troubles ou prévenir la démence."
+        },
+        {
+          "q": "Si j'obtiens un meilleur score dans l'app, est-ce que ma mémoire s'est améliorée ?",
+          "a": "Des scores plus élevés dans l'app signifient généralement que vous vous êtes amélioré sur ce format de tâche précis. Ce n'est pas un substitut à une évaluation clinique de la mémoire ni une preuve de changement au quotidien."
+        }
+      ]
+    }
+  },
+  "how-to-prioritize-tasks-brain-fog": {
+    "sectionHeading": {
+      "en": "Prioritizing tasks when focus feels scattered",
+      "es": "Priorizar tareas cuando el enfoque se dispersa",
+      "fr": "Prioriser les tâches quand la concentration se disperse"
+    },
+    "uniqueStatements": {
+      "en": [
+        "When mental clarity feels reduced — sometimes described as brain fog — trying to hold an entire to-do list in working memory often makes the day feel heavier than choosing one task that actually matters right now.",
+        "External checklists reduce the load on memory and attention because the list holds the steps; you only need to look at the next line instead of reconstructing the whole plan from scratch.",
+        "Scattered focus has many possible causes including poor sleep, stress, illness, and medication effects. This page offers organizational habits, not a diagnosis of brain fog or any underlying condition."
+      ],
+      "es": [
+        "Cuando la claridad mental se siente reducida — a veces descrita como niebla mental — intentar retener toda una lista de pendientes en la memoria de trabajo suele hacer el día más pesado que elegir una tarea que realmente importa ahora.",
+        "Las listas externas reducen la carga sobre la memoria y la atención porque la lista guarda los pasos; solo necesitas mirar la siguiente línea en lugar de reconstruir todo el plan desde cero.",
+        "El enfoque disperso tiene muchas causas posibles, entre ellas mal sueño, estrés, enfermedad y efectos de medicación. Esta página ofrece hábitos organizativos, no un diagnóstico de niebla mental ni de ninguna afección subyacente."
+      ],
+      "fr": [
+        "Quand la clarté mentale semble réduite — parfois décrite comme un brouillard cérébral — essayer de garder toute une liste de tâches en mémoire de travail rend souvent la journée plus lourde que de choisir une tâche qui compte vraiment maintenant.",
+        "Les listes externes réduisent la charge sur la mémoire et l'attention parce que la liste conserve les étapes ; il suffit de regarder la ligne suivante au lieu de reconstruire tout le plan depuis le début.",
+        "Une concentration dispersée a de nombreuses causes possibles, dont le manque de sommeil, le stress, la maladie et les effets des médicaments. Cette page propose des habitudes d'organisation, pas un diagnostic de brouillard cérébral ni d'une affection sous-jacente."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "How to choose the first task",
+          "body": "Pick one item with a real deadline or consequence today. Write it at the top of a list, do only that item's first small step, and ignore the rest until that step is done."
+        },
+        {
+          "heading": "Why checklists reduce cognitive load",
+          "body": "A written list externalizes memory so you are not holding steps and priorities simultaneously. Checking off completed lines also gives a visible record of progress on low-energy days."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Cómo elegir la primera tarea",
+          "body": "Elige un elemento con plazo o consecuencia real hoy. Escríbelo arriba de una lista, haz solo el primer paso pequeño de ese elemento e ignora el resto hasta completar ese paso."
+        },
+        {
+          "heading": "Por qué las listas reducen la carga cognitiva",
+          "body": "Una lista escrita externaliza la memoria para que no tengas que sostener pasos y prioridades a la vez. Marcar líneas completadas también da un registro visible del progreso en días de poca energía."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Comment choisir la première tâche",
+          "body": "Choisissez un élément avec une échéance ou une conséquence réelle aujourd'hui. Écrivez-le en haut d'une liste, faites uniquement la première petite étape de cet élément et ignorez le reste jusqu'à ce que cette étape soit terminée."
+        },
+        {
+          "heading": "Pourquoi les listes réduisent la charge cognitive",
+          "body": "Une liste écrite externalise la mémoire pour que vous ne teniez pas les étapes et les priorités simultanément. Cocher les lignes terminées donne aussi un relevé visible des progrès les jours de faible énergie."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "On a day when everything feels equally urgent, writing 'pay electric bill' as the only morning task — and hiding the rest of the list in a drawer until it is done — can finish one real obligation instead of circling ten."
+      ],
+      "es": [
+        "En un día en que todo parece igual de urgente, escribir «pagar la luz» como única tarea de la mañana — y guardar el resto de la lista en un cajón hasta terminarla — puede cerrar una obligación real en lugar de dar vueltas a diez."
+      ],
+      "fr": [
+        "Un jour où tout semble également urgent, écrire « payer la facture d'électricité » comme seule tâche du matin — et cacher le reste de la liste dans un tiroir jusqu'à ce qu'elle soit faite — peut accomplir une obligation réelle au lieu de tourner autour de dix."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How do I choose which task to do first when everything feels overwhelming?",
+          "a": "Select one task with a real deadline or consequence today. Write it down, complete its smallest first step, and defer the rest until that step is finished."
+        },
+        {
+          "q": "Can a checklist actually reduce mental load?",
+          "a": "Yes — when steps live on paper or screen, you do not need to hold the full plan in mind. That frees attention for the current step instead of juggling the entire day mentally."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cómo elijo qué tarea hacer primero cuando todo parece abrumador?",
+          "a": "Selecciona una tarea con plazo o consecuencia real hoy. Escríbela, completa su paso inicial más pequeño y deja el resto para después de terminar ese paso."
+        },
+        {
+          "q": "¿Puede una lista de verdad reducir la carga mental?",
+          "a": "Sí: cuando los pasos están en papel o en pantalla, no necesitas retener todo el plan en la mente. Eso libera atención para el paso actual en lugar de hacer malabares con todo el día mentalmente."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Comment choisir quelle tâche faire en premier quand tout semble accablant ?",
+          "a": "Sélectionnez une tâche avec une échéance ou une conséquence réelle aujourd'hui. Écrivez-la, accomplissez sa plus petite première étape et reportez le reste jusqu'à ce que cette étape soit terminée."
+        },
+        {
+          "q": "Une liste peut-elle vraiment réduire la charge mentale ?",
+          "a": "Oui — quand les étapes sont sur papier ou à l'écran, vous n'avez pas besoin de garder tout le plan en tête. Cela libère l'attention pour l'étape en cours au lieu de jongler mentalement avec toute la journée."
+        }
+      ]
+    }
+  },
+  "how-to-coordinate-family-care": {
+    "sectionHeading": {
+      "en": "Coordinating family care without overstepping",
+      "es": "Coordinar el cuidado familiar sin sobrepasar límites",
+      "fr": "Coordonner l'accompagnement familial sans dépasser les limites"
+    },
+    "uniqueStatements": {
+      "en": [
+        "When several family members are involved in care, unclear roles lead to duplicated effort, missed tasks, and friction — assigning who handles appointments, medications, finances, and daily check-ins reduces confusion.",
+        "Observations about a loved one's functioning are most useful when described as specific, dated examples — 'missed two doses this week' — rather than labels like 'getting worse' that invite argument.",
+        "Family members cannot diagnose cognitive conditions from observation alone. Organized notes support a clinical conversation; they do not replace professional evaluation."
+      ],
+      "es": [
+        "Cuando varios familiares participan en el cuidado, los roles poco claros generan esfuerzo duplicado, tareas omitidas y tensiones; asignar quién gestiona citas, medicación, finanzas y revisiones diarias reduce la confusión.",
+        "Las observaciones sobre el funcionamiento de un ser querido son más útiles cuando se describen como ejemplos concretos y fechados — «omitió dos dosis esta semana» — en lugar de etiquetas como «está empeorando» que provocan discusión.",
+        "Los familiares no pueden diagnosticar afecciones cognitivas solo con la observación. Las notas organizadas apoyan una conversación clínica; no sustituyen una evaluación profesional."
+      ],
+      "fr": [
+        "Quand plusieurs membres de la famille participent à l'accompagnement, des rôles flous entraînent des efforts doublés, des tâches oubliées et des tensions — attribuer qui gère les rendez-vous, les médicaments, les finances et les vérifications quotidiennes réduit la confusion.",
+        "Les observations sur le fonctionnement d'un proche sont plus utiles lorsqu'elles sont décrites en exemples précis et datés — « deux doses manquées cette semaine » — plutôt qu'en étiquettes comme « ça empire » qui provoquent des disputes.",
+        "Les proches ne peuvent pas diagnostiquer des troubles cognitifs par l'observation seule. Des notes organisées soutiennent une conversation clinique ; elles ne remplacent pas une évaluation professionnelle."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Sharing observations without arguing",
+          "body": "Use a shared log with dates and facts, not interpretations. 'Left stove on Tuesday' is harder to dispute than 'you are becoming unsafe.' Rotate who adds entries to spread responsibility."
+        },
+        {
+          "heading": "Organizing before an appointment",
+          "body": "Agree on one family spokesperson, compile medication lists and recent incident notes, and decide which concerns are highest priority so the visit stays focused."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Compartir observaciones sin discutir",
+          "body": "Usa un registro compartido con fechas y hechos, no interpretaciones. «Dejó la estufa encendida el martes» es más difícil de disputar que «te estás volviendo inseguro». Rota quién añade entradas para repartir la responsabilidad."
+        },
+        {
+          "heading": "Organizarse antes de una cita",
+          "body": "Acuerden un portavoz familiar, reúnan listas de medicación y notas de incidentes recientes, y decidan qué preocupaciones son prioritarias para que la visita se mantenga enfocada."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Partager des observations sans se disputer",
+          "body": "Utilisez un journal partagé avec dates et faits, pas des interprétations. « A laissé la cuisinière allumée mardi » est plus difficile à contester que « tu deviens dangereux ». Faites tourner qui ajoute des entrées pour partager la responsabilité."
+        },
+        {
+          "heading": "S'organiser avant un rendez-vous",
+          "body": "Convenez d'un porte-parole familial, compilez les listes de médicaments et les notes d'incidents récents, et décidez quelles préoccupations sont prioritaires pour que la visite reste ciblée."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Three siblings split roles: one manages pharmacy refills, one drives to appointments, one handles insurance calls. A shared online document lists who did what each week so nothing is assumed."
+      ],
+      "es": [
+        "Tres hermanos reparten roles: uno gestiona recargas en la farmacia, otro lleva a las citas, otro atiende llamadas del seguro. Un documento compartido en línea registra quién hizo qué cada semana para que nada se dé por sentado."
+      ],
+      "fr": [
+        "Trois frères et sœurs se partagent les rôles : l'un gère les renouvellements à la pharmacie, l'autre conduit aux rendez-vous, le troisième traite les appels d'assurance. Un document partagé en ligne indique qui a fait quoi chaque semaine pour que rien ne soit supposé."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How can family members share concerns without arguing?",
+          "a": "Stick to dated, factual observations in a shared log. Avoid diagnostic labels and blame. Rotate record-keeping so one person does not carry the entire emotional load."
+        },
+        {
+          "q": "How should we organize before a medical appointment?",
+          "a": "Choose one spokesperson, gather medication lists and specific recent examples, and rank concerns by urgency so the clinician receives a clear, unified picture."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cómo pueden los familiares compartir preocupaciones sin discutir?",
+          "a": "Limítense a observaciones fechadas y objetivas en un registro compartido. Eviten etiquetas diagnósticas y culpas. Alternen quién lleva el registro para que una sola persona no cargue con todo el peso emocional."
+        },
+        {
+          "q": "¿Cómo debemos organizarnos antes de una cita médica?",
+          "a": "Elijan un portavoz, reúnan listas de medicación y ejemplos recientes concretos, y ordenen las preocupaciones por urgencia para que el profesional reciba una imagen clara y unificada."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Comment les proches peuvent-ils partager des inquiétudes sans se disputer ?",
+          "a": "Tenez-vous aux observations datées et factuelles dans un journal partagé. Évitez les étiquettes diagnostiques et les reproches. Alternez la tenue du registre pour qu'une seule personne ne porte pas toute la charge émotionnelle."
+        },
+        {
+          "q": "Comment s'organiser avant un rendez-vous médical ?",
+          "a": "Choisissez un porte-parole, rassemblez les listes de médicaments et des exemples récents précis, et classez les préoccupations par urgence pour que le clinicien reçoive une image claire et unifiée."
+        }
+      ]
+    }
+  },
+  "how-to-practice-gratitude-without-toxic-positivity": {
+    "sectionHeading": {
+      "en": "Gratitude as an optional practice, not a demand",
+      "es": "La gratitud como práctica opcional, no como exigencia",
+      "fr": "La gratitude comme pratique optionnelle, pas comme une obligation"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Gratitude practice — briefly noting something that went okay today — can be a small attention shift for some people, but it is optional and not a moral requirement to feel happy.",
+        "Difficult emotions such as grief, anger, or fear can coexist with gratitude; forcing positivity to erase those feelings often backfires and can make people feel ashamed for having a normal human range of responses.",
+        "Toxic positivity is the pressure to look on the bright side in every situation. A healthier approach allows honest acknowledgment of what is hard while optionally noting small stabilizing details when that feels genuine."
+      ],
+      "es": [
+        "La práctica de gratitud — anotar brevemente algo que salió bien hoy — puede ser un pequeño cambio de atención para algunas personas, pero es opcional y no una obligación moral de sentirse feliz.",
+        "Emociones difíciles como el duelo, la ira o el miedo pueden coexistir con la gratitud; forzar positividad para borrar esos sentimientos suele fallar y puede hacer que las personas se sientan avergonzadas por tener un rango humano normal de respuestas.",
+        "La positividad tóxica es la presión de ver el lado bueno en cada situación. Un enfoque más sano permite reconocer con honestidad lo que es difícil mientras, de forma opcional, se anotan pequeños detalles estabilizadores cuando resulta auténtico."
+      ],
+      "fr": [
+        "La pratique de gratitude — noter brièvement quelque chose qui s'est bien passé aujourd'hui — peut être un petit changement d'attention pour certaines personnes, mais elle est optionnelle et n'est pas une obligation morale d'être heureux.",
+        "Des émotions difficiles comme le chagrin, la colère ou la peur peuvent coexister avec la gratitude ; forcer la positivité pour effacer ces sentiments se retourne souvent et peut faire honte d'avoir une gamme humaine normale de réponses.",
+        "La positivité toxique est la pression de voir le bon côté en toute situation. Une approche plus saine permet de reconnaître honnêtement ce qui est difficile tout en notant optionnellement de petits détails stabilisants quand cela semble sincère."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Gratitude alongside difficult emotions",
+          "body": "You can note that a medical appointment was stressful and also that a friend drove you there. Both facts can be true; gratitude for one detail does not cancel the difficulty of the other."
+        },
+        {
+          "heading": "When you feel pressured to be positive",
+          "body": "Statements like 'just be grateful' often dismiss real problems. It is reasonable to set boundaries, seek support for what is hard, and treat gratitude as a voluntary exercise rather than a performance for others."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Gratitud junto a emociones difíciles",
+          "body": "Puedes anotar que una cita médica fue estresante y también que un amigo te llevó. Ambos hechos pueden ser ciertos; la gratitud por un detalle no anula la dificultad del otro."
+        },
+        {
+          "heading": "Cuando sientes presión por ser positivo",
+          "body": "Frases como «solo sé agradecido» suelen desestimar problemas reales. Es razonable poner límites, buscar apoyo para lo difícil y tratar la gratitud como un ejercicio voluntario, no como una actuación para otros."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Gratitude aux côtés d'émotions difficiles",
+          "body": "Vous pouvez noter qu'un rendez-vous médical était stressant et aussi qu'un ami vous y a conduit. Les deux faits peuvent être vrais ; la gratitude pour un détail n'annule pas la difficulté de l'autre."
+        },
+        {
+          "heading": "Quand vous vous sentez poussé à être positif",
+          "body": "Des phrases comme « sois reconnaissant » rejettent souvent de vrais problèmes. Il est raisonnable de poser des limites, de chercher du soutien pour ce qui est difficile et de traiter la gratitude comme un exercice volontaire plutôt qu'une performance pour les autres."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "After a hard week, writing 'neighbor brought soup' on a sticky note does not mean the week was fine — it simply records one stabilizing detail without requiring a cheerful summary of everything else."
+      ],
+      "es": [
+        "Tras una semana difícil, escribir «el vecino trajo sopa» en una nota adhesiva no significa que la semana fue buena; simplemente registra un detalle estabilizador sin exigir un resumen alegre de todo lo demás."
+      ],
+      "fr": [
+        "Après une semaine difficile, écrire « le voisin a apporté de la soupe » sur un post-it ne signifie pas que la semaine s'est bien passée — cela enregistre simplement un détail stabilisant sans exiger un résumé joyeux de tout le reste."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can I practice gratitude when I also feel angry or sad?",
+          "a": "Yes. Gratitude for a small specific detail does not erase difficult emotions. Both can be present, and neither needs to be forced away."
+        },
+        {
+          "q": "What if people pressure me to 'just be positive'?",
+          "a": "That pressure is a form of toxic positivity. You can acknowledge what is hard, seek appropriate support, and treat gratitude as optional rather than a requirement to appear okay."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Puedo practicar gratitud cuando también siento ira o tristeza?",
+          "a": "Sí. La gratitud por un detalle pequeño y concreto no borra emociones difíciles. Ambas pueden estar presentes, y ninguna necesita ser forzada a desaparecer."
+        },
+        {
+          "q": "¿Qué hago si la gente me presiona para «solo ser positivo»?",
+          "a": "Esa presión es una forma de positividad tóxica. Puedes reconocer lo difícil, buscar apoyo adecuado y tratar la gratitud como opcional, no como requisito para parecer bien."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Puis-je pratiquer la gratitude quand je ressens aussi de la colère ou de la tristesse ?",
+          "a": "Oui. La gratitude pour un petit détail précis n'efface pas les émotions difficiles. Les deux peuvent coexister, et aucune n'a besoin d'être chassée."
+        },
+        {
+          "q": "Que faire si des gens me poussent à « être positif » ?",
+          "a": "Cette pression est une forme de positivité toxique. Vous pouvez reconnaître ce qui est difficile, chercher un soutien approprié et traiter la gratitude comme optionnelle plutôt que comme une obligation de paraître bien."
+        }
+      ]
+    }
+  },
+  "how-to-improve-memory-naturally": {
+    "sectionHeading": {
+      "en": "A lifestyle framework for everyday remembering",
+      "es": "Un marco de hábitos para el recuerdo cotidiano",
+      "fr": "Un cadre d'habitudes pour le souvenir quotidien"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Everyday memory depends on many overlapping factors — sleep, physical activity, social engagement, stress, and health conditions — so a lifestyle framework addresses several pillars rather than searching for one miracle habit.",
+        "This page serves as a consolidation hub linking general well-being habits that support attention and recall; it does not promise that any single natural method will reverse memory problems.",
+        "Supplements marketed for memory often lack consistent evidence for healthy adults, and none should replace sleep, movement, and medical care when memory change is new or worsening."
+      ],
+      "es": [
+        "La memoria cotidiana depende de muchos factores que se superponen — sueño, actividad física, contacto social, estrés y condiciones de salud — por lo que un marco de estilo de vida aborda varios pilares en lugar de buscar un hábito milagro.",
+        "Esta página funciona como eje de consolidación que enlaza hábitos generales de bienestar que apoyan la atención y el recuerdo; no promete que un solo método natural revertirá problemas de memoria.",
+        "Los suplementos comercializados para la memoria suelen carecer de evidencia consistente en adultos sanos, y ninguno debe sustituir el sueño, el movimiento y la atención médica cuando el cambio de memoria es nuevo o empeora."
+      ],
+      "fr": [
+        "La mémoire quotidienne dépend de nombreux facteurs qui se chevauchent — sommeil, activité physique, lien social, stress et état de santé — donc un cadre de mode de vie aborde plusieurs piliers plutôt que de chercher une habitude miracle.",
+        "Cette page sert de hub de consolidation reliant des habitudes générales de bien-être qui soutiennent l'attention et le rappel ; elle ne promet pas qu'une seule méthode naturelle inversera les problèmes de mémoire.",
+        "Les compléments commercialisés pour la mémoire manquent souvent de preuves cohérentes chez les adultes en bonne santé, et aucun ne doit remplacer le sommeil, le mouvement et les soins médicaux lorsque le changement de mémoire est nouveau ou s'aggrave."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Daily habits that support memory",
+          "body": "Regular sleep, aerobic movement, meaningful social contact, and managing chronic stress each contribute to the conditions attention and recall need. No single habit works in isolation."
+        },
+        {
+          "heading": "What lifestyle changes cannot guarantee",
+          "body": "Healthy habits may support cognitive functioning but cannot guarantee memory will stay unchanged or that decline will be prevented. New or worsening memory concerns deserve clinical evaluation regardless of lifestyle."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Hábitos diarios que apoyan la memoria",
+          "body": "Dormir con regularidad, moverse de forma aeróbica, mantener contacto social significativo y gestionar el estrés crónico contribuyen cada uno a las condiciones que la atención y el recuerdo necesitan. Ningún hábito funciona aislado."
+        },
+        {
+          "heading": "Lo que los cambios de estilo de vida no pueden garantizar",
+          "body": "Los hábitos saludables pueden apoyar el funcionamiento cognitivo, pero no garantizan que la memoria se mantenga igual ni que se prevenga el deterioro. Las preocupaciones nuevas o en empeoramiento merecen evaluación clínica con independencia del estilo de vida."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Habitudes quotidiennes qui soutiennent la mémoire",
+          "body": "Un sommeil régulier, un mouvement aérobie, un contact social significatif et la gestion du stress chronique contribuent chacun aux conditions dont l'attention et le rappel ont besoin. Aucune habitude ne fonctionne isolément."
+        },
+        {
+          "heading": "Ce que les changements de mode de vie ne peuvent garantir",
+          "body": "Des habitudes saines peuvent soutenir le fonctionnement cognitif mais ne garantissent pas que la mémoire restera inchangée ni que le déclin sera prévenu. Des préoccupations nouvelles ou aggravées méritent une évaluation clinique quel que soit le mode de vie."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Someone linking better recall on appointment days to having walked that morning and slept seven hours is noticing a lifestyle pattern worth repeating — not proof that walking alone cures memory problems."
+      ],
+      "es": [
+        "Quien relaciona un mejor recuerdo en días de cita con haber caminado esa mañana y dormido siete horas está notando un patrón de estilo de vida que vale la pena repetir, no una prueba de que caminar solo cura problemas de memoria."
+      ],
+      "fr": [
+        "Quiconque relie un meilleur rappel les jours de rendez-vous à une marche ce matin-là et sept heures de sommeil remarque un schéma de mode de vie à répéter — pas une preuve que la marche seule guérit les problèmes de mémoire."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Which daily habits actually support memory?",
+          "a": "Consistent sleep, regular physical activity, social engagement, and stress management each play a role. They work best together as a framework, not as isolated quick fixes."
+        },
+        {
+          "q": "If I follow healthy habits, is my memory guaranteed to stay sharp?",
+          "a": "No lifestyle pattern can guarantee unchanged memory. Habits may support functioning, but new or worsening concerns should still be discussed with a clinician."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué hábitos diarios apoyan de verdad la memoria?",
+          "a": "El sueño constante, la actividad física regular, el contacto social y la gestión del estrés desempeñan cada uno un papel. Funcionan mejor juntos como marco, no como soluciones rápidas aisladas."
+        },
+        {
+          "q": "Si sigo hábitos saludables, ¿mi memoria está garantizada?",
+          "a": "Ningún patrón de estilo de vida garantiza una memoria inalterada. Los hábitos pueden apoyar el funcionamiento, pero las preocupaciones nuevas o en empeoramiento deben comentarse con un profesional."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles habitudes quotidiennes soutiennent réellement la mémoire ?",
+          "a": "Un sommeil régulier, une activité physique régulière, un lien social et la gestion du stress jouent chacun un rôle. Ils fonctionnent mieux ensemble comme cadre, pas comme solutions rapides isolées."
+        },
+        {
+          "q": "Si je suis des habitudes saines, ma mémoire est-elle garantie ?",
+          "a": "Aucun mode de vie ne garantit une mémoire inchangée. Les habitudes peuvent soutenir le fonctionnement, mais des préoccupations nouvelles ou aggravées doivent être évoquées avec un clinicien."
+        }
+      ]
+    }
+  },
+  "how-to-prevent-cognitive-decline": {
+    "sectionHeading": {
+      "en": "Risk reduction without false guarantees",
+      "es": "Reducir riesgos sin falsas garantías",
+      "fr": "Réduire les risques sans fausses garanties"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Cognitive decline is influenced by age, genetics, cardiovascular health, sleep, and many other factors — lifestyle habits may reduce some risks but cannot eliminate all possibility of change over time.",
+        "Reasonable prevention habits include regular physical activity, treating hearing and vision problems, managing blood pressure and diabetes with medical guidance, staying socially engaged, and protecting sleep.",
+        "No specific habit, food, or supplement can guarantee that cognitive abilities will remain unchanged. Claims with precise percentages or named experts should be treated skeptically when they lack verifiable sources."
+      ],
+      "es": [
+        "El deterioro cognitivo está influido por la edad, la genética, la salud cardiovascular, el sueño y muchos otros factores; los hábitos de estilo de vida pueden reducir algunos riesgos, pero no eliminan toda posibilidad de cambio con el tiempo.",
+        "Hábitos razonables de prevención incluyen actividad física regular, tratar problemas de audición y visión, controlar la presión arterial y la diabetes con orientación médica, mantener contacto social y proteger el sueño.",
+        "Ningún hábito, alimento o suplemento concreto puede garantizar que las capacidades cognitivas se mantengan iguales. Las afirmaciones con porcentajes precisos o expertos nombrados deben mirarse con escepticismo cuando carecen de fuentes verificables."
+      ],
+      "fr": [
+        "Le déclin cognitif est influencé par l'âge, la génétique, la santé cardiovasculaire, le sommeil et bien d'autres facteurs — les habitudes de vie peuvent réduire certains risques mais ne peuvent éliminer toute possibilité de changement avec le temps.",
+        "Des habitudes de prévention raisonnables comprennent une activité physique régulière, le traitement des problèmes auditifs et visuels, la gestion de la tension artérielle et du diabète avec un suivi médical, un lien social maintenu et la protection du sommeil.",
+        "Aucune habitude, aliment ou complément précis ne peut garantir que les capacités cognitives resteront inchangées. Les affirmations avec des pourcentages exacts ou des experts nommés méritent un regard critique lorsqu'elles manquent de sources vérifiables."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "What prevention can and cannot mean",
+          "body": "Risk reduction means lowering the odds of some contributing factors, not ensuring memory will never change. Honest framing avoids promises that no one can keep."
+        },
+        {
+          "heading": "Reasonable habits worth maintaining",
+          "body": "Movement, sleep, social contact, and managing treatable health conditions are widely discussed as supportive factors. They are habits to sustain, not one-time fixes with guaranteed outcomes."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Qué puede y qué no puede significar la prevención",
+          "body": "Reducir riesgos significa disminuir las probabilidades de algunos factores contribuyentes, no asegurar que la memoria nunca cambiará. Un planteamiento honesto evita promesas que nadie puede cumplir."
+        },
+        {
+          "heading": "Hábitos razonables que vale la pena mantener",
+          "body": "El movimiento, el sueño, el contacto social y el control de afecciones tratables se discuten ampliamente como factores de apoyo. Son hábitos para sostener, no soluciones puntuales con resultados garantizados."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Ce que la prévention peut et ne peut pas signifier",
+          "body": "Réduire les risques signifie diminuer les probabilités de certains facteurs contributifs, pas garantir que la mémoire ne changera jamais. Un cadrage honnête évite des promesses qu'aucun ne peut tenir."
+        },
+        {
+          "heading": "Habitudes raisonnables à maintenir",
+          "body": "Le mouvement, le sommeil, le lien social et la gestion de troubles traitables sont largement évoqués comme facteurs de soutien. Ce sont des habitudes à entretenir, pas des solutions ponctuelles à résultat garanti."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Treating hearing loss with prescribed aids and staying active in a weekly walking group addresses two discussed risk factors — without implying those steps alone make cognitive change impossible."
+      ],
+      "es": [
+        "Tratar la pérdida auditiva con ayudas prescritas y mantenerse activo en un grupo semanal de caminata aborda dos factores de riesgo discutidos, sin implicar que esos pasos por sí solos hacen imposible un cambio cognitivo."
+      ],
+      "fr": [
+        "Traiter une perte auditive avec des appareils prescrits et rester actif dans un groupe de marche hebdomadaire aborde deux facteurs de risque souvent évoqués — sans suggérer que ces mesures seules rendent tout changement cognitif impossible."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Can cognitive decline be completely prevented?",
+          "a": "No approach can guarantee that cognitive abilities will never change. Habits may reduce some risks, but age and individual health factors still play a role."
+        },
+        {
+          "q": "What are reasonable habits for brain health?",
+          "a": "Regular movement, adequate sleep, social engagement, and managing treatable conditions like blood pressure or hearing loss are commonly discussed supportive habits — sustained over time rather than pursued as one-time guarantees."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Se puede prevenir por completo el deterioro cognitivo?",
+          "a": "Ningún enfoque puede garantizar que las capacidades cognitivas nunca cambiarán. Los hábitos pueden reducir algunos riesgos, pero la edad y los factores de salud individuales siguen teniendo peso."
+        },
+        {
+          "q": "¿Cuáles son hábitos razonables para la salud cerebral?",
+          "a": "Movimiento regular, sueño adecuado, contacto social y el control de afecciones tratables como la presión arterial o la pérdida auditiva son hábitos de apoyo ampliamente discutidos, sostenidos en el tiempo en lugar de perseguidos como garantías puntuales."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Le déclin cognitif peut-il être complètement prévenu ?",
+          "a": "Aucune approche ne peut garantir que les capacités cognitives ne changeront jamais. Les habitudes peuvent réduire certains risques, mais l'âge et les facteurs de santé individuels jouent toujours un rôle."
+        },
+        {
+          "q": "Quelles sont des habitudes raisonnables pour la santé cérébrale ?",
+          "a": "Un mouvement régulier, un sommeil suffisant, un lien social et la gestion de troubles traitables comme l'hypertension ou la perte auditive sont des habitudes de soutien couramment évoquées — maintenues dans la durée plutôt que poursuivies comme garanties ponctuelles."
+        }
+      ]
+    }
+  },
+  "how-to-exercise-for-brain-health": {
+    "sectionHeading": {
+      "en": "Physical movement and cognitive practice",
+      "es": "Movimiento físico y práctica cognitiva",
+      "fr": "Mouvement physique et pratique cognitive"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Physical exercise — walking, swimming, cycling, gardening — supports cardiovascular health and energy levels that attention and memory depend on, in a different way than seated puzzle or recall drills.",
+        "Cognitive drills on a screen train specific task formats such as reaction time or word matching; they are complementary to movement, not a replacement for getting the body active.",
+        "A sustainable routine often starts small: a ten-minute daily walk or two short movement breaks during desk work counts more than an ambitious plan abandoned after a week."
+      ],
+      "es": [
+        "El ejercicio físico — caminar, nadar, andar en bicicleta, jardinería — apoya la salud cardiovascular y los niveles de energía de los que dependen la atención y la memoria, de forma distinta a los ejercicios sentados de puzzles o recuerdo.",
+        "Los ejercicios cognitivos en pantalla entrenan formatos concretos de tarea como tiempo de reacción o emparejar palabras; son complementarios al movimiento, no un reemplazo de activar el cuerpo.",
+        "Una rutina sostenible suele empezar en pequeño: una caminata diaria de diez minutos o dos pausas breves de movimiento durante el trabajo de escritorio cuenta más que un plan ambicioso abandonado tras una semana."
+      ],
+      "fr": [
+        "L'exercice physique — marche, natation, vélo, jardinage — soutient la santé cardiovasculaire et les niveaux d'énergie dont dépendent l'attention et la mémoire, d'une manière différente des exercices assis de puzzles ou de rappel.",
+        "Les exercices cognitifs sur écran entraînent des formats de tâches précis comme le temps de réaction ou l'association de mots ; ils complètent le mouvement, sans le remplacer pour activer le corps.",
+        "Une routine durable commence souvent petit : une marche quotidienne de dix minutes ou deux courtes pauses de mouvement au bureau comptent plus qu'un plan ambitieux abandonné après une semaine."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Physical exercise versus brain-training drills",
+          "body": "Movement supports overall health and stamina for daily tasks. Screen-based cognitive games practice specific mental formats. Both can have a place; neither replaces medical care when functioning changes."
+        },
+        {
+          "heading": "Making movement a routine",
+          "body": "Pair activity with an existing habit — walk after morning coffee, stretch during a podcast, take stairs before lunch. Consistency matters more than intensity when building a long-term pattern."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Ejercicio físico frente a ejercicios de entrenamiento cerebral",
+          "body": "El movimiento apoya la salud general y la resistencia para tareas diarias. Los juegos cognitivos en pantalla practican formatos mentales concretos. Ambos pueden tener lugar; ninguno sustituye la atención médica cuando cambia el funcionamiento."
+        },
+        {
+          "heading": "Convertir el movimiento en rutina",
+          "body": "Asocia la actividad a un hábito existente: caminar tras el café de la mañana, estirar durante un podcast, usar escaleras antes del almuerzo. La constancia importa más que la intensidad al construir un patrón a largo plazo."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Exercice physique versus exercices d'entraînement cérébral",
+          "body": "Le mouvement soutient la santé globale et l'endurance pour les tâches quotidiennes. Les jeux cognitifs sur écran pratiquent des formats mentaux précis. Les deux ont leur place ; aucun ne remplace les soins médicaux lorsque le fonctionnement change."
+        },
+        {
+          "heading": "Faire du mouvement une routine",
+          "body": "Associez l'activité à une habitude existante — marcher après le café du matin, s'étirer pendant un podcast, prendre les escaliers avant le déjeuner. La régularité compte plus que l'intensité pour construire un schéma durable."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A person who does word-recall games twice a week and also walks twenty minutes on three other days is combining cognitive drill practice with physical movement — each serving a different purpose."
+      ],
+      "es": [
+        "Quien hace juegos de recuerdo de palabras dos veces por semana y también camina veinte minutos otros tres días combina práctica de ejercicios cognitivos con movimiento físico; cada uno cumple un propósito distinto."
+      ],
+      "fr": [
+        "Une personne qui fait des jeux de rappel de mots deux fois par semaine et marche aussi vingt minutes trois autres jours combine pratique d'exercices cognitifs et mouvement physique — chacun servant un objectif différent."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is physical exercise or brain training better for cognitive health?",
+          "a": "They address different needs. Physical activity supports cardiovascular health and daily stamina. Cognitive drills practice specific mental task formats. Many people benefit from both, within their abilities."
+        },
+        {
+          "q": "How do I make movement a regular habit?",
+          "a": "Start with a small, repeatable action tied to something you already do daily. Short, consistent sessions build a routine more reliably than occasional intense workouts."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Es mejor el ejercicio físico o el entrenamiento cerebral para la salud cognitiva?",
+          "a": "Abordan necesidades distintas. La actividad física apoya la salud cardiovascular y la resistencia diaria. Los ejercicios cognitivos practican formatos concretos de tarea mental. Muchas personas se benefician de ambos, según sus capacidades."
+        },
+        {
+          "q": "¿Cómo convierto el movimiento en un hábito regular?",
+          "a": "Empieza con una acción pequeña y repetible ligada a algo que ya haces cada día. Sesiones cortas y constantes construyen una rutina con más fiabilidad que entrenamientos intensos ocasionales."
+        }
+      ],
+      "fr": [
+        {
+          "q": "L'exercice physique ou l'entraînement cérébral est-il meilleur pour la santé cognitive ?",
+          "a": "Ils répondent à des besoins différents. L'activité physique soutient la santé cardiovasculaire et l'endurance quotidienne. Les exercices cognitifs pratiquent des formats de tâches mentales précis. Beaucoup de personnes bénéficient des deux, selon leurs capacités."
+        },
+        {
+          "q": "Comment faire du mouvement une habitude régulière ?",
+          "a": "Commencez par une petite action répétable liée à quelque chose que vous faites déjà chaque jour. Des séances courtes et régulières construisent une routine plus fiable que des entraînements intenses occasionnels."
+        }
+      ]
+    }
+  },
+  "how-to-reduce-stress-for-focus": {
+    "sectionHeading": {
+      "en": "Managing stressors that compete for attention",
+      "es": "Gestionar factores de estrés que compiten por la atención",
+      "fr": "Gérer les facteurs de stress qui rivalisent avec l'attention"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Stress does not always feel like anxiety — it often shows up as a crowded mind, difficulty finishing one task, or constant background worry that pulls attention away from what is in front of you.",
+        "Identifying concrete distraction sources — unfinished errands, open loops in email, unclear deadlines — and setting boundaries around them can free mental space without requiring a complete life overhaul.",
+        "This page discusses everyday focus habits, not treatment for anxiety disorders or clinical stress conditions. Persistent or severe symptoms deserve professional support."
+      ],
+      "es": [
+        "El estrés no siempre se siente como ansiedad; a menudo aparece como una mente abarrotada, dificultad para terminar una tarea o una preocupación de fondo constante que aleja la atención de lo que tienes delante.",
+        "Identificar fuentes concretas de distracción — recados pendientes, asuntos abiertos en el correo, plazos poco claros — y poner límites alrededor de ellas puede liberar espacio mental sin exigir un cambio total de vida.",
+        "Esta página trata hábitos cotidianos de enfoque, no el tratamiento de trastornos de ansiedad ni afecciones clínicas de estrés. Los síntomas persistentes o graves merecen apoyo profesional."
+      ],
+      "fr": [
+        "Le stress ne se ressent pas toujours comme de l'anxiété — il apparaît souvent comme un esprit encombré, une difficulté à terminer une tâche ou une inquiétude de fond constante qui détourne l'attention de ce qui est devant vous.",
+        "Identifier des sources concrètes de distraction — courses inachevées, fils ouverts dans les e-mails, échéances floues — et poser des limites autour d'elles peut libérer de l'espace mental sans exiger une refonte complète de vie.",
+        "Cette page traite d'habitudes quotidiennes de concentration, pas du traitement des troubles anxieux ou des états de stress clinique. Des symptômes persistants ou sévères méritent un soutien professionnel."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "When stress makes focus harder",
+          "body": "A mind juggling unresolved tasks has less capacity for deep work. Writing down what is nagging you and scheduling when you will address it can reduce the background pull on attention."
+        },
+        {
+          "heading": "Short breaks as a practical tool",
+          "body": "Stepping away for two to five minutes — stretching, breathing slowly, or changing rooms — can reset attention during long tasks without needing a formal meditation program."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Cuando el estrés dificulta el enfoque",
+          "body": "Una mente que hace malabares con tareas sin resolver tiene menos capacidad para el trabajo profundo. Escribir lo que te preocupa y programar cuándo lo abordarás puede reducir la tensión de fondo sobre la atención."
+        },
+        {
+          "heading": "Pausas breves como herramienta práctica",
+          "body": "Alejarse dos a cinco minutos — estirar, respirar despacio o cambiar de habitación — puede reiniciar la atención durante tareas largas sin necesitar un programa formal de meditación."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Quand le stress rend la concentration plus difficile",
+          "body": "Un esprit qui jongle avec des tâches non résolues a moins de capacité pour le travail en profondeur. Noter ce qui vous taraude et planifier quand vous vous en occuperez peut réduire la traction de fond sur l'attention."
+        },
+        {
+          "heading": "Les courtes pauses comme outil pratique",
+          "body": "S'éloigner deux à cinq minutes — s'étirer, respirer lentement ou changer de pièce — peut réinitialiser l'attention pendant de longues tâches sans programme formel de méditation."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Before starting a report, spending three minutes listing every unrelated worry on paper and assigning each a later time slot can quiet the mental noise enough to read the first paragraph with full attention."
+      ],
+      "es": [
+        "Antes de empezar un informe, dedicar tres minutos a listar en papel cada preocupación no relacionada y asignar a cada una un horario posterior puede calmar el ruido mental lo suficiente para leer el primer párrafo con atención plena."
+      ],
+      "fr": [
+        "Avant de commencer un rapport, passer trois minutes à lister sur papier chaque inquiétude sans lien et assigner à chacune un créneau ultérieur peut calmer le bruit mental suffisamment pour lire le premier paragraphe avec une attention pleine."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Does stress really make it harder to focus?",
+          "a": "Yes — unresolved demands and background worry compete for the same mental resources attention needs. Reducing open loops and setting boundaries around distractions can help."
+        },
+        {
+          "q": "Can short breaks help when I feel mentally overloaded?",
+          "a": "Brief pauses — a few minutes away from the task, a stretch, or a change of environment — often help reset attention during long work sessions without replacing professional care when stress is severe."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿El estrés de verdad dificulta concentrarse?",
+          "a": "Sí: las demandas sin resolver y la preocupación de fondo compiten por los mismos recursos mentales que la atención necesita. Reducir asuntos abiertos y poner límites a las distracciones puede ayudar."
+        },
+        {
+          "q": "¿Las pausas breves ayudan cuando me siento mentalmente saturado?",
+          "a": "Las pausas cortas — unos minutos lejos de la tarea, un estiramiento o un cambio de entorno — suelen ayudar a reiniciar la atención en sesiones largas de trabajo, sin sustituir atención profesional cuando el estrés es grave."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Le stress rend-il vraiment la concentration plus difficile ?",
+          "a": "Oui — les demandes non résolues et l'inquiétude de fond rivalisent avec les mêmes ressources mentales que l'attention nécessite. Réduire les boucles ouvertes et poser des limites aux distractions peut aider."
+        },
+        {
+          "q": "Les courtes pauses aident-elles quand je me sens mentalement saturé ?",
+          "a": "Des pauses brèves — quelques minutes loin de la tâche, un étirement ou un changement d'environnement — aident souvent à réinitialiser l'attention pendant de longues sessions de travail, sans remplacer un suivi professionnel lorsque le stress est sévère."
+        }
+      ]
+    }
+  },
+  "how-to-review-medications-with-doctor": {
+    "sectionHeading": {
+      "en": "Preparing for a focused medication review",
+      "es": "Prepararse para una revisión de medicación enfocada",
+      "fr": "Se préparer à une revue ciblée des médicaments"
+    },
+    "uniqueStatements": {
+      "en": [
+        "A medication review with your doctor is a structured conversation about what you take, why, whether each drug is still needed, and whether timing or formulation could be adjusted — distinct from a general memory checkup or a pharmacist interaction review.",
+        "Bring a complete current list including prescriptions, over-the-counter products, and supplements, with doses and schedules written clearly. Photos of bottle labels help when names are hard to spell.",
+        "Ask specifically whether any medication could affect alertness, sleep, or recall — and whether a dose timing change might help. Never stop a medication on your own because of memory concerns."
+      ],
+      "es": [
+        "Una revisión de medicación con tu médico es una conversación estructurada sobre lo que tomas, por qué, si cada fármaco sigue siendo necesario y si el horario o la formulación podrían ajustarse; es distinta de un chequeo general de memoria o de una revisión de interacciones con el farmacéutico.",
+        "Lleva una lista completa actual que incluya recetas, productos de venta libre y suplementos, con dosis y horarios escritos con claridad. Las fotos de las etiquetas ayudan cuando los nombres son difíciles de deletrear.",
+        "Pregunta específicamente si algún medicamento podría afectar el estado de alerta, el sueño o el recuerdo, y si cambiar el horario de la dosis podría ayudar. Nunca suspendas un medicamento por tu cuenta por preocupaciones de memoria."
+      ],
+      "fr": [
+        "Une revue des médicaments avec votre médecin est une conversation structurée sur ce que vous prenez, pourquoi, si chaque médicament est encore nécessaire et si l'horaire ou la formulation pourrait être ajusté — distincte d'un bilan mémoire général ou d'un examen d'interactions chez le pharmacien.",
+        "Apportez une liste complète à jour incluant ordonnances, produits en vente libre et compléments, avec doses et horaires clairement écrits. Des photos d'étiquettes aident quand les noms sont difficiles à épeler.",
+        "Demandez spécifiquement si un médicament pourrait affecter la vigilance, le sommeil ou le rappel — et si un changement d'horaire de dose pourrait aider. N'arrêtez jamais un médicament par vous-même en raison de préoccupations de mémoire."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Questions to ask about memory and medications",
+          "body": "Ask which drugs on your list are known to affect cognition, whether any can be taken at a different time of day, and whether non-essential medications could be simplified. Let the clinician guide any changes."
+        },
+        {
+          "heading": "What not to do before the appointment",
+          "body": "Do not stop, skip, or reduce doses on your own to 'test' whether memory improves. Sudden changes can cause withdrawal effects or worsen the condition the drug treats."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Preguntas sobre memoria y medicamentos",
+          "body": "Pregunta qué fármacos de tu lista se sabe que afectan la cognición, si alguno puede tomarse a otra hora del día y si los medicamentos no esenciales podrían simplificarse. Deja que el profesional guíe cualquier cambio."
+        },
+        {
+          "heading": "Qué no hacer antes de la cita",
+          "body": "No suspendas, omitas ni reduzcas dosis por tu cuenta para «probar» si mejora la memoria. Los cambios bruscos pueden causar efectos de abstinencia o empeorar la afección que trata el fármaco."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Questions à poser sur la mémoire et les médicaments",
+          "body": "Demandez quels médicaments de votre liste sont connus pour affecter la cognition, si certains peuvent être pris à un autre moment de la journée et si des médicaments non essentiels pourraient être simplifiés. Laissez le clinicien guider tout changement."
+        },
+        {
+          "heading": "Ce qu'il ne faut pas faire avant le rendez-vous",
+          "body": "N'arrêtez, n'omettez ni ne réduisez pas les doses par vous-même pour « tester » si la mémoire s'améliore. Des changements brusques peuvent provoquer des effets de sevrage ou aggraver l'affection traitée."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "At a review, handing the doctor a one-page table with drug name, dose, time taken, and start date — plus a note asking 'could any of these affect my concentration?' — keeps the conversation focused on medication specifics."
+      ],
+      "es": [
+        "En una revisión, entregar al médico una tabla de una página con nombre del fármaco, dosis, hora de toma y fecha de inicio — más una nota que pregunte «¿alguno de estos podría afectar mi concentración?» — mantiene la conversación enfocada en detalles de medicación."
+      ],
+      "fr": [
+        "Lors d'une revue, remettre au médecin un tableau d'une page avec nom du médicament, dose, heure de prise et date de début — plus une note demandant « l'un de ceux-ci pourrait-il affecter ma concentration ? » — maintient la conversation centrée sur les détails des médicaments."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "How do I ask my doctor about medications and memory?",
+          "a": "Bring your full medication list and ask directly which drugs might affect alertness or recall, and whether timing adjustments are possible. Describe specific examples of when you notice difficulty."
+        },
+        {
+          "q": "Should I stop a medication I think is affecting my memory?",
+          "a": "No — never stop or change doses without medical guidance. Raise the concern at your review so your doctor can weigh risks, benefits, and safer alternatives."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Cómo le pregunto a mi médico sobre medicamentos y memoria?",
+          "a": "Lleva tu lista completa de medicación y pregunta directamente qué fármacos podrían afectar el estado de alerta o el recuerdo, y si son posibles ajustes de horario. Describe ejemplos concretos de cuándo notas dificultad."
+        },
+        {
+          "q": "¿Debo dejar un medicamento que creo que afecta mi memoria?",
+          "a": "No — nunca suspendas ni cambies dosis sin orientación médica. Plantea la preocupación en tu revisión para que tu médico valore riesgos, beneficios y alternativas más seguras."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Comment demander à mon médecin des médicaments et la mémoire ?",
+          "a": "Apportez votre liste complète de médicaments et demandez directement quels médicaments pourraient affecter la vigilance ou le rappel, et si des ajustements d'horaire sont possibles. Décrivez des exemples précis de moments où vous remarquez une difficulté."
+        },
+        {
+          "q": "Dois-je arrêter un médicament que je pense affecter ma mémoire ?",
+          "a": "Non — n'arrêtez ni ne modifiez jamais les doses sans avis médical. Évoquez la préoccupation lors de votre revue pour que votre médecin évalue risques, bénéfices et alternatives plus sûres."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-medication-review-habits": {
+    "sectionHeading": {
+      "en": "Cognitive practice for medication review preparation",
+      "es": "Práctica cognitiva para preparar la revisión de medicación",
+      "fr": "Pratique cognitive pour préparer la revue des médicaments"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Preparing for a medication review involves recalling drug names, sequencing when each dose is taken, and checking a list against what is actually in the cabinet — skills that overlap with attention, working memory, and ordered task completion.",
+        "Educational exercises such as memorizing a short list of sample questions for your doctor, practicing the order of a morning pill routine, or verifying items on a checklist train those functional habits without replacing the review itself.",
+        "These practice tasks are preparation tools, not substitutes for bringing real bottles, keeping an accurate written list, or following clinician guidance about any medication changes."
+      ],
+      "es": [
+        "Prepararse para una revisión de medicación implica recordar nombres de fármacos, secuenciar cuándo se toma cada dosis y contrastar una lista con lo que realmente hay en el armario; habilidades que se solapan con la atención, la memoria de trabajo y la finalización ordenada de tareas.",
+        "Ejercicios educativos como memorizar una lista breve de preguntas de ejemplo para el médico, practicar el orden de una rutina matutina de pastillas o verificar elementos en una lista entrenan esos hábitos funcionales sin sustituir la revisión en sí.",
+        "Estas tareas de práctica son herramientas de preparación, no sustitutos de llevar frascos reales, mantener una lista escrita precisa o seguir la orientación del profesional sobre cualquier cambio de medicación."
+      ],
+      "fr": [
+        "Se préparer à une revue des médicaments implique de rappeler les noms des médicaments, de séquencer quand chaque dose est prise et de vérifier une liste par rapport à ce qui se trouve réellement dans l'armoire — des compétences qui recoupent l'attention, la mémoire de travail et l'achèvement ordonné de tâches.",
+        "Des exercices éducatifs comme mémoriser une courte liste de questions types pour le médecin, pratiquer l'ordre d'une routine matinale de comprimés ou vérifier des éléments sur une liste entraînent ces habitudes fonctionnelles sans remplacer la revue elle-même.",
+        "Ces tâches de pratique sont des outils de préparation, pas des substituts à l'apport de vrais flacons, au maintien d'une liste écrite exacte ou au suivi des conseils du clinicien sur tout changement de médicament."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Skills these exercises practice",
+          "body": "Recall of short question lists, sequencing a multi-step routine in order, and list-checking accuracy — the same cognitive habits useful when organizing a real medication review."
+        },
+        {
+          "heading": "What exercises cannot replace",
+          "body": "A pharmacist or doctor review, an up-to-date written medication list, and professional guidance on dose changes remain essential. Practice tasks only support the preparation mindset."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Habilidades que practican estos ejercicios",
+          "body": "Recuerdo de listas breves de preguntas, secuenciación de una rutina de varios pasos en orden y precisión al revisar listas — los mismos hábitos cognitivos útiles al organizar una revisión real de medicación."
+        },
+        {
+          "heading": "Lo que los ejercicios no pueden sustituir",
+          "body": "Una revisión con farmacéutico o médico, una lista escrita de medicación actualizada y la orientación profesional sobre cambios de dosis siguen siendo esenciales. Las tareas de práctica solo apoyan la mentalidad de preparación."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Compétences que ces exercices pratiquent",
+          "body": "Rappel de courtes listes de questions, séquençage d'une routine à plusieurs étapes dans l'ordre et précision de vérification de listes — les mêmes habitudes cognitives utiles pour organiser une vraie revue des médicaments."
+        },
+        {
+          "heading": "Ce que les exercices ne peuvent remplacer",
+          "body": "Une revue chez le pharmacien ou le médecin, une liste écrite de médicaments à jour et des conseils professionnels sur les changements de dose restent essentiels. Les tâches de pratique soutiennent seulement l'état d'esprit de préparation."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "Practicing recall of three doctor questions — 'Is this still needed?', 'Could timing change?', 'Any interaction concerns?' — builds the habit of arriving prepared, separate from the clinical review itself."
+      ],
+      "es": [
+        "Practicar el recuerdo de tres preguntas para el médico — «¿Sigue siendo necesario?», «¿Podría cambiar el horario?», «¿Hay preocupaciones de interacción?» — construye el hábito de llegar preparado, aparte de la revisión clínica en sí."
+      ],
+      "fr": [
+        "Pratiquer le rappel de trois questions pour le médecin — « Est-ce encore nécessaire ? », « L'horaire pourrait-il changer ? », « Des interactions à signaler ? » — installe l'habitude d'arriver préparé, distincte de la revue clinique elle-même."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What cognitive skills do these exercises practice?",
+          "a": "Short-list recall, sequencing steps in order, and checking items against a list — functional habits that support medication review preparation."
+        },
+        {
+          "q": "Can these exercises replace a real medication review?",
+          "a": "No. They are educational practice only. A clinician or pharmacist review with your actual medication list remains necessary for safe medication decisions."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué habilidades cognitivas practican estos ejercicios?",
+          "a": "Recuerdo de listas breves, secuenciación de pasos en orden y verificación de elementos contra una lista — hábitos funcionales que apoyan la preparación de una revisión de medicación."
+        },
+        {
+          "q": "¿Pueden estos ejercicios sustituir una revisión real de medicación?",
+          "a": "No. Son solo práctica educativa. Una revisión con profesional o farmacéutico con tu lista real de medicación sigue siendo necesaria para decisiones seguras."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles compétences cognitives ces exercices pratiquent-ils ?",
+          "a": "Rappel de courtes listes, séquençage d'étapes dans l'ordre et vérification d'éléments par rapport à une liste — habitudes fonctionnelles qui soutiennent la préparation d'une revue des médicaments."
+        },
+        {
+          "q": "Ces exercices peuvent-ils remplacer une vraie revue des médicaments ?",
+          "a": "Non. Il s'agit uniquement d'une pratique éducative. Une revue par un clinicien ou un pharmacien avec votre liste réelle de médicaments reste nécessaire pour des décisions sûres."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-chemo-brain-education": {
+    "sectionHeading": {
+      "en": "Educational practice during cancer treatment recovery",
+      "es": "Práctica educativa durante la recuperación del tratamiento oncológico",
+      "fr": "Pratique éducative pendant la récupération d'un traitement contre le cancer"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Some people describe cognitive effects during or after cancer treatment — sometimes called chemo brain — involving attention lapses, slower processing, or difficulty with multi-step tasks; these patterns vary widely and are not a diagnosis this site can make.",
+        "Educational exercises on this site practice attention, sequencing, and short recall in brief sessions with adjustable pacing — useful as low-pressure practice, not as treatment for cancer-related cognitive effects.",
+        "Fatigue during or after treatment is common. Stop a practice session when tired rather than pushing through; recovery pacing should follow your oncology care team's guidance."
+      ],
+      "es": [
+        "Algunas personas describen efectos cognitivos durante o después del tratamiento oncológico — a veces llamados niebla por quimioterapia — con lapsos de atención, procesamiento más lento o dificultad con tareas de varios pasos; estos patrones varían mucho y no constituyen un diagnóstico que este sitio pueda hacer.",
+        "Los ejercicios educativos de este sitio practican atención, secuenciación y recuerdo breve en sesiones cortas con ritmo ajustable — útiles como práctica de baja presión, no como tratamiento de efectos cognitivos relacionados con el cáncer.",
+        "La fatiga durante o después del tratamiento es habitual. Detén la sesión de práctica cuando haya cansancio en lugar de forzar; el ritmo de recuperación debe seguir la orientación de tu equipo de oncología."
+      ],
+      "fr": [
+        "Certaines personnes décrivent des effets cognitifs pendant ou après un traitement contre le cancer — parfois appelés brouillard de chimiothérapie — avec des laps d'attention, un traitement plus lent ou des difficultés avec des tâches à plusieurs étapes ; ces schémas varient beaucoup et ne constituent pas un diagnostic que ce site peut poser.",
+        "Les exercices éducatifs de ce site pratiquent l'attention, le séquençage et le rappel court en courtes séances à rythme ajustable — utiles comme pratique à faible pression, pas comme traitement des effets cognitifs liés au cancer.",
+        "La fatigue pendant ou après le traitement est fréquente. Arrêtez une séance de pratique en cas de fatigue plutôt que de forcer ; le rythme de récupération doit suivre les conseils de votre équipe d'oncologie."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Skills practiced in short sessions",
+          "body": "Attention to a single task, ordering steps in sequence, and recalling a few items — practiced in brief, paced sessions that can be stopped when energy runs low."
+        },
+        {
+          "heading": "When to stop a session",
+          "body": "End practice when fatigue, frustration, or physical discomfort appears. Pushing through exhaustion does not improve outcomes and may increase stress during an already demanding recovery period."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Habilidades practicadas en sesiones breves",
+          "body": "Atención a una sola tarea, ordenar pasos en secuencia y recordar unos pocos elementos — practicadas en sesiones breves y pausadas que pueden detenerse cuando baja la energía."
+        },
+        {
+          "heading": "Cuándo detener una sesión",
+          "body": "Termina la práctica cuando aparezca fatiga, frustración o molestia física. Forzar cuando hay agotamiento no mejora los resultados y puede aumentar el estrés durante un periodo de recuperación ya exigente."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Compétences pratiquées en courtes séances",
+          "body": "Attention à une seule tâche, ordonnancement d'étapes en séquence et rappel de quelques éléments — pratiquées en brèves séances rythmées qui peuvent s'arrêter quand l'énergie baisse."
+        },
+        {
+          "heading": "Quand arrêter une séance",
+          "body": "Terminez la pratique lorsque la fatigue, la frustration ou une gêne physique apparaît. Forcer en cas d'épuisement n'améliore pas les résultats et peut augmenter le stress pendant une période de récupération déjà exigeante."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A five-minute sequencing exercise attempted on a low-energy afternoon and stopped after three minutes — without treating the early stop as failure — matches realistic pacing during treatment recovery."
+      ],
+      "es": [
+        "Un ejercicio de secuenciación de cinco minutos intentado en una tarde de poca energía y detenido tras tres minutos — sin tratar la parada temprana como fracaso — coincide con un ritmo realista durante la recuperación del tratamiento."
+      ],
+      "fr": [
+        "Un exercice de séquençage de cinq minutes tenté un après-midi de faible énergie et arrêté après trois minutes — sans traiter l'arrêt précoce comme un échec — correspond à un rythme réaliste pendant la récupération du traitement."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What skills do these exercises practice?",
+          "a": "Attention, step sequencing, and short recall — in brief, paced sessions designed as educational practice rather than clinical treatment."
+        },
+        {
+          "q": "Should I stop if I feel fatigued during practice?",
+          "a": "Yes. Stop when tired or frustrated. Recovery pacing during or after cancer treatment should follow your care team's guidance, not a fixed exercise schedule."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué habilidades practican estos ejercicios?",
+          "a": "Atención, secuenciación de pasos y recuerdo breve — en sesiones cortas y pausadas diseñadas como práctica educativa, no como tratamiento clínico."
+        },
+        {
+          "q": "¿Debo detenerme si me siento fatigado durante la práctica?",
+          "a": "Sí. Detente cuando haya cansancio o frustración. El ritmo de recuperación durante o después del tratamiento oncológico debe seguir la orientación de tu equipo de atención, no un horario fijo de ejercicios."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles compétences ces exercices pratiquent-ils ?",
+          "a": "Attention, séquençage d'étapes et rappel court — en brèves séances rythmées conçues comme pratique éducative plutôt que traitement clinique."
+        },
+        {
+          "q": "Dois-je m'arrêter si je me sens fatigué pendant la pratique ?",
+          "a": "Oui. Arrêtez-vous en cas de fatigue ou de frustration. Le rythme de récupération pendant ou après un traitement contre le cancer doit suivre les conseils de votre équipe de soins, pas un horaire d'exercices fixe."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-diabetes-brain-health": {
+    "sectionHeading": {
+      "en": "Cognitive practice alongside diabetes self-care",
+      "es": "Práctica cognitiva junto al autocuidado de la diabetes",
+      "fr": "Pratique cognitive aux côtés de l'autosoins du diabète"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Managing diabetes involves sequencing daily tasks — checking supplies, timing meals, following a medication or insulin routine — which draws on planning, attention, and ordered recall skills.",
+        "Educational exercises that practice sequencing steps, planning a short routine, or remembering a brief checklist train cognitive habits relevant to daily organization without treating blood glucose or replacing diabetes care.",
+        "Blood sugar management, medication dosing, and dietary guidance remain the responsibility of your diabetes care team. These practice tasks do not monitor glucose or adjust treatment."
+      ],
+      "es": [
+        "Gestionar la diabetes implica secuenciar tareas diarias — revisar suministros, programar comidas, seguir una rutina de medicación o insulina — lo que requiere planificación, atención y recuerdo ordenado.",
+        "Los ejercicios educativos que practican secuenciar pasos, planificar una rutina breve o recordar una lista corta entrenan hábitos cognitivos relevantes para la organización diaria sin tratar la glucosa en sangre ni sustituir la atención de la diabetes.",
+        "El control de la glucosa, las dosis de medicación y la orientación dietética siguen siendo responsabilidad de tu equipo de atención de la diabetes. Estas tareas de práctica no monitorizan la glucosa ni ajustan el tratamiento."
+      ],
+      "fr": [
+        "Gérer le diabète implique de séquencer des tâches quotidiennes — vérifier les fournitures, planifier les repas, suivre une routine de médicaments ou d'insuline — ce qui mobilise planification, attention et rappel ordonné.",
+        "Les exercices éducatifs qui pratiquent le séquençage d'étapes, la planification d'une courte routine ou le rappel d'une brève liste entraînent des habitudes cognitives utiles à l'organisation quotidienne sans traiter la glycémie ni remplacer les soins du diabète.",
+        "La gestion de la glycémie, les doses de médicaments et les conseils alimentaires restent la responsabilité de votre équipe de soins du diabète. Ces tâches de pratique ne surveillent pas la glycémie ni n'ajustent le traitement."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Sequencing and routine planning skills",
+          "body": "Exercises that order steps correctly, plan a short daily sequence, or recall items from a checklist mirror the cognitive habits useful in diabetes self-management routines."
+        },
+        {
+          "heading": "Not a substitute for diabetes care",
+          "body": "Glucose monitoring, insulin dosing, dietary plans, and medical follow-up remain essential. These educational tasks practice mental organization only."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Habilidades de secuenciación y planificación de rutinas",
+          "body": "Los ejercicios que ordenan pasos correctamente, planifican una secuencia diaria breve o recuerdan elementos de una lista reflejan los hábitos cognitivos útiles en las rutinas de autocuidado de la diabetes."
+        },
+        {
+          "heading": "No sustituyen la atención de la diabetes",
+          "body": "La monitorización de glucosa, las dosis de insulina, los planes dietéticos y el seguimiento médico siguen siendo esenciales. Estas tareas educativas practican solo la organización mental."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Compétences de séquençage et de planification de routine",
+          "body": "Les exercices qui ordonnent correctement les étapes, planifient une courte séquence quotidienne ou rappellent des éléments d'une liste reflètent les habitudes cognitives utiles dans les routines d'autosoins du diabète."
+        },
+        {
+          "heading": "Ne remplacent pas les soins du diabète",
+          "body": "La surveillance de la glycémie, les doses d'insuline, les plans alimentaires et le suivi médical restent essentiels. Ces tâches éducatives pratiquent uniquement l'organisation mentale."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A sequencing exercise that orders 'check supplies, prepare meal, log reading' practices the same step-ordering habit used in a morning diabetes routine — without measuring or recording actual glucose."
+      ],
+      "es": [
+        "Un ejercicio de secuenciación que ordena «revisar suministros, preparar comida, registrar lectura» practica el mismo hábito de ordenar pasos usado en una rutina matutina de diabetes, sin medir ni registrar glucosa real."
+      ],
+      "fr": [
+        "Un exercice de séquençage qui ordonne « vérifier les fournitures, préparer le repas, noter la lecture » pratique la même habitude d'ordonnancement d'étapes utilisée dans une routine matinale du diabète — sans mesurer ni enregistrer une glycémie réelle."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What cognitive skills do these exercises practice?",
+          "a": "Step sequencing, short routine planning, and checklist recall — mental organization habits relevant to daily diabetes self-care tasks."
+        },
+        {
+          "q": "Can these exercises replace my diabetes care routine?",
+          "a": "No. They are educational practice only. Glucose monitoring, medication management, and medical follow-up with your care team remain essential."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué habilidades cognitivas practican estos ejercicios?",
+          "a": "Secuenciación de pasos, planificación de rutinas breves y recuerdo de listas — hábitos de organización mental relevantes para las tareas diarias de autocuidado de la diabetes."
+        },
+        {
+          "q": "¿Pueden estos ejercicios sustituir mi rutina de atención de la diabetes?",
+          "a": "No. Son solo práctica educativa. La monitorización de glucosa, la gestión de medicación y el seguimiento médico con tu equipo de atención siguen siendo esenciales."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles compétences cognitives ces exercices pratiquent-ils ?",
+          "a": "Séquençage d'étapes, planification de courtes routines et rappel de listes — habitudes d'organisation mentale pertinentes pour les tâches quotidiennes d'autosoins du diabète."
+        },
+        {
+          "q": "Ces exercices peuvent-ils remplacer ma routine de soins du diabète ?",
+          "a": "Non. Il s'agit uniquement d'une pratique éducative. La surveillance de la glycémie, la gestion des médicaments et le suivi médical avec votre équipe de soins restent essentiels."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-vision-and-attention": {
+    "sectionHeading": {
+      "en": "Visual scanning and attention practice",
+      "es": "Práctica de exploración visual y atención",
+      "fr": "Pratique du balayage visuel et de l'attention"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Difficulty finding items on a cluttered page or screen often involves visual scanning and selective attention — the ability to search systematically and filter out irrelevant details — rather than eyesight strength alone.",
+        "Educational exercises that practice visual comparison, pattern matching, and systematic scanning train attention skills useful in everyday tasks like reading labels or locating objects.",
+        "These tasks do not treat vision problems, prescribe glasses, or replace eye exams. If small text is hard to read, accessibility adjustments — larger font, better lighting, magnification — should be used alongside any practice."
+      ],
+      "es": [
+        "La dificultad para encontrar elementos en una página o pantalla abarrotada suele implicar exploración visual y atención selectiva — la capacidad de buscar de forma sistemática y filtrar detalles irrelevantes — más que la fuerza de la vista por sí sola.",
+        "Los ejercicios educativos que practican comparación visual, emparejamiento de patrones y exploración sistemática entrenan habilidades de atención útiles en tareas cotidianas como leer etiquetas o localizar objetos.",
+        "Estas tareas no tratan problemas de visión, no prescriben gafas ni sustituyen exámenes oculares. Si el texto pequeño cuesta leerlo, deben usarse ajustes de accesibilidad — fuente más grande, mejor iluminación, ampliación — junto con cualquier práctica."
+      ],
+      "fr": [
+        "La difficulté à trouver des éléments sur une page ou un écran encombré implique souvent le balayage visuel et l'attention sélective — la capacité de chercher de façon systématique et de filtrer les détails non pertinents — plutôt que la force de la vue seule.",
+        "Les exercices éducatifs qui pratiquent la comparaison visuelle, l'appariement de motifs et le balayage systématique entraînent des compétences d'attention utiles dans des tâches quotidiennes comme lire des étiquettes ou localiser des objets.",
+        "Ces tâches ne traitent pas les problèmes de vision, ne prescrivent pas de lunettes et ne remplacent pas les examens oculaires. Si le petit texte est difficile à lire, des ajustements d'accessibilité — police plus grande, meilleur éclairage, grossissement — doivent être utilisés en complément de toute pratique."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Vision versus attention",
+          "body": "Clear eyesight and strong visual attention are different skills. Scanning exercises train how you search and compare, not whether your prescription is correct."
+        },
+        {
+          "heading": "Adapting when text is hard to read",
+          "body": "Increase font size, improve lighting, or use magnification tools. Practice exercises should be attempted at a comfortable visual level, not by straining to read tiny text."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Visión frente a atención",
+          "body": "Tener buena vista y una atención visual fuerte son habilidades distintas. Los ejercicios de exploración entrenan cómo buscas y comparas, no si tu graduación es correcta."
+        },
+        {
+          "heading": "Adaptar cuando el texto cuesta leerlo",
+          "body": "Aumenta el tamaño de fuente, mejora la iluminación o usa herramientas de ampliación. Los ejercicios de práctica deben intentarse a un nivel visual cómodo, no forzando la lectura de texto diminuto."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Vision versus attention",
+          "body": "Une vue claire et une attention visuelle forte sont des compétences distinctes. Les exercices de balayage entraînent comment vous cherchez et comparez, pas si votre correction est correcte."
+        },
+        {
+          "heading": "Adapter quand le texte est difficile à lire",
+          "body": "Augmentez la taille de police, améliorez l'éclairage ou utilisez des outils de grossissement. Les exercices de pratique doivent être tentés à un niveau visuel confortable, pas en forçant la lecture de texte minuscule."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A visual comparison exercise practiced on a tablet with enlarged text and good desk lighting trains scanning attention at an accessible level — separate from whether a new eyeglass prescription is needed."
+      ],
+      "es": [
+        "Un ejercicio de comparación visual practicado en una tableta con texto ampliado y buena luz de escritorio entrena la atención de exploración a un nivel accesible, aparte de si se necesita una nueva graduación de gafas."
+      ],
+      "fr": [
+        "Un exercice de comparaison visuelle pratiqué sur une tablette avec texte agrandi et bon éclairage de bureau entraîne l'attention de balayage à un niveau accessible — distinct de la question de savoir si une nouvelle correction de lunettes est nécessaire."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "Is this about vision problems or attention?",
+          "a": "These exercises practice visual scanning and selective attention — how you search and compare — not eyesight correction. Vision concerns deserve an eye exam."
+        },
+        {
+          "q": "What if small text is hard to read during exercises?",
+          "a": "Use larger font, better lighting, or magnification. Do not strain to read tiny text; adapt the display to a comfortable level before practicing."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Se trata de problemas de visión o de atención?",
+          "a": "Estos ejercicios practican exploración visual y atención selectiva — cómo buscas y comparas — no la corrección de la vista. Las preocupaciones visuales merecen un examen ocular."
+        },
+        {
+          "q": "¿Qué hago si el texto pequeño cuesta leerlo durante los ejercicios?",
+          "a": "Usa fuente más grande, mejor iluminación o ampliación. No fuerces la lectura de texto diminuto; adapta la pantalla a un nivel cómodo antes de practicar."
+        }
+      ],
+      "fr": [
+        {
+          "q": "S'agit-il de problèmes de vision ou d'attention ?",
+          "a": "Ces exercices pratiquent le balayage visuel et l'attention sélective — comment vous cherchez et comparez — pas la correction de la vue. Les préoccupations visuelles méritent un examen oculaire."
+        },
+        {
+          "q": "Que faire si le petit texte est difficile à lire pendant les exercices ?",
+          "a": "Utilisez une police plus grande, un meilleur éclairage ou un grossissement. Ne forcez pas la lecture de texte minuscule ; adaptez l'affichage à un niveau confortable avant de pratiquer."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-hearing-and-memory": {
+    "sectionHeading": {
+      "en": "Auditory sequence and recall practice",
+      "es": "Práctica de secuencias auditivas y recuerdo",
+      "fr": "Pratique des séquences auditives et du rappel"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Remembering spoken information — a phone number read aloud, instructions from a voicemail, items in a verbal list — depends on auditory attention and short-term recall skills that can be practiced separately from hearing acuity.",
+        "Educational exercises that present short auditory sequences or spoken lists, with optional written support afterward, train the memory habits useful when information arrives by ear.",
+        "These tasks do not treat hearing loss, fit hearing aids, or replace audiological care. Written notes and captions remain important supports when auditory information is hard to catch."
+      ],
+      "es": [
+        "Recordar información hablada — un número de teléfono leído en voz alta, instrucciones de un mensaje de voz, elementos de una lista verbal — depende de la atención auditiva y del recuerdo a corto plazo, habilidades que pueden practicarse aparte de la agudeza auditiva.",
+        "Los ejercicios educativos que presentan secuencias auditivas breves o listas habladas, con apoyo escrito opcional después, entrenan los hábitos de memoria útiles cuando la información llega por el oído.",
+        "Estas tareas no tratan la pérdida auditiva, no adaptan audífonos ni sustituyen la atención audiológica. Las notas escritas y los subtítulos siguen siendo apoyos importantes cuando cuesta captar información auditiva."
+      ],
+      "fr": [
+        "Se souvenir d'informations parlées — un numéro de téléphone lu à haute voix, des consignes d'un message vocal, des éléments d'une liste orale — dépend de l'attention auditive et du rappel à court terme, des compétences praticables séparément de l'acuité auditive.",
+        "Les exercices éducatifs qui présentent de courtes séquences auditives ou des listes parlées, avec un soutien écrit optionnel ensuite, entraînent les habitudes de mémoire utiles quand l'information arrive par l'oreille.",
+        "Ces tâches ne traitent pas la perte auditive, n'ajustent pas d'appareils auditifs et ne remplacent pas les soins audiologiques. Les notes écrites et les sous-titres restent des soutiens importants quand l'information auditive est difficile à saisir."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Auditory memory skills practiced",
+          "body": "Short spoken sequences, verbal list recall, and holding a few heard items in mind — practiced with optional written backup to reinforce the habit without relying on hearing alone."
+        },
+        {
+          "heading": "Written support alongside practice",
+          "body": "Taking notes during or after spoken information is a practical strategy, not a failure. Captions, written lists, and repeat-back confirmation all reduce reliance on auditory memory alone."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Habilidades de memoria auditiva practicadas",
+          "body": "Secuencias habladas breves, recuerdo de listas verbales y retener en mente unos pocos elementos escuchados — practicadas con respaldo escrito opcional para reforzar el hábito sin depender solo del oído."
+        },
+        {
+          "heading": "Apoyo escrito junto a la práctica",
+          "body": "Tomar notas durante o después de información hablada es una estrategia práctica, no un fracaso. Subtítulos, listas escritas y confirmar repitiendo reducen la dependencia de la memoria auditiva sola."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Compétences de mémoire auditive pratiquées",
+          "body": "Courtes séquences parlées, rappel de listes verbales et maintien en tête de quelques éléments entendus — pratiquées avec un appui écrit optionnel pour renforcer l'habitude sans dépendre de l'ouïe seule."
+        },
+        {
+          "heading": "Soutien écrit en complément de la pratique",
+          "body": "Prendre des notes pendant ou après une information parlée est une stratégie pratique, pas un échec. Sous-titres, listes écrites et confirmation par répétition réduisent la dépendance à la mémoire auditive seule."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "After practicing recall of a three-item spoken list, writing those items down reinforces the habit of pairing auditory memory with written backup — a strategy useful in real appointments even when hearing is adequate."
+      ],
+      "es": [
+        "Tras practicar el recuerdo de una lista hablada de tres elementos, escribirlos refuerza el hábito de combinar memoria auditiva con respaldo escrito — una estrategia útil en citas reales incluso cuando la audición es adecuada."
+      ],
+      "fr": [
+        "Après avoir pratiqué le rappel d'une liste parlée de trois éléments, les écrire renforce l'habitude d'associer mémoire auditive et appui écrit — une stratégie utile lors de vrais rendez-vous même quand l'audition est suffisante."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What auditory memory skills do these exercises practice?",
+          "a": "Holding short spoken sequences in mind, recalling verbal lists, and pairing heard information with written notes — habits useful when instructions arrive by ear."
+        },
+        {
+          "q": "Do written notes help if I struggle to remember spoken information?",
+          "a": "Yes. Writing down or captioning spoken information is a practical support, not a workaround to avoid. It reduces load on auditory memory and improves accuracy."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué habilidades de memoria auditiva practican estos ejercicios?",
+          "a": "Retener secuencias habladas breves en mente, recordar listas verbales y combinar información escuchada con notas escritas — hábitos útiles cuando las instrucciones llegan por el oído."
+        },
+        {
+          "q": "¿Las notas escritas ayudan si me cuesta recordar información hablada?",
+          "a": "Sí. Escribir o subtitular información hablada es un apoyo práctico, no un atajo a evitar. Reduce la carga sobre la memoria auditiva y mejora la precisión."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles compétences de mémoire auditive ces exercices pratiquent-ils ?",
+          "a": "Garder en tête de courtes séquences parlées, rappeler des listes verbales et associer l'information entendue à des notes écrites — habitudes utiles quand les consignes arrivent par l'oreille."
+        },
+        {
+          "q": "Les notes écrites aident-elles si je peine à me souvenir d'informations parlées ?",
+          "a": "Oui. Noter ou sous-titrer une information parlée est un soutien pratique, pas un contournement à éviter. Cela réduit la charge sur la mémoire auditive et améliore la précision."
+        }
+      ]
+    }
+  },
+  "brain-exercises-for-pet-care-routines": {
+    "sectionHeading": {
+      "en": "Sequencing practice through pet-care routines",
+      "es": "Práctica de secuenciación mediante rutinas de cuidado de mascotas",
+      "fr": "Pratique du séquençage par les routines de soins aux animaux"
+    },
+    "uniqueStatements": {
+      "en": [
+        "Caring for a pet involves repeatable sequences — feeding, fresh water, medication timing, exercise — that draw on planning, ordered recall, and checklist habits in a familiar, low-stakes context.",
+        "Educational exercises framed around pet-care steps practice sequencing and list-checking skills without offering veterinary advice, diagnosing animal health problems, or replacing professional pet care.",
+        "A written pet-care checklist used alongside practice exercises reinforces the same cognitive habits — completing steps in order and verifying nothing is skipped — that support daily routine management."
+      ],
+      "es": [
+        "Cuidar una mascota implica secuencias repetibles — alimentación, agua fresca, horario de medicación, ejercicio — que requieren planificación, recuerdo ordenado y hábitos de lista en un contexto familiar y de baja presión.",
+        "Los ejercicios educativos enmarcados en pasos de cuidado de mascotas practican secuenciación y verificación de listas sin ofrecer consejo veterinario, diagnosticar problemas de salud animal ni sustituir atención profesional para mascotas.",
+        "Una lista escrita de cuidados de mascotas usada junto a los ejercicios de práctica refuerza los mismos hábitos cognitivos — completar pasos en orden y verificar que no se omita nada — que apoyan la gestión de rutinas diarias."
+      ],
+      "fr": [
+        "Prendre soin d'un animal implique des séquences répétables — nourrissage, eau fraîche, horaire de médicaments, exercice — qui mobilisent planification, rappel ordonné et habitudes de liste dans un contexte familier et peu stressant.",
+        "Les exercices éducatifs centrés sur les étapes de soins aux animaux pratiquent le séquençage et la vérification de listes sans offrir de conseils vétérinaires, diagnostiquer des problèmes de santé animale ni remplacer des soins professionnels pour animaux.",
+        "Une liste écrite de soins aux animaux utilisée en complément des exercices de pratique renforce les mêmes habitudes cognitives — accomplir les étapes dans l'ordre et vérifier qu'aucune n'est omise — qui soutiennent la gestion des routines quotidiennes."
+      ]
+    },
+    "uniqueBlocks": {
+      "en": [
+        {
+          "heading": "Skills from pet-care sequencing",
+          "body": "Ordering feeding, water, and exercise steps correctly; checking off completed tasks; and recalling what comes next in a routine — practiced in a familiar context with no veterinary claims."
+        },
+        {
+          "heading": "Checklists alongside exercises",
+          "body": "A simple written checklist for daily pet tasks pairs well with sequencing practice. The checklist holds the plan; the exercise trains the habit of following it in order."
+        }
+      ],
+      "es": [
+        {
+          "heading": "Habilidades de la secuenciación en cuidado de mascotas",
+          "body": "Ordenar correctamente pasos de alimentación, agua y ejercicio; marcar tareas completadas; y recordar qué sigue en una rutina — practicado en un contexto familiar sin afirmaciones veterinarias."
+        },
+        {
+          "heading": "Listas junto a los ejercicios",
+          "body": "Una lista escrita sencilla para tareas diarias de mascotas combina bien con la práctica de secuenciación. La lista guarda el plan; el ejercicio entrena el hábito de seguirlo en orden."
+        }
+      ],
+      "fr": [
+        {
+          "heading": "Compétences du séquençage des soins aux animaux",
+          "body": "Ordonner correctement les étapes de nourrissage, d'eau et d'exercice ; cocher les tâches terminées ; et rappeler ce qui suit dans une routine — pratiqué dans un contexte familier sans allégations vétérinaires."
+        },
+        {
+          "heading": "Listes en complément des exercices",
+          "body": "Une simple liste écrite pour les tâches quotidiennes aux animaux se marie bien avec la pratique du séquençage. La liste conserve le plan ; l'exercice entraîne l'habitude de le suivre dans l'ordre."
+        }
+      ]
+    },
+    "examples": {
+      "en": [
+        "A sequencing exercise ordering 'fill water bowl, measure food, check medication time' mirrors a real morning pet routine — practicing step order without dispensing veterinary guidance."
+      ],
+      "es": [
+        "Un ejercicio de secuenciación que ordena «llenar el bowl de agua, medir comida, revisar hora de medicación» refleja una rutina matutina real con mascotas — practicando el orden de pasos sin dispensar orientación veterinaria."
+      ],
+      "fr": [
+        "Un exercice de séquençage ordonnant « remplir le bol d'eau, mesurer la nourriture, vérifier l'heure du médicament » reflète une vraie routine matinale avec un animal — pratiquant l'ordre des étapes sans dispenser de conseils vétérinaires."
+      ]
+    },
+    "topicFaqs": {
+      "en": [
+        {
+          "q": "What skills does pet-care sequencing practice?",
+          "a": "Ordered step completion, checklist verification, and recalling what comes next in a routine — cognitive habits useful in daily task management, practiced in a familiar low-stakes context."
+        },
+        {
+          "q": "Should I use a checklist alongside these exercises?",
+          "a": "Yes. A written pet-care checklist reinforces the same sequencing and verification habits the exercises train, and helps ensure real daily tasks are not skipped."
+        }
+      ],
+      "es": [
+        {
+          "q": "¿Qué habilidades practica la secuenciación de cuidado de mascotas?",
+          "a": "Finalización ordenada de pasos, verificación de listas y recordar qué sigue en una rutina — hábitos cognitivos útiles en la gestión de tareas diarias, practicados en un contexto familiar de baja presión."
+        },
+        {
+          "q": "¿Debo usar una lista junto a estos ejercicios?",
+          "a": "Sí. Una lista escrita de cuidados de mascotas refuerza los mismos hábitos de secuenciación y verificación que entrenan los ejercicios, y ayuda a asegurar que las tareas diarias reales no se omitan."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles compétences le séquençage des soins aux animaux pratique-t-il ?",
+          "a": "Achèvement ordonné des étapes, vérification de listes et rappel de ce qui suit dans une routine — habitudes cognitives utiles à la gestion des tâches quotidiennes, pratiquées dans un contexte familier peu stressant."
+        },
+        {
+          "q": "Dois-je utiliser une liste en complément de ces exercices ?",
+          "a": "Oui. Une liste écrite de soins aux animaux renforce les mêmes habitudes de séquençage et de vérification que les exercices entraînent, et aide à s'assurer que les vraies tâches quotidiennes ne sont pas omises."
         }
       ]
     }
