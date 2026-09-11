@@ -1,0 +1,3738 @@
+{
+  "phase": "CONTENT-14",
+  "mode": "AUDIT ONLY — NO IMPLEMENTATION",
+  "generated": "2026-09-11",
+  "baselineSHA": "0e1b1f2c2987551ee26fea79fa18bde0b7a3b7b8",
+  "corpus": {
+    "manifestTotal": 514,
+    "uniqueContent": 186,
+    "pooledOnly": 328,
+    "uniquePct": 36.2,
+    "pooledPct": 63.8,
+    "clusterStats": {
+      "exercises_intent": {
+        "total": 191,
+        "unique": 57,
+        "pooled": 134
+      },
+      "tests_audience": {
+        "total": 90,
+        "unique": 54,
+        "pooled": 36
+      },
+      "symptoms": {
+        "total": 60,
+        "unique": 45,
+        "pooled": 15
+      },
+      "guides": {
+        "total": 173,
+        "unique": 30,
+        "pooled": 143
+      }
+    },
+    "matchesAdsense03": true
+  },
+  "pools": {
+    "guides": {
+      "totalEnPooledEligible": 40,
+      "excluded": 13,
+      "raw": 53
+    },
+    "exercises_intent": {
+      "totalEnPooledEligible": 41,
+      "excluded": 20,
+      "raw": 61
+    },
+    "clarification": {
+      "clusterPooledAllLanguages": {
+        "guides": 143,
+        "exercises_intent": 134
+      },
+      "enPooledOnly": {
+        "guides": 43,
+        "exercises_intent": 42
+      },
+      "enEligibleAfterExclusions": {
+        "guides": 40,
+        "exercises_intent": 41
+      }
+    }
+  },
+  "scoringFormula": {
+    "dimensions": [
+      "distinctUserIntent",
+      "substantiveContentPotential",
+      "weaknessOpportunity",
+      "humanUsefulness",
+      "differentiationPotential",
+      "siteFit",
+      "examplesFaqsPotential",
+      "ecosystemRelevance"
+    ],
+    "scale": "0-5 each, max raw 40",
+    "penalties": {
+      "definiteConsolidation": 8,
+      "implementedRedirectConsolidation": 10,
+      "possibleConsolidation": 5,
+      "audienceKeywordOnly": 6,
+      "guideImproveCluster": 5,
+      "trackBReserve": 3,
+      "permanentReject": 10
+    },
+    "classificationThresholds": {
+      "REMEDIATE": ">=26",
+      "HOLD": "20-25",
+      "KEEP_POOLED": "<20 (or consolidation/permanent reject)"
+    },
+    "deterministic": true,
+    "noSearchVolume": true,
+    "adjustedScorePenalties": {
+      "genericExerciseSlug": 7,
+      "trackBReserve": 4,
+      "guideHowToClusterSource": 8,
+      "genericHabitGuide": 4
+    }
+  },
+  "evaluatedCandidates": {
+    "guides": [
+      {
+        "slug": "how-to-improve-memory-naturally",
+        "h1": "How to improve memory naturally",
+        "words": 411,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes",
+          "how-to-sleep-better-for-memory"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-prevent-cognitive-decline",
+        "h1": "How to prevent cognitive decline",
+        "words": 489,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-find-reputable-cognitive-resources",
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-build-brain-healthy-habits",
+        "h1": "How to build brain-healthy habits",
+        "words": 390,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-break-bad-phone-habits",
+          "how-to-build-a-sleep-wind-down"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-talk-to-doctor-memory",
+        "h1": "How to talk to your doctor about memory",
+        "words": 436,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-support-spouse-memory-changes",
+          "how-to-sleep-better-for-memory"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-support-spouse-memory-changes",
+        "h1": "How to support a spouse with memory changes",
+        "words": 462,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-sleep-better-for-memory"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-choose-brain-apps",
+        "h1": "How to choose brain training apps",
+        "words": 458,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-choose-hearing-aids-cognition"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-sleep-better-for-memory",
+        "h1": "How to sleep better for memory",
+        "words": 422,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-exercise-for-brain-health",
+        "h1": "How to exercise for brain health",
+        "words": 445,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-build-brain-healthy-habits",
+          "how-to-walk-daily-for-brain-health"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-reduce-stress-for-focus",
+        "h1": "How to reduce stress for focus",
+        "words": 444,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-set-boundaries-to-reduce-stress",
+          "how-to-reduce-multitasking-costs"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-manage-multiple-medications",
+        "h1": "How to manage multiple medications safely",
+        "words": 420,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-review-medications-with-doctor",
+          "how-to-manage-blood-pressure-brain"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 5,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "how-to-balance-screen-time-brain",
+        "h1": "How to balance screen time and thinking",
+        "words": 415,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 32,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 32,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-learn-a-language-memory",
+        "h1": "How learning a language supports memory",
+        "words": 392,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-remember-names-better",
+        "h1": "How to remember names better",
+        "words": 415,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-sleep-better-for-memory",
+          "how-to-remember-appointments"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-remember-appointments",
+        "h1": "How to remember appointments",
+        "words": 427,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-remember-names-better"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-prioritize-tasks-brain-fog",
+        "h1": "How to prioritize tasks during brain fog",
+        "words": 464,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-break-bad-phone-habits",
+        "h1": "How to break phone habits that hurt focus",
+        "words": 401,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-build-brain-healthy-habits"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-train-auditory-memory",
+        "h1": "How to train auditory memory",
+        "words": 397,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-train-visual-memory",
+        "h1": "How to train visual memory",
+        "words": 431,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 22,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-review-medications-with-doctor",
+        "h1": "How to review medications that affect memory",
+        "words": 390,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-talk-to-doctor-memory",
+          "how-to-manage-multiple-medications"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 5,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "how-to-prepare-for-memory-clinic",
+        "h1": "How to prepare for a memory clinic visit",
+        "words": 435,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-keep-a-symptom-diary",
+        "h1": "How to keep a cognitive symptom diary",
+        "words": 527,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 3,
+            "humanUsefulness": 5,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 3,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": true,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-ask-for-accommodations-work",
+        "h1": "How to ask for work accommodations for memory",
+        "words": 444,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-prioritize-tasks-brain-fog",
+          "how-to-pace-cognitive-tasks-daily",
+          "how-to-reduce-multitasking-costs",
+          "how-to-ask-for-a-hearing-test"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-support-parent-memory-changes",
+        "h1": "How to support a parent with memory changes",
+        "words": 399,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 24,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-coordinate-family-care",
+        "h1": "How to coordinate family around memory concerns",
+        "words": 381,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-choose-hearing-aids-cognition",
+        "h1": "How hearing care supports cognition",
+        "words": 420,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-choose-brain-apps",
+          "how-to-check-vision-and-cognition-links",
+          "how-to-ask-for-a-hearing-test"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-walk-daily-for-brain-health",
+        "h1": "How daily walking supports brain health",
+        "words": 456,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-build-brain-healthy-habits",
+          "how-to-exercise-for-brain-health",
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 5,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 3,
+          "total": 24,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": true,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-quit-smoking-brain-benefits",
+        "h1": "How quitting smoking supports thinking",
+        "words": 384,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-manage-blood-pressure-brain",
+        "h1": "How blood pressure control helps cognition",
+        "words": 397,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-manage-multiple-medications"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-set-boundaries-to-reduce-stress",
+        "h1": "How boundaries reduce stress and brain fog",
+        "words": 435,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-reduce-stress-for-focus",
+          "how-to-reduce-multitasking-costs"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 23,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 3,
+          "total": 23,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": true,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-practice-gratitude-without-toxic-positivity",
+        "h1": "How gratitude practice can support focus",
+        "words": 401,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-learn-skills-slowly-and-retain",
+        "h1": "How to learn slowly and retain more",
+        "words": 417,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-learn-a-language-memory"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-batch-errands-for-mental-energy",
+        "h1": "How batching errands saves mental energy",
+        "words": 424,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-handle-correction-after-forgetting",
+        "h1": "How to respond after forgetting something important",
+        "words": 448,
+        "dsiPass": true,
+        "competitors": [],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 5,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-talk-to-kids-about-grandparent-memory",
+        "h1": "How to talk to kids about a grandparent’s memory changes",
+        "words": 443,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 22,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-find-reputable-cognitive-resources",
+        "h1": "How to find reputable cognitive health resources",
+        "words": 454,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-prevent-cognitive-decline",
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-pace-cognitive-tasks-daily",
+        "h1": "How to pace cognitive tasks through the day",
+        "words": 426,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-prevent-cognitive-decline",
+          "how-to-prioritize-tasks-brain-fog",
+          "how-to-walk-daily-for-brain-health",
+          "how-to-find-reputable-cognitive-resources"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 23,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 23,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-reduce-multitasking-costs",
+        "h1": "How to reduce the cognitive cost of multitasking",
+        "words": 404,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-reduce-stress-for-focus",
+          "how-to-set-boundaries-to-reduce-stress"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 3,
+          "total": 24,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": true,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-check-vision-and-cognition-links",
+        "h1": "How vision checks relate to memory concerns",
+        "words": 461,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-choose-hearing-aids-cognition"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 28,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 4,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 28,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "how-to-ask-for-a-hearing-test",
+        "h1": "How to ask for a hearing test when memory slips",
+        "words": 437,
+        "dsiPass": false,
+        "competitors": [
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-prioritize-tasks-brain-fog",
+          "how-to-ask-for-accommodations-work",
+          "how-to-choose-hearing-aids-cognition"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 5,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 24,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "trackB": false,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "guide-how-to-boost-memory-fast-p2",
+        "h1": "How to boost memory fast",
+        "words": 434,
+        "dsiPass": true,
+        "competitors": [
+          "how-to-improve-memory-naturally",
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes"
+        ],
+        "classification": "CONSOLIDATE",
+        "totalScore": 12,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 1,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 4,
+            "siteFit": 1,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 10,
+          "total": 12,
+          "maxRaw": 40
+        },
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-improve-memory-naturally",
+          "reason": "guides/improve C-cluster"
+        },
+        "trackB": false,
+        "medicalSensitivity": false
+      }
+    ],
+    "exercises_intent": [
+      {
+        "slug": "brain-exercises-for-anxiety",
+        "h1": "Brain exercises for calming routines during anxiety",
+        "words": 392,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery",
+          "brain-exercises-for-parkinsons-caregivers"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "brain-exercises-for-stress-relief",
+        "h1": "Brain exercises for stress relief",
+        "words": 374,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stroke-recovery",
+          "brain-exercises-for-parkinsons-caregivers"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-sleep-and-brain",
+        "h1": "Brain exercises for sleep and next-day thinking",
+        "words": 386,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "CONSOLIDATE",
+        "totalScore": 15,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 1,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 11,
+          "total": 15,
+          "maxRaw": 40
+        },
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-sleep-better-for-memory",
+          "reason": "sleep hygiene overlap"
+        },
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-diabetes-brain-health",
+        "h1": "Brain exercises for blood sugar and thinking",
+        "words": 461,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "brain-exercises-for-heart-health-cognition",
+        "h1": "Brain exercises for heart health and cognition",
+        "words": 420,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-social-connection",
+        "h1": "Brain exercises for social connection habits",
+        "words": 397,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 1,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 5,
+          "total": 22,
+          "maxRaw": 40
+        },
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-stay-socially-connected-aging",
+          "reason": "social connection guide overlap"
+        },
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-hand-eye-coordination",
+        "h1": "Brain exercises for hand-eye coordination",
+        "words": 434,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-spatial-skills",
+        "h1": "Brain exercises for spatial skills",
+        "words": 384,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-mindfulness-focus",
+        "h1": "Brain exercises for mindful focus routines",
+        "words": 447,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-post-surgery-brain-fog",
+        "h1": "Brain exercises for thinking after surgery",
+        "words": 465,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-chemo-brain-education",
+        "h1": "Brain exercises for chemo brain (education)",
+        "words": 380,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 32,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 32,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "brain-exercises-for-long-covid-brain-fog",
+        "h1": "Brain exercises for brain fog after illness",
+        "words": 501,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 3,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 24,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-vision-and-attention",
+        "h1": "Brain exercises for vision and attention",
+        "words": 429,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-hearing-and-memory",
+        "h1": "Brain exercises for hearing and memory",
+        "words": 456,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-medication-review-habits",
+        "h1": "Brain exercises for medication routines and clarity",
+        "words": 389,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 33,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 5,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 33,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "brain-exercises-for-driving-safety-cognition",
+        "h1": "Brain exercises for driving safety thinking skills",
+        "words": 401,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-cooking-safety-memory",
+        "h1": "Brain exercises for cooking and step memory",
+        "words": 473,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-hydration-cognition",
+        "h1": "Brain exercises for hydration and mental clarity",
+        "words": 399,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-reading-comprehension",
+        "h1": "Brain exercises for reading focus for comprehension",
+        "words": 444,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-note-taking-skills",
+        "h1": "Brain exercises for note-taking as cognitive practice",
+        "words": 463,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-chronic-pain-education",
+        "h1": "Brain exercises for thinking skills during chronic pain (education)",
+        "words": 440,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-menopause-brain-fog-edu",
+        "h1": "Brain exercises for brain fog context in menopause (education)",
+        "words": 472,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-allergy-medication-fog",
+        "h1": "Brain exercises for antihistamines and alertness (education)",
+        "words": 468,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 3,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": true
+      },
+      {
+        "slug": "brain-exercises-for-music-practice-memory",
+        "h1": "Brain exercises for musicianship and pattern memory",
+        "words": 433,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "CONSOLIDATE",
+        "totalScore": 18,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 1,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 5,
+          "total": 18,
+          "maxRaw": 40
+        },
+        "consolidation": {
+          "type": "hold",
+          "target": "brain-exercises-for-music-and-memory",
+          "reason": "near-duplicate (permanent reject target exists)"
+        },
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-sports-strategy-thinking",
+        "h1": "Brain exercises for in-game decision practice",
+        "words": 456,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-gardening-sequencing",
+        "h1": "Brain exercises for outdoor sequencing tasks",
+        "words": 407,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-pet-care-routines",
+        "h1": "Brain exercises for remembering pet care steps",
+        "words": 402,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 31,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 31,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-home-maintenance-checklists",
+        "h1": "Brain exercises for home repair checklists and memory",
+        "words": 388,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 30,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 30,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-volunteering-social-memory",
+        "h1": "Brain exercises for volunteering and social memory",
+        "words": 429,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-grandparent-play-activities",
+        "h1": "Brain exercises for playful tasks with grandchildren",
+        "words": 441,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-peer-support-groups",
+        "h1": "Brain exercises for group discussion and recall",
+        "words": 422,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-low-vision-large-print",
+        "h1": "Brain exercises for large-print friendly drills",
+        "words": 393,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 27,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 4,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 27,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-chronic-fatigue-pacing",
+        "h1": "Brain exercises for cognitive pacing with fatigue",
+        "words": 459,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-substance-recovery-edu",
+        "h1": "Brain exercises for attention in recovery (education)",
+        "words": 396,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-meditation-breath-focus",
+        "h1": "Brain exercises for breath-focused attention drills",
+        "words": 376,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-arthritis-hand-tasks",
+        "h1": "Brain exercises for fine motor and cognitive combos",
+        "words": 440,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-low-mood-motivation",
+        "h1": "Brain exercises for starting tasks when motivation is low",
+        "words": 474,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-seasonal-affective-edu",
+        "h1": "Brain exercises for winter mood and cognition (education)",
+        "words": 462,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-night-shift-cognition",
+        "h1": "Brain exercises for thinking on night shifts",
+        "words": 378,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 26,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 5,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 26,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-screen-reader-users",
+        "h1": "Brain exercises for accessible sequencing for screen readers",
+        "words": 441,
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "REMEDIATE",
+        "totalScore": 29,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 3,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 4,
+            "differentiationPotential": 4,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 3
+          },
+          "penalties": 0,
+          "total": 29,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      },
+      {
+        "slug": "brain-exercises-for-voice-assistant-routines",
+        "h1": "Brain exercises for voice reminders and memory habits",
+        "words": 471,
+        "dsiPass": false,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "score": {
+          "dimensions": {
+            "distinctUserIntent": 2,
+            "substantiveContentPotential": 3,
+            "weaknessOpportunity": 4,
+            "humanUsefulness": 2,
+            "differentiationPotential": 2,
+            "siteFit": 4,
+            "examplesFaqsPotential": 4,
+            "ecosystemRelevance": 4
+          },
+          "penalties": 0,
+          "total": 25,
+          "maxRaw": 40
+        },
+        "consolidation": null,
+        "medicalSensitivity": false
+      }
+    ]
+  },
+  "guidesRanking": {
+    "top10": [
+      {
+        "slug": "how-to-balance-screen-time-brain",
+        "adjustedScore": 32,
+        "h1": "How to balance screen time and thinking"
+      },
+      {
+        "slug": "how-to-manage-multiple-medications",
+        "adjustedScore": 31,
+        "h1": "How to manage multiple medications safely"
+      },
+      {
+        "slug": "how-to-quit-smoking-brain-benefits",
+        "adjustedScore": 31,
+        "h1": "How quitting smoking supports thinking"
+      },
+      {
+        "slug": "how-to-choose-brain-apps",
+        "adjustedScore": 30,
+        "h1": "How to choose brain training apps"
+      },
+      {
+        "slug": "how-to-prioritize-tasks-brain-fog",
+        "adjustedScore": 30,
+        "h1": "How to prioritize tasks during brain fog"
+      },
+      {
+        "slug": "how-to-coordinate-family-care",
+        "adjustedScore": 30,
+        "h1": "How to coordinate family around memory concerns"
+      },
+      {
+        "slug": "how-to-practice-gratitude-without-toxic-positivity",
+        "adjustedScore": 30,
+        "h1": "How gratitude practice can support focus"
+      },
+      {
+        "slug": "how-to-improve-memory-naturally",
+        "adjustedScore": 29,
+        "h1": "How to improve memory naturally"
+      },
+      {
+        "slug": "how-to-prevent-cognitive-decline",
+        "adjustedScore": 29,
+        "h1": "How to prevent cognitive decline"
+      },
+      {
+        "slug": "how-to-exercise-for-brain-health",
+        "adjustedScore": 29,
+        "h1": "How to exercise for brain health"
+      }
+    ],
+    "next10": [
+      {
+        "slug": "how-to-reduce-stress-for-focus",
+        "adjustedScore": 29,
+        "h1": "How to reduce stress for focus"
+      },
+      {
+        "slug": "how-to-review-medications-with-doctor",
+        "adjustedScore": 29,
+        "h1": "How to review medications that affect memory"
+      },
+      {
+        "slug": "how-to-batch-errands-for-mental-energy",
+        "adjustedScore": 29,
+        "h1": "How batching errands saves mental energy"
+      },
+      {
+        "slug": "how-to-handle-correction-after-forgetting",
+        "adjustedScore": 29,
+        "h1": "How to respond after forgetting something important"
+      },
+      {
+        "slug": "how-to-talk-to-doctor-memory",
+        "adjustedScore": 28,
+        "h1": "How to talk to your doctor about memory"
+      },
+      {
+        "slug": "how-to-support-spouse-memory-changes",
+        "adjustedScore": 28,
+        "h1": "How to support a spouse with memory changes"
+      },
+      {
+        "slug": "how-to-sleep-better-for-memory",
+        "adjustedScore": 28,
+        "h1": "How to sleep better for memory"
+      },
+      {
+        "slug": "how-to-learn-a-language-memory",
+        "adjustedScore": 28,
+        "h1": "How learning a language supports memory"
+      },
+      {
+        "slug": "how-to-train-auditory-memory",
+        "adjustedScore": 28,
+        "h1": "How to train auditory memory"
+      },
+      {
+        "slug": "how-to-prepare-for-memory-clinic",
+        "adjustedScore": 28,
+        "h1": "How to prepare for a memory clinic visit"
+      }
+    ],
+    "consolidation": [
+      "guide-how-to-boost-memory-fast-p2"
+    ],
+    "keepPooled": 0,
+    "hold": 8
+  },
+  "exercisesRanking": {
+    "top10": [
+      {
+        "slug": "brain-exercises-for-medication-review-habits",
+        "adjustedScore": 33,
+        "h1": "Brain exercises for medication routines and clarity"
+      },
+      {
+        "slug": "brain-exercises-for-chemo-brain-education",
+        "adjustedScore": 32,
+        "h1": "Brain exercises for chemo brain (education)"
+      },
+      {
+        "slug": "brain-exercises-for-diabetes-brain-health",
+        "adjustedScore": 31,
+        "h1": "Brain exercises for blood sugar and thinking"
+      },
+      {
+        "slug": "brain-exercises-for-vision-and-attention",
+        "adjustedScore": 31,
+        "h1": "Brain exercises for vision and attention"
+      },
+      {
+        "slug": "brain-exercises-for-hearing-and-memory",
+        "adjustedScore": 31,
+        "h1": "Brain exercises for hearing and memory"
+      },
+      {
+        "slug": "brain-exercises-for-pet-care-routines",
+        "adjustedScore": 31,
+        "h1": "Brain exercises for remembering pet care steps"
+      },
+      {
+        "slug": "brain-exercises-for-hand-eye-coordination",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for hand-eye coordination"
+      },
+      {
+        "slug": "brain-exercises-for-post-surgery-brain-fog",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for thinking after surgery"
+      },
+      {
+        "slug": "brain-exercises-for-reading-comprehension",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for reading focus for comprehension"
+      },
+      {
+        "slug": "brain-exercises-for-gardening-sequencing",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for outdoor sequencing tasks"
+      }
+    ],
+    "next10": [
+      {
+        "slug": "brain-exercises-for-home-maintenance-checklists",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for home repair checklists and memory"
+      },
+      {
+        "slug": "brain-exercises-for-sports-strategy-thinking",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for in-game decision practice"
+      },
+      {
+        "slug": "brain-exercises-for-grandparent-play-activities",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for playful tasks with grandchildren"
+      },
+      {
+        "slug": "brain-exercises-for-peer-support-groups",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for group discussion and recall"
+      },
+      {
+        "slug": "brain-exercises-for-screen-reader-users",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for accessible sequencing for screen readers"
+      },
+      {
+        "slug": "brain-exercises-for-allergy-medication-fog",
+        "adjustedScore": 27,
+        "h1": "Brain exercises for antihistamines and alertness (education)"
+      },
+      {
+        "slug": "brain-exercises-for-low-vision-large-print",
+        "adjustedScore": 27,
+        "h1": "Brain exercises for large-print friendly drills"
+      },
+      {
+        "slug": "brain-exercises-for-driving-safety-cognition",
+        "adjustedScore": 26,
+        "h1": "Brain exercises for driving safety thinking skills"
+      },
+      {
+        "slug": "brain-exercises-for-hydration-cognition",
+        "adjustedScore": 26,
+        "h1": "Brain exercises for hydration and mental clarity"
+      },
+      {
+        "slug": "brain-exercises-for-substance-recovery-edu",
+        "adjustedScore": 26,
+        "h1": "Brain exercises for attention in recovery (education)"
+      }
+    ],
+    "consolidation": [
+      "brain-exercises-for-sleep-and-brain",
+      "brain-exercises-for-music-practice-memory"
+    ],
+    "keepPooled": 0,
+    "hold": 13
+  },
+  "tiers": {
+    "tierA": [
+      {
+        "slug": "how-to-balance-screen-time-brain",
+        "cluster": "guides",
+        "totalScore": 32,
+        "adjustedScore": 32,
+        "h1": "How to balance screen time and thinking",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [],
+        "languages": {
+          "en": "/how-to-balance-screen-time-brain/",
+          "es": "/es/pantallas-cognicion/",
+          "fr": "/fr/ecrans-cognition/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 32; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-manage-multiple-medications",
+        "cluster": "guides",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "How to manage multiple medications safely",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-review-medications-with-doctor",
+          "how-to-manage-blood-pressure-brain"
+        ],
+        "languages": {
+          "en": "/how-to-manage-multiple-medications/",
+          "es": "/es/polifarmacia-segura/",
+          "fr": "/fr/polymedicament-securite/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 31; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-quit-smoking-brain-benefits",
+        "cluster": "guides",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "How quitting smoking supports thinking",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [],
+        "languages": {
+          "en": "/how-to-quit-smoking-brain-benefits/",
+          "es": "/es/dejar-fumar-cognicion/",
+          "fr": "/fr/arreter-fumer-cognition/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 31; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-choose-brain-apps",
+        "cluster": "guides",
+        "totalScore": 30,
+        "adjustedScore": 30,
+        "h1": "How to choose brain training apps",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-choose-hearing-aids-cognition"
+        ],
+        "languages": {
+          "en": "/how-to-choose-brain-apps/",
+          "es": "/es/elegir-apps-cerebro/",
+          "fr": "/fr/choisir-apps-cerveau/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 30; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-prioritize-tasks-brain-fog",
+        "cluster": "guides",
+        "totalScore": 30,
+        "adjustedScore": 30,
+        "h1": "How to prioritize tasks during brain fog",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "languages": {
+          "en": "/how-to-prioritize-tasks-brain-fog/",
+          "es": "/es/priorizar-niebla-mental/",
+          "fr": "/fr/prioriser-brouillard/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 30; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-coordinate-family-care",
+        "cluster": "guides",
+        "totalScore": 30,
+        "adjustedScore": 30,
+        "h1": "How to coordinate family around memory concerns",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [],
+        "languages": {
+          "en": "/how-to-coordinate-family-care/",
+          "es": "/es/coordinar-familia-memoria/",
+          "fr": "/fr/coordonner-famille-memoire/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 30; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-practice-gratitude-without-toxic-positivity",
+        "cluster": "guides",
+        "totalScore": 30,
+        "adjustedScore": 30,
+        "h1": "How gratitude practice can support focus",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [],
+        "languages": {
+          "en": "/how-to-practice-gratitude-without-toxic-positivity/",
+          "es": "/es/gratitud-enfoque/",
+          "fr": "/fr/gratitude-attention/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 30; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-improve-memory-naturally",
+        "cluster": "guides",
+        "totalScore": 29,
+        "adjustedScore": 29,
+        "h1": "How to improve memory naturally",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-test-memory-at-home",
+          "how-to-read-memory-test-results",
+          "how-to-talk-to-doctor-memory",
+          "how-to-support-spouse-memory-changes",
+          "how-to-sleep-better-for-memory"
+        ],
+        "languages": {
+          "en": "/how-to-improve-memory-naturally/",
+          "es": "/es/como-mejorar-memoria-natural/",
+          "fr": "/fr/ameliorer-memoire-naturellement/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 29; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-prevent-cognitive-decline",
+        "cluster": "guides",
+        "totalScore": 29,
+        "adjustedScore": 29,
+        "h1": "How to prevent cognitive decline",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-find-reputable-cognitive-resources",
+          "how-to-pace-cognitive-tasks-daily"
+        ],
+        "languages": {
+          "en": "/how-to-prevent-cognitive-decline/",
+          "es": "/es/como-prevenir-deterioro-cognitivo/",
+          "fr": "/fr/prevenir-declin-cognitif/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 29; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-exercise-for-brain-health",
+        "cluster": "guides",
+        "totalScore": 29,
+        "adjustedScore": 29,
+        "h1": "How to exercise for brain health",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-build-brain-healthy-habits",
+          "how-to-walk-daily-for-brain-health"
+        ],
+        "languages": {
+          "en": "/how-to-exercise-for-brain-health/",
+          "es": "/es/ejercicio-salud-cerebral/",
+          "fr": "/fr/sport-sante-cerebrale/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 29; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-reduce-stress-for-focus",
+        "cluster": "guides",
+        "totalScore": 29,
+        "adjustedScore": 29,
+        "h1": "How to reduce stress for focus",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "how-to-set-boundaries-to-reduce-stress",
+          "how-to-reduce-multitasking-costs"
+        ],
+        "languages": {
+          "en": "/how-to-reduce-stress-for-focus/",
+          "es": "/es/reducir-estres-atencion/",
+          "fr": "/fr/reduire-stress-attention/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 29; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "how-to-review-medications-with-doctor",
+        "cluster": "guides",
+        "totalScore": 29,
+        "adjustedScore": 29,
+        "h1": "How to review medications that affect memory",
+        "classification": "REMEDIATE",
+        "dsiPass": false,
+        "competitors": [
+          "how-to-talk-to-doctor-memory",
+          "how-to-manage-multiple-medications"
+        ],
+        "languages": {
+          "en": "/how-to-review-medications-with-doctor/",
+          "es": "/es/revision-medicamentos-memoria/",
+          "fr": "/fr/bilan-medicaments-memoire/"
+        },
+        "rationale": "Practical how-to with bounded user task; adjusted score 29; supports topic-specific guidance/examples/FAQs beyond pooled template."
+      },
+      {
+        "slug": "brain-exercises-for-medication-review-habits",
+        "cluster": "exercises_intent",
+        "totalScore": 33,
+        "adjustedScore": 33,
+        "h1": "Brain exercises for medication routines and clarity",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-medication-review-habits/",
+          "es": "/es/ejercicios-cerebrales-medicacion-claridad/",
+          "fr": "/fr/exercices-cerveau-medicaments-clarte/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 33; supports education-framed exercise workflow."
+      },
+      {
+        "slug": "brain-exercises-for-chemo-brain-education",
+        "cluster": "exercises_intent",
+        "totalScore": 32,
+        "adjustedScore": 32,
+        "h1": "Brain exercises for chemo brain (education)",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-chemo-brain-education/",
+          "es": "/es/ejercicios-cerebrales-niebla-quimio/",
+          "fr": "/fr/exercices-cerveau-brouillard-chimio/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 32; supports education-framed exercise workflow."
+      },
+      {
+        "slug": "brain-exercises-for-diabetes-brain-health",
+        "cluster": "exercises_intent",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "Brain exercises for blood sugar and thinking",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-diabetes-brain-health/",
+          "es": "/es/ejercicios-cerebrales-glucosa-cerebro/",
+          "fr": "/fr/exercices-cerveau-glycemie-cerveau/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 31; supports education-framed exercise workflow."
+      },
+      {
+        "slug": "brain-exercises-for-vision-and-attention",
+        "cluster": "exercises_intent",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "Brain exercises for vision and attention",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-vision-and-attention/",
+          "es": "/es/ejercicios-cerebrales-vision-atencion/",
+          "fr": "/fr/exercices-cerveau-vision-attention/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 31; supports education-framed exercise workflow."
+      },
+      {
+        "slug": "brain-exercises-for-hearing-and-memory",
+        "cluster": "exercises_intent",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "Brain exercises for hearing and memory",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-hearing-and-memory/",
+          "es": "/es/ejercicios-cerebrales-audicion-memoria/",
+          "fr": "/fr/exercices-cerveau-audition-memoire/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 31; supports education-framed exercise workflow."
+      },
+      {
+        "slug": "brain-exercises-for-pet-care-routines",
+        "cluster": "exercises_intent",
+        "totalScore": 31,
+        "adjustedScore": 31,
+        "h1": "Brain exercises for remembering pet care steps",
+        "classification": "REMEDIATE",
+        "dsiPass": true,
+        "competitors": [
+          "brain-exercises-for-seniors",
+          "brain-exercises-for-memory",
+          "brain-exercises-for-anxiety",
+          "brain-exercises-for-stress-relief",
+          "brain-exercises-for-stroke-recovery"
+        ],
+        "languages": {
+          "en": "/brain-exercises-for-pet-care-routines/",
+          "es": "/es/ejercicios-cerebrales-mascotas-rutinas/",
+          "fr": "/fr/exercices-cerveau-animaux-routines/"
+        },
+        "rationale": "Distinct medical/functional exercise context (not generic audience label); adjusted score 31; supports education-framed exercise workflow."
+      }
+    ],
+    "tierB": [
+      {
+        "slug": "brain-exercises-for-hand-eye-coordination",
+        "cluster": "exercises_intent",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for hand-eye coordination",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-post-surgery-brain-fog",
+        "cluster": "exercises_intent",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for thinking after surgery",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-reading-comprehension",
+        "cluster": "exercises_intent",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for reading focus for comprehension",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-gardening-sequencing",
+        "cluster": "exercises_intent",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for outdoor sequencing tasks",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-home-maintenance-checklists",
+        "cluster": "exercises_intent",
+        "adjustedScore": 30,
+        "h1": "Brain exercises for home repair checklists and memory",
+        "note": null
+      },
+      {
+        "slug": "how-to-batch-errands-for-mental-energy",
+        "cluster": "guides",
+        "adjustedScore": 29,
+        "h1": "How batching errands saves mental energy",
+        "note": null
+      },
+      {
+        "slug": "how-to-handle-correction-after-forgetting",
+        "cluster": "guides",
+        "adjustedScore": 29,
+        "h1": "How to respond after forgetting something important",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-sports-strategy-thinking",
+        "cluster": "exercises_intent",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for in-game decision practice",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-grandparent-play-activities",
+        "cluster": "exercises_intent",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for playful tasks with grandchildren",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-peer-support-groups",
+        "cluster": "exercises_intent",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for group discussion and recall",
+        "note": null
+      },
+      {
+        "slug": "brain-exercises-for-screen-reader-users",
+        "cluster": "exercises_intent",
+        "adjustedScore": 29,
+        "h1": "Brain exercises for accessible sequencing for screen readers",
+        "note": null
+      },
+      {
+        "slug": "how-to-talk-to-doctor-memory",
+        "cluster": "guides",
+        "adjustedScore": 28,
+        "h1": "How to talk to your doctor about memory",
+        "note": null
+      },
+      {
+        "slug": "how-to-support-spouse-memory-changes",
+        "cluster": "guides",
+        "adjustedScore": 28,
+        "h1": "How to support a spouse with memory changes",
+        "note": null
+      },
+      {
+        "slug": "how-to-sleep-better-for-memory",
+        "cluster": "guides",
+        "adjustedScore": 28,
+        "h1": "How to sleep better for memory",
+        "note": null
+      },
+      {
+        "slug": "how-to-learn-a-language-memory",
+        "cluster": "guides",
+        "adjustedScore": 28,
+        "h1": "How learning a language supports memory",
+        "note": null
+      }
+    ],
+    "tierC": [
+      {
+        "slug": "guide-how-to-boost-memory-fast-p2",
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-improve-memory-naturally",
+          "reason": "guides/improve C-cluster"
+        },
+        "classification": "CONSOLIDATE"
+      },
+      {
+        "slug": "brain-exercises-for-sleep-and-brain",
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-sleep-better-for-memory",
+          "reason": "sleep hygiene overlap"
+        },
+        "classification": "CONSOLIDATE"
+      },
+      {
+        "slug": "brain-exercises-for-music-practice-memory",
+        "consolidation": {
+          "type": "hold",
+          "target": "brain-exercises-for-music-and-memory",
+          "reason": "near-duplicate (permanent reject target exists)"
+        },
+        "classification": "CONSOLIDATE"
+      },
+      {
+        "slug": "brain-exercises-for-social-connection",
+        "consolidation": {
+          "type": "possible",
+          "target": "how-to-stay-socially-connected-aging",
+          "reason": "social connection guide overlap"
+        },
+        "classification": "HOLD / NEEDS REVIEW"
+      }
+    ],
+    "tierDCount": 21,
+    "tierD": [
+      {
+        "slug": "how-to-train-visual-memory",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "h1": "How to train visual memory",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-support-parent-memory-changes",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "h1": "How to support a parent with memory changes",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-walk-daily-for-brain-health",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "h1": "How daily walking supports brain health",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-set-boundaries-to-reduce-stress",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 23,
+        "h1": "How boundaries reduce stress and brain fog",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-talk-to-kids-about-grandparent-memory",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "h1": "How to talk to kids about a grandparent’s memory changes",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-pace-cognitive-tasks-daily",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 23,
+        "h1": "How to pace cognitive tasks through the day",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-reduce-multitasking-costs",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "h1": "How to reduce the cognitive cost of multitasking",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "how-to-ask-for-a-hearing-test",
+        "cluster": "guides",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "h1": "How to ask for a hearing test when memory slips",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-heart-health-cognition",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for heart health and cognition",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-social-connection",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 22,
+        "h1": "Brain exercises for social connection habits",
+        "note": "social connection guide overlap"
+      },
+      {
+        "slug": "brain-exercises-for-long-covid-brain-fog",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 24,
+        "h1": "Brain exercises for brain fog after illness",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-cooking-safety-memory",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for cooking and step memory",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-note-taking-skills",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for note-taking as cognitive practice",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-chronic-pain-education",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for thinking skills during chronic pain (education)",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-menopause-brain-fog-edu",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for brain fog context in menopause (education)",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-volunteering-social-memory",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for volunteering and social memory",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-chronic-fatigue-pacing",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for cognitive pacing with fatigue",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-arthritis-hand-tasks",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for fine motor and cognitive combos",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-low-mood-motivation",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for starting tasks when motivation is low",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-seasonal-affective-edu",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for winter mood and cognition (education)",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      },
+      {
+        "slug": "brain-exercises-for-voice-assistant-routines",
+        "cluster": "exercises_intent",
+        "classification": "HOLD / NEEDS REVIEW",
+        "totalScore": 25,
+        "h1": "Brain exercises for voice reminders and memory habits",
+        "note": "DSI mechanical collision — may still be distinct on manual review"
+      }
+    ]
+  },
+  "recommendedFirstBatch": {
+    "size": 18,
+    "maxAllowed": 20,
+    "implementClusterFirst": "guides",
+    "reason": "Guides cluster remains 82.7% pooled (143/173 pages all languages) — largest template-dependent reservoir per ADSENSE-03. Recommended batch mixes 12 guides + 6 exercises where exercise topics have distinct medical/functional framing.",
+    "composition": {
+      "guides": 12,
+      "exercises_intent": 6
+    },
+    "topics": [
+      "how-to-balance-screen-time-brain",
+      "how-to-manage-multiple-medications",
+      "how-to-quit-smoking-brain-benefits",
+      "how-to-choose-brain-apps",
+      "how-to-prioritize-tasks-brain-fog",
+      "how-to-coordinate-family-care",
+      "how-to-practice-gratitude-without-toxic-positivity",
+      "how-to-improve-memory-naturally",
+      "how-to-prevent-cognitive-decline",
+      "how-to-exercise-for-brain-health",
+      "how-to-reduce-stress-for-focus",
+      "how-to-review-medications-with-doctor",
+      "brain-exercises-for-medication-review-habits",
+      "brain-exercises-for-chemo-brain-education",
+      "brain-exercises-for-diabetes-brain-health",
+      "brain-exercises-for-vision-and-attention",
+      "brain-exercises-for-hearing-and-memory",
+      "brain-exercises-for-pet-care-routines"
+    ]
+  },
+  "collisionChecks": {
+    "content13bOverlap": 0,
+    "content10bOverlap": 0,
+    "trackBInTierA": []
+  },
+  "adsenseStrategy": {
+    "note": "Site is enrolled in AdSense; Google controls re-evaluation timing. Remediation aims to reduce template-dependent inventory before Google next evaluates content quality.",
+    "notAGuarantee": true
+  },
+  "validation": {
+    "headMatchesBaseline": true,
+    "baselineSHA": "0e1b1f2c2987551ee26fea79fa18bde0b7a3b7b8",
+    "headEqualsOriginMain": true,
+    "trackedTreeCleanBeforeAnalysis": true,
+    "noTrackedFilesModified": true,
+    "corpusMatchesAdsense03": true,
+    "manifestTotal": 514,
+    "uniqueContent": 186,
+    "pooledOnly": 328,
+    "content13bPagesIntact": 60,
+    "permittedNewFilesOnly": [
+      "reports/content-14-targeted-candidate-selection.md",
+      "reports/content-14-targeted-candidate-selection.json"
+    ],
+    "noSitemapChanges": true,
+    "noCanonicalChanges": true,
+    "noHreflangChanges": true,
+    "noRedirectChanges": true,
+    "noRobotsChanges": true,
+    "noAdsenseChanges": true
+  },
+  "directorRecommendation": {
+    "classification": "Proceed to CONTENT-14B implementation on Tier A subset (max 18 EN topics, 54 HTML pages at 3 languages)",
+    "implementGuidesFirst": true,
+    "adsenseFraming": "Reduce template-dependent inventory before Google next content-quality evaluation; not a guarantee of acceptance",
+    "doNotAutoExpandFull328": true
+  },
+  "exclusions": {
+    "guides": [
+      {
+        "slug": "how-to-test-memory-at-home",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-read-memory-test-results",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-eat-mind-diet-basics",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-stay-socially-connected-aging",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-plan-for-memory-evaluation",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-limit-alcohol-for-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-track-sleep-apnea-signs",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-organize-digital-files-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "guide-how-to-improve-memory-p0",
+        "reason": "C-cluster consolidation source (guide-how-to-*)"
+      },
+      {
+        "slug": "guide-how-to-improve-memory-naturally-p1",
+        "reason": "C-cluster consolidation source (guide-how-to-*)"
+      },
+      {
+        "slug": "guide-how-to-boost-memory-fast-p2",
+        "reason": "C-cluster consolidation source (guide-how-to-*)"
+      },
+      {
+        "slug": "how-to-simplify-instructions-for-a-loved-one",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "how-to-color-code-a-household-organizing-system",
+        "reason": "unique-content already present"
+      }
+    ],
+    "exercises_intent": [
+      {
+        "slug": "brain-exercises-for-seniors",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-stroke-recovery",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-parkinsons-caregivers",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-aphasia-friendly",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-adhd-adults",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-language-learning",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-reaction-time",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-working-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-dual-tasking",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-meal-prep-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-tinnitus-concentration",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-jet-lag-cognition",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-public-speaking-memory",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-hearing-aid-adaptation",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-post-icu-education",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-retirement-transition",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-scam-awareness",
+        "reason": "unique-content already present"
+      },
+      {
+        "slug": "brain-exercises-for-photography-observation",
+        "reason": "unique-content already present"
+      }
+    ]
+  }
+}
